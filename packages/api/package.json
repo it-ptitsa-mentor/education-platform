@@ -1,0 +1,23 @@
+{
+  "name": "@ptitsa/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "@ptitsa/runner": "workspace:*",
+    "@ptitsa/shared": "workspace:*",
+    "fastify": "^5.3.3"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.4"
+  }
+}

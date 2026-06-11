@@ -1,0 +1,8 @@
+{
+  "slug": "js-variables",
+  "title": "Переменные",
+  "language": "javascript",
+  "filesToOpen": ["solution.js"],
+  "studentFiles": ["solution.js"],
+  "readme": "## solution.js\n\n1. Изучите код в редакторе\n2. Найдите переменную в `console.log()`, которая не объявлена\n3. Объявите её и присвойте значение `Dragon`\n4. Нажмите **Проверить** — оба вывода должны быть `Dragon`\n"
+}
