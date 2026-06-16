@@ -21,6 +21,27 @@ pnpm dev:web    # http://127.0.0.1:5175
 
 Или оба сразу: `pnpm dev`
 
+## Деплой
+
+### GitHub Pages (фронт)
+
+После push в `main` workflow `.github/workflows/deploy-pages.yml` публикует UI:
+
+**https://it-ptitsa-mentor.github.io/education-platform/**
+
+GitHub Pages — только статика. Кнопка «Проверить» требует API.
+
+1. Подними API (Render blueprint `render.yaml` или свой сервер): `pnpm --filter @ptitsa/api dev`
+2. В настройках репозитория → **Secrets** → `VITE_API_BASE_URL` = `https://твой-api.example.com` (без слэша в конце)
+3. Перезапусти workflow **Deploy GitHub Pages**
+
+### API (отдельно)
+
+```bash
+pnpm --filter @ptitsa/api exec tsx packages/api/src/server.ts
+# PORT=4100, нужны exercises/ и node_modules с vitest в корне репо
+```
+
 ## Тесты
 
 ```bash
