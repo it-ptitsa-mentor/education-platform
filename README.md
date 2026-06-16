@@ -7,8 +7,9 @@
 | Слой | Технологии |
 |------|------------|
 | Web | React, Vite, Monaco Editor |
-| API | Fastify |
+| API | Fastify (локально / свой сервер) |
 | Runner | Vitest в изолированной temp-директории |
+| GitHub Pages | статика + проверка в браузере |
 | Упражнения | `exercises/{slug}/` + `exercise.json` (SSOT) |
 
 ## Быстрый старт
@@ -21,39 +22,37 @@ pnpm dev:web    # http://127.0.0.1:5175
 
 Или оба сразу: `pnpm dev`
 
-## Деплой
+## Деплой — GitHub Pages
 
-### GitHub Pages (фронт)
+**Сайт:** https://it-ptitsa-mentor.github.io/education-platform/
 
-После push в `main` workflow `.github/workflows/deploy-pages.yml` публикует UI:
+Репозиторий **публичный**. При push в `main` workflow `.github/workflows/deploy-pages.yml` собирает статику с:
 
-**https://it-ptitsa-mentor.github.io/education-platform/**
+- `VITE_BASE_PATH=/education-platform/`
+- `VITE_STATIC_API=true` — упражнения и «Проверить» работают без отдельного API (проверка в браузере)
 
-GitHub Pages — только статика. Кнопка «Проверить» требует API.
+Локально по-прежнему API + Vitest runner (`pnpm dev`).
 
-1. Подними API (Render blueprint `render.yaml` или свой сервер): `pnpm --filter @ptitsa/api dev`
-2. В настройках репозитория → **Secrets** → `VITE_API_BASE_URL` = `https://твой-api.example.com` (без слэша в конце)
-3. Перезапусти workflow **Deploy GitHub Pages**
-
-### API (отдельно)
+### Свой сервер (позже education.*)
 
 ```bash
-pnpm --filter @ptitsa/api exec tsx packages/api/src/server.ts
-# PORT=4100, нужны exercises/ и node_modules с vitest в корне репо
+VITE_BASE_PATH=/ VITE_API_BASE_URL= pnpm --filter @ptitsa/web build
+NODE_ENV=production pnpm --filter @ptitsa/api start:prod
 ```
 
 ## Тесты
 
 ```bash
-pnpm test           # unit: manifest, runner
+pnpm test           # unit: manifest, runner, browser checks
 pnpm test:feature   # API + реальный vitest на js-variables
 ```
 
 ## Добавить JS-упражнение
 
 1. Создайте `exercises/my-slug/exercise.json`
-2. Положите `solution.js`, `vitest.config.js`, `__tests__/`
-3. Упражнение появится в `GET /api/exercises`
+2. Положите `solution.js`, `__tests__/`
+3. Зарегистрируйте browser-check в `packages/shared/src/exercise-checks/`
+4. Упражнение появится в списке после `pnpm generate:static-exercises`
 
 ## Дизайн
 

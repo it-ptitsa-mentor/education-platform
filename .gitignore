@@ -10,3 +10,4 @@ coverage
 *.tsbuildinfo
 packages/web/dist
 packages/api/dist
+packages/web/src/generated

@@ -1,12 +1,15 @@
-# Optional: deploy API separately (GitHub Pages serves static web only).
-# Connect repo at https://dashboard.render.com → New Blueprint
+# Private repo: use Render (GitHub Pages needs public repo or paid plan).
+# Dashboard → New → Blueprint → connect it-ptitsa-mentor/education-platform
 services:
   - type: web
-    name: education-platform-api
+    name: education-platform
     runtime: node
     plan: free
-    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm --filter @ptitsa/api build
-    startCommand: node packages/api/dist/server.js
+    buildCommand: >-
+      corepack enable &&
+      pnpm install --frozen-lockfile &&
+      VITE_BASE_PATH=/ VITE_API_BASE_URL= pnpm --filter @ptitsa/web build
+    startCommand: pnpm --filter @ptitsa/api start:prod
     envVars:
       - key: NODE_ENV
         value: production

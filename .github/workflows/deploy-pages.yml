@@ -32,11 +32,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Generate static exercise bundle
+        run: pnpm generate:static-exercises
+
       - name: Build web for GitHub Pages
         run: pnpm --filter @ptitsa/web build
         env:
           VITE_BASE_PATH: /education-platform/
-          VITE_API_BASE_URL: ${{ secrets.VITE_API_BASE_URL }}
+          VITE_STATIC_API: "true"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
