@@ -101,14 +101,14 @@
   --check-spinner-track: rgba(255, 255, 255, 0.35);
   --check-spinner-head: var(--on-accent);
   --check-spinner-hover-track: rgba(0, 0, 0, 0.12);
-  --check-btn-bg: var(--surface-raised);
-  --check-btn-border: var(--border-strong);
-  --check-btn-fg: var(--text);
-  --check-btn-hotkey-bg: rgba(255, 255, 255, 0.04);
-  --check-btn-hotkey-border: var(--border);
-  --check-btn-hover-bg: var(--surface-hover);
-  --check-btn-hover-border: var(--text);
-  --check-btn-hover-fg: var(--text);
+  --check-btn-bg: var(--accent);
+  --check-btn-border: var(--accent);
+  --check-btn-fg: var(--on-accent);
+  --check-btn-hotkey-bg: rgba(0, 0, 0, 0.12);
+  --check-btn-hotkey-border: rgba(0, 0, 0, 0.2);
+  --check-btn-hover-bg: transparent;
+  --check-btn-hover-border: var(--accent);
+  --check-btn-hover-fg: var(--accent);
 }
 
 *,
