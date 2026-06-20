@@ -53,6 +53,14 @@
   --check-spinner-track: rgba(0, 0, 0, 0.15);
   --check-spinner-head: var(--on-accent);
   --check-spinner-hover-track: rgba(255, 255, 255, 0.2);
+  --check-btn-bg: var(--surface-raised);
+  --check-btn-border: var(--border-strong);
+  --check-btn-fg: var(--text);
+  --check-btn-hotkey-bg: rgba(255, 255, 255, 0.04);
+  --check-btn-hotkey-border: var(--border);
+  --check-btn-hover-bg: var(--surface-hover);
+  --check-btn-hover-border: var(--text);
+  --check-btn-hover-fg: var(--text);
 }
 
 /* ── Light theme ── */
@@ -93,6 +101,14 @@
   --check-spinner-track: rgba(255, 255, 255, 0.35);
   --check-spinner-head: var(--on-accent);
   --check-spinner-hover-track: rgba(0, 0, 0, 0.12);
+  --check-btn-bg: var(--surface-raised);
+  --check-btn-border: var(--border-strong);
+  --check-btn-fg: var(--text);
+  --check-btn-hotkey-bg: rgba(255, 255, 255, 0.04);
+  --check-btn-hotkey-border: var(--border);
+  --check-btn-hover-bg: var(--surface-hover);
+  --check-btn-hover-border: var(--text);
+  --check-btn-hover-fg: var(--text);
 }
 
 *,
@@ -451,16 +467,17 @@ body.is-resizing-vertical {
   gap: 0.55rem;
   height: 2.5rem;
   padding: 0 0.85rem 0 1rem;
-  border: 1px solid var(--accent);
+  border: 1px solid var(--check-btn-border);
   border-radius: var(--radius-sm);
-  background: var(--accent);
-  color: var(--on-accent);
+  background: var(--check-btn-bg);
+  color: var(--check-btn-fg);
   font: 600 var(--text-xs)/1 var(--font-display);
   letter-spacing: 0.08em;
   text-transform: uppercase;
   cursor: pointer;
   transition:
     background 160ms ease,
+    border-color 160ms ease,
     color 160ms ease;
 }
 
@@ -473,8 +490,9 @@ body.is-resizing-vertical {
   align-items: center;
   min-height: 1.35rem;
   padding: 0 0.4rem;
-  border: 1px solid color-mix(in srgb, currentColor 35%, transparent);
-  background: color-mix(in srgb, currentColor 8%, transparent);
+  border: 1px solid var(--check-btn-hotkey-border);
+  background: var(--check-btn-hotkey-bg);
+  color: var(--text-muted);
   font-family: var(--font-dot);
   font-size: var(--text-2xs);
   font-weight: 500;
@@ -483,8 +501,14 @@ body.is-resizing-vertical {
 }
 
 .check-btn:hover:not(:disabled) {
-  background: transparent;
-  color: var(--accent);
+  background: var(--check-btn-hover-bg);
+  border-color: var(--check-btn-hover-border);
+  color: var(--check-btn-hover-fg);
+}
+
+.check-btn:hover:not(:disabled) .check-btn-hotkey {
+  color: var(--text-muted);
+  border-color: var(--border-strong);
 }
 
 .check-btn:disabled {
@@ -507,8 +531,8 @@ body.is-resizing-vertical {
 }
 
 .check-btn:hover:not(:disabled) .spinner {
-  border-color: var(--check-spinner-hover-track);
-  border-top-color: var(--accent);
+  border-color: var(--spinner-track);
+  border-top-color: var(--check-btn-hover-fg);
 }
 
 .spinner-lg {
