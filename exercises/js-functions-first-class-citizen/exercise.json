@@ -1,0 +1,20 @@
+{
+  "slug": "js-functions-first-class-citizen",
+  "title": "Объекты первого класса",
+  "language": "javascript",
+  "filesToOpen": [
+    "strings.js"
+  ],
+  "studentFiles": [
+    "strings.js"
+  ],
+  "readme": "## strings.js\n\nРеализуйте внутреннюю функцию `takeLast()`, которая возвращает последние `n` символов строки в обратном порядке. Количество символов передаётся в `takeLast()` вторым параметром. Если передаётся пустая строка или строка меньше необходимой длины, функция должна вернуть `null`.\n\n### Примеры\n\n```javascript\nrun('');       // null\nrun('cb');     // null\nrun('power');  // rewo\nrun('hexlet'); // telx\n```\n",
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "first-class-citizen",
+    "lessonName": "Объекты первого класса",
+    "exerciseSlug": "js_functions_first_class_citizen_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/first-class-citizen/exercise_unit"
+  }
+}

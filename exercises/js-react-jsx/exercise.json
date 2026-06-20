@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-jsx",
+  "title": "JSX",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Card.jsx"
+  ],
+  "studentFiles": [
+    "src/Card.jsx"
+  ],
+  "readme": "В этой практике не будет визуальной составляющей. Задача заключается в том, что необходимо правильно написать функцию, возвращающую JSX.\n\n### src/Card.jsx\n\nРеализуйте и экспортируйте функцию по умолчанию, которая принимает на вход объект со свойствами `title` и `text`, и возвращает `jsx` с подставленными значениями. Пример:\n\n```javascript\nimport getCard from './Card.jsx'\n\ngetCard({ title: 'hi', text: 'how are you?' })\n// <div className=\"card\">\n//   <div className=\"card-body\">\n//     <h4 className=\"card-title\">hi</h4>\n//     <p className=\"card-text\">how are you?</p>\n//   </div>\n// </div>\n```\n\nЕсли `title` отсутствует, то соответствующий ему кусок `dom` не отрисовывается, то же самое справедливо и для `text`.  Если отсутствуют оба свойства, то из функции необходимо вернуть `null`.\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "jsx",
+    "lessonName": "JSX",
+    "exerciseSlug": "js_react_jsx_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/jsx/exercise_unit"
+  }
+}

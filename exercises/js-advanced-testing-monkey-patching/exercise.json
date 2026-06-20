@@ -1,0 +1,20 @@
+{
+  "slug": "js-advanced-testing-monkey-patching",
+  "title": "Манкипатчинг",
+  "language": "javascript",
+  "filesToOpen": [
+    "__tests__/getUserMainLanguage.js"
+  ],
+  "studentFiles": [
+    "__tests__/getUserMainLanguage.js"
+  ],
+  "readme": "## __tests__/getUserMainLanguage.test.js\n\nВ этом задании нужно протестировать такую же функцию `getUserMainLanguage(user)`, но используя не инверсию зависимостей, а манки патчинг через библиотеку _nock_.\n\n### Подсказки\n\n* В тестах выключены реальные запросы. Это значит, что если запустить тесты, в которых выполняется реальный запрос, nock его перехватит и выведет на экран. Так можно узнать адреса по которым _@octokit/rest_ выполняет свои запросы.\n",
+  "hexlet": {
+    "courseSlug": "js-advanced-testing",
+    "courseName": "JS: Продвинутое тестирование",
+    "lessonSlug": "monkey-patching",
+    "lessonName": "Манкипатчинг",
+    "exerciseSlug": "js_advanced_testing_monkey_patching_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-advanced-testing/lessons/monkey-patching/exercise_unit"
+  }
+}

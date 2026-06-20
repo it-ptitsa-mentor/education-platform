@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-properties-methods",
+  "title": "Свойства и методы",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nДанные, вводимые пользователями, часто содержат лишние пробельные символы в конце или начале строки. Обычно их вырезают с помощью метода `.trim()`, например, было: `'   hello\\n '`, стало: `'hello'`.\n\nОбновите переменную `firstName` записав в неё то же самое значение, но обработанное методом `.trim()`. Распечатайте то, что получилось, на экран.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "properties-methods",
+    "lessonName": "Свойства и методы",
+    "exerciseSlug": "js_basics_properties_methods_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/properties-methods/exercise_unit"
+  }
+}

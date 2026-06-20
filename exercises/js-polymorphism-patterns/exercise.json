@@ -1,0 +1,20 @@
+{
+  "slug": "js-polymorphism-patterns",
+  "title": "Шаблоны проектирования",
+  "language": "javascript",
+  "filesToOpen": [
+    "tags/LabelTag.js"
+  ],
+  "studentFiles": [
+    "tags/LabelTag.js"
+  ],
+  "readme": "В этом задании будем работать с классами, которые представляют теги HTML. Метод `render()`, позволяет получить текстовое представление тега:\n\n```javascript\nimport InputTag from '../tags/InputTag.js';\n\nconst tag = new InputTag('submit', 'Save');\ntag.render(); // <input type=\"submit\" value=\"Save\">\n```\n\nПредположим, что эта система нужна для генерации разных кусков верстки, которая может быть очень разнообразной. Попробуйте ответить на вопрос, сколько понадобится классов для представления всех возможных комбинаций тегов?\n\nЕсли создавать по классу на каждый возможный вариант верстки, то классов будет бесконечно много и смысла в такой реализации очень мало. Но вместо этого лучше использовать композицию. Создать класс для каждого индивидуального тега (в html5 их около 100 штук), а затем путем комбинирования получить все возможные варианты верстки.\n\n## tags/LabelTag.js\n\nРеализуйте класс _LabelTag_, который умеет оборачивать другие теги:\n\n### Примеры\n\n```javascript\nimport InputTag from '../tags/InputTag.js';\nimport LabelTag from '../tags/LabelTag.js';\n\nconst inputTag = new InputTag('submit', 'Save');\nconst labelTag = new LabelTag('Press Submit', inputTag);\nlabelTag.render();\n// <label>Press Submit<input type=\"submit\" value=\"Save\"></label>\n```\n\n### Подсказки\n\n* Изучите реализацию класса _InputTag_\n* Паттерн [Декоратор](https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F))\n",
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "patterns",
+    "lessonName": "Шаблоны проектирования",
+    "exerciseSlug": "js_polymorphism_patterns_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/patterns/exercise_unit"
+  }
+}

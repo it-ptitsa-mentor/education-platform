@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-syntax",
+  "title": "Синтаксис",
+  "language": "javascript",
+  "filesToOpen": [
+    "dates.js"
+  ],
+  "studentFiles": [
+    "dates.js"
+  ],
+  "readme": "## dates.js\n\nРеализуйте и экспортируйте функцию `getWeekends()`, которая возвращает массив из двух элементов – названий выходных дней на английском. Функция принимает на вход параметр – формат возврата. Всего есть два возможных значения:\n\n* `'long'` – вернётся массив, содержащий значения *saturday* и *sunday*. Это значение должно использоваться по умолчанию\n* `'short'` – вернётся массив со значениями *sat* и *sun*\n\n```javascript\nimport { getWeekends } from '../dates.js'\n\n// Возвращаемое значение не демонстрируем, так как это равносильно ответу\ngetWeekends('long') // Аналог вызова без аргументов (long — формат по умолчанию)\ngetWeekends('short') // Вызов вернёт массив с короткими значениями\n```\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "syntax",
+    "lessonName": "Синтаксис",
+    "exerciseSlug": "js_arrays_syntax_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/syntax/exercise_unit"
+  }
+}

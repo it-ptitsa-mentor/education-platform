@@ -1,0 +1,20 @@
+{
+  "slug": "js-testing-unit-tests",
+  "title": "Модульные тесты",
+  "language": "javascript",
+  "filesToOpen": [
+    "__tests__/validator.test.js"
+  ],
+  "studentFiles": [
+    "__tests__/validator.test.js"
+  ],
+  "readme": "### __tests__/validator.test.js\n\nНапишите тесты для объекта _Validator_. Этот валидатор проверяет корректность данных. Принцип его работы следующий:\n\n1. С помощью метода `addCheck(fn)` в валидатор добавляются проверки. Каждая проверка представляет из себя функцию-предикат, которая принимает на вход проверяемое значение и возвращает либо `true` либо `false` в зависимости от того, соответствует ли значение требованиям проверки или нет. Проверки, добавленные в валидатор, накапливаются. Каждая следующая добавленная проверка дополняет предыдущую.\n1. С помощью метода `isValid(value)`, пользователь _Validator_ проверяет соответствие значения всем добавленным проверкам. Если не было добавлено ни одной проверки, считается, что любое значение верное.\n\n```javascript\n// Создаем объект валидатора\nconst validator = makeValidator();\n// Так как не было добавлено ни одной проверки, любое значение верное\nvalidator.isValid('some value'); // true\n// Добавляем в валидатор проверку, что переданное значение больше 5\nvalidator.addCheck((v) => v > 5);\n// Добавляем проверку, что переданное значение четное\nvalidator.addCheck((v) => v % 2 === 0);\n// Проверяем значения на соответствие всем добавленным проверкам\nvalidator.isValid(3); // false\nvalidator.isValid(4); // false\nvalidator.isValid(7); // false\nvalidator.isValid(8); // true\nvalidator.addCheck(/* add more checks */);\n```\n\nВыше несколько примеров. Правила валидации могут быть любые. Для создания своих правил вы можете в том числе воспользоваться библиотекой lodash.\n",
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "unit-tests",
+    "lessonName": "Модульные тесты",
+    "exerciseSlug": "js_testing_unit_tests_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/unit-tests/exercise_unit"
+  }
+}

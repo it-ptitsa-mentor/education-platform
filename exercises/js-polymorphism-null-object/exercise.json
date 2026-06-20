@@ -1,0 +1,22 @@
+{
+  "slug": "js-polymorphism-null-object",
+  "title": "Null Object Pattern",
+  "language": "javascript",
+  "filesToOpen": [
+    "FakeSubscription.js",
+    "User.js"
+  ],
+  "studentFiles": [
+    "FakeSubscription.js",
+    "User.js"
+  ],
+  "readme": "На Хекслете доступ к курсам оформляется через подписку. Подписка — это отдельная сущность, которая хранит в себе информацию о самой подписке: когда она началась, сколько продолжается, оплачена ли и так далее. Типичная проверка на наличие подписки (а значит доступ к платному контенту) выглядит так:\n\n```javascript\n// Эти примеры сильно упрощены, к тому же Хекслет написан на Rails\n// но для демонстрации идеи такая реализация подойдет\nuser.getCurrentSubscription().hasPremiumAccess();\nuser.getCurrentSubscription().hasProfessionalAccess();\n```\n\nНо не у всех пользователей есть подписка, на Хекслете есть и большая бесплатная часть. Так как подписка может отсутствовать, в коде придется делать так:\n\n```javascript\nif (user.getCurrentSubscription() && user.getCurrentSubscription().hasPremiumAccess()) {\n   // есть премиум доступ, показываем что-то особенное\n}\n```\n\nЧтобы избежать постоянных проверок на существование подписки, мы внедрили Null Object. Теперь подписка есть всегда и достаточно написать:\n\n```javascript\nif (user.getCurrentSubscription().hasProfessionalAccess()) {\n   // есть профессиональный доступ, показываем что-то особенное\n}\n```\n\n## FakeSubscription.js\n\nРеализуйте и экспортируйте по умолчанию класс _FakeSubscription_. В конструктор _FakeSubscription_ принимает пользователя. Если пользователь — администратор `user.isAdmin()`, то все доступы разрешены, если нет — запрещены. Класс должен повторять интерфейс класса Subscription, то есть иметь те же методы, но со своей логикой.\n\n## User.js\n\nДопишите конструктор пользователя так, чтобы внутри устанавливалась реальная подписка, если она передана снаружи и создавалась фейковая в ином случае. \n\n### Примеры\n\n```javascript\nimport Subscription from '../Subscription.js';\nimport User from '../User.js';\n\nconst user1 = new User('vasya@email.com', new Subscription('premium'));\nuser1.getCurrentSubscription().hasPremiumAccess(); // true\nuser1.getCurrentSubscription().hasProfessionalAccess(); // false\n\nconst user2 = new User('vasya@email.com', new Subscription('professional'));\nuser2.getCurrentSubscription().hasPremiumAccess(); // false\nuser2.getCurrentSubscription().hasProfessionalAccess(); // true\n\n// Внутри создается фейковая, потому что подписка не передается\nconst user3 = new User('vasya@email.com');\nuser3.getCurrentSubscription().hasPremiumAccess(); // false\nuser3.getCurrentSubscription().hasProfessionalAccess(); // false\n\nconst user4 = new User('rakhim@hexlet.io'); // администратор, проверяется по емейлу\nuser4.getCurrentSubscription().hasPremiumAccess(); // true\nuser4.getCurrentSubscription().hasProfessionalAccess(); // true\n```\n",
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "null-object",
+    "lessonName": "Null Object Pattern",
+    "exerciseSlug": "js_polymorphism_null_object_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/null-object/exercise_unit"
+  }
+}

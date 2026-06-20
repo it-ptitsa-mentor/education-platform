@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-anonymous-functions",
+  "title": "Анонимные функции",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nНапишите функцию, которая возвращает массив четных чисел из массива `numbers`.\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "anonymous-functions",
+    "lessonName": "Анонимные функции",
+    "exerciseSlug": "typescript_basics_anonymous_functions",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/anonymous-functions/exercise_unit"
+  }
+}

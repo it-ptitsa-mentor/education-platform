@@ -1,0 +1,20 @@
+{
+  "slug": "js-dom-events",
+  "title": "Введение в события",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/application.js"
+  ],
+  "studentFiles": [
+    "src/application.js"
+  ],
+  "readme": "В этом упражнении нужно реализовать логику добавления [алертов](https://getbootstrap.com/docs/4.5/components/alerts/) по клику на кнопку.\n\nИзначально на странице есть одна кнопка. Верстка выглядит так:\n\n```html\n<button id=\"alert-generator\" class=\"btn btn-primary\">Generate Alert</button>\n<div class=\"alerts m-5\"></div>\n```\n\nПосле клика на кнопку в контейнер с классом *alerts* добавляется алерт *Alert 1*:\n\n```html\n<div class=\"alerts m-5\">\n  <div class=\"alert alert-primary\">Alert 1</div>\n</div>\n```\n\nПоследующий клик добавляет новый алерт первым в списке:\n\n```html\n<div class=\"alerts m-5\">\n  <div class=\"alert alert-primary\">Alert 2</div>\n  <div class=\"alert alert-primary\">Alert 1</div>\n</div>\n```\n\nКаждый клик добавляет новый алерт, меняя число в его имени.\n\n![result](./assets/result.png)\n\n## src/application.js\n\nРеализуйте и установите обработчик события *click* на кнопке по логике выше.\n\n### Подсказки\n\n* Саму кнопку можно получить в коде через ее `id`\n* После выполнения задания подумайте, как добавить возможность скрывать алерты\n* Поэкспериментируйте с отладкой в этом упражнении, опирайтесь на наш [гайд](https://help.hexlet.io/code-and-test-errors/otladka-v-uprazhneniyah-po-frontendu), чтобы разобраться с тестами\n* [Почему не стоит использовать innerText](https://ru.hexlet.io/qna/javascript/questions/pochemu-ne-stoit-ispolzovat-innertext)\n",
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "events",
+    "lessonName": "Введение в события",
+    "exerciseSlug": "js_dom_events_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/events/exercise_unit"
+  }
+}

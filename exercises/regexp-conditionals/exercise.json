@@ -1,0 +1,20 @@
+{
+  "slug": "regexp-conditionals",
+  "title": "Поиск по условию",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\nНапишите регулярное выражение, которое находит строки, удовлетворяющие одному из условий:\n\n* Строка содержит группу из четырех цифр, перед которой следует строка `code` \n* Строка содержит подстроку `____`, перед которой нет строки `code`\n\nИспользуйте поиск по условию:\n\n```php\n// match\n['code1234', '____'];\n\n\n// not match\n['code123', 'code____'];\n```\n",
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "regexp_conditionals",
+    "lessonName": "Поиск по условию",
+    "exerciseSlug": "regexp_conditionals_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/regexp_conditionals/exercise_unit"
+  }
+}

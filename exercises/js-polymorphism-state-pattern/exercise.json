@@ -1,0 +1,24 @@
+{
+  "slug": "js-polymorphism-state-pattern",
+  "title": "Паттерн Состояние (State)",
+  "language": "javascript",
+  "filesToOpen": [
+    "TcpConnection.js",
+    "states/Connected.js",
+    "states/Disconnected.js"
+  ],
+  "studentFiles": [
+    "TcpConnection.js",
+    "states/Connected.js",
+    "states/Disconnected.js"
+  ],
+  "readme": "HTTP – протокол без состояния, то есть после запроса получается ответ, и на этом всё заканчивается. Не все протоколы так работают. Например, TCP, на базе которого работает интернет, устроен значительно сложнее. В нём сначала происходит соединение между программами на разных компьютерах, затем обмен данными. В конце выполняется разрыв соединения.\n\n_В этом задании TcpConnection не настоящий. Он эмулирует то поведение, которого достаточно для отработки паттерна Состояние, все остальное убрано, чтобы не отвлекать от идей ООП._\n\nОбъект соединения ведёт себя по-разному, в зависимости от того, установлено соединение или нет. Например, если попробовать отправить данные, когда соединения нет, то он возбуждает исключение. То же самое касается попытки установить соединение в той ситуации, когда оно уже установлено.\n\n```javascript\n// На вход принимаются ip-адрес и порт\nconnection = new TcpConnection('132.223.243.88', 2342);\nconnection.connect();\nconnection.getCurrentState(); // connected\nconnection.write('data');\nconnection.disconnect();\nconnection.getCurrentState(); // disconnected\n// Выбрасывает исключение если нет соединения\nconnection.disconnect(); // Boom!\n```\n\n## TcpConnection.js\n\nРеализуйте класс `TcpConnection` в соответствии с примером выше. Все варианты поведения можно увидеть в тестах. Для изменения состояния вам понадобится дополнительная внутренняя логика. Реализуйте её по своему усмотрению.\n\n## states/Connected.js states/Disconnected.js\n\nРеализуйте классы состояний так, как считаете нужным.\n",
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "state",
+    "lessonName": "Паттерн Состояние (State)",
+    "exerciseSlug": "js_polymorphism_state_pattern_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/state/exercise_unit"
+  }
+}

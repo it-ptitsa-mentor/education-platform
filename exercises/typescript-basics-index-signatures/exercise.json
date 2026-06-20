@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-index-signatures",
+  "title": "Динамические ключи",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте интерфейс `EmployeeSalary`, где ключом выступает любое имя (`string`), а значением — зарплата (`number`). Также реализуйте функцию `buildSalaryStatistics(employees: EmployeeSalary): SalaryStatistics`, которая должна возвращать минимальную (поле `min`), среднюю (поле `avg`) и самую высокую (поле `max`) зарплату.\n\n```typescript\nconst employees: EmployeeSalary = {\n  Ivan: 100,\n  John: 50,\n  Maria: 150,\n};\n\nemployees.ironMan = 1000;\n\nbuildSalaryStatistics(employees); // { min: 50, max: 1000, avg: 325 }\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "index-signatures",
+    "lessonName": "Динамические ключи",
+    "exerciseSlug": "typescript_basics_index_signatures",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/index-signatures/exercise_unit"
+  }
+}

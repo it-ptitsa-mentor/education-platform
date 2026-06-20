@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-interface-implementation",
+  "title": "Реализация интерфейсов классами",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nС помощью предоставленного интерфейса IPhonebook и типа Entry реализуйте класс Phonebook, представляющий собой телефонный справочник, в котором должны быть свойства:\n\n- `entries`: наша база данных, объект, записи в котором представляют собой имена в качестве ключей и телефоны в качестве значений. Свойство должно быть неизменяемым и доступным только для чтения;\n- `get`: метод, возвращающий телефон по имени. Если записи по указанному имени не существует, то возвращается `null`;\n- `set`: метод, записывающий имя и телефон в наш справочник.\n\nпримеры:\n```typescript\nconst myNote = new Phonebook();\nmyNote.set('help', 911);\nmyNote.get('help'); // 911\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "interface-implementation",
+    "lessonName": "Реализация интерфейсов классами",
+    "exerciseSlug": "typescript_basics_interface_implementation",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/interface-implementation/exercise_unit"
+  }
+}

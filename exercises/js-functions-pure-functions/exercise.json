@@ -1,0 +1,20 @@
+{
+  "slug": "js-functions-pure-functions",
+  "title": "Чистые функции",
+  "language": "javascript",
+  "filesToOpen": [
+    "prime.js"
+  ],
+  "studentFiles": [
+    "prime.js"
+  ],
+  "readme": "Цель этой задачи — научиться отделять чистый код от кода с побочными эффектами.\n\nДля этого выделите процесс определения того, является ли число [простым](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE), в отдельную функцию, возвращающую логическое значение. Это функция, с помощью которой мы отделяем чистый код от кода, печатающего на экран результат `'yes'` или `'no'` в зависимости от логического значения.\n\nПример такого разделения и хороших абстракций — в решении учителя.\n\n## prime.js\n\nРеализуйте необходимые функции и экспортируйте по умолчанию функцию, которая принимает число на простоту и печатает на экран `yes`, если число простое или `no`, если нет.\n\n### Примеры\n\n```javascript\nsayPrimeOrNot(5); // 'yes'\nsayPrimeOrNot(4); // 'no'\n```\n",
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "pure-functions",
+    "lessonName": "Чистые функции",
+    "exerciseSlug": "js_functions_pure_functions_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/pure-functions/exercise_unit"
+  }
+}

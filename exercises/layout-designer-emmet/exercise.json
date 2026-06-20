@@ -1,0 +1,20 @@
+{
+  "slug": "layout-designer-emmet",
+  "title": "Emmet",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Запишите в файле _solution_ команду Emmet, которая преобразуется в следующий шаблон для резюме:\n\n```html\n<main>\n  <h1>Резюме</h1>\n  <h2>Разработчик веб-приложений</h2>\n  <section class=\"study\">\n    <h2>Образование</h2>\n    <ul>\n      <li class=\"place-of-study\">Место учёбы №1</li>\n      <li class=\"place-of-study\">Место учёбы №2</li>\n      <li class=\"place-of-study\">Место учёбы №3</li>\n    </ul>\n  </section>\n</main>\n```\n\nВам необходимо написать только команду Emmet. Тесты сами преобразуют её в HTML-разметку и проверят с оригиналом\n\n## Подсказки\n\n* Для тестов очень важно правильное написание текста внутри тегов. Самая частая ошибка — замена буквы `ё` на `е` во фразе «Место учёбы». Будьте внимательны в этом моменте\n* Чтобы перемножить элементы списка используйте знак умножения на `li`, а не на тексте\n",
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "emmet",
+    "lessonName": "Emmet",
+    "exerciseSlug": "layout_designer_emmet_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/emmet/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-immutability-of-primitive-types",
+  "title": "Неизменяемость и примитивные типы",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nВам даны три переменные с фамилиями разных людей. Составьте и выведите на экран слово из символов в таком порядке:\n\n1. Третий символ из первой строки\n2. Второй символ из второй строки\n3. Четвертый символ из третьей строки\n4. Пятый символ из второй строки\n5. Третий символ из второй строки\n\nПопробуйте использовать интерполяцию. Внутри фигурных скобок можно размещать не только переменные, но и отдельные символы строки, извлечённые по индексу (с помощью квадратных скобок).\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "immutability-of-primitive-types",
+    "lessonName": "Неизменяемость и примитивные типы",
+    "exerciseSlug": "js_basics_immutability_of_primitive_types_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/immutability-of-primitive-types/exercise_unit"
+  }
+}

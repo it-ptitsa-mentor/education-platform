@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-members-visibility",
+  "title": "Защита свойств и методов",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте класс `ImageFile`, расширяющий (`extends`) класс `File` дополнительными приватными полями: `width`, `height`. Также переопределите метод `toString()`, теперь он должен дополнительно выводить `<width>x<height>`.\n\n```typescript\nconst imageFile = new ImageFile({\n  name: 'image.png',\n  size: 100,\n  width: 200,\n  height: 300,\n});\nconsole.log(imageFile.toString()); // image.png (100 bytes) 200x300\n```\n\nДля того чтобы вызвать метод родительского класса, используйте `super.toString()`.\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "members-visibility",
+    "lessonName": "Защита свойств и методов",
+    "exerciseSlug": "typescript_basics_members_visibility",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/members-visibility/exercise_unit"
+  }
+}

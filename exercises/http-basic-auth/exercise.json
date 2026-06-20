@@ -1,0 +1,20 @@
+{
+  "slug": "http-basic-auth",
+  "title": "Базовая аутентификация",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\n* Используя *telnet* авторизуйтесь на *hexlet.local* (расположен на *localhost:8080*).\n  Параметры запроса: метод `GET`, страница `/admin`, протокол `HTTP 1.1`, имя пользователя `Aladdin`, пароль `open sesame`;\n* Запишите ваш HTTP-запрос в файл *solution*;\n\n### Подсказка\n\nДля кодирования логина и пароля используйте следующую команду в терминале: `printf 'username:password' | base64`. Подставьте в нее нужные имя пользователя и пароль\n",
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "basic-auth",
+    "lessonName": "Базовая аутентификация",
+    "exerciseSlug": "http_basic_auth_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/basic-auth/exercise_unit"
+  }
+}

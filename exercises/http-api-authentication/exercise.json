@@ -1,0 +1,20 @@
+{
+  "slug": "http-api-authentication",
+  "title": "Аутентификация в HTTP API",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "В этом задании вам нужно написать запрос, в котором используется API-ключ.\n\n## solution\n\n* Используя *curl* выполните GET-запрос к *localhost* на порт 8080 по пути */private* добавив заголовок `X-API-Key` для API-ключа\n* В запросе используйте ключ `1234asdf`\n* Получившуюся команду запишите в файл *solution*.\n\n### Подсказки\n\n* Для указания заголовка используйте флаг `-H`\n",
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "authentication",
+    "lessonName": "Аутентификация в HTTP API",
+    "exerciseSlug": "http_api_authentication_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/authentication/exercise_unit"
+  }
+}

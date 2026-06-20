@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-tuples",
+  "title": "Кортежи",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nСоздайте и экспортируйте тип `Point`, который описывает точку в пространстве, состоящую из трех координат: x, y, z.\n\nРеализуйте функцию `isTheSamePoint()`, которая проверяет две точки на их одинаковое расположение. Две точки совпадают, если совпадают все их координаты:\n\n```typescript\nconst p1: Point = [1, 3, 4];\nconst p2: Point = [1, 3, 4];\nconst p3: Point = [0, 8, 4];\n\nisTheSamePoint(p1, p2); // true\nisTheSamePoint(p1, p3); // false\nisTheSamePoint(p2, p3); // false\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "tuples",
+    "lessonName": "Кортежи",
+    "exerciseSlug": "typescript_basics_tuples",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/tuples/exercise_unit"
+  }
+}

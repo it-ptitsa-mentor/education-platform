@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-interpolation",
+  "title": "Интерполяция",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nВыведите на экран строку `Do you want to eat, <name>?`, где вместо `<name>` должна использоваться константа `stark`. Вывод должен получиться таким:\n\n```bash\nDo you want to eat, Arya?\n```\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "interpolation",
+    "lessonName": "Интерполяция",
+    "exerciseSlug": "js_basics_interpolation_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/interpolation/exercise_unit"
+  }
+}

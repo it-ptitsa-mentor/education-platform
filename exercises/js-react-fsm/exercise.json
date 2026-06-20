@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-fsm",
+  "title": "Автоматное программирование",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Collapse.jsx"
+  ],
+  "studentFiles": [
+    "src/Collapse.jsx"
+  ],
+  "readme": "## src/Collapse.jsx\n\nРеализуйте компонент `<Collapse>`, который по клику на ссылке отображает или скрывает свое содержимое. Если содержимое скрыто, то клик раскрывает его. И наоборот - если содержимое отображается, то клик скрывает контент. Содержимое передается в компонент через свойство `text`. За начальное состояние открытости, отвечает свойство `opened`, которое по умолчанию равно `true`.\n\n![Пример работы](assets/example.gif)\n\n```javascript\nconst text = 'collapse me';\n<Collapse text={text} opened={false} />;\n```\n\n```html\n<div>\n  <p>\n    <a class=\"btn btn-primary\" data-bs-toggle=\"collapse\" href=\"#\" role=\"button\" aria-expanded=\"false\">Link with href</a>\n  </p>\n  <div class=\"collapse\">\n    <div class=\"card card-body\">\n      collapse me\n    </div>\n  </div>\n</div>\n```\n\nПосле клика по ссылке к классу `collapse` элемента `<div>` добавляется класс `show`, а значение атрибута `aria-expanded` меняется на `true`.\n\n### Подсказки\n\n* [Collapse](https://getbootstrap.com/docs/5.1/components/collapse/)\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "fsm",
+    "lessonName": "Автоматное программирование",
+    "exerciseSlug": "js_react_fsm_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/fsm/exercise_unit"
+  }
+}

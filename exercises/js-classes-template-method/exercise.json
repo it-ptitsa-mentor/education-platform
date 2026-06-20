@@ -1,0 +1,22 @@
+{
+  "slug": "js-classes-template-method",
+  "title": "Шаблонный метод",
+  "language": "javascript",
+  "filesToOpen": [
+    "HTMLDivElement.js",
+    "HTMLPairElement.js"
+  ],
+  "studentFiles": [
+    "HTMLDivElement.js",
+    "HTMLPairElement.js"
+  ],
+  "readme": "### HTMLPairElement.js\n\nРеализуйте класс _HTMLPairElement_ (наследуется от _HTMLElement_), который отвечает за генерацию представления парных элементов и работу с телом. Класс должен содержать следующие методы:\n\n```javascript\ntoString()\ngetTextContent()\nsetTextContent(body) // принимает строку\n```\n\n### HTMLDivElement.js\n\nРеализуйте класс _HTMLDivElement_, который описывает собой парный тег ```<div>```.\n\n```javascript\nconst div = new HTMLDivElement({ 'name': 'div', 'data-toggle': true })\ndiv.setTextContent('Body')\nconsole.log(div.toString()) // '<div name=\"div\" data-toggle=\"true\">Body</div>'\n```\n",
+  "hexlet": {
+    "courseSlug": "js-classes",
+    "courseName": "JS: Погружаясь в классы",
+    "lessonSlug": "template-method",
+    "lessonName": "Шаблонный метод",
+    "exerciseSlug": "js_classes_template_method_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-classes/lessons/template-method/exercise_unit"
+  }
+}

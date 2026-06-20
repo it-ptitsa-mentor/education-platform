@@ -1,0 +1,20 @@
+{
+  "slug": "js-polymorphism-dispatch-data-by-key",
+  "title": "Диспетчеризация по ключу (данные)",
+  "language": "javascript",
+  "filesToOpen": [
+    "html.js"
+  ],
+  "studentFiles": [
+    "html.js"
+  ],
+  "readme": "## html.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход список тегов, находит среди них теги `a`, `link` и `img`, а затем извлекает ссылки и возвращает список ссылок. Теги подаются на вход в виде массива, где каждый элемент это тег. Тег имеет следующую структуру:\n\n* `name` — имя тега.\n* `href` или `src` — атрибуты. Атрибуты зависят от тега: тег `img` имеет атрибут `src`, тег `a` — `href`, `link` — `href`.\n\n### Примеры\n\n```javascript\nimport getLinks from './html.js';\n\nconst tags = [\n  { name: 'img', src: 'hexlet.io/assets/logo.png' },\n  { name: 'div' },\n  { name: 'link', href: 'hexlet.io/assets/style.css' },\n  { name: 'h1' },\n];\n\nconst links = getLinks(tags);\n// [\n//   'hexlet.io/assets/logo.png',\n//   'hexlet.io/assets/style.css'\n// ];\n```\n",
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "dispatch-data-by-key",
+    "lessonName": "Диспетчеризация по ключу (данные)",
+    "exerciseSlug": "js_polymorphism_dispatch_data_by_key_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/dispatch-data-by-key/exercise_unit"
+  }
+}

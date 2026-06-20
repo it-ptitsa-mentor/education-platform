@@ -1,0 +1,20 @@
+{
+  "slug": "js-functions-high-order-functions",
+  "title": "Функции высшего порядка",
+  "language": "javascript",
+  "filesToOpen": [
+    "users.js"
+  ],
+  "studentFiles": [
+    "users.js"
+  ],
+  "readme": "## users.js\n\nРеализуйте функцию `takeOldest()`, которая принимает на вход список пользователей и возвращает самых взрослых. Количество возвращаемых пользователей задается вторым параметром, который по умолчанию равен единице. Экспортируйте данную функцию по умолчанию.\n\n### Пример использования\n\n```javascript\nconst users = [\n    { name: 'Tirion', birthday: 'Nov 19, 1988' },\n    { name: 'Sam', birthday: 'Nov 22, 1999' },\n    { name: 'Rob', birthday: 'Jan 11, 1975' },\n    { name: 'Sansa', birthday: 'Mar 20, 2001' },\n    { name: 'Tisha', birthday: 'Feb 27, 1992' },\n    { name: 'Chris', birthday: 'Dec 25, 1995' },\n];\n\ntakeOldest(users);\n// [\n//   { name: 'Rob', birthday: 'Jan 11, 1975' },\n// ];\n```\n\nДругие примеры смотрите в модуле с тестами.\n\n### Подсказки\n\n* Для преобразования дат в единое представление — unixtimestamp — используйте метод [Date.parse()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date/parse)\n* В рамках данного упражнения, для записи дат используется только формат RFC2822.\n* [sortBy](https://es-toolkit.slash.page/reference/array/sortBy.html)\n* Подумайте, что из себя представляет данная функция: команду или запрос?\n",
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "high-order-functions",
+    "lessonName": "Функции высшего порядка",
+    "exerciseSlug": "js_functions_high_order_functions_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/high-order-functions/exercise_unit"
+  }
+}

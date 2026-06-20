@@ -1,0 +1,1 @@
+printNumbers(4)

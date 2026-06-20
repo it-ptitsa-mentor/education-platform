@@ -1,0 +1,20 @@
+{
+  "slug": "cli-basics-command-line",
+  "title": "Командная строка",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Это упражнение похоже на \"Hello, world!\", используемый при изучении языков программирования. Понимать процесс не нужно, главное сделать что-то рабочее. **Обратите внимание, что все упражнения этого курса выполняются в терминале на Хекслете, а не на своем компьютере. Вкладки терминала располагаются в нижней части редактора.**\n\n## solution\n\nНаберите команду `echo $PWD` в терминале. Следующей строкой она выведет результат работы. Вручную скопируйте результат в файл _solution_.\n\n### Подсказки\n\nДля копирования/вставки текста можно использовать контекстное меню или комбинации клавиш Ctrl+Insert / Shift+Insert\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "command-line",
+    "lessonName": "Командная строка",
+    "exerciseSlug": "cli_basics_command_line_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/command-line/exercise_unit"
+  }
+}

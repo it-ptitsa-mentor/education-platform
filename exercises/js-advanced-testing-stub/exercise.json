@@ -1,0 +1,22 @@
+{
+  "slug": "js-advanced-testing-stub",
+  "title": "Тестирование HTTP-запросов",
+  "language": "javascript",
+  "filesToOpen": [
+    "__tests__/getUserMainLanguage.test.js",
+    "support/OctokitFake.js"
+  ],
+  "studentFiles": [
+    "__tests__/getUserMainLanguage.test.js",
+    "support/OctokitFake.js"
+  ],
+  "readme": "## __tests__/getUserMainLanguage.test.js\n\nПротестируйте функцию `getUserMainLanguage(username, client)`, определяющая язык, на котором пользователь создал больше всего репозиториев. Для реализации этой задачи, функция `getUserMainLanguage()` выполняет запрос через _@octokit/rest_, который извлекает все репозитории указанного пользователя (по первому параметру _username_). Каждый репозиторий в этом списке содержит указание основного языка репозитория. Эта информация используется для поиска того языка, который используется чаще. Если список репозиториев пуст, функция возвращает `null`.\n\n### Пример:\n\n```javascript\n// Запрос, который выполняет функция getUserMainLanguage\n// Именно этот метод нужно будет подменить в фейковом клиенте\nconst { data } = await client.repos.listForUser({ username })\n// data – список репозиториев. У каждого репозитория может быть много полей\n// но нас интересует ровно одно – language\n// Эти данные нужно подготовить в тестах для фейкового клиента\nconsole.log(data)\n// [{ language: 'php', ... }, { language: 'javascript', ... }, ...]\n```\n\n## support/OctokitFake.js\n\nРеализуйте фейковый клиент по такому же принципу как это было сделано в теории. Используйте этот клиент в тестах для подмены.\n",
+  "hexlet": {
+    "courseSlug": "js-advanced-testing",
+    "courseName": "JS: Продвинутое тестирование",
+    "lessonSlug": "stub",
+    "lessonName": "Тестирование HTTP-запросов",
+    "exerciseSlug": "js_advanced_testing_stub_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-advanced-testing/lessons/stub/exercise_unit"
+  }
+}

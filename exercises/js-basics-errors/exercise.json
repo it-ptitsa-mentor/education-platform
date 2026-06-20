@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-errors",
+  "title": "Ошибки оформления (синтаксиса и линтера)",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nПроанализируйте этот код и скопируйте его в редактор:\n\n```javascript\nconsole.log(3 ** (4 - 2))\n```\n\nВнесите в код такие изменения, которые приведут к синтаксической ошибке.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "errors",
+    "lessonName": "Ошибки оформления (синтаксиса и линтера)",
+    "exerciseSlug": "js_basics_errors_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/errors/exercise_unit"
+  }
+}

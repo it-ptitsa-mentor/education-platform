@@ -1,0 +1,22 @@
+{
+  "slug": "js-classes-late-binding-catchers",
+  "title": "Позднее связывание",
+  "language": "javascript",
+  "filesToOpen": [
+    "catchers.js",
+    "runCode.js"
+  ],
+  "studentFiles": [
+    "catchers.js",
+    "runCode.js"
+  ],
+  "readme": "Исключения – один из немногих примеров удачного использования наследования. Мы познакомимся с ними в следующих уроках, а сейчас потренируемся проверять цепочку наследования.\n\nРеализация исключений через классы расширяет возможности обработки нестандартных ситуаций. Для каждого типа ошибки — свой класс. При этом каждый тип обладает общей логикой и интерфейсом. При создании исключения, в конструктор передается текст ошибки — это общая логика для всех типов наследуется от базового класса и работает благодаря позднему связыванию.\n\n## catchers.js\n\nРеализуйте логику функций, подготовленных в файле. Каждая из них принимает обработчик ошибки и класс ошибки. Каждая функция отлавливает особый тип ошибок:\n* Функция `anyErrorCatcher` проверяет, что текущая ошибка наследуется от `errorInstance`\n* Функция `appErrorCatcher` проверяет, что текущая ошибка наследуется от `errorInstance` **И** от одной из ошибок приложения\n* Функция `customErrorCatcher` проверяет, что ошибка содержит свойство `isCustomError` со значением `true` и `errorInstance` при этом отсутствует\n\nЕсли условие выполнено — ошибка передаётся в функцию `errorHandler` и возвращается результат этой функции. Если нет, то выбрасывается в исходном виде.\n\n## runCode.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая имеет следующие параметры:\n* `action` - функция, которую нужно выполнить. Обязательный\n* `catcher` - обработчик ошибки из `catcher.js`, в качестве параметра принимает ошибку. Необязательный\n\nОбщий принцип работы таков: функция принимает в себя экшен, пытается его выполнить и возвращает либо результат выполнения, либо передаёт ошибку в `catcher` и возвращает его результат (если `catcher` не задан, выбрасывает ошибку как есть).\n\n```javascript\nimport runCode from './runCode.js'\nimport { appErrorCatcher } from './catchers.js'\nimport AppNetworkError from './errors/AppNetworkError.js'\nimport NetworkError from './errors/NetworkError.js'\n\nconst successAction = () => 'Hello, Hexlet!'\nconst failedAction = () => {\n  throw new AppNetworkError('Hexlet is unavailable!')\n}\nconst errorHandler = err => `\"Hello, Hexlet\" failed with error: \"${err.message}\"`\nconst catcher1 = appErrorCatcher(errorHandler, AppNetworkError)\n\nrunCode(successAction, catcher1) // 'Hello, Hexlet!';\n\n// Выброшена ошибка AppNetworkError, но перенаправлена в errorHandler\nrunCode(failedAction, catcher1) // '\"Hello, Hexlet\" failed with error: \"Hexlet is unavailable!\"';\n\nconst catcher2 = appErrorCatcher(errorHandler, NetworkError)\n// Выброшена ошибка AppNetworkError, но она не соответствует NetworkError\nrunCode(failedAction, catcher2) // Error: 'Hexlet is unavailable!'\n```\n\nБолее подробные кейсы использований смотрите в тестах.\n\n### Подсказки\n\nВсе кейсы, кроме CustomError легко проверить через [оператор проверки типа](https://ru.hexlet.io/courses/js-classes/lessons/inheritance/theory_unit#operator-proverki-tipa) `instanceof`. Для этого импортируйте необходимые ошибки самостоятельно из каталога *errors*.\n",
+  "hexlet": {
+    "courseSlug": "js-classes",
+    "courseName": "JS: Погружаясь в классы",
+    "lessonSlug": "late-binding",
+    "lessonName": "Позднее связывание",
+    "exerciseSlug": "js_classes_late_binding_catchers_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-classes/lessons/late-binding/exercise_unit"
+  }
+}

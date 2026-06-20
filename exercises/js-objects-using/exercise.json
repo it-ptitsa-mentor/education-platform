@@ -1,0 +1,20 @@
+{
+  "slug": "js-objects-using",
+  "title": "Объекты в действии",
+  "language": "javascript",
+  "filesToOpen": [
+    "domain.js"
+  ],
+  "studentFiles": [
+    "domain.js"
+  ],
+  "readme": "## domain.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход имя сайта и возвращает информацию о нем:\n\n```javascript\nimport getDomainInfo from './domain.js';\n\n// Если домен передан без указания протокола,\n// то по умолчанию берется http\ngetDomainInfo('yandex.ru')\n// {\n//   scheme: 'http',\n//   name: 'yandex.ru',\n// }\n\ngetDomainInfo('https://hexlet.io');\n// {\n//   scheme: 'https',\n//   name: 'hexlet.io',\n// }\n\ngetDomainInfo('http://google.com');\n// {\n//   scheme: 'http',\n//   name: 'google.com',\n// }\n```\n\n## Подсказки\n\n* [startsWith](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)\n* [replace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)\n* [Совершенный код: нормализация данных](https://ru.hexlet.io/blog/posts/sovershennyy-kod-normalizatsiya-dannyh)\n",
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "using",
+    "lessonName": "Объекты в действии",
+    "exerciseSlug": "js_objects_using_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/using/exercise_unit"
+  }
+}

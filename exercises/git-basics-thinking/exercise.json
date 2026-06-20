@@ -1,0 +1,20 @@
+{
+  "slug": "git-basics-thinking",
+  "title": "Понимание Git",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Если в процессе что-то пошло не так, то всегда можно сбросить прогресс и попробовать заново. Не бойтесь экспериментировать.\n\n# code-user/\n\nРепозиторий для работы находится в директории *code-user*. Перейти в неё нужно в терминале.\n\nВ репозитории есть несколько коммитов и не зафиксированные изменения. Вам необходимо изменить последний коммит, поменяв комментарий и внести следующие изменения в *code-user/index.html*:\n\n* Зафиксировать изменения содержимого тега `h1` на «Ветки в Git достойны отдельного курса»\n* Зафиксировать изменения содержимого тега `p` на «Ветки являются ссылками на определённый коммит.»\n\nТексты должны быть без кавычек.\n\nВ сообщении коммита заменить текст на `replace text`. В итоге получатся коммиты со следующими сообщениями:\n\n```bash\ngit log --oneline\n2edf714 (HEAD -> main) replace text\n222185d refactoring\n7c2fcf8 add index.html\n83ed42c init\n```\n\n## Подсказки\n\n* *pwd* – текущая директория\n* *cd* – переход в другую директорию\n",
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "thinking",
+    "lessonName": "Понимание Git",
+    "exerciseSlug": "git_basics_thinking_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/thinking/exercise_unit"
+  }
+}

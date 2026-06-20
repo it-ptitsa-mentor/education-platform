@@ -1,0 +1,20 @@
+{
+  "slug": "js-functions-filter",
+  "title": "Фильтрация (filter)",
+  "language": "javascript",
+  "filesToOpen": [
+    "users.js"
+  ],
+  "studentFiles": [
+    "users.js"
+  ],
+  "readme": "## users.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход список пользователей и возвращает плоский список подруг всех пользователей (без сохранения ключей). Друзья каждого пользователя хранятся в виде массива в ключе `friends`. Пол доступен по ключу `gender` и может принимать значения `male` или `female`.\n\n```javascript\nimport getGirlFriends from './users.js';\n\nconst users = [\n  {\n    name: 'Tirion',\n    friends: [\n      { name: 'Mira', gender: 'female' },\n      { name: 'Ramsey', gender: 'male' },\n    ],\n  },\n  { name: 'Bronn', friends: [] },\n  {\n    name: 'Sam',\n    friends: [\n      { name: 'Aria', gender: 'female' },\n      { name: 'Keit', gender: 'female' },\n    ],\n  },\n  {\n    name: 'Rob',\n    friends: [\n      { name: 'Taywin', gender: 'male' },\n    ],\n  },\n];\n\ngetGirlFriends(users);\n// [\n//   { name: 'Mira', gender: 'female' },\n//   { name: 'Aria', gender: 'female' },\n//   { name: 'Keit', gender: 'female' },\n// ];\n```\n\nДругие примеры смотрите в модуле с тестами.\n\n## Подсказки\n\n* Так как нам нужны только друзья, то можно применить отображение `map()` и получить список друзей, который затем будет фильтроваться\n* Одно из решений задачи предполагает использование метода массива [flat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)\n",
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "filter",
+    "lessonName": "Фильтрация (filter)",
+    "exerciseSlug": "js_functions_filter_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/filter/exercise_unit"
+  }
+}

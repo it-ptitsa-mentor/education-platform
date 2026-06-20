@@ -1,0 +1,11 @@
+const name = 'Hexlet'
+
+// Обычное обращение возвращает undefined
+name[10] // undefined
+
+// 11 символ соответствует 10 индексу
+getLetter(name, 11) // ''
+
+getLetter(name, 1) // 'H'
+getLetter(name, 0) // ''
+getLetter(name, 6) // 't'

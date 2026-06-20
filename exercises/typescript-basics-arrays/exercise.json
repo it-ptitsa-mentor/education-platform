@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-arrays",
+  "title": "Массивы",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nАнаграммы — это слова, которые состоят из одинаковых букв. Например:\n\n    спаниель — апельсин\n    карат — карта — катар\n    топор — ропот — отпор\n\nРеализуйте функцию `filterAnagrams()`, которая находит все анаграммы слова. Функция принимает исходное слово и список для проверки — массив. А возвращает функция массив всех анаграмм. Если в списке нет анаграммы, то возвращается пустой массив:\n\n```typescript\nfilterAnagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']);\n// ['aabb', 'bbaa']\n\nfilterAnagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']);\n// ['carer', 'racer']\n\nfilterAnagrams('laser', ['lazing', 'lazy',  'lacer']);\n// []\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "arrays",
+    "lessonName": "Массивы",
+    "exerciseSlug": "typescript_basics_arrays",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/arrays/exercise_unit"
+  }
+}

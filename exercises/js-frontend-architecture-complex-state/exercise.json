@@ -1,0 +1,20 @@
+{
+  "slug": "js-frontend-architecture-complex-state",
+  "title": "Комплексное состояние",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/application.js"
+  ],
+  "studentFiles": [
+    "src/application.js"
+  ],
+  "readme": "## src/application.js\n\nРеализуйте и экспортируйте функцию по умолчанию, которая создает на странице TODO-приложение. Это приложение состоит из формы добавления (уже есть на странице) и списка задач добавленных через форму. Каждая новая задача выводится первой в списке добавленных ранее задач.\n\n![Пример работы](assets/example.gif)\n\nНачальный HTML:\n\n```html\n<div class=\"container p-2 m-3\">\n  <form class=\"d-flex flex-nowrap align-items-center gap-1\">\n    <input type=\"text\" required=\"required\" class=\"form-control\" name=\"name\">\n    <button type=\"submit\" class=\"btn btn-primary\">add</button>\n  </form>\n  <ul id=\"tasks\" class=\"list-group my-2\" aria-label=\"Tasks\"></ul>\n</div>\n```\n\nПосле добавления двух задач:\n\n```html\n<div class=\"container p-2 m-3\">\n  <form class=\"d-flex flex-nowrap align-items-center gap-1\">\n    <input type=\"text\" required=\"required\" class=\"form-control\" name=\"name\">\n    <button type=\"submit\" class=\"btn btn-primary\">add</button>\n  </form>\n  <ul id=\"tasks\" class=\"list-group my-2\" aria-label=\"Tasks\">\n    <li class=\"list-group-item\">Вторая задача</li>\n    <li class=\"list-group-item\">Первая задача</li>\n  </ul>\n</div>\n```\n\nУ нашего TODO-приложения есть бэкенд. Этот бэкенд умеет получать новые задачи и возвращать список ранее добавленных задач.\n\n```javascript\nimport axios from 'axios'\n\n// Список добавленных задач GET\nconst response = await axios.get(routes.tasksPath())\n// response.data содержит объект: { items: [{ name: 'имя задачи' }, { ... }]  }\n\n// Добавление новой задачи POST\nconst response = await axios.post(routes.tasksPath(), data) // Где data это { name: 'имя задачи' }\n// response.status содержит 201 в случае успеха\n```\n\nВо время инициализации (внутри функции), приложение должно делать запрос на сервер, извлекать оттуда уже добавленные задачи и выводить их на экран. Во время добавления новой задачи, приложение должно выполнять запрос на добавление задачи на сервер.\n",
+  "hexlet": {
+    "courseSlug": "js-frontend-architecture",
+    "courseName": "JS: Архитектура фронтенда",
+    "lessonSlug": "complex-state",
+    "lessonName": "Комплексное состояние",
+    "exerciseSlug": "js_frontend_architecture_complex_state_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/complex-state/exercise_unit"
+  }
+}

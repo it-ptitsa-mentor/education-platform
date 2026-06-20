@@ -1,0 +1,20 @@
+{
+  "slug": "js-redux-tookit-reducers",
+  "title": "Редьюсеры",
+  "language": "javascript",
+  "filesToOpen": [
+    "reducers.js"
+  ],
+  "studentFiles": [
+    "reducers.js"
+  ],
+  "readme": "### reducers.js\n\nРеализуйте в Store следующую структуру состояния:\n\n```javascript\n{\n  comments: {\n    1: { id: 1, taskId: 1, body: 'comment 1' },\n    2: { id: 2, taskId: 1, body: 'comment 2' },\n    5: { id: 5, taskId: 2, body: 'another comment' },\n  },\n  tasks: {\n    1: { id: 1, name: 'first task' },\n    2: { id: 2, name: 'second task' },\n  },\n}\n```\n\nStore должен уметь обрабатывать действия, перечисленные в файле `actions.js`.\n\nПри удалении `task` должны удаляться комментарии с таким же `taskId`, как `id` у этого `task`.\n\n### Подсказки\n\n* [_.omitBy()](https://lodash.com/docs/4.17.15#omitBy) позволяет удалить из объекта свойство по значению\n",
+  "hexlet": {
+    "courseSlug": "js-redux-toolkit",
+    "courseName": "React: Redux Toolkit",
+    "lessonSlug": "reducers",
+    "lessonName": "Редьюсеры",
+    "exerciseSlug": "js_redux_tookit_reducers_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-redux-toolkit/lessons/reducers/exercise_unit"
+  }
+}

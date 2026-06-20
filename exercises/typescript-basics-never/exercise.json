@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-never",
+  "title": "Возврат из функции",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `fail()`, которая выбрасывает любое исключение. Пропишете ее возвращаемый тип явно.\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "never",
+    "lessonName": "Возврат из функции",
+    "exerciseSlug": "typescript_basics_never",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/never/exercise_unit"
+  }
+}

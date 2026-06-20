@@ -1,0 +1,20 @@
+{
+  "slug": "js-objects-spread",
+  "title": "Создание новых объектов и spread",
+  "language": "javascript",
+  "filesToOpen": [
+    "company.js"
+  ],
+  "studentFiles": [
+    "company.js"
+  ],
+  "readme": "## company.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая создает объект компании и возвращает его. Для создания компании обязательно только одно свойство – имя компании. Остальные свойства добавляются только если они есть. Параметры:\n\n* Имя (обязательно)\n* Объект с дополнительными свойствами (если они есть)\n\nТакже, кроме имени, у компаний есть два свойства со значениями по умолчанию. Если значение этих свойств не передано при создании, то они принимают следующие значения:\n\n* state – moderating\n* createdAt – текущая дата (в формате Unix-времени. Это число - количество миллисекунд, прошедших с полуночи 1 января 1970 года)\n\n```javascript\nimport make from '../company.js';\n\n// Дополнительные свойства не переданы\nconst company = make('Hexlet');\n// {\n//   name: 'Hexlet',\n//   state: 'moderating',\n//   createdAt: <тут текущая дата>\n// }\n\n// Передаем дополнительные свойства\nconst company = make('Hexlet', { website: 'hexlet.io', state: 'published' });\n// {\n//   name: 'Hexlet',\n//   website: 'hexlet.io',\n//   state: 'published',\n//   createdAt: <тут текущая дата>\n// }\n```\n\nИспользуйте спред-оператор для слияния данных внутри и возврата нового объекта.\n\n## Подсказки\n\n* Для получения текущей даты в формате Unix-времени используйте метод [Date.now()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Date/now)\n",
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "spread-operator",
+    "lessonName": "Создание новых объектов и spread",
+    "exerciseSlug": "js_objects_spread_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/spread-operator/exercise_unit"
+  }
+}

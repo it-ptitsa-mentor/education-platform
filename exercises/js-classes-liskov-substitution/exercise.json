@@ -1,0 +1,20 @@
+{
+  "slug": "js-classes-liskov-substitution",
+  "title": "Принцип подстановки Лисков",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/GoogleStorage.js"
+  ],
+  "studentFiles": [
+    "src/GoogleStorage.js"
+  ],
+  "readme": "В этом задании вам придется написать код, который нарушает принцип Лисков. Запомните его и никогда так больше не делайте :D\n\nПредставьте себе библиотеку, которая предоставляет абстракции для работы с хранилищами ключ-значение. Все они предоставляют интерфейс из трех методов:\n\n* `set(key, value)` – устанавливает значение\n* `get(key)` – возвращает значение\n* `count()` – возвращает количество ключей в хранилище\n\nВ директории *src* три таких хранилища: *Redis*, *InMemory*, *GoogleStorage*. Первые два умеют возвращать число ключей внутри них, а последнее – нет.\n\nДля простоты реализации, каждое хранилище складывает значения во внутренний объект. В реальности, они бы выполняли запросы по сети, но для текущего задания это ненужное усложнение.\n\n### src/GoogleStorage.js\n\nРеализуйте интерфейс хранилища в классе *GoogleStorage*.\n\nТак как *GoogleStorage* не поддерживает подсчет количества элементов, то сделайте так, чтобы этот метод кидал исключение *Error*, если его вызывают.\n\n```javascript\nimport GoogleStorage from './GoogleStorage.js'\n\nconst storage = new GoogleStorage()\nstorage.set('one', 'two')\nstorage.get('one') // 'two'\nstorage.count() // Error\n```\n",
+  "hexlet": {
+    "courseSlug": "js-classes",
+    "courseName": "JS: Погружаясь в классы",
+    "lessonSlug": "liskov-substitution",
+    "lessonName": "Принцип подстановки Лисков",
+    "exerciseSlug": "js_classes_liskov_substitution_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-classes/lessons/liskov-substitution/exercise_unit"
+  }
+}

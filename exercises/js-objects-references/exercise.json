@@ -1,0 +1,20 @@
+{
+  "slug": "js-objects-references",
+  "title": "Ссылки",
+  "language": "javascript",
+  "filesToOpen": [
+    "company.js"
+  ],
+  "studentFiles": [
+    "company.js"
+  ],
+  "readme": "## company.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая сравнивает объекты по совпадению данных, а не по ссылкам. Эта функция принимает на вход две компании и возвращает `true`, если их структура одинаковая, и `false` в обратном случае. Проверка должна проходить по свойствам `name`, `state`, `website`.\n\n```javascript\nimport is from './company.js';\n\nconst company1 = { name: 'Hexlet', state: 'moderating', website: 'https://hexlet.io' };\nconst company2 = { name: 'CodeBasics', state: 'published', website: 'https://code-basics.com' };\nis(company1, company2); // false\n\nconst company1 = { name: 'Hexlet', state: 'published', website: 'https://hexlet.io' };\nconst company2 = { name: 'Hexlet', state: 'published', website: 'https://hexlet.io' };\nis(company1, company2); // true\n```\n",
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "references",
+    "lessonName": "Ссылки",
+    "exerciseSlug": "js_objects_references_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/references/exercise_unit"
+  }
+}

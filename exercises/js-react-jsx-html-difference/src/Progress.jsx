@@ -1,0 +1,1 @@
+<Progress percentage={40} />;

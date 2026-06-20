@@ -1,0 +1,20 @@
+{
+  "slug": "js-functions-reduce",
+  "title": "Агрегация (reduce)",
+  "language": "javascript",
+  "filesToOpen": [
+    "groupBy.js"
+  ],
+  "studentFiles": [
+    "groupBy.js"
+  ],
+  "readme": "## groupBy.js\n\nРеализуйте и экспортируйте по умолчанию функцию для группировки объектов по заданному свойству. Функция принимает аргументами массив объектов и название свойства для группировки. Она должна возвращать объект, где ключ - это значение по заданному свойству, а значение - массив с данными, подходящими для группы.\n\n```javascript\nimport groupBy from './groupBy.js';\n\nconst students = [\n  { name: 'Tirion', class: 'B', mark: 3 },\n  { name: 'Keit', class: 'A', mark: 3 },\n  { name: 'Ramsey', class: 'A', mark: 4 },\n];\n\ngroupBy([], ''); // {}\ngroupBy(students, 'mark');\n// {\n//   3: [\n//     { name: \"Tirion\", class: \"B\", mark: 3 },\n//     { name: \"Keit\", class: \"A\", mark: 3 },\n//   ],\n//   4: [\n//     { name: \"Ramsey\", class: \"A\", mark: 4 },\n//   ],\n// }\n```\n\n### Подсказки\n\n* Аналогичная функция есть в [lodash](https://lodash.com/docs/4.17.15#groupBy), но вам её нужно создать самостоятельно\n* Алгоритм решения задачи с помощью цикла и редьюса одинаковый. Если вам так проще, сделайте сначала через цикл, затем перепишите через reduce\n* Решение этой задачи аналогично решению задачи `usersByAge` из теории\n",
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "reduce",
+    "lessonName": "Агрегация (reduce)",
+    "exerciseSlug": "js_functions_reduce_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/reduce/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "css-grid-element-position",
+  "title": "Расположение элементов в сетке",
+  "language": "html",
+  "filesToOpen": [
+    "styles/app.css"
+  ],
+  "studentFiles": [
+    "styles/app.css"
+  ],
+  "readme": "Реализуйте сетку редактора _HexletCodeEditor_. Основная вёрстка внутренних компонентов уже готова. Ваша задача — реализация сетки. Используйте тот способ, который кажется вам удобным. Сетка состоит из 6 колонок\n\n## Финальная вёрстка\n\n![Финальный вид задания](assets/final.png)\n\n## Сетка шаблона\n\n![Сетка шаблона на Grid](assets/grid.png)\n\n## Подсказки\n\n* Для автоматической высоты колонок используйте значение `max-content` свойства `grid-template-rows`\n* Вы можете использовать свойства `grid-template-areas` и `grid-template-columns` одновременно друг с другом. Это поможет лучше контролировать сетку и размеры ячеек. Подробнее об этом в следующем уроке\n",
+  "hexlet": {
+    "courseSlug": "css-grid",
+    "courseName": "CSS: Вёрстка на Grid",
+    "lessonSlug": "element-position",
+    "lessonName": "Расположение элементов в сетке",
+    "exerciseSlug": "css_grid_element_position_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-grid/lessons/element-position/exercise_unit"
+  }
+}

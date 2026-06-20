@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-for-of",
+  "title": "Цикл for...of",
+  "language": "javascript",
+  "filesToOpen": [
+    "arrays.js"
+  ],
+  "studentFiles": [
+    "arrays.js"
+  ],
+  "readme": "## arrays.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая высчитывает среднее арифметическое элементов переданного массива. Благодаря этой функции мы наконец-то посчитаем среднюю температуру по больнице:\n\n```javascript\nconst temperatures1 = [37.5, 34, 39.3, 40, 38.7, 41.5]\ncalculateAverage(temperatures1) // 38.5\n\nconst temperatures2 = [36, 37.4, 39, 41, 36.6]\ncalculateAverage(temperatures2) // 38\n```\n\nВ случае пустого массива функция должна вернуть значение `null` (используйте в коде для этого **guard expression**):\n\n```javascript\nconst temperatures = []\ncalculateAverage(temperatures) // null\n```\n\n## Подсказки\n\n* [Guard Expression](https://ru.hexlet.io/blog/posts/chto-takoe-guard-expression-i-zachem-primenyat-etot-podhod-v-razrabotke)\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "for-of",
+    "lessonName": "Цикл for...of",
+    "exerciseSlug": "js_arrays_for_of_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/for-of/exercise_unit"
+  }
+}

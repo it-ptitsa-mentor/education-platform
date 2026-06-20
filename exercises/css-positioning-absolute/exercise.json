@@ -1,0 +1,20 @@
+{
+  "slug": "css-positioning-absolute",
+  "title": "Абсолютное позиционирование",
+  "language": "html",
+  "filesToOpen": [
+    "styles/app.css"
+  ],
+  "studentFiles": [
+    "styles/app.css"
+  ],
+  "readme": "Расположите 3 квадрата следующим образом:\n\n![Квадраты с абсолютным позиционированием](assets/final.png)\n\nВсе цвета квадратов и размеры даны в виде переменных в файле _app.css_. Перед позиционированием разместите все квадраты по координатам _0, 0_. Используйте только изученные средства абсолютного позиционирования\n\n* `square-red` — красный квадрат\n* `square-green` — зелёный квадрат\n* `square-blue` — синий квадрат\n\n## Подсказки\n\n* Для расчётов можно использовать функцию `calc` и значение переменной `--side`, например `calc(var(--side) * 5)`. Эта строка вернёт значение переменной `--side` умноженной на 5\n* Для создания квадратов используйте свойства `width` и `height`\n* Стороны квадрата фиксированы и не должны изменяться. Ширина стороны находится в переменной `--side`\n",
+  "hexlet": {
+    "courseSlug": "css-positioning",
+    "courseName": "CSS — Расположение и макеты",
+    "lessonSlug": "absolute",
+    "lessonName": "Абсолютное позиционирование",
+    "exerciseSlug": "css_positioning_absolute_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-positioning/lessons/absolute/exercise_unit"
+  }
+}

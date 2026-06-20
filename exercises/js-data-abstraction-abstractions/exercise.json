@@ -1,0 +1,20 @@
+{
+  "slug": "js-data-abstraction-abstractions",
+  "title": "Создание абстракции",
+  "language": "javascript",
+  "filesToOpen": [
+    "segments.js"
+  ],
+  "studentFiles": [
+    "segments.js"
+  ],
+  "readme": "Отрезок — еще один графический примитив. В коде описывается парой точек, одна из которых — начало отрезка, другая — конец. Обычный отрезок не имеет направления, поэтому вы сами вольны выбирать то, какую точку считать началом, а какую концом.\n\nВ этом задании вам нужно самостоятельно создать абстракции и принять решение о том, как они будут реализованы. Напомню, что сделать это можно разными способами и нет одного правильного.\n\n## segments.js\n\nРеализуйте и экспортируйте указанные ниже функции:\n\n* `makeSegment()`. Принимает на вход две точки и возвращает отрезок.\n* `getMidpointOfSegment()`. Принимает на вход отрезок и возвращает точку находящуюся на середине отрезка.\n* `getBeginPoint()`. Принимает на вход отрезок и возвращает точку начала отрезка.\n* `getEndPoint()`. Принимает на вход отрезок и возвращает точку конца отрезка.\n\n### Пример\n\n```javascript\nconst beginPoint = makeDecartPoint(3, 2)\nconst endPoint = makeDecartPoint(0, 0)\nsegment = makeSegment(beginPoint, endPoint)\n\ngetMidpointOfSegment(segment) // (1.5, 1)\ngetBeginPoint(segment) // (3, 2)\ngetEndPoint(segment) // (0, 0)\n```\n",
+  "hexlet": {
+    "courseSlug": "js-data-abstraction",
+    "courseName": "JS: Абстракция с помощью данных",
+    "lessonSlug": "abstractions",
+    "lessonName": "Создание абстракции",
+    "exerciseSlug": "js_data_abstraction_abstractions_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-data-abstraction/lessons/abstractions/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-variadic-parameters",
+  "title": "Функции с переменным числом параметров",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nПосчитайте программно (а не в голове) минимальное число среди 3, 10, 22, -3, 0 — и выведите его на экран. Воспользуйтесь функцией `Math.min()`, которая работает аналогично `Math.max()`.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "variadic-parameters",
+    "lessonName": "Функции с переменным числом параметров",
+    "exerciseSlug": "js_basics_variadic_parameters_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/variadic-parameters/exercise_unit"
+  }
+}

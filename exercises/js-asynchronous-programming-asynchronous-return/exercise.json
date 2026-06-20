@@ -1,0 +1,20 @@
+{
+  "slug": "js-asynchronous-programming-asynchronous-return",
+  "title": "Возврат в асинхронном коде",
+  "language": "javascript",
+  "filesToOpen": [
+    "writer.js"
+  ],
+  "studentFiles": [
+    "writer.js"
+  ],
+  "readme": "## writer.js\n\nРеализуйте асинхронную функцию, которая записывает данные по указанному пути и оповещает о завершении работы через переданный колбек. Экспортируйте функцию по умолчанию.\n\n```javascript\nimport write from './writer.js'\n\nwrite('./myfile', 'data', () => {\n  console.log('success')\n})\n```\n\n### Подсказки:\n\n* для записи в файл используйте функцию [fs.writeFile()](https://nodejs.org/api/fs.html#fswritefilefile-data-options-callback).\n",
+  "hexlet": {
+    "courseSlug": "js-asynchronous-programming",
+    "courseName": "JS: Асинхронное программирование",
+    "lessonSlug": "asynchronous-return",
+    "lessonName": "Возврат в асинхронном коде",
+    "exerciseSlug": "js_asynchronous_programming_asynchronous_return_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-asynchronous-programming/lessons/asynchronous-return/exercise_unit"
+  }
+}

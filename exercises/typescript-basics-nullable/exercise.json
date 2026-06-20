@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-nullable",
+  "title": "Null и Undefined",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `formatPrice()`, которая принимает число и возвращает строку с округлением до второго числа после запятой, если пришел `null` или `undefined` должна вернуться `'$0.00'`.\n\n```typescript\nformatPrice(3.145); // '$3.15'\nformatPrice(200); // '$200.00'\nformatPrice(); // '$0.00'\nformatPrice(null); // '$0.00'\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "nullable",
+    "lessonName": "Null и Undefined",
+    "exerciseSlug": "typescript_basics_nullable",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/nullable/exercise_unit"
+  }
+}

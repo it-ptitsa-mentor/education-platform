@@ -1,0 +1,20 @@
+{
+  "slug": "js-dom-element-manipulating",
+  "title": "Управление узлами DOM",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/normalize.js"
+  ],
+  "studentFiles": [
+    "src/normalize.js"
+  ],
+  "readme": "## src/normalize.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая нормализует имена классов для всех элементов на странице. Изначально названия всех классов написаны в стиле kebab-case, а при нормализации нужно изменить их названия на стиль camelCase: `text-center` => `textCenter`.\n\nПопробуйте решить эту задачу без использования регулярных выражений.\n\n### Примеры\n\n```javascript\n// <body>\n//   <div class=\"text-center row-b\">Bam</div>\n// </body>\nnormalize(document);\nconsole.log(document.body.innerHTML);\n// <body>\n//   <div class=\"textCenter rowB\">Bam</div>\n// </body>\n```\n\nПроверьте, что в веб-доступе классы изменились. Функция будет вызвана автоматически при загрузке страницы. После этого применятся стили к camelCase классам.\n\n![final result](./assets/final.png)\n\n### Подсказки\n\n* Самый простой способ найти все элементы в документе — это `document.body.getElementsByTagName('*')`\n* [Приведение к camelCase](https://lodash.com/docs#camelCase)\n* Замена классов [replace](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/replace) у объекта `classList`\n",
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "element-manipulating",
+    "lessonName": "Управление узлами DOM",
+    "exerciseSlug": "js_dom_element_manipulating_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/element-manipulating/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-introduction-to-oop-bind",
+  "title": "Связывание (bind)",
+  "language": "javascript",
+  "filesToOpen": [
+    "bind.js"
+  ],
+  "studentFiles": [
+    "bind.js"
+  ],
+  "readme": "Функции `bind()`, `apply()` и `call()` работают с контекстом и аргументами. В этом упражнении вы научитесь заменять одну функцию другой для получения функциональности, аналогичной `bind()`.\n\n## bind.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая ведет себя аналогично встроенной `bind(obj, fn)`. Аргументы функции:\n\n* `obj` – объект выступающий в роли контекста\n* `fn()` – функция привязываемая к контексту\n\n```javascript\nconst obj = { number: 5 };\nconst fn = function fn(number) {\n  return number + this.number;\n};\nconst fnWithContext = bind(obj, fn);\n\n// Принимает столько же аргументов сколько и исходная функция\nfnWithContext(3); // 8\n``` \n\n### Примечания\n\n* Ограничение: для реализации нельзя пользоваться только встроенной функцией `bind()`\n* Для решения можно использовать `apply()` или `call()`\n\n### Подсказки\n\n* Подумайте, в чем основное различие между `bind()` и `apply()`/`call()` и что именно нужно сделать, чтобы реализовать функцию, которая будет работать как `bind()`, но под капотом использовать `apply()` или `call()`\n* [Функция высшего порядка](https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_%D0%B2%D1%8B%D1%81%D1%88%D0%B5%D0%B3%D0%BE_%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D0%B0)\n* [Каррирование](https://ru.hexlet.io/courses/js-functions-hard-way/lessons/currying/theory_unit)\n* Задание сложное, поэтому не бойтесь смотреть решение учителя и двигаться дальше, если застряли\n",
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "bind",
+    "lessonName": "Связывание (bind)",
+    "exerciseSlug": "js_introduction_to_oop_bind_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/bind/exercise_unit"
+  }
+}

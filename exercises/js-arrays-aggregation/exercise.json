@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-aggregation",
+  "title": "Агрегация",
+  "language": "javascript",
+  "filesToOpen": [
+    "arrays.js"
+  ],
+  "studentFiles": [
+    "arrays.js"
+  ],
+  "readme": "[//]: # (fixme eslint no-restricted-syntax)\n\n## arrays.js\n\nРеализуйте и экспортируйте по умолчанию функцию. Она должна высчитывать сумму всех элементов массива, которые делятся без остатка на три:\n\n```javascript\nconst coll1 = [8, 9, 21, 19, 18, 22, 7]\ncalculateSum(coll1) // 48\n\nconst coll2 = [2, 0, 17, 3, 9, 15, 4]\ncalculateSum(coll2) // 27\n```\n\nВ случае пустого массива функция должна вернуть `0` (для этого в коде можно использовать [guard expression](https://ru.hexlet.io/blog/posts/chto-takoe-guard-expression-i-zachem-primenyat-etot-podhod-v-razrabotke)):\n\n```javascript\nconst coll = []\ncalculateSum(coll) // 0\n```\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "aggregation",
+    "lessonName": "Агрегация",
+    "exerciseSlug": "js_arrays_aggregation_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/aggregation/exercise_unit"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "js-classes-exceptions",
+  "title": "Исключения",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/File.js",
+    "src/Utils.js",
+    "src/errors/FileError.js",
+    "src/errors/NotExistsError.js",
+    "src/errors/NotReadableError.js"
+  ],
+  "studentFiles": [
+    "src/File.js",
+    "src/Utils.js",
+    "src/errors/FileError.js",
+    "src/errors/NotExistsError.js",
+    "src/errors/NotReadableError.js"
+  ],
+  "readme": "## src/File.js\n\nСоздайте класс _File_, который представляет собой абстракцию над файлом (обёртка над синхронными функциями модуля `fs`). Реализуйте в этом классе метод `read()`. Этот метод проверяет можно ли прочитать файл и если да, то читает его, если нет, то бросает исключения двух видов:\n\n* Если файла не существует – _NotExistsError_\n* Если файл нельзя прочитать, но он существует – _NotReadableError_\n\n```javascript\nconst file = new File('/etc/fstab')\nfile.read() // \"какие-то данные\"\n\nconst file = new File('/etc/nonexists')\nfile.read() // NotExistsError\n\nconst file = new File('/etc/shadow')\nfile.read() // NotReadableError\n```\n\n## src/errors/FileError.js\n\nРеализуйте класс _FileError_, который наследуется от _Error_. Это базовое исключение для данной библиотеки.\n\n## src/errors/NotReadableError.js, src/errors/NotExistsError.js\n\nРеализуйте классы исключения. Они должны наследоваться от базового класса исключений для данной библиотеки.\n\n## src/Utils.js\n\nРеализуйте функцию `readFiles`, которая принимает на вход список файлов и возвращает их содержимое. Если в процессе обработки какого-то файла возникло исключение, то вместо данных этого файла возвращается `null`.\n\n```javascript\nconst values = Utils.readFiles(['/etc/fstab', '/etc/unknown'])\nconsole.log(values) // => [\"какие-то данные\", null]\n```\n\n### Подсказки\n\n* [existsSync](https://nodejs.org/dist/latest-v14.x/docs/api/fs.html#fs_fs_existssync_path)\n* [accessSync](https://nodejs.org/dist/latest-v14.x/docs/api/fs.html#fs_fs_accesssync_path_mode)\n",
+  "hexlet": {
+    "courseSlug": "js-classes",
+    "courseName": "JS: Погружаясь в классы",
+    "lessonSlug": "exceptions",
+    "lessonName": "Исключения",
+    "exerciseSlug": "js_classes_exceptions_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-classes/lessons/exceptions/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-mutators",
+  "title": "Инкремент и декремент",
+  "language": "javascript",
+  "filesToOpen": [
+    "makeItFunny.js"
+  ],
+  "studentFiles": [
+    "makeItFunny.js"
+  ],
+  "readme": "## makeItFunny.js\n\nНапишите функцию `makeItFunny()`, которая принимает на вход строку и возвращает её копию, у которой каждый n-ный элемент переведен в верхний регистр. n – задается на входе в функцию.\n\nДля определения каждого n-ного элемента понадобится остаток от деления `%`. Подумайте, как его можно использовать.\n\n```javascript\nconst text = 'I never look back'\n// Каждый третий элемент\nmakeItFunny(text, 3) // 'I NevEr LooK bAck'\n```\n\nПример работы оператора остатка от деления:\n\n```javascript\nconsole.log(20 % 3) // => 2\n// Так как 3 * 6 = 18\n```\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "mutators",
+    "lessonName": "Инкремент и декремент",
+    "exerciseSlug": "js_basics_mutators_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/mutators/exercise_unit"
+  }
+}

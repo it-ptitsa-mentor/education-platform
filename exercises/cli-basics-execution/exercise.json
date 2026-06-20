@@ -1,0 +1,20 @@
+{
+  "slug": "cli-basics-execution",
+  "title": "Выполнение программ",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "В текущей директории находится программа, которая называется `program`. В упражнении вам нужно будет запустить эту программу на исполнение. Но прежде, чем запускать программу, нужно сделать файл *program* исполняемым.\n## solution\n\n* Сделайте файл *program* исполняемым\n* Запустите программу на исполнение и результат её выполнения (то, что она выводит) перенаправьте в файл *solution*\n\n### Подсказки\n\n* [Изменение прав доступа](https://ru.wikipedia.org/wiki/Chmod)\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "execution",
+    "lessonName": "Выполнение программ",
+    "exerciseSlug": "cli_basics_execution_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/execution/exercise_unit"
+  }
+}

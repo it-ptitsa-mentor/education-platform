@@ -1,0 +1,20 @@
+{
+  "slug": "js-testing-bad-practice",
+  "title": "Плохие и хорошие практики тестирования",
+  "language": "javascript",
+  "filesToOpen": [
+    "__tests__/cart.test.js"
+  ],
+  "studentFiles": [
+    "__tests__/cart.test.js"
+  ],
+  "readme": "## __tests__/cart.test.js\n\nНапишите тесты для корзины интернет-магазина. Интерфейс:\n\n1. `makeCart()` – создаёт новую пустую корзину.\n1. `addItem(products, count)` – добавляет в корзину товары и их количество. Товар – это объект с двумя свойствами: `name` (имя) и `price` (стоимость). Считаем, что каждый новый товар уникален, поэтому всегда добавляется в корзину отдельным пунктом\n1. `getItems()` – возвращает список товаров в формате `[{ product, count }, { product, count }, ...]`\n1. `getCost()` – возвращает стоимость корзины. Стоимость корзины высчитывается как сумма всех добавленных товаров с учётом их количества.\n1. `getCount()` – возвращает количество товаров в корзине.\n\n```javascript\nconst cart = makeCart();\ncart.addItem({ name: 'car', price: 3 }, 5);\ncart.addItem({ name: 'house', price: 10 }, 2);\ncart.getItems().length; // 2\ncart.getCost(); // 35\ncart.getCount(); // 7\ncart.addItem({ name: 'house', price: 10 }, 1);\ncart.getItems().length; // 3\ncart.getCost(); // 45\n```\n",
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "bad-practice",
+    "lessonName": "Плохие и хорошие практики тестирования",
+    "exerciseSlug": "js_testing_bad_practice_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/bad-practice/exercise_unit"
+  }
+}

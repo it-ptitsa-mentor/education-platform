@@ -1,0 +1,20 @@
+{
+  "slug": "regexp-flags",
+  "title": "Флаги",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\nНапишите регулярное выражение, которое находит все подстроки `python`, заключенные в двойные `\"` или одинарные `'` кавычки. При этом вам нужно найти все варианты вне зависимости от регистра (`Python`, `pytHon`, `pYThon` и так далее).\n\nЕсли будете использовать флаги, укажите их отдельной строкой:\n\n```bash\nyourRegexp # Здесь напишите регулярное выражение\nmu # Здесь укажите необходимые флаги\n```\n\n**Пример решения:**\n\n```bash\n(\\S+)@([a-z0-9.]+)\nis\n```\n",
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "flags",
+    "lessonName": "Флаги",
+    "exerciseSlug": "regexp_flags_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/flags/exercise_unit"
+  }
+}

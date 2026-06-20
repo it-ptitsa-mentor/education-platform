@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-while",
+  "title": "Цикл while",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nМодифицируйте функцию `printNumbers()` так, чтобы она выводила числа в обратном порядке и в конце строку `'finished!'`. Для этого нужно идти от верхней границы к нижней. То есть счётчик должен быть инициализирован максимальным значением, а в теле цикла его нужно уменьшать до нижней границы.\n\n```javascript\nprintNumbers(4)\n```\n\nВывод вызванной выше функции:\n\n```bash\n4\n3\n2\n1\nfinished!\n```\nОбратите внимание, что нижняя граница равна `1`.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "while",
+    "lessonName": "Цикл while",
+    "exerciseSlug": "js_basics_while_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/while/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-functional-components",
+  "title": "Функциональные компоненты",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Card.jsx"
+  ],
+  "studentFiles": [
+    "src/Card.jsx"
+  ],
+  "readme": "### src/Card.jsx\n\nРеализуйте и экспортируйте по умолчанию компонент `<Card>` так, чтобы можно было составлять такую структуру:\n\n```javascript\n<Card>\n  <Card.Body>\n    <Card.Title>Title</Card.Title>\n    <Card.Text>Text</Card.Text>\n  </Card.Body>\n</Card>\n```\n\nПолучившийся HTML:\n\n```html\n<div class=\"card\">\n  <div class=\"card-body\">\n    <h4 class=\"card-title\">Title</h4>\n    <p class=\"card-text\">Text</p>\n  </div>\n</div>\n```\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "functional-components",
+    "lessonName": "Функциональные компоненты",
+    "exerciseSlug": "js_react_functional_components_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/functional-components/exercise_unit"
+  }
+}

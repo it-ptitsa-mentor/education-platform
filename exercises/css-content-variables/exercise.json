@@ -1,0 +1,20 @@
+{
+  "slug": "css-content-variables",
+  "title": "CSS Переменные",
+  "language": "html",
+  "filesToOpen": [
+    "styles/app.css"
+  ],
+  "studentFiles": [
+    "styles/app.css"
+  ],
+  "readme": "## styles/app.css\n\nДобавьте переменные в глобальную область видимости со следующими значениями:\n\n* primary-color: `#3498db`\n* secondary-color: `#2ecc71`\n* font-color: `#333`\n* background-color: `#ecf0f1`\n\nДобавьте для этих переменных другие значения для области видимости блока с классом `dark-theme`:\n\n* primary-color: `#1abc9c`\n* secondary-color: `#3498db`\n* font-color: `#ecf0f1`\n* background-color: `#2c3e50`\n\nПроверьте в веб-доступе что темы переключаются и соответствуют шаблонам.\n\nСветлая тема:\n\n![Светлая тема](./assets/Variables-White-theme-1-linux.jpg)\n\nТемная тема:\n\n![Темная тема](./assets/Variables-Dark-theme-1-linux.jpg)\n",
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "variables",
+    "lessonName": "CSS Переменные",
+    "exerciseSlug": "css_content_variables_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/variables/exercise_unit"
+  }
+}

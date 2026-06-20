@@ -1,0 +1,20 @@
+{
+  "slug": "regexp-anchors",
+  "title": "Позиция внутри строки",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\nНапишите регулярное выражение, которое находит строку, содержащую только `support@hexlet.io`. Такие строки, как `something here support@hexlet.io` и `support@hexlet.io something here` не попадают под регулярное выражение.\n",
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "anchors",
+    "lessonName": "Позиция внутри строки",
+    "exerciseSlug": "regexp_anchors_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/anchors/exercise_unit"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "js-react-nested-components",
+  "title": "Вложенные компоненты",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Item.jsx",
+    "src/TodoBox.jsx"
+  ],
+  "studentFiles": [
+    "src/Item.jsx",
+    "src/TodoBox.jsx"
+  ],
+  "readme": "Реализуйте простой Todo, с возможностью добавлять и удалять заметки.\n\n![Пример работы](assets/example.gif)\n\n### src/TodoBox.jsx\n\nОсновной компонент, который выводит форму для добавления новой записи и выводит список заметок на экран.\n\nНачальный HTML:\n\n```html\n<div>\n  <div class=\"mb-3\">\n    <form class=\"d-flex\">\n      <div class=\"me-3\">\n        <input type=\"text\" value=\"\" required=\"\" class=\"form-control\" placeholder=\"I am going...\">\n      </div>\n      <button type=\"submit\" class=\"btn btn-primary\">add</button>\n    </form>\n  </div>\n</div>\n```\n\n### src/Item.jsx\n\nОтрисовывает конкретный элемент списка. Принимает на вход свойства:\n\n* `task`\n* `onRemove`\n\nHTML с добавленными заметками:\n\n```html\n<div>\n  <div class=\"mb-3\">\n    <form class=\"d-flex\">\n      <div class=\"me-3\">\n        <input type=\"text\" value=\"\" required=\"\" class=\"form-control\" placeholder=\"I am going...\">\n      </div>\n      <button type=\"submit\" class=\"btn btn-primary\">add</button>\n    </form>\n  </div>\n  <div>\n    <div class=\"row\">\n      <div class=\"col-auto\">\n        <button type=\"button\" class=\"btn btn-primary btn-sm\">-</button>\n      </div>\n      <div class=\"col\">second</div>\n    </div>\n    <hr>\n  </div>\n  <div>\n    <div class=\"row\">\n      <div class=\"col-auto\">\n        <button type=\"button\" class=\"btn btn-primary btn-sm\">-</button>\n      </div>\n      <div class=\"col\">first</div>\n    </div>\n    <hr>\n  </div>\n</div>\n```\n\n### Подсказки\n\n* Для получения нового `id` используйте функцию `uniqueId`\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "nested-components",
+    "lessonName": "Вложенные компоненты",
+    "exerciseSlug": "js_react_nested_components_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/nested-components/exercise_unit"
+  }
+}

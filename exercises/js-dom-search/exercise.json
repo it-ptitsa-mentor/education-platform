@@ -1,0 +1,22 @@
+{
+  "slug": "js-dom-search",
+  "title": "Декларативный поиск по DOM-дереву",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/extractor.js",
+    "src/index.js"
+  ],
+  "studentFiles": [
+    "src/extractor.js",
+    "src/index.js"
+  ],
+  "readme": "В этом упражнении задачка, похожая на предыдущую. Но теперь мы будем использовать поисковые методы без прямого обхода дерева.\n\nНам нужно извлечь данные с фиксированной структурой. Мы будем парсить страницу категории статей. Эта страница содержит заголовок категории, его описание и ссылки на статьи с небольшим описанием. Эта структура не меняется, меняется только количество статей от категории к категории.\n\n## src/extractor.js\n\nРеализуйте логику функции, которая принимает на вход `document`, извлекает из него данные и возвращает объект нужной структуры:\n\n```html\n<div class=\"content\">\n  <h1>Category Name</h1>\n  <div class=\"description\">Category Description</div>\n  <div class=\"links\">\n    <div>\n      <h2><a href=\"#\">Article Name 1</a></h2>\n      <p>Article Description 1</p>\n    </div>\n    <div>\n      <h2><a href=\"#\">Article Name 2</a></h2>\n      <p>Article Description 2</p>\n    </div>\n  </div>\n</div>\n```\n\nРассмотрим этот пример подробнее:\n\n* `Category Name` — заголовок категории \n* `Category Description` — описание категории \n* `Article Name 1` — название статьи 1  \n* `Article Description 1` — описание статьи 1  \n* `Article Name 2` — название статьи 2 \n* `Article Description 2` — описание статьи 2\n\nНужно сформировать объект, в котором категория описывается следующими свойствами:\n\n* `title` — заголовок категории\n* `description` — описание категории\n* `items` — статьи\n  \nСтруктура каждой статьи определяется объектом со свойствами:\n\n* `title` — заголовок статьи (берется из ссылки статьи)\n* `description` — описание статьи\n\n```javascript\nimport extractData from './extractor.js';\n\nconst data = extractData(document);\nconsole.log(data);\n// {\n//   title: 'Category Name',\n//   description: 'Category Description',\n//   items: [\n//     { title: 'Article Name 1', description: 'Article Description 1' },\n//     { title: 'Article Name 2', description: 'Article Description 2' }\n//   ]\n// }\n```\n\n## src/index.js\n\nПроверьте, как работает вновь созданная функция на странице доступной в веб-доступе. Импортируйте функцию в `index.js`, выполните ее с аргументом `document` и распечатайте результат в консоль. Проверьте, что в консоль вывелись нужные данные.\n\n### Подсказки\n\n* Не стесняйтесь выполнять `querySelector()` на любые данные\n* Для выборки списка статей используйте `querySelectorAll`\n* [Разделение чтения и использования](https://ru.hexlet.io/blog/posts/sovershennyy-kod-razdelenie-polucheniya-i-ispolzovaniya)\n",
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "search",
+    "lessonName": "Декларативный поиск по DOM-дереву",
+    "exerciseSlug": "js_dom_search_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/search/exercise_unit"
+  }
+}

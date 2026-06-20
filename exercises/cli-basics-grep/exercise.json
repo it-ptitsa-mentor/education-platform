@@ -1,0 +1,20 @@
+{
+  "slug": "cli-basics-grep",
+  "title": "Grep",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "### solution\n\n1. Грепните файл _/home/tirion/.bashrc_ по строчке `then`\n2. Запишите правильную команду в файл _solution_\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "grep",
+    "lessonName": "Grep",
+    "exerciseSlug": "cli_basics_grep_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/grep/exercise_unit"
+  }
+}

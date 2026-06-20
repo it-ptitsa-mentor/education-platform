@@ -1,0 +1,20 @@
+{
+  "slug": "js-trees-traversal",
+  "title": "Обход дерева",
+  "language": "javascript",
+  "filesToOpen": [
+    "downcaseFileNames.js"
+  ],
+  "studentFiles": [
+    "downcaseFileNames.js"
+  ],
+  "readme": "## downcaseFileNames.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход директорию (объект-дерево), приводит имена всех файлов в этой и во всех вложенных директориях к нижнему регистру. Результат в виде обработанной директории возвращается наружу.\n\n### Примеры\n\n```javascript\nimport * as fsTrees from '@hexlet/immutable-fs-trees';\nimport downcaseFileNames from './downcaseFileNames.js';\n\nconst tree = fsTrees.mkdir('/', [\n  fsTrees.mkdir('eTc', [\n    fsTrees.mkdir('NgiNx'),\n    fsTrees.mkdir('CONSUL', [\n      fsTrees.mkfile('config.json'),\n    ]),\n  ]),\n  fsTrees.mkfile('hOsts'),\n]);\n\ndowncaseFileNames(tree);\n// {\n//   name: '/',\n//   type: 'directory',\n//   meta: {},\n//   children: [\n//     {\n//       name: 'eTc',\n//       type: 'directory',\n//       meta: {},\n//       children: [\n//         {\n//           name: 'NgiNx',\n//           type: 'directory',\n//           meta: {},\n//           children: [],\n//         },\n//         {\n//           name: 'CONSUL',\n//           type: 'directory',\n//           meta: {},\n//           children: [{ name: 'config.json', type: 'file', meta: {} }],\n//         },\n//       ],\n//     },\n//     { name: 'hosts', type: 'file', meta: {}, },\n//   ],\n// }\n```\n",
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "traversal",
+    "lessonName": "Обход дерева",
+    "exerciseSlug": "js_trees_traversal_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/traversal/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-polymorphism-dispatch-functions-by-key",
+  "title": "Диспетчеризация по ключу (функции)",
+  "language": "javascript",
+  "filesToOpen": [
+    "html.js"
+  ],
+  "studentFiles": [
+    "html.js"
+  ],
+  "readme": "## html.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход тег и возвращает его текстовое представление.\n\n### Примеры\n\n```javascript\nimport stringify from './html.js';\n\nconst hrTag = {\n  name: 'hr',\n  class: 'px-3',\n  id: 'myid',\n  tagType: 'single',\n};\nconst html = stringify(hrTag); // <hr class=\"px-3\" id=\"myid\">\n\nconst divTag = {\n  name: 'div',\n  tagType: 'pair',\n  body: 'text2',\n  id: 'wow',\n};\nconst html = stringify(divTag); // <div id=\"wow\">text2</div>\n\nconst emptyDivTag = {\n  name: 'div',\n  tagType: 'pair',\n  body: '',\n  id: 'empty',\n};\nconst html = stringify(emptyDivTag); // <div id=\"empty\"></div>\n\nconst tagWithAttr = {\n  name: 'div',\n  tagType: 'pair',\n  body: '',\n  id: 'withAttr',\n  someAttr: 'value',\n};\nconst html = stringify(tagWithAttr); // <div id=\"withAttr\" someAttr=\"value\"></div>\n```\n\n### Примечания\n\nВ структуре тега есть три специальных ключа:\n\n* `name` — имя тега.\n* `tagType` — тип тега, определяет его парность (pair) или одиночность (single).\n* `body` — тело тега, используется для парных тегов. Если у парного тега нет содержимого, то `body` равно пустой строке `''`.\n\nВсё остальное становится атрибутами тега и не зависит от того, парный он или нет.\n",
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "dispatch-functions-by-key",
+    "lessonName": "Диспетчеризация по ключу (функции)",
+    "exerciseSlug": "js_polymorphism_dispatch_functions_by_key_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/dispatch-functions-by-key/exercise_unit"
+  }
+}

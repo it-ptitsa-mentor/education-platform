@@ -1,0 +1,20 @@
+{
+  "slug": "js-trees-accumulator",
+  "title": "Аккумулятор",
+  "language": "javascript",
+  "filesToOpen": [
+    "findFilesByName.js"
+  ],
+  "studentFiles": [
+    "findFilesByName.js"
+  ],
+  "readme": "## findFilesByName.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход файловое дерево и подстроку, а возвращает список файлов, имена которых содержат эту подстроку. Функция должна вернуть полные пути до файлов.\n\n### Примеры\n\n```javascript\nimport * as fsTrees from '@hexlet/immutable-fs-trees';\nimport findFilesByName from '../findFilesByName.js';\n\nconst tree = fsTrees.mkdir('/', [\n  fsTrees.mkdir('etc', [\n    fsTrees.mkdir('apache'),\n    fsTrees.mkdir('nginx', [\n      fsTrees.mkfile('nginx.conf', { size: 800 }),\n    ]),\n    fsTrees.mkdir('consul', [\n      fsTrees.mkfile('config.json', { size: 1200 }),\n      fsTrees.mkfile('data', { size: 8200 }),\n      fsTrees.mkfile('raft', { size: 80 }),\n    ]),\n  ]),\n  fsTrees.mkfile('hosts', { size: 3500 }),\n  fsTrees.mkfile('resolve', { size: 1000 }),\n]);\n\nfindFilesByName(tree, 'co');\n// ['/etc/nginx/nginx.conf', '/etc/consul/config.json']\n```\n\n### Подсказки\n\n* Для реализации этой логики вам понадобится аккумулятор, в котором будет храниться путь от корня до текущего узла. При проваливании внутрь директорий к нему добавляется имя текущей директории. В остальном логика работы идентична примеру из теории.\n* Переменную, содержащую внутри себя путь от корня до текущего узла, можно назвать _ancestry_.\n* Для построения путей используйте функцию [path.join()](https://nodejs.org/api/path.html#path_path_join_paths).\n* Проверку вхождения строк можно делать с помощью функции [str.includes()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/includes).\n",
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "accumulator",
+    "lessonName": "Аккумулятор",
+    "exerciseSlug": "js_trees_accumulator_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/accumulator/exercise_unit"
+  }
+}

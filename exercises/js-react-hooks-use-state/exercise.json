@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-hooks-use-state",
+  "title": "Хук useState",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/BtnGroup.jsx"
+  ],
+  "studentFiles": [
+    "src/BtnGroup.jsx"
+  ],
+  "readme": "Этот урок сделан по мотивам урока [Состояние](https://ru.hexlet.io/courses/js-react/lessons/state/theory_unit) из курса по реакту. Здесь вам нужно реализовать тот же компонент, но используя функциональные компоненты и хуки.\n\n### src/BtnGroup.jsx\n\nРеализуйте компонент *BtnGroup*, который отрисовывает две кнопки. Нажатие на любую из кнопок делает её активной, а другую неактивной. При первой загрузке ни одна из кнопок не нажата.\n\nПример использования:\n\n```javascript\n<BtnGroup />\n```\n\nРезультат:\n\n```html\n<div class=\"btn-group\" role=\"group\">\n  <button type=\"button\" class=\"btn btn-secondary left\">Left</button>\n  <button type=\"button\" class=\"btn btn-secondary right\">Right</button>\n</div>\n```\n\nПосле нажатия на левую кнопку, добавляется класс `active`. В результате список классов выглядит так:\n`btn btn-secondary left active`. У правой кнопки поведение соответствующее.\n\n### Подсказки\n\n* [Button Group](https://getbootstrap.com/docs/5.1/components/button-group/)\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "use-state",
+    "lessonName": "Хук useState",
+    "exerciseSlug": "js_react_hooks_use_state_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/use-state/exercise_unit"
+  }
+}

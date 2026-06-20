@@ -1,0 +1,20 @@
+{
+  "slug": "cli-basics-streams",
+  "title": "Потоки",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Если в процессе что-то пошло не так, то всегда можно сбросить прогресс и попробовать заново. Не бойтесь экспериментировать.\n\n## solution\n\n1. Прочитайте в командной строке содержимое файла _source_ и перенаправьте его в файл _/tmp/result_, которого не существует\n2. Запишите получившуюся команду в файл _solution_\n\n### Подсказки\n\n* Перенаправление вывода в файл создаст этот файл, если он не существует\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "streams",
+    "lessonName": "Потоки",
+    "exerciseSlug": "cli_basics_streams_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/streams/exercise_unit"
+  }
+}

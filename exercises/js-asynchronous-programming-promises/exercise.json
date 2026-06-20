@@ -1,0 +1,20 @@
+{
+  "slug": "js-asynchronous-programming-promises",
+  "title": "Промисы (Promise)",
+  "language": "javascript",
+  "filesToOpen": [
+    "file.js"
+  ],
+  "studentFiles": [
+    "file.js"
+  ],
+  "readme": "## file.js\n\nРеализуйте и экспортируйте асинхронную функцию `reverse()`, которая изменяет порядок расположения строк в файле на обратный. Функция должна перезаписать файл.\n\n```text\n# file.txt\none\ntwo\n```\n\n```javascript\nimport { reverse } from './file.js'\n\nreverse('file.txt')\n// two\n// one\n```\n",
+  "hexlet": {
+    "courseSlug": "js-asynchronous-programming",
+    "courseName": "JS: Асинхронное программирование",
+    "lessonSlug": "promises",
+    "lessonName": "Промисы (Promise)",
+    "exerciseSlug": "js_asynchronous_programming_promises_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-asynchronous-programming/lessons/promises/exercise_unit"
+  }
+}

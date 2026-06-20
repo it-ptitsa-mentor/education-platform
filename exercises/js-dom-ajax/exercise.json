@@ -1,0 +1,20 @@
+{
+  "slug": "js-dom-ajax",
+  "title": "AJAX",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/application.js"
+  ],
+  "studentFiles": [
+    "src/application.js"
+  ],
+  "readme": "Задача этого упражнения — реализовать автозаполнение. \n\nНа странице присутствуют элементы `input` с атрибутами `data-autocomplete` и `data-autocomplete-name`, к которым нужно привязаться. Атрибут `data-autocomplete` содержит путь, по которому нужно сделать запрос на получение данных. Атрибут `data-autocomplete-name` содержит имя, по которому необходимо найти на странице список `ul` с точно таким же атрибутом и значением. В этом списке выводятся данные.\n\n## src/application.js\n\nРеализуйте автозаполнение.\n\nПри изменении строки в поле ввода (ввод символов или их удаление), необходимо выполнить запрос на сервер с query-параметром `search`, значением которого будет строка введенная в `input`. Запрос должен уйти по пути, который был указан в атрибуте `data-autocomplete`. Сервер возвращает массив из стран на английском языке.\n\nЕсли этот массив не пустой, то нужно заполнить список. Посмотреть его нахождение можно двумя способами — использовать `public/index.html` или открыть исходный код страницы в веб-доступе таким образом:\n\n```html\n<ul data-autocomplete-name=\"country\" name=\"Country\">\n  <li>pakistan</li>\n  <li>panama</li>\n  <li>paraguay</li>\n</ul>\n```\n\nЕсли с сервера пришел пустой список, то нужно вывести:\n\n```html\n<ul data-autocomplete-name=\"country\" name=\"Country\">\n  <li>Nothing</li>\n</ul>\n```\n\n### Подсказки\n\n* Для формирования правильного запроса на сервер, используйте [URL](https://nodejs.org/api/url.html#url_url_strings_and_url_objects)\n* Текущий хост можно извлечь так `window.location.origin`\n* Значение поля `input` необходимо брать из события так: `e.target.value`\n* Изучите в теории, как создается объект URL и добавляются параметры query string\n* Используйте async/await\n* Ваш код должен работать, даже если на странице множество автозаполнений\n* Используйте событие [input](https://developer.mozilla.org/en-US/docs/Web/Events/input)\n",
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "ajax",
+    "lessonName": "AJAX",
+    "exerciseSlug": "js_dom_ajax_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/ajax/exercise_unit"
+  }
+}

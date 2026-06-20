@@ -1,0 +1,20 @@
+{
+  "slug": "js-trees-html",
+  "title": "HTML-дерево",
+  "language": "javascript",
+  "filesToOpen": [
+    "changeClass.js"
+  ],
+  "studentFiles": [
+    "changeClass.js"
+  ],
+  "readme": "## changeClass.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход html-дерево и заменяет во всех узлах имя класса, имена классов передаются через параметры. Функция не должна мутировать исходное дерево.\n\n### Примеры\n\n```javascript\nimport changeClass from '../changeClass.js';\n\nconst tree = {\n  name: 'div',\n  type: 'tag-internal',\n  className: 'hexlet-community',\n  children: [\n    {\n      name: 'div',\n      type: 'tag-internal',\n      className: 'old-class',\n      children: [],\n    },\n    {\n      name: 'div',\n      type: 'tag-internal',\n      className: 'old-class',\n      children: [],\n    },\n  ],\n};\n\nconst result = changeClass(tree, 'old-class', 'new-class');\n// Результат:\n// {\n//   name: 'div',\n//   type: 'tag-internal',\n//   className: 'hexlet-community',\n//   children: [\n//     {\n//       name: 'div',\n//       type: 'tag-internal',\n//       className: 'new-class',\n//       children: [],\n//     },\n//     {\n//       name: 'div',\n//       type: 'tag-internal',\n//       className: 'new-class',\n//       children: [],\n//     },\n//   ],\n// }\n```\n\nСвойство `className` может содержать только одно имя класса\n",
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "html",
+    "lessonName": "HTML-дерево",
+    "exerciseSlug": "js_trees_html_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/html/exercise_unit"
+  }
+}

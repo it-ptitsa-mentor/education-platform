@@ -1,0 +1,20 @@
+{
+  "slug": "cli-basics-history",
+  "title": "История",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\nВ истории есть команда, в которой встречается слово `MAIL`:\n\n1. Воспользуйтесь реверсивным поиском, найдите и выполните эту команду\n2. Результат ее работы скопируйте в файл _solution_\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "history",
+    "lessonName": "История",
+    "exerciseSlug": "cli_basics_history_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/history/exercise_unit"
+  }
+}

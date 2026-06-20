@@ -1,0 +1,20 @@
+{
+  "slug": "regexp-greedy",
+  "title": "Жадность",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\nНапишите регулярное выражение, которое находит подстроки, состоящие из:\n\n* Символа `(`\n* Хотя бы одного любого символа, но не `(` или `)`\n* Символа `)`\n\n### Подсказки\n\nНе забывайте, что скобки в регулярных выражениях – это специальный символ. Если нам нужно использовать скобки, как элемент строки, а не как спецсимвол, нужно применить экранирование\n",
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "greedy",
+    "lessonName": "Жадность",
+    "exerciseSlug": "regexp_greedy_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/greedy/exercise_unit"
+  }
+}

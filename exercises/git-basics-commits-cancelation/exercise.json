@@ -1,0 +1,20 @@
+{
+  "slug": "git-basics-commits-cancelation",
+  "title": "Отмена коммитов",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Если в процессе что-то пошло не так, то всегда можно сбросить прогресс и попробовать заново. Не бойтесь экспериментировать.\n\n# code-user/\n\nРепозиторий для работы находится в директории *code-user*. Перейти в нее нужно в терминале.\n\nПолностью удалите два последних коммита.\n\n## Подсказки\n\n* *pwd* – текущая директория\n* *cd* – переход в другую директорию\n",
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "commits-cancelation",
+    "lessonName": "Отмена коммитов",
+    "exerciseSlug": "git_basics_commits_cancelation_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/commits-cancelation/exercise_unit"
+  }
+}

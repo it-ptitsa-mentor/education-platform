@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-stdlib",
+  "title": "Стандартная библиотека",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nОператор `typeof` позволяет определить тип передаваемого операнда. Название типа возвращается в виде строки. Например, вызов `typeof 'go go go'` вернёт строку `'string'` (number — число).\n\n```javascript\nconsole.log(typeof 3) // => 'number'\n```\n\nВыведите на экран тип значения константы `motto`.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "stdlib",
+    "lessonName": "Стандартная библиотека",
+    "exerciseSlug": "js_basics_stdlib_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/stdlib/exercise_unit"
+  }
+}

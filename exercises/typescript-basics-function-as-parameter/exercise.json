@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-function-as-parameter",
+  "title": "Функции как параметры",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `filter()`, которая принимает на вход массив чисел и предикат. Последний будет использоваться для проверки каждого числа на соответствие требованиям:\n\n```typescript\nconst numbers = [1, -5, 2, 3, 4, 133];\nfilter(numbers, (n) => n > 3); // [4, 133]\nfilter(numbers, (n) => n % 2 == 0); // [2, 4]\n```\n\nПараметры функции:\n\n1. Массив чисел\n2. Анонимная функция, которая принимает на вход число и возвращает логическое значение\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "function-as-parameter",
+    "lessonName": "Функции как параметры",
+    "exerciseSlug": "typescript_basics_function_as_parameter",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/function-as-parameter/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "regexp-backreferences",
+  "title": "Группировка и обратная связь",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\nНапишите регулярное выражение, которое находит подстроки, состоящие из:\n\n1. Трех символов из класса `a-z`\n2. `:`\n3. Группы символов из первого условия\n",
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "backreferences",
+    "lessonName": "Группировка и обратная связь",
+    "exerciseSlug": "regexp_backreferences_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/backreferences/exercise_unit"
+  }
+}

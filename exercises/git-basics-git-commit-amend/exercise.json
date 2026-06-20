@@ -1,0 +1,20 @@
+{
+  "slug": "git-basics-git-commit-amend",
+  "title": "Изменение последнего коммита",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Если в процессе что-то пошло не так, то всегда можно сбросить прогресс и попробовать заново. Не бойтесь экспериментировать.\n\n# code-user/\n\nРепозиторий для работы находится в директории *code-user*. Перейти в нее нужно в терминале.\n\nВы сделали коммит, но забыли добавить в него пару файлов. Измените последний коммит так, чтобы он содержал все три файла одновременно.\n\n### Подсказки\n\n* *pwd* – текущая директория\n* *cd* – переход в другую директорию\n",
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "git-commit-amend",
+    "lessonName": "Изменение последнего коммита",
+    "exerciseSlug": "git_basics_git_commit_amend_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/git-commit-amend/exercise_unit"
+  }
+}

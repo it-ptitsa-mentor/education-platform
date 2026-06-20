@@ -1,0 +1,20 @@
+{
+  "slug": "css-content-pseudoelements",
+  "title": "Псевдоэлементы",
+  "language": "html",
+  "filesToOpen": [
+    "styles/app.css"
+  ],
+  "studentFiles": [
+    "styles/app.css"
+  ],
+  "readme": "В этом задании вам предстоит создать стили для карточек профилей с использованием псевдоэлементов. Вам нужно будет добавить иконку перед именем пользователя, декоративный элемент после имени и стилизовать первую букву описания профиля.\n\n## app.css\n\nИспользуйте псевдоэлементы для стилизации карточек профилей.\n\n* Перед именем пользователя должна отображаться иконка \"👤\" с отступом справа `5px`. Вы можете скопировать иконку из этого текста.\n* После имени пользователя должна отображаться горизонтальная линия цвета `#ccc`, высотой `2px` и с отступом сверху `5px`.\n* Первая буква описания профиля должна быть цвета `#6936f4`, увеличена в `1.5` раза и жирная.\n\n![Пример](assets/example.jpg)\n",
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "pseudoelements",
+    "lessonName": "Псевдоэлементы",
+    "exerciseSlug": "css_content_pseudoelements_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/pseudoelements/exercise_unit"
+  }
+}

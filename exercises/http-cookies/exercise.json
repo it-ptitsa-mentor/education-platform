@@ -1,0 +1,20 @@
+{
+  "slug": "http-cookies",
+  "title": "Cookies",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\n* Используя *telnet* выполните запрос к *hexlet.local* (расположен на *localhost*) на порт *8080*. Параметры запроса: метод `GET`, страница `/account`, протокол `HTTP 1.1`, куки `name` со значением `user` и `secret` со значением `secret_hash`;\n* Запишите ваш HTTP-запрос в файл *solution*;\n\n### Подсказки\n\nЧтобы отправить серверу куки, используется заголовок HTTP запроса [Cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cookie)\n",
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "cookies",
+    "lessonName": "Cookies",
+    "exerciseSlug": "http_cookies_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/cookies/exercise_unit"
+  }
+}

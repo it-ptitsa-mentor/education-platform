@@ -1,0 +1,20 @@
+{
+  "slug": "js-advanced-testing-mocking",
+  "title": "Моки",
+  "language": "javascript",
+  "filesToOpen": [
+    "__tests__/getFilesCount.test.js"
+  ],
+  "studentFiles": [
+    "__tests__/getFilesCount.test.js"
+  ],
+  "readme": "## __tests__/getFilesCount.test.js\n\nПротестируйте функцию `getFilesCount(path, log)`, которая считает количество всех файлов в указанной директории и всех поддиректориях. В отличие от предыдущей версии задания, здесь нас интересует только то, что эта функция выполняет логирование. Мы хотим убедиться, что она один раз отправляет сообщение c текстом 'Go!' в лог. Для этого придётся воспользоваться моком.\n\n### Подсказки\n\n* [toHaveBeenCalledTimes](https://jestjs.io/docs/en/expect#tohavebeencalledtimesnumber)\n* [toHaveBeenCalledWith](https://jestjs.io/docs/en/expect#tohavebeencalledwitharg1-arg2-)\n* Изучите документацию и обратите внимание, где создается мок\n",
+  "hexlet": {
+    "courseSlug": "js-advanced-testing",
+    "courseName": "JS: Продвинутое тестирование",
+    "lessonSlug": "mocking",
+    "lessonName": "Моки",
+    "exerciseSlug": "js_advanced_testing_mocking_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-advanced-testing/lessons/mocking/exercise_unit"
+  }
+}

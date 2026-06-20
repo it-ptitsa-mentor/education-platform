@@ -1,0 +1,20 @@
+{
+  "slug": "js-object-oriented-design-configuration-setters",
+  "title": "Изменяемая конфигурация",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "Для работы с текстом в вебе бывает полезна функция `truncate()`, которая обрезает слишком длинный текст и ставит в конце многоточие:\n\n```javascript\ntruncate('long text', { length: 3 }); // lon...\n```\n\n## solution.js\n\nРеализуйте в классе `Truncater` конструктор и метод `truncate()`. Метод принимает текст и следующие опции:\n* `separator` - символ, заменяющий обрезанную часть строки\n* `length` - максимальная длина исходной строки. Если строка не длиннее, чем эта опция, то возвращается исходная строка.\n\nКонфигурацию по умолчанию можно переопределить через конструктор класса и вторым аргументом метода `truncate()`. Оба способа можно комбинировать.\n\n```javascript\nconst truncater = new Truncater();\ntruncater.truncate('one two'); // 'one two'\ntruncater.truncate('one two', { 'length': 6 }); // 'one tw...'\n\nconst truncater = new Truncater({ 'length': 6 });\ntruncater.truncate('one two', { 'separator': '.' }); // 'one tw.'\ntruncater.truncate('one two', { 'length': 3 }); // 'one...'\n```\n\n### Подсказки\n\n* Опции по умолчанию заданы, как [статическое свойство](https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/static/theory_unit) класса. Обратите на это внимание при объединении исходных опций с пользовательскими.\n* При решении можно (не обязательно) использовать методы [String.prototype.substring()\n](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring) и [String.prototype.concat()\n](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/concat)\n",
+  "hexlet": {
+    "courseSlug": "js-object-oriented-design",
+    "courseName": "JS: Объектно-ориентированный дизайн",
+    "lessonSlug": "configuration-setters",
+    "lessonName": "Изменяемая конфигурация",
+    "exerciseSlug": "js_object_oriented_design_configuration_setters_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-object-oriented-design/lessons/configuration-setters/exercise_unit"
+  }
+}

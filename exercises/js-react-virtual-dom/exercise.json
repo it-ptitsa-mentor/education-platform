@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-virtual-dom",
+  "title": "Virtual Dom",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Modal.jsx"
+  ],
+  "studentFiles": [
+    "src/Modal.jsx"
+  ],
+  "readme": "### src/Modal.jsx\n\nРеализуйте компонент `<Modal>` (Модальное окно)\n\n![Пример работы](assets/example.gif)\n\nИспользование:\n\n```javascript\nexport default class Component extends React.Component {\n  state = { modal: false };\n\n  toggle = (e) => {\n    this.setState({\n      modal: !this.state.modal,\n    });\n  }\n\n  render() {\n    return (\n      <div>\n        <button type=\"button\" className=\"modal-open-button btn btn-danger\" onClick={this.toggle}>Open</button>\n        <Modal isOpen={this.state.modal}>\n          <Modal.Header toggle={this.toggle}>Modal title</Modal.Header>\n          <Modal.Body>\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit\n          </Modal.Body>\n          <Modal.Footer>\n            <button type=\"button\" className=\"modal-close-button btn btn-secondary\" onClick={this.toggle}>Cancel</button>\n          </Modal.Footer>\n        </Modal>\n      </div>\n    );\n  }\n}\n```\n\nHTML закрытого состояния:\n\n```html\n<div>\n  <button type=\"button\" class=\"modal-open-button btn btn-danger\">Open</button>\n  <div class=\"modal\" style=\"display: none;\" role=\"dialog\">\n    <div class=\"modal-dialog\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <div class=\"modal-title\">Modal title</div>\n          <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\">\n          </button>\n        </div>\n        <div class=\"modal-body\">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>\n        <div class=\"modal-footer\">\n          <button type=\"button\" class=\"modal-close-button btn btn-default\">Cancel</button>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n```\n\nВ открытом состоянии строчка: `<div class=\"modal\" style=\"display: none;\">` заменяется на `<div class=\"modal fade show\" style=\"display: block;\">`\n\nУ открытого модального окна две кнопки закрывающие его: крестик справа вверху и кнопка `Cancel` справа внизу.\n\n### Подсказка\n\n* [Modal](https://getbootstrap.com/docs/5.1/components/modal/)\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "virtual-dom",
+    "lessonName": "Virtual Dom",
+    "exerciseSlug": "js_react_virtual_dom_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/virtual-dom/exercise_unit"
+  }
+}

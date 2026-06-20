@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-strings",
+  "title": "Строки",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nНапишите программу, которая выводит на экран:\n\n```bash\n- Did Joffrey agree?\n- He did. He also said \"I love using \\n\".\n```\n\nПри этом программа использует только один `console.log()`, но результат на экране должен выглядеть в точности, как показано выше.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "strings",
+    "lessonName": "Строки",
+    "exerciseSlug": "js_basics_strings_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/strings/exercise_unit"
+  }
+}

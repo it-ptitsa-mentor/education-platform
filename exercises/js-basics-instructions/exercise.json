@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-instructions",
+  "title": "Инструкции",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nВыведите на экран друг за другом три имени: _Robert_, _Stannis_, _Renly_. В результате на экране должно отобразиться:\n\n```text\nRobert\nStannis\nRenly\n```\n\nДля каждого имени используйте свой собственный вызов `console.log()`. Номера строк выводятся автоматически, их не нужно печатать. Нужно выводить только строки с именами.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "instructions",
+    "lessonName": "Инструкции",
+    "exerciseSlug": "js_basics_instructions_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/instructions/exercise_unit"
+  }
+}

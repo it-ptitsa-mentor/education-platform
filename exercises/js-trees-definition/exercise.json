@@ -1,0 +1,20 @@
+{
+  "slug": "js-trees-definition",
+  "title": "Определения",
+  "language": "javascript",
+  "filesToOpen": [
+    "removeFirstLevel.js"
+  ],
+  "studentFiles": [
+    "removeFirstLevel.js"
+  ],
+  "readme": "В этом задании под деревом понимается любой массив элементов, которые в свою очередь могут быть также деревьями (массивами). Пример:\n\n```javascript\n[\n  3, // лист\n  [5, 3], // узел\n  [[2]] // узел\n]\n```\n\nБольше примеров в тестах.\n\n## removeFirstLevel.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход дерево, и возвращает новое, элементами которого являются дети вложенных узлов (см. пример).\n\n### Примеры\n\n```javascript\nimport removeFirstLevel from '../removeFirstLevel.js';\n\n// Второй уровень тут: 5, 3, 4\nconst tree1 = [[5], 1, [3, 4]];\nremoveFirstLevel(tree1); // [5, 3, 4]\n\nconst tree2 = [1, 2, [3, 5], [[4, 3], 2]];\nremoveFirstLevel(tree2);\n// [3, 5, [4, 3], 2]\n```\n\n### Подсказки\n\n* [flat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat) - возвращает новый массив, в котором все элементы вложенных подмассивов были рекурсивно \"подняты\" на указанный уровень. Метод вызывается на массиве, который нужно обработать, например `[[1], 2].flat();`\n* [Array.isArray()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) - проверяет, является ли элемент массивом.\n\n",
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "definition",
+    "lessonName": "Определения",
+    "exerciseSlug": "js_trees_definition_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/definition/exercise_unit"
+  }
+}

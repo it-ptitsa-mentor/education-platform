@@ -1,0 +1,22 @@
+{
+  "slug": "js-introduction-to-oop-to-string",
+  "title": "toString()",
+  "language": "javascript",
+  "filesToOpen": [
+    "Point.js",
+    "Segment.js"
+  ],
+  "studentFiles": [
+    "Point.js",
+    "Segment.js"
+  ],
+  "readme": "## Point.js\n\nРеализуйте метод `toString()`, который преобразует точку к строке в соответствии с примером ниже:\n\n```javascript\nconst point1 = new Point(1, 10);\n\nconsole.log(point1.toString()); // => (1, 10)\n```\n\n## Segment.js\n\nРеализуйте метод `toString()`, который преобразует отрезок к строке в соответствии с примером ниже:\n\n```javascript\nconst point1 = new Point(1, 10);\nconst point2 = new Point(11, -3);\nconst segment1 = new Segment(point1, point2);\nconsole.log(segment1.toString()); // => [(1, 10), (11, -3)]\n\nconst segment2 = new Segment(point2, point1);\nconsole.log(segment2.toString()); // => [(11, -3), (1, 10)]\n```\n",
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "to-string",
+    "lessonName": "toString()",
+    "exerciseSlug": "js_introduction_to_oop_to_string_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/to-string/exercise_unit"
+  }
+}

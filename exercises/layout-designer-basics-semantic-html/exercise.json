@@ -1,0 +1,20 @@
+{
+  "slug": "layout-designer-basics-semantic-html",
+  "title": "Семантический HTML",
+  "language": "html",
+  "filesToOpen": [
+    "index.html"
+  ],
+  "studentFiles": [
+    "index.html"
+  ],
+  "readme": "## index.html\n\nСоздайте семантическую вёрстку шапки страницы в файле **index.html**.\n\nШапка состоит из:\n\n* Логотипа\n* Меню навигации\n\n## Логотип\n\nДля логотипа используйте тег `<img>` с атрибутом `src` и значением `logo.png`. Укажите для изображения атрибут `alt` с любым значением кроме пустого\n\n## Меню\n\nВнутри меню находится маркированный список из четырёх пунктов. Внутри каждого пункта ссылка. В качестве пути используйте символ `#` и дайте ссылкам произвольный текст\n\n## Подсказки\n\n* Маркированный список создаётся с помощью тега `<ul>`\n* Элементы списка не должны быть пустыми, внутри должен быть любой текст, обозначающий пункты меню. Например: Главная, Каталог ресурсов, О проекте, Контакты \n* Используйте семантические элементы для всей шапки и для меню\n",
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "semantic-html",
+    "lessonName": "Семантический HTML",
+    "exerciseSlug": "layout_designer_basics_semantic_html_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/semantic-html/exercise_unit"
+  }
+}

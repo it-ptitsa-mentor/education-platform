@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-ternary-operator",
+  "title": "Тернарный оператор",
+  "language": "javascript",
+  "filesToOpen": [
+    "convertText.js"
+  ],
+  "studentFiles": [
+    "convertText.js"
+  ],
+  "readme": "## convertText.js\n\nРеализуйте функцию `convertText()`, которая принимает на вход строку и, если первая буква не заглавная, возвращает перевернутый вариант исходной строки. Если первая буква заглавная, то строка возвращается без изменений. Если на вход передана пустая строка, функция должна вернуть пустую строку.\n\nПримеры вызова:\n\n```javascript\nconvertText('Hello') // 'Hello'\nconvertText('hello') // 'olleh'\n\n// Не забудьте учесть пустую строку\nconvertText('') // ''\n```\n\nПеревернуть строчку можно используя функцию `reverse()`. Эта функция написана нами специально для этого упражнения. В качестве аргумента в неё нужно передать строку, которую мы хотим перевернуть:\n\n```javascript\nconst result = reverse('Hello!')\nconsole.log(result) // => '!olleH'\n```\n\nЕсть разные подходы к решению этой задачи. Возможно, вам пригодится метод [toUpperCase()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase) и возможность получения символа из строки (например, `str[0]`).\n\nПопробуйте написать два варианта функции: с обычным if-else, и с тернарным оператором.\n\n## Подсказки\n\n* Подумайте какую проверку нужно написать первым делом: проверку заглавности буквы или является ли пустой строка. Что первичнее?\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "ternary-operator",
+    "lessonName": "Тернарный оператор",
+    "exerciseSlug": "js_basics_ternary_operator_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/ternary-operator/exercise_unit"
+  }
+}

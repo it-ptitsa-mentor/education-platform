@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-isset",
+  "title": "Проверка существования значения",
+  "language": "javascript",
+  "filesToOpen": [
+    "arrays.js"
+  ],
+  "studentFiles": [
+    "arrays.js"
+  ],
+  "readme": "## arrays.js\n\nРеализуйте и экспортируйте по умолчанию функцию `get()`, которая извлекает из массива элемент по указанному индексу, если в массиве такой индекс существует. Если индекс не существует, то функция должна вернуть значение по умолчанию. Исходный массив меняться не должен. Функция принимает на вход три аргумента:\n\n* Массив\n* Индекс\n* Значение по умолчанию (равно `null`, если не задано)\n\n```javascript\nconst cities = ['moscow', 'london', 'berlin', 'porto', '', null, undefined]\n\nget(cities, 1) // 'london'\nget(cities, 4) // ''\nget(cities, 10, 'paris') // 'paris'\nget(cities, -1, 'oops') // 'oops'\nget(cities, 5, 'oops') // null\nget(cities, 6, 'oops') // undefined\nget(cities, 7) // null\n```\n\n### Подсказки\n\n* Для параметров функции можно указывать значения по умолчанию прямо при объявлении: `(param = 'default value')`\n* Индекс не существует в том случае, если он выходит за рамки индексов массива, то есть не может быть меньше нуля или больше максимального индекса массива. Если массив пустой, то в нем не может быть индексов\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "isset",
+    "lessonName": "Проверка существования значения",
+    "exerciseSlug": "js_arrays_isset_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/isset/exercise_unit"
+  }
+}

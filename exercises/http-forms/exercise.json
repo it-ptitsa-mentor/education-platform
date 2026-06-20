@@ -1,0 +1,20 @@
+{
+  "slug": "http-forms",
+  "title": "Отправка форм",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## file: solution\n\n* Выполните авторизацию на сайте *hexlet.local* (расположен на *localhost:8080*). Для этого отправьте следующие данные формы: `username` со значением `admin`, `password` со значением `secret` на урл */session/new*. Используйте метод `POST` и тип `application/x-www-form-urlencoded`, протокол HTTP 1.1;\n* Запишите ваш HTTP-запрос в файл *solution*;\n",
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "forms",
+    "lessonName": "Отправка форм",
+    "exerciseSlug": "http_forms_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/forms/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-data-abstraction-invariants",
+  "title": "Инварианты",
+  "language": "javascript",
+  "filesToOpen": [
+    "rational.js"
+  ],
+  "studentFiles": [
+    "rational.js"
+  ],
+  "readme": "## rational.js\n\nРеализуйте абстракцию для работы с рациональными числами, включающую в себя следующие функции:\n\n* Конструктор `makeRational()` - принимает на вход числитель и знаменатель, возвращает дробь в виде объекта.\n* Селектор `getNumer()` - возвращает числитель\n* Селектор `getDenom()` - возвращает знаменатель\n* Сложение `add()` - складывает переданные дроби\n* Вычитание `sub()` - находит разность между двумя дробями\n\nНе забудьте реализовать нормализацию дробей удобным для вас способом.\n\n```javascript\nconst rat1 = makeRational(3, 9)\ngetNumer(rat1) // 1\ngetDenom(rat1) // 3\n\nconst rat2 = makeRational(10, 3)\n\nconst rat3 = add(rat1, rat2)\nratToString(rat3) // '11/3'\n\nconst rat4 = sub(rat1, rat2)\nratToString(rat4) // '-3/1'\n```\n\n### Подсказки\n\n* [Действия с дробями](https://ru.wikipedia.org/wiki/Дробь_(математика)#Действия_с_дробями)\n* Функция `getGcd()` находит наибольший общий делитель двух чисел (уже импортирована в модуль)\n* Функция `ratToString()` возвращает строковое представление числа (используется для отладки)\n* В решении исходите из того, что в знаменателе всегда положительное число. Учитывайте знак только в числителе\n",
+  "hexlet": {
+    "courseSlug": "js-data-abstraction",
+    "courseName": "JS: Абстракция с помощью данных",
+    "lessonSlug": "invariants",
+    "lessonName": "Инварианты",
+    "exerciseSlug": "js_data_abstraction_invariants_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-data-abstraction/lessons/invariants/exercise_unit"
+  }
+}

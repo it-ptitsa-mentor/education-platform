@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-symbols",
+  "title": "Извлечение символов из строки",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nВыведите на экран последний символ строки, находящейся в константе `word`.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "symbols",
+    "lessonName": "Извлечение символов из строки",
+    "exerciseSlug": "js_basics_symbols_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/symbols/exercise_unit"
+  }
+}

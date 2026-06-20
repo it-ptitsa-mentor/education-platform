@@ -1,0 +1,20 @@
+{
+  "slug": "regexp-modifiers",
+  "title": "Модификаторы",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Напишите регулярное выражение, которое находит строки, содержащие символ \"a\" в любом регистре, после которого идет один любой символ, включая перевод строки, затем в конце символ \"b\" в любом регистре. Например, строка \"Axb\" должна соответствовать регулярному выражению\n",
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "modifiers",
+    "lessonName": "Модификаторы",
+    "exerciseSlug": "regexp_modifiers_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/modifiers/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-trees-manipulations",
+  "title": "Манипуляции с виртуальной файловой системой",
+  "language": "javascript",
+  "filesToOpen": [
+    "tree.js"
+  ],
+  "studentFiles": [
+    "tree.js"
+  ],
+  "readme": "## tree.js\n\nРеализуйте и экспортируйте функцию `compressImages()`, которая принимает на вход директорию, находит внутри нее картинки и \"сжимает\" их. Под сжиманием понимается уменьшение свойства `size` в метаданных в два раза. Функция должна вернуть новую директорию со сжатыми картинками и всеми остальными данными, которые были внутри этой директории. Проверять вложенные директории не нужно, то есть функция должна находить только те картинки, которые лежат в текущей, но не во внутренних директориях.\n\nКартинками считаются все файлы заканчивающиеся на *.jpg*.\n\n### Примеры\n\n```javascript\nconst tree = fsTrees.mkdir('my documents', [\n  fsTrees.mkfile('avatar.jpg', { size: 100 }),\n  fsTrees.mkfile('passport.jpg', { size: 200 }),\n  fsTrees.mkfile('family.jpg', { size: 150 }),\n  fsTrees.mkfile('addresses', { size: 125 }),\n  fsTrees.mkdir('presentations'),\n]);\n\nconst newTree = compressImages(tree);\n// То же самое, что и tree, но во всех картинках размер уменьшен в два раза\n```\n",
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "manipulations",
+    "lessonName": "Манипуляции с виртуальной файловой системой",
+    "exerciseSlug": "js_trees_manipulations_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/manipulations/exercise_unit"
+  }
+}

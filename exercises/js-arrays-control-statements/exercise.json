@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-control-statements",
+  "title": "Управляющие инструкции",
+  "language": "javascript",
+  "filesToOpen": [
+    "arrays.js"
+  ],
+  "studentFiles": [
+    "arrays.js"
+  ],
+  "readme": "## arrays.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход в виде массива кошелек с деньгами и название валюты и возвращает сумму денег указанной валюты.\n\nПараметры функции:\n\n* Массив, содержащий купюры разных валют с различными номиналами\n* Наименование валюты\n\nРеализуйте данную функцию, используя управляющие инструкции:\n\n```javascript\nconst money1 = [\n  'eur 10', 'usd 1', 'usd 10', 'rub 50', 'usd 5',\n]\ngetTotalAmount(money1, 'usd') // 16\n\nconst money2 = [\n  'eur 10', 'usd 1', 'eur 5', 'rub 100', 'eur 20', 'eur 100', 'rub 200',\n]\ngetTotalAmount(money2, 'eur') // 135\n\nconst money3 = [\n  'eur 10', 'rub 50', 'eur 5', 'rub 10', 'rub 10', 'eur 100', 'rub 200',\n]\ngetTotalAmount(money3, 'rub') // 270\n```\n\n### Подсказки\n\n* Названия валют состоят из трех символов\n* Для преобразования строки в число используйте [Number()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number)\n* Для извлечения подстроки из строки используйте метод [slice()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/slice)\n\n  ```javascript\n  const str = 'some text'\n  str.slice(1, 6) // 'ome t'\n  str.slice(7) // 'xt'\n  ```\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "control-statements",
+    "lessonName": "Управляющие инструкции",
+    "exerciseSlug": "js_arrays_control_statements_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/control-statements/exercise_unit"
+  }
+}

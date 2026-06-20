@@ -1,0 +1,20 @@
+{
+  "slug": "regexp-quantifiers",
+  "title": "Квантификация",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\nНапишите регулярное выражение, которое находит электронную почту, удовлетворяющую следующим условиям:\n\n* Часть до `@` должна содержать только символы класса `\\w` в количестве не менее одного\n* Часть после `@` и до `.`, после которой начинается домен, должна содержать только буквы и быть не короче трех символов (например, `hexlet`)\n* Часть после `.` может содержать только буквы и быть от двух до пяти символов в длину (например, `io`)\n",
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "quantifiers",
+    "lessonName": "Квантификация",
+    "exerciseSlug": "regexp_quantifiers_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/quantifiers/exercise_unit"
+  }
+}

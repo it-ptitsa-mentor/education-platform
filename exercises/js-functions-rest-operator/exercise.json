@@ -1,0 +1,20 @@
+{
+  "slug": "js-functions-rest-operator",
+  "title": "Оператор Rest (упаковка аргументов)",
+  "language": "javascript",
+  "filesToOpen": [
+    "math.js"
+  ],
+  "studentFiles": [
+    "math.js"
+  ],
+  "readme": "## math.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая возвращает среднее арифметическое всех переданных аргументов. Если функции не передать ни одного аргумента, то она должна вернуть `null`.\n\n### Примеры\n\n```javascript\naverage(0); // 0\naverage(0, 10); // 5\naverage(-3, 4, 2, 10); // 3.25\naverage(); // null\n```\n\n### Подсказки\n\n* Используйте функцию [sum](https://es-toolkit.slash.page/reference/math/sum.html) из библиотеки es-toolkit.\n",
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "rest-operator",
+    "lessonName": "Оператор Rest (упаковка аргументов)",
+    "exerciseSlug": "js_functions_rest_operator_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/rest-operator/exercise_unit"
+  }
+}

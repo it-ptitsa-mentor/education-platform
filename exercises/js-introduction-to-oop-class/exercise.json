@@ -1,0 +1,20 @@
+{
+  "slug": "js-introduction-to-oop-class",
+  "title": "Класс",
+  "language": "javascript",
+  "filesToOpen": [
+    "Cart.js"
+  ],
+  "studentFiles": [
+    "Cart.js"
+  ],
+  "readme": "## Cart.js\n\nРеализуйте и экспортируйте по умолчанию класс _Cart_, представляющий собой покупательскую корзину. Интерфейс:\n\n1. `addItem(item, count)` – добавляет в корзину товары и их количество. Товар это объект у которого два свойства: `name` – имя и `price` – стоимость.\n2. `getItems` – возвращает товары в формате `[{ item, count }, { item, count }, ...]`\n3. `getCost` – возвращает стоимость корзины. Общая стоимость корзины высчитывается как стоимость всех добавленных товаров с учетом их количества.\n4. `getCount` – возвращает количество товаров в корзине\n\n### Примеры\n\n```javascript\nconst cart = new Cart();\ncart.addItem({ name: 'car', price: 3 }, 5);\ncart.addItem({ name: 'house', price: 10 }, 2);\ncart.getItems().length; // 2\ncart.getCost(); // 35\ncart.getItems();\n// [\n//   { item: { name: 'car', price: 3 }, count: 5 },\n//   { item: { name: 'house', price: 10 }, count: 2 },\n// ]\n\n```\n",
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "class",
+    "lessonName": "Класс",
+    "exerciseSlug": "js_introduction_to_oop_class_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/class/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-state",
+  "title": "Состояние",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/BtnGroup.jsx"
+  ],
+  "studentFiles": [
+    "src/BtnGroup.jsx"
+  ],
+  "readme": "### src/BtnGroup.jsx\n\nРеализуйте компонент _BtnGroup_, который отрисовывает две кнопки. Нажатие на любую из кнопок делает ее активной, а другую неактивной. При первой загрузке ни одна из кнопок не нажата.\n\nПример использования:\n\n```javascript\n<BtnGroup />\n```\n\nРезультат:\n\n```html\n<div class=\"btn-group\" role=\"group\">\n  <button type=\"button\" class=\"btn btn-secondary left\">Left</button>\n  <button type=\"button\" class=\"btn btn-secondary right\">Right</button>\n</div>\n```\n\nПосле нажатия на левую кнопку, добавляется класс `active`. В результате список классов выглядит так:\n`btn btn-secondary left active`. У правой кнопки поведение соответствующее.\n\n### Подсказки\n\n* [Button Group](https://getbootstrap.com/docs/5.1/components/button-group/)\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "state",
+    "lessonName": "Состояние",
+    "exerciseSlug": "js_react_state_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/state/exercise_unit"
+  }
+}

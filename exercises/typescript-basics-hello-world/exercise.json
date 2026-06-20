@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-hello-world",
+  "title": "Привет, Мир!",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nНаберите в редакторе код из задания символ в символ и нажмите «Проверить».\n\n```javascript\nconsole.log('Hello, World!');\n```\n\nВнимание: если вы напишете `heLLo, woRld!` вместо `Hello, World!`, то это будет считаться другим текстом, потому что заглавные и строчные буквы — это разные символы. Размер буквы называют _регистром_, и говорят: _регистр — важен!_ Это касается почти всего в коде, поэтому привыкайте всегда обращать внимание на регистр.\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "hello-world",
+    "lessonName": "Привет, Мир!",
+    "exerciseSlug": "typescript_basics_hello_world_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/hello-world/exercise_unit"
+  }
+}

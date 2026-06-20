@@ -1,0 +1,20 @@
+{
+  "slug": "cli-basics-environment-variables",
+  "title": "Переменные окружения",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\nВыполните следующие задачи:\n\n1. В списке переменных окружения локальной среды Хекслета есть переменная, имя которой начинается на букву \"M\". Глобально измените значение этой переменной на _/var/tmp_\n2. Глобально добавьте новую переменную окружения `NEW_VAR` и установите для нее значение `value`\n3. Запишите команду, которая выполнит эти операции, в файл _solution_ в одну строку\n\n### Подсказки\n\n* [export](https://man7.org/linux/man-pages/man1/export.1p.html)\n* Установить новую переменную окружения можно точно так же, как изменить значение существующей\n* При помощи команды `export` можно установить несколько переменных окружения. Для этого достаточно указать их через пробел:\n\n  ```bash\n  export name1=value1 name2=value2\n  ```\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "environment-variables",
+    "lessonName": "Переменные окружения",
+    "exerciseSlug": "cli_basics_environment_variables_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/environment-variables/exercise_unit"
+  }
+}

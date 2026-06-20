@@ -1,0 +1,20 @@
+{
+  "slug": "js-testing-power-assert",
+  "title": "Библиотека power-assert",
+  "language": "javascript",
+  "filesToOpen": [
+    "tests/indexOf.test.js"
+  ],
+  "studentFiles": [
+    "tests/indexOf.test.js"
+  ],
+  "readme": "## tests/indexOf.test.js\n\nНапишите тесты для функции `indexOf(items, value, [fromIndex=0])`, которая возвращает индекс первого вхождения переданного элемента в массив, начиная поиск с индекса `fromIndex`, значение которого по умолчанию равно нулю:\n\n```javascript\nindexOf([1, 2, 1, 2], 2); // 1\nindexOf([1, 2, 1, 2], 2, 2); // 3\nindexOf([2, 'one', 'cat', false], 8); // -1\n```\n\n### Подсказки\n\n* [_.indexOf](https://lodash.com/docs#indexOf)\n* Помните о пограничных случаях, например, если массив пустой\n",
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "power-assert",
+    "lessonName": "Библиотека power-assert",
+    "exerciseSlug": "js_testing_power_assert_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/power-assert/exercise_unit"
+  }
+}

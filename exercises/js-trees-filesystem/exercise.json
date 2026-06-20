@@ -1,0 +1,20 @@
+{
+  "slug": "js-trees-filesystem",
+  "title": "Виртуальная файловая система",
+  "language": "javascript",
+  "filesToOpen": [
+    "generator.js"
+  ],
+  "studentFiles": [
+    "generator.js"
+  ],
+  "readme": "## generator.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая создает и возвращает такую файловую систему (порядок элементов важен):\n\n```bash\n# Обратите внимание на метаданные\n\nnodejs-package # директория (метаданные: { hidden: true })\n├── Makefile # файл\n├── README.md # файл\n├── dist # пустая директория\n├── __tests__ # директория\n│   └── half.test.js # файл (метаданные: { type: 'text/javascript' })\n├── babel.config.js # файл (метаданные: { type: 'text/javascript' })\n└── node_modules # директория (метаданные: { owner: 'root', hidden: false })\n    └── @babel # директория\n        └── cli # директория\n            └── LICENSE # файл\n```\n",
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "filetree",
+    "lessonName": "Виртуальная файловая система",
+    "exerciseSlug": "js_trees_filesystem_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/filetree/exercise_unit"
+  }
+}

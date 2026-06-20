@@ -1,0 +1,22 @@
+{
+  "slug": "http-https",
+  "title": "HTTPS",
+  "language": "shell",
+  "filesToOpen": [
+    "http_solution",
+    "https_solution"
+  ],
+  "studentFiles": [
+    "http_solution",
+    "https_solution"
+  ],
+  "readme": "HTTP сервер работает на `localhost:8080`, HTTPS — на `localhost:8443`. Сделайте запрос по разным портам и получите ответ, содержащий статус ответа, заголовки и тело.\n\nДля отображения заголовков ответа используйте флаг `-i`.\n\n## http_solution\n\n* Сделайте GET запрос на главную страницу сайта, расположенного на *localhost:8080* с помощью `curl`. В результате вы должны получить ответ, содержащий статус ответа, заголовки и тело\n* Скопируйте и запишите статус ответа, заголовки и тело полученного ответа в *http_solution*\n\n## https_solution\n\n* Аналогично сделайте GET запрос на главную сайта, расположеного на *https://localhost:8443* с помощью `curl`\n* Запишите статус, заголовки и тело полученного ответа в *https_solution*\n\nВ этой практике сертификат https самоподписной, то есть сгенерирован на сервере и не подтвержден CA (Certificate Authority). Потому при запросе на него через `curl` будет ошибка, что сертификату нельзя доверять. Вы можете проигнорировать проверку подлинности с помощью флага `-k`. [Подробнее](https://curl.se/docs/sslcerts.html).\n\n## Подсказки\n\n* Не путайте порты: при подключении не к тому порту вы получите ошибку\n",
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "https",
+    "lessonName": "HTTPS",
+    "exerciseSlug": "http_https_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/https/exercise_unit"
+  }
+}

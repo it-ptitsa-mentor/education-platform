@@ -1,0 +1,20 @@
+{
+  "slug": "js-dom-js",
+  "title": "JavaScript в браузере",
+  "language": "javascript",
+  "filesToOpen": [
+    "index.html"
+  ],
+  "studentFiles": [
+    "index.html"
+  ],
+  "readme": "В этом упражнении мы потренируемся подключать JavaScript-файл к странице напрямую. Сам код писать не придется.\n\nПрактика в этом курсе работает по-особому. Обратите внимание на кнопку «веб-доступ» справа. Она открывает доступ к страницам, которые разрабатываются в процессе этого курса. Именно на этой странице нужно смотреть получаемый результат и ошибки в консоли браузера.\n\nПосмотрите в директорию *public*. Внутри нее лежат два файла:\n\n* *index.html* – этот файл загружается в браузер и отрисовывается им\n* *src/index.js* – этот файл, который нужно подключить к *index.html*\n\n## index.html\n\nПодключите файл *src/index.js*, используя тег `<script>`.\n\nВ веб-доступе откройте DevTools, попробуйте в консоли вызвать функцию, которая определена в файле *index.js*.\n",
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "js",
+    "lessonName": "JavaScript в браузере",
+    "exerciseSlug": "js_dom_js_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/js/exercise_unit"
+  }
+}

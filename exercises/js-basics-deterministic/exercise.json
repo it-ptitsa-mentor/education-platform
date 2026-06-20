@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-deterministic",
+  "title": "Детерминированность",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nФункция `Math.random()` возвращает случайное число от 0 до 1 с большим количеством знаков после запятой. Но в реальных задачах бывает нужно получать случайные целые числа, например, в диапазоне от 0 до 10 включительно. Реализуйте код, который выводит на экран именно такое число. Для этой задачи вам понадобятся функции [Math.random()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math/random) и [Math.floor()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)\n\nПопробуйте решить это задание в одну строчку\n\n### Алгоритм\n\nТак как `Math.random()` возвращает числа в диапазоне от 0 (включительно) до 1 (не включая саму единицу), то чтобы получить числа от 0 до 10 включительно, нам нужно выполнить умножение на 11. Затем получившиеся число округляется до ближайшего меньшего целого. И так мы получаем то, что нужно.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "deterministic",
+    "lessonName": "Детерминированность",
+    "exerciseSlug": "js_basics_deterministic_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/deterministic/exercise_unit"
+  }
+}

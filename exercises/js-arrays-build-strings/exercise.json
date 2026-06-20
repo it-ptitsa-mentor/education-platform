@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-build-strings",
+  "title": "Генерация строки в цикле",
+  "language": "javascript",
+  "filesToOpen": [
+    "strings.js"
+  ],
+  "studentFiles": [
+    "strings.js"
+  ],
+  "readme": "\n[//]: # (fixme eslint no-restricted-syntax)\n\n## strings.js\n\nРеализуйте функцию `buildDefinitionList()`, которая генерирует HTML список определений (теги `<dl>`, `<dt>` и `<dd>`) и возвращает получившуюся строку. При отсутствии элементов в массиве функция возвращает пустую строку. Экспортируйте функцию по умолчанию.\n\n### Параметры функции\n\n* Список определений следующего формата:\n\n    ```javascript\n    const definitions = [\n      ['definition1', 'description1'],\n      ['definition2', 'description2'],\n    ]\n    ```\n\n    То есть каждый элемент входного списка сам является массивом, содержащим два элемента: термин и его определение.\n\n### Пример использования\n\n```javascript\nconst definitions = [\n  ['Блямба', 'Выпуклость, утолщения на поверхности чего-либо'],\n  ['Бобр', 'Животное из отряда грызунов'],\n]\n\nbuildDefinitionList(definitions)\n// '<dl><dt>Блямба</dt><dd>Выпуклость, утолщения на поверхности чего-либо</dd><dt>Бобр</dt><dd>Животное из отряда грызунов</dd></dl>';\n```\n\n### Подсказки\n\n* Описания тэгов: [dl](https://developer.mozilla.org/ru/docs/Web/HTML/Element/dl), [dt](https://developer.mozilla.org/ru/docs/Web/HTML/Element/dt), [dd](https://developer.mozilla.org/ru/docs/Web/HTML/Element/dd)\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "build-strings",
+    "lessonName": "Генерация строки в цикле",
+    "exerciseSlug": "js_arrays_build_strings_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/build-strings/exercise_unit"
+  }
+}

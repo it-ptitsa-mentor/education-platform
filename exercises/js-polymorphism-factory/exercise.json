@@ -1,0 +1,24 @@
+{
+  "slug": "js-polymorphism-factory",
+  "title": "Паттерн Фабрика",
+  "language": "javascript",
+  "filesToOpen": [
+    "parsers/YamlParser.js",
+    "ConfigFactory.js",
+    "parsers/JsonParser.js"
+  ],
+  "studentFiles": [
+    "parsers/YamlParser.js",
+    "ConfigFactory.js",
+    "parsers/JsonParser.js"
+  ],
+  "readme": "## ConfigFactory.js\n\nСоздайте фабрику, которая принимает на вход путь до файла конфигурации в формате либо _json_, либо _yaml_ и возвращает объект класса _Config_. Конструктор класса _Config_ принимает на вход объект с данными, полученными из конфигурационных файлов и предоставляет к нему доступ с помощью метода _getValue_.\n\n### Пример\n\n```javascript\nimport path from 'path';\nimport ConfigFactory from '../ConfigFactory.js';\n\nconst filePath = path.join(__dirname, '__fixtures__', 'test.yml');\nconst config = ConfigFactory.factory(filePath);\nconfig.getValue('key'); // value\nconsole.log(config.constructor.name); // Config\n```\n\nУчтите что файлы формата YAML могут иметь разные расширения: _yaml_ и _yml_. Фабрика должна работать с обоими.\n\n## parsers/JsonParser.js\n\nРеализуйте класс, отвечающий за парсинг _json_. Используйте внутри `JSON.parse()`.\n\n## parsers/YamlParser.js\n\nРеализуйте класс, отвечающий за парсинг _yaml_. Для парсинга используется сторонний компонент [js-yaml](https://github.com/nodeca/js-yaml#js-yaml---yaml-12-parser--writer-for-javascript). Используйте метод `load()`.\n\n\n### Подсказки \n\n* Получить расширение файла можно с помощью [path.extname()](https://nodejs.org/dist/latest-v10.x/docs/api/path.html#path_path_extname_path)\n* Для чтения файлов используйте [fs.readFileSync()](https://nodejs.org/dist/latest-v10.x/docs/api/fs.html#fs_fs_readfilesync_path_options)\n",
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "factory",
+    "lessonName": "Паттерн Фабрика",
+    "exerciseSlug": "js_polymorphism_factory_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/factory/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-classnames",
+  "title": "Обработка имён классов",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Alert.jsx"
+  ],
+  "studentFiles": [
+    "src/Alert.jsx"
+  ],
+  "readme": "### src/Alert.jsx\n\nРеализуйте и экспортируйте по умолчанию компонент _Alert_, который отрисовывает алерт бутстрапа. Компонент принимает на вход\nдва свойства:\n\n* _text_ - отображаемый текст\n* _type_ - тип алерта, может принимать одно из следующих значений: _primary_, _secondary_, _success_, _danger_, _warning_, _info_, _light_, _dark_;\n\nПример использования:\n\n```javascript\n<Alert type=\"warning\" text=\"what is love?\" />;\n```\n\nВывод:\n\n```html\n<div class=\"alert alert-warning\" role=\"alert\">what is love?</div>\n```\n\n### Подсказки\n\n* [Alerts](https://getbootstrap.com/docs/4.0/components/alerts/)\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "classnames",
+    "lessonName": "Обработка имён классов",
+    "exerciseSlug": "js_react_classnames_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/classnames/exercise_unit"
+  }
+}

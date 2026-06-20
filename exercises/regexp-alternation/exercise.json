@@ -1,0 +1,20 @@
+{
+  "slug": "regexp-alternation",
+  "title": "Альтернатива",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\nНапишите регулярное выражение, которое соответствует подстрокам `one`, `two` или `three`.\n",
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "alternation",
+    "lessonName": "Альтернатива",
+    "exerciseSlug": "regexp_alternation_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/alternation/exercise_unit"
+  }
+}

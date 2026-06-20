@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-aggregation",
+  "title": "Агрегация данных",
+  "language": "javascript",
+  "filesToOpen": [
+    "joinNumbersFromRange.js"
+  ],
+  "studentFiles": [
+    "joinNumbersFromRange.js"
+  ],
+  "readme": "## joinNumbersFromRange.js\n\nРеализуйте функцию `joinNumbersFromRange()`, которая объединяет все числа из диапазона в строку и возвращает её:\n\n```javascript\njoinNumbersFromRange(1, 1) // '1'\njoinNumbersFromRange(2, 3) // '23'\njoinNumbersFromRange(5, 10) // '5678910'\n```\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "aggregation",
+    "lessonName": "Агрегация данных",
+    "exerciseSlug": "js_basics_aggregation_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/aggregation/exercise_unit"
+  }
+}

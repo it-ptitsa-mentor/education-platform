@@ -1,0 +1,20 @@
+{
+  "slug": "js-advanced-testing-errors",
+  "title": "Тестирование ошибок",
+  "language": "javascript",
+  "filesToOpen": [
+    "__tests__/read.test.js"
+  ],
+  "studentFiles": [
+    "__tests__/read.test.js"
+  ],
+  "readme": "## __tests__/gt.test.js\n\nИмеется функция `read()`, которая принимает в качестве аргумента путь до файла в виде строки и читает содержимое указанного файла. Напишите негативные тесты функции `read()`, проверяющие ошибочные ситуации. Рассмотрите следующие ситуации:\n\n* Файл не найден\n* В функцию передан путь до существующей директории\n\n```javascript\nread('/undefined') // boom!\nread('/etc') // boom!\n```\n",
+  "hexlet": {
+    "courseSlug": "js-advanced-testing",
+    "courseName": "JS: Продвинутое тестирование",
+    "lessonSlug": "errors",
+    "lessonName": "Тестирование ошибок",
+    "exerciseSlug": "js_advanced_testing_errors_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-advanced-testing/lessons/errors/exercise_unit"
+  }
+}

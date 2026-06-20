@@ -1,0 +1,20 @@
+{
+  "slug": "js-object-oriented-design-fluent-interface",
+  "title": "Fluent Interface",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "*Эту задачу можно решить огромным числом способов. Почти наверняка ваш способ будет не такой, как решение учителя.*\n\nМы не даём никаких подсказок насчет того, какие функции нужно использовать. Как минимум вы знаете главную тройку `map`, `filter` и `reduce`.\n\n## solution.js\n\nРеализуйте и экспортируйте по умолчанию функцию `normalize()` которая принимает на вход список городов и стран, нормализует их имена, сортирует города и группирует их по стране.\n\n```javascript\nimport normalize from './solution.js';\n\nconst countries = [\n  { name: 'Miami', country: 'usa' },\n  { name: 'samarA', country: '  ruSsiA' },\n  { name: 'Moscow ', country: ' Russia' },\n];\n\nnormalize(countries);\n// {\n//   russia: [\n//     'moscow',\n//     'samara',\n//   ],\n//   usa: [\n//     'miami',\n//   ],\n// }\n```\n\n### Подсказки\n\n* [Сигналы](https://ru.hexlet.io/courses/js-functions/lessons/signals/theory_unit)\n* Получить только уникальные значения можно через специальный объект [Set](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Set)\n* [Урок Set](https://ru.hexlet.io/courses/js_collections/lessons/set/theory_unit)\n",
+  "hexlet": {
+    "courseSlug": "js-object-oriented-design",
+    "courseName": "JS: Объектно-ориентированный дизайн",
+    "lessonSlug": "fluent-interface",
+    "lessonName": "Fluent Interface",
+    "exerciseSlug": "js_object_oriented_design_fluent_interface_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-object-oriented-design/lessons/fluent-interface/exercise_unit"
+  }
+}

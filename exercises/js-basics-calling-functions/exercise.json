@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-calling-functions",
+  "title": "Функции и их вызов",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nВыведите на экран абсолютное значение числа, находящегося в константе `fruitsCount`, используя функцию [Math.abs()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs). Эта функция возвращает абсолютное значение переданного числа. Абсолютное значения числа — это само это число без знака перед ним.\n\n```javascript\nMath.abs(-3) // 3\nMath.abs(3) // 3\nMath.abs(0) // 0\n```\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "calling-functions",
+    "lessonName": "Функции и их вызов",
+    "exerciseSlug": "js_basics_calling_functions_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/calling-functions/exercise_unit"
+  }
+}

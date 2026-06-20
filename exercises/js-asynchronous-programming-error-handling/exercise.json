@@ -1,0 +1,20 @@
+{
+  "slug": "js-asynchronous-programming-error-handling",
+  "title": "Обработка ошибок",
+  "language": "javascript",
+  "filesToOpen": [
+    "file.js"
+  ],
+  "studentFiles": [
+    "file.js"
+  ],
+  "readme": "### file.js\n\nРеализуйте и экспортируйте функцию `move`, которая асинхронно перемещает файл из одного места в другое. Ее параметры:\n\n1. Путь до файла исходника\n2. Путь по которому нужно копировать файл\n3. Колбек, у которого единственный аргумент — ошибка.\n\nАлгоритм работы функции следующий:\n\n1. Читаем исходный файл\n1. Создаём новый файл и записываем туда данные исходного файла (это важно сделать до попытки удаления исходного файла!)\n1. Удаляем исходный файл\n\n_Реальная функция move устроена не так. Если исходник и приемник находятся на одном устройстве, то копирования не происходит, меняются лишь указатели в фс_\n\n```javascript\nimport { move } from './file.js'\n\nmove('/opt/myfile', '/tmp/newfile', (error) => {\n  if (error) {\n    console.log('oops')\n    return\n  }\n  console.log('yes!')\n})\n```\n\nДругие примеры смотрите в тестах\n\n### Подсказки\n\n* [fs.unlink](https://nodejs.org/api/fs.html#fsunlinkpath-callback) - удаление файла\n* [fs.readFile](https://nodejs.org/api/fs.html#fsreadfilepath-options-callback) - чтение файла\n* [fs.writeFile](https://nodejs.org/api/fs.html#fswritefilefile-data-options-callback) - запись в файл\n",
+  "hexlet": {
+    "courseSlug": "js-asynchronous-programming",
+    "courseName": "JS: Асинхронное программирование",
+    "lessonSlug": "error-handling",
+    "lessonName": "Обработка ошибок",
+    "exerciseSlug": "js_asynchronous_programming_error_handling_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-asynchronous-programming/lessons/error-handling/exercise_unit"
+  }
+}

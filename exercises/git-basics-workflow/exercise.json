@@ -1,0 +1,20 @@
+{
+  "slug": "git-basics-workflow",
+  "title": "Рабочий процесс",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Если в процессе что-то пошло не так, то всегда можно \"сбросить прогресс\" и попробовать заново. Не бойтесь экспериментировать.\n\n# code-user/\n\nРепозиторий для работы находится в директории *code-user*. Перейти в неё нужно в терминале.\n\nДобавьте в репозиторий два файла двумя разными коммитами, файлы нужно создать, если их нет:\n\n1. Файл _hexlet.txt_ с текстом *Hello, Hexlet!* внутри\n2. Файл _index.html_ с текстом `<h1>Мама, я коммичу</h1>` внутри\n\n## Подсказки\n\n* *pwd* – текущая директория\n* *cd* – переход в другую директорию\n",
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "workflow",
+    "lessonName": "Рабочий процесс",
+    "exerciseSlug": "git_basics_workflow_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/workflow/exercise_unit"
+  }
+}

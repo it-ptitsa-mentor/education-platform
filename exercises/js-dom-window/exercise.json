@@ -1,0 +1,24 @@
+{
+  "slug": "js-dom-window",
+  "title": "Глобальный объект Window",
+  "language": "javascript",
+  "filesToOpen": [
+    "index.html",
+    "src/reader.js",
+    "src/writer.js"
+  ],
+  "studentFiles": [
+    "index.html",
+    "src/reader.js",
+    "src/writer.js"
+  ],
+  "readme": "В этом упражнении мы потренируемся использовать `window` для хранения глобальных переменных. Это просто тренировка, которая поможет нам лучше понять принципы работы. Но хотим напомнить: использовать такие подходы в реальном кодинге очень опасно, поэтому избегайте их.\n\n## index.html\n\nПодключите файлы *writer.js* и *reader.js* в HTML в том же порядке, в котором они указаны тут.\n\n## src/writer.js\n\nСоздайте глобальную переменную с именем `myvar` и значением `'Dont do it in real life'`.\n\n## src/reader.js\n\nВыведите в консоль значение глобальной переменной `myvar`.\n\nОткройте консоль браузера и убедитесь, что текст вывелся.\n",
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "window",
+    "lessonName": "Глобальный объект Window",
+    "exerciseSlug": "js_dom_window_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/window/exercise_unit"
+  }
+}

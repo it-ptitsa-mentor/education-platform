@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-children",
+  "title": "Children",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/ListGroup.jsx"
+  ],
+  "studentFiles": [
+    "src/ListGroup.jsx"
+  ],
+  "readme": "### src/ListGroup.jsx\n\nРеализуйте и экспортируйте по умолчанию компонент `ListGroup`, который отрисовывает переданных детей, оборачивая\nих в список.\n\nПример использования:\n\n```javascript\n<ListGroup>\n  <p>one</p>\n  <p>two</p>\n</ListGroup>;\n```\n\nРезультат:\n\n```html\n<ul class=\"list-group\">\n  <li class=\"list-group-item\"><p>one</p></li>\n  <li class=\"list-group-item\"><p>two</p></li>\n</ul>\n```\n\n\n### Подсказки\n\n* [List Group](https://getbootstrap.com/docs/4.0/components/list-group/)\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "children",
+    "lessonName": "Children",
+    "exerciseSlug": "js_react_children_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/children/exercise_unit"
+  }
+}

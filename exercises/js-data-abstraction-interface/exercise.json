@@ -1,0 +1,20 @@
+{
+  "slug": "js-data-abstraction-interface",
+  "title": "Интерфейсы",
+  "language": "javascript",
+  "filesToOpen": [
+    "points.js"
+  ],
+  "studentFiles": [
+    "points.js"
+  ],
+  "readme": "В этой задаче тесты написаны для отрезков, которые, в свою очередь, используют точки. Ваша задача — реализовать интерфейсные функции для работы с точками. Внутреннее представление точек должно быть основано на полярной системе координат, хотя интерфейс предполагает работу с декартовой системой (снаружи). Для обозначения координат используются целые числа.\n\n## points.js\n\nРеализуйте интерфейсные функции точек:\n\n* `getX(point)`\n* `getY(point)`\n\n`makePoint(x, y)`. Принимает на вход координаты и возвращает точку. Уже реализован.\n\n```javascript\nconst x = 4\nconst y = 8\n\n// point хранит в себе данные в полярной системе координат\nconst point = makePoint(x, y)\n\n// Здесь происходит преобразование из полярной в декартову\ngetX(point) // 4\ngetY(point) // 8\n```\n\n### Подсказки\n\n* Трансляция декартовых координат в полярные была описана в теории\n* Получить x можно по формуле `radius * cos(angle)`\n* Получить y можно по формуле `radius * sin(angle)`\n* Результат вычислений необходимо округлить к ближайшему целому (согласно правилам математического округления)\n",
+  "hexlet": {
+    "courseSlug": "js-data-abstraction",
+    "courseName": "JS: Абстракция с помощью данных",
+    "lessonSlug": "interface",
+    "lessonName": "Интерфейсы",
+    "exerciseSlug": "js_data_abstraction_interface_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-data-abstraction/lessons/interface/exercise_unit"
+  }
+}

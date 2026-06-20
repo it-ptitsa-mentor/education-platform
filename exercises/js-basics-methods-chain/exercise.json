@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-methods-chain",
+  "title": "Цепочка вызовов",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nС помощью метода `.slice()` получите часть предложения, записанного в константу `text`, c `6` по `13` символы включительно. В полученной подстроке с помощью метода `.replace()` замените слово `you` на `someone` и выведите на экран длину итоговой подстроки. Выполните эти методы подряд в цепочке без создания промежуточных переменных.\n\n* [slice()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/slice)\n* [replace()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/replace)\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "methods-chain",
+    "lessonName": "Цепочка вызовов",
+    "exerciseSlug": "js_basics_methods_chain_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/methods-chain/exercise_unit"
+  }
+}

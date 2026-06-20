@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-iteration-over-strings",
+  "title": "Обход строк в цикле",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nРеализуйте функцию `mySubstr()`, которая извлекает из строки подстроку указанной длины. Она принимает на вход два аргумента (строку и длину) и возвращает подстроку, начиная с первого символа:\n\n```javascript\nconst text = 'If I look back I am lost'\nconsole.log(mySubstr(text, 1)) // => 'I'\nconsole.log(mySubstr(text, 7)) // => 'If I lo'\n```\n\nПредполагается, что аргумент, обозначающий длину извлекаемой подстроки, не может быть длиннее самой строки. То есть можно не добавлять проверку этого аргумента, так как в функцию передается всегда корректное значение.\n\nИспользуйте тот же подход, что в функции для переворота строки из урока: собирайте строку-результат в цикле, перебирая начальную строку до определённого момента.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "iteration-over-strings",
+    "lessonName": "Обход строк в цикле",
+    "exerciseSlug": "js_basics_iteration_over_strings_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/iteration-over-strings/exercise_unit"
+  }
+}

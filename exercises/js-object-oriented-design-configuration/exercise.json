@@ -1,0 +1,20 @@
+{
+  "slug": "js-object-oriented-design-configuration",
+  "title": "Конфигурация",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "Валидация - процесс проверки корректности данных. В вебе происходит всегда при отправке форм, например, регистрация на многих сайтах проверяет корректность введённого емейла, его уникальность (что такого пользователя ещё нет).\n\nКаждый тип валидации в таких системах обычно представлен классом-валидатором, который принимает на вход опции и предоставляет интерфейс в виде функции `validate()`. Эта функция принимает на вход то, что проверяется (валидируется) и возвращает массив или объект с ошибками. Если объект пустой, значит ошибок нет.\n\n## solution.js\n\nРеализуйте и экспортируйте по умолчанию класс `PasswordValidator`, ориентируясь на тесты.\n\nЭтот валидатор поддерживает следующие опции:\n\n* `minLength` (по умолчанию `8`) - минимальная длина пароля\n* `containNumbers` (по умолчанию `true`) - требование содержать хотя бы одну цифру\n\nОпции передаются одним объектом в конструктор валидатора.\n\n```javascript\nconst validator = new PasswordValidator({ containNumbers: false });\nvalidator.validate('qwertyui'); // {}\nvalidator.validate('qwerty'); // { minLength: 'too small' }\n```\n\nОбъект ошибок в ключах содержит название опции, а в значениях текст, указывающий на ошибку (тексты можно подсмотреть в тестах).\n",
+  "hexlet": {
+    "courseSlug": "js-object-oriented-design",
+    "courseName": "JS: Объектно-ориентированный дизайн",
+    "lessonSlug": "configuration",
+    "lessonName": "Конфигурация",
+    "exerciseSlug": "js_object_oriented_design_configuration_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-object-oriented-design/lessons/configuration/exercise_unit"
+  }
+}

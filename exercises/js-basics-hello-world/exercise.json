@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-hello-world",
+  "title": "Hello, World!",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nНаберите в редакторе код из примера ниже символ в символ и нажмите «▶».\n\n```javascript\nconsole.log('Hello, World!')\n```\n\nВнимание: если вы напишете `heLLo, woRld!` вместо `Hello, World!`, то это будет считаться другим текстом, потому что заглавные и строчные буквы — это разные символы. Размер буквы называют _регистром_, и говорят: _регистр — важен!_ Это касается почти всего в коде, поэтому привыкайте всегда обращать внимание на регистр.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "hello-world",
+    "lessonName": "Hello, World!",
+    "exerciseSlug": "js_basics_hello_world_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/hello-world/exercise_unit"
+  }
+}

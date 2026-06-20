@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-variables",
+  "title": "Переменные",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\n1. Изучите код, который уже написан в файле\n1. Найдите в коде все переменные, которые выводятся через `console.log()`\n1. Среди этих переменных найдите ту, которая не объявлена. Объявите эту переменную и присвойте ей значение *Dragon*\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "variables",
+    "lessonName": "Переменные",
+    "exerciseSlug": "js_basics_variables_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/variables/exercise_unit"
+  }
+}

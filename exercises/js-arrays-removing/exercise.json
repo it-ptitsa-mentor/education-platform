@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-removing",
+  "title": "Удаление элементов массива",
+  "language": "javascript",
+  "filesToOpen": [
+    "arrays.js"
+  ],
+  "studentFiles": [
+    "arrays.js"
+  ],
+  "readme": "[//]: # (fixme eslint no-restricted-syntax)\n## arrays.js\n\nРеализуйте функцию `getSameParity()`, которая принимает на вход массив чисел и возвращает новый, состоящий из элементов, у которых такая же чётность, как и у первого элемента входного массива. Экспортируйте функцию по умолчанию.\n\n```javascript\ngetSameParity([]) // []\ngetSameParity([1, 2, 3]) // [1, 3]\ngetSameParity([1, 2, 8]) // [1]\ngetSameParity([2, 2, 8]) // [2, 2, 8]\n```\n\n### Подсказки\n\n* Проверка чётности - остаток от деления: `item % 2 === 0` — чётное число.\n* Если на вход функции передан пустой массив, то она должна вернуть пустой массив.\n* Для работы с отрицательными числами может понадобиться функция нахождения модуля [Math.abs](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)\n\n```javascript\nMath.abs(-1) // 1\nMath.abs(0) // 0\nMath.abs(1) // 1\n```\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "removing",
+    "lessonName": "Удаление элементов массива",
+    "exerciseSlug": "js_arrays_removing_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/removing/exercise_unit"
+  }
+}

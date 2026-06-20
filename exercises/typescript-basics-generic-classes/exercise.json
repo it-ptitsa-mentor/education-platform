@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-generic-classes",
+  "title": "Дженерики на классах",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте класс очереди (`Queue`) с методами `enqueue` и `dequeue`. Метод `enqueue` добавляет элемент в конец очереди, а метод `dequeue` удаляет элемент из начала очереди и возвращает его. Если очередь пуста, то при вызове метода `dequeue` должно быть выброшено исключение `Error`.\n\n```typescript\nconst queue = new Queue<number>();\nqueue.enqueue(1);\nqueue.dequeue(); // 1\nqueue.dequeue(); // Error: Queue is empty\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "generic-classes",
+    "lessonName": "Дженерики на классах",
+    "exerciseSlug": "typescript_basics_generic_classes",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/generic-classes/exercise_unit"
+  }
+}

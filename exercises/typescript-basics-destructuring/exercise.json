@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-destructuring",
+  "title": "Деструктуризация",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `lessonsCount()`, которая принимает на вход курс и возвращает количество лекций внутри него:\n\n```typescript\nconst course = { lessons: ['intro', 'lala'] };\nlessonsCount(course); // 2\n```\n\nИспользуйте внутри деструктуризацию, чтобы извлечь уроки прямо в параметрах функции.\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "destructuring",
+    "lessonName": "Деструктуризация",
+    "exerciseSlug": "typescript_basics_destructuring",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/destructuring/exercise_unit"
+  }
+}

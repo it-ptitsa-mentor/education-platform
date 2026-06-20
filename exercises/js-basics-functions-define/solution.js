@@ -1,0 +1,1 @@
+printMotto() // => "Winter is coming"

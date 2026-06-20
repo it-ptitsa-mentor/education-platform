@@ -1,0 +1,20 @@
+{
+  "slug": "js-functions-map",
+  "title": "Отображение (map)",
+  "language": "javascript",
+  "filesToOpen": [
+    "users.js"
+  ],
+  "studentFiles": [
+    "users.js"
+  ],
+  "readme": "## users.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход список пользователей и возвращает плоский список их детей. Дети каждого пользователя хранятся в виде массива в ключе `children`.\n\n```javascript\nimport getChildren from './users.js';\n\nconst users = [\n  {\n    name: 'Tirion',\n    children: [\n      { name: 'Mira', birthday: '1983-03-23' },\n    ],\n  },\n  { name: 'Bronn', children: [] },\n  {\n    name: 'Sam',\n    children: [\n      { name: 'Aria', birthday: '2012-11-03' },\n      { name: 'Keit', birthday: '1933-05-14' },\n    ],\n  },\n  {\n    name: 'Rob',\n    children: [\n      { name: 'Tisha', birthday: '2012-11-03' },\n    ],\n  },\n];\n\ngetChildren(users);\n// [\n//   { name: 'Mira', birthday: '1983-03-23' },\n//   { name: 'Aria', birthday: '2012-11-03' },\n//   { name: 'Keit', birthday: '1933-05-14' },\n//   { name: 'Tisha', birthday: '2012-11-03' },\n// ];\n```\n\nДругие примеры смотрите в модуле с тестами.\n\n## Подсказки\n\n* [flat](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)\n",
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "map",
+    "lessonName": "Отображение (map)",
+    "exerciseSlug": "js_functions_map_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/map/exercise_unit"
+  }
+}

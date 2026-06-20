@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-type-annotations",
+  "title": "Аннотации типов",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `unique()`, которая убирает дубликаты из массива. Функция принимает на вход массив чисел и строк. Результатом работы функции должен быть новый массив, в котором сохраняется только первое вхождение каждого элемента. Порядок значений результата определяется порядком их появления в массиве.\n\n```typescript\nunique([9, 9, 3, 8, 8]); // [9, 3, 8]\nunique(['twinkle', 'twinkle', 'little', 'bat']); // ['twinkle', 'little', 'bat']\nunique([1, 1, 3, 'oops!']); // [1, 3, 'oops!']\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "type-annotations",
+    "lessonName": "Аннотации типов",
+    "exerciseSlug": "typescript_basics_type_annotations",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/type-annotations/exercise_unit"
+  }
+}

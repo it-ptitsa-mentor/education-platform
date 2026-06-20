@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-structural-typing",
+  "title": "Структурная типизация",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nОпишите тип состояния `DataState` и перечисление `LoadingStatus`, затем реализуйте функцию `handleData()`, которая принимает на вход `DataState` и возвращает строку в зависимости от состояния:\n\n* Строку `'loading...'` при `LoadingStatus.Loading`\n* Текст ошибки из `error.message` при `LoadingStatus.Error`\n* Строку из числового поля `data` при `LoadingStatus.Success`\n* Если статус не входит в перечисление, функция возвращает строку `'unknown'`.\n\n```typescript\nconst loading: DataState = { status: LoadingStatus.Loading };\nconsole.log(handleData(loading)); // loading...\n\nconst error: DataState = { status: LoadingStatus.Error, error: new Error('some error') };\nconsole.log(handleData(error)); // some error\n\nconst success: DataState = { status: LoadingStatus.Success, data: 42 };\nconsole.log(handleData(success)); // 42\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "structural-typing",
+    "lessonName": "Структурная типизация",
+    "exerciseSlug": "typescript_basics_structural_typing",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/structural-typing/exercise_unit"
+  }
+}

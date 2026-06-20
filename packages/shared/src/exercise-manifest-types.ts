@@ -1,4 +1,4 @@
-export type ExerciseLanguage = "javascript";
+export type ExerciseLanguage = "javascript" | "html" | "shell";
 
 export type ExerciseManifest = {
   slug: string;
@@ -7,4 +7,12 @@ export type ExerciseManifest = {
   filesToOpen: string[];
   studentFiles: string[];
   readme: string;
+  hexlet?: {
+    courseSlug: string;
+    courseName: string;
+    lessonSlug: string;
+    lessonName: string;
+    exerciseSlug: string;
+    sourceUrl: string;
+  };
 };

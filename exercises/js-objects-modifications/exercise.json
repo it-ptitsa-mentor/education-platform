@@ -1,0 +1,20 @@
+{
+  "slug": "js-objects-modifications",
+  "title": "Модификация",
+  "language": "javascript",
+  "filesToOpen": [
+    "lesson.js"
+  ],
+  "studentFiles": [
+    "lesson.js"
+  ],
+  "readme": "## lesson.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая \"нормализует\" данные переданного урока. То есть приводит их к определенному виду. Нормализация происходит путём изменения исходного объекта.\n\nНа вход этой функции подается объект, описывающий собой урок курса. В уроке содержатся два поля: имя и описание.\n\n```javascript\nconst lesson = {\n  name: 'Деструктуризация',\n  description: 'как удивить друзей',\n};\n```\n\nУ некоторых уроков имя и описание могут быть в разном регистре. Такое случается при вводе данных:\n\n```javascript\nconst lesson = {\n  name: 'ДеструКТУРИЗАЦИЯ',\n  description: 'каК удивитЬ друзей',\n};\n```\n\nНаша функция должна обновлять содержимое урока по следующим правилам:\n\n* Имя капитализируется. То есть первый символ имени становится заглавным, остальные маленькими.\n* Весь текст описания приводится к нижнему регистру.\n\n```javascript\nimport normalize from './normalize.js';\n\nconst lesson = {\n  name: 'ДеструКТУРИЗАЦИЯ',\n  description: 'каК удивитЬ друзей',\n};\n\n// Обратите внимание, что не используется возврат.\n// Объекты, как и массивы, передаются по ссылке.\n// Изменение переданного объекта внутри отражается на самом объекте:\nnormalize(lesson);\n\nconsole.log(lesson);\n// {\n//   name: 'Деструктуризация',\n//   description: 'как удивить друзей'\n// }\n```\n\n## Подсказки\n\n* [capitalize](https://es-toolkit.slash.page/reference/string/capitalize.html)\n* [toLowerCase](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)\n",
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "modifications",
+    "lessonName": "Модификация",
+    "exerciseSlug": "js_objects_modifications_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/modifications/exercise_unit"
+  }
+}

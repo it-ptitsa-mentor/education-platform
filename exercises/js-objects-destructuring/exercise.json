@@ -1,0 +1,20 @@
+{
+  "slug": "js-objects-destructuring",
+  "title": "Деструктуризация",
+  "language": "javascript",
+  "filesToOpen": [
+    "objects.js"
+  ],
+  "studentFiles": [
+    "objects.js"
+  ],
+  "readme": "## objects.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход список пользователей, извлекает их имена, сортирует в алфавитном порядке и возвращает отсортированный список имен.\n\n```javascript\nconst users = [\n  { name: 'Bronn', gender: 'male', birthday: '1973-03-23' },\n  { name: 'Reigar', gender: 'male', birthday: '1973-11-03' },\n  { name: 'Eiegon', gender: 'male', birthday: '1963-11-03' },\n  { name: 'Sansa', gender: 'female', birthday: '2012-11-03' },\n];\n\ngetSortedNames(users); // ['Bronn', 'Eiegon', 'Reigar', 'Sansa']\n```\n\nПопробуйте использовать деструктуризацию для извлечения имени прямо в цикле.\n",
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "destructuring",
+    "lessonName": "Деструктуризация",
+    "exerciseSlug": "js_objects_destructuring_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/destructuring/exercise_unit"
+  }
+}

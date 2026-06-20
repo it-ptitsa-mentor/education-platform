@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-hooks-use-effect",
+  "title": "Хук useEffect",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Products.jsx"
+  ],
+  "studentFiles": [
+    "src/Products.jsx"
+  ],
+  "readme": "### src/Products.jsx\n\nДоработайте калькулятор суммы покупок так, чтобы в него подгружался список продуктов.\n\nИспользуйте асинхронную функцию `getProducts()` для получения списка продуктов.\n\nДобавьте в компонент загрузку данных. Данные должны загружаться только один раз при первом рендеринге компонента.\n\n![Пример работы](assets/example.gif)\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "use-effect",
+    "lessonName": "Хук useEffect",
+    "exerciseSlug": "js_react_hooks_use_effect_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/use-effect/exercise_unit"
+  }
+}

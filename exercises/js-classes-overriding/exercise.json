@@ -1,0 +1,20 @@
+{
+  "slug": "js-classes-overriding",
+  "title": "Переопределение методов",
+  "language": "javascript",
+  "filesToOpen": [
+    "SmartFileInfo.js"
+  ],
+  "studentFiles": [
+    "SmartFileInfo.js"
+  ],
+  "readme": "В стандартной библиотеке Node.js есть класс _[fs.Stats](https://nodejs.org/dist/latest-v14.x/docs/api/fs.html#fs_class_fs_stats)_. Объекты этого класса описывают собой файлы. С их помощью можно получать любую метаинформацию о файле.\n\n```javascript\nimport fs from 'fs'\n\nconst stats = fs.statSync('/etc/hosts')\nconsole.log(stats.size) // размер в байтах\n```\n\n### SmartFileInfo.js\n\nРеализуйте класс _SmartFileInfo_, наследующийся от _FileInfo_. Этот класс должен расширять поведение метода _getSize_. В новом классе этот метод принимает на вход аргумент, который обозначает единицу измерения возвращаемых данных. По умолчанию это _b_, то есть байты. Но можно передать и _kb_, то есть килобайты. В случае килобайтов, переопределённый метод делит байты на 1024 и получившееся значение возвращает наружу.\n\nМетод должен обрабатывать ситуацию, когда на вход поступает что-то другое, кроме указанных значений. Обработка сводится к возбуждению исключения _Error_.\n\n```javascript\nconst file = new SmartFileInfo(path.resolve('Makefile'))\nfile.getSize() // 19\nfile.getSize('b') // 19\nfile.getSize('kb') // 0.0185546875\nfile.getSize('udav') // Error\n```\n",
+  "hexlet": {
+    "courseSlug": "js-classes",
+    "courseName": "JS: Погружаясь в классы",
+    "lessonSlug": "overriding",
+    "lessonName": "Переопределение методов",
+    "exerciseSlug": "js_classes_overriding_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-classes/lessons/overriding/exercise_unit"
+  }
+}

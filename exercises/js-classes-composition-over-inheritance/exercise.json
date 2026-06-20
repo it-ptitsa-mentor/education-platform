@@ -1,0 +1,22 @@
+{
+  "slug": "js-classes-composition-over-inheritance",
+  "title": "Композиция вместо наследования",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Sanitizer.js",
+    "src/SanitizerStripTagsDecorator.js"
+  ],
+  "studentFiles": [
+    "src/Sanitizer.js",
+    "src/SanitizerStripTagsDecorator.js"
+  ],
+  "readme": "В программировании часто встречается задача очистки текста от мусора или потенциально опасных частей, например HTML-тегов. В JS для такой очистки подходит функция *trim*, убирающая концевые пробелы.\n\nПредставьте себе объектно-ориентированный интерфейс для очистки текста:\n\n```javascript\nconst sanitizer = new Sanitizer()\nsanitizer.sanitize('text   ') // 'text'\nsanitizer.sanitize(' boom ') // 'boom'\n```\n\nЭтот санитайзер очень простой. Единственное, что он умеет — удалять концевые пробелы. Представьте, что появилась задача в этот процесс добавить очистку текста от тегов. Эту задачу можно решить несколькими путями:\n\n* Через прямое изменение класса санитайзера. Такой способ иногда может сработать, но он не сработает, если это чужая библиотека или она используется где-то, где нужно удалять только концевые пробелы.\n* Через наследование. Тут все понятно, создаем класс наследник в котором переопределяем метод `sanitize`. В этом методе делаем очистку от тегов и передаем результат дальше в родительскую функцию. Результат возвращаем наружу.\n* Через композицию.\n\nВ этом задании нужно реализовать последний вариант. Он сводится к использованию полиморфизма через объект-обёртку. Такой подход называется \"шаблон проектирования декоратор\".\n\n```javascript\nconst baseSanitizer = new Sanitizer()\nconst sanitizer = new SanitizerStripTagsDecorator(baseSanitizer)\nsanitizer.sanitize('text   ') // 'text'\nsanitizer.sanitize(' boom ') // 'boom'\n```\n\n### src/Sanitizer.js\n\nСоздайте класс *Sanitizer*, содержащий метод `sanitize(text)`. Он должен отрезать концевые пробелы и возвращать результат наружу.\n\n### src/SanitizerStripTagsDecorator.js\n\nСоздайте класс (декоратор) *SanitizerStripTagsDecorator*. Он принимает в конструктор исходный санитайзер и дополнительно к его логике, выполняет очистку текста от тегов. Очистка текста от тегов должна идти раньше чем отрезание концевых пробелов.\n\nДля очистки тегов допишите реализацию функции `stripTags(tagString)`, которая принимает строку HTML, парсит её и возвращает текстовое содержимое.\n\n```javascript\nstripTags('<p>some text</p>') // \"some text\"\n```\n\n### Подсказки\n\n* Проще всего получить текстовое значение - загрузить строку в [cheerio](https://github.com/cheeriojs/cheerio#loading) и извлечь текст соответствующим методом\n* [trim](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/Trim)\n",
+  "hexlet": {
+    "courseSlug": "js-classes",
+    "courseName": "JS: Погружаясь в классы",
+    "lessonSlug": "composition-over-inheritance",
+    "lessonName": "Композиция вместо наследования",
+    "exerciseSlug": "js_classes_composition_over_inheritance_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-classes/lessons/composition-over-inheritance/exercise_unit"
+  }
+}

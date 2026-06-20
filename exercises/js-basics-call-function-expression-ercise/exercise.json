@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-call-function-expression-ercise",
+  "title": "Вызов функции — выражение",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nВыведите на экран первую и последнюю буквы предложения, записанного в константу `text`, в следующем формате:\n\n```bash\nFirst: N\nLast: t\n```\n\nПостарайтесь создать только одну константу, в которую сразу запишется нужный текст перед печатью на экран. В этом уроке мы отрабатываем умение собирать составное выражение.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "call-function-expression",
+    "lessonName": "Вызов функции — выражение",
+    "exerciseSlug": "js_basics_call_function_expression_ercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/call-function-expression/exercise_unit"
+  }
+}

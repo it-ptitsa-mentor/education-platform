@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-async-functions",
+  "title": "Асинхронные функции",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте асинхронный вариант функции `map()` - `asyncMap()`. Первым аргументом `asyncMap()` принимает массив с Promise. Вторым - функцию, которая применяется к каждому элементу. Функция должна вернуть промис, который возвращает массив с результатами выполнения функции для каждого элемента.\n\n```typescript\nconst promisedNumbers = [Promise.resolve(1), Promise.resolve(2), Promise.resolve(3)];\n\nasyncMap(promisedNumbers, (num, index) => num * index).then((result) => {\n  console.log(result); // [0, 2, 6]\n});\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "async-functions",
+    "lessonName": "Асинхронные функции",
+    "exerciseSlug": "typescript_basics_async_functions",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/async-functions/exercise_unit"
+  }
+}

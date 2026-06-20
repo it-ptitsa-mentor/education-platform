@@ -1,0 +1,20 @@
+{
+  "slug": "js-object-oriented-design-builder",
+  "title": "Сборщики",
+  "language": "javascript",
+  "filesToOpen": [
+    "index.js"
+  ],
+  "studentFiles": [
+    "index.js"
+  ],
+  "readme": "Сотрудники библиотеки решили провести ревизию базы данных своих книг, все ли заполнено правильно. Для этого им понадобится программа, которая находит список книг с неправильно заполненными данными.\n\n## index.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход список книг, находит среди них невалидные и возвращает их наружу.\n\n```javascript\nimport getInvalidBooks from './index.js';\n\nconst books = [\n  { name: 'book', author: 'author' },\n  { author: 'author 2' },\n];\nconst invalidBooks = getInvalidBooks(books); // [{ author: 'author 2' }]\n```\n\nОписания формата каждой книги:\n\n* name – строка, обязательное\n* author – строка, обязательное\n* pagesCount – целое положительное число, необязательное\n* link – строка url, необязательное, не может быть пустой строкой; ссылка на книгу в интернете\n* genre – строка, необязательное; жанр книги. Должен входить в список определенный в файле *index.js*\n\n## Подсказки\n\n* [oneOf](https://github.com/jquense/yup#schemaoneofarrayofvalues-arrayany-message-string--function-schema-alias-equals) – проверка вхождения в список\n* [isValidSync](https://github.com/jquense/yup#schemaisvalidsyncvalue-any-options-object-boolean) – проверка валидности\n",
+  "hexlet": {
+    "courseSlug": "js-object-oriented-design",
+    "courseName": "JS: Объектно-ориентированный дизайн",
+    "lessonSlug": "builder",
+    "lessonName": "Сборщики",
+    "exerciseSlug": "js_object_oriented_design_builder_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-object-oriented-design/lessons/builder/exercise_unit"
+  }
+}

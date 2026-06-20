@@ -11,3 +11,5 @@ coverage
 packages/web/dist
 packages/api/dist
 packages/web/src/generated
+.hexlet-cookies.json
+scripts/hexlet-import/

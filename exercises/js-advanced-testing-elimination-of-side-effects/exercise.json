@@ -1,0 +1,20 @@
+{
+  "slug": "js-advanced-testing-elimination-of-side-effects",
+  "title": "Инверсия зависимостей",
+  "language": "javascript",
+  "filesToOpen": [
+    "__tests__/getFilesCount.test.js"
+  ],
+  "studentFiles": [
+    "__tests__/getFilesCount.test.js"
+  ],
+  "readme": "## __tests__/getFilesCount.test.js\n\nПротестируйте функцию `getFilesCount()`, которая считает количество всех файлов в указанной директории и всех поддиректориях.\n\n```javascript\nconst filesCount = getFilesCount('/path/to/directory')\n```\n\nУ этой функции есть дополнительное поведение. Во время обхода файлов, она записывает информацию об этом (какие файлы были задействованы) в специальный файл, который называется журналом действий или логом.\n\nЗапись в файл является нежелательным побочным эффектом. Каждый запуск будет заполнять какой-то файл, который мы никак не используем. От него нужно избавиться. Все что мы хотим — чтобы функция считала количество файлов. Сделать это можно так. Для записи в файл, функция `getFilesCount()`, использует другую функцию, которую можно подменить:\n\n```javascript\nconst getFilesCount = (path, log = writeDataToFile) => {\n  // Где-то внутри во время работы\n  writeDataToFile(`file ${name} has been processed`)\n}\n```\n\nДля подмены нужно передать вторым параметром функцию-пустышку, которая не будет ничего делать. В таком случае ее вызов внутри `getFilesCount()` хоть и отработает, но не породит побочного эффекта.\n\n### Подсказки\n\n* Передайте этой функции путь до директории внутри *__fixtures__* и убедитесь в том что она правильно посчитала количество файлов внутри\n",
+  "hexlet": {
+    "courseSlug": "js-advanced-testing",
+    "courseName": "JS: Продвинутое тестирование",
+    "lessonSlug": "elimination-of-side-effects",
+    "lessonName": "Инверсия зависимостей",
+    "exerciseSlug": "js_advanced_testing_elimination_of_side_effects_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-advanced-testing/lessons/elimination-of-side-effects/exercise_unit"
+  }
+}

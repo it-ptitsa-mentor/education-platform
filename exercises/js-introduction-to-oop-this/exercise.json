@@ -1,0 +1,20 @@
+{
+  "slug": "js-introduction-to-oop-this",
+  "title": "Контекст (This)",
+  "language": "javascript",
+  "filesToOpen": [
+    "rational.js"
+  ],
+  "studentFiles": [
+    "rational.js"
+  ],
+  "readme": "_Подобное задание уже было в курсе по абстракциям с помощью данных. Теперь мы делаем то же самое, но используя объекты и методы. Нормализацию дробей делать не нужно._\n\n## rational.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая создает рациональное число. Рациональное число должно быть представлено объектом со следующими методами:\n\n* Сеттер `setNumer()` - устанавливает числитель\n* Сеттер `setDenom()` - устанавливает знаменатель\n* Геттер `getNumer()` - возвращает числитель\n* Геттер `getDenom()` - возвращает знаменатель\n* Геттер `toString()` - возвращает строковое представление числа\n* Метод `add()` - складывает дробь на которой он был вызван с переданной дробью и возвращает новое рациональное число (не изменяет текущее!)\n\n```javascript\nimport make from './rational.js';\n\nconst rat1 = make();\nrat1.setNumer(3);\nrat1.setDenom(8);\nrat1.getNumer(); // 3\nrat1.getDenom(); // 8\n\nconst rat2 = make(10, 3);\n\n// Формула сложения: a / b + c / d = (a * d + b * c) / (b * d)\nconst rat3 = rat1.add(rat2);\nrat3.toString(); // '89/24'\n```\n",
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "this",
+    "lessonName": "Контекст (This)",
+    "exerciseSlug": "js_introduction_to_oop_this_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/this/exercise_unit"
+  }
+}

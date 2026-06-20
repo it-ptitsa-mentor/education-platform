@@ -1,0 +1,20 @@
+{
+  "slug": "bash-fs",
+  "title": "Манипулирование файловой структурой",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## Терминал\n\nСоздайте следующую файловую структуру внутри директории _fs_:\n\n```bash\nfs\n├── example1\n│   ├── file\n│   └── subexample\n│       ├── file\n│       └── directory\n|           └── another_file\n└── example2\n    └── another_file\n```\n\nВ этом упражнении не нужно добавлять команды в файл *solution*. Просто выполните задачу, а тесты проверят состояние файловой системы, чтобы убедиться, что все файлы и директории находятся на своих местах.\n\n## Подсказка\n\n* В названии файлов всегда присутствует слово *file*, всё остальное — это директории\n* В этом упражнении установлена утилита [tree](http://www.opennet.ru/man.shtml?topic=tree&category=1&russian=2), она красиво выводит получившуюся файловую структуру, используйте ключ -U для сортировки как в примере\n* Если в процессе что-то пошло не так, то всегда можно сбросить прогресс и попробовать заново. Не бойтесь экспериментировать, но постарайтесь не удалять файлы снаружи директории _fs_\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "filetree-manipulations",
+    "lessonName": "Манипулирование файловой структурой",
+    "exerciseSlug": "bash_fs_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/filetree-manipulations/exercise_unit"
+  }
+}

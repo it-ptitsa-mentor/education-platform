@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-data-types",
+  "title": "Типы данных",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nВыведите на экран число `-0.304`.\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "data-types",
+    "lessonName": "Типы данных",
+    "exerciseSlug": "js_basics_data_types_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/data-types/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-frontend-architecture-rendering",
+  "title": "Отрисовка (рендеринг) состояния",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/application.js"
+  ],
+  "studentFiles": [
+    "src/application.js"
+  ],
+  "readme": "## src/application.js\n\nРеализуйте и экспортируйте функцию по умолчанию, которая активизирует фильтр на основе формы, доступной в `./index.html`. Изменение любого параметра должно сразу приводить к фильтрации. Ноутбуки, подходящие под фильтр, выводятся внутри `<div class=\"result\"></div>` как список ul/li моделей (свойство `model` внутри объекта представляющего ноутбук). Полный список ноутбуков доступен в файле `src/index.js`.\n\n![Пример работы](assets/example.gif)\n\nУсловия:\n\n- Если фильтр пустой, то выводится все.\n- Если под фильтр ничего не подходит, то список не выводится.\n\n### Подсказки\n\n- Для отслеживания изменений текстовых инпутов используйте событие `input`. Для `select` - `change`.\n- Для фильтрации товаров по выбранным фильтрам используйте метод массива [every()](https://ru.hexlet.io/qna/javascript/questions/kak-rabotaet-metod-every)\n- На старте фильтры не указаны, поэтому должен отрисовываться весь список\n",
+  "hexlet": {
+    "courseSlug": "js-frontend-architecture",
+    "courseName": "JS: Архитектура фронтенда",
+    "lessonSlug": "rendering",
+    "lessonName": "Отрисовка (рендеринг) состояния",
+    "exerciseSlug": "js_frontend_architecture_rendering_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/rendering/exercise_unit"
+  }
+}

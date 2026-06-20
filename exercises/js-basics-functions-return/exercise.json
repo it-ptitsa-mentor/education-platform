@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-functions-return",
+  "title": "Возврат значений",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nРеализуйте функцию `sayHurrayThreeTimes()`, которая возвращает строку 'hurray! hurray! hurray!'.\n\n```javascript\nconst hurray = sayHurrayThreeTimes()\nconsole.log(hurray) // => hurray! hurray! hurray!\n```\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "functions-return",
+    "lessonName": "Возврат значений",
+    "exerciseSlug": "js_basics_functions_return_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/functions-return/exercise_unit"
+  }
+}

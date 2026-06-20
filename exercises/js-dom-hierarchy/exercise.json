@@ -1,0 +1,22 @@
+{
+  "slug": "js-dom-hierarchy",
+  "title": "Навигация по DOM-дереву",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/extractor.js",
+    "src/index.js"
+  ],
+  "studentFiles": [
+    "src/extractor.js",
+    "src/index.js"
+  ],
+  "readme": "В интернете существует класс программ, называемый [web scraper](https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D0%BA%D1%80%D0%B5%D0%B9%D0%BF%D0%B8%D0%BD%D0%B3). Эти программы ходят по определенным страницам сайтов, анализируют их HTML-код и извлекают данные в удобном для работы виде. Это помогает в работе с сайтами, которые не позволяет извлекать эти данные через API или другим удобным способом. Например, извлечение данных через API не работает на сайтах по поиску работы, чтобы вакансии не публиковали где-то в другом месте.\n\nПодобные программы работают примерно так. Они загружают HTML-код страницы к себе, преобразуют его в DOM-дерево и извлекают из него нужные данные, основываясь на структуре страницы. Как правило, им заранее надо знать структуру HTML, так как алгоритм анализа четко фиксирован.\n\nЗа кадром остался вопрос этичности. Веб-скрапинг может выполняться в благих целях, а может и в злых. В любом случае, парсить сайты в коммерческих целях можно только в том случае, если они это разрешают.\n\n---\n\nВ этом упражнении мы реализуем элемент подобной программы – функцию, которая принимает на вход DOM и возвращает извлеченные из него данные.\n\nОпишем структуру HTML, которую нужно парсить. Внутри `<body>` расположена статья, состоящая из параграфов и других элементов (таблиц или картинок). Нам нужно достать текст из параграфов, пропуская все остальные элементы. Пример страницы можно посмотреть в веб-доступе.\n\n## src/extractor.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход `document.documentElement`, извлекает из него параграфы и возвращает массив из их содержимого. Не забудьте очистить данные от концевых пробелов и переводов строк с помощью [trim()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim):\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n  </head>\n  <body>\n    <p>\n      First paragraph\n    </p>\n    <table border=\"1\">\n      <tr>\n        <th>id</th>\n        <th>name</th>\n      </tr>\n    </table>\n  </body>\n</html>\n```\n\n```javascript\nimport extractData from './extractor.js';\n\nconst data = extractData(document.documentElement);\nconsole.log(data);\n// [\n//   'First paragraph'\n// ]\n```\n\n## src/index.js\n\nПроверьте, как работает вновь созданная функция на странице доступной в веб-доступе. Импортируйте функцию в `index.js`, выполните ее с аргументом `document.documentElement` и распечатайте результат в консоль. Проверьте, что в консоль вывелись нужные данные.\n\n### Подсказки\n\n* Имя тега доступно через свойство [Element.tagName](https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName)\n* [Почему не стоит использовать innerText](https://ru.hexlet.io/qna/javascript/questions/pochemu-ne-stoit-ispolzovat-innertext)\n",
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "dom-hierarchy",
+    "lessonName": "Навигация по DOM-дереву",
+    "exerciseSlug": "js_dom_hierarchy_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/dom-hierarchy/exercise_unit"
+  }
+}

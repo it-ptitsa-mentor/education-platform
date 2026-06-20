@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-type-as-sets",
+  "title": "Типы как множества",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nОпределите и экспортируйте тип `CustomType`, который может принимать следующие значения:\n\n1. null\n2. undefined\n3. любое число с типом `number`\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "type-as-sets",
+    "lessonName": "Типы как множества",
+    "exerciseSlug": "typescript_basics_type_as_sets",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/type-as-sets/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-arithmetics",
+  "title": "Арифметические операции",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nНапишите программу, которая считает и выводит на экран последовательно (по одному значению в каждой строке) значения следующих математических выражений:\n\n* 3 в степени 5\n* -8 разделить на -4\n* остаток от деления 100 на 3\n* сумму трёх предыдущих выражений\n\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "arithmetics",
+    "lessonName": "Арифметические операции",
+    "exerciseSlug": "js_basics_arithmetics_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/arithmetics/exercise_unit"
+  }
+}

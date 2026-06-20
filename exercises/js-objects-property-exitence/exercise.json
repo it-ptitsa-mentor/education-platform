@@ -1,0 +1,20 @@
+{
+  "slug": "js-objects-property-exitence",
+  "title": "Проверка существования свойства",
+  "language": "javascript",
+  "filesToOpen": [
+    "words.js"
+  ],
+  "studentFiles": [
+    "words.js"
+  ],
+  "readme": "## words.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая считает количество слов в предложении, и возвращает объект. В объекте свойства — это слова (приведенные к нижнему регистру), а значения — это то, сколько раз слово встретилось в предложении. Слова в предложении могут находиться в разных регистрах. Перед подсчетом их нужно приводить в нижний регистр, чтобы не пропускались дубли.\n\n```javascript\nimport countWords from './words.js';\n\n// Если предложение пустое, то возвращается пустой объект \ncountWords('');\n// {}\n\nconst text1 = 'one two three two ONE one wow';\ncountWords(text1);\n// {\n//   one: 3,\n//   two: 2,\n//   three: 1,\n//   wow: 1,\n// }\n\nconst text2 = 'another one sentence with strange Words words';\ncountWords(text2);\n// {\n//   another: 1,\n//   one: 1,\n//   sentence: 1,\n//   with: 1,\n//   strange: 1,\n//   words: 2,\n// }\n```\n\n## Подсказки\n\n* Для формирования массива слов поможет функция [words](https://es-toolkit.slash.page/reference/compat/string/words.html)\n* [toLowerCase](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase) – приведение к нижнему регистру\n",
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "property-existence",
+    "lessonName": "Проверка существования свойства",
+    "exerciseSlug": "js_objects_property_exitence_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/property-existence/exercise_unit"
+  }
+}

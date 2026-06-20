@@ -1,0 +1,20 @@
+{
+  "slug": "js-functions-recursion",
+  "title": "Рекурсия",
+  "language": "javascript",
+  "filesToOpen": [
+    "sequenceSum.js"
+  ],
+  "studentFiles": [
+    "sequenceSum.js"
+  ],
+  "readme": "### sequenceSum.js\n\nДопишите (с использованием рекурсивного процесса) функцию `sequenceSum()`, которая находит сумму последовательности целых чисел.\nПоследовательность задается двумя значениями: `begin` - начало последовательности, `end` - конец последовательности. Например: `begin = 2` и `end = 6` дают нам такую последовательность `2, 3, 4, 5, 6`.\nСумма такой последовательности будет: `20`.\n\n```javascript\nimport sequenceSum from './sequenceSum';\n\nsequenceSum(1, 5); // 1 + 2 + 3 + 4 + 5 = 15\nsequenceSum(4, 10); // 4 + 5 + 6 + 7 + 8 + 9 + 10 = 49\nsequenceSum(-3, 2); // (-3) + (-2) + (-1) + 0 + 1 + 2 = -3\n```\n\n### Подсказки\n\n* Последовательность, в которой `begin > end`, не содержит ни одного числа, т.е. является \"пустой\". Вычислить сумму чисел такой последовательности не представляется возможным, в этом случае возвращаем `NaN`\n* Сумма чисел последовательности, в которой `begin === end`, равна `begin` (или `end`)\n\n```javascript\n// NaN (т.к. это \"пустая\" последовательность)\nsequenceSum(7, 2);\n\n// 0 (т.к. это единственное число, входящее в последовательность)\nsequenceSum(0, 0);\n// 6 (т.к. это единственное число, входящее в последовательность)\nsequenceSum(6, 6);\n```\n\nВ файле `sequenceSum.test.js` можно посмотреть все варианты параметров,\nс которыми будет вызвана ваша функция.\n",
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "recursion",
+    "lessonName": "Рекурсия",
+    "exerciseSlug": "js_functions_recursion",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/recursion/exercise_unit"
+  }
+}

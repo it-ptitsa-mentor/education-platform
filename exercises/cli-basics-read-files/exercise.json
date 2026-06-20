@@ -1,0 +1,20 @@
+{
+  "slug": "cli-basics-read-files",
+  "title": "Чтение файлов",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\n1. Выведите на экран первые шесть строк файла _/home/tirion/.bashrc_, прочитав их командой `head`\n2. Запишите получившуюся команду в файл _solution_\n\n## Подсказки\n\n* В файл _solution_ нужно записать именно саму команду, а не результат ее работы\n* Тесты в этой и других практиках выполняют вашу команду из директории упражнения\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "read-files",
+    "lessonName": "Чтение файлов",
+    "exerciseSlug": "cli_basics_read_files_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/read-files/exercise_unit"
+  }
+}

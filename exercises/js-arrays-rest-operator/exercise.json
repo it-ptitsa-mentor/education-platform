@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-rest-operator",
+  "title": "Rest и деструктуризация",
+  "language": "javascript",
+  "filesToOpen": [
+    "arrays.js"
+  ],
+  "studentFiles": [
+    "arrays.js"
+  ],
+  "readme": "## arrays.js\n\nРеализуйте и экспортируйте функцию `getMax()`, которая ищет в массиве максимальное значение и возвращает его:\n\n```javascript\nimport { getMax } from '../arrays.js'\n\n// Для пустого массива возвращается null\ngetMax([]) // null\ngetMax([1, 10, 8]) // 10\n```\n\nЭта функция реализуется просто, и мы уже делали подобное ранее. Сейчас же мы учимся использовать rest-оператор. Используйте его вместе с деструктуризацией для извлечения первого элемента и всех остальных. Первый элемент становится начальным значением максимального, а остальные перебираются в цикле для определения максимального. При нахождении большего значения чем сохраненное ранее, сохраненное заменяется на новое, большее значение.\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "rest-operator",
+    "lessonName": "Rest и деструктуризация",
+    "exerciseSlug": "js_arrays_rest_operator_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/rest-operator/exercise_unit"
+  }
+}

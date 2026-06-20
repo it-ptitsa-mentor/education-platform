@@ -1,0 +1,20 @@
+{
+  "slug": "css-positioning-relative-and-absolute",
+  "title": "Относительное и абсолютное позиционирование",
+  "language": "html",
+  "filesToOpen": [
+    "styles/app.css"
+  ],
+  "studentFiles": [
+    "styles/app.css"
+  ],
+  "readme": "В данном задании стоит задача доделать карточку с описанием книги. Необходимо при наведении курсора мыши на карточку показывать её описание. Прошлый сотрудник сделал всю необходимую вёрстку, но не смог расположить описание там, где это необходимо.\n\n## styles/app.css\n\nИспользуя комбинацию относительного и абсолютного позиционирования, сделайте так, чтобы при наведении на карточку описание располагалось следующим образом\n\n![Позиционирование элементов](assets/absolute_and_relative.png)\n\nДля этого необходимо:\n\n1. Используя необходимые правила расположить блок справа\n2. Задать блоку с описанием высоту в 100%. Решите этот вопрос используя комбинацию `top` и `bottom`\n",
+  "hexlet": {
+    "courseSlug": "css-positioning",
+    "courseName": "CSS — Расположение и макеты",
+    "lessonSlug": "relative-and-absolute",
+    "lessonName": "Относительное и абсолютное позиционирование",
+    "exerciseSlug": "css_positioning_relative_and_absolute_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-positioning/lessons/relative-and-absolute/exercise_unit"
+  }
+}

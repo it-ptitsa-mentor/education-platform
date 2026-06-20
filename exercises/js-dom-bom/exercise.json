@@ -1,0 +1,20 @@
+{
+  "slug": "js-dom-bom",
+  "title": "BOM-объекты",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/solution.js"
+  ],
+  "studentFiles": [
+    "src/solution.js"
+  ],
+  "readme": "В этом упражнении мы потренируемся работать с BOM (*Browser Object Model*).\n\n## src/solution.js\n\nРеализуйте и экспортируйте по умолчанию функцию. При вызове она должна делать переход на страницу и возвращать начальную часть строки с именем совместимого браузера (User agent) и текущей открытой страницей.\n\nАдрес страницы передается через параметр, а результат должен быть в виде строки вида 'Mozilla/5.0 https://hexlet.io'. Версия браузера записывается после косой черты, адрес страницы после пробела:\n\n```javascript\nsolution('https://hexlet.io'); // => 'Mozilla/5.0 https://hexlet.io'\n// Версия браузера может отличаться, тесты не проверяют версию\n```\n\n## Подсказки\n- Объект [navigator](https://developer.mozilla.org/ru/docs/Web/API/Navigator) предоставляет информацию о браузере и операционной системе пользователя\n- В объекте [location](https://developer.mozilla.org/ru/docs/Web/API/Location) хранится информация о текущем URL\n- [User-agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent)\n- Проверить работоспособность функции можно с помощью консоли браузера\n",
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "bom",
+    "lessonName": "BOM-объекты",
+    "exerciseSlug": "js_dom_bom_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/bom/exercise_unit"
+  }
+}

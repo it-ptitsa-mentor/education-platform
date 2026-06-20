@@ -1,0 +1,20 @@
+{
+  "slug": "js-introduction-to-oop-static",
+  "title": "Статические свойства и методы",
+  "language": "javascript",
+  "filesToOpen": [
+    "Time.js"
+  ],
+  "studentFiles": [
+    "Time.js"
+  ],
+  "readme": "Класс `Time`, предназначен для создания объекта времени. Его конструктор принимает на вход количество часов и минут в виде двух отдельных параметров.\n\n```javascript\nconst time = new Time(10, 15);\nconsole.log(`The time is ${time}`); // => 'The time is 10:15'\n```\n\n## Time.js\n\nДобавьте в класс `Time` статический метод `fromString()`, который позволяет создавать объекты `Time` на основе времени переданного строкой формата `часы:минуты`.\n\n```javascript\nconst time = Time.fromString('10:23');\n// автоматически вызывается метод toString()\nconsole.log(`The time is ${time}`); // 'The time is 10:23'\n```\n",
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "static",
+    "lessonName": "Статические свойства и методы",
+    "exerciseSlug": "js_introduction_to_oop_static_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/static/exercise_unit"
+  }
+}

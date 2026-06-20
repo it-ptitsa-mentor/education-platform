@@ -1,0 +1,20 @@
+{
+  "slug": "js-objects-for-of",
+  "title": "Обход свойств объекта",
+  "language": "javascript",
+  "filesToOpen": [
+    "objects.js"
+  ],
+  "studentFiles": [
+    "objects.js"
+  ],
+  "readme": "## objects.js\n\nРеализуйте и экспортируйте функцию по умолчанию, которая формирует из переданного объекта другой объект, включающий только указанные свойства. Параметры:\n\n* Исходный объект\n* Массив имен свойств\n\n```javascript\nimport pick from './objects.js';\n\nconst data = {\n  user: 'ubuntu',\n  cores: 4,\n  os: 'linux',\n};\n\npick(data, ['user']); // { user: 'ubuntu' }\npick(data, ['user', 'os']); // { user: 'ubuntu', os: 'linux' }\npick(data, []); // {}\n// Если такого свойства нет в исходных данных,\n// то оно игнорируется \npick(data, ['none', 'cores']); // { cores: 4 }\n```\n\nТакая функция есть в lodash, но вам необходимо её реализовать самостоятельно.\n",
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "for-of",
+    "lessonName": "Обход свойств объекта",
+    "exerciseSlug": "js_objects_for_of_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/for-of/exercise_unit"
+  }
+}

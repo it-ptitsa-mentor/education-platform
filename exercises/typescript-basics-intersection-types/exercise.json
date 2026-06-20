@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-intersection-types",
+  "title": "Пересечение",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте тип `Admin`, который является пересечением типов `AdminPermission` и `User`. Реализуйте функцию `addAdmin()`, которая принимает значение с типом `User` и возвращает значение с типом `Admin`. В качестве значения для свойства `permission` должно быть значение `Permission.READ`.\n\n```typescript\nconst user: User = { login: 'login1' };\nconst admin = addAdmin(user); // { login: 'login1', permission: Permission.READ }\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "intersection-types",
+    "lessonName": "Пересечение",
+    "exerciseSlug": "typescript_basics_intersection_types",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/intersection-types/exercise_unit"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "js-polymorphism-breaking-polymorphism",
+  "title": "Код, который убивает полиморфизм",
+  "language": "javascript",
+  "filesToOpen": [
+    "Guest.js",
+    "User.js",
+    "helpers.js"
+  ],
+  "studentFiles": [
+    "Guest.js",
+    "User.js",
+    "helpers.js"
+  ],
+  "readme": "## helpers.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая возвращает приветствие для пользователя. Это приветствие показывается пользователю на сайте. Если пользователь гость, то выводится \"Nice to meet you Guest!\", если не гость, то \"Hello <Имя>!\", где \"<Имя>\" это имя реального пользователя.\n\nВ этой задаче, способ решения остается на ваше усмотрение. Используйте знания полученные в этом курсе.\n\n### Примеры\n\n```javascript\nimport Guest from '../Guest.js';\nimport User from '../User.js';\nimport getGreeting from '../helpers.js';\n\nconst guest = new Guest();\ngetGreeting(guest); // 'Nice to meet you Guest!'\n\nconst user = new User('Petr');\ngetGreeting(user); // 'Hello Petr!'\n\n```\n\n### Подсказки\n\n* Изучите тесты\n",
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "breaking-polymorphism",
+    "lessonName": "Код, который убивает полиморфизм",
+    "exerciseSlug": "js_polymorphism_breaking_polymorphism_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/breaking-polymorphism/exercise_unit"
+  }
+}

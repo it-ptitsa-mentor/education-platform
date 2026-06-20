@@ -1,0 +1,20 @@
+{
+  "slug": "js-objects-merging",
+  "title": "Слияние",
+  "language": "javascript",
+  "filesToOpen": [
+    "objects.js"
+  ],
+  "studentFiles": [
+    "objects.js"
+  ],
+  "readme": "## objects.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая заполняет объект данными из другого объекта по разрешенному списку ключей. Параметры:\n\n* Исходный объект\n* Список ключей, которые нужно заменить\n* Данные, которые нужно сливать в исходный объект\n\nВ случае, когда список ключей пустой, нужно сливать все данные полностью.\n\n```javascript\nimport fill from '../objects.js';\n\nconst company = {\n  name: null,\n  state: 'moderating',\n};\n\nconst data = {\n  name: 'Hexlet',\n  state: 'published',\n};\n\n// Вызовы ниже нужно рассматривать как независимые\n\nfill(company, ['name'], data);\n// {\n//   name: 'Hexlet',\n//   state: 'moderating',\n// }\n\nfill(company, [], data);\n// {\n//   name: 'Hexlet',\n//   state: 'published',\n// }\n```\n\nПопробуйте решить эту задачу с помощью слияния.\n\n### Подсказки\n\n* [pick()](https://es-toolkit.slash.page/reference/object/pick.html)\n",
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "merging",
+    "lessonName": "Слияние",
+    "exerciseSlug": "js_objects_merging_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/merging/exercise_unit"
+  }
+}

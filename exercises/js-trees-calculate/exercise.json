@@ -1,0 +1,20 @@
+{
+  "slug": "js-trees-calculate",
+  "title": "Агрегация 2",
+  "language": "javascript",
+  "filesToOpen": [
+    "du.js"
+  ],
+  "studentFiles": [
+    "du.js"
+  ],
+  "readme": "Во многих операционных системах (Linux, MacOS) существует утилита `du`. Она умеет подсчитывать занимаемое место указанными файлами и директориями. Например, так:\n\n```bash\n tmp$ du -sh *\n  0B\tcom.docker.vmnetd.socket\n 10M\tcredo\n4.0K\tdebug.mjs\n  0B\tfilesystemui.socket\n4.0K\tindex.php\n 37M\tnode_modules\n 88K\tpackage-lock.json\n 22M\ttaxdome\n```\n\n_Перед тем, как делать упражнение, обязательно попробуйте поиграть с этой утилитой в терминале, посмотрите её опции через `man du`. Экспериментировать нужно в локально установленной операционной системе._\n\n## du.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход директорию и возвращает список вложенных узлов (директорий и файлов) в указанную директорию на один уровень, а так же место, которое они занимают. Размер файла задается в метаданных. Размер директории складывается из сумм всех размеров файлов, находящихся внутри во всех поддиректориях. Сами директории размера не имеют.\n\n### Пример\n\n```javascript\nimport * as fsTrees from '@hexlet/immutable-fs-trees';\nimport du from '../du.js';\n\nconst tree = fsTrees.mkdir('/', [\n  fsTrees.mkdir('etc', [\n    fsTrees.mkdir('apache'),\n    fsTrees.mkdir('nginx', [\n      fsTrees.mkfile('nginx.conf', { size: 800 }),\n    ]),\n    fsTrees.mkdir('consul', [\n      fsTrees.mkfile('config.json', { size: 1200 }),\n      fsTrees.mkfile('data', { size: 8200 }),\n      fsTrees.mkfile('raft', { size: 80 }),\n    ]),\n  ]),\n  fsTrees.mkfile('hosts', { size: 3500 }),\n  fsTrees.mkfile('resolve', { size: 1000 }),\n]);\n\ndu(tree);\n// [\n//   ['etc', 10280],\n//   ['hosts', 3500],\n//   ['resolve', 1000],\n// ]\n```\n\n### Примечания\n\n* Обратите внимание на структуру результирующего массива. Каждый элемент — массив с двумя значениями: именем директории и размером файлов внутри.\n* Результат отсортирован по размеру в обратном порядке. То есть сверху самые тяжёлые, внизу самые лёгкие.\n\n### Подсказки\n\n* [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)\n",
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "calculate",
+    "lessonName": "Агрегация 2",
+    "exerciseSlug": "js_trees_calculate_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/calculate/exercise_unit"
+  }
+}

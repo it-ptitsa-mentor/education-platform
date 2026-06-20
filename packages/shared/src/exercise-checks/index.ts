@@ -1,5 +1,6 @@
 import { validateStudentFiles } from "../validate-student-files.js";
 import type { ExerciseManifest } from "../exercise-manifest-types.js";
+import { checkImportedPlaceholder } from "./imported-placeholder.js";
 import { checkJsVariables, type ExerciseCheckOutcome } from "./js-variables.js";
 
 export type { ExerciseCheckOutcome } from "./js-variables.js";
@@ -18,10 +19,6 @@ export const runBrowserExerciseCheck = async (
 ): Promise<ExerciseCheckOutcome> => {
   validateStudentFiles(manifest, studentFiles);
 
-  const check = checksBySlug[manifest.slug];
-  if (!check) {
-    throw new Error(`No browser check registered for: ${manifest.slug}`);
-  }
-
+  const check = checksBySlug[manifest.slug] ?? (async () => checkImportedPlaceholder());
   return check(studentFiles);
 };

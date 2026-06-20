@@ -1,0 +1,20 @@
+{
+  "slug": "js-objects-syntax",
+  "title": "Синтаксис",
+  "language": "javascript",
+  "filesToOpen": [
+    "objects.js"
+  ],
+  "studentFiles": [
+    "objects.js"
+  ],
+  "readme": "## objects.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая возвращает объект.\n\nУ объекта должно быть только два свойства со следующими ключами и значениями:\n\n|Ключ|Значение|\n|---|---|\n|`file`|`'src/objects.js'`|\n|`config`|`true`|\n\nВсё, что вам нужно сделать, это:\n\n* определить функцию\n* создать нужный объект в функции\n* вернуть полученный объект из функции\n",
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "syntax",
+    "lessonName": "Синтаксис",
+    "exerciseSlug": "js_objects_syntax_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/syntax/exercise_unit"
+  }
+}

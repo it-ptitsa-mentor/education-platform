@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-refs",
+  "title": "Refs",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/MaskedInput.jsx"
+  ],
+  "studentFiles": [
+    "src/MaskedInput.jsx"
+  ],
+  "readme": "### src/MaskedInput.jsx\n\nРеализуйте компонент `<MaskedInput />`, который является React-обёрткой над библиотекой [IMask](https://imask.js.org/). Эта библиотека накладывает на обычный `<input>` маску ввода — например, форматирует вводимые цифры как номер телефона.\n\n```javascript\nconst mask = IMask(element, {\n  mask: '+{7}(000)000-00-00',\n});\n\nmask.on('accept', () => {\n  const value = mask.value;\n  // код, который будет вызван при каждом изменении значения\n});\n```\n\nКомпонент принимает на вход функцию как свойство `onAccept`, которая вызывается при каждом изменении значения в поле. Функция принимает на вход отформатированное значение. Его использование видно в файле `src/index.jsx`.\n\nДокументацию библиотеки можно посмотреть на [официальном сайте](https://imask.js.org/guide.html).\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "refs",
+    "lessonName": "Refs",
+    "exerciseSlug": "js_react_refs_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/refs/exercise_unit"
+  }
+}

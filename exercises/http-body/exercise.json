@@ -1,0 +1,20 @@
+{
+  "slug": "http-body",
+  "title": "Тело HTTP-запроса",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\n* Используя *telnet* выполните запрос к *hexlet.local* (расположен на localhost) на порт *8080*.  Параметры запроса: метод *POST*, страница */upload*, протокол *HTTP 1.1*, тело: `my request body`.  Не забудьте установить заголовки необходимые для отправки *body*;\n* Запишите ваш HTTP-запрос в файл *solution*;\n\n### Подсказки\n\n* Так как в теле запроса мы передаём обычный текст, нужно использовать тип `text/plain`\n* длина тела указывается в байтах, в данном случае - это количество символов в передаваемой текстовой строке\n",
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "body",
+    "lessonName": "Тело HTTP-запроса",
+    "exerciseSlug": "http_body_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/body/exercise_unit"
+  }
+}

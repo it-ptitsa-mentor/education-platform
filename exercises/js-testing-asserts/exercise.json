@@ -1,0 +1,20 @@
+{
+  "slug": "js-testing-asserts",
+  "title": "Утверждения",
+  "language": "javascript",
+  "filesToOpen": [
+    "tests/take.test.js"
+  ],
+  "studentFiles": [
+    "tests/take.test.js"
+  ],
+  "readme": "## tests/take.test.js\n\nНапишите тесты для функции `take(items, n)`, которая возвращает первые `n` элементов из массива. По умолчанию `n` равен 1. Если `n` отрицательное число, то возвращается пустой массив.\n\n```javascript\ntake([], 2); // []\ntake([1, 2, 3]); // [1]\ntake([1, 2, 3], 2); // [1, 2]\ntake([4, 3], 9); // [4, 3]\ntake([4, 3], -1); // []\n```\n\n### Подсказки\n\n* [_.take](https://lodash.com/docs#take)\n* [Asserts](https://nodejs.org/api/assert.html)\n* Выберите правильный способ сравнения: по ссылке или по значению\n",
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "asserts",
+    "lessonName": "Утверждения",
+    "exerciseSlug": "js_testing_asserts_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/asserts/exercise_unit"
+  }
+}

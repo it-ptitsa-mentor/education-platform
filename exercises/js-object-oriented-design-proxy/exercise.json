@@ -1,0 +1,20 @@
+{
+  "slug": "js-object-oriented-design-proxy",
+  "title": "Прокси",
+  "language": "javascript",
+  "filesToOpen": [
+    "protect.js"
+  ],
+  "studentFiles": [
+    "protect.js"
+  ],
+  "readme": "## protect.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает объект и список полей объекта, к которым она будет ограничивать доступ. При попытке прочитать или перезаписать поле, включенное в список защищенных, должно выбрасываться исключение.\n\n```javascript\nimport protect from '../protect.js';\n\nconst user = {\n  name: 'John',\n  age: 25,\n  password: 'secret',\n};\n\nconst protectedProps = ['password'];\n\nconst protectedUser = protect(user, protectedProps);\nprotectedUser.name; // John\nprotectedUser.age; // 25\nprotectedUser.password; // Error: Access to 'password' is restricted\n\nprotectedUser.name = 'Jane'; // установит значение 'Jane' в свойство 'name'\nprotectedUser.password = 'newPassword'; // Error: Access to 'password' is restricted\n\n```\n\nВ реализации используйте Proxy.\n\n### Подсказки\n\n* [Документация обработчика set](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/set)\n",
+  "hexlet": {
+    "courseSlug": "js-object-oriented-design",
+    "courseName": "JS: Объектно-ориентированный дизайн",
+    "lessonSlug": "proxy",
+    "lessonName": "Прокси",
+    "exerciseSlug": "js_object_oriented_design_proxy_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-object-oriented-design/lessons/proxy/exercise_unit"
+  }
+}

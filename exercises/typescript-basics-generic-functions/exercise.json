@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-generic-functions",
+  "title": "Дженерики (Функции)",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте описание обобщенного типа `MyArray`, который представляет собой аналог массива из JavaScript. Пример использования объекта этого типа:\n\n```typescript\nconst coll: MyArray<number> = ...;\ncoll.push(1); // 1\ncoll.push(10); // 2\ncoll.push(99); // 3\n\nconst newColl = coll.filter((value) => value % 2 == 0);\nconsole.log(newColl.items); // [10]\n```\n\nТип включает в себя два метода: [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) и [filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), совпадающие по сигнатуре с методами `Array`, при условии, что метод `push()` всегда принимает только один элемент. Данные внутри должны храниться в свойстве `items`.\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "generic-functions",
+    "lessonName": "Дженерики (Функции)",
+    "exerciseSlug": "typescript_basics_generic_functions",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/generic-functions/exercise_unit"
+  }
+}

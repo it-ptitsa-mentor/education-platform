@@ -1,0 +1,20 @@
+{
+  "slug": "css-content-overflow",
+  "title": "Переполнение",
+  "language": "html",
+  "filesToOpen": [
+    "styles/app.css"
+  ],
+  "studentFiles": [
+    "styles/app.css"
+  ],
+  "readme": "Доработайте компонент «Оповещения». В этом задании реализуйте вертикальную прокрутку сообщений внутри компонента. После обрезания текста должно стоять многоточие\n\n![Компонент «Оповещения»](assets/final.png)\n",
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "overflow",
+    "lessonName": "Переполнение",
+    "exerciseSlug": "css_content_overflow_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/overflow/exercise_unit"
+  }
+}

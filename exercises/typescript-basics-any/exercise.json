@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-any",
+  "title": "Тип Any",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `getParams()`, которая принимает на вход строку запроса (query string) и возвращает параметры в виде объекта:\n\n```typescript\ngetParams('per=10&page=5');\n// { per: '10', page: '5' }\ngetParams('name=hexlet&count=3&order=asc');\n// { name: 'hexlet', count: '3', order: 'asc' }\n```\n\nЭту задачу лучше всего решать через метод `reduce()`.\n\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "any",
+    "lessonName": "Тип Any",
+    "exerciseSlug": "typescript_basics_any",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/any/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-data-abstraction-arrays",
+  "title": "Семантика массивов",
+  "language": "javascript",
+  "filesToOpen": [
+    "points.js"
+  ],
+  "studentFiles": [
+    "points.js"
+  ],
+  "readme": "## points.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая находит точку посередине между двумя указанными точками.\n\n### Примеры\n\n```javascript\nconst point1 = { x: 0, y: 0 }\nconst point2 = { x: 4, y: 4 }\nconst point3 = getMidpoint(point1, point2)\nconsole.log(point3) // => { x: 2, y: 2 };\n```\n\n### Подсказки\n\n* Средняя точка вычисляется по формуле `x = (x1 + x2) / 2` и `y = (y1 + y2) / 2`.\n",
+  "hexlet": {
+    "courseSlug": "js-data-abstraction",
+    "courseName": "JS: Абстракция с помощью данных",
+    "lessonSlug": "arrays",
+    "lessonName": "Семантика массивов",
+    "exerciseSlug": "js_data_abstraction_arrays_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-data-abstraction/lessons/arrays/exercise_unit"
+  }
+}

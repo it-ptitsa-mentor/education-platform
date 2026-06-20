@@ -1,0 +1,20 @@
+{
+  "slug": "js-dom-event-stages",
+  "title": "Перехват и всплытие",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/application.js"
+  ],
+  "studentFiles": [
+    "src/application.js"
+  ],
+  "readme": "## src/application.js\n\nРеализуйте и экспортируйте по умолчанию функцию игры крестики-нолики на поле из 9 ячеек (представлены таблицей). В упражнении дается готовая функция генерации поля. Воспользуйтесь ей для инициализации игры. Поле нужно добавить в тег с классом `.root`.\n\nЗатем по клику игра ставит поочередно `x` и `o` на поле. Подразумевается, что оба игрока играют за одним компьютером и просто кликают по очереди. Если произошел клик по занятой ячейке, то ничего не происходит и ход остается за тем же игроком пока он не кликнет по свободной ячейке.\n\nВыигрыш в игре никак не отмечается.\n\nИзначальная верстка:\n\n```html\n<div class=\"root\">\n  <table class=\"table-bordered\">\n    <tbody>\n      <tr>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n      </tr>\n      <tr>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n      </tr>\n      <tr>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n```\n\nПосле клика по центру:\n\n```html\n<div class=\"root\">\n  <table class=\"table-bordered\">\n    <tbody>\n      <tr>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n      </tr>\n      <tr>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n        <td class=\"py-2 px-3\">x</td>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n      </tr>\n      <tr>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n        <td class=\"py-2 px-3\"><span class=\"invisible\">s</span></td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n```\n\n### Подсказки\n\n* Достаточно повесить событие на всю таблицу и использовать возможности всплытия\n* Ход меняется только на клик по свободной ячейке. Если ячейка была занята до клика, то ничего не происходит\n",
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "event-stages",
+    "lessonName": "Перехват и всплытие",
+    "exerciseSlug": "js_dom_event_stages_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/event-stages/exercise_unit"
+  }
+}

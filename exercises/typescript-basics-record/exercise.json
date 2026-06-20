@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-record",
+  "title": "Записи",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `createAccessChecker()`, которая принимает на вход объект с разрешениями для ролей и возвращает функцию, проверяющую, есть ли у пользователя доступ к ресурсу.\n\n```typescript\ntype UserRole = 'admin' | 'user' | 'guest';\ntype UserResource = 'document' | 'user' | 'adminPanel';\n\nconst userRolePermissions: Record<UserRole, Array<UserResource>> = {\n  admin: ['document', 'user', 'adminPanel'],\n  user: ['document', 'user'],\n  guest: ['document'],\n};\n\nconst checkUserAccess = createAccessChecker<UserRole, UserResource>(userRolePermissions);\n\nconst isAdminAllowed = checkUserAccess('admin', 'adminPanel');\nconsole.log(isAdminAllowed); // => true\n\nconst isUserAllowed = checkUserAccess('user', 'adminPanel');\nconsole.log(isUserAllowed); // => false\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "record",
+    "lessonName": "Записи",
+    "exerciseSlug": "typescript_basics_record",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/record/exercise_unit"
+  }
+}

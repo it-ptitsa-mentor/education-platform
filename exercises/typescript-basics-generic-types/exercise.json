@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-generic-types",
+  "title": "Дженерики (Типы)",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте и экспортируйте описание обобщённого типа `MySet`, который представляет собой аналог множества `Set` из JavaScript. Пример использования объекта этого типа:\n\n```typescript\nconst s: MySet<number> = ...;\n// Добавление возвращает количество элементов\ns.add(1); // 1\ns.add(10); // 2\n\ns.has(1); // true\ns.has(8); // false\n```\n\nТип включает в себя два метода: `add()` и `has()`. Данные внутри должны храниться в свойстве `items`.\n\nМетод `add()` возвращает новое количество элементов.\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "generic-types",
+    "lessonName": "Дженерики (Типы)",
+    "exerciseSlug": "typescript_basics_generic_types",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/generic-types/exercise_unit"
+  }
+}

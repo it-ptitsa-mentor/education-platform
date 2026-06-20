@@ -1,0 +1,12 @@
+[
+  {
+    "name": "_hexlet_session2",
+    "value": "YOUR_SESSION_COOKIE",
+    "domain": ".hexlet.io"
+  },
+  {
+    "name": "session_id",
+    "value": "YOUR_SESSION_ID",
+    "domain": ".hexlet.io"
+  }
+]

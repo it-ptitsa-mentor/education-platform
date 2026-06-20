@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-modules",
+  "title": "Система модулей",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте namespace `Company`, в котором экспортируется функция `isEmployeeEmail()`. Функция принимает почту и домен. Если емейл пользователя находится в указанном домене, то функция возвращает `true`:\n\n```typescript\nCompany.isEmployeeEmail('tirion@hexlet.io', 'hexlet.io');\n// true\n\nCompany.isEmployeeEmail('user@example.com', 'hexlet.io');\n// false\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "modules",
+    "lessonName": "Система модулей",
+    "exerciseSlug": "typescript_basics_modules",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/modules/exercise_unit"
+  }
+}

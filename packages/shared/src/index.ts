@@ -7,3 +7,11 @@ export {
   runBrowserExerciseCheck,
   type ExerciseCheckOutcome,
 } from "./exercise-checks/index.js";
+export {
+  groupExercisesByCategory,
+  resolveExerciseCategory,
+  toCategorizedExerciseSummary,
+  type CategorizedExerciseSummary,
+  type ExerciseCategoryGroup,
+  type ExerciseCategoryMeta,
+} from "./exercise-categories.js";

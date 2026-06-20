@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-jsx-html-difference",
+  "title": "Различия jsx и html",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Progress.jsx"
+  ],
+  "studentFiles": [
+    "src/Progress.jsx"
+  ],
+  "readme": "### src/Progress.jsx\n\nРеализуйте и экспортируйте по умолчанию компонент *Progress*, который принимает свойство *percentage* и рисует статический прогресс бар.\n\nИспользование:\n\n```javascript\n<Progress percentage={40} />;\n```\n\nРезультат:\n\n```html\n<div class=\"progress\">\n  <div class=\"progress-bar\" role=\"progressbar\" aria-valuenow=\"40\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-label=\"progressbar\" style=\"width: 40%;\">\n  </div>\n</div>\n```\n\n![result](./assets/result.png)\n\n* Стиль `width` – вычисляется динамически исходя из переданного значения `percentage`\n* Аттрибут `aria-valuenow` – вычисляется динамически и равен `percentage`\n\n### Подсказки\n\n* [Progress](https://getbootstrap.com/docs/5.1/components/progress/)\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "jsx-html-difference",
+    "lessonName": "Различия jsx и html",
+    "exerciseSlug": "js_react_jsx_html_difference_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/jsx-html-difference/exercise_unit"
+  }
+}

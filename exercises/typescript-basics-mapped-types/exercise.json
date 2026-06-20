@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-mapped-types",
+  "title": "Сопоставление типов",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `sanitize()`, которая принимает на вход объект и массив ключей. Также она должна возвращать новый объект, но уже без указанных полей.\n\n```typescript\nconst user = sanitize({\n  name: 'John',\n  password: '1q2w3e',\n  token: 'test',\n}, ['password', 'token']); // { name: string }\n\nconsole.log(user); // => { name: 'John' }\n```\n\nОбратите внимание, что в выходном типе также не должно быть этих полей.\n\n## Подсказки\n\n* [Приведение типов](https://ru.hexlet.io/courses/typescript-basics/lessons/type-hierarcy/theory_unit#privedenie-tipov)\n* [Дженерики](https://ru.hexlet.io/courses/typescript-advanced/lessons/generic-types/theory_unit)",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "mapped-types",
+    "lessonName": "Сопоставление типов",
+    "exerciseSlug": "typescript_basics_mapped_types",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/mapped-types/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "http-api-authorization",
+  "title": "Авторизация в API",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "В этом задании вам нужно написать запрос аутентификации, получить токен и использовать этот токен для запроса на приватный роут.\n\n## solution\n\n1. Используя *curl* выполните POST-запрос к *localhost* на порт 8080 по пути */login*. В теле запроса укажите следующие данные:\n    ```json\n    {\n        \"username\": \"admin\",\n        \"password\": \"admin\"\n    }\n    ```\n    В ответ на этот запрос должен прийти токен. Используйте этот токен в следующем запросе.\n2. Выполните GET-запрос на роут */private* добавив заголовок для Bearer-токена. Используйте токен, полученный в предыдущем запросе. Получившуюся команду запишите в файл *solution*.\n\n### Подсказки\n\n* Для указания заголовка используйте флаг `-H`, а в *Content-Type* укажите тип ожидаемых данных\n",
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "authorization",
+    "lessonName": "Авторизация в API",
+    "exerciseSlug": "http_api_authorization_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/authorization/exercise_unit"
+  }
+}

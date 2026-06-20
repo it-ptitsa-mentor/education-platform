@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-for",
+  "title": "Цикл for",
+  "language": "javascript",
+  "filesToOpen": [
+    "arrays.js"
+  ],
+  "studentFiles": [
+    "arrays.js"
+  ],
+  "readme": "## arrays.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход массив и строковой префикс. Эта функция должна возвращать новый массив, в котором к каждому элементу исходного массива добавляется переданный префикс. Функция предназначена для работы со строковыми элементами. После префикса должен добавляться пробел.\n\n```javascript\nimport addPrefix from './arrays.js'\n\nconst names = ['john', 'smith', 'karl']\n\nconst newNames = addPrefix(names, 'Mr')\nconsole.log(newNames)\n// => ['Mr john', 'Mr smith', 'Mr karl'];\n\nconsole.log(names) // Старый массив не меняется!\n// => ['john', 'smith', 'karl'];\n```\n\n## Подсказки\n\n* Функция должна возвращать новый массив, для этого нужно создать пустой массив и заполнить его новыми значениями\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "for",
+    "lessonName": "Цикл for",
+    "exerciseSlug": "js_arrays_for_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/for/exercise_unit"
+  }
+}

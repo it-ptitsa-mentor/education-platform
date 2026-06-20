@@ -1,0 +1,20 @@
+{
+  "slug": "js-introduction-to-oop-arrow-functions",
+  "title": "Особенности работы this со стрелочными функциями",
+  "language": "javascript",
+  "filesToOpen": [
+    "collection.js"
+  ],
+  "studentFiles": [
+    "collection.js"
+  ],
+  "readme": "## collection.js\n\nРеализуйте и экспортируйте функцию по умолчанию, которая принимает на вход коллекцию объектов и колбек функцию. Эта функция должна вызывать колбек для каждого объекта коллекции. Главная особенность этой функции в том, что она передает объекты коллекции не в саму функцию, а устанавливает их как контекст.\n\n_Подобная функция существует в библиотеке JQuery_\n\n### Примеры\n\n```javascript\nimport each from './collection.js';\n\nconst objects = [\n  { name: 'Karl' },\n  { name: 'Mia' },\n];\neach(objects, function callback() {\n  this.name = this.name.split('').reverse().join('');\n});\n\nconsole.log(objects);\n// [\n//   { name: 'lraK' },\n//   { name: 'aiM' },\n// ];\n```\n",
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "arrow-functions",
+    "lessonName": "Особенности работы this со стрелочными функциями",
+    "exerciseSlug": "js_introduction_to_oop_arrow_functions_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/arrow-functions/exercise_unit"
+  }
+}

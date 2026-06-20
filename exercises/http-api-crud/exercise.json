@@ -1,0 +1,20 @@
+{
+  "slug": "http-api-crud",
+  "title": "CRUD",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\n* Используя *telnet* выполните запрос к *hexlet.local* (расположен на localhost) на порт 8080. Параметры запроса: метод *GET*, страница */comments*, протокол *HTTP 1.1*. Найдите в списке комментариев, комментарий с текстом: \"Edit me!\"\n* Выполните PATCH-запрос и измените текст этого комментария на \"I got it!\"\n* Запишите запрос, который изменяет комментарий, в файл *solution*\n",
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "crud",
+    "lessonName": "CRUD",
+    "exerciseSlug": "http_api_crud_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/crud/exercise_unit"
+  }
+}

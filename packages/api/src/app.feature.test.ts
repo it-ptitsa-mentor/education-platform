@@ -21,12 +21,21 @@ describe("exercise API", () => {
     await app.close();
   });
 
-  it("lists available js exercises", async () => {
+  it("lists available js exercises with categories", async () => {
     const response = await app.inject({ method: "GET", url: "/api/exercises" });
 
     expect(response.statusCode).toBe(200);
-    const body = response.json() as { exercises: { slug: string }[] };
-    expect(body.exercises.some((e) => e.slug === "js-variables")).toBe(true);
+    const body = response.json() as {
+      exercises: {
+        slug: string;
+        categoryId: string;
+        categoryName: string;
+      }[];
+    };
+    const jsVariables = body.exercises.find((e) => e.slug === "js-variables");
+    expect(jsVariables).toBeDefined();
+    expect(jsVariables?.categoryId).toBe("javascript");
+    expect(jsVariables?.categoryName).toBe("JavaScript");
   });
 
   it("returns starter code for an exercise", async () => {

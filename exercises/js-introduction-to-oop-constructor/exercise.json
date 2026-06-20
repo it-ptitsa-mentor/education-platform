@@ -1,0 +1,24 @@
+{
+  "slug": "js-introduction-to-oop-constructor",
+  "title": "Конструктор",
+  "language": "javascript",
+  "filesToOpen": [
+    "Point.js",
+    "Segment.js",
+    "solution.js"
+  ],
+  "studentFiles": [
+    "Point.js",
+    "Segment.js",
+    "solution.js"
+  ],
+  "readme": "## Point.js\n\nРеализуйте и экспортируйте по умолчанию функцию-конструктор `Point` с двумя свойствами, представляющими координаты на плоскости `x` и `y` и геттеры для извлечения этих свойств: `getX` и `getY`.\nНа основании пройденного материала выберите тот способ организовать работу абстракции, который считаете нужным.\n\n## Segment.js\n\nРеализуйте и экспортируйте по умолчанию функцию-конструктор `Segment` с двумя свойствами `beginPoint` и `endPoint` и геттеры для извлечения этих свойств: `getBeginPoint` и `getEndPoint`.\n\n## solution.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход отрезок и возвращает новый отрезок с точками, добавленными в обратном порядке (begin меняется местами с end).\n\nТочки в результирующем отрезке должны быть копиями (по значению) соответствующих точек исходного отрезка. То есть они не должны быть ссылкой на один и тот же объект, так как это разные объекты (пускай и с одинаковыми координатами). Для создания копий используйте соответствующие конструкторы.\n\n```javascript\nconst beginPoint = new Point(1, 10);\nconst endPoint = new Point(11, -3);\n\nconst segment = new Segment(beginPoint, endPoint);\nconst reversedSegment = reverse(segment);\n\n// прямое обращение к свойствам приведено только в демонстрационных целях\nconsole.log(\n  segment.beginPoint.x,\n  segment.beginPoint.y,\n  segment.endPoint.x,\n  segment.endPoint.y,\n);// => 1 10 11 -3\n\nconsole.log(\n  reversedSegment.beginPoint.x,\n  reversedSegment.beginPoint.y,\n  reversedSegment.endPoint.x,\n  reversedSegment.endPoint.y,\n); // => 11 -3 1 10\n```\n",
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "constructor",
+    "lessonName": "Конструктор",
+    "exerciseSlug": "js_introduction_to_oop_constructor_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/constructor/exercise_unit"
+  }
+}

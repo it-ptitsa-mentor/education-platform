@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-hooks-use-callback",
+  "title": "Хуки useCallback и useMemo",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/App.jsx"
+  ],
+  "studentFiles": [
+    "src/App.jsx"
+  ],
+  "readme": "### src/App.jsx\n\nДобавьте компонент `Factorial`, который принимает функцию подсчета факториала `getFactorial` и значение, из которого нужно вычислить факториал.\n\nКомпонент должен вызывать функцию, передавая в нее значение `value` и отображать результат в виде строки. Например:\n\n```\nFactorial of 5 is 120\n```\n\nСоздайте в компоненте `App` мемоизированную версию функции `getFactorial` и передайте ее в компонент `Factorial`. Мемоизируйте компонент `Factorial`, чтобы он не рендерился, когда это не нужно, например, при изменении языка.\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "use-callback",
+    "lessonName": "Хуки useCallback и useMemo",
+    "exerciseSlug": "js_react_hooks_use_callback",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/use-callback/exercise_unit"
+  }
+}

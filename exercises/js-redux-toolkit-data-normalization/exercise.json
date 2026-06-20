@@ -1,0 +1,28 @@
+{
+  "slug": "js-redux-toolkit-data-normalization",
+  "title": "Нормализация данных в Redux",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/components/Comment.jsx",
+    "src/components/Post.jsx",
+    "src/components/Posts.jsx",
+    "src/slices/commentsSlice.js",
+    "src/slices/postsSlice.js"
+  ],
+  "studentFiles": [
+    "src/components/Comment.jsx",
+    "src/components/Post.jsx",
+    "src/components/Posts.jsx",
+    "src/slices/commentsSlice.js",
+    "src/slices/postsSlice.js"
+  ],
+  "readme": "В этом упражнении мы продолжим дорабатывать приложение форума. Теперь нужно добавить сохранение нормализованных данных.\n\n### src/slices\n\nДобавьте сохранение нормализованных данных в *postsSlice.js* и *commentsSlice.js*.\n\n### src/components/Posts.jsx\n\nВ хуке `useSelector()` реализуйте получение постов и их отрисовку. Для отрисовки поста используйте компонент `Post`.\n\n### src/components/Post.jsx\n\nВ хуке `useSelector()` реализуйте получение автора по посту, переданному в компонент.\n\n### src/components/Comment.jsx\n\nРеализуйте получение данных с помощью `useSelector()`. Используйте переданный идентификатор комментария, чтобы извлекать из состояния две вещи — комментарий и пользователя по автору комментария. Сохраните автора и комментарий в переменные `author` и `comment` соответственно.\n",
+  "hexlet": {
+    "courseSlug": "js-redux-toolkit",
+    "courseName": "React: Redux Toolkit",
+    "lessonSlug": "data-normalization",
+    "lessonName": "Нормализация данных в Redux",
+    "exerciseSlug": "js_redux_toolkit_data_normalization_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-redux-toolkit/lessons/data-normalization/exercise_unit"
+  }
+}

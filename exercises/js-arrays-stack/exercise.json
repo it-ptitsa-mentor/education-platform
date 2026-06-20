@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-stack",
+  "title": "Стек",
+  "language": "javascript",
+  "filesToOpen": [
+    "strings.js"
+  ],
+  "studentFiles": [
+    "strings.js"
+  ],
+  "readme": "## strings.js\n\nРеализуйте и экспортируйте функцию по умолчанию, которая принимает на вход строку, состоящую только из открывающих и закрывающих скобок разных типов, и проверяет, является ли эта строка сбалансированной. Открывающие и закрывающие скобки должны быть одного вида. Пустая строка (отсутствие скобок) считается сбалансированной.\n\nСтрока считается корректной (сбалансированной), если содержащаяся в ней скобочная структура соответствует требованиям:\n\n* Скобки — это парные структуры. У каждой открывающей скобки должна быть соответствующая ей закрывающая скобка.\n* Скобки должны закрываться в правильном порядке:\n\n```javascript\nimport isBracketStructureBalanced from './strings.js'\n\n// Пример вложенности\nisBracketStructureBalanced('(>') // false\nisBracketStructureBalanced('()') // true\nisBracketStructureBalanced('[()]') // true\nisBracketStructureBalanced('({}[])') // true\nisBracketStructureBalanced('{<>}}') // false\nisBracketStructureBalanced('([)]') // false\n```\n\nФункция должна поддерживать, минимум, четыре вида скобок: круглые — `()`, квадратные — `[]`, фигурные — `{}` и угловые — `<>`.\n\n### Подсказки\n\n* Для решения вам может пригодиться метод [indexOf](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf). Подумайте, как его можно использовать для определения парного закрывающего символа\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "stack",
+    "lessonName": "Стек",
+    "exerciseSlug": "js_arrays_stack_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/stack/exercise_unit"
+  }
+}

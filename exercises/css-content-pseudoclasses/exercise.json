@@ -1,0 +1,20 @@
+{
+  "slug": "css-content-pseudoclasses",
+  "title": "Псевдоклассы",
+  "language": "html",
+  "filesToOpen": [
+    "styles/app.css"
+  ],
+  "studentFiles": [
+    "styles/app.css"
+  ],
+  "readme": "В этом задании, используя изученные псевдоклассы, вам предстоит создать поля шахматной доски\n\n![Шахматная доска](assets/final.png)\n\nВёрстка и основные стили шахматной доски уже доступны в соответствующих файлах. Осталось только покрасить необходимые клетки в светлый цвет `#f1d9b5`\n",
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "pseudoclasses",
+    "lessonName": "Псевдоклассы",
+    "exerciseSlug": "css_content_pseudoclasses_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/pseudoclasses/exercise_unit"
+  }
+}

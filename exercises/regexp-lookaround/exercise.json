@@ -1,0 +1,20 @@
+{
+  "slug": "regexp-lookaround",
+  "title": "Просмотр вперед и назад",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\nНапишите регулярное выражение, которое находит подстроку номер 1, за которой следует подстрока номер 2:\n\nОписание подстрок:\n\n1. `80`\n1. `:` и хотя бы один или более символов, **не входящих** в класс `a-z`\n\nИспользуйте позитивный просмотр вперед.\n\n```javascript\n// match\n['80:8080, 80:!@#$'];\n\n// not match\n['80:', '80', '80:d123f'];\n```\n",
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "lookaround",
+    "lessonName": "Просмотр вперед и назад",
+    "exerciseSlug": "regexp_lookaround_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/lookaround/exercise_unit"
+  }
+}

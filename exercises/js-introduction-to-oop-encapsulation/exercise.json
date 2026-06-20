@@ -1,0 +1,20 @@
+{
+  "slug": "js-introduction-to-oop-encapsulation",
+  "title": "Инкапсуляция",
+  "language": "javascript",
+  "filesToOpen": [
+    "users.js"
+  ],
+  "studentFiles": [
+    "users.js"
+  ],
+  "readme": "## users.js\n\nРеализуйте и экспортируйте функцию `getMutualFriends()`, которая принимает на вход двух пользователей и возвращает массив состоящий из общих друзей этих пользователей.\n\nИнтерфейс абстракции \"Пользователь\":\n\n* `user.id` – возвращает идентификатор пользователя, по которому можно его отличить от остальных.\n* `user.getFriends()` – возвращает список друзей (то есть пользователей).\n\n```javascript\nconst user1 = makeUser({\n  friends: [\n    makeUser({ id: 1 }),\n    makeUser({ id: 2 }), // общий друг\n  ],\n});\nconst user2 = makeUser({\n  friends: [\n    makeUser({ id: 2 }), // общий друг\n    makeUser({ id: 3 }),\n  ],\n});\n\ngetMutualFriends(user1, user2); // [ { friends: [], id: 2, getFriends: [Function: getFriends] } ] - массив состоящий из одного пользователя, общего друга\n```\n\n## Подсказки\n* Посмотреть, как выглядит функция создания пользователя вы можете в файле `user.js`.\n",
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "encapsulation",
+    "lessonName": "Инкапсуляция",
+    "exerciseSlug": "js_introduction_to_oop_encapsulation_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/encapsulation/exercise_unit"
+  }
+}

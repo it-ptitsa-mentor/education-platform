@@ -1,0 +1,20 @@
+{
+  "slug": "http-11",
+  "title": "HTTP 1.1",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\n* Используя *telnet* выполните запрос к *hexlet.local* (расположен на localhost) на порт *8080*. Параметры запроса: метод *GET*, страница */*, протокол *HTTP 1.1*;\n* Запишите ваш HTTP-запрос в файл *solution*;\n",
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "http_1_1",
+    "lessonName": "HTTP 1.1",
+    "exerciseSlug": "http_11_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/http_1_1/exercise_unit"
+  }
+}

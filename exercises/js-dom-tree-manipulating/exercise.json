@@ -1,0 +1,20 @@
+{
+  "slug": "js-dom-tree-manipulating",
+  "title": "Манипулирование DOM-деревом",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/prettify.js"
+  ],
+  "studentFiles": [
+    "src/prettify.js"
+  ],
+  "readme": "## src/prettify.js\n\nРеализуйте и экспортируйте функцию по умолчанию, которая находит дочерние текстовые узлы внутри элемента `<div>` и оборачивает текст в параграф. Переводы строк и отступы изменяться не должны:\n\n```javascript\n// <body>\n//   <p>Boom</p>\n//   text\n//   <div>Bam</div>\n// </body>\nprettify(document);\nconsole.log(document.body.innerHTML);\n// <body>\n//   <p>Boom</p>\n//   text\n//   <div><p>Bam</p></div>\n// </body>\n```\n\n### Алгоритм\n\n1. Выберите все нужные узлы по тегу\n2. Обойдите каждый выбранный узел\n3. Найдите в дочерних узлах `childNodes` текстовые узлы\n4. Замените их на новые узлы, содержащие тег `<p>`\n\n### Подсказки\n\n* Очистка строки от пробельных символов: [trim](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)\n* Замена узлов: [node.replaceWith()](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/replaceWith)\n* Проверка текстовых узлов: `node instanceof Text`\n",
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "tree-manipulating",
+    "lessonName": "Манипулирование DOM-деревом",
+    "exerciseSlug": "js_dom_tree_manipulating_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/tree-manipulating/exercise_unit"
+  }
+}

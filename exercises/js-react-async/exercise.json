@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-async",
+  "title": "Асинхронная обработка",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Autocomplete.jsx"
+  ],
+  "studentFiles": [
+    "src/Autocomplete.jsx"
+  ],
+  "readme": "## src/Autocomplete.jsx\n\nРеализуйте компонент `<Autocomplete />`, который представляет собой текстовое поле с автодополнением списка стран. Автодополнение срабатывает только в том случае, если указан хотя бы один символ. Для пустого запроса ничего не выводится.\n\n![Autocomplete](assets/autocomplete.gif)\n\nСписок стран можно получить, сделав запрос:\n\n```javascript\nconst res = await axios.get('/countries', { params: { term: 'al' } });\nconsole.log(res.data); // => [\"Albania\",\"Algeria\"]\n```\n\nГде `term` – это начало слова (любое количество символов введенное пользователем)\n\nНачальный HTML:\n\n```html\n<div>\n  <form>\n    <input type=\"text\" class=\"form-control\" placeholder=\"Enter Country\">\n  </form>\n</div>\n```\n\nHTML после выбора \"al\":\n\n```html\n<div>\n  <form>\n    <input type=\"text\" class=\"form-control\" placeholder=\"Enter Country\">\n  </form>\n  <ul>\n    <li>Albania</li>\n    <li>Algeria</li>\n  </ul>\n</div>\n```\n\n## Подсказки\n\n* В качестве `key` для элементов списка используйте название страны.\n* Запросы могут выполняться разное время. Например, если ввести `a` а затем быстро стереть символ, то последний запрос(с пустой строкой) может выполниться раньше, чем первый запрос с буквой `a`. В этом задании вам не нужно об этом беспокоится. В реальных проектах такое поведение решается с помощью задержки запроса перед каждым вводом.\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "async",
+    "lessonName": "Асинхронная обработка",
+    "exerciseSlug": "js_react_async_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/async/exercise_unit"
+  }
+}

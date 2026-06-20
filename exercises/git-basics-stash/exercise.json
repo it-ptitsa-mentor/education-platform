@@ -1,0 +1,20 @@
+{
+  "slug": "git-basics-stash",
+  "title": "Stash",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Если в процессе что-то пошло не так, то всегда можно сбросить прогресс и попробовать заново. Не бойтесь экспериментировать.\n\n# code-user/\n\nРепозиторий для работы находится в директории *code-user*. Перейти в нее нужно в терминале.\n\nВ рабочей директории уже есть изменения, сохраните их с помощью *git stash*.\n\n* Создайте файл *todo.md* с любым содержимым\n* Добавьте в файл *hexlet.txt* строку: «stash не трогает новые файлы, которые еще не добавлены в индекс.»\n* Сделайте коммит только с файлом *hexlet.txt*\n* Восстановите из стэша сохраненные ранее изменения\n* Сделайте еще один коммит, включающий все файлы\n\n### Подсказки\n\n* *pwd* – текущая директория\n* *cd* – переход в другую директорию\n* Строку в файл *hexlet.txt* нужно добавлять без кавычек\n",
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "git-stash",
+    "lessonName": "Stash",
+    "exerciseSlug": "git_basics_stash_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/git-stash/exercise_unit"
+  }
+}

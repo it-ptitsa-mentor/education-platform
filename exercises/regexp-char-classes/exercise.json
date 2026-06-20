@@ -1,0 +1,20 @@
+{
+  "slug": "regexp-char-classes",
+  "title": "Символьные классы",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\nНапишите регулярное выражение для поиска строк, у которых:\n\n* Первый и второй символы — это цифры\n* Третий символ — это `/`\n* Четвертый символ — любой, кроме `a-z`\n",
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "character_classes",
+    "lessonName": "Символьные классы",
+    "exerciseSlug": "regexp_char_classes_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/character_classes/exercise_unit"
+  }
+}

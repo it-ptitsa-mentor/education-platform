@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-union-types",
+  "title": "Объединения",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `lastIndex(str, char)`, возвращающую индекс последнего вхождения символа в строку или `null`, если такого символа нет.\n\n```typescript\nconst str = 'test';\nlastIndex(str, 't'); // 3\nlastIndex(str, 'p'); // null\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "union-types",
+    "lessonName": "Объединения",
+    "exerciseSlug": "typescript_basics_union_types",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/union-types/exercise_unit"
+  }
+}

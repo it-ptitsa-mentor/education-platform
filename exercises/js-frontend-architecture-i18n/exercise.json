@@ -1,0 +1,24 @@
+{
+  "slug": "js-frontend-architecture-i18n",
+  "title": "Организация текстов интерфейса",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/application.js",
+    "src/locales/en.js",
+    "src/locales/ru.js"
+  ],
+  "studentFiles": [
+    "src/application.js",
+    "src/locales/en.js",
+    "src/locales/ru.js"
+  ],
+  "readme": "В этом упражнении вам предстоит запрограммировать мультиязычный счётчик нажатий, состоящий из переключателя языка, кнопки с числом кликов и кнопки сброса счётчика. Начальное состояние:\n\n```html\n<div class=\"btn-group\" role=\"group\">\n    <button type=\"button\" class=\"btn mb-3 btn-primary\">English</button>\n    <button type=\"button\" class=\"btn mb-3 btn-outline-primary\">Русский</button>\n</div>\n<button type=\"button\" class=\"btn btn-info mb-3 align-self-center\">0 clicks</button>\n<button type=\"button\" class=\"btn btn-warning\">Reset</button>\n```\n\nПосле двух нажатий по кнопке с классом `btn-info` и нажатия на кнопку переключения на русский язык:\n\n```html\n<div class=\"btn-group\" role=\"group\">\n    <button type=\"button\" class=\"btn mb-3 btn-outline-primary\">English</button>\n    <button type=\"button\" class=\"btn mb-3 btn-primary\">Русский</button>\n</div>\n<button type=\"button\" class=\"btn btn-info mb-3 align-self-center\">2 клика</button>\n<button type=\"button\" class=\"btn btn-warning\">Сбросить</button>\n```\n\n![Пример работы](assets/example.gif)\n\n## src/application.js\n\nЭкспортируйте функцию по умолчанию, которая реализует всю необходимую логику: работу кнопок счётчика, переключение языка. Тексты должны подставляться через библиотеку _i18next_.\n\n## src/locales/en.js\n\nРеализуйте тексты для англоязычной версии приложения.\n## src/locales/ru.js\n\nРеализуйте тексты для русскоязычной версии приложения.\n\n## Подсказки\n\n* Для реализации переводов множественной формы вы можете написать [свою функцию для получения нужного ключа по числу](http://docs.translatehouse.org/projects/localization-guide/en/latest/l10n/pluralforms.html?id=l10n/pluralforms) или воспользоваться [возможностями библиотеки _i18next_](https://www.i18next.com/translation-function/plurals)\n* Каждый запуск приложения должен создавать свой собственный [инстанс i18next](https://www.i18next.com/overview/api#createinstance).\n* Для изменения языка используется функция [changeLanguage](https://www.i18next.com/overview/api#changelanguage)\n",
+  "hexlet": {
+    "courseSlug": "js-frontend-architecture",
+    "courseName": "JS: Архитектура фронтенда",
+    "lessonSlug": "i18n",
+    "lessonName": "Организация текстов интерфейса",
+    "exerciseSlug": "js_frontend_architecture_i18n_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/i18n/exercise_unit"
+  }
+}

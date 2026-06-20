@@ -5,7 +5,9 @@
   "type": "module",
   "exports": {
     ".": "./src/index.ts",
-    "./exercise-checks": "./src/exercise-checks/index.ts"
+    "./exercise-checks": "./src/exercise-checks/index.ts",
+    "./exercise-categories": "./src/exercise-categories.ts",
+    "./exercise-tracks": "./src/exercise-tracks.ts"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json"

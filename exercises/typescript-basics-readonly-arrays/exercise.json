@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-readonly-arrays",
+  "title": "Неизменяемые массивы",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `reverse()`, которая переворачивает массив чисел. Технически она должна возвращать новый массив, в котором элементы расположены в обратном порядке. Используйте модификатор `readonly` для входящего массива. Не используйте встроенный метод `reverse()`.\n\n```typescript\nreverse([1, 2, 8]); // [8, 2, 1]\nreverse([10, 33, 7, 0]); // [0, 7, 33, 10]\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "readonly-arrays",
+    "lessonName": "Неизменяемые массивы",
+    "exerciseSlug": "typescript_basics_readonly_arrays",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/readonly-arrays/exercise_unit"
+  }
+}

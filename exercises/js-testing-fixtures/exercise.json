@@ -1,0 +1,20 @@
+{
+  "slug": "js-testing-fixtures",
+  "title": "Фикстуры",
+  "language": "javascript",
+  "filesToOpen": [
+    "__tests__/toHtmlList.test.js"
+  ],
+  "studentFiles": [
+    "__tests__/toHtmlList.test.js"
+  ],
+  "readme": "## __tests__/toHtmlList.test.js\n\nПротестируйте функцию, которая преобразует различные входные форматы в выходной HTML.\n\n```javascript\n// Поддерживаются yml/json/csv\nconst html1 = toHtmlList('/path/to/yaml/file');\nconst html2 = toHtmlList('/path/to/json/file');\nconst html3 = toHtmlList('/path/to/csv/file');\n```\n\nФункция принимает путь к файлу и возвращает HTML в виде строки.\n\nКаждый из входных файлов для этой функции содержит список элементов из которых формируется элемент `<ul>`. Входные данные и выходной HTML можно подсмотреть в фикстурах.\n\nВаша задача, пропустить через эту функцию входные файлы и сравнить результат работы функции с ожидаемым значением находящимся в файле `__fixtures__/result.html`.\n\n### Подсказки\n\n* [test.each](https://jestjs.io/docs/en/api#testeachtablename-fn-timeout)\n* [.trim](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) – позволяет удалять концевые пробелы\n",
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "fixtures",
+    "lessonName": "Фикстуры",
+    "exerciseSlug": "js_testing_fixtures_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/fixtures/exercise_unit"
+  }
+}

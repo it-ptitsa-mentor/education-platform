@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-logical-operators",
+  "title": "Логические операторы",
+  "language": "javascript",
+  "filesToOpen": [
+    "isLeapYear.js"
+  ],
+  "studentFiles": [
+    "isLeapYear.js"
+  ],
+  "readme": "## isLeapYear.js\n\nРеализуйте функцию `isLeapYear()`, которая определяет, является ли год високосным. Если год високосный, функция должна вернуть `true`, если нет – `false`. Год считается високосным, если он кратен (то есть делится без остатка) 400 или он одновременно кратен 4 и не кратен 100. Как видите, в определении уже заложена вся необходимая логика, осталось только переложить её на код:\n\n```javascript\nisLeapYear(2018) // false\nisLeapYear(2017) // false\nisLeapYear(2016) // true\n```\n\nКратность можно проверять так:\n\n```javascript\n// % - возвращает остаток от деления левого операнда на правый\n// Проверяем что number кратен 10\nnumber % 10 === 0\n\n// Проверяем что number не кратен 10\nnumber % 10 !== 0\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "logical-operators",
+    "lessonName": "Логические операторы",
+    "exerciseSlug": "js_basics_logical_operators_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/logical-operators/exercise_unit"
+  }
+}

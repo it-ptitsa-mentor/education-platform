@@ -1,0 +1,20 @@
+{
+  "slug": "js-testing-jest",
+  "title": "Jest",
+  "language": "javascript",
+  "filesToOpen": [
+    "__tests__/without.test.js"
+  ],
+  "studentFiles": [
+    "__tests__/without.test.js"
+  ],
+  "readme": "### tests/take.test.js\n\nНапишите тесты для функции `without(coll, [values])`, которая принимает первым параметром массив и возвращает его копию, из которой исключены значения, переданные вторым и последующими параметрами.\n\n```javascript\n_.without([2, 1, 2, 3], 1, 2); // [3]\n```\n\n### Подсказки\n\n* [_.without](https://lodash.com/docs#without)\n* Тесты будут запускаться при помощи фреймворка Jest\n",
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "jest",
+    "lessonName": "Jest",
+    "exerciseSlug": "js_testing_jest_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/jest/exercise_unit"
+  }
+}

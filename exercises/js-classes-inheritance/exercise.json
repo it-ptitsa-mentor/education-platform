@@ -1,0 +1,22 @@
+{
+  "slug": "js-classes-inheritance",
+  "title": "Наследование",
+  "language": "javascript",
+  "filesToOpen": [
+    "HTMLHrElement.js",
+    "HTMLElement.js"
+  ],
+  "studentFiles": [
+    "HTMLHrElement.js",
+    "HTMLElement.js"
+  ],
+  "readme": "## HTMLHrElement.js\n\nРеализуйте класс *HTMLHrElement* (наследуется от *HTMLElement*), который отвечает за представление тега `<hr>`. Внутри класса определите функцию `toString()`, которая возвращает текстовое представление тега.\n\n```javascript\nimport HTMLHrElement from './HTMLHrElement.js'\nconst hr = new HTMLHrElement()\nconsole.log(hr.toString()) // => <hr>\n\nconst hr = new HTMLHrElement({ class: 'w-75', id: 'wop' })\nconsole.log(hr.toString()) // => '<hr class=\"w-75\" id=\"wop\">';\n```\n\n## HTMLElement.js\n\nРеализуйте метод `stringifyAttributes()`, который формирует строчку для аттрибутов. Используйте этот метод в наследнике для формирования тега.\n",
+  "hexlet": {
+    "courseSlug": "js-classes",
+    "courseName": "JS: Погружаясь в классы",
+    "lessonSlug": "inheritance",
+    "lessonName": "Наследование",
+    "exerciseSlug": "js_classes_inheritance_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-classes/lessons/inheritance/exercise_unit"
+  }
+}

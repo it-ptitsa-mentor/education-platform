@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-parameter-properties",
+  "title": "Свойства параметров",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте класс `CustomFile`, в конструктор которого передается имя файла и размер в байтах. Внутри класса определите метод `toString()`, который должен вернуть форматированную строку в формате `<file-name> (<size> bytes)`. Используйте свойства параметров для заполнения свойств класса.\n\n```typescript\nconst file = new CustomFile('open-world.jpeg', 1000);\nconsole.log(file); // open-world.jpeg (1000 bytes)\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "parameter-properties",
+    "lessonName": "Свойства параметров",
+    "exerciseSlug": "typescript_basics_parameter_properties",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/parameter-properties/exercise_unit"
+  }
+}

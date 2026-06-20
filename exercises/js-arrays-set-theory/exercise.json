@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-set-theory",
+  "title": "Теория множеств",
+  "language": "javascript",
+  "filesToOpen": [
+    "strings.js"
+  ],
+  "studentFiles": [
+    "strings.js"
+  ],
+  "readme": "## strings.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая получает на вход строку и считает, сколько символов (без учёта повторяющихся символов) использовано в этой строке. Например, в строке *yy* используется всего один символ — *y*. А в строке *111yya!* — используется четыре символа: *1*, *y*, *a* и *!*:\n\n```javascript\nconst text1 = 'yyab' // y, a, b\ncountUniqChars(text1) // 3\n\nconst text2 = 'You know nothing Jon Snow'\ncountUniqChars(text2) // 13\n\n// Если передана пустая строка, то функция должна вернуть `0`\nconst text3 = ''\ncountUniqChars(text3) // 0\n```\n\n### Подсказки\n\n* [includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) – проверяет есть ли такой элемент в массиве\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "set-theory",
+    "lessonName": "Теория множеств",
+    "exerciseSlug": "js_arrays_set_theory_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/set-theory/exercise_unit"
+  }
+}

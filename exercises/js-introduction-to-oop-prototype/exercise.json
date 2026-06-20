@@ -1,0 +1,20 @@
+{
+  "slug": "js-introduction-to-oop-prototype",
+  "title": "Прототипы",
+  "language": "javascript",
+  "filesToOpen": [
+    "Money.js"
+  ],
+  "studentFiles": [
+    "Money.js"
+  ],
+  "readme": "В программировании иногда приходится иметь дело с деньгами. В отличие от большинства других значений, деньги могут существовать в разных валютах, которые конвертируются друг в друга по определенным ставкам (они меняются со временем!). Из-за этого, часто, недостаточно просто хранить количество денег, нужно хранить и их валюту.\n\nДостаточно давно разработчики заметили, что работа с деньгами происходит во всех проектах примерно одинаково. Это привело к созданию определенного подхода (шаблона проектирования) при работе с деньгами. В этом задании мы частично реализуем его.\n\n## Money.js\n\nРеализуйте и экспортируйте по умолчанию абстракцию \"Деньги\". Она знает о валюте денег, позволяет их конвертировать в другие валюты, выполнять арифметические операции и форматировать вывод. Список методов:\n\n* `Money(value, currency = 'usd')` – создает объект деньги.\n* `Money.prototype.getValue()` – возвращает стоимость в виде числа\n* `Money.prototype.getCurrency()` – возвращает валюту денег\n* `Money.prototype.exchangeTo(currency)` – возвращает новый объект деньги, где значение конвертировано в указанную валюту\n* `Money.prototype.add(money)` – возвращает новый объект деньги, который представляет собой сумму исходных и переданных денег, в валюте исходных денег (внутри возможна конвертация если валюты не совпадают)\n* `Money.prototype.format()` – возвращает локализованное представление денег удобное для вывода\n\n```javascript\nconst money1 = new Money(100);\n\n// Возвращает значение\nmoney1.getValue(); // 100\nmoney1.getCurrency(); // 'usd'\n\n// Конвертирует в указанную валюту и возвращает новое значение\nmoney1.exchangeTo('eur').getValue(); // 70\n\nconst money2 = new Money(200, 'eur');\nmoney2.getValue(); // 200\nconst money3 = money2.add(money1);\nmoney3.getValue(); // 270\nconst money4 = money3.add(money1);\nmoney4.getValue(); // 340\n\nmoney1.format(); // \"$100.00\"\nmoney2.format(); // \"€200.00\"\n\nconst money5 = new Money(10000);\nmoney5.format(); // \"$10,000.00\"\n```\n\nНаша реализация поддерживает только две валюты: _usd_ и _eur_ без возможности расширения. Коэффициенты конверсии:\n\n* usd -> eur = 0.7\n* eur -> usd = 1.2\n\n### Подсказки\n\n* [Number.prototype.toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString) – умеет форматировать вывод денег в нужной локали. Если передать `undefined` первым параметром, то установится текущая локаль. Пример работы метода с локалью \"en-US\":\n\n```js\n(4000).toLocaleString(undefined, { style: 'currency', currency: 'gbp' });\n// => £4,000.00\n```\n\n* Пример реализации [денег](https://github.com/scurker/currency.js/) на js\n",
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "prototype",
+    "lessonName": "Прототипы",
+    "exerciseSlug": "js_introduction_to_oop_prototype_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/prototype/exercise_unit"
+  }
+}

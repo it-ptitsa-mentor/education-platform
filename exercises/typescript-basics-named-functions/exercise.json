@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-named-functions",
+  "title": "Именованные функции",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\n\nРеализуйте функцию `getHiddenCard()`. Она принимает на вход номер кредитки, который состоит из 16 цифр, в виде строки и возвращает его скрытую версию. Эта версия может использоваться на сайте для отображения. Например, если номер исходной карты был *2034399002125581*, то скрытая версия выглядит так: *\\*\\*\\*\\*5581*.\n\nПолучается, функция заменяет первые 12 символов на звездочки. Количество звездочек регулируется вторым необязательным параметром. Значение по умолчанию — 4.\n\n```typescript\n// Кредитка передается внутрь как строка\ngetHiddenCard('1234567812345678', 2) // \"**5678\"\ngetHiddenCard('1234567812345678', 3) // \"***5678\"\ngetHiddenCard('1234567812345678')    // \"****5678\"\ngetHiddenCard('2034399002121100', 1) // \"*1100\"\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "named-functions",
+    "lessonName": "Именованные функции",
+    "exerciseSlug": "typescript_basics_named_functions",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/named-functions/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "css-positioning-float",
+  "title": "Плавающие элементы",
+  "language": "html",
+  "filesToOpen": [
+    "styles/app.css"
+  ],
+  "studentFiles": [
+    "styles/app.css"
+  ],
+  "readme": "Используя технику «старых мастеров», создайте типичный трёхколоночный макет. Вёрстка доступна в файле _index.html_. Ваша задача — используя свойства `float` и `clear`, сделать необходимый макет.\n\n![Выравнивание](assets/float.png)\n\n## styles/app.css\n\nВ файле app.css уже созданы некоторые стили для блоков. Допишите необходимые стили. Не забывайте, что у многих блоков возможно наличие свойства `float`.\n\n## Подсказки\n\n* Используйте одинаковое значение для всех свойств `float` (чтобы создать последовательное выравнивание и избежать конфликта между элементами)\n",
+  "hexlet": {
+    "courseSlug": "css-positioning",
+    "courseName": "CSS — Расположение и макеты",
+    "lessonSlug": "float",
+    "lessonName": "Плавающие элементы",
+    "exerciseSlug": "css_positioning_float_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-positioning/lessons/float/exercise_unit"
+  }
+}

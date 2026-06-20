@@ -1,0 +1,20 @@
+{
+  "slug": "cli-basics-navigation",
+  "title": "Навигация",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "В этом задании вам предстоит найти иголку в стоге сена ;)\n\n### solution\n\nВ директории _/opt/follow_ создано множество поддиректорий. Только в одной поддиректории из них лежит файл. В остальных директориях либо пусто, либо лежат другие каталоги. Вам необходимо найти этот файл и записать его имя в файл `solution`.\n\nОбратите внимание, что практика этого курса выполняется в терминале на Хекслете, а не на своем компьютере.\n\n### Подсказки\n\n* В отличие от директории, в файл нельзя войти\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "navigation",
+    "lessonName": "Навигация",
+    "exerciseSlug": "cli_basics_navigation_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/navigation/exercise_unit"
+  }
+}

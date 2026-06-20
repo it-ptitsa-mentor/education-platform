@@ -1,0 +1,20 @@
+{
+  "slug": "js-trees-aggregation",
+  "title": "Агрегация",
+  "language": "javascript",
+  "filesToOpen": [
+    "getHiddenFilesCount.js"
+  ],
+  "studentFiles": [
+    "getHiddenFilesCount.js"
+  ],
+  "readme": "## getHiddenFilesCount.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая считает количество скрытых файлов в директории и всех поддиректориях. Скрытым файлом в Linux системах считается файл, название которого начинается с точки.\n\n### Пример\n\n```javascript\nimport * as fsTrees from '@hexlet/immutable-fs-trees';\nimport getHiddenFilesCount from '../getHiddenFilesCount.js';\n\nconst tree = fsTrees.mkdir('/', [\n  fsTrees.mkdir('etc', [\n    fsTrees.mkdir('apache'),\n    fsTrees.mkdir('nginx', [\n      fsTrees.mkfile('.nginx.conf', { size: 800 }),\n    ]),\n    fsTrees.mkdir('.consul', [\n      fsTrees.mkfile('.config.json', { size: 1200 }),\n      fsTrees.mkfile('data', { size: 8200 }),\n      fsTrees.mkfile('raft', { size: 80 }),\n    ]),\n  ]),\n  fsTrees.mkfile('.hosts', { size: 3500 }),\n  fsTrees.mkfile('resolve', { size: 1000 }),\n]);\n\ngetHiddenFilesCount(tree); // 3\n```\n",
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "aggregation",
+    "lessonName": "Агрегация",
+    "exerciseSlug": "js_trees_aggregation_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/aggregation/exercise_unit"
+  }
+}

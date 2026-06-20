@@ -1,0 +1,20 @@
+{
+  "slug": "cli-basics-pipline",
+  "title": "Пайплайн",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\n1. С помощью пайплайна отсортируйте содержимое файла _languages_ в алфавитном порядке и выведите на экран только первые две строки\n2. Запишите получившуюся команду в файл _solution_\n\n### Подсказки\n\n* Отсортировать строки в файле можно при помощи утилиты [`sort`](https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html). Она сортирует строки в переданном файле и выводит результаты в STDOUT\n* Возьмите первые две строки: `head -n 2`\n* Обратите внимание, что в файл _solution_ надо записать саму команду, а не результат ее выполнения\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "pipeline",
+    "lessonName": "Пайплайн",
+    "exerciseSlug": "cli_basics_pipline_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/pipeline/exercise_unit"
+  }
+}

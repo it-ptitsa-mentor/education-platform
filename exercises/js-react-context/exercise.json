@@ -1,0 +1,26 @@
+{
+  "slug": "js-react-context",
+  "title": "Контекст (Context API)",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/App.jsx",
+    "src/Home.jsx",
+    "src/Profile.jsx",
+    "src/ThemeSwitcher.jsx"
+  ],
+  "studentFiles": [
+    "src/App.jsx",
+    "src/Home.jsx",
+    "src/Profile.jsx",
+    "src/ThemeSwitcher.jsx"
+  ],
+  "readme": "В этом уроке вам предстоит реализовать вкладки(табы) и переключатель тем для контента внутри вкладок:\n\n![](assets/example.gif)\n\n### src/App.jsx\n\nОзнакомьтесь со списком тем. Каждая тема включает в себя класс стилей, который должен присваиваться контенту при переключении темы.\nСделайте сохранение выбранной темы в состоянии компонента, по умолчанию выбрана первая тема. Добавьте провайдер для передачи данных контекста. Данные должны содержать всё необходимое для работы: список тем, текущую выбранную тему, метод для изменения темы.\n\nРеализуйте переключатель вкладок. [Можно использовать готовый компонент `Tabs` из `react-bootstrap`](https://react-bootstrap.github.io/docs/components/tabs).\n\nПример использования:\n\n```\nrender() {\n  return (\n    <Tabs>\n      <Tab eventKey=\"login\" title=\"Login\">\n        <Home />\n      </Tab>\n      <Tab eventKey=\"registration\" title=\"Registration\">\n        <Profile />\n      </Tab>\n    </Tabs>\n  );\n}\n```\n\n### src/Home.jsx и src/Profile.jsx\n\nВ компонентах *src/Home.jsx* и *src/Profile.jsx* добавьте получение необходимых данных из контекста. Выведите текст из константы `content`. Элемент контента должен содержать класс выбранной темы.\n\nПример контента внутри вкладки:\n\n```\n<article class=\"light\">Текст для вкладки Home</article>\n```\n\n### src/ThemeSwitcher.jsx\n\nДобавьте получение необходимых данных из контекста и реализуйте переключение темы. Переключение тем должно срабатывать для всех вкладок. Можно использовать готовые компоненты [ToggleButton](https://react-bootstrap.github.io/docs/components/buttons#togglebuttongroup) и [ButtonGroup](https://react-bootstrap.github.io/docs/components/button-group) из `react-bootstrap`().\n\nПример использования:\n\n```\nrender() {\n  return (\n    <ButtonGroup className=\"mb-2\">\n      <ToggleButton\n        id=\"radio-check\"\n        type=\"radio\"\n        variant=\"secondary\"\n        checked={checked}\n        value=\"1\"\n        onChange={(e) => setChecked(e.currentTarget.checked)}\n      >\n        Checked\n      </ToggleButton>\n    </ButtonGroup>\n  );\n}\n```\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "context",
+    "lessonName": "Контекст (Context API)",
+    "exerciseSlug": "js_react_context_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/context/exercise_unit"
+  }
+}

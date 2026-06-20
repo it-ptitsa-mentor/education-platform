@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-variables-expressions",
+  "title": "Выражения в определениях",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nНапишите программу, которая берет исходное количество евро, записанное в константу `eurosCount`, переводит евро в доллары и выводит на экран. Затем полученное значение переводит в рубли и выводит на новой строчке.\n\nПример вывода для 100 евро:\n\n```bash\n125\n7500\n```\n\nСчитаем, что:\n\n- 1 евро = 1.25 долларов\n- 1 доллар = 60 рублей\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "variables-expression",
+    "lessonName": "Выражения в определениях",
+    "exerciseSlug": "js_basics_variables_expressions_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/variables-expression/exercise_unit"
+  }
+}

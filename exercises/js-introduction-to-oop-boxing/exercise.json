@@ -1,0 +1,20 @@
+{
+  "slug": "js-introduction-to-oop-boxing",
+  "title": "Упаковка и Распаковка (Boxing)",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая оборачивает переданное значение в объект. Функция может принимать числа или строки. Возвращаемый объект в выражениях должен формировать строку `Value is ` + _переданное значение_.\n\nНапример:\n\n```javascript\nimport solution from '../solution.js';\n\nsolution(1) + ''; // 'Value is 1'\nsolution(10) + ''; // 'Value is 10'\nsolution('some value') + ''; // 'Value is some value'\n",
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "boxing",
+    "lessonName": "Упаковка и Распаковка (Boxing)",
+    "exerciseSlug": "js_introduction_to_oop_boxing_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/boxing/exercise_unit"
+  }
+}

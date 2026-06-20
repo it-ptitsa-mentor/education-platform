@@ -51,8 +51,19 @@ pnpm test:feature   # API + реальный vitest на js-variables
 
 1. Создайте `exercises/my-slug/exercise.json`
 2. Положите `solution.js`, `__tests__/`
-3. Зарегистрируйте browser-check в `packages/shared/src/exercise-checks/`
+3. Зарегистрируйте browser-check в `packages/shared/src/exercise-checks/` (или используйте placeholder для импорта)
 4. Упражнение появится в списке после `pnpm generate:static-exercises`
+
+## Импорт упражнений Hexlet (Frontend)
+
+```bash
+# 1. Положите куки в .hexlet-cookies.json (см. .hexlet-cookies.json.example)
+# 2. Импорт программы «Фронтенд-разработчик» с ru.hexlet.io
+pnpm import:hexlet-frontend
+pnpm generate:static-exercises
+```
+
+Скрипт `scripts/import-hexlet-frontend.mts` тянет каталог через `/api/courses/{id}/lessons`, readme и `files_to_open` с exercise_unit. Стартовый код — из readme или шаблон. Автотесты Hexlet не копируются (placeholder). Куки в git не коммитить.
 
 ## Дизайн
 

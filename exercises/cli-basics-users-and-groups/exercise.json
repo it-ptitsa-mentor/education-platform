@@ -1,0 +1,20 @@
+{
+  "slug": "cli-basics-users-and-groups",
+  "title": "Пользователи и группы",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\n1. У команды `id` есть опция, которая позволяет вывести на экран только id пользователя. Найдите эту опцию и выведите на экран id пользователя _nobody_\n2. Запишите получившуюся команду в файл _solution_\n\n### Подсказки\n\n* Подробную информацию по утилите можно получить командами `man id` или `id --help`\n* Чтобы посмотреть идентификатор другого пользователя, достаточно передать команде `id` имя этого пользователя:\n\n    ```bash\n    id user_name\n    ```\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "users-and-groups",
+    "lessonName": "Пользователи и группы",
+    "exerciseSlug": "cli_basics_users_and_groups",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/users-and-groups/exercise_unit"
+  }
+}

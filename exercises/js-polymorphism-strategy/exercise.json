@@ -1,0 +1,24 @@
+{
+  "slug": "js-polymorphism-strategy",
+  "title": "Паттерн Стратегия",
+  "language": "javascript",
+  "filesToOpen": [
+    "Navigator.js",
+    "strategies/Driving.js",
+    "strategies/Walking.js"
+  ],
+  "studentFiles": [
+    "Navigator.js",
+    "strategies/Driving.js",
+    "strategies/Walking.js"
+  ],
+  "readme": "## Navigator.js\n\nРеализуйте класс _Navigator_, который представляет собой упрощенную вариацию навигатора. Конструктор класса должен принимать два параметра. Первый параметр — это список локаций маршрута, по которому мы передвигаемся. Второй параметр указывает на то, как мы передвигаемся: пешком (walking) или на машине (driving). По умолчанию предполагается, что мы двигаемся пешком (walking). В классе должен быть метод `goToNextTurn()`, который должен переводить на следующую локацию из переданного массива в зависимости от выбранного передвижения.\n\n### Примеры\n\n```javascript\n// По умолчанию используется передвижение пешком\nconst navigator = new Navigator(['street1', 'street2', 'street3', 'street4', 'street5']);\n\nnavigator.goToNextTurn(); // => 'street2'\nnavigator.goToNextTurn(); // => 'street3'\nnavigator.goToNextTurn(); // => 'street4'\nnavigator.goToNextTurn(); // => 'street5'\nnavigator.goToNextTurn(); // => null\n```\n\n## strategies/Walking.js\n\nРеализуйте стратегию, которая переводит на следующую локацию по порядку. Если достигнута последняя локация, то возвращается `null`\n\n## strategies/Driving.js\n\nРеализуйте стратегию, которая так же, как и `Walking` переводит на следующую локацию, но перепрыгивает через одну. Если перепрыгнута последняя локация, то считается, что она достигнута:\n\n```javascript\nconst navigator = new Navigator(['street1', 'street2', 'street3', 'street4'], 'driving');\n\nnavigator.goToNextTurn(); // => 'street3'\nnavigator.goToNextTurn(); // => null\n```\n\n## Подсказки\n\n* Изначально мы находимся на первой локации\n",
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "strategy",
+    "lessonName": "Паттерн Стратегия",
+    "exerciseSlug": "js_polymorphism_strategy_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/strategy/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-spread-operator",
+  "title": "Spread и создание новых массивов",
+  "language": "javascript",
+  "filesToOpen": [
+    "arrays.js"
+  ],
+  "studentFiles": [
+    "arrays.js"
+  ],
+  "readme": "## arrays.js\n\nРеализуйте и экспортируйте функцию `flatten()`. Эта функция принимает на вход массив и выпрямляет его: если элементами массива являются массивы, то *flatten* сводит всё к одному массиву, раскрывая один уровень вложенности.\n\n_В js эта функция реализована как метод `flat()` у массивов. Его использовать нельзя._\n\n```javascript\nimport { flatten } from '../arrays.js'\n\n// Для пустого массива возвращается []\nflatten([]) // []\nflatten([1, [3, 2], 9]) // [1, 3, 2, 9]\nflatten([1, [[2], [3]], [9]]) // [1, [2], [3], 9]\n```\n\nРеализуйте добавление элементов вложенного массива в результирующий через spread-оператор.\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "spread-operator",
+    "lessonName": "Spread и создание новых массивов",
+    "exerciseSlug": "js_arrays_spread_operator_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/spread-operator/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-optimization",
+  "title": "Композиция компонентов",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/App.jsx"
+  ],
+  "studentFiles": [
+    "src/App.jsx"
+  ],
+  "readme": "### src/App.jsx\n\nВ этом упражнении вам нужно реализовать приложение из предыдущего задания, но без использования методов мемоизации.\n\nКак и в предыдущем приложении, должны быть кнопки переключения языка и вычисления факториалов для чисел 1, 5, 10.\n\nВыделите компонент с вычислением факториала и отображением результата по аналогии с предыдущим заданием. Компонент не должен перерисовываться при переключении языка.\n\nПример текста для вывода результата:\n\n```text\nFactorial of 1 is 1\nFactorial of 5 is 120\nFactorial of 10 is 3628800\n```\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "optimization",
+    "lessonName": "Композиция компонентов",
+    "exerciseSlug": "js_react_optimization",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/optimization/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "css-positioning-fixed",
+  "title": "Фиксированное позиционирование",
+  "language": "html",
+  "filesToOpen": [
+    "styles/app.css"
+  ],
+  "studentFiles": [
+    "styles/app.css"
+  ],
+  "readme": "Вам необходимо закончить работу за сотрудником, который заболел. Задача — сделать фиксированную шапку в макете, который представлен в этом упражнении. Взгляните на макет, используя «Веб-доступ». Это поможет понять все проблемы, с которыми вы встретитесь в ходе выполнения задачи.\n\nВам необходимо дополнить классы _fixed-header_ и _padding-header_. Высота шапки должна быть 100 пикселей. Ширина максимально доступная. После того, как создадите фиксированную шапку, вы увидите, что контентная часть «уехала» под шапку. Исправьте это, используя класс _padding-header_\n",
+  "hexlet": {
+    "courseSlug": "css-positioning",
+    "courseName": "CSS — Расположение и макеты",
+    "lessonSlug": "fixed",
+    "lessonName": "Фиксированное позиционирование",
+    "exerciseSlug": "css_positioning_fixed_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-positioning/lessons/fixed/exercise_unit"
+  }
+}

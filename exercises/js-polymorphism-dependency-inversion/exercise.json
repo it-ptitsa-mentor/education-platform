@@ -1,0 +1,22 @@
+{
+  "slug": "js-polymorphism-dependency-inversion",
+  "title": "Инверсия зависимостей",
+  "language": "javascript",
+  "filesToOpen": [
+    "WeatherService.js",
+    "bin/weather.js"
+  ],
+  "studentFiles": [
+    "WeatherService.js",
+    "bin/weather.js"
+  ],
+  "readme": "Создайте полноценное консольное приложение, которое показывает текущую погоду в городе. Оно работает так:\n\n```bash\n$ node bin/weather.js berlin\nTemperature in berlin: 11C // C - Цельсий\n\n$ node bin/weather.js monaco\nTemperature in monaco: 26C\n```\n\nЭто консольное приложение обращается внутри себя к сервису погоды. Сервис погоды расположен по адресу *http://localhost:8080* (внутри практики). Информацию по городу можно извлечь сделав *GET* запрос на урл */api/v2/cities/<имя города>*. Данные от сервиса возвращаются в виде json: `{ \"name\": \"<имя города>\", temperature: \"<температура>\" }`, единица измерения не указана, но это всегда градус Цельсия. Пример:\n\n```bash\n# Вы можете попробовать выполнить этот запрос прямо в терминале\n$ telnet localhost 8080\nGET /api/v2/cities/berlin HTTP/1.1\nHOST: localhost\n\nHTTP/1.1 200 OK\nContent-Type: application/json; charset=utf-8\nContent-Length: 41\n\n\"{\\\"name\\\":\\\"berlin\\\",\\\"temperature\\\":9}\"\n```\n\n## WeatherService.js\n\nРеализуйте логику работы сервиса. Под сервисом здесь понимается класс, умеющий работать с конкретным сервисом погоды (в интернете их довольно много). В перспективе классов может быть много и они могут подменять друг друга (то есть обеспечивать полиморфизм).\n\nОбъект этого класса должен уметь запрашивать данные у сервера (адрес выше) по конкретному городу и возвращать их обратно.\n\nДля извлечения данных о погоде, ему нужно выполнить http-запрос. Для выполнения подобных запросов понадобится http-клиент, библиотека, которая сама формирует правильный http-запрос и возвращает ответ. В нашем случае используется [axios](https://github.com/axios/axios), наиболее популярный http-клиент в JavaScript-мире.\n\nСделайте так, чтобы http-клиент не был зашит внутри класса, используйте инъекцию зависимостей для проброса клиента внутрь. Потенциально это позволит подменить реализацию http-клиента (то есть использовать другой клиент), без необходимости переписывать код сервиса.\n\nПример того как делаются запросы с помощью axios:\n\n```javascript\n// Внутри async функции\n// Выполнение GET запроса по указанному адресу\nconst response = await axios.get('https://hexlet.io/lessons?page=2')\n// response содержит http-ответ\n```\n\nСтруктуру ответа можно посмотреть [здесь](https://github.com/axios/axios#response-schema).\n\n## bin/weather.js\n\nРеализуйте код, вызывающий сервис и печатающий на экран ожидаемую строку. Для извлечения города из аргументов командной строки, воспользуйтесь свойством `argv` глобального объекта `process`. Первый аргумент (передаваемое имя города) находится под индексом 2. Посмотреть описание и пример можно в [документации](https://nodejs.org/api/process.html#processargv).\n\n```bash\nnode ./bin/weather.js berlin\nTemperature in berlin: 23C\n```\n\n### Подсказки\n\n* [Скрипты, модули и библиотеки](https://ru.hexlet.io/blog/posts/skripty-moduli-i-biblioteki)\n",
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "dependency-inversion",
+    "lessonName": "Инверсия зависимостей",
+    "exerciseSlug": "js_polymorphism_dependency_inversion_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/dependency-inversion/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-polymorphism-dispatch-by-file",
+  "title": "Диспетчеризация по имени файла",
+  "language": "javascript",
+  "filesToOpen": [
+    "DatabaseConfigLoader.js"
+  ],
+  "studentFiles": [
+    "DatabaseConfigLoader.js"
+  ],
+  "readme": "## DatabaseConfigLoader.js\n\nРеализуйте и экспортируйте по умолчанию класс `DatabaseConfigLoader`, который отвечает за загрузку конфигурации для базы данных. У класса следующий интерфейс:\n\n* Конструктор — принимает на вход путь, по которому нужно искать конфигурацию\n* `load(env)` — метод, который грузит конфигурацию для конкретной среды окружения. Он загружает файл `database.${env}.json`, парсит его и возвращает результат наружу.\n\n### Пример\n\n```javascript\n\nconst pathToConfigs = path.join(__dirname, '__fixtures__');\nconst loader = new DatabaseConfigLoader(pathToConfigs);\nconst config = loader.load('production'); // loading database.production.json\n// {\n//   host: 'google.com',\n//   username: 'postgres',\n// };\n```\n\nВ этом классе и конфигурации реализована поддержка расширения. Если в загружаемой конфигурации есть ключ `extend`, то нужно загрузить конфигурацию с именем, хранящимся в этом ключе. Например:\n\n```json\n{\n  \"extend\": \"development\",\n  \"host\": \"dev.server\",\n  \"password\": \"admin\"\n}\n```\n\nВ ключе `extend` хранится значение `'development'`, поэтому дополнительно загружается конфигурация `database.development.json` также далее с новой загруженной конфигурацией.\n\nКонфигурации сливаются между собой так, что приоритет имеет загруженная раньше. Итоговая конфигурация не должна содержать ключ `extend`. Подробнее смотрите примеры в тестах.\n\n### Подсказки\n\n* Для чтения файла используйте соответствующую синхронную функцию из модуля fs.\n",
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "dispatch-by-file",
+    "lessonName": "Диспетчеризация по имени файла",
+    "exerciseSlug": "js_polymorphism_dispatch_by_file_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/dispatch-by-file/exercise_unit"
+  }
+}

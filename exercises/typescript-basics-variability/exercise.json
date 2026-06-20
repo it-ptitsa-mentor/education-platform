@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-variability",
+  "title": "Ковариантность и контравариантность",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `applyTransactions` и типы `Transaction`, `Wallet`. `applyTransactions` должна принимать аргумент типа `Wallet` и возвращать число, полученное после применения всех транзакций к количеству денег на счету. В случае ошибки в одной из транзакций должно вернуться изначальное число, последующие транзакции не обрабатываются. Функция должна только возвращать значение, не меняя баланс.\n\n```typescript\nconst wallet: Wallet = {\n  transactions: [\n    {\n      apply: (amount) => amount + 1,\n    },\n  ],\n  balance: 0\n}\n\nconsole.log(applyTransactions(wallet)) // 1\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "variability",
+    "lessonName": "Ковариантность и контравариантность",
+    "exerciseSlug": "typescript_basics_variability",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/variability/exercise_unit"
+  }
+}

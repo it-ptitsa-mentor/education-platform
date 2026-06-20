@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-conditionals",
+  "title": "Условные конструкции",
+  "language": "javascript",
+  "filesToOpen": [
+    "normalizeUrl.js"
+  ],
+  "studentFiles": [
+    "normalizeUrl.js"
+  ],
+  "readme": "## normalizeUrl.js\n\nРеализуйте функцию `normalizeUrl()`, которая выполняет так называемую нормализацию данных. Она принимает адрес сайта и возвращает его с *https://* в начале.\n\nФункция принимает адреса в виде *АДРЕС* или *https://АДРЕС*, но всегда возвращает адрес в виде *https://АДРЕС*\n\nМожно использовать метод [startsWith()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith), чтобы проверить, начинается ли строка с префикса *https://*. А потом на основе этого добавлять или не добавлять *https://*.\n\nПримеры вызова:\n\n```javascript\nnormalizeUrl('google.com') // \"https://google.com\"\nnormalizeUrl('https://ai.fi') // \"https://ai.fi\"\n```\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "conditionals",
+    "lessonName": "Условные конструкции",
+    "exerciseSlug": "js_basics_conditionals_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/conditionals/exercise_unit"
+  }
+}

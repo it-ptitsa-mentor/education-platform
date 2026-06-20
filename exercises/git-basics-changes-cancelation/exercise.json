@@ -1,0 +1,20 @@
+{
+  "slug": "git-basics-changes-cancelation",
+  "title": "Отмена изменений в рабочей директории",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Если в процессе что-то пошло не так, то всегда можно сбросить прогресс и попробовать заново. Не бойтесь экспериментировать.\n\nРепозиторий для работы находится в директории *code-user*. Перейти в нее нужно в терминале.\n\n# code-user/\n\nОтмените все изменения, сделанные в рабочей директории и индексе. В результате должен получиться такой вывод:\n\n```bash\n$ git status\nnothing to commit, working tree clean\n```\n",
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "changes-cancelation",
+    "lessonName": "Отмена изменений в рабочей директории",
+    "exerciseSlug": "git_basics_changes_cancelation_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/changes-cancelation/exercise_unit"
+  }
+}

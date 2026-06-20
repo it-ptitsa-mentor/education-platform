@@ -1,0 +1,22 @@
+{
+  "slug": "css-content-background",
+  "title": "Фон",
+  "language": "html",
+  "filesToOpen": [
+    "index.html",
+    "styles/app.css"
+  ],
+  "studentFiles": [
+    "index.html",
+    "styles/app.css"
+  ],
+  "readme": "Создайте визитную карточку с фоновым изображением и номером телефона в центре.\n\n![Итоговый результат выполнения задания](assets/final.png)\n\n## index.html\n\nДобавьте код для структуры карточки:\n\n* Контейнер, для которого будем задавать фоновую картинку\n* Параграф с номером телефона \"8 800 555 35 35\"\n\n## app.css\n\nОформите карточку по следующим правилам:\n  - Карточка должна быть шириной `300px` и высотой `200px`\n  - Шрифт: `цвета #e1bee6`, жирного начертания, размером `24px`\n  - Фоновое изображение (лежит в папке `assets`) центрировано и занимает весь блок\n",
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "background",
+    "lessonName": "Фон",
+    "exerciseSlug": "css_content_background_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/background/exercise_unit"
+  }
+}

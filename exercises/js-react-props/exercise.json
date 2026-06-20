@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-props",
+  "title": "Props",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Card.jsx"
+  ],
+  "studentFiles": [
+    "src/Card.jsx"
+  ],
+  "readme": "### src/Card.jsx\n\nРеализуйте и экспортируйте по умолчанию компонент _Card_, который принимает на вход свойства `title` и `text`. И возвращает `jsx` с подставленными значениями. Если свойства не переданы, вместо них подставляются строки \"title\" и \"text\". Пример:\n\n```jsx\nconst title = \"title 1\";\nconst text = \"text 1\";\nReactDOM.render(<Card title={title} text={text} />);\n\n// вывод\n<div className=\"card\">\n  <div className=\"card-body\">\n    <h4 className=\"card-title\">title 1</h4>\n    <p className=\"card-text\">text 1</p>\n  </div>\n</div>;\n\n// без пропсов\nReactDOM.render(<Card />);\n\n// вывод\n<div className=\"card\">\n  <div className=\"card-body\">\n    <h4 className=\"card-title\">title</h4>\n    <p className=\"card-text\">text</p>\n  </div>\n</div>;\n```\n\n![Пример](./assets/final.png)\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "props",
+    "lessonName": "Props",
+    "exerciseSlug": "js_react_props_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/props/exercise_unit"
+  }
+}

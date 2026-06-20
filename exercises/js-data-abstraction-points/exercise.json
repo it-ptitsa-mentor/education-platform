@@ -1,0 +1,20 @@
+{
+  "slug": "js-data-abstraction-points",
+  "title": "Точки на координатной плоскости",
+  "language": "javascript",
+  "filesToOpen": [
+    "points.js"
+  ],
+  "studentFiles": [
+    "points.js"
+  ],
+  "readme": "## points.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая находит расстояние между двумя точками на плоскости:\n\n```javascript\npoint1 = [0, 0]\npoint2 = [3, 4]\ncalculateDistance(point1, point2) // 5\n```\n\n### Подсказки\n\n* Формула расчета расстояния между двумя точками: `Math.sqrt(((x2 - x1) ** 2) + ((y2 - y1) ** 2))`, где `x1, y1` — это координаты первой точки, а `x2, y2` — координаты второй\n",
+  "hexlet": {
+    "courseSlug": "js-data-abstraction",
+    "courseName": "JS: Абстракция с помощью данных",
+    "lessonSlug": "points",
+    "lessonName": "Точки на координатной плоскости",
+    "exerciseSlug": "js_data_abstraction_points_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-data-abstraction/lessons/points/exercise_unit"
+  }
+}

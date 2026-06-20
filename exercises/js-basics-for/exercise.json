@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-for",
+  "title": "Цикл for",
+  "language": "javascript",
+  "filesToOpen": [
+    "encrypt.js"
+  ],
+  "studentFiles": [
+    "encrypt.js"
+  ],
+  "readme": "## encrypt.js\n\nСэмвелл обнаружил, что его сообщения перехватываются и читаются в замке «Близнецы», поэтому его атаки перестали быть внезапными. Немного подумав, он разработал программу, которая будет шифровать передаваемые сообщения по следующему алгоритму: программа получает на вход строку и меняет местами в ней каждые 2 подряд идущих символа. Если длина строки нечётная, то последний символ остаётся на своём месте.\n\n```javascript\nencrypt('move') // 'omev'\nencrypt('attack') // 'taatkc'\nencrypt('car!') // 'ac!r'\n\n// Если длина строки нечётная,\n// то последний символ остаётся на своём месте\nencrypt('go!') // 'og!'\n```\n\nРеализуйте функцию `encrypt()`, которая принимает на вход исходное сообщение и возвращает зашифрованное.\n\n## Подсказки\n* В этом упражнении вам пригодятся знания из предыдущих уроков этого курса:\n    * [шаблонные строки](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Template_literals)\n    * [Логическое ИЛИ (||)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Logical_OR)\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "for",
+    "lessonName": "Цикл for",
+    "exerciseSlug": "js_basics_for_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/for/exercise_unit"
+  }
+}

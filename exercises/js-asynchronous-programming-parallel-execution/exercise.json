@@ -1,0 +1,20 @@
+{
+  "slug": "js-asynchronous-programming-parallel-execution",
+  "title": "Параллельное выполнение операций",
+  "language": "javascript",
+  "filesToOpen": [
+    "info.js"
+  ],
+  "studentFiles": [
+    "info.js"
+  ],
+  "readme": "## info.js\n\nРеализуйте и экспортируйте асинхронную функцию `getDirectorySize()`, которая считает размер переданной директории, не включая поддиректории. Анализ размера файла должен происходить параллельно, для этого воспользуйтесь библиотекой _async_\n\n### Примеры\n\n```javascript\nimport { getDirectorySize } from './info.js'\n\ngetDirectorySize('/usr/local/bin', (err, size) => {\n  console.log(size)\n})\n\n// Ошибка\ngetDirectorySize('/undefined', (err, size) => {\n  console.error(err)\n})\n```\n\n### Подсказки\n\n* [fs.readdir()](https://nodejs.org/api/fs.html#fsreaddirPath-options-callback) — чтение содержимого директории, возвращает файлы и папки в директории\n* [path.join()](https://nodejs.org/api/path.html#pathjoinpaths) — конструирует пути\n* [async.map()](http://caolan.github.io/async/v3/docs.html#map) — специальная функция из библиотеки для асинхронной обработки коллекций\n* [fs.stat()](https://nodejs.org/api/fs.html#fsstatpath-options-callback) — информация о файле. В получаемом объекте содержится метод [isFile() для проверки является ли элемент файлом](https://nodejs.org/api/fs.html#statsisfile)\n* [_.sumBy()](https://lodash.com/docs#sumBy) — нахождение суммы в массиве\n* колбек должен вызываться и в случае ошибки\n",
+  "hexlet": {
+    "courseSlug": "js-asynchronous-programming",
+    "courseName": "JS: Асинхронное программирование",
+    "lessonSlug": "parallel-execution",
+    "lessonName": "Параллельное выполнение операций",
+    "exerciseSlug": "js_asynchronous_programming_parallel_execution_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-asynchronous-programming/lessons/parallel-execution/exercise_unit"
+  }
+}

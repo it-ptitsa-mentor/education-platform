@@ -1,0 +1,20 @@
+{
+  "slug": "js-advanced-testing-files",
+  "title": "Тестирование кода, взаимодействующего с файлами",
+  "language": "javascript",
+  "filesToOpen": [
+    "__tests__/prettifyHTMLFile.test.js"
+  ],
+  "studentFiles": [
+    "__tests__/prettifyHTMLFile.test.js"
+  ],
+  "readme": "## __tests__/prettifyHTMLFile.test.js\n\nПротестируйте функцию, которая форматирует и изменяет указанный HTML-файл. Функция добавляет перенос строки и отступы, как это продемонстрировано в примере ниже:\n\n```javascript\n// содержимое до форматирования\n// <div><p>hello <b>world</b></p></div>\nawait prettifyHTMLFile('/path/to/file')\n\n// содержимое после форматирования:\n// <div>\n//     <p>hello <b>world</b></p>\n// </div>\n```\n\nВ функцию передается путь к файлу. Функция изменяет содержимое файла.\n\nВ примере выше изначально файл __/path/to/file__ содержит такой текст:\n\n```html\n<div><p>hello <b>world</b></p></div>\n```\n\nПосле завершения работы функции содержимое файла меняется на:\n\n```html\n<div>\n    <p>hello <b>world</b></p>\n</div>\n```\n\n### Подсказки\n\n* В директории `__fixtures__` лежат готовые фикстуры для тестов.\n* Модули для работы с файловой системой: [fs](https://nodejs.org/api/fs.html), [path](https://nodejs.org/api/path.html)\n",
+  "hexlet": {
+    "courseSlug": "js-advanced-testing",
+    "courseName": "JS: Продвинутое тестирование",
+    "lessonSlug": "files",
+    "lessonName": "Тестирование кода, взаимодействующего с файлами",
+    "exerciseSlug": "js_advanced_testing_files_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-advanced-testing/lessons/files/exercise_unit"
+  }
+}

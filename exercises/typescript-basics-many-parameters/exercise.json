@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-many-parameters",
+  "title": "Дженерики с несколькими параметрами",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте описание обобщенного типа `MyMap`, который представляет собой аналог [хеш-таблицы](https://ru.hexlet.io/courses/js-objects/lessons/hash-table/theory_unit) в JavaScript. Пример использования объекта этого типа:\n\n```typescript\nconst map: MyMap<string, number> = ...;\nmap.set('one', 1);\nmap.set('two', 2);\n\nmap.get('one'); // 1\nmap.get('two'); // 2\nmap.get('three'); // undefined\n```\n\nТип включает в себя два метода `set()` и `get()`. Первый метод принимает два дженерик-параметра: ключ и значение. Второй метод принимает ключ и возвращает значение. Значения хранятся внутри объекта в поле `values` в виде встроенного в JavaScript класса [Map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map).\n\nМетод `set()` должен возвращать этот же объект:\n\n```javascript\nconst map: MyMap<string, number> = ...;\nconst map1 = map.set('one', 1);\nmap1.get('one'); // 1\n```\n\n## Подсказки\n* Встроенный объект `Map` уже имеет готовый тип в TypeScript. Вы можете просто написать `values: Map<K, V>;`, чтобы указать тип хранения ключей и значений.\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "many-parameters",
+    "lessonName": "Дженерики с несколькими параметрами",
+    "exerciseSlug": "typescript_basics_many_parameters",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/many-parameters/exercise_unit"
+  }
+}

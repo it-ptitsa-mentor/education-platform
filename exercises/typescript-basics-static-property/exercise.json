@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-static-property",
+  "title": "Статические методы и свойства",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nДругое полезное применение статических свойств и методов - создание фабричных методов. Фабричный метод - это статический метод, который возвращает новый экземпляр класса. Реализуйте класс `UserResponse` с полем `user: string` и фабричный метод `fromArray`, который принимает массив и возвращает массив экземпляров класса `UserResponse`:\n\n```typescript\nconst response = UserResponse.fromArray(['user1', 'user2', 'user3']);\nconsole.log(response[0].user); // user1\nconsole.log(response[0] instanceof UserResponse); // true\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "static-property",
+    "lessonName": "Статические методы и свойства",
+    "exerciseSlug": "typescript_basics_static_property",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/static-property/exercise_unit"
+  }
+}

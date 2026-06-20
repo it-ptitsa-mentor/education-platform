@@ -1,0 +1,20 @@
+{
+  "slug": "js-frontend-architecture-ui-state",
+  "title": "Состояние отображения (UI State)",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/application.js"
+  ],
+  "studentFiles": [
+    "src/application.js"
+  ],
+  "readme": "В этой практике вам нужно будет реализовать [Collapse](https://getbootstrap.com/docs/4.5/components/collapse/#example)\n\n## src/application.js\n\nРеализуйте и экспортируйте функцию по умолчанию, которая принимает на вход список компаний (пример списка в файле *src/index.js*) и использует этот список для формирования кнопок (по одной на каждую компанию). Нажатие на кнопку приводит к выводу описания компании (если есть описание другой компании, оно заменяется). Повторное нажатие удаляет вывод. Данные должны полностью удаляться, скрытие с помощью классов не подходит. По умолчанию не показывается никакое описание.\n\n![Пример работы](assets/example.gif)\n\nПример начального вывода (может отличаться от вашего):\n\n```html\n<div class=\"container m-3\">\n  <button class=\"btn btn-primary\">\n    Hexlet\n  </button>\n  <button class=\"btn btn-primary\">\n    Google\n  </button>\n  <button class=\"btn btn-primary\">\n    Facebook\n  </button>\n</div>\n```\n\nПосле клика на второй кнопке добавляется описание:\n\n```html\n<div class=\"container m-3\">\n  <button class=\"btn btn-primary\">\n    Hexlet\n  </button>\n  <button class=\"btn btn-primary\">\n    Google\n  </button>\n  <button class=\"btn btn-primary\">\n    Facebook\n  </button>\n  <div>search engine</div>\n</div>\n```\n\nПосле клика на третьей кнопке описание заменяется на новое:\n\n```html\n<div class=\"container m-3\">\n  <button class=\"btn btn-primary\">\n    Hexlet\n  </button>\n  <button class=\"btn btn-primary\">\n    Google\n  </button>\n  <button class=\"btn btn-primary\">\n    Facebook\n  </button>\n  <div>social network</div>\n</div>\n```\n\nПосле повторного клика на третьей кнопке описание удаляется:\n\n```html\n<div class=\"container m-3\">\n  <button class=\"btn btn-primary\">\n    Hexlet\n  </button>\n  <button class=\"btn btn-primary\">\n    Google\n  </button>\n  <button class=\"btn btn-primary\">\n    Facebook\n  </button>\n</div>\n```\n",
+  "hexlet": {
+    "courseSlug": "js-frontend-architecture",
+    "courseName": "JS: Архитектура фронтенда",
+    "lessonSlug": "ui-state",
+    "lessonName": "Состояние отображения (UI State)",
+    "exerciseSlug": "js_frontend_architecture_ui_state_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/ui-state/exercise_unit"
+  }
+}

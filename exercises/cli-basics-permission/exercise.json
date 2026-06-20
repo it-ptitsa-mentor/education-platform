@@ -1,0 +1,20 @@
+{
+  "slug": "cli-basics-permission",
+  "title": "Права доступа",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Если в процессе что-то пошло не так, то всегда можно сбросить прогресс и попробовать заново. Не бойтесь экспериментировать.\n\n## solution\n\nИзмените права доступа к файлу _myfile_. Для владельца файла установите разрешение только на чтение и исполнение файла. Для пользователей, входящих в группу владельца, и для остальных пользователей установите разрешение только на исполнение\n\n| Группа     | Права  | Описание         |\n|------------|--------|-------------------|\n| Владелец   | r-x    | Чтение и выполнение, без записи |\n| Группа     | --x    | Только выполнение  |\n| Остальные  | --x    | Только выполнение  |\n\n\nЗапишите в файл _solution_ команду, которая это делает.\n\n### Подсказки\n\n* [Как посчитать права доступа для chmod](https://ru.hexlet.io/qna/help/questions/kak-nastroit-prava-dostupa-s-pomoschyu-chmod)\n* [chmod-калькулятор](https://hyperdedic.ru/services/chmod-calc)\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "permissions",
+    "lessonName": "Права доступа",
+    "exerciseSlug": "cli_basics_permission_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/permissions/exercise_unit"
+  }
+}

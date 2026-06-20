@@ -1,0 +1,20 @@
+{
+  "slug": "js-functions-signals",
+  "title": "Цепочка операций",
+  "language": "javascript",
+  "filesToOpen": [
+    "emails.js"
+  ],
+  "studentFiles": [
+    "emails.js"
+  ],
+  "readme": "## emails.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход список емейлов, а возвращает количество емейлов, расположенных на каждом бесплатном домене. Список бесплатных доменов хранится в константе `freeEmailDomains`.\n\n### Примеры\n\n```javascript\nconst emails = [\n    'info@gmail.com',\n    'info@yandex.ru',\n    'info@hotmail.com',\n    'mk@host.com',\n    'support@hexlet.io',\n    'key@yandex.ru',\n    'sergey@gmail.com',\n    'vovan@gmail.com',\n    'vovan@hotmail.com',\n];\n\ngetFreeDomainsCount(emails);\n// {\n//   'gmail.com': 3,\n//   'yandex.ru': 2,\n//   'hotmail.com': 2,\n// };\n```\n\nДругие примеры смотрите в модуле с тестами.\n\n### Подсказки\n\n* При решении вам может понадобится функция [get()](https://es-toolkit.slash.page/reference/compat/object/get.html) из библиотеки es-toolkit.\n",
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "signals",
+    "lessonName": "Цепочка операций",
+    "exerciseSlug": "js_functions_signals_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/signals/exercise_unit"
+  }
+}

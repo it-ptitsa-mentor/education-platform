@@ -1,0 +1,20 @@
+{
+  "slug": "http-redirect",
+  "title": "Перенаправления",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\n* Используя *telnet* выполните запрос к *hexlet.local* (расположен на *localhost*) на порт *8080*\n* Параметры запроса: метод `POST`, страница `/session/new`, протокол `HTTP 1.1`\n* Запишите ваш HTTP-запрос в файл *solution*\n",
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "redirect",
+    "lessonName": "Перенаправления",
+    "exerciseSlug": "http_redirect_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/redirect/exercise_unit"
+  }
+}

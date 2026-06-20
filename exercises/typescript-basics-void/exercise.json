@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-void",
+  "title": "Тип Void",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nПопробуйте самостоятельно определить функцию `forEach()` для чисел:\n\n```typescript\nforEach([1, 2, 3], (n) => console.log(n));\n// 1\n// 2\n// 3\n\nconst result = [];\nforEach([1, 2, 3], (n) => result.push(n));\n// [1, 2, 3]\n```\n\nПараметры функции:\n\n1. Массив чисел\n2. Анонимная функция, которая принимает на вход число и возвращает `void`. У этой функции есть необязательный параметр — индекс элемента в массиве\n\n```typescript\nforEach([8, 9], (n, index) => console.log(index + n));\n// 8\n// 10\n```\n\n## Подсказки\n\n- По заданию вам нужно создать функцию `forEach()`, но это не значит, что в самой функции нельзя использовать встроенные методы массивов\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "void",
+    "lessonName": "Тип Void",
+    "exerciseSlug": "typescript_basics_void",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/void/exercise_unit"
+  }
+}

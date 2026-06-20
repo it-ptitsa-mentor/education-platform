@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-enums",
+  "title": "Перечисления",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\n1. Реализуйте перечисление `ModalStatus` с двумя значениями: Opened и Closed\n2. Реализуйте функцию `buildModal()`. Она возвращает объект, который описывает модальное окно. Параметры функции:\n\n * Текст, который должен быть внутри окна после инициализации\n * Статус, с которым надо создать объект окна\n\n Функция возвращает объект с двумя полями: `text` (здесь хранится переданный текст) и `status` (здесь хранится переданный статус)\n\n```typescript\nconst modal = buildModal('hexlet forever', ModalStatus.Opened);\n// { text: 'hexlet forever', status: ModalStatus.Opened }\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "enums",
+    "lessonName": "Перечисления",
+    "exerciseSlug": "typescript_basics_enums",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/enums/exercise_unit"
+  }
+}

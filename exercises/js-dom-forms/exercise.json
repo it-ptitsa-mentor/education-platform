@@ -1,0 +1,20 @@
+{
+  "slug": "js-dom-forms",
+  "title": "Формы",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/application.js"
+  ],
+  "studentFiles": [
+    "src/application.js"
+  ],
+  "readme": "В предыдущих уроках мы познакомились со свойством `textContent`, которое позволяет безопасно вставлять данные на страницу, чтобы избежать уязвимостей. В этом упражнении мы отработаем ручное экранирование данных при установке их через свойство `innerHTML`.\n\n## src/application.js\n\nВ задании дана форма обратной связи, состоящая из трех полей: `email`, `name` и `comment`. Вы можете изучить ее структуру в шаблоне HTML.\n\nНапишите и экспортируйте функцию по умолчанию, которая при отправке формы получает из этой формы данные и экранирует их. Когда форма заполнена и отправлена (нажата кнопка `send`), то элемент формы заменяется на другой элемент. Вместо формы должен отобразиться элемент с введенными данными. Структура должна быть такой:\n\n```html\n<div>\n  <p>Feedback has been sent</p>\n  <div>Email: test@email.com</div>\n  <div>Name: Matz</div>\n  <div>Comment: My Comment</div>\n</div>\n```\n\nДля соответствующих полей отображается введенное значение. То есть отображаются введенные данные после названия поля и двоеточия. Например, для `email`: `Email: test@email.com`.\n\nДля экранирования введенных данных используйте функцию `htmlEscape()` из библиотеки [escape-goat](https://github.com/sindresorhus/escape-goat).\n\n## Подсказки\n\n* Проще всего подготовить необходимый HTML и подставлять в него данные через `innerHTML`\n* [Экранирование символов](https://ru.wikipedia.org/wiki/Экранирование_символов)\n",
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "forms",
+    "lessonName": "Формы",
+    "exerciseSlug": "js_dom_forms_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/forms/exercise_unit"
+  }
+}

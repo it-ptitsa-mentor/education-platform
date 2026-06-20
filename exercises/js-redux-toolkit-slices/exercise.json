@@ -1,0 +1,26 @@
+{
+  "slug": "js-redux-toolkit-slices",
+  "title": "Подробнее о слайсах",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/components/App.jsx",
+    "src/components/Comment.jsx",
+    "src/slices/commentsSlice.js",
+    "src/slices/index.js"
+  ],
+  "studentFiles": [
+    "src/components/App.jsx",
+    "src/components/Comment.jsx",
+    "src/slices/commentsSlice.js",
+    "src/slices/index.js"
+  ],
+  "readme": "В этом упражнении мы доработаем приложение, имитирующее форум. На этом этапе происходит только отрисовка полученных данных с сервера, в приложении уже добавлено отображение пользователей и постов.\n\nОсталось только доработать работу с комментариями. Вам предстоит создать слайс для комментариев и доработать компоненты, в которых используется этот слайс.\n\n### src/slices/commentsSlice.js\n\nРеализуйте слайс для комментариев. Принципиально работа с комментариями не отличается от работы с постами или пользователями. В этом задании достаточно реализовать только добавление комментариев.\n\n### src/slices/index.js\n\nПодключите редьюсеры слайса комментариев в хранилище по аналогии с тем, как это сделано с редьюсерами других слайсов.\n\n### src/components/App.jsx\n\nДобавьте сохранение данных комментариев в хранилище по аналогии с тем, как это сделано с данными о пользователях и постах.\n\n### src/components/Comment.jsx\n\nДобавьте извлечение комментария и автора комментария. Используйте для этого хук `useSelector`. Проанализируйте, как он используется в других компонентах. \n\nЧтобы находить комментарии, используйте переданный в компонент идентификатор комментария. Получите в первую очередь комментарий, а потом найдите самого автора по его идентификатору. \n\nПомните, что в хуке доступно состояние из всех слайсов. Сохраните автора и комментарий в переменные `author` и `comment`.\n\nПример того, как выглядят данные:\n\n```javascript\nconst users = [\n  { id: 'user1', username: 'user1', name: 'User 1' },\n  { id: 'user2', username: 'user2', name: 'User 2' },\n  { id: 'user3', username: 'user3', name: 'User 3' },\n];\n\nconst posts = [\n  {\n    id: 'post1',\n    author: 'user1',\n    body: 'Первый пост',\n    comments: ['comment1', 'comment2'],\n  },\n  {\n    id: 'post2',\n    author: 'user2',\n    body: 'Второй пост',\n    comments: [],\n  },\n];\n\nconst comments = [\n  {\n    id: 'comment1',\n    author: 'user2',\n    text: 'Первый комментарий',\n  },\n  {\n    id: 'comment2',\n    author: 'user3',\n    text: 'Второй комментарий',\n  },\n];\n```\n",
+  "hexlet": {
+    "courseSlug": "js-redux-toolkit",
+    "courseName": "React: Redux Toolkit",
+    "lessonSlug": "slices",
+    "lessonName": "Подробнее о слайсах",
+    "exerciseSlug": "js_redux_toolkit_slices_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-redux-toolkit/lessons/slices/exercise_unit"
+  }
+}

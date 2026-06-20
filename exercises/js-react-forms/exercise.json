@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-forms",
+  "title": "Формы",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/MyForm.jsx"
+  ],
+  "studentFiles": [
+    "src/MyForm.jsx"
+  ],
+  "readme": "### src/MyForm.jsx\n\nРеализуйте компонент `<MyForm>`, отображающий форму из шести элементов:\n\n* `email` – инпут типа `email`\n* `password` – инпут типа `password`\n* `address` – `textarea`\n* `city` – текстовый инпут\n* `country` – `select` со следующими значениями: argentina, russia, china.\n* `Accept Rules` – `checkbox` булево значение должно быть приведено к строке\n\nПосле сабмита формы появляется таблица, в которой показываются значения всех полей. Из этой формы можно вернуться в редактирование по кнопке _Back_. При этом все данные должны оказаться на своих местах.\n\n![Пример работы](assets/example.gif)\n\nФорма\n\n```html\n<form name=\"myForm\">\n  <div class=\"col-md-6 mb-3\">\n      <label for=\"email\" class=\"col-form-label\">Email</label>\n      <input type=\"email\" name=\"email\" class=\"form-control\" id=\"email\" placeholder=\"Email\">\n    </div>\n    <div class=\"col-md-6 mb-3\">\n      <label for=\"password\" class=\"col-form-label\">Password</label>\n      <input type=\"password\" name=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\">\n    </div>\n  <div class=\"col-md-6 mb-3\">\n    <label for=\"address\" class=\"col-form-label\">Address</label>\n    <textarea type=\"text\" class=\"form-control\" name=\"address\" id=\"address\" placeholder=\"1234 Main St\"></textarea>\n  </div>\n  <div class=\"col-md-6 mb-3\">\n      <label for=\"city\" class=\"col-form-label\">City</label>\n      <input type=\"text\" class=\"form-control\" name=\"city\" id=\"city\">\n    </div>\n    <div class=\"col-md-6 mb-3\">\n      <label for=\"country\" class=\"col-form-label\">Country</label>\n      <select id=\"country\" name=\"country\" class=\"form-control\">\n        <option value=\"\">Choose</option>\n        <option value=\"argentina\">Argentina</option>\n        <option value=\"russia\">Russia</option>\n        <option value=\"china\">China</option>\n      </select>\n    </div>\n  <div class=\"col-md-6 mb-3\">\n    <div class=\"form-check\">\n      <label class=\"form-check-label\" for=\"rules\">\n        <input id=\"rules\" type=\"checkbox\" name=\"acceptRules\" class=\"form-check-input\">\n        Accept Rules\n      </label>\n    </div>\n  </div>\n  <button type=\"submit\" class=\"btn btn-primary\">Sign in</button>\n</form>\n```\n\nПример таблицы после отправки формы:\n\n```html\n<div>\n  <button type=\"button\" class=\"btn btn-primary\">Back</button>\n  <table class=\"table\">\n    <tbody>\n      <tr>\n        <td>acceptRules</td>\n        <td>true</td>\n      </tr>\n      <tr>\n        <td>address</td>\n        <td>lenina street</td>\n      </tr>\n      <tr>\n        <td>city</td>\n        <td>moscow</td>\n      </tr>\n      <tr>\n        <td>country</td>\n        <td>russia</td>\n      </tr>\n      <tr>\n        <td>email</td>\n        <td>my@email.com</td>\n      </tr>\n      <tr>\n        <td>password</td>\n        <td>qwerty</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n```\n\nСтроки сортируются в алфавитном порядке по именам в первом столбце. В вашем случае результирующая таблица может отличаться, все зависит от того, какие данные выбраны, но названия полей должны быть как указано в примере.\n\n### Подсказки\n\n* [Forms](https://getbootstrap.com/docs/5.1/forms/overview/)\n* Тесты сами заполняют форму. Если какие-то поля не заполнены, в таблице выводятся пустые значения для этих полей\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "forms",
+    "lessonName": "Формы",
+    "exerciseSlug": "js_react_forms_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/forms/exercise_unit"
+  }
+}

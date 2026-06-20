@@ -1,0 +1,20 @@
+{
+  "slug": "http-curl",
+  "title": "Curl",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\n* Используя *curl* выполните запрос *http://localhost:8080/users* для получения списка пользователей. В заголовке запроса сообщите серверу, что ожидаете ответ в формате JSON (тип `application/json`)\n\n    Если запрос успешный, то в терминале упражнения вы увидите список пользователей, который вернул сервер\n\n* Получившуюся команду запишите в файл *solution*\n\n### Подсказки\n\n* [Заголовок](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Accept), который позволяет указать, какой тип данных мы ожидаем получить в ответе\n",
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "curl",
+    "lessonName": "Curl",
+    "exerciseSlug": "http_curl_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/curl/exercise_unit"
+  }
+}

@@ -3,7 +3,7 @@ import { readdir } from "node:fs/promises";
 import path from "node:path";
 import Fastify, { type FastifyInstance } from "fastify";
 import { runExerciseCheck, readStarterFiles } from "@ptitsa/runner";
-import { loadExerciseManifest } from "@ptitsa/shared";
+import { loadExerciseManifest, toCategorizedExerciseSummary } from "@ptitsa/shared";
 
 export type AppOptions = {
   exercisesRoot: string;
@@ -27,13 +27,13 @@ export const buildApp = ({ exercisesRoot }: AppOptions): FastifyInstance => {
               const manifest = await loadExerciseManifest(
                 path.join(exercisesRoot, entry.name, "exercise.json"),
               );
-              return { slug: manifest.slug, title: manifest.title };
+              return toCategorizedExerciseSummary(manifest);
             } catch {
               return null;
             }
           }),
       )
-    ).filter((item): item is { slug: string; title: string } => item !== null);
+    ).filter((item): item is ReturnType<typeof toCategorizedExerciseSummary> => item !== null);
 
     return { exercises };
   });

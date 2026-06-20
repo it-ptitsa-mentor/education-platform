@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-jsx-collections",
+  "title": "Работа с коллекциями",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/DefinitionsList.jsx"
+  ],
+  "studentFiles": [
+    "src/DefinitionsList.jsx"
+  ],
+  "readme": "В этом задании необходимо создать компонент, выводящий список определений.\n\n[dl](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl) – тег, который используется при создании списков определений. Совместно с этим тегом используется тег `dt` (содержит название определения) и `dd` (описание определения):\n\n```html\n<dl>\n  <dt>Coffee</dt>\n  <dd>Black hot drink</dd>\n  <dt>Milk</dt>\n  <dd>White cold drink</dd>\n</dl>\n```\n\n### src/DefinitionsList.jsx\n\nРеализуйте и экспортируйте по умолчанию компонент `DefinitionsList`, который принимает свойство `data` следующей структуры:\n\n```javascript\nconst definitions = [\n  { dt: 'one', dd: 'two', id: 1 },\n  { dt: 'another term', dd: 'another description', id: 2 },\n];\n\n<DefinitionsList data={definitions} />;\n```\n\nРезультатом должен быть следующий вывод:\n\n```html\n<dl>\n  <dt>one</dt>\n  <dd>two</dd>\n  <dt>another term</dt>\n  <dd>another description</dd>\n</dl>\n```\n\nЕсли `data` — это пустой массив, то ничего не должно рендериться\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "jsx-collections",
+    "lessonName": "Работа с коллекциями",
+    "exerciseSlug": "js_react_jsx_collections_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/jsx-collections/exercise_unit"
+  }
+}

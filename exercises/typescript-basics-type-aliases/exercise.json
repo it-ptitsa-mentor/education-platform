@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-type-aliases",
+  "title": "Псевдонимы типов",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `getOlderUser()`, которая принимает на вход двух пользователей и возвращает того, который старше. Если пользователи являются ровесниками, то возвращается `null`:\n\n```typescript\nconst user1 = { name: 'Petr', age: 8 };\n```\n\nОпределите для пользователя псевдоним, чтобы не дублировать определение его типа в параметрах функции.\n\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "type-aliases",
+    "lessonName": "Псевдонимы типов",
+    "exerciseSlug": "typescript_basics_type_aliases",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/type-aliases/exercise_unit"
+  }
+}

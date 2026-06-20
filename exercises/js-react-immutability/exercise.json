@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-immutability",
+  "title": "Неизменяемость",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Component.jsx"
+  ],
+  "studentFiles": [
+    "src/Component.jsx"
+  ],
+  "readme": "### src/Component.jsx\n\nРеализуйте компонент, который представляет собой две кнопки и лог событий:\n\n* Лог — это список значений, каждое из которых получается после нажатия на одну из двух кнопок. Снизу находятся более старые события, сверху новые.\n* Левая кнопка `+` добавляет в лог строчку с новым значением равным: значение \"самой новой существующей записи лога\" + 1\n* Правая кнопка `-` добавляет в лог строчку с новым значением равным: значение \"самой новой существующей записи лога\" - 1. Отрицательные значения допустимы\n\nПри клике на запись в логе она удаляется.\n\n![Пример работы](assets/example.gif)\n\nНачальный HTML:\n\n```html\n<div>\n  <div class=\"btn-group font-monospace\" role=\"group\">\n    <button type=\"button\" class=\"btn btn-outline-success\">+</button>\n    <button type=\"button\" class=\"btn btn-outline-danger\">-</button>\n  </div>\n</div>\n```\n\nПосле нажатия последовательности `+`, `+`, `-`, `+`:\n\n```html\n<div>\n  <div class=\"btn-group font-monospace\" role=\"group\">\n    <button type=\"button\" class=\"btn btn-outline-success\">+</button>\n    <button type=\"button\" class=\"btn btn-outline-danger\">-</button>\n  </div>\n  <div class=\"list-group mt-3\">\n    <button type=\"button\" class=\"list-group-item list-group-item-action\">2</button>\n    <button type=\"button\" class=\"list-group-item list-group-item-action\">1</button>\n    <button type=\"button\" class=\"list-group-item list-group-item-action\">2</button>\n    <button type=\"button\" class=\"list-group-item list-group-item-action\">1</button>\n  </div>\n</div>\n```\n\nКаждое нажатие кнопки добавляет в лог новую строчку сверху. При удалении всех строчек в логе компонент возвращается к изначальному HTML и отсчет начинается заново.\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "immutability",
+    "lessonName": "Неизменяемость",
+    "exerciseSlug": "js_react_immutability_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/immutability/exercise_unit"
+  }
+}

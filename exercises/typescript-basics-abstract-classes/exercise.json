@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-abstract-classes",
+  "title": "Абстрактные классы",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nСоздайте абстрактный класс `Clock`, который будет содержать общую логику для классов часов с разными форматами вывода времени: 12-часовой и 24-часовой.\n\nВ общей логике должно быть хранение данных: часы `hours`, минуты `minutes` и секунды `seconds`. Так же в общую логику входит метод `tick()`, который при каждом вызове увеличивает секунду на единицу. Если секунда увеличивается до значения 60, то увеличивается минута на 1, а секунда сбрасывается до 0. То же самое с минутами и часами: если значение минут увеличивается до 60, то увеличивается значение текущего часа, а минуты сбрасываются до 0. Если значение часа увеличивается до 24, то происходит сброс этого значения до 0.\n\nНачальное значение времени задается при создании объекта. Первым параметром в конструктор передается текущий час, вторым минуты, третьим секунды.\n\nАбстрактный класс `Clock` должен требовать от своих наследников реализацию метода `render()`.\n\n```typescript\n\n// 24-часовой формат\nclass Clock24 extends Clock {\n  render(): string {\n    return `${this.hours.toString().padStart(2, '0')} : ${this.minutes.toString().padStart(2, '0')}`;\n  }\n}\n\nconst clock24 = new Clock24(23, 59, 59);\nconsole.log(clock24.render()); // => '23 : 59'\nclock24.tick();\nconsole.log(clock24.render()); // => '00 : 00'\n\n// 12-часовой формат\nclass Clock12 extends Clock {\n  render(): string {\n    const timeType = this.hours * 1000 + this.minutes + this.seconds < 12000 ? 'AM' : 'PM';\n    const currentHour = this.hours % 12;\n    return `${currentHour.toString().padStart(2, '0')} : ${this.minutes.toString().padStart(2, '0')} ${timeType}`;\n  }\n}\n\nconst clock12 = new Clock12(23, 59, 59);\nconsole.log(clock12.render()); // => '11 : 59 PM'\nclock12.tick();\nconsole.log(clock12.render()); // => '00 : 00 AM'\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "abstract-classes",
+    "lessonName": "Абстрактные классы",
+    "exerciseSlug": "typescript_basics_abstract_classes",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/abstract-classes/exercise_unit"
+  }
+}

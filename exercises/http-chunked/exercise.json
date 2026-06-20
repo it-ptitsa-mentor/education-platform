@@ -1,0 +1,20 @@
+{
+  "slug": "http-chunked",
+  "title": "Transfer-Encoding",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Это задание демонстрирует работу в режиме *chunked*.\n\n## solution\n\n* Используя *telnet* выполните запрос к *hexlet.local* (расположен на *localhost*) на порт *8080*.\n  Параметры запроса: метод *GET*, страница */stream*, протокол *HTTP 1.1*;\n* Запишите ваш HTTP-запрос в файл *solution*;\n",
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "chunked",
+    "lessonName": "Transfer-Encoding",
+    "exerciseSlug": "http_chunked_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/chunked/exercise_unit"
+  }
+}

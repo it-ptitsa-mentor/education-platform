@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-type-narrowing",
+  "title": "Сужение типов",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `last()`, которая извлекает последний элемент из переданного значения. Значением может быть строка или число. Функция возвращает значение того же типа, которое было передано в качестве параметра:\n\n```typescript\n// Передаем в качестве параметра строку\n// Функция возвращает строку\nlast('hexlet'); // t\n\n// Передаем в качестве параметра число\n// Функция возвращает число\nlast(12345); // 5\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "type-narrowing",
+    "lessonName": "Сужение типов",
+    "exerciseSlug": "typescript_basics_type_narrowing",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/type-narrowing/exercise_unit"
+  }
+}

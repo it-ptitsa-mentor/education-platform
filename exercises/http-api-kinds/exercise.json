@@ -1,0 +1,22 @@
+{
+  "slug": "http-api-kinds",
+  "title": "Виды API",
+  "language": "shell",
+  "filesToOpen": [
+    "greet",
+    "get_users"
+  ],
+  "studentFiles": [
+    "greet",
+    "get_users"
+  ],
+  "readme": "В этом упражнении мы познакомимся с тем, как работает [JSON RPC](https://ru.wikipedia.org/wiki/JSON-RPC).\n\nПример запроса:\n\n```bash\ncurl -X POST \\\n    -H 'Content-Type: application/json' \\\n    -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"echo\",\"params\":{\"text\": \"Hello, World!\"}}' \\\n    http://localhost:8080/rpc\n```\n\n## greet\n\nМетод `greet` принимает параметр `name` и отправляет в ответ приветствие.\n\n* Используя *curl* выполните запрос к *localhost* на порт 8080 по пути `/json-rpc`. Передайте в теле запроса метод `greet` и параметр `name` со значением `Tota`\n* Запишите получившуюся команду в файл *greet*\n\n## get_users\n\nМетод `get_users` возвращает в ответ список пользователей.\n\n* Используя *curl* выполните запрос к *localhost* на порт 8080 по пути `/json-rpc`. Передайте в теле запроса метод `get_users`. Данный метод не принимает никаких параметров.\n* Запишите получившуюся команду в файл *get_users*\n\n### Подсказки\n\n* Не забудьте указать `id` в теле запроса, этого требует [спецификация](https://www.jsonrpc.org/specification)\n",
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "kinds",
+    "lessonName": "Виды API",
+    "exerciseSlug": "http_api_kinds_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/kinds/exercise_unit"
+  }
+}

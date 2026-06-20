@@ -1,0 +1,20 @@
+{
+  "slug": "css-flex-items-position",
+  "title": "Свойства Flex-элементов. Расположение",
+  "language": "html",
+  "filesToOpen": [
+    "styles/app.css"
+  ],
+  "studentFiles": [
+    "styles/app.css"
+  ],
+  "readme": "В этом задании вам на вход даётся массив различных статусов загрузки. Но при попадании в HTML они выстроились не в правильном порядке. Ожидалось, что все статусы будут идти в порядке возрастания.\n\nВаша задача: используя изученное свойство _order_ отсортируйте все элементы в необходимом порядке. Используйте значения от единицы и далее с шагом 1.\n",
+  "hexlet": {
+    "courseSlug": "css-flex",
+    "courseName": "CSS: Flex",
+    "lessonSlug": "items-position",
+    "lessonName": "Свойства Flex-элементов. Расположение",
+    "exerciseSlug": "css_flex_items_position_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-flex/lessons/items-position/exercise_unit"
+  }
+}

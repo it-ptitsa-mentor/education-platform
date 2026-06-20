@@ -1,0 +1,20 @@
+{
+  "slug": "js-frontend-architecture-mvc",
+  "title": "MVC",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/application.js"
+  ],
+  "studentFiles": [
+    "src/application.js"
+  ],
+  "readme": "Бутстрап позволяет использовать списки для отображения контента при клике по элементу. В этом задании такие группы списков уже подготовлены, вам предстоит только добавить функционал переключения.\n\n![Пример работы](assets/example.gif)\n\n## src/application.js\n\nРеализуйте логику переключения табов для компонента *list-group* бутстрапа, используя архитектуру MVC.\n\nАктивный элемент списка получает класс `active`, а контент, соответствующий ему, получает классы `active show`\n\n```html\n<div class=\"row\">\n  <div class=\"col-4\">\n    <div class=\"list-group\" id=\"list-tab\" role=\"tablist\">\n      <a class=\"list-group-item list-group-item-action active\" id=\"list-home-list\" data-bs-toggle=\"list\" href=\"#list-home\" role=\"tab\" aria-controls=\"list-home\">Home</a>\n      <a class=\"list-group-item list-group-item-action\" id=\"list-profile-list\" data-bs-toggle=\"list\" href=\"#list-profile\" role=\"tab\" aria-controls=\"list-profile\">Profile</a>\n    </div>\n  </div>\n  <div class=\"col-8\">\n    <div class=\"tab-content\" id=\"nav-tabContent\">\n      <div class=\"tab-pane fade show active\" id=\"list-home\" role=\"tabpanel\" aria-labelledby=\"list-home-list\">Home Content</div>\n      <div class=\"tab-pane fade\" id=\"list-profile\" role=\"tabpanel\" aria-labelledby=\"list-profile-list\">Profile Content</div>\n    </div>\n  </div>\n</div>\n```\n\nКод должен работать даже в том случае, если на странице есть несколько компонентов *list-group*.\n\n## Подсказки\n\n* [Пример работы](https://getbootstrap.com/docs/5.2/components/list-group/#javascript-behavior)\n",
+  "hexlet": {
+    "courseSlug": "js-frontend-architecture",
+    "courseName": "JS: Архитектура фронтенда",
+    "lessonSlug": "mvc",
+    "lessonName": "MVC",
+    "exerciseSlug": "js_frontend_architecture_mvc_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/mvc/exercise_unit"
+  }
+}

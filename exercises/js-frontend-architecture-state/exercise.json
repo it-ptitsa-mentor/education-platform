@@ -1,0 +1,20 @@
+{
+  "slug": "js-frontend-architecture-state",
+  "title": "Состояние приложения",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/application.js"
+  ],
+  "studentFiles": [
+    "src/application.js"
+  ],
+  "readme": "В этом задании необходимо реализовать простой калькулятор, который умеет только складывать. Но делает это для любого количества чисел, а не только двух.\n\n![Пример работы](assets/example.gif)\n\n## src/application.js\n\nРеализуйте и экспортируйте по умолчанию функцию, реализующую приложение \"суммирующий калькулятор\". Калькулятор представляет собой одно поле для ввода чисел и две кнопки: сложение и сброс. Под калькулятором выводится текущая сумма, которая изначально равна нулю. Каждое нажатие кнопки *plus* добавляет к этой сумме введенное значение. Нажатие кнопки сброс возвращает состояние к первоначальному (сумма устанавливается в 0).\n\nСделайте калькулятор дружественным пользователю: устанавливайте фокус на поле для ввода при каждой отрисовки формы (включая первую) и очищайте форму после отправки/очистки.\n\nСелекторы элементов:\n\n* `form` — форма\n* `input[type=number]` — поле ввода\n* `button` — кнопка сброса\n* `#result` — контейнер для показа результата\n\n## Подсказки\n\n* Данные из формы приходят в виде текста. Для преобразования строки в число используйте [parseInt()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/parseInt)\n* [form.reset()](https://developer.mozilla.org/ru/docs/Web/API/HTMLFormElement/reset)\n* [input.focus()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/focus)\n",
+  "hexlet": {
+    "courseSlug": "js-frontend-architecture",
+    "courseName": "JS: Архитектура фронтенда",
+    "lessonSlug": "state",
+    "lessonName": "Состояние приложения",
+    "exerciseSlug": "js_frontend_architecture_state_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/state/exercise_unit"
+  }
+}

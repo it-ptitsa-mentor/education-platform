@@ -1,0 +1,20 @@
+{
+  "slug": "css-content-gradient",
+  "title": "Градиенты",
+  "language": "html",
+  "filesToOpen": [
+    "styles/app.css"
+  ],
+  "studentFiles": [
+    "styles/app.css"
+  ],
+  "readme": "Создайте повторяющийся паттерн следующего вида:\n\n![Паттерн](assets/final.png)\n\n* Направление: _45 градусов_\n* Прозрачная полоса занимает первые _100_ пикселей\n* Фиолетовая занимает следующие _100_ пикселей\n\n## Подсказки\n\n* Используйте цвета из переменных\n",
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "gradient",
+    "lessonName": "Градиенты",
+    "exerciseSlug": "css_content_gradient_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/gradient/exercise_unit"
+  }
+}

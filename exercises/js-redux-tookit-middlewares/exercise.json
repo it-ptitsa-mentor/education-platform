@@ -1,0 +1,20 @@
+{
+  "slug": "js-redux-tookit-middlewares",
+  "title": "Мидлвары",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/middlewares.js"
+  ],
+  "studentFiles": [
+    "src/middlewares.js"
+  ],
+  "readme": "## src/middlewares.js\n\nРеализуйте мидлвару `addDate()`, которая будет добавлять к названию задачи текущую дату. Например, при вводе имени задачи `Новая задача` должна сформироваться задача с именем `Задача на 14.02.2022: Новая задача`.\n\n### Подсказки\n\n* Для формирования даты подойдет метод [toLocaleDateString()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString) и локаль 'ru-RU'\n* Изменение имени должно происходить только при добавлении таска\n* Структура `payload` при добавлении задачи выглядит так: `{ task: { text: 'task name', id: '1', state: 'active' } }`\n",
+  "hexlet": {
+    "courseSlug": "js-redux-toolkit",
+    "courseName": "React: Redux Toolkit",
+    "lessonSlug": "middlewares",
+    "lessonName": "Мидлвары",
+    "exerciseSlug": "js_redux_tookit_middlewares_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-redux-toolkit/lessons/middlewares/exercise_unit"
+  }
+}

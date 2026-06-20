@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-logical-expressions",
+  "title": "Результат логических операций",
+  "language": "javascript",
+  "filesToOpen": [
+    "getLetter.js"
+  ],
+  "studentFiles": [
+    "getLetter.js"
+  ],
+  "readme": "## getLetter.js\n\nРеализуйте функцию `getLetter()`, которая извлекает из переданной строки указанный символ (по порядковому номеру, а не индексу) и возвращает его наружу. Если такого символа нет, то функция возвращает пустую строку.\n\nПримеры вызова:\n\n```javascript\nconst name = 'Hexlet'\n\n// Обычное обращение возвращает undefined\nname[10] // undefined\n\n// 11 символ соответствует 10 индексу\ngetLetter(name, 11) // ''\n\ngetLetter(name, 1) // 'H'\ngetLetter(name, 0) // ''\ngetLetter(name, 6) // 't'\n```\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "logical-expressions",
+    "lessonName": "Результат логических операций",
+    "exerciseSlug": "js_basics_logical_expressions_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/logical-expressions/exercise_unit"
+  }
+}

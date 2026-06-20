@@ -1,0 +1,26 @@
+{
+  "slug": "js-react-hooks-use-context",
+  "title": "Хук useContext",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/App.jsx",
+    "src/components/Home.jsx",
+    "src/components/Profile.jsx",
+    "src/components/ThemeSwitcher.jsx"
+  ],
+  "studentFiles": [
+    "src/App.jsx",
+    "src/components/Home.jsx",
+    "src/components/Profile.jsx",
+    "src/components/ThemeSwitcher.jsx"
+  ],
+  "readme": "В этом уроке нужно доработать функционал изменения темы.\n\n![Пример работы](./assets/example.gif)\n\n## src/App.jsx\n\nОзнакомьтесь со списком тем. Каждая тема включает в себя класс стилей, который должен присваиваться контенту при переключении темы.\nДоработайте провайдер темы так, чтобы он хранил выбранную тему в состоянии и передавал всем компонентом данные для работы (список тем, текущую тему, метод для изменения темы).\n\n## src/components\n\nВ компонентах `Home`, `Profile` и `ThemeSwitcher` добавьте получение необходимых данных из контекста.\n\n### Подсказки\n\n* Чтобы обернуть один компонент другим, можно воспользоваться пропсом `children`: `<Component>{children}</Component>`\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "use-context",
+    "lessonName": "Хук useContext",
+    "exerciseSlug": "js_react_hooks_use_context_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/use-context/exercise_unit"
+  }
+}

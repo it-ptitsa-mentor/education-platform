@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-generics-overview",
+  "title": "Введение в дженерики",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `last()`, которая извлекает последний элемент из массива, если он есть, или null, если его нет.\n\n```typescript\nlast([]); // null\nlast([3, 2]); // 2\nlast(['code-basics', 'hexlet']); // hexlet\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "generics-overview",
+    "lessonName": "Введение в дженерики",
+    "exerciseSlug": "typescript_basics_generics_overview",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/generics-overview/exercise_unit"
+  }
+}

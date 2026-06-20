@@ -1,0 +1,20 @@
+{
+  "slug": "http-api-example",
+  "title": "Пример HTTP API",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "## solution\n\n* Используя *telnet* выполните запрос к ресурсу, расположенному на localhost, c целевым хостом *hexlet.local* на порту *8080*. Параметры запроса: метод *GET*, страница */users*, протокол *HTTP 1.1*\n* Изучите тело ответа. Это должна быть JSON строка со списком пользователей\n* Запишите ваш HTTP-запрос в файл *solution*\n\n### Подсказки\n\n* В *solution* нужно записать только сам запрос, команду запуска *telnet* писать не нужно. Запуск *telnet*, сам по себе, никак не связан с HTTP.\n",
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "example",
+    "lessonName": "Пример HTTP API",
+    "exerciseSlug": "http_api_example_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/example/exercise_unit"
+  }
+}

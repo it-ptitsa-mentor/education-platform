@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-optional-parameters-in-callbacks",
+  "title": "Опциональные параметры в функциях",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `map()`. Она должна принимать на вход массив чисел и колбек, который будет использоваться для преобразования каждого числа из массива в другое число. Функция возвращает массив с новыми числами:\n\n```typescript\nmap([3, 9], (n) => n - 3);\n// [0, 6]\n\nmap([8, 9], (n) => n + 8);\n// [16, 17]\n```\n\nПараметры функции:\n\n1. Массив чисел\n2. Анонимная функция, которая принимает на вход число и возвращает число. У этой функции есть необязательный параметр — индекс элемента в массиве\n\n```typescript\nmap([8, 9], (n, index) => index + n);\n// [8, 10]\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "optional-parameters-in-callbacks",
+    "lessonName": "Опциональные параметры в функциях",
+    "exerciseSlug": "typescript_basics_optional_parameters_in_callbacks",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/optional-parameters-in-callbacks/exercise_unit"
+  }
+}

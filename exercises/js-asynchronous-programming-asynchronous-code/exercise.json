@@ -1,0 +1,20 @@
+{
+  "slug": "js-asynchronous-programming-asynchronous-code",
+  "title": "Асинхронный код",
+  "language": "javascript",
+  "filesToOpen": [
+    "printer.js"
+  ],
+  "studentFiles": [
+    "printer.js"
+  ],
+  "readme": "## printer.js\n\nРеализуйте и экспортируйте по умолчанию асинхронную функцию, которая читает данные файла по указанному пути и выводит их в консоль.\n\nПримеры:\n\n```javascript\nimport print from './printer.js'\nprint('./myfile')\n```\n\n### Подсказки\n\n* В теории был пример асинхронного чтения файла. Нужно сделать по аналогии.\n",
+  "hexlet": {
+    "courseSlug": "js-asynchronous-programming",
+    "courseName": "JS: Асинхронное программирование",
+    "lessonSlug": "asynchronous-code",
+    "lessonName": "Асинхронный код",
+    "exerciseSlug": "js_asynchronous_programming_asynchronous_code_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-asynchronous-programming/lessons/asynchronous-code/exercise_unit"
+  }
+}

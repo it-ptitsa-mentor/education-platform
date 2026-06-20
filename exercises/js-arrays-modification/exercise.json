@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-modification",
+  "title": "Модификация",
+  "language": "javascript",
+  "filesToOpen": [
+    "arrays.js"
+  ],
+  "studentFiles": [
+    "arrays.js"
+  ],
+  "readme": "## arrays.js\n\nРеализуйте и экспортируйте функцию `swap()`, которая меняет местами первый и последний элемент массива. Если массив содержит меньше двух элементов, то он возвращается как есть:\n\n```javascript\nimport { swap } from '../arrays'\n\nswap([]) // []\nswap([1]) // [1]\nswap([1, 2]) // [2, 1]\nswap(['one', 'two', 'three']) // ['three', 'two', 'one']\n```\n\n### Подсказки\n\n* Чтобы поменять местами значения, нужно использовать дополнительную переменную\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "modification",
+    "lessonName": "Модификация",
+    "exerciseSlug": "js_arrays_modification_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/modification/exercise_unit"
+  }
+}

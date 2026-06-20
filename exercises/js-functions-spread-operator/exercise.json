@@ -1,0 +1,20 @@
+{
+  "slug": "js-functions-spread-operator",
+  "title": "Оператор Spread (распаковка аргументов)",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.js"
+  ],
+  "studentFiles": [
+    "solution.js"
+  ],
+  "readme": "## solution.js\n\nРеализуйте функцию, которая конвертирует даты в массив человеко-читаемых строк на английском языке. Каждая из дат представлена массивом `[2001, 10, 18]`, в котором первый элемент — это год, второй — месяц, и третий — число. Функция на вход должна принимать любое количество параметров. Если в функцию ничего не было передано, она должна вернуть пустой массив. Экспортируйте функцию по умолчанию.\n\n### Примеры:\n\n```javascript\nconvert();\n// []\n\nconvert([1993, 4, 24]);\n// ['Sat Apr 24 1993']\n\nconvert([1993, 4, 24], [1997, 9, 12], [2001, 11, 18]);\n// ['Sat Apr 24 1993', 'Fri Sep 12 1997', 'Sun Nov 18 2001']\n```\n\n### Подсказки\n\n* Для работы с датами воспользуйтесь объектом [new Date()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date) и его методом [toDateString()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date/toDateString)\n* Обратите внимание, что по умолчанию значение месяца начинается с 0\n",
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "spread-operator",
+    "lessonName": "Оператор Spread (распаковка аргументов)",
+    "exerciseSlug": "js_functions_spread_operator_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/spread-operator/exercise_unit"
+  }
+}

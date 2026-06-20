@@ -1,0 +1,22 @@
+{
+  "slug": "js-react-component",
+  "title": "Компоненты",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Card.jsx",
+    "src/index.jsx"
+  ],
+  "studentFiles": [
+    "src/Card.jsx",
+    "src/index.jsx"
+  ],
+  "readme": "### src/Card.jsx\n\nРеализуйте компонент `Card`, возвращающий следующий `jsx`:\n\n```html\n<div className=\"card\">\n  <div className=\"card-body\">\n    <h4 className=\"card-title\">Card title</h4>\n    <p className=\"card-text\">Some quick example text to build on the card</p>\n    <button type=\"button\" className=\"btn btn-primary\">Go somewhere</button>\n  </div>\n</div>\n```\n\n### src/index.jsx\n\nИмпортируйте `Card.jsx` и отрисуйте компонент внутри `dom` элемента с `id` равным `container`.\n\nУбедитесь, что компонент отображается на странице.\n\n### Подсказки\n\n- [Документация](https://getbootstrap.com/docs/5.1/components/card/) с описанием компонента Card в Bootstrap\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "component",
+    "lessonName": "Компоненты",
+    "exerciseSlug": "js_react_component_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/component/exercise_unit"
+  }
+}

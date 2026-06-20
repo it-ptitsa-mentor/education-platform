@@ -1,6 +1,7 @@
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { toCategorizedExerciseSummary } from "../packages/shared/src/exercise-categories.ts";
 import { loadExerciseManifest } from "../packages/shared/src/exercise-manifest.ts";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -21,7 +22,7 @@ const readStarterFiles = async (slug: string, filesToOpen: string[]) => {
 };
 
 const entries = await readdir(exercisesRoot, { withFileTypes: true });
-const exercises = await Promise.all(
+const loaded = await Promise.all(
   entries
     .filter((entry) => entry.isDirectory())
     .map(async (entry) => {
@@ -31,18 +32,22 @@ const exercises = await Promise.all(
       const files = await readStarterFiles(manifest.slug, manifest.filesToOpen);
 
       return {
-        slug: manifest.slug,
-        title: manifest.title,
-        language: manifest.language,
-        filesToOpen: manifest.filesToOpen,
-        studentFiles: manifest.studentFiles,
-        readme: manifest.readme,
-        files,
+        manifest,
+        exercise: {
+          slug: manifest.slug,
+          title: manifest.title,
+          language: manifest.language,
+          filesToOpen: manifest.filesToOpen,
+          studentFiles: manifest.studentFiles,
+          readme: manifest.readme,
+          files,
+        },
       };
     }),
 );
 
-const summaries = exercises.map(({ slug, title }) => ({ slug, title }));
+const exercises = loaded.map(({ exercise }) => exercise);
+const summaries = loaded.map(({ manifest }) => toCategorizedExerciseSummary(manifest));
 
 await mkdir(outputDir, { recursive: true });
 await writeFile(

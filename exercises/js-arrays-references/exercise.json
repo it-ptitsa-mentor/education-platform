@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-references",
+  "title": "Ссылки",
+  "language": "javascript",
+  "filesToOpen": [
+    "arrays.js"
+  ],
+  "studentFiles": [
+    "arrays.js"
+  ],
+  "readme": "## arrays.js\n\nРеализуйте и экспортируйте функцию `fillWithFirst()`, которая принимает на вход массив и заменяет элементы массива на первый. Функция должна мутировать переданный в нее массив. Новый массив из нее возвращать не надо.\n\n```javascript\nimport { fillWithFirst } from './arrays.js'\n\nconst numbers1 = [5, 2, 9, 7]\nfillWithFirst(numbers1)\nconsole.log(numbers) // => [5, 5, 5, 5])\n\nconst numbers2 = [10]\nfillWithFirst(numbers2)\nconsole.log(numbers2) // один элемент остаётся как есть\nconsole.log(numbers2) => // [10]\n\nconst numbers3 = []\nfillWithFirst(numbers3) // пустой массив не меняется\nconsole.log(numbers2) // => []\n\nconst words = ['hello', 'world', 'js']\nfillWithFirst(words)\nconsole.log(words) // => ['hello', 'hello', 'hello']\n```\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "references",
+    "lessonName": "Ссылки",
+    "exerciseSlug": "js_arrays_references_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/references/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-advanced-testing-side-effects",
+  "title": "Побочные эффекты",
+  "language": "javascript",
+  "filesToOpen": [
+    "__tests__/buildUser.test.js"
+  ],
+  "studentFiles": [
+    "__tests__/buildUser.test.js"
+  ],
+  "readme": "## __tests__/buildUser.test.js\n\nПротестируйте функцию, которая генерирует случайного пользователя. Пользователь, в данном случае, это объект с тремя полями:\n\n* email\n* firstName\n* lastName\n\nДля генерации данных используется библиотека [fakerator](https://github.com/icebob/fakerator)\n\n```javascript\nconsole.log(buildUser())\n// {\n//   email: 'Zion.Reichel12@yahoo.com',\n//   firstName: 'Elizabeth',\n//   lastName: 'Zulauf',\n// }\n\n// Если какой-то из параметров нужно задать точно, то его можно передать в функцию\nconsole.log(buildUser({ firstName: 'Petya' }))\n// {\n//   email: 'Zion.Reichel12@yahoo.com',\n//   firstName: 'Petya',\n//   lastName: 'Zulauf',\n// }\n```\n\nВам нужно протестировать три ситуации:\n\n* Что вызов `buildUser()` возвращает объект нужной структуры.\n* Что каждый вызов `buildUser()` возвращает объект с другими данными.\n* Что работает установка свойств через параметры.\n",
+  "hexlet": {
+    "courseSlug": "js-advanced-testing",
+    "courseName": "JS: Продвинутое тестирование",
+    "lessonSlug": "side-effects",
+    "lessonName": "Побочные эффекты",
+    "exerciseSlug": "js_advanced_testing_side_effects_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-advanced-testing/lessons/side-effects/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-sorting",
+  "title": "Сортировка массивов",
+  "language": "javascript",
+  "filesToOpen": [
+    "arrays.js"
+  ],
+  "studentFiles": [
+    "arrays.js"
+  ],
+  "readme": "\n[//]: # (FIXME: eslint no-param-reassign)\n## arrays.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая сортирует массив используя пузырьковую сортировку. Постарайтесь не подглядывать в текст теории и попробуйте воспроизвести алгоритм по памяти:\n\n```javascript\nimport bubbleSort from '../arrays'\n\nbubbleSort([]) // []\nbubbleSort([3, 10, 4, 3]) // [3, 3, 4, 10]\n```\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "sorting",
+    "lessonName": "Сортировка массивов",
+    "exerciseSlug": "js_arrays_sorting_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/sorting/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-object-oriented-design-modeling",
+  "title": "Объекты-Сущности, Объекты-Значения и внедренные объекты",
+  "language": "javascript",
+  "filesToOpen": [
+    "Url.js"
+  ],
+  "studentFiles": [
+    "Url.js"
+  ],
+  "readme": "В данном упражнении нам предстоит реализовать класс-обёртку над стандартным классом `URL`. Наш класс будет предоставлять другие методы и немного расширять возможности стандартного.\n\n## Url.js\n\nРеализуйте и экспортируйте по умолчанию класс для работы с HTTP-адресом. Класс должен содержать конструктор и методы:\n\n* конструктор — принимает на вход HTTP-адрес в виде строки\n* `getScheme()` — возвращает протокол передачи данных (без двоеточия)\n* `getHostName()` — возвращает имя хоста\n* `getQueryParams()` — возвращает параметры запроса в виде пар ключ-значение объекта\n* `getQueryParam()` — получает значение параметра запроса по имени. Если параметр с переданным именем не существует, метод возвращает значение заданное вторым параметром (по умолчанию равно null)\n* `equals(url)` — принимает объект класса `Url` и возвращает результат сравнения с текущим объектом — `true` или `false`\n\n```javascript\nconst url = new Url('http://yandex.ru:80?key=value&key2=value2');\nurl.getScheme(); // 'http'\nurl.getHostName(); // 'yandex.ru'\nurl.getQueryParams();\n// {\n//   key: 'value',\n//   key2: 'value2',\n// };\nurl.getQueryParam('key'); // 'value'\n// второй параметр - значение по умолчанию\nurl.getQueryParam('key2', 'lala'); // 'value2'\nurl.getQueryParam('new', 'ehu'); // 'ehu'\nurl.getQueryParam('new'); // null\nurl.equals(new Url('http://yandex.ru:80?key=value&key2=value2')); // true\nurl.equals(new Url('http://yandex.ru:80?key=value')); // false\n```\n\n### Подсказки\n\n* В процессе прохождения испытания нужно будет хорошо поработать с документацией и изучить возможности стандартного класса [URL](https://developer.mozilla.org/en-US/docs/Web/API/URL). Это поможет использовать его для парсинга адреса на нужные составляющие.\n* Не используйте в решении устаревшие возможности, помеченные как *deprecated* (`parse`, `format` и другие).\n* Для работы с query string изучите методы класса [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams).\n* Для преобразования списка пар ключ-значение в объект можно использовать метод [Object.fromEntries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries)\n* [Что означает двойной знак вопроса \"??\" в выражении?](https://ru.hexlet.io/qna/javascript/questions/chto-oznachaet-dvoynoy-znak-voprosa-v-vyrazhenii)\n",
+  "hexlet": {
+    "courseSlug": "js-object-oriented-design",
+    "courseName": "JS: Объектно-ориентированный дизайн",
+    "lessonSlug": "modeling",
+    "lessonName": "Объекты-Сущности, Объекты-Значения и внедренные объекты",
+    "exerciseSlug": "js_object_oriented_design_modeling_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-object-oriented-design/lessons/modeling/exercise_unit"
+  }
+}

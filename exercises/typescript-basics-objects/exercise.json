@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-objects",
+  "title": "Объектные типы",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nРеализуйте функцию `isComplete()`, которая принимает на вход курс и определяет, завершен ли он. Завершенным считается курс, в который добавлено четыре или более уроков:\n\n```typescript\n// Определите тип исходя из структуры объекта\nconst course = {\n  name: 'Java',\n  lessons: ['variables', 'functions', 'conditions'],\n};\nisComplete(course); // false\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "objects",
+    "lessonName": "Объектные типы",
+    "exerciseSlug": "typescript_basics_objects",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/objects/exercise_unit"
+  }
+}

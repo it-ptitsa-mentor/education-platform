@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-conditions-inside-loops",
+  "title": "Условия внутри тела цикла",
+  "language": "javascript",
+  "filesToOpen": [
+    "countChars.js"
+  ],
+  "studentFiles": [
+    "countChars.js"
+  ],
+  "readme": "## countChars.js\n\nФункция `countChars()` из теории считает, сколько раз входит буква в предложение и при этом учитывает регистр букв. То есть `A` и `a` с её точки зрения разные символы. Реализуйте вариант этой же функции, так чтобы регистр букв был не важен:\n\n```javascript\ncountChars('HexlEt', 'e') // 2\ncountChars('HexlEt', 'E') // 2\n```\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "conditions-inside-loops",
+    "lessonName": "Условия внутри тела цикла",
+    "exerciseSlug": "js_basics_conditions_inside_loops_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/conditions-inside-loops/exercise_unit"
+  }
+}

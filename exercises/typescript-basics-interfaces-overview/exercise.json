@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-interfaces-overview",
+  "title": "Интерфейсы",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nВам дан интерфейс `IVehicle`. Задача состоит в том, чтобы на основе этого интерфейса реализовать класс `Car`, который будет иметь метод `calcFuelNeeded`, принимающий расстояние в километрах и возвращающий расход топлива на указанную дистанцию. Класс `Car` также должен иметь функцию конструктор, которая принимает и реализует свойства, указанные в интерфейсе.\n\n```typescript\nconst porsche = new Car(4, 'red', true, 20);\nconsole.log(porsche.calcFuelNeeded(200)); // 40\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "interfaces-overview",
+    "lessonName": "Интерфейсы",
+    "exerciseSlug": "typescript_basics_interfaces_overview",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/interfaces-overview/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "cli-basics-sudo",
+  "title": "Sudo",
+  "language": "shell",
+  "filesToOpen": [
+    "solution"
+  ],
+  "studentFiles": [
+    "solution"
+  ],
+  "readme": "Если в процессе что-то пошло не так, то всегда можно сбросить прогресс и попробовать заново. Не бойтесь экспериментировать.\n\nВ текущей директории есть файл _greeting_. На сервере есть системный каталог _/config/_, он принадлежит суперпользователю.\n\n## solution\n\n1. Скопируйте файл _greeting_ в каталог _/config/_\n2. Запишите команду, которая это делает, в файл _solution_\n\n    При проверке тесты будут выполнять эту команду из начальной директории упражнения, учтите это при составлении команды\n\n### Подсказки\n\n* Если сложно выполнять задание, можете изучить [статью про sudo](https://ru.wikipedia.org/wiki/Sudo)\n* В этом упражнении `sudo` не запрашивает пароль\n",
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "sudo",
+    "lessonName": "Sudo",
+    "exerciseSlug": "cli_basics_sudo_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/sudo/exercise_unit"
+  }
+}

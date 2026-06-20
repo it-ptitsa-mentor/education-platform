@@ -24,7 +24,7 @@ const toManifest = (exercise: (typeof staticExercises)[number]): ExerciseManifes
 export const staticFetchExercises = async (): Promise<{
   exercises: ExerciseSummary[];
 }> => ({
-  exercises: staticExerciseSummaries.map(({ slug, title }) => ({ slug, title })),
+  exercises: staticExerciseSummaries.map((summary) => ({ ...summary })),
 });
 
 export const staticFetchExercise = async (slug: string): Promise<ExerciseDetail> => {

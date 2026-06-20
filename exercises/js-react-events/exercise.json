@@ -1,0 +1,20 @@
+{
+  "slug": "js-react-events",
+  "title": "События",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/Carousel.jsx"
+  ],
+  "studentFiles": [
+    "src/Carousel.jsx"
+  ],
+  "readme": "### src/Carousel.jsx\n\nРеализуйте компонент, эмулирующий работу слайдера. Компонент принимает на вход свойство `images`, в котором находится список путей до картинок. Компонент отображает их и позволяет с помощью стрелок \"вперёд\" и \"назад\" осуществлять переход по ним. Сам переход зациклен. Картинки (пути до них) могут повторятся.\n\nНиже описано поведение:\n\n* Если выбрана последняя картинка, то _next_ ведёт на первую. То же самое происходит и _prev_, но в обратную сторону\n* Первая картинка становится активной. Порядок картинок и их отображение должны сохраняться\n\n![Пример работы](assets/example.gif)\n\nНачальная вёрстка с данными, которые прогружаются в файле `src/index.jsx`:\n\n```html\n<div id=\"carousel\" class=\"carousel slide\" data-bs-ride=\"carousel\">\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img alt=\"\" class=\"d-block w-100\" src=\"/images/first.jpeg\">\n    </div>\n    <div class=\"carousel-item\">\n      <img alt=\"\" class=\"d-block w-100\" src=\"/images/second.jpeg\">\n    </div>\n    <div class=\"carousel-item\">\n      <img alt=\"\" class=\"d-block w-100\" src=\"/images/third.jpeg\">\n    </div>\n  </div>\n  <button class=\"carousel-control-prev\" data-bs-target=\"#carousel\" type=\"button\" data-bs-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n    <span class=\"visually-hidden\">Previous</span>\n  </button>\n  <button class=\"carousel-control-next\" data-bs-target=\"#carousel\" type=\"button\" data-bs-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n    <span class=\"visually-hidden\">Next</span>\n  </button>\n</div>\n```\n\nХотя вёрстка и не тривиальная, единственное, что меняется в ней — класс `active`.\n\n### Подсказки\n\n* [Carousel](https://getbootstrap.com/docs/5.1/components/carousel/)\n* Для генерации уникальных значений, можно импортировать `uniqueId()` из библиотеки `lodash`\n",
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "events",
+    "lessonName": "События",
+    "exerciseSlug": "js_react_events_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/events/exercise_unit"
+  }
+}

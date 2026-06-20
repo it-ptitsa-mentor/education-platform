@@ -1,0 +1,20 @@
+{
+  "slug": "js-dom-jquery",
+  "title": "JQuery",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/application.js"
+  ],
+  "studentFiles": [
+    "src/application.js"
+  ],
+  "readme": "В Bootstrap есть компонент [Carousel](https://v4-alpha.getbootstrap.com/components/carousel/#content). Этот слайдер устроен так же, как и все остальное в Bootstrap. В верстке определяются атрибуты `data`, по которым Bootstrap определяет карусель и оживляет ее.\n\nНа слайдере отображаются две стрелки — одна влево, другая вправо. Клики по этим стрелкам приводят к перемотке слайдов по кругу. Если слайды заканчиваются, то происходит переход от конца к началу или наоборот. С точки зрения DOM происходит следующее:\n\n* Класс `active` снимается с текущего элемента `.carousel-item`\n* Активный элемент получает класс `active`\n\n## application.js\n\nРеализуйте логику слайдера в функции, экспортированной по умолчанию.\n\nПостройте свою логику так, чтобы можно было использовать на одной странице любое количество компонентов `carousel` с любым количеством картинок внутри.\n\nРешите задачу, используя методы jQuery.\n\n### Подсказки\n\n* Изучите документацию для работы с коллекциями, поиском и изменением атрибутов. Например, методы для работы с классами:\n    * [removeClass()](https://api.jquery.com/removeClass/)\n    * [addClass()](https://api.jquery.com/addClass/)\n* Кроме того, вам могут понадобиться следующие методы взаимодействия с DOM: \n    * [next()](https://api.jquery.com/next)\n    * [prev()](https://api.jquery.com/prev)\n    * [first()](https://api.jquery.com/first)\n    * [last()](https://api.jquery.com/last)\n    * [siblings()](https://api.jquery.com/siblings/)\n",
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "jquery",
+    "lessonName": "JQuery",
+    "exerciseSlug": "js_dom_jquery_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/jquery/exercise_unit"
+  }
+}

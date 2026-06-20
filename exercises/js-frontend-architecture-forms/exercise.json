@@ -1,0 +1,20 @@
+{
+  "slug": "js-frontend-architecture-forms",
+  "title": "Состояние форм",
+  "language": "javascript",
+  "filesToOpen": [
+    "src/application.js"
+  ],
+  "studentFiles": [
+    "src/application.js"
+  ],
+  "readme": "В этой задаче вам предстоит реализовать форму регистрации. Форма состоит из 4 полей (имя, email, пароль и его подтверждение). Начальный HTML доступен в *public/index.html*.\n\n![Пример работы](assets/example.gif)\n\nФорма должна быть контролируемой. Во время набора данных выполняется валидация сразу всех полей (для простоты). Валидацию нужно построить на базе библиотеки [yup](https://github.com/jquense/yup#usage). В коде уже описана вся нужная валидация. Осталось только вызвать проверку и записать тексты ошибок в объект состояния.\n\nКнопка отправки формы по умолчанию заблокирована. Она разблокируется когда валидна вся форма целиком и блокируется сразу, как только появляется невалидное значение.\n\nHTML когда введены неправильные email и password (один из возможных вариантов):\n\n```html\n<div data-container=\"sign-up\">\n  <form data-form=\"sign-up\" method=\"post\">\n    <div class=\"mb-3\">\n      <label for=\"sign-up-name\">Name</label>\n      <input id=\"sign-up-name\" type=\"text\" class=\"form-control\" name=\"name\">\n    </div>\n    <div class=\"mb-3\">\n      <label for=\"sign-up-email\">Email<sup>*</sup></label>\n      <!-- Если поле невалидно, то добавляется класс is-invalid -->\n      <input id=\"sign-up-email\" required=\"\" type=\"email\" class=\"form-control is-invalid\" name=\"email\">\n      <div class=\"invalid-feedback\">Value is not a valid email</div>\n    </div>\n    <div class=\"mb-3\">\n      <label for=\"sign-up-password\">Password<sup>*</sup></label>\n      <input id=\"sign-up-password\" required=\"\" type=\"password\" class=\"form-control is-invalid\" name=\"password\">\n      <div class=\"invalid-feedback\">Must be at least 6 letters</div>\n    </div>\n    <div class=\"mb-3\">\n      <label for=\"sign-up-password-confirmation\">Password Confirmation<sup>*</sup></label>\n      <input id=\"sign-up-password-confirmation\" required=\"\" type=\"password\" class=\"form-control\" name=\"passwordConfirmation\">\n    </div>\n    <input type=\"submit\" class=\"btn btn-primary\" value=\"Submit\" disabled>\n  </form>\n</div>\n```\n\n\nПосле того как все поля введены правильно, данные формы отправляются постом на урл `/users`. Во время отправки кнопка отправки блокируется (во избежание двойной отправки).\n\nКогда форма отправлена, HTML меняется на следующий:\n\n```html\n<div data-container=\"sign-up\">User Created!</div>\n```\n\n## src/application.js\n\nЭкспортируйте функцию по умолчанию, которая реализует всю необходимую логику.\n\nВ качестве факультатива, можете доработать решение, чтобы для нетронутых полей ошибки не показывались, пока в них не будет введено значение. Демонстрация такой работы показана на гифке выше.\n\n## Подсказки\n\n* Документация [axios](https://github.com/axios/axios). Он работает очень похоже на [fetch](https://ru.hexlet.io/courses/js-dom/lessons/ajax/theory_unit).\n* Для навигации по DOM-дереву полезно использовать [nextElementSibling](https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling)\n* Текст ошибок может отличаться от примера выше и подставляется самим `yup`\n* Данные формы можно отправлять в любом виде\n",
+  "hexlet": {
+    "courseSlug": "js-frontend-architecture",
+    "courseName": "JS: Архитектура фронтенда",
+    "lessonSlug": "forms",
+    "lessonName": "Состояние форм",
+    "exerciseSlug": "js_frontend_architecture_forms_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/forms/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-introduction-to-oop-exceptions",
+  "title": "Исключения",
+  "language": "javascript",
+  "filesToOpen": [
+    "json.js"
+  ],
+  "studentFiles": [
+    "json.js"
+  ],
+  "readme": "## json.js\n\nРеализуйте и экспортируйте функцию-обёртку `parseJson()` для функции `JSON.parse()`, которая работает как встроенная. Но в случае если в функцию была передана некорректная *json* строка, функция-обёртка должна выбросить исключение `ParseError`. Класс `ParseError` реализовывать не нужно, он уже импортирован.\n\n### Пример:\n\n```javascript\nconst json = '{ \"key\": \"value\" }';\nparseJson(json); // { key: 'value' }\n\nconst incorrectJson = '{ key\": \"value\" }';\nparseJson(incorrectJson); // => ParseError: Invalid JSON string\n```\n\n### Подсказки\n\n* [JSON.parse()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)\n",
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "exceptions",
+    "lessonName": "Исключения",
+    "exerciseSlug": "js_introduction_to_oop_exceptions_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/exceptions/exercise_unit"
+  }
+}

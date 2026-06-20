@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-logical-operations",
+  "title": "Логика",
+  "language": "javascript",
+  "filesToOpen": [
+    "isInternationalPhone.js"
+  ],
+  "studentFiles": [
+    "isInternationalPhone.js"
+  ],
+  "readme": "## isInternationalPhone.js\n\nРеализуйте функцию `isInternationalPhone()`, которая проверяет формат указанного телефона. Если телефон начинается с *+*, значит это международный формат.\n\n```javascript\nisInternationalPhone('89602223423') // false\nisInternationalPhone('+79602223423') // true\n```\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "logical-operations",
+    "lessonName": "Логика",
+    "exerciseSlug": "js_basics_logical_operations_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/logical-operations/exercise_unit"
+  }
+}

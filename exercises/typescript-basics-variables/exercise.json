@@ -1,0 +1,20 @@
+{
+  "slug": "typescript-basics-variables",
+  "title": "Переменные",
+  "language": "javascript",
+  "filesToOpen": [
+    "solution.ts"
+  ],
+  "studentFiles": [
+    "solution.ts"
+  ],
+  "readme": "## solution.ts\n\nДопишите тело функции `repeat()`, которая повторяет строку указанное количество раз. Функция должна возвращать полученный результат. Постарайтесь не использовать встроенные методы, для такой реализации вам понадобится цикл.\n\n```typescript\nrepeat('hexlet', 2); // hexlethexlet\nrepeat('wo', 3); // wowowo\n```\n",
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "variables",
+    "lessonName": "Переменные",
+    "exerciseSlug": "typescript_basics_variables",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/variables/exercise_unit"
+  }
+}

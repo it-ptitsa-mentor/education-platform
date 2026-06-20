@@ -1,0 +1,20 @@
+{
+  "slug": "css-content-list",
+  "title": "Списки",
+  "language": "html",
+  "filesToOpen": [
+    "index.html"
+  ],
+  "studentFiles": [
+    "index.html"
+  ],
+  "readme": "Создайте разметку базового уровня карты навыков верстальщика.\n\n![Финальный результат](assets/final.png)\n\nСтруктура разметки:\n\n* Заголовок первого уровня: Карта навыков верстальщика\n* Заголовок второго уровня: Базовый уровень\n\n* Нумерованный список из трёх заголовков третьего уровня:\n    1. HTML\n    2. CSS\n    3. Инструменты\n\n## HTML\n\nРаздел HTML содержит маркированный список из двух элементов:\n\n* Семантический HTML\n* Доступность\n\nДля более подробного описания используется список определений:\n\n* Семантический HTML — Разметка с помощью семантических тегов и Schema.org\n* Доступность — Разметка страницы для людей с ограниченными возможностями\n\nОсновной контейнер списка определений имеет класс `.definitions`. Название термина имеет класс `.definitions-term`.\n\n## CSS\n\nРаздел CSS содержит маркированный список из двух заголовков четвёртого уровня:\n\n* Основы\n* Модули\n\nРаздел «Основы» так же содержит маркированный список из следующих элементов:\n\n* Селекторы\n* Каскадность\n* Базовые правила для работы с текстом\n* Базовая адаптивность с использованием медиазапросов\n* Базовая анимация с использованием transition\n* Псевдоклассы\n* Псевдоэлементы\n\nЭлементы раздела «Модули»:\n\n* CSS Flexible Box Layout Module\n* CSS Grid Layout Module\n* CSS Multi-column Layout Module\n\n## Инструменты\n\nРаздел «Инструменты» содержит маркированный список из трёх заголовков четвёртого уровня:\n\n* HTML\n* CSS\n* Другое\n\nИнструменты раздела «HTML»:\n\n* PUG\n* Emmet\n\nИнструменты раздела «CSS»:\n\n* SASS\n* PostCSS\n* Stylelint\n\nИнструменты раздела «Другое»:\n\n* Bash\n* Git\n* NPM\n* DevTools\n* Code Editors (VSCode/Sublime Text/Atom/WebStorm)\n* Gulp\n",
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "list",
+    "lessonName": "Списки",
+    "exerciseSlug": "css_content_list_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/list/exercise_unit"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "js-objects-nested-objects",
+  "title": "Вложенные объекты",
+  "language": "javascript",
+  "filesToOpen": [
+    "objects.js"
+  ],
+  "studentFiles": [
+    "objects.js"
+  ],
+  "readme": "## objects.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая извлекает из объекта любой глубины вложенности значение по указанным ключам. Параметры:\n\n* Исходный объект\n* Цепочка ключей (массив), по которой ведётся поиск значения\n\nВ случае, когда добраться до значения невозможно, возвращается `null`.\n\n```javascript\nimport get from './objects.js';\n\nconst data = {\n  user: 'ubuntu',\n  hosts: {\n    0: {\n      name: 'web1',\n    },\n    1: {\n      name: 'web2',\n      null: 3,\n      active: false,\n    },\n  },\n};\n\nget(data, ['undefined']); // null\nget(data, ['user']); // 'ubuntu'\nget(data, ['user', 'ubuntu']); // null\nget(data, ['hosts', 1, 'name']); // 'web2'\nget(data, ['hosts', 0]); // { name: 'web1' }\nget(data, ['hosts', 1, null]); // 3\nget(data, ['hosts', 1, 'active']); // false\nget(data, []); // { user: 'ubuntu', hosts: { 0: { name: 'web1' }, 1: { name: 'web2', null: 3, active: false }}}\n```\n\nВ этой задаче нельзя использовать библиотеку lodash. Смысл задачи в том, чтобы реализовать всё самостоятельно.\n\nДля проверки наличия ключа используйте вариант предлагаемый ниже:\n\n```javascript\n// Метод Object.hasOwn() проверяет есть ли в объекте ключ,\n// просто скопируйте этот вызов и подставьте правильные аргументы\n\nconst obj = { key: 'value' };\nObject.hasOwn(obj, 'key'); // true\nObject.hasOwn(obj, 'another key'); // false\n```\n",
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "nested-objects",
+    "lessonName": "Вложенные объекты",
+    "exerciseSlug": "js_objects_nested_objects_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/nested-objects/exercise_unit"
+  }
+}

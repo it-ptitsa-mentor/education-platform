@@ -1,0 +1,22 @@
+{
+  "slug": "js-polymorphism-polymorphism",
+  "title": "Утиная типизация",
+  "language": "javascript",
+  "filesToOpen": [
+    "InMemoryKV.js",
+    "keyValueFunctions.js"
+  ],
+  "studentFiles": [
+    "InMemoryKV.js",
+    "keyValueFunctions.js"
+  ],
+  "readme": "## FileKV.js\n\nВ программировании для некоторых задач распространены key-value базы данных. Внешне они работают по принципу ассоциативных массивов, но живут как отдельные программы и умеют делать много полезных штук: например, сохранять данные на диск, переносить данные между машинами в сети и тому подобное.\n\nВ этой задаче реализована подобная база данных в виде класса _FileKV_, который сохраняет свои данные на диске в указанном файле. Она имеет следующий интерфейс:\n\n### Примеры\n\n```javascript\nimport FileKV from '../FileKV.js';\n\nconst map = new FileKV('/path/to/dbfile');\n// Получение значения по ключу\nmap.get('key'); // 'value'\nmap.get('unknownkey'); // null\n// Получение значения и дефолт\nmap.get('unknownkey', 'default value'); // 'default value'\n// Установка и обновление ключа\nmap.set('key2', 'value2');\nmap.get('key2'); // 'value2'\n// Удаление ключа\nmap.unset('key2');\nmap.get('key2'); // null\nmap.set('key', 'value');\n// Возврат всех данных из базы(возвращается новый объект)\nmap.toObject(); // { key: 'value' }\n```\n\nВ целях тестирования бывает полезно иметь реализацию такой базы данных, которая хранит данные в памяти, а не во внешнем хранилище. Это позволяет легко сбрасывать состояние между тестами и не замедлять их.\n\n## InMemoryKV.js\n\nРеализуйте и экспортируйте по умолчанию класс _InMemoryKV_, который представляет собой in-memory key-value хранилище. Данные внутри него хранятся в обычном объекте. Интерфейс этого класса совпадает с _FileKV_ за исключением конструктора. Конструктор _InMemoryKV_ принимает на вход объект, который становится начальным значением базы данных.\n\n### Примеры\n\n```javascript\nimport InMemoryKV from '../InMemoryKV.js';\n\nconst map = new InMemoryKV({ key: 10 });\nmap.get('key'); // 10\n```\n\n## keyValueFunctions.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая принимает на вход объект базы данных и меняет в нём ключи и значения местами.\n\n_swapKeyValue — полиморфная функция, она может работать с любой реализацией key-value, имеющей такой же интерфейс_.\n\n### Примеры\n\n```javascript\nimport InMemoryKV from '../InMemoryKV.js';\nimport swapKeyValue from '../keyValueFunctions.js';\n\nconst map = new InMemoryKV({ key: 10 });\nmap.set('key2', 'value2');\nswapKeyValue(map);\nmap.get('key'); // null\nmap.get(10); // 'key'\nmap.get('value2'); // 'key2'\n```\n\n### Подсказки\n\n* Изучите тесты\n",
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "polymorphism",
+    "lessonName": "Утиная типизация",
+    "exerciseSlug": "js_polymorphism_polymorphism_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/polymorphism/exercise_unit"
+  }
+}

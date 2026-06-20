@@ -1,0 +1,20 @@
+{
+  "slug": "js-basics-functions-short-syntax",
+  "title": "Упрощенный синтаксис функций",
+  "language": "javascript",
+  "filesToOpen": [
+    "capitalize.js"
+  ],
+  "studentFiles": [
+    "capitalize.js"
+  ],
+  "readme": "## capitalize.js\n\nРеализуйте функцию `capitalize()`, которая принимает непустую строку и приводит первую букву строки к верхнему регистру:\n\n```javascript\nconst name = 'arya'\nconsole.log(capitalize(name)) // => \"Arya\"\n```\n\nЧтобы получить подстроку (или символ) из строки, используйте метод [slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice):\n\n```javascript\n'welcome'.slice(2, 5) // \"lco\"\n```\n\nДля приведения строки к верхнему регистру используйте метод [toUpperCase()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)\n\n```javascript\n'welcome'.toUpperCase() // \"WELCOME\"\n```\n",
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "functions-short-syntax",
+    "lessonName": "Упрощенный синтаксис функций",
+    "exerciseSlug": "js_basics_functions_short_syntax_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/functions-short-syntax/exercise_unit"
+  }
+}

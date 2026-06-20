@@ -1,0 +1,20 @@
+{
+  "slug": "js-arrays-strings",
+  "title": "Обработка строк через преобразование в массив",
+  "language": "javascript",
+  "filesToOpen": [
+    "strings.js"
+  ],
+  "studentFiles": [
+    "strings.js"
+  ],
+  "readme": "## strings.js\n\nРеализуйте и экспортируйте по умолчанию функцию, которая заменяет каждое вхождение указанных слов в предложении на последовательность `$#%!` и возвращает полученную строку. Аргументы:\n\n* Текст\n* Набор стоп слов\n\nСловом считается любая непрерывная последовательность символов, включая любые спецсимволы (без пробелов).\n\n### Примеры\n\n```javascript\nimport makeCensored from '../strings'\n\nconst sentence = 'When you play the game of thrones, you win or you die'\nconst result = makeCensored(sentence, ['die', 'play'])\n// When you $#%! the game of thrones, you win or you $#%!\n\nconst sentence2 = 'chicken chicken? chicken! chicken'\nconst result2 = makeCensored(sentence2, ['?', 'chicken'])\n// '$#%! chicken? chicken! $#%!';\n```\n\n### Подсказки\n\n* [Тернарный оператор](https://ru.hexlet.io/courses/js-basics/lessons/ternary-operator/theory_unit) может сослужить вам хорошую службу в этой практике\n* Также может очень пригодиться метод [includes()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)\n",
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "strings",
+    "lessonName": "Обработка строк через преобразование в массив",
+    "exerciseSlug": "js_arrays_strings_exercise",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/strings/exercise_unit"
+  }
+}
