@@ -1,7 +1,9 @@
+import type { ExerciseLanguage } from "@ptitsa/shared";
+
 export type QuizSummary = {
   slug: string;
   title: string;
-  language: string;
+  language: ExerciseLanguage;
   categoryId: string;
   categoryName: string;
 };

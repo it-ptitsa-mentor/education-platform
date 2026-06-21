@@ -1,4 +1,5 @@
-import { checkQuizAnswers } from "@ptitsa/shared";
+import { checkQuizAnswers } from "@ptitsa/shared/quiz-check";
+import type { QuizManifest } from "@ptitsa/shared/quiz-manifest-types";
 import {
   runBrowserExerciseCheck,
   type ExerciseManifest,
@@ -9,6 +10,13 @@ import {
   staticExerciseSummaries,
   staticExercises,
 } from "./generated/exercises-data";
+import quizDetails from "./generated/quiz-details.json";
+import quizManifests from "./generated/quiz-manifests.json";
+import quizSummaries from "./generated/quiz-summaries.json";
+
+const staticQuizSummaries = quizSummaries as QuizSummary[];
+const staticQuizzes = quizDetails as QuizDetail[];
+const staticQuizManifests = quizManifests as QuizManifest[];
 
 const exerciseBySlug = new Map<string, (typeof staticExercises)[number]>(
   staticExercises.map((exercise) => [exercise.slug, exercise]),
@@ -58,17 +66,11 @@ export const staticCheckExercise = async (
   return result;
 };
 
-const loadQuizGenerated = async () => import("./generated/quizzes-data.js");
-
-export const staticFetchQuizzes = async (): Promise<{ quizzes: QuizSummary[] }> => {
-  const { staticQuizSummaries } = await loadQuizGenerated();
-  return {
-    quizzes: staticQuizSummaries.map((summary) => ({ ...summary })),
-  };
-};
+export const staticFetchQuizzes = async (): Promise<{ quizzes: QuizSummary[] }> => ({
+  quizzes: staticQuizSummaries.map((summary) => ({ ...summary })),
+});
 
 export const staticFetchQuiz = async (slug: string): Promise<QuizDetail> => {
-  const { staticQuizzes } = await loadQuizGenerated();
   const quiz = staticQuizzes.find((item) => item.slug === slug);
   if (!quiz) {
     throw new Error("Quiz not found");
@@ -88,7 +90,6 @@ export const staticCheckQuiz = async (
   slug: string,
   answers: Record<string, string[]>,
 ): Promise<QuizCheckResult> => {
-  const { staticQuizManifests } = await loadQuizGenerated();
   const manifest = staticQuizManifests.find((item) => item.slug === slug);
   if (!manifest) {
     throw new Error("Quiz not found");

@@ -7,7 +7,9 @@
     ".": "./src/index.ts",
     "./exercise-checks": "./src/exercise-checks/index.ts",
     "./exercise-categories": "./src/exercise-categories.ts",
-    "./exercise-tracks": "./src/exercise-tracks.ts"
+    "./exercise-tracks": "./src/exercise-tracks.ts",
+    "./quiz-check": "./src/quiz-check.ts",
+    "./quiz-manifest-types": "./src/quiz-manifest-types.ts"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json"
