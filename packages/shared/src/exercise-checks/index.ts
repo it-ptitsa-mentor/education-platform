@@ -1,5 +1,4 @@
 import { validateStudentFiles } from "../validate-student-files.js";
-import type { ExerciseManifest } from "../exercise-manifest-types.js";
 import { runBrowserExerciseCheck } from "./browser-exercise-check.js";
 
 export type { ExerciseCheckOutcome } from "./js-variables.js";

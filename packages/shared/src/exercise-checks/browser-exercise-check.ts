@@ -27,7 +27,8 @@ const CUSTOM_BROWSER_CHECKS: Record<
     checkJsConsoleOutput(files["solution.js"] ?? "", ["Dragon", "Dragon"]),
 };
 
-const outcomeFromAssertionErrors = (errors: string[]): ExerciseCheckOutcome => {
+const outcomeFromAssertionErrors = (checks: Array<string | null>): ExerciseCheckOutcome => {
+  const errors = collectAssertionErrors(checks);
   if (errors.length === 0) {
     return {
       passed: true,
