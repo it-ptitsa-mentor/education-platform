@@ -1,0 +1,129 @@
+{
+  "slug": "http_protocol-http_1_0",
+  "title": "HTTP 1.0",
+  "questions": [
+    {
+      "id": "4786",
+      "prompt": "Выберите верный вариант строки запроса",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937500",
+          "text": "`get / http/1.0`",
+          "correct": false
+        },
+        {
+          "id": "5937501",
+          "text": "`get / HTTP/1.0`",
+          "correct": false
+        },
+        {
+          "id": "5937502",
+          "text": "`GET / HTTP/1.0`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2452",
+      "prompt": "Какой глагол запроса (request method) возвращает только заголовок, и этот заголовок идентичен тому заголовку, который возвращается вместе с телом при использовании GET-запроса?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937503",
+          "text": "TRACE",
+          "correct": false
+        },
+        {
+          "id": "5937504",
+          "text": "PATCH",
+          "correct": false
+        },
+        {
+          "id": "5937505",
+          "text": "HEAD",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2453",
+      "prompt": "Что (обычно) означает сообщение \"Connection closed by foreign host\", отправленное веб-сервером?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937509",
+          "text": "соединение установлено, сервер ожидает запрос",
+          "correct": false
+        },
+        {
+          "id": "5937510",
+          "text": "сервер не работает, соединение невозможно",
+          "correct": false
+        },
+        {
+          "id": "5937511",
+          "text": "превышен интервал ожидания, соединение закрыто",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2451",
+      "prompt": "HTTP-запрос невозможен без",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937515",
+          "text": "тела",
+          "correct": false
+        },
+        {
+          "id": "5937516",
+          "text": "заголовка",
+          "correct": false
+        },
+        {
+          "id": "5937517",
+          "text": "стартовой строки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2454",
+      "prompt": "Как при HTTP-запросе обозначается конец запроса?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937520",
+          "text": "по таймауту",
+          "correct": false
+        },
+        {
+          "id": "5937521",
+          "text": "точка с запятой",
+          "correct": false
+        },
+        {
+          "id": "5937522",
+          "text": "перевод строки",
+          "correct": false
+        },
+        {
+          "id": "5937523",
+          "text": "два перевода строки",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "http_1_0",
+    "lessonName": "HTTP 1.0",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/http_1_0/quiz_unit",
+    "lessonId": 431
+  }
+}

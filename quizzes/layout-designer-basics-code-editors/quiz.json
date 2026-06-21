@@ -1,0 +1,90 @@
+{
+  "slug": "layout-designer-basics-code-editors",
+  "title": "Редакторы кода",
+  "questions": [
+    {
+      "id": "15916",
+      "prompt": "Какие функции доступны в современных редакторах кода, которые облегчают процесс верстки? (Выберите все правильные ответы)",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5943603",
+          "text": "Интеграция с социальными сетями",
+          "correct": false
+        },
+        {
+          "id": "5943604",
+          "text": "Создание 3D-моделей",
+          "correct": false
+        },
+        {
+          "id": "5943605",
+          "text": "Автодополнение кода",
+          "correct": true
+        },
+        {
+          "id": "5943606",
+          "text": "Подсветка синтаксиса",
+          "correct": true
+        },
+        {
+          "id": "5943607",
+          "text": "Валидация кода",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15917",
+      "prompt": "Для чего используется плагин Emmet в Visual Studio Code?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943608",
+          "text": "Для автоматической валидации кода",
+          "correct": false
+        },
+        {
+          "id": "5943609",
+          "text": "Для редактирования CSS-анимаций",
+          "correct": false
+        },
+        {
+          "id": "5943610",
+          "text": "Для создания базовой HTML-разметки по сокращениям",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15918",
+      "prompt": "Что важно помнить при выборе редактора для верстки?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943611",
+          "text": "Стоит менять редакторы как можно чаще, чтобы найти самый лучший",
+          "correct": false
+        },
+        {
+          "id": "5943612",
+          "text": "Только платные редакторы подходят для профессиональной работы",
+          "correct": false
+        },
+        {
+          "id": "5943613",
+          "text": "Редактор — это всего лишь инструмент, поэтому менять его нет смысла",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "code-editors",
+    "lessonName": "Редакторы кода",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/code-editors/quiz_unit",
+    "lessonId": 1755
+  }
+}

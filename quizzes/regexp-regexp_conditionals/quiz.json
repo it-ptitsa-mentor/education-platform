@@ -1,0 +1,85 @@
+{
+  "slug": "regexp-regexp_conditionals",
+  "title": "Поиск по условию",
+  "questions": [
+    {
+      "id": "9323",
+      "prompt": "Выберите синтаксически верные регулярные выражения, которые осуществляют поиск по условию:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962561",
+          "text": "`(if?then:else)`",
+          "correct": false
+        },
+        {
+          "id": "5962562",
+          "text": "`(if{then}{else})`",
+          "correct": false
+        },
+        {
+          "id": "5962563",
+          "text": "`(?:ifthen|else)`",
+          "correct": false
+        },
+        {
+          "id": "5962564",
+          "text": "`(?ifthen|else)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9324",
+      "prompt": "Из каких частей состоит поиск по условию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962565",
+          "text": "Основная и дополнительная",
+          "correct": false
+        },
+        {
+          "id": "5962566",
+          "text": "Главное условие и дополнительное условие",
+          "correct": false
+        },
+        {
+          "id": "5962567",
+          "text": "Условие и альтернатива",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9325",
+      "prompt": "|\nДана строка:\n\n```\nroses are red\n```\n\nИ регулярное выражение:\n\n```\n/(?(?<!are)roses|red)/\n```\n\nКакая подстрока будет найдена в результате поиска?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962568",
+          "text": "`are`",
+          "correct": false
+        },
+        {
+          "id": "5962569",
+          "text": "`red`",
+          "correct": false
+        },
+        {
+          "id": "5962570",
+          "text": "`roses`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "regexp_conditionals",
+    "lessonName": "Поиск по условию",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/regexp_conditionals/quiz_unit",
+    "lessonId": 327
+  }
+}

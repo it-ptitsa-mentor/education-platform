@@ -1,0 +1,80 @@
+{
+  "slug": "js-testing-matchers",
+  "title": "Матчеры",
+  "questions": [
+    {
+      "id": "5477",
+      "prompt": "Можно ли изменить обычные утверждения так, чтобы они стали такими же информативными, как и матчеры?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994832",
+          "text": "Нет, это невозможно. Утверждения не могут выполнять сложные проверки",
+          "correct": false
+        },
+        {
+          "id": "5994834",
+          "text": "Да, но не в JS",
+          "correct": false
+        },
+        {
+          "id": "5994836",
+          "text": "Можно. Для этого достаточно создать функции-утверждения, которые работают так же, как матчеры",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5645",
+      "prompt": "Как правильно проверить длину массива `items`, используя матчеры?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994841",
+          "text": "`expect(items).toHaveProperty('length', 2)`",
+          "correct": false
+        },
+        {
+          "id": "5994842",
+          "text": "`expect(items.length).toBe(2)`",
+          "correct": false
+        },
+        {
+          "id": "5994843",
+          "text": "`expect(items).toHaveLength(2)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5479",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994849",
+          "text": "Матчеры дают вывод лучше, чем power-assert",
+          "correct": false
+        },
+        {
+          "id": "5994850",
+          "text": "Матчеры сложнее запомнить и правильно применять из-за их количества",
+          "correct": true
+        },
+        {
+          "id": "5994851",
+          "text": "Одну и ту же проверку всегда можно выполнить с помощью разных матчеров",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "matchers",
+    "lessonName": "Матчеры",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/matchers/quiz_unit",
+    "lessonId": 1410
+  }
+}

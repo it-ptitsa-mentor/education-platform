@@ -1,0 +1,80 @@
+{
+  "slug": "js-dom-document-events",
+  "title": "События документа",
+  "questions": [
+    {
+      "id": "6710",
+      "prompt": "Если сначала идет `document.addEventListener('click'...`, а потом `document.addEventListener('DOMContentLoaded'...`, то в каком порядке произойдет подписка на события?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993126",
+          "text": "Сначала *DOMContentLoaded*, потом *click*",
+          "correct": false
+        },
+        {
+          "id": "5993127",
+          "text": "Это асинхронные операции, их порядок неопределен",
+          "correct": false
+        },
+        {
+          "id": "5993128",
+          "text": "В том же порядке, как в коде",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6711",
+      "prompt": "В какой момент запуcкается обработчик события *DOMContentLoaded*?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993129",
+          "text": "Когда все ресурсы загружены (картинки, стили, скрипты, ...)",
+          "correct": false
+        },
+        {
+          "id": "5993130",
+          "text": "Когда началось построение DOM-дерева",
+          "correct": false
+        },
+        {
+          "id": "5993131",
+          "text": "Когда DOM-дерево построено",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6712",
+      "prompt": "Если при построении DOM-дерева встречаются теги `<script>`, как это будет влиять на загрузку страницы?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993132",
+          "text": "Никак, скрипты загружаются асинхронно после события *DOMContentLoaded*",
+          "correct": false
+        },
+        {
+          "id": "5993133",
+          "text": "Загрузка скриптов будет тормозить построение DOM-дерева",
+          "correct": true
+        },
+        {
+          "id": "5993134",
+          "text": "Если какой-то скрипт зависнет, документ не отрисуется",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "document-events",
+    "lessonName": "События документа",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/document-events/quiz_unit",
+    "lessonId": 906
+  }
+}

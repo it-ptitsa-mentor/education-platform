@@ -1,0 +1,85 @@
+{
+  "slug": "cli-basics-streams",
+  "title": "Потоки",
+  "questions": [
+    {
+      "id": "4874",
+      "prompt": "За что отвечает поток STDIN?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946529",
+          "text": "Вывод данных на экран",
+          "correct": false
+        },
+        {
+          "id": "5946530",
+          "text": "Вывод ошибок",
+          "correct": false
+        },
+        {
+          "id": "5946531",
+          "text": "Прием входящих данных в процесс",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4875",
+      "prompt": "Какой оператор перенаправляет STDOUT в файл?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946532",
+          "text": "`<`",
+          "correct": false
+        },
+        {
+          "id": "5946533",
+          "text": "`|`",
+          "correct": false
+        },
+        {
+          "id": "5946534",
+          "text": "Перевод строки",
+          "correct": false
+        },
+        {
+          "id": "5946535",
+          "text": "`>`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4876",
+      "prompt": "Какой оператор дописывает данные в конец файла?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946536",
+          "text": "`>`",
+          "correct": false
+        },
+        {
+          "id": "5946537",
+          "text": "`<`",
+          "correct": false
+        },
+        {
+          "id": "5946538",
+          "text": "`>>`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "streams",
+    "lessonName": "Потоки",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/streams/quiz_unit",
+    "lessonId": 1187
+  }
+}

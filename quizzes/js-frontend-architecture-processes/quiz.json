@@ -1,0 +1,102 @@
+{
+  "slug": "js-frontend-architecture-processes",
+  "title": "Программирование с явно выделенным состоянием",
+  "questions": [
+    {
+      "id": "5786",
+      "prompt": "Кто от кого зависит?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972040",
+          "text": "Состояние процесса от состояния элементов на экране",
+          "correct": false
+        },
+        {
+          "id": "5972041",
+          "text": "Процессы сами по себе, элементы сами по себе",
+          "correct": false
+        },
+        {
+          "id": "5972042",
+          "text": "Состояние элементов от состояний процессов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5787",
+      "prompt": "Сколько процессов может протекать в рамках одного приложения?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972043",
+          "text": "Ровно один",
+          "correct": false
+        },
+        {
+          "id": "5972044",
+          "text": "По количеству форм",
+          "correct": false
+        },
+        {
+          "id": "5972045",
+          "text": "Сколько угодно, зависит от сложности взаимодействия",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5788",
+      "prompt": "Могут ли процессы зависеть друг от друга?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972046",
+          "text": "Нет, они всегда протекают независимо",
+          "correct": false
+        },
+        {
+          "id": "5972047",
+          "text": "Только на бэкенде",
+          "correct": false
+        },
+        {
+          "id": "5972048",
+          "text": "Да, например, отправка данных формы может быть доступна только в том случае, если данные формы валидны",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11412",
+      "prompt": "Выберите правильное состояние для приложения с формой авторизации. Форма может принимать четыре разных состояния: \"заполнение формы\", \"отправка формы\", \"успешно отправлено\", \"ошибка отправки\". При этом кнопка отправки блокируется, если форма отправлена.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972049",
+          "text": "```javascript\nconst state = {\n  form: {\n    filling: true,\n    submitted: true,\n    submitSuccess: true,\n    submitError: true,\n  },\n  button: {\n    submitted: true,\n  },\n};\n```",
+          "correct": false
+        },
+        {
+          "id": "5972050",
+          "text": "```javascript\nconst state = {\n  form: {\n    state: 'filling',\n  },\n  button: {\n    state: 'not_submitted',\n  },\n};\n```",
+          "correct": false
+        },
+        {
+          "id": "5972051",
+          "text": "```javascript\nconst state = {\n  loginProcess: {\n    state: 'filling',\n  }\n};\n```",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-frontend-architecture",
+    "courseName": "JS: Архитектура фронтенда",
+    "lessonSlug": "processes",
+    "lessonName": "Программирование с явно выделенным состоянием",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/processes/quiz_unit",
+    "lessonId": 1646
+  }
+}

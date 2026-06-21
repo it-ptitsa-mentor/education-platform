@@ -1,0 +1,117 @@
+{
+  "slug": "internet-fundamentals-digital-footprint",
+  "title": "Безопасность в интернете и цифровой след",
+  "questions": [
+    {
+      "id": "9937",
+      "prompt": "Что такое цифровой след",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937810",
+          "text": "След от пушистых лапок",
+          "correct": false
+        },
+        {
+          "id": "5937811",
+          "text": "Наши паспортные данные",
+          "correct": false
+        },
+        {
+          "id": "5937812",
+          "text": "Отпечатки пальцев в цифровой базе государства",
+          "correct": false
+        },
+        {
+          "id": "5937813",
+          "text": "Данные, которые мы оставляем о себе в сети",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9938",
+      "prompt": "На какие типы делятся цифровые следы",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937818",
+          "text": "Частные",
+          "correct": false
+        },
+        {
+          "id": "5937819",
+          "text": "Общие",
+          "correct": false
+        },
+        {
+          "id": "5937820",
+          "text": "Активные",
+          "correct": true
+        },
+        {
+          "id": "5937821",
+          "text": "Пассивные",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9939",
+      "prompt": "В чём особенность активных цифровых следов",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937826",
+          "text": "Их собирают без нашего ведома",
+          "correct": false
+        },
+        {
+          "id": "5937827",
+          "text": "Они меняются каждый день",
+          "correct": false
+        },
+        {
+          "id": "5937828",
+          "text": "Мы их оставляем сами",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9940",
+      "prompt": "Что такое Cookie",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937831",
+          "text": "Просто плашка на каждом сайте, с которой мы соглашаемся",
+          "correct": false
+        },
+        {
+          "id": "5937832",
+          "text": "Вкусные печеньки, которые можно скушать с горячим молоком",
+          "correct": false
+        },
+        {
+          "id": "5937833",
+          "text": "Цифровые следы, которые собираются без нашего ведома и согласия",
+          "correct": false
+        },
+        {
+          "id": "5937834",
+          "text": "Данные, которыми обмениваются клиент и сервер для персонализации сайта или приложения",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "internet-fundamentals",
+    "courseName": "Введение в интернет",
+    "lessonSlug": "digital-footprint",
+    "lessonName": "Безопасность в интернете и цифровой след",
+    "sourceUrl": "https://ru.hexlet.io/courses/internet-fundamentals/lessons/digital-footprint/quiz_unit",
+    "lessonId": 3190
+  }
+}

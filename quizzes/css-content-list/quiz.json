@@ -1,0 +1,137 @@
+{
+  "slug": "css-content-list",
+  "title": "Списки",
+  "questions": [
+    {
+      "id": "6584",
+      "prompt": "Какие типы списков существуют в HTML?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867670",
+          "text": "Обычные",
+          "correct": false
+        },
+        {
+          "id": "5867671",
+          "text": "Сложные",
+          "correct": false
+        },
+        {
+          "id": "5867672",
+          "text": "Безмаркированные",
+          "correct": false
+        },
+        {
+          "id": "5867673",
+          "text": "Маркированные",
+          "correct": true
+        },
+        {
+          "id": "5867674",
+          "text": "Нумерованные",
+          "correct": true
+        },
+        {
+          "id": "5867675",
+          "text": "Списки определений",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6585",
+      "prompt": "Какой тег отвечает за нумерованный список?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867676",
+          "text": "ul",
+          "correct": false
+        },
+        {
+          "id": "5867677",
+          "text": "li",
+          "correct": false
+        },
+        {
+          "id": "5867678",
+          "text": "dd",
+          "correct": false
+        },
+        {
+          "id": "5867679",
+          "text": "ol",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6586",
+      "prompt": "Каким свойством можно изменить тип маркера у списков?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867680",
+          "text": "list-marker",
+          "correct": false
+        },
+        {
+          "id": "5867681",
+          "text": "style-type",
+          "correct": false
+        },
+        {
+          "id": "5867682",
+          "text": "list",
+          "correct": false
+        },
+        {
+          "id": "5867683",
+          "text": "list-style-type",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6587",
+      "prompt": "Какой тег используется внутри маркированных и нумерованных списков?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867684",
+          "text": "dl",
+          "correct": false
+        },
+        {
+          "id": "5867685",
+          "text": "dt",
+          "correct": false
+        },
+        {
+          "id": "5867686",
+          "text": "dd",
+          "correct": false
+        },
+        {
+          "id": "5867687",
+          "text": "list",
+          "correct": false
+        },
+        {
+          "id": "5867688",
+          "text": "li",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "list",
+    "lessonName": "Списки",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/list/quiz_unit",
+    "lessonId": 1881
+  }
+}

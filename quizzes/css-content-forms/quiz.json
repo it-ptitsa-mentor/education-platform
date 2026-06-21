@@ -1,0 +1,250 @@
+{
+  "slug": "css-content-forms",
+  "title": "Формы",
+  "questions": [
+    {
+      "id": "6648",
+      "prompt": "Какой атрибут указывает на адрес отправки данных?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867780",
+          "text": "place",
+          "correct": false
+        },
+        {
+          "id": "5867781",
+          "text": "send",
+          "correct": false
+        },
+        {
+          "id": "5867782",
+          "text": "to",
+          "correct": false
+        },
+        {
+          "id": "5867783",
+          "text": "script",
+          "correct": false
+        },
+        {
+          "id": "5867784",
+          "text": "helper",
+          "correct": false
+        },
+        {
+          "id": "5867785",
+          "text": "action",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6649",
+      "prompt": "Как дать пользователю возможность добавить многострочный текст?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867786",
+          "text": "С божьей помощью",
+          "correct": false
+        },
+        {
+          "id": "5867787",
+          "text": "Используя тег input",
+          "correct": false
+        },
+        {
+          "id": "5867788",
+          "text": "С помощью тега select",
+          "correct": false
+        },
+        {
+          "id": "5867789",
+          "text": "С помощью тега textarea",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6650",
+      "prompt": "Как ограничить ширину и высоту textarea?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867790",
+          "text": "Нельзя ограничить",
+          "correct": false
+        },
+        {
+          "id": "5867791",
+          "text": "Добавив атрибут resize",
+          "correct": false
+        },
+        {
+          "id": "5867792",
+          "text": "Добавив атрибут notscale",
+          "correct": false
+        },
+        {
+          "id": "5867793",
+          "text": "Используя свойство resize",
+          "correct": true
+        },
+        {
+          "id": "5867794",
+          "text": "Установив фиксированные значения высоты и ширины",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6651",
+      "prompt": "Выберите доступные типы для элемента `<input>`",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867795",
+          "text": "chess",
+          "correct": false
+        },
+        {
+          "id": "5867796",
+          "text": "textarea",
+          "correct": false
+        },
+        {
+          "id": "5867797",
+          "text": "list",
+          "correct": false
+        },
+        {
+          "id": "5867798",
+          "text": "select",
+          "correct": false
+        },
+        {
+          "id": "5867799",
+          "text": "placeholder",
+          "correct": false
+        },
+        {
+          "id": "5867800",
+          "text": "text",
+          "correct": true
+        },
+        {
+          "id": "5867801",
+          "text": "radio",
+          "correct": true
+        },
+        {
+          "id": "5867802",
+          "text": "checkbox",
+          "correct": true
+        },
+        {
+          "id": "5867803",
+          "text": "submit",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6652",
+      "prompt": "Корректна ли данная верстка?\n\n```html\n<form>\n  <label id=\"name\">Ваше имя</label>\n  <input for=\"name\" type=\"text\">\n</form>\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867804",
+          "text": "Да",
+          "correct": false
+        },
+        {
+          "id": "5867805",
+          "text": "Не знаю",
+          "correct": false
+        },
+        {
+          "id": "5867806",
+          "text": "Нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6654",
+      "prompt": "Почему важно использовать label?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867807",
+          "text": "Так можно передать имя поля на сервер",
+          "correct": false
+        },
+        {
+          "id": "5867808",
+          "text": "Так можно передать значение поля на сервер",
+          "correct": false
+        },
+        {
+          "id": "5867809",
+          "text": "Так можно передать информацию об имени поля для скринридеров",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6655",
+      "prompt": "Какая особенность радиокнопок?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867810",
+          "text": "Можно выбрать несколько вариантов ответа",
+          "correct": false
+        },
+        {
+          "id": "5867811",
+          "text": "Можно выбрать только один вариант ответа",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6656",
+      "prompt": "Как можно отправить форму?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867812",
+          "text": "Используя тег send",
+          "correct": false
+        },
+        {
+          "id": "5867813",
+          "text": "Используя тег select",
+          "correct": false
+        },
+        {
+          "id": "5867814",
+          "text": "Используя тег input",
+          "correct": true
+        },
+        {
+          "id": "5867815",
+          "text": "Используя тег button",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "forms",
+    "lessonName": "Формы",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/forms/quiz_unit",
+    "lessonId": 1890
+  }
+}

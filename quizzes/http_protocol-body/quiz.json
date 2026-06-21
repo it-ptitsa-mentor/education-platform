@@ -1,0 +1,117 @@
+{
+  "slug": "http_protocol-body",
+  "title": "Тело HTTP-запроса",
+  "questions": [
+    {
+      "id": "2459",
+      "prompt": "Что должен содержать ответ при выполнении запроса с использованием глагола HEAD?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937711",
+          "text": "тело",
+          "correct": false
+        },
+        {
+          "id": "5937712",
+          "text": "заголовки и тело",
+          "correct": false
+        },
+        {
+          "id": "5937713",
+          "text": "произойдет ошибка",
+          "correct": false
+        },
+        {
+          "id": "5937714",
+          "text": "заголовки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2460",
+      "prompt": "Какое значение содержится в поле \"Content-Length\" в ответе (response)?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937715",
+          "text": "пустая строка",
+          "correct": false
+        },
+        {
+          "id": "5937718",
+          "text": "null",
+          "correct": false
+        },
+        {
+          "id": "5937720",
+          "text": "количество строк в теле ответа",
+          "correct": false
+        },
+        {
+          "id": "5937722",
+          "text": "количество байт, занимаемое телом ответа",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6020",
+      "prompt": "Content-Length может присутствовать",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937724",
+          "text": "только в ответе",
+          "correct": false
+        },
+        {
+          "id": "5937725",
+          "text": "только в запросе",
+          "correct": false
+        },
+        {
+          "id": "5937727",
+          "text": "и в запросе, и в ответе",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17449",
+      "prompt": "Для чего используется тело (body) в HTTP-запросах и ответах?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937730",
+          "text": "Только для передачи заголовков",
+          "correct": false
+        },
+        {
+          "id": "5937731",
+          "text": "Для указания статуса запроса",
+          "correct": false
+        },
+        {
+          "id": "5937732",
+          "text": "Для определения типа контента",
+          "correct": false
+        },
+        {
+          "id": "5937734",
+          "text": "Для передачи данных от клиента к серверу и наоборот",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "body",
+    "lessonName": "Тело HTTP-запроса",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/body/quiz_unit",
+    "lessonId": 433
+  }
+}

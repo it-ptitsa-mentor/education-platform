@@ -1,0 +1,80 @@
+{
+  "slug": "intro_to_git-git-stash",
+  "title": "Stash",
+  "questions": [
+    {
+      "id": "6539",
+      "prompt": "В какой ситуации может понадобиться `git stash`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937936",
+          "text": "Когда изменения не жалко потерять",
+          "correct": false
+        },
+        {
+          "id": "5937937",
+          "text": "Когда надо разбить изменения на несколько коммитов",
+          "correct": false
+        },
+        {
+          "id": "5937938",
+          "text": "Когда нам нужно закоммитить исправление, не добавляя в этот коммит код, над которым работаем сейчас",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6540",
+      "prompt": "Сколько раз можно сохранять изменения в стэш?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937939",
+          "text": "Только один раз",
+          "correct": false
+        },
+        {
+          "id": "5937940",
+          "text": "Только два раза",
+          "correct": false
+        },
+        {
+          "id": "5937941",
+          "text": "Сколько угодно раз",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6541",
+      "prompt": "Как извлекать последние изменения, добавленные в стэш?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937942",
+          "text": "Командой `git stash push`",
+          "correct": false
+        },
+        {
+          "id": "5937943",
+          "text": "Командой `git stash`",
+          "correct": false
+        },
+        {
+          "id": "5937944",
+          "text": "Командой `git stash pop`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "git-stash",
+    "lessonName": "Stash",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/git-stash/quiz_unit",
+    "lessonId": 1836
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "css-content-fonts",
+  "title": "Шрифты и работа с ними",
+  "questions": [
+    {
+      "id": "6580",
+      "prompt": "Какие свойства шрифта позволяет установить свойство font?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867648",
+          "text": "color",
+          "correct": false
+        },
+        {
+          "id": "5867649",
+          "text": "text-align",
+          "correct": false
+        },
+        {
+          "id": "5867650",
+          "text": "justify-content",
+          "correct": false
+        },
+        {
+          "id": "5867651",
+          "text": "font-style",
+          "correct": true
+        },
+        {
+          "id": "5867652",
+          "text": "font-variant",
+          "correct": true
+        },
+        {
+          "id": "5867653",
+          "text": "font-weight",
+          "correct": true
+        },
+        {
+          "id": "5867654",
+          "text": "font-size",
+          "correct": true
+        },
+        {
+          "id": "5867655",
+          "text": "line-height",
+          "correct": true
+        },
+        {
+          "id": "5867656",
+          "text": "font-family",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6581",
+      "prompt": "Какие значения обязательны при использовании свойства font?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867657",
+          "text": "font-style",
+          "correct": false
+        },
+        {
+          "id": "5867658",
+          "text": "font-variant",
+          "correct": false
+        },
+        {
+          "id": "5867659",
+          "text": "font-weight",
+          "correct": false
+        },
+        {
+          "id": "5867660",
+          "text": "line-height",
+          "correct": false
+        },
+        {
+          "id": "5867661",
+          "text": "font-size",
+          "correct": true
+        },
+        {
+          "id": "5867662",
+          "text": "font-family",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6582",
+      "prompt": "С помощью какой конструкции можно подключить шрифт на страницу?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867663",
+          "text": "@font",
+          "correct": false
+        },
+        {
+          "id": "5867664",
+          "text": "@font-name",
+          "correct": false
+        },
+        {
+          "id": "5867665",
+          "text": "@font-family",
+          "correct": false
+        },
+        {
+          "id": "5867666",
+          "text": "@font-face",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6583",
+      "prompt": "Какое значение font-family позволяет, в качестве значения по умолчанию, установить шрифт с засечками?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867667",
+          "text": "monospace",
+          "correct": false
+        },
+        {
+          "id": "5867668",
+          "text": "sans-serif",
+          "correct": false
+        },
+        {
+          "id": "5867669",
+          "text": "serif",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "fonts",
+    "lessonName": "Шрифты и работа с ними",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/fonts/quiz_unit",
+    "lessonId": 1880
+  }
+}

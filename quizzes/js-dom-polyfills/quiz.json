@@ -1,0 +1,85 @@
+{
+  "slug": "js-dom-polyfills",
+  "title": "Полифиллы",
+  "questions": [
+    {
+      "id": "6667",
+      "prompt": "Что делать, если у пользователей вашего JavaScript-приложения старые браузеры?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993053",
+          "text": "Заставить их обновлять устройства и браузеры",
+          "correct": false
+        },
+        {
+          "id": "5993054",
+          "text": "Перестать писать код на новом синтаксисе и переписать все на самую старую версию JavaScript",
+          "correct": false
+        },
+        {
+          "id": "5993055",
+          "text": "Подключить полифиллы",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6668",
+      "prompt": "Как полифиллы влияют на код?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993056",
+          "text": "Удаляют неиспользуемый код",
+          "correct": false
+        },
+        {
+          "id": "5993057",
+          "text": "Добавляют свойства и методы, которых может не быть в старых браузерах",
+          "correct": true
+        },
+        {
+          "id": "5993058",
+          "text": "Увеличивают общее количество кода",
+          "correct": true
+        },
+        {
+          "id": "5993059",
+          "text": "Обеспечивают совместимость нового синтаксиса в старых браузерах",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6669",
+      "prompt": "Можно ли использовать полифиллы, если код собирается с помощью Webpack?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993060",
+          "text": "Можно, но придется добавить Babel в проект",
+          "correct": false
+        },
+        {
+          "id": "5993061",
+          "text": "Нет смысла, сборщики по умолчанию собирают совместимый код",
+          "correct": false
+        },
+        {
+          "id": "5993062",
+          "text": "Да, потому что сборщики могут и не касаться JavaScript",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "polyfills",
+    "lessonName": "Полифиллы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/polyfills/quiz_unit",
+    "lessonId": 914
+  }
+}

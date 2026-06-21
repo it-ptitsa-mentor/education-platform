@@ -1,0 +1,85 @@
+{
+  "slug": "js-react-use-ref",
+  "title": "Хук useRef",
+  "questions": [
+    {
+      "id": "17465",
+      "prompt": "Для чего обычно используется хук `useRef()`",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5941048",
+          "text": "для получения доступа к произвольному компоненту",
+          "correct": false
+        },
+        {
+          "id": "5941049",
+          "text": "для доступа к состоянию других компонентов",
+          "correct": false
+        },
+        {
+          "id": "5941050",
+          "text": "для получения доступа к DOM элементам",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17466",
+      "prompt": "Выберите правильные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5941051",
+          "text": "хук `useRef()` используется только для получения доступа к DOM-элементу",
+          "correct": false
+        },
+        {
+          "id": "5941053",
+          "text": "хук `useRef()` хранит данные между рендерами компонента",
+          "correct": true
+        },
+        {
+          "id": "5941055",
+          "text": "при каждом рендере `useRef()` будет возвращать один и тот же объект",
+          "correct": true
+        },
+        {
+          "id": "5941057",
+          "text": "изменение объекта, который хранит `useRef()` не вызывает перерисовку компонента",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17467",
+      "prompt": "Когда можно обращаться к DOM элементу, который сохраняется с помощью `useRef()`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5941059",
+          "text": "напрямую в компоненте, во время отрисовки",
+          "correct": false
+        },
+        {
+          "id": "5941060",
+          "text": "в хуках, например, `useEffect()`",
+          "correct": true
+        },
+        {
+          "id": "5941061",
+          "text": "в обработчиках событий, например, клик по элементу",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "use-ref",
+    "lessonName": "Хук useRef",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/use-ref/quiz_unit",
+    "lessonId": 5968
+  }
+}

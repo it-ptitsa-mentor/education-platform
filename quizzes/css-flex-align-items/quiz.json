@@ -1,0 +1,107 @@
+{
+  "slug": "css-flex-align-items",
+  "title": "Выравнивание элементов по поперечной оси",
+  "questions": [
+    {
+      "id": "7327",
+      "prompt": "Какое значение свойства `align-items` используется по умолчанию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989054",
+          "text": "flex-start",
+          "correct": false
+        },
+        {
+          "id": "5989055",
+          "text": "center",
+          "correct": false
+        },
+        {
+          "id": "5989056",
+          "text": "flex-end",
+          "correct": false
+        },
+        {
+          "id": "5989057",
+          "text": "baseline",
+          "correct": false
+        },
+        {
+          "id": "5989058",
+          "text": "stretch",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7328",
+      "prompt": "О какой базовой линии идет речь при использовании значения `baseline`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989059",
+          "text": "Базовой линии Flex-элементов",
+          "correct": false
+        },
+        {
+          "id": "5989060",
+          "text": "Базовой линии Flex-контейнера",
+          "correct": false
+        },
+        {
+          "id": "5989061",
+          "text": "Базовой линии шрифта",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7329",
+      "prompt": "Какой высоты будут Flex-элементы при использовании значения `stretch`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989062",
+          "text": "Разной",
+          "correct": false
+        },
+        {
+          "id": "5989063",
+          "text": "Одинаковой. Значение будет равно высоте самого низкого элемента",
+          "correct": false
+        },
+        {
+          "id": "5989064",
+          "text": "Одинаковой. Значение будет равно высоте самого высокого элемента",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7330",
+      "prompt": "Что такое базовая линия шрифта?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989067",
+          "text": "Воображаемая линия, проходящая по нижнему краю букв с учетом выносных элементов",
+          "correct": false
+        },
+        {
+          "id": "5989069",
+          "text": "Воображаемая линия, проходящая по нижнему краю букв без учета выносных элементов",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-flex",
+    "courseName": "CSS: Flex",
+    "lessonSlug": "align-items",
+    "lessonName": "Выравнивание элементов по поперечной оси",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-flex/lessons/align-items/quiz_unit",
+    "lessonId": 1581
+  }
+}

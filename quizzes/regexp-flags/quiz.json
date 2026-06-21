@@ -1,0 +1,90 @@
+{
+  "slug": "regexp-flags",
+  "title": "Флаги",
+  "questions": [
+    {
+      "id": "9326",
+      "prompt": "Какой флаг используется для трактовки текста одной строкой?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962571",
+          "text": "`i`",
+          "correct": false
+        },
+        {
+          "id": "5962572",
+          "text": "`g`",
+          "correct": false
+        },
+        {
+          "id": "5962573",
+          "text": "`s`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22107",
+      "prompt": "Какой флаг регулярок включает нечувствительность к регистру?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962574",
+          "text": "`m`",
+          "correct": false
+        },
+        {
+          "id": "5962575",
+          "text": "`s`",
+          "correct": false
+        },
+        {
+          "id": "5962576",
+          "text": "`u`",
+          "correct": false
+        },
+        {
+          "id": "5962577",
+          "text": "`i`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22108",
+      "prompt": "Какой флаг заставляет регулярку находить все совпадения в строке, а не только первое?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962578",
+          "text": "`i`",
+          "correct": false
+        },
+        {
+          "id": "5962579",
+          "text": "`m`",
+          "correct": false
+        },
+        {
+          "id": "5962580",
+          "text": "`s`",
+          "correct": false
+        },
+        {
+          "id": "5962581",
+          "text": "`g`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "flags",
+    "lessonName": "Флаги",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/flags/quiz_unit",
+    "lessonId": 328
+  }
+}

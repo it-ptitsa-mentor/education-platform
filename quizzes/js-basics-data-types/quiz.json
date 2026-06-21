@@ -1,0 +1,80 @@
+{
+  "slug": "js-basics-data-types",
+  "title": "Типы данных",
+  "questions": [
+    {
+      "id": "8503",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconsole.log('hex' * 'let');\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992248",
+          "text": "`'hexlet'`",
+          "correct": false
+        },
+        {
+          "id": "5992250",
+          "text": "`9`",
+          "correct": false
+        },
+        {
+          "id": "5992252",
+          "text": "На экран ничего не выведется",
+          "correct": false
+        },
+        {
+          "id": "5992254",
+          "text": "`NaN`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8504",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconsole.log(typeof '1234');\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992255",
+          "text": "`NaN`",
+          "correct": false
+        },
+        {
+          "id": "5992257",
+          "text": "`int`",
+          "correct": false
+        },
+        {
+          "id": "5992260",
+          "text": "`string`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8505",
+      "prompt": "Всегда ли при выводе на экран с помощью `console.log()` можно однозначно сказать, с каким типом данных мы имеем дело?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992261",
+          "text": "Да. Перед выводимым значением указывается его тип",
+          "correct": false
+        },
+        {
+          "id": "5992263",
+          "text": "Нет, так как `console.log()` в конечном счете выводит на экран текстовую строку",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "data-types",
+    "lessonName": "Типы данных",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/data-types/quiz_unit",
+    "lessonId": 2618
+  }
+}

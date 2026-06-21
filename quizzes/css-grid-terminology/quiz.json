@@ -1,0 +1,107 @@
+{
+  "slug": "css-grid-terminology",
+  "title": "Терминология",
+  "questions": [
+    {
+      "id": "6318",
+      "prompt": "Что такое сетка?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868057",
+          "text": "Способность человека-паука",
+          "correct": false
+        },
+        {
+          "id": "5868058",
+          "text": "Таблица",
+          "correct": false
+        },
+        {
+          "id": "5868059",
+          "text": "Система из 12 ячеек",
+          "correct": false
+        },
+        {
+          "id": "5868060",
+          "text": "Система организации ячеек, по которым выстраивается контент",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6319",
+      "prompt": "Видна ли сетка пользователю?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868061",
+          "text": "Да",
+          "correct": false
+        },
+        {
+          "id": "5868062",
+          "text": "Нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6320",
+      "prompt": "Что такое Grid-линия?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868063",
+          "text": "Видимая горизонтальная или вертикальная линия сетки",
+          "correct": false
+        },
+        {
+          "id": "5868064",
+          "text": "Ячейка внутри сетки",
+          "correct": false
+        },
+        {
+          "id": "5868065",
+          "text": "Проточный поток",
+          "correct": false
+        },
+        {
+          "id": "5868066",
+          "text": "Невидимая горизонтальная или вертикальная линия сетки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6321",
+      "prompt": "Что такое Grid область?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868067",
+          "text": "Несколько ячеек внутри сетки",
+          "correct": false
+        },
+        {
+          "id": "5868068",
+          "text": "Любой участок сетки",
+          "correct": false
+        },
+        {
+          "id": "5868069",
+          "text": "Несколько ячеек, ограниченные едиными grid линиями",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-grid",
+    "courseName": "CSS: Вёрстка на Grid",
+    "lessonSlug": "terminology",
+    "lessonName": "Терминология",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-grid/lessons/terminology/quiz_unit",
+    "lessonId": 1792
+  }
+}

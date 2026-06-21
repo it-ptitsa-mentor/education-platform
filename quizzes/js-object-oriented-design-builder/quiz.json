@@ -1,0 +1,97 @@
+{
+  "slug": "js-object-oriented-design-builder",
+  "title": "Сборщики",
+  "questions": [
+    {
+      "id": "15919",
+      "prompt": "Для чего нужен сборщик?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994008",
+          "text": "Для сокращения количества памяти, используемой приложением",
+          "correct": false
+        },
+        {
+          "id": "5994009",
+          "text": "Для валидации данных",
+          "correct": false
+        },
+        {
+          "id": "5994010",
+          "text": "Для упрощения создание сложных объектов с множеством параметров",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15920",
+      "prompt": "Что представляет собой схема в yup?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994017",
+          "text": "Это метод, задающий тип данных",
+          "correct": false
+        },
+        {
+          "id": "5994018",
+          "text": "Это функция, которая проверяет корректность данных",
+          "correct": false
+        },
+        {
+          "id": "5994019",
+          "text": "Объект, описывающий правила валидации данных",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15921",
+      "prompt": "Какой метод схемы позволяет описать структуру проверяемого объекта и задать собственные правила валидации для каждого свойства?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994023",
+          "text": "`form()`",
+          "correct": false
+        },
+        {
+          "id": "5994024",
+          "text": "`object()`",
+          "correct": false
+        },
+        {
+          "id": "5994025",
+          "text": "`shape()`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15922",
+      "prompt": "Какое утверждение относительно схемы в yup верны?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994029",
+          "text": "Схема создается вновь для каждых новых данных",
+          "correct": false
+        },
+        {
+          "id": "5994030",
+          "text": "Схема создается один раз под конкретную задачу, а затем переиспользуется для проверки разных данных",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-object-oriented-design",
+    "courseName": "JS: Объектно-ориентированный дизайн",
+    "lessonSlug": "builder",
+    "lessonName": "Сборщики",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-object-oriented-design/lessons/builder/quiz_unit",
+    "lessonId": 1876
+  }
+}

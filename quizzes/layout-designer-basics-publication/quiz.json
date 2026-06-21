@@ -1,0 +1,105 @@
+{
+  "slug": "layout-designer-basics-publication",
+  "title": "Публикация в интернете",
+  "questions": [
+    {
+      "id": "15910",
+      "prompt": "Зачем выкладывать проект на хостинг?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5944125",
+          "text": "Чтобы никто не мог получить доступ к проекту",
+          "correct": false
+        },
+        {
+          "id": "5944126",
+          "text": "Хостинг нужен только для коммерческих проектов",
+          "correct": false
+        },
+        {
+          "id": "5944127",
+          "text": "Чтобы проект был доступен в интернете",
+          "correct": true
+        },
+        {
+          "id": "5944128",
+          "text": "Чтобы протестировать проект на разных устройствах",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15911",
+      "prompt": "Какие типы сайтов можно размещать на статичном хостинге?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5944137",
+          "text": "Сайты с динамическими базами данных",
+          "correct": false
+        },
+        {
+          "id": "5944138",
+          "text": "Сайты с серверной логикой на PHP или Node.js",
+          "correct": false
+        },
+        {
+          "id": "5944140",
+          "text": "Простые веб-страницы на HTML и CSS",
+          "correct": true
+        },
+        {
+          "id": "5944142",
+          "text": "Статические страницы без серверной логики",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15912",
+      "prompt": "Что нужно сделать, чтобы опубликовать сайт на GitHub Pages?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5944151",
+          "text": "Настроить базу данных",
+          "correct": false
+        },
+        {
+          "id": "5944152",
+          "text": "Написать сервер на Python или PHP",
+          "correct": false
+        },
+        {
+          "id": "5944153",
+          "text": "Загрузить файлы в приватный репозиторий",
+          "correct": false
+        },
+        {
+          "id": "5944154",
+          "text": "Создать публичный репозиторий на GitHub",
+          "correct": true
+        },
+        {
+          "id": "5944155",
+          "text": "Загрузить файлы проекта в репозиторий",
+          "correct": true
+        },
+        {
+          "id": "5944156",
+          "text": "Активировать GitHub Pages в настройках репозитория",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "publication",
+    "lessonName": "Публикация в интернете",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/publication/quiz_unit",
+    "lessonId": 1762
+  }
+}

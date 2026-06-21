@@ -1,0 +1,90 @@
+{
+  "slug": "js-react-immutability",
+  "title": "Неизменяемость",
+  "questions": [
+    {
+      "id": "4276",
+      "prompt": "Какими способами можно расширить массив без изменения исходного?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5940739",
+          "text": "Функция `push`",
+          "correct": false
+        },
+        {
+          "id": "5940740",
+          "text": "Функция `concat`",
+          "correct": true
+        },
+        {
+          "id": "5940741",
+          "text": "Оператор расширения (`...`)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4277",
+      "prompt": "Как удалить элемент из массива без изменения исходного?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940746",
+          "text": "Функция `map`",
+          "correct": false
+        },
+        {
+          "id": "5940747",
+          "text": "Операция `delete`",
+          "correct": false
+        },
+        {
+          "id": "5940748",
+          "text": "Функция `filter`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4278",
+      "prompt": "Какие операции в функциональном стиле наиболее сложные без использования специальных библиотек?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940749",
+          "text": "Добавление элемента в массив",
+          "correct": false
+        },
+        {
+          "id": "5940750",
+          "text": "Добавление элемента в объект",
+          "correct": false
+        },
+        {
+          "id": "5940751",
+          "text": "Обновление объекта",
+          "correct": false
+        },
+        {
+          "id": "5940752",
+          "text": "Удаление свойства из объекта",
+          "correct": false
+        },
+        {
+          "id": "5940753",
+          "text": "Обновление элемента массива",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "immutability",
+    "lessonName": "Неизменяемость",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/immutability/quiz_unit",
+    "lessonId": 965
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-structural-typing",
+  "title": "Структурная типизация",
+  "questions": [
+    {
+      "id": "11611",
+      "prompt": "Какая ошибка допущена в коде ниже?\n\n```typescript\n  type User = {\n    login: string;\n    email: string;\n  };\n\n  function printLogin(user: User) {\n    console.log(user.login);\n  }\n\n  const admin = { login: 'super_user', email: 'super@user.com', isAdmin: true };\n  printLogin(admin);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957264",
+          "text": "Переменная `admin` не соответствует типу `User`, потому что содержит лишнее свойство `isAdmin`",
+          "correct": false
+        },
+        {
+          "id": "5957265",
+          "text": "Не задан тип для переменной `admin`",
+          "correct": false
+        },
+        {
+          "id": "5957266",
+          "text": "Ошибки нет, потому что тип переменной `admin` входит в множество типа `User`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11612",
+      "prompt": "Какая ошибка допущена в коде ниже?\n\n```typescript\n  type User = {\n    username: string;\n    password: string;\n    isAdmin: false,\n  };\n\n  type Admin = User & {\n    isAdmin: true,\n  };\n\n  const admin: Admin = { username: 'test', password: 'test', isAdmin: true, email: 'super_admin@host.ru' };\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957267",
+          "text": "Тип `Admin` не содержит другие обязательные поля `username` и `password`",
+          "correct": false
+        },
+        {
+          "id": "5957268",
+          "text": "В переменную `admin` добавляется лишнее поле `email`",
+          "correct": false
+        },
+        {
+          "id": "5957269",
+          "text": "Одно поле имеет два разных типа",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21962",
+      "prompt": "Какое свойство нужно указать в объекте, чтобы он соответствовал объединению `Address` и описывал город?\n```typescript\ntype City = {\n  city: string;\n};\n\ntype Address = City | {\n  post: number,\n};\n\nconst address: Address = { /* здесь свойство */: 'Moscow' };\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957270",
+          "text": "`post`",
+          "correct": false
+        },
+        {
+          "id": "5957271",
+          "text": "`country`",
+          "correct": false
+        },
+        {
+          "id": "5957272",
+          "text": "`index`",
+          "correct": false
+        },
+        {
+          "id": "5957273",
+          "text": "`city`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "structural-typing",
+    "lessonName": "Структурная типизация",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/structural-typing/quiz_unit",
+    "lessonId": 3813
+  }
+}

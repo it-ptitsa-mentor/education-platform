@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-advanced-generic-classes",
+  "title": "Дженерики на классах",
+  "questions": [
+    {
+      "id": "12980",
+      "prompt": "Может ли обобщенный класс (дженерик) наследоваться от другого обобщенного класса?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892987",
+          "text": "Зависит от ситуации",
+          "correct": false
+        },
+        {
+          "id": "5892988",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5892989",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12981",
+      "prompt": "Какие типы можно использовать в дженериках на классах в TypeScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892990",
+          "text": "Только базовые типы данных — число, строка, булево значение",
+          "correct": false
+        },
+        {
+          "id": "5892991",
+          "text": "Только те, которые указаны в интерфейсе класса",
+          "correct": false
+        },
+        {
+          "id": "5892992",
+          "text": "Любые типы данных, в том числе пользовательские интерфейсы и типы данных",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12982",
+      "prompt": "Какая ошибка допущена в коде ниже?\n\n```typescript\n  class Triple<T, U, V> {\n    constructor(public first: T, public second: U, public third?: V) {}\n  }\n\n  const triple = new Triple('first', 'second');\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892993",
+          "text": "При создании объекта `triple` не указно какие конкретно типы передаются в конструктор",
+          "correct": false
+        },
+        {
+          "id": "5892994",
+          "text": "Атрибут `public` нельзя указывать в дженериках",
+          "correct": false
+        },
+        {
+          "id": "5892995",
+          "text": "В конструктор должно передаваться три параметра, а передается два",
+          "correct": false
+        },
+        {
+          "id": "5892996",
+          "text": "Ошибки нет",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "generic-classes",
+    "lessonName": "Дженерики на классах",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/generic-classes/quiz_unit",
+    "lessonId": 4483
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "typescript-advanced-object",
+  "title": "Тип object",
+  "questions": [
+    {
+      "id": "12983",
+      "prompt": "Какая ошибка допущена в коде ниже?\n\n```typescript\n  const user: object = {\n    name: 'Ivan',\n    age: 18,\n  };\n\n  function greeting(user: object) {\n    console.log(`Hello, ${user.name}`);\n  }\n\n  greeting(user);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892997",
+          "text": "Ошибки нет",
+          "correct": false
+        },
+        {
+          "id": "5892998",
+          "text": "Тип `object` нельзя указывать для константы, его можно указывать только для параметров функции",
+          "correct": false
+        },
+        {
+          "id": "5892999",
+          "text": "Константа и параметр функции содержат одинаковое имя",
+          "correct": false
+        },
+        {
+          "id": "5893000",
+          "text": "Тип `object` не предполагает доступ к свойству `name`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12984",
+      "prompt": "Какой тип не предопределяет тип встроенного метода `toString()`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5893001",
+          "text": "Object",
+          "correct": false
+        },
+        {
+          "id": "5893002",
+          "text": "object",
+          "correct": false
+        },
+        {
+          "id": "5893003",
+          "text": "{}",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12985",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5893004",
+          "text": "Тип `object` включает в себя значения `null` и `undefined`",
+          "correct": false
+        },
+        {
+          "id": "5893005",
+          "text": "Тип `object` — это псевдоним типа `Object`",
+          "correct": false
+        },
+        {
+          "id": "5893006",
+          "text": "По умолчанию метод `toString()` возвращает строковое значение",
+          "correct": true
+        },
+        {
+          "id": "5893007",
+          "text": "Переменной с типом `{}` можно присвоить примитивное значение",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "object",
+    "lessonName": "Тип object",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/object/quiz_unit",
+    "lessonId": 4484
+  }
+}

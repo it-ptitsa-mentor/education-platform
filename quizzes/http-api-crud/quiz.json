@@ -1,0 +1,117 @@
+{
+  "slug": "http-api-crud",
+  "title": "CRUD",
+  "questions": [
+    {
+      "id": "8631",
+      "prompt": "Какие запросы ни в коем случае нельзя кешировать?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "6008366",
+          "text": "GET",
+          "correct": false
+        },
+        {
+          "id": "6008367",
+          "text": "POST",
+          "correct": true
+        },
+        {
+          "id": "6008368",
+          "text": "PATCH",
+          "correct": true
+        },
+        {
+          "id": "6008369",
+          "text": "DELETE",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8632",
+      "prompt": "Какой метод используется для создания сущностей?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008370",
+          "text": "PATCH",
+          "correct": false
+        },
+        {
+          "id": "6008371",
+          "text": "GET",
+          "correct": false
+        },
+        {
+          "id": "6008372",
+          "text": "DELETE",
+          "correct": false
+        },
+        {
+          "id": "6008373",
+          "text": "POST",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8633",
+      "prompt": "Какой метод используется для обновления или изменения сущностей?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008374",
+          "text": "POST",
+          "correct": false
+        },
+        {
+          "id": "6008375",
+          "text": "GET",
+          "correct": false
+        },
+        {
+          "id": "6008376",
+          "text": "DELETE",
+          "correct": false
+        },
+        {
+          "id": "6008377",
+          "text": "PATCH",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8634",
+      "prompt": "Что такое идемпотентный запрос?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008378",
+          "text": "Такой запрос возвращает одни и те же данные при каждом вызове",
+          "correct": false
+        },
+        {
+          "id": "6008379",
+          "text": "Это индифферентный запрос, в ответ на него сервер ничего не возвращает",
+          "correct": false
+        },
+        {
+          "id": "6008380",
+          "text": "Такой запрос приводит к одному и тому же результату, независимо от количества сделанных вызовов",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "crud",
+    "lessonName": "CRUD",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/crud/quiz_unit",
+    "lessonId": 2594
+  }
+}

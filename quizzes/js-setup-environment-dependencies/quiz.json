@@ -1,0 +1,124 @@
+{
+  "slug": "js-setup-environment-dependencies",
+  "title": "Зависимости",
+  "questions": [
+    {
+      "id": "6137",
+      "prompt": "Что означают нижеприведенные ошибки, которые могут возникнуть в процессе работы с NPM?\n\n```\nnpm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue\nnpm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue\nnpm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0.\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994654",
+          "text": "`WARN` это ошибка, требующая срочного обновления пакетов и оказывающая критическое влияние на работоспособность всего проекта",
+          "correct": false
+        },
+        {
+          "id": "5994655",
+          "text": "`WARN` сигнализирует о том, что менеджер пакетов NPM устарел и его необходимо обновить",
+          "correct": false
+        },
+        {
+          "id": "5994657",
+          "text": "`WARN` это не ошибки, а предупреждения о том, что некоторые пакеты устарели и просят обновления, но на общую работоспособность проекта это не влияет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4901",
+      "prompt": "Куда устанавливаются пакеты со всеми своими зависимостями при локальной установке?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994661",
+          "text": "В директорию `node_modules`, находящуюся в корне операционной системы",
+          "correct": false
+        },
+        {
+          "id": "5994662",
+          "text": "В `/usr/local/lib/node_modules`, находящуюся в корне операционной системы",
+          "correct": false
+        },
+        {
+          "id": "5994663",
+          "text": "В директорию `node_modules`, находящуюся в корне проекта",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4902",
+      "prompt": "Как правильно подключить установленную библиотеку (например `hexlet-pairs`) в файле с кодом?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994664",
+          "text": "`import ... from './hexlet-pairs.js';`",
+          "correct": false
+        },
+        {
+          "id": "5994665",
+          "text": "`import ... from 'node_modules/hexlet-pairs';`",
+          "correct": false
+        },
+        {
+          "id": "5994666",
+          "text": "`import ... from 'hexlet-pairs';`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9258",
+      "prompt": "Тест на знание правил экспорта: в библиотеке экспортируются две функции по умолчанию, потом одна из них импортируется в два ваших модуля. Что не так?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994667",
+          "text": "нельзя импортировать функцию в два модуля",
+          "correct": false
+        },
+        {
+          "id": "5994668",
+          "text": "нужно обязательно импортировать все экспортируемые функции",
+          "correct": false
+        },
+        {
+          "id": "5994669",
+          "text": "нельзя делать экспорт нескольких сущностей по умолчанию",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9259",
+      "prompt": "Какие преимущества дают библиотеки?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994670",
+          "text": "более короткие функции",
+          "correct": false
+        },
+        {
+          "id": "5994671",
+          "text": "более быстрые вычисления",
+          "correct": false
+        },
+        {
+          "id": "5994672",
+          "text": "разделение имен и удобное переиспользование кода",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-setup-environment",
+    "courseName": "JS: Настройка окружения",
+    "lessonSlug": "dependencies",
+    "lessonName": "Зависимости",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-setup-environment/lessons/dependencies/quiz_unit",
+    "lessonId": 1305
+  }
+}

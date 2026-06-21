@@ -1,0 +1,102 @@
+{
+  "slug": "js-arrays-for",
+  "title": "Цикл for",
+  "questions": [
+    {
+      "id": "5669",
+      "prompt": "Какая ошибка допущена в коде?\n\n```javascript\nconst userNames = ['petya', 'vasya', 'evgeny'];\n\nfor (let i = userNames.length; i >= 0; i -= 1) {\n  console.log(userNames[i]);\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991708",
+          "text": "Счетчик `i` надо увеличивать на единицу, а не уменьшать",
+          "correct": false
+        },
+        {
+          "id": "5991710",
+          "text": "Неверная проверка на остановку цикла. Используется `>=` вместо `>`",
+          "correct": false
+        },
+        {
+          "id": "5991711",
+          "text": "Начальное значение `i` выходит за границу массива",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5670",
+      "prompt": "Этот цикл предназначен для вывода приветствия пользователей. Какая ошибка допущена в коде?\n\n```javascript\nconst userNames = ['petya', 'vasya', 'evgeny'];\n\nfor (let i = userNames.length - 1; i >= 0; i -= 1)\n  const greeting = (`Hello, ${userNames[i]}!`);\n  console.log(greeting);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991713",
+          "text": "Используется неверный разделитель между выражениями в определении цикла",
+          "correct": false
+        },
+        {
+          "id": "5991715",
+          "text": "Начальное значение `i` выходит за границу массива",
+          "correct": false
+        },
+        {
+          "id": "5991717",
+          "text": "Тело цикла не обернуто в фигурные скобки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5671",
+      "prompt": "Этот цикл должен распечатать все элементы массива. Какая ошибка допущена в коде?\n\n```javascript\nconst userNames = ['petya', 'vasya', 'evgeny'];\n\nfor (let i = 1; i < userNames.length; i += 1) {\n  console.log(userNames[i]);\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991720",
+          "text": "Проверка остановки неверная. Произойдет выход за границу массива.",
+          "correct": false
+        },
+        {
+          "id": "5991721",
+          "text": "Счетчик `i` надо уменьшать на единицу, а не увеличивать",
+          "correct": false
+        },
+        {
+          "id": "5991723",
+          "text": "Начальный индекс 1 вместо 0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5672",
+      "prompt": "Этот цикл должен распечатать все элементы массива. Какая ошибка допущена в коде?\n\n```javascript\nconst userNames = ['petya', 'vasya', 'evgeny'];\n\nfor (let i = 0; i < userNames.length; i -= 1) {\n  console.log(userNames[i]);\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991727",
+          "text": "Проверка остановки неверная в условии цикла. Произойдет выход за границу массива.",
+          "correct": false
+        },
+        {
+          "id": "5991728",
+          "text": "В блоке инициализации задано неверное значение для счетчика `i`",
+          "correct": false
+        },
+        {
+          "id": "5991730",
+          "text": "Счетчик `i` надо увеличивать на единицу, а не уменьшать",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "for",
+    "lessonName": "Цикл for",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/for/quiz_unit",
+    "lessonId": 1608
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-readonly-arrays",
+  "title": "Неизменяемые массивы",
+  "questions": [
+    {
+      "id": "11582",
+      "prompt": "Как модификатор `readonly` влияет на объекты внутри массивов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957139",
+          "text": "Модификатор запрещает менять массив и объекты внутри него",
+          "correct": false
+        },
+        {
+          "id": "5957142",
+          "text": "Модификатор не запрещает изменять объекты внутри массива",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11583",
+      "prompt": "Какая ошибка в этом коде?\n\n```typescript\n  const arr: readonly number[] = [1, 2, 3, 4, 5];\n\n  const first = arr.shift()\n\n  console.log(first); // => 1\n  console.log(arr); // => 2, 3, 4, 5\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957144",
+          "text": "Ошибки нет",
+          "correct": false
+        },
+        {
+          "id": "5957146",
+          "text": "Если указан модификатор `readonly`, то менять массив можно только через обращение к элементам по индексам",
+          "correct": false
+        },
+        {
+          "id": "5957148",
+          "text": "Модификатор `readonly` не должен применяться при создании массивов с примитивными типами",
+          "correct": false
+        },
+        {
+          "id": "5957149",
+          "text": "Метод `shift()` недоступен для вызова в массиве с модификатором `readonly`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21953",
+      "prompt": "Какой тип параметра `numbers` зафиксирует массив `arr` от изменений внутри функции `getEvenNums`?\n```typescript\nconst arr = [1, 2, 3, 4, 5];\n\nfunction getEvenNums(numbers: /* здесь тип */) {\n  return numbers.filter((num) => num % 2 === 0);\n}\nconsole.log(getEvenNums(arr));\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957153",
+          "text": "`number[]`",
+          "correct": false
+        },
+        {
+          "id": "5957154",
+          "text": "`readonly number`",
+          "correct": false
+        },
+        {
+          "id": "5957155",
+          "text": "`Array<number>`",
+          "correct": false
+        },
+        {
+          "id": "5957156",
+          "text": "`readonly number[]`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "readonly-arrays",
+    "lessonName": "Неизменяемые массивы",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/readonly-arrays/quiz_unit",
+    "lessonId": 3803
+  }
+}

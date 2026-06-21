@@ -1,0 +1,80 @@
+{
+  "slug": "cli-basics-users-and-groups",
+  "title": "Пользователи и группы",
+  "questions": [
+    {
+      "id": "4919",
+      "prompt": "Какой командой можно узнать идентификатор своего пользователя?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946582",
+          "text": "`whoami`",
+          "correct": false
+        },
+        {
+          "id": "5946583",
+          "text": "`uid`",
+          "correct": false
+        },
+        {
+          "id": "5946584",
+          "text": "`id`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4920",
+      "prompt": "В каком файле хранится информация о пользователях?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946585",
+          "text": "Такая информация не предоставляется в открытом доступе",
+          "correct": false
+        },
+        {
+          "id": "5946586",
+          "text": "В домашней директории каждого пользователя",
+          "correct": false
+        },
+        {
+          "id": "5946587",
+          "text": "_/etc/passwd_",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4921",
+      "prompt": "Для чего нужна группа?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946588",
+          "text": "Чтобы определять уровень доступа к ресурсу",
+          "correct": false
+        },
+        {
+          "id": "5946589",
+          "text": "Чтобы было красиво",
+          "correct": false
+        },
+        {
+          "id": "5946590",
+          "text": "Чтобы организовывать совместный доступ к разделяемым ресурсам",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "users-and-groups",
+    "lessonName": "Пользователи и группы",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/users-and-groups/quiz_unit",
+    "lessonId": 1195
+  }
+}

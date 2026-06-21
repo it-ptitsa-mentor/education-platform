@@ -1,0 +1,90 @@
+{
+  "slug": "js-basics-aggregation",
+  "title": "Агрегация данных",
+  "questions": [
+    {
+      "id": "8570",
+      "prompt": "Какой нейтральный элемент у операции умножения?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992511",
+          "text": "0",
+          "correct": false
+        },
+        {
+          "id": "5992512",
+          "text": "Эта операция не имеет нейтрального элемента",
+          "correct": false
+        },
+        {
+          "id": "5992513",
+          "text": "`\"\"` (пустая строка)",
+          "correct": false
+        },
+        {
+          "id": "5992514",
+          "text": "1",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22143",
+      "prompt": "Какие значения должны подставляться на места `???`, чтобы функция корректно перемножала диапазон?\n\n```javascript\nconst multiplyNumbersFromRange = (start, finish) => {\n  let i = start;\n  let multiply = ???;\n  while (i <= finish) {\n    multiply *= ???;\n    i += 1;\n  }\n  return multiply;\n};\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992515",
+          "text": "`multiply = 0` и `multiply *= start`",
+          "correct": false
+        },
+        {
+          "id": "5992516",
+          "text": "`multiply = start` и `multiply *= finish`",
+          "correct": false
+        },
+        {
+          "id": "5992517",
+          "text": "`multiply = []` и `multiply *= i`",
+          "correct": false
+        },
+        {
+          "id": "5992519",
+          "text": "`multiply = 1` и `multiply *= i`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8572",
+      "prompt": "Какие типы данных можно собирать (агрегировать) в цикле?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992523",
+          "text": "цикл не предназначен для агрегации данных",
+          "correct": false
+        },
+        {
+          "id": "5992525",
+          "text": "строки",
+          "correct": true
+        },
+        {
+          "id": "5992526",
+          "text": "числа",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "aggregation",
+    "lessonName": "Агрегация данных",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/aggregation/quiz_unit",
+    "lessonId": 2640
+  }
+}

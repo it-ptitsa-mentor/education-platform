@@ -1,0 +1,159 @@
+{
+  "slug": "internet-fundamentals-computer-addresses",
+  "title": "Компьютерные адреса",
+  "questions": [
+    {
+      "id": "9206",
+      "prompt": "Зачем нужен IP-адрес",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937658",
+          "text": "Для получения информации внутри сети",
+          "correct": false
+        },
+        {
+          "id": "5937659",
+          "text": "Для отправки информации внутри сети",
+          "correct": false
+        },
+        {
+          "id": "5937660",
+          "text": "Для доставки почты",
+          "correct": false
+        },
+        {
+          "id": "5937661",
+          "text": "Для получения и отправки информации внутри сети",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9207",
+      "prompt": "Выберите основные типы IP-адресов, которые выделяют в стандарте IPv4, из перечисленных ниже:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937665",
+          "text": "Общественные",
+          "correct": false
+        },
+        {
+          "id": "5937667",
+          "text": "Публичные",
+          "correct": false
+        },
+        {
+          "id": "5937669",
+          "text": "Закрытые",
+          "correct": false
+        },
+        {
+          "id": "5937670",
+          "text": "Частные",
+          "correct": true
+        },
+        {
+          "id": "5937671",
+          "text": "Внешние",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9208",
+      "prompt": "Какой файл используется для связи адреса и имени устройства",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937672",
+          "text": "base",
+          "correct": false
+        },
+        {
+          "id": "5937673",
+          "text": "networks",
+          "correct": false
+        },
+        {
+          "id": "5937674",
+          "text": "names",
+          "correct": false
+        },
+        {
+          "id": "5937675",
+          "text": "hosts",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9209",
+      "prompt": "Какая служба автоматизирует определение IP-адреса по имени сервиса в сети",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937676",
+          "text": "WWW",
+          "correct": false
+        },
+        {
+          "id": "5937677",
+          "text": "RAM",
+          "correct": false
+        },
+        {
+          "id": "5937678",
+          "text": "SSD",
+          "correct": false
+        },
+        {
+          "id": "5937679",
+          "text": "NDS",
+          "correct": false
+        },
+        {
+          "id": "5937680",
+          "text": "DNS",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9210",
+      "prompt": "Какая основная причина перехода на стандарт IPv6",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937681",
+          "text": "Компании хотят заработать на новом оборудовании",
+          "correct": false
+        },
+        {
+          "id": "5937682",
+          "text": "Это позволит ускорить передачу информации в сети",
+          "correct": false
+        },
+        {
+          "id": "5937683",
+          "text": "Неудобные адреса в старом стандарте",
+          "correct": false
+        },
+        {
+          "id": "5937684",
+          "text": "Заканчиваются IP-адреса по стандарту IPv4",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "internet-fundamentals",
+    "courseName": "Введение в интернет",
+    "lessonSlug": "computer-addresses",
+    "lessonName": "Компьютерные адреса",
+    "sourceUrl": "https://ru.hexlet.io/courses/internet-fundamentals/lessons/computer-addresses/quiz_unit",
+    "lessonId": 2957
+  }
+}

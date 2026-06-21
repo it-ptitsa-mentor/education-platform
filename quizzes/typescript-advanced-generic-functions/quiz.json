@@ -1,0 +1,90 @@
+{
+  "slug": "typescript-advanced-generic-functions",
+  "title": "Дженерики (Функции)",
+  "questions": [
+    {
+      "id": "12969",
+      "prompt": "Какая ошибка допущена в коде ниже?\n\n```typescript\n  function push<T>(coll: T[], item: T): T[] {\n    coll.push(item);\n  }\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892954",
+          "text": "Внутри функции происходит мутация",
+          "correct": false
+        },
+        {
+          "id": "5892955",
+          "text": "Тип добавляемого значения не соответствует типу коллекции",
+          "correct": false
+        },
+        {
+          "id": "5892956",
+          "text": "Имя функции зарезервировано",
+          "correct": false
+        },
+        {
+          "id": "5892957",
+          "text": "Возвращаемое значение не соответствует типу",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12970",
+      "prompt": "Выберите несколько способов заменить дженерики в коде на TypeScript:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5892958",
+          "text": "Использовать тип any",
+          "correct": false
+        },
+        {
+          "id": "5892959",
+          "text": "Отключить типизацию",
+          "correct": false
+        },
+        {
+          "id": "5892960",
+          "text": "Создать разные функции для каждого типа",
+          "correct": true
+        },
+        {
+          "id": "5892961",
+          "text": "Использовать перегрузку функций",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22765",
+      "prompt": "В объявлении `function identity<__>(value: T): T` символ между скобками задаёт параметр типа.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892962",
+          "text": "type",
+          "correct": false
+        },
+        {
+          "id": "5892963",
+          "text": "class",
+          "correct": false
+        },
+        {
+          "id": "5892964",
+          "text": "T",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "generic-functions",
+    "lessonName": "Дженерики (Функции)",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/generic-functions/quiz_unit",
+    "lessonId": 4480
+  }
+}

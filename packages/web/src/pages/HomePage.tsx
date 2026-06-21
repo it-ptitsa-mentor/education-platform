@@ -105,7 +105,11 @@ export const HomePage = () => {
         <h2 className="home-title">Выберите задачу</h2>
         <p className="home-lead">
           Разделы по стеку: JavaScript, React и HTML + CSS. Внутри раздела —
-          постраничный список задач по курсам.
+          постраничный список задач по курсам. Тесты после теории — в разделе{" "}
+          <Link to="/quizzes" className="inline-link">
+            Квизы
+          </Link>
+          .
         </p>
       </section>
 

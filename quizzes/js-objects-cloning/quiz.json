@@ -1,0 +1,85 @@
+{
+  "slug": "js-objects-cloning",
+  "title": "Клонирование и копирование",
+  "questions": [
+    {
+      "id": "6259",
+      "prompt": "Какой вид клонирования в JavaScript работает по умолчанию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994282",
+          "text": "Глубокий",
+          "correct": false
+        },
+        {
+          "id": "5994284",
+          "text": "Медленный",
+          "correct": false
+        },
+        {
+          "id": "5994286",
+          "text": "Забористый",
+          "correct": false
+        },
+        {
+          "id": "5994287",
+          "text": "Поверхностный",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6260",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994291",
+          "text": "`Object.assign()` выполняет глубокое копирование",
+          "correct": false
+        },
+        {
+          "id": "5994292",
+          "text": "Глубокое клонирование ограничено двумя уровнями",
+          "correct": false
+        },
+        {
+          "id": "5994293",
+          "text": "Глубокое клонирование более тяжелая операция, чем поверхностное",
+          "correct": true
+        },
+        {
+          "id": "5994294",
+          "text": "Массивы являются объектами, а значит клонируются только поверхностно стандартными конструкциями языка",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6261",
+      "prompt": "Что вернет код\n\n```javascript\nconst user = { company: { name: 'Hexlet' } };\n\n// данные из user копируются во вновь созданный объект\nconst copyOfUser = Object.assign({}, user);\n\nuser.company.name === copyOfUser.company.name; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994298",
+          "text": "false",
+          "correct": false
+        },
+        {
+          "id": "5994299",
+          "text": "true",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "cloning",
+    "lessonName": "Клонирование и копирование",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/cloning/quiz_unit",
+    "lessonId": 1817
+  }
+}

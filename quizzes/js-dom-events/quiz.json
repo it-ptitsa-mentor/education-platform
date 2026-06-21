@@ -1,0 +1,75 @@
+{
+  "slug": "js-dom-events",
+  "title": "Введение в события",
+  "questions": [
+    {
+      "id": "3926",
+      "prompt": "Сколько обработчиков можно добавить на одно событие?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993063",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5993064",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5993065",
+          "text": "Сколько угодно",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3927",
+      "prompt": "Что не так с кодом ниже?\n\n```javascript\nconst boom = () => alert('Boom!');\nbutton.addEventListener('keyup', boom());\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993066",
+          "text": "Все правильно",
+          "correct": false
+        },
+        {
+          "id": "5993067",
+          "text": "У `button` нет события `keyup`",
+          "correct": false
+        },
+        {
+          "id": "5993068",
+          "text": "Вторым параметром в `addEventListener` передается результат вызова функция-обработчика, а не сама функция",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8461",
+      "prompt": "Как остановить выполнение действия по умолчанию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993069",
+          "text": "Удалить обработчик с помощью метода `removeEventListener()`",
+          "correct": false
+        },
+        {
+          "id": "5993070",
+          "text": "Сделать вызов метода `event.preventDefault()` внутри обработчика",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "events",
+    "lessonName": "Введение в события",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/events/quiz_unit",
+    "lessonId": 916
+  }
+}

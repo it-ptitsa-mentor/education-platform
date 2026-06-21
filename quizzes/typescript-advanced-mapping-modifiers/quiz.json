@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-advanced-mapping-modifiers",
+  "title": "Модификаторы сопоставления типов",
+  "questions": [
+    {
+      "id": "14058",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5893045",
+          "text": "Изначально все свойства имеют атрибут `readonly`",
+          "correct": false
+        },
+        {
+          "id": "5893046",
+          "text": "Если не использовать префикс, то модификатор будет добавлен",
+          "correct": true
+        },
+        {
+          "id": "5893047",
+          "text": "Префикс `+` используется для добавления модификатора",
+          "correct": true
+        },
+        {
+          "id": "5893048",
+          "text": "Префикс `-` используется для удаления модификатора",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "14059",
+      "prompt": "Как можно добавить модификатор для всех свойств типа?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5893049",
+          "text": "Только с помощью указания каждого свойства с добавлением модификатора",
+          "correct": false
+        },
+        {
+          "id": "5893050",
+          "text": "Это невозможно",
+          "correct": false
+        },
+        {
+          "id": "5893051",
+          "text": "Использовать Utility Types",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22767",
+      "prompt": "Префикс `__` перед модификатором убирает его у всех свойств типа.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5893052",
+          "text": "plus",
+          "correct": false
+        },
+        {
+          "id": "5893053",
+          "text": "/",
+          "correct": false
+        },
+        {
+          "id": "5893054",
+          "text": "-",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "mapping-modifiers",
+    "lessonName": "Модификаторы сопоставления типов",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/mapping-modifiers/quiz_unit",
+    "lessonId": 4823
+  }
+}

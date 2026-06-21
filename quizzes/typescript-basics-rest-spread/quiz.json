@@ -1,0 +1,75 @@
+{
+  "slug": "typescript-basics-rest-spread",
+  "title": "Операции Rest и Spread",
+  "questions": [
+    {
+      "id": "11494",
+      "prompt": "Какой тип параметра нужно задать аргументу с оператором `rest`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957038",
+          "text": "Он не задает тип параметра",
+          "correct": false
+        },
+        {
+          "id": "5957039",
+          "text": "Специальный тип `...`",
+          "correct": false
+        },
+        {
+          "id": "5957040",
+          "text": "Массив с типами, которые ожидаются в массиве",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11495",
+      "prompt": "Можно ли использовать оператор `spread` для объединения нескольких массивов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957044",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5957045",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11496",
+      "prompt": "Как оператор `rest` позволяет работать с функциями с произвольным количеством аргументов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957049",
+          "text": "Разбивая все аргументы на отдельные переменные",
+          "correct": false
+        },
+        {
+          "id": "5957050",
+          "text": "Никак",
+          "correct": false
+        },
+        {
+          "id": "5957051",
+          "text": "Добавляя все аргументы в массив",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "rest-spread",
+    "lessonName": "Операции Rest и Spread",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/rest-spread/quiz_unit",
+    "lessonId": 3797
+  }
+}

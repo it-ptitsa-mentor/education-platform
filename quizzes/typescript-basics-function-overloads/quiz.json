@@ -1,0 +1,70 @@
+{
+  "slug": "typescript-basics-function-overloads",
+  "title": "Перегрузка функций",
+  "questions": [
+    {
+      "id": "11497",
+      "prompt": "Какая функция вызовется, если в списке перегрузки нет функции, соответствующей переданным параметрам?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957052",
+          "text": "Первая функция в списке перегрузки",
+          "correct": false
+        },
+        {
+          "id": "5957053",
+          "text": "Последняя функция в списке перегрузки",
+          "correct": false
+        },
+        {
+          "id": "5957054",
+          "text": "Никакая, программа выбросит исключение",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11498",
+      "prompt": "Можно ли объявить перегруженную функцию с помощью анонимной функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957058",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5957059",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11499",
+      "prompt": "Можно ли использовать тип `any` при объявлении параметров в перегруженной функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957063",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5957064",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "function-overloads",
+    "lessonName": "Перегрузка функций",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/function-overloads/quiz_unit",
+    "lessonId": 3799
+  }
+}

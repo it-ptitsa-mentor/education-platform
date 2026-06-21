@@ -1,0 +1,85 @@
+{
+  "slug": "js-functions-filter",
+  "title": "Фильтрация (filter)",
+  "questions": [
+    {
+      "id": "5720",
+      "prompt": "Как соотносится количество элементов исходной коллекции с количеством элементов возвращаемой (отображённой) методом `filter` коллекции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993550",
+          "text": "Никак, всё зависит от конкретного способа обработки",
+          "correct": false
+        },
+        {
+          "id": "5993551",
+          "text": "Выходная коллекция всегда больше",
+          "correct": false
+        },
+        {
+          "id": "5993552",
+          "text": "Выходная коллекция всегда меньше",
+          "correct": false
+        },
+        {
+          "id": "5993553",
+          "text": "Выходная коллекция меньше (в том числе может быть пустой коллекцией) либо равна исходной коллекции",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5721",
+      "prompt": "Что должна возвратить callback-функция внутри `filter`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993554",
+          "text": "Новую коллекцию",
+          "correct": false
+        },
+        {
+          "id": "5993555",
+          "text": "Отображённый (изменёный) элемент",
+          "correct": false
+        },
+        {
+          "id": "5993556",
+          "text": "true или false",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5722",
+      "prompt": "Что вернёт метод `filter`, если его вызвать на пустом массиве?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993557",
+          "text": "null",
+          "correct": false
+        },
+        {
+          "id": "5993558",
+          "text": "false",
+          "correct": false
+        },
+        {
+          "id": "5993559",
+          "text": "Пустой массив",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "filter",
+    "lessonName": "Фильтрация (filter)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/filter/quiz_unit",
+    "lessonId": 1633
+  }
+}

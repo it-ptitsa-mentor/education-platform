@@ -1,0 +1,90 @@
+{
+  "slug": "js-arrays-big-o",
+  "title": "Big O",
+  "questions": [
+    {
+      "id": "6363",
+      "prompt": "Какова сложность обращения к элементу массива?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991962",
+          "text": "это несложно",
+          "correct": false
+        },
+        {
+          "id": "5991963",
+          "text": "проще простого",
+          "correct": false
+        },
+        {
+          "id": "5991964",
+          "text": "O(1)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6364",
+      "prompt": "Какова сложность последовательного перебора элементов массива?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991965",
+          "text": "O(n\\^2)",
+          "correct": false
+        },
+        {
+          "id": "5991966",
+          "text": "O(2n)",
+          "correct": false
+        },
+        {
+          "id": "5991967",
+          "text": "O(logn)",
+          "correct": false
+        },
+        {
+          "id": "5991968",
+          "text": "O(1)",
+          "correct": false
+        },
+        {
+          "id": "5991969",
+          "text": "O(n)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6365",
+      "prompt": "Что показывает сложность алгоритма?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991970",
+          "text": "Количество потребляемой памяти",
+          "correct": false
+        },
+        {
+          "id": "5991971",
+          "text": "Нагрузку на процессор",
+          "correct": false
+        },
+        {
+          "id": "5991972",
+          "text": "Количество операций, которое нужно выполнить в худшем случае в зависимости от количества элементов",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "big-o",
+    "lessonName": "Big O",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/big-o/quiz_unit",
+    "lessonId": 1591
+  }
+}

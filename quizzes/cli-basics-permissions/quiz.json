@@ -1,0 +1,90 @@
+{
+  "slug": "cli-basics-permissions",
+  "title": "Права доступа",
+  "questions": [
+    {
+      "id": "4925",
+      "prompt": "Представьте файл со следующими правами:\n\n```\n-rw-rw-r--\n```\n\nКакие действия доступны пользователям, входящим в группу?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946603",
+          "text": "Исполнение",
+          "correct": false
+        },
+        {
+          "id": "5946604",
+          "text": "Чтение",
+          "correct": true
+        },
+        {
+          "id": "5946605",
+          "text": "Запись",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4926",
+      "prompt": "Какому числу соответствуют данный уровень доступа?\n\n```\n`-rw-r--r--`\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946606",
+          "text": "533",
+          "correct": false
+        },
+        {
+          "id": "5946607",
+          "text": "446",
+          "correct": false
+        },
+        {
+          "id": "5946608",
+          "text": "705",
+          "correct": false
+        },
+        {
+          "id": "5946609",
+          "text": "644",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4927",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946610",
+          "text": "Единственная директория, куда пользователь может писать в новой системе - _/tmp_",
+          "correct": false
+        },
+        {
+          "id": "5946611",
+          "text": "`7` соответствует уровню `rw-`",
+          "correct": false
+        },
+        {
+          "id": "5946612",
+          "text": "Суперпользователь имеет доступ ко всему, независимо от установленного уровня доступа",
+          "correct": true
+        },
+        {
+          "id": "5946613",
+          "text": "Чтобы удалить файл, нужно иметь права на запись в директорию, которая его содержит",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "permissions",
+    "lessonName": "Права доступа",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/permissions/quiz_unit",
+    "lessonId": 1199
+  }
+}

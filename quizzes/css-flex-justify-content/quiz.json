@@ -1,0 +1,124 @@
+{
+  "slug": "css-flex-justify-content",
+  "title": "Выравнивание элементов по главной оси",
+  "questions": [
+    {
+      "id": "6084",
+      "prompt": "Что такое главная ось?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989013",
+          "text": "Горизонтальная ось",
+          "correct": false
+        },
+        {
+          "id": "5989014",
+          "text": "Вертикальная ось",
+          "correct": false
+        },
+        {
+          "id": "5989015",
+          "text": "Ось, по которой выстраиваются элементы. Зависит от свойства flex-direction",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6085",
+      "prompt": "Какое значение свойства justify-content устанавливается по умолчанию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989016",
+          "text": "flex-end",
+          "correct": false
+        },
+        {
+          "id": "5989017",
+          "text": "center",
+          "correct": false
+        },
+        {
+          "id": "5989018",
+          "text": "space-evenly",
+          "correct": false
+        },
+        {
+          "id": "5989019",
+          "text": "flex-start",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6086",
+      "prompt": "Какая ось является поперечной?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989023",
+          "text": "Ось, по которой выстраиваются элементы. Зависит от свойства flex-direction",
+          "correct": false
+        },
+        {
+          "id": "5989024",
+          "text": "Вертикальная ось",
+          "correct": false
+        },
+        {
+          "id": "5989025",
+          "text": "Горизонтальная ось",
+          "correct": false
+        },
+        {
+          "id": "5989026",
+          "text": "Ось, перпендикулярная главной оси",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6087",
+      "prompt": "Можно ли выравнивать элементы по поперечной оси?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989029",
+          "text": "Нет, Flex позволяет выравнивать элементы только по главной оси",
+          "correct": false
+        },
+        {
+          "id": "5989030",
+          "text": "Да, конечно",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6088",
+      "prompt": "Как можно выровнять элементы по горизонтали при `flex-direction: column;`",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989031",
+          "text": "С помощью свойства justify-content",
+          "correct": false
+        },
+        {
+          "id": "5989032",
+          "text": "С помощью свойства align-items",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-flex",
+    "courseName": "CSS: Flex",
+    "lessonSlug": "justify-content",
+    "lessonName": "Выравнивание элементов по главной оси",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-flex/lessons/justify-content/quiz_unit",
+    "lessonId": 1579
+  }
+}

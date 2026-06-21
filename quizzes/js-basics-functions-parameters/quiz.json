@@ -1,0 +1,80 @@
+{
+  "slug": "js-basics-functions-parameters",
+  "title": "Параметры функций",
+  "questions": [
+    {
+      "id": "8531",
+      "prompt": "Что произойдет в результате выполнения такого кода:\n\n```javascript\nconst sum = (a, b) => {\n  return a + b;\n}\n\nconsole.log(sum(2));\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992405",
+          "text": "На экран будет выведено число 2, ведь мы не передавали второй аргумент в функцию. По умолчанию он равен `undefined`",
+          "correct": false
+        },
+        {
+          "id": "5992406",
+          "text": "На экран будет выведено `NaN`, так как не был передан второй аргумент",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8532",
+      "prompt": "Отметьте все эквивалентные к друг другу записи функции",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992407",
+          "text": "```javascript\nconst printQuestion = (text) => {\n  console.log(word + '?')\n}\n```",
+          "correct": false
+        },
+        {
+          "id": "5992408",
+          "text": "```javascript\nconst printQuestion = () => {\n  console.log(`${text}?`)\n}\n```",
+          "correct": false
+        },
+        {
+          "id": "5992409",
+          "text": "```javascript\nconst printQuestion = (text) => {\n  console.log(text + '?')\n}\n```",
+          "correct": true
+        },
+        {
+          "id": "5992410",
+          "text": "```javascript\nconst printQuestion = (word) => {\n  console.log(`${word}?`)\n}\n```",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8533",
+      "prompt": "Можно ли в качестве имени параметра в определении функции использовать конкретное значение (число, строку и т.п.)?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992411",
+          "text": "Значение записать можно, только оно должно быть последним среди всех параметров определяемой функции. Это позволяет интерпретатору понять, где заканчиваются обязательные параметры и начинается конкретное значение.",
+          "correct": false
+        },
+        {
+          "id": "5992412",
+          "text": "Конечно можно, ведь все функции работают внутри с какими-то значениями. Параметр — это просто указание на то, что будет использоваться в теле функции, не важно, переменная это или конкретное число.",
+          "correct": false
+        },
+        {
+          "id": "5992413",
+          "text": "Нельзя. Параметр — это имя переменной (идентификатор), которой присваивается значение при вызове функции. Параметры со значением по умолчанию (например, `b = 0`) — отдельная тема; сам параметр в них по-прежнему является именем переменной, а не конкретным значением.",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "functions-parameters",
+    "lessonName": "Параметры функций",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/functions-parameters/quiz_unit",
+    "lessonId": 2630
+  }
+}

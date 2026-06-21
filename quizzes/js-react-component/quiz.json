@@ -1,0 +1,107 @@
+{
+  "slug": "js-react-component",
+  "title": "Компоненты",
+  "questions": [
+    {
+      "id": "4241",
+      "prompt": "Что такое JSX?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940547",
+          "text": "Язык программирования",
+          "correct": false
+        },
+        {
+          "id": "5940548",
+          "text": "HTML-разметка",
+          "correct": false
+        },
+        {
+          "id": "5940549",
+          "text": "XML-документ",
+          "correct": false
+        },
+        {
+          "id": "5940550",
+          "text": "Расширение языка JavaScript",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4242",
+      "prompt": "Выберите верные утверждения.",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5940551",
+          "text": "В React нет встроенных компонентов",
+          "correct": false
+        },
+        {
+          "id": "5940552",
+          "text": "Самописные компоненты могут начинаться с буквы в любом регистре",
+          "correct": false
+        },
+        {
+          "id": "5940553",
+          "text": "Встроенные в React компоненты всегда начинаются с маленькой буквы",
+          "correct": true
+        },
+        {
+          "id": "5940554",
+          "text": "`<hr />` это компонент (встроенный)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4243",
+      "prompt": "Какие ошибки допущены в коде?\n\n```jsx\nroot.render(<mycomponent>);\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5940555",
+          "text": "Функция `render` первым аргументом ожидает `mountNode`",
+          "correct": false
+        },
+        {
+          "id": "5940556",
+          "text": "Имя с маленькой буквы",
+          "correct": true
+        },
+        {
+          "id": "5940557",
+          "text": "Отсутствует закрывающий `/`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16094",
+      "prompt": "Как указать класс для элемента в JSX?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940558",
+          "text": "Так же, как в обычном HTML, с помощью ключевого слова `class`",
+          "correct": false
+        },
+        {
+          "id": "5940559",
+          "text": "С помощью ключевого слова `className`, так как `class` — это зарезервированное слово для создания классов",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "component",
+    "lessonName": "Компоненты",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/component/quiz_unit",
+    "lessonId": 969
+  }
+}

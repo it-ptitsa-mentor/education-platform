@@ -1,0 +1,75 @@
+{
+  "slug": "js-functions-paradigms",
+  "title": "Парадигмы программирования",
+  "questions": [
+    {
+      "id": "6479",
+      "prompt": "Как можно писать код, если в языке нет циклов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993600",
+          "text": "Это неполноценные языки",
+          "correct": false
+        },
+        {
+          "id": "5993601",
+          "text": "Придется повторять все действия копированием кода",
+          "correct": false
+        },
+        {
+          "id": "5993602",
+          "text": "С помощью рекурсии",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6480",
+      "prompt": "Можно ли в рамках одной программы использовать разные парадигмы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993603",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5993604",
+          "text": "Только если подобный код будет в разных файлах",
+          "correct": false
+        },
+        {
+          "id": "5993605",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6481",
+      "prompt": "Как можно охарактеризовать функциональное программирование?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993606",
+          "text": "Программирование переменными",
+          "correct": false
+        },
+        {
+          "id": "5993607",
+          "text": "Программирование значениями",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "paradigms",
+    "lessonName": "Парадигмы программирования",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/paradigms/quiz_unit",
+    "lessonId": 1641
+  }
+}

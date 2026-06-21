@@ -1,0 +1,117 @@
+{
+  "slug": "js-introduction-to-oop-constructor",
+  "title": "Конструктор",
+  "questions": [
+    {
+      "id": "6099",
+      "prompt": "Что может выступать в роли конструктора?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993878",
+          "text": "Стрелочная функция",
+          "correct": false
+        },
+        {
+          "id": "5993879",
+          "text": "Любая функция",
+          "correct": false
+        },
+        {
+          "id": "5993880",
+          "text": "Любые не стрелочные функции (именованные и не именованные)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6100",
+      "prompt": "Откуда внутри конструктора берется `this`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993881",
+          "text": "С помощью магии",
+          "correct": false
+        },
+        {
+          "id": "5993882",
+          "text": "Внутри конструктора нельзя использовать `this`",
+          "correct": false
+        },
+        {
+          "id": "5993883",
+          "text": "За это отвечает оператор `new`, который под капотом создает объект и подставляет его как контекст в функцию конструктор",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6101",
+      "prompt": "Можно ли вызывать функцию-конструктор как обычную функцию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993885",
+          "text": "Нет, функции-конструкторы можно вызывать только с помощью оператора `new`",
+          "correct": false
+        },
+        {
+          "id": "5993887",
+          "text": "Если имя функции-конструктора написано с маленькой буквы, то можно, иначе – нельзя",
+          "correct": false
+        },
+        {
+          "id": "5993889",
+          "text": "Да, потому что это и есть обычная функция",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11378",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nfunction getResult() {\n  return this.result;\n}\n\nfunction Exp(a, b = 2) {\n  this.result = a ** b;\n  this.getResult = getResult;\n}\n\nconst exp = new Exp(2);\n\nconsole.log(exp.getResult()); // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993893",
+          "text": "0",
+          "correct": false
+        },
+        {
+          "id": "5993894",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5993895",
+          "text": "256",
+          "correct": false
+        },
+        {
+          "id": "5993896",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5993897",
+          "text": "NaN",
+          "correct": false
+        },
+        {
+          "id": "5993898",
+          "text": "4",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "constructor",
+    "lessonName": "Конструктор",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/constructor/quiz_unit",
+    "lessonId": 1675
+  }
+}

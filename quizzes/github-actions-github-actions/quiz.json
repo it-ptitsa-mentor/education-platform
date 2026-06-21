@@ -1,0 +1,80 @@
+{
+  "slug": "github-actions-github-actions",
+  "title": "GitHub Actions",
+  "questions": [
+    {
+      "id": "7338",
+      "prompt": "В какой директории внутри репозитория нужно создавать файл или файлы с описанием воркфлоу?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989788",
+          "text": "*.github/workflows*",
+          "correct": true
+        },
+        {
+          "id": "5989789",
+          "text": "*github/workflows*",
+          "correct": false
+        },
+        {
+          "id": "5989790",
+          "text": "*.github/workflow*",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "7339",
+      "prompt": "Какой формат используется для описания воркфлоу?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989791",
+          "text": "YAML",
+          "correct": true
+        },
+        {
+          "id": "5989792",
+          "text": "JSON",
+          "correct": false
+        },
+        {
+          "id": "5989793",
+          "text": "HTML",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "7340",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989794",
+          "text": "По умолчанию задания, описанные в воркфлоу файле, выполняются параллельно",
+          "correct": true
+        },
+        {
+          "id": "5989795",
+          "text": "В каждом файле с воркфлоу должно быть не больше одного задания, которое срабатывает на определенное действие",
+          "correct": false
+        },
+        {
+          "id": "5989796",
+          "text": "Каждый репозиторий может содержать не больше одного воркфлоу",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "github-actions",
+    "courseName": "Непрерывная интеграция (CI)",
+    "lessonSlug": "github-actions",
+    "lessonName": "GitHub Actions",
+    "sourceUrl": "https://ru.hexlet.io/courses/github-actions/lessons/github-actions/quiz_unit",
+    "lessonId": 2294
+  }
+}

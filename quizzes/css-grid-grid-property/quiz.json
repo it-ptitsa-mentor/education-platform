@@ -1,0 +1,80 @@
+{
+  "slug": "css-grid-grid-property",
+  "title": "Работа с сеткой",
+  "questions": [
+    {
+      "id": "6332",
+      "prompt": "Какие значения принимает свойство grid-gap?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5868108",
+          "text": "Отступы между колонками/отступы между рядами",
+          "correct": false
+        },
+        {
+          "id": "5868109",
+          "text": "Отступы между рядами/отступы между колонками",
+          "correct": true
+        },
+        {
+          "id": "5868110",
+          "text": "При указании одного значения отступы выставляются и для колонок и для рядов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6333",
+      "prompt": "Как позиционируются элементы внутри Grid при указании свойства justify-content?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868111",
+          "text": "Это свойство не работает в модуле Grid",
+          "correct": false
+        },
+        {
+          "id": "5868112",
+          "text": "Позиционируется контент внутри ячеек",
+          "correct": false
+        },
+        {
+          "id": "5868113",
+          "text": "Так же, как и в модуле Flex",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6334",
+      "prompt": "Как работает значение space-around свойства justify-content?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868114",
+          "text": "Колонки получают одинаковое расстояние между собой без отступа по краям контейнера",
+          "correct": false
+        },
+        {
+          "id": "5868115",
+          "text": "Равные отступы между колонками и полная ширина отступа по краям контейнера",
+          "correct": false
+        },
+        {
+          "id": "5868116",
+          "text": "Равные отступы между колонками и половину этого расстояния по краям контейнера",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-grid",
+    "courseName": "CSS: Вёрстка на Grid",
+    "lessonSlug": "grid-property",
+    "lessonName": "Работа с сеткой",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-grid/lessons/grid-property/quiz_unit",
+    "lessonId": 1796
+  }
+}

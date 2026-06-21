@@ -1,0 +1,70 @@
+{
+  "slug": "http_protocol-redirect",
+  "title": "Перенаправления",
+  "questions": [
+    {
+      "id": "2534",
+      "prompt": "Возможно в ответ 301 включить тело?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938134",
+          "text": "нет",
+          "correct": false
+        },
+        {
+          "id": "5938135",
+          "text": "да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2535",
+      "prompt": "При ответе \"301\" новый адрес указан в поле \"Location\". Чем является это поле?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938140",
+          "text": "кодом ответа",
+          "correct": false
+        },
+        {
+          "id": "5938141",
+          "text": "телом",
+          "correct": false
+        },
+        {
+          "id": "5938142",
+          "text": "заголовком",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2536",
+      "prompt": "Возможно ли делать редирект на страницу, которая в свою очередь содержит новый редирект на другую страницу?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938143",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5938144",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "redirect",
+    "lessonName": "Перенаправления",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/redirect/quiz_unit",
+    "lessonId": 458
+  }
+}

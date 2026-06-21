@@ -1,0 +1,100 @@
+{
+  "slug": "js-redux-toolkit-slices",
+  "title": "Подробнее о слайсах",
+  "questions": [
+    {
+      "id": "13030",
+      "prompt": "Из каких компонентов состоит слайс в Redux Toolkit?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5940754",
+          "text": "Селекторы",
+          "correct": false
+        },
+        {
+          "id": "5940755",
+          "text": "Мидлвары",
+          "correct": false
+        },
+        {
+          "id": "5940756",
+          "text": "Имя",
+          "correct": true
+        },
+        {
+          "id": "5940757",
+          "text": "Начальное состояние",
+          "correct": true
+        },
+        {
+          "id": "5940758",
+          "text": "Редьюсеры",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "13031",
+      "prompt": "Какую проблему решает библиотека Immer?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940762",
+          "text": "Избавляет от необходимости использовать Redux",
+          "correct": false
+        },
+        {
+          "id": "5940764",
+          "text": "Увеличивает безопасность приложения",
+          "correct": false
+        },
+        {
+          "id": "5940766",
+          "text": "Решает проблемы с асинхронными действиями в Redux",
+          "correct": false
+        },
+        {
+          "id": "5940767",
+          "text": "Сокращает объем передаваемых данных по сети",
+          "correct": false
+        },
+        {
+          "id": "5940768",
+          "text": "Упрощает работу с вложенными данными",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "13032",
+      "prompt": "Как формируется глобальное состояние Redux при наличии нескольких редьюсеров?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940770",
+          "text": "Все редьюсеры объединяются в массив",
+          "correct": false
+        },
+        {
+          "id": "5940772",
+          "text": "Редьюсеры влияют только на локальное состояние компонента",
+          "correct": false
+        },
+        {
+          "id": "5940774",
+          "text": "Объект, переданный в `configureStore`, формирует глобальное состояние",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-redux-toolkit",
+    "courseName": "React: Redux Toolkit",
+    "lessonSlug": "slices",
+    "lessonName": "Подробнее о слайсах",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-redux-toolkit/lessons/slices/quiz_unit",
+    "lessonId": 2214
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "js-react-state",
+  "title": "Состояние",
+  "questions": [
+    {
+      "id": "4266",
+      "prompt": "Как можно охарактеризовать компоненты, у которых нет изменяемого состояния?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940621",
+          "text": "Stateful",
+          "correct": false
+        },
+        {
+          "id": "5940622",
+          "text": "Stateless",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4267",
+      "prompt": "Как допустимо инициализировать состояние?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940623",
+          "text": "`state = 0`",
+          "correct": false
+        },
+        {
+          "id": "5940624",
+          "text": "`state = 'opened'`",
+          "correct": false
+        },
+        {
+          "id": "5940625",
+          "text": "`state = { modalState: 'opened' }`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4268",
+      "prompt": "Как правильно изменять состояние?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940626",
+          "text": "Через присваивание `this.state = ...`",
+          "correct": false
+        },
+        {
+          "id": "5940627",
+          "text": "Его нельзя изменить изнутри компонента",
+          "correct": false
+        },
+        {
+          "id": "5940628",
+          "text": "Используя функцию `this.setState`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "state",
+    "lessonName": "Состояние",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/state/quiz_unit",
+    "lessonId": 953
+  }
+}

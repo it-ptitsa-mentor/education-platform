@@ -1,0 +1,115 @@
+{
+  "slug": "css-content-text",
+  "title": "Стили текста",
+  "questions": [
+    {
+      "id": "6577",
+      "prompt": "Какое свойство используется для установки цвета текста?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867632",
+          "text": "text-color",
+          "correct": false
+        },
+        {
+          "id": "5867633",
+          "text": "font-color",
+          "correct": false
+        },
+        {
+          "id": "5867634",
+          "text": "background",
+          "correct": false
+        },
+        {
+          "id": "5867635",
+          "text": "cvet-teksta",
+          "correct": false
+        },
+        {
+          "id": "5867636",
+          "text": "color",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6578",
+      "prompt": "Какие значения принимает свойство text-align?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867637",
+          "text": "between",
+          "correct": false
+        },
+        {
+          "id": "5867638",
+          "text": "top",
+          "correct": false
+        },
+        {
+          "id": "5867639",
+          "text": "bottom",
+          "correct": false
+        },
+        {
+          "id": "5867640",
+          "text": "center",
+          "correct": true
+        },
+        {
+          "id": "5867641",
+          "text": "left",
+          "correct": true
+        },
+        {
+          "id": "5867642",
+          "text": "right",
+          "correct": true
+        },
+        {
+          "id": "5867643",
+          "text": "justify",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6579",
+      "prompt": "Какому числовому значению соответствует bold в свойстве font-weight?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867644",
+          "text": "300",
+          "correct": false
+        },
+        {
+          "id": "5867645",
+          "text": "500",
+          "correct": false
+        },
+        {
+          "id": "5867646",
+          "text": "900",
+          "correct": false
+        },
+        {
+          "id": "5867647",
+          "text": "700",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "text",
+    "lessonName": "Стили текста",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/text/quiz_unit",
+    "lessonId": 1878
+  }
+}

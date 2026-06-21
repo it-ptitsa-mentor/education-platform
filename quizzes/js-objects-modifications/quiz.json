@@ -1,0 +1,85 @@
+{
+  "slug": "js-objects-modifications",
+  "title": "Модификация",
+  "questions": [
+    {
+      "id": "6235",
+      "prompt": "Что вернет код?\n\n```javascript\nconst user = { name: 'Vasya', married: true, age: 25 };\nconst name = 'age';\nuser[name] = 'Inna';\n\nuser.name; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994101",
+          "text": "`'Inna'`",
+          "correct": false
+        },
+        {
+          "id": "5994102",
+          "text": "`true`",
+          "correct": false
+        },
+        {
+          "id": "5994103",
+          "text": "`25`",
+          "correct": false
+        },
+        {
+          "id": "5994104",
+          "text": "`'Vasya'`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6236",
+      "prompt": "В чем отличие двух способов создания объекта:\n\n```javascript\n// Первый\nconst company = {};\ncompany.name = 'Hexlet';\n\n// Второй\nconst company = { name: 'Hexlet' };\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994105",
+          "text": "Первый способ завершится с ошибкой, потому что нельзя менять константу",
+          "correct": false
+        },
+        {
+          "id": "5994106",
+          "text": "Во втором создается константа, которую нельзя менять",
+          "correct": false
+        },
+        {
+          "id": "5994107",
+          "text": "Оба варианта эквивалентны с точки зрения конечного результата",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6237",
+      "prompt": "Что окажется внутри?\n\n```javascript\nconst user = { name: 'Vasya', married: true, age: 25 };\ndelete user.name\nuser.name; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994108",
+          "text": "`'Vasya'`",
+          "correct": false
+        },
+        {
+          "id": "5994109",
+          "text": "`null`",
+          "correct": false
+        },
+        {
+          "id": "5994110",
+          "text": "`undefined`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "modifications",
+    "lessonName": "Модификация",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/modifications/quiz_unit",
+    "lessonId": 1818
+  }
+}

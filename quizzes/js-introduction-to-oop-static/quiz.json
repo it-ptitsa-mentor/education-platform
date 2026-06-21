@@ -1,0 +1,80 @@
+{
+  "slug": "js-introduction-to-oop-static",
+  "title": "Статические свойства и методы",
+  "questions": [
+    {
+      "id": "6111",
+      "prompt": "Кому принадлежит статическое свойство",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994002",
+          "text": "Никому",
+          "correct": false
+        },
+        {
+          "id": "5994003",
+          "text": "Объектам класса",
+          "correct": false
+        },
+        {
+          "id": "5994004",
+          "text": "Классу",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6112",
+      "prompt": "Когда стоит использовать статические свойства?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994005",
+          "text": "Когда в классе становится слишком много обычных свойств",
+          "correct": false
+        },
+        {
+          "id": "5994006",
+          "text": "Когда свойство это функция-геттер",
+          "correct": false
+        },
+        {
+          "id": "5994007",
+          "text": "Когда они выражают свойства, относящиеся к классу, а не объектам этого класса",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6113",
+      "prompt": "Где хранятся статические свойства?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994011",
+          "text": "В первом созданном объекте",
+          "correct": false
+        },
+        {
+          "id": "5994012",
+          "text": "В прототипе",
+          "correct": false
+        },
+        {
+          "id": "5994014",
+          "text": "В классе (функции-конструкторе)",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "static",
+    "lessonName": "Статические свойства и методы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/static/quiz_unit",
+    "lessonId": 1678
+  }
+}

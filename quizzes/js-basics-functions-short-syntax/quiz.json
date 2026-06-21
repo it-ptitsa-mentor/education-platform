@@ -1,0 +1,80 @@
+{
+  "slug": "js-basics-functions-short-syntax",
+  "title": "Упрощенный синтаксис функций",
+  "questions": [
+    {
+      "id": "8537",
+      "prompt": "Когда можно не писать слово `return` для возврата результата из функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992424",
+          "text": "Всегда, когда функцию можно разместить на одной строке",
+          "correct": false
+        },
+        {
+          "id": "5992425",
+          "text": "Никогда",
+          "correct": false
+        },
+        {
+          "id": "5992426",
+          "text": "Когда используется сокращенный синтаксис",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8538",
+      "prompt": "Какое из определений функции верно?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992427",
+          "text": "`const double = (x) => return x ** 2;`",
+          "correct": false
+        },
+        {
+          "id": "5992428",
+          "text": "`const double = (x) => { x ** 2; }`",
+          "correct": false
+        },
+        {
+          "id": "5992429",
+          "text": "`const double = (x) => x ** 2;`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8539",
+      "prompt": "Во всех ли версиях языка доступен сокращенный синтаксис определения функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992430",
+          "text": "Да, в том числе и в самых старых",
+          "correct": false
+        },
+        {
+          "id": "5992431",
+          "text": "Только в самой последней",
+          "correct": false
+        },
+        {
+          "id": "5992432",
+          "text": "Начиная с версии es6",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "functions-short-syntax",
+    "lessonName": "Упрощенный синтаксис функций",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/functions-short-syntax/quiz_unit",
+    "lessonId": 2632
+  }
+}

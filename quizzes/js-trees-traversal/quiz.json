@@ -1,0 +1,80 @@
+{
+  "slug": "js-trees-traversal",
+  "title": "Обход дерева",
+  "questions": [
+    {
+      "id": "4434",
+      "prompt": "Какой вариант обхода дерева используется в рекурсивном решении?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994905",
+          "text": "Обход в ширину",
+          "correct": false
+        },
+        {
+          "id": "5994907",
+          "text": "Обход в обход",
+          "correct": false
+        },
+        {
+          "id": "5994909",
+          "text": "Обход в глубину",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4435",
+      "prompt": "Сколько раз может быть обработан любой узел в процессе обхода?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994910",
+          "text": "Любое количество раз",
+          "correct": false
+        },
+        {
+          "id": "5994911",
+          "text": "Обход не должен обрабатывать узлы",
+          "correct": false
+        },
+        {
+          "id": "5994912",
+          "text": "Ровно один раз",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4436",
+      "prompt": "Выберите верное утверждение",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994913",
+          "text": "Древовидная рекурсия проще линейной",
+          "correct": false
+        },
+        {
+          "id": "5994914",
+          "text": "При обходе в глубину, дерево просматривается по уровням. Сначала все узлы на глубине 1, затем 2 и так далее до самого дна",
+          "correct": false
+        },
+        {
+          "id": "5994915",
+          "text": "Древовидная рекурсия сводится к рекурсивному вызову для каждого из детей текущего узла",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "traversal",
+    "lessonName": "Обход дерева",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/traversal/quiz_unit",
+    "lessonId": 1016
+  }
+}

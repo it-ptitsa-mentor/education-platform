@@ -1,0 +1,90 @@
+{
+  "slug": "js-introduction-to-oop-prototype",
+  "title": "Прототипы",
+  "questions": [
+    {
+      "id": "6102",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nString.toUpperCase = () => {};\nconsole.log('hexlet'.toUpperCase());\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993905",
+          "text": "hexlet",
+          "correct": false
+        },
+        {
+          "id": "5993906",
+          "text": "''",
+          "correct": false
+        },
+        {
+          "id": "5993907",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5993908",
+          "text": "HEXLET",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6103",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993911",
+          "text": "`Object.getPrototypeOf([]) === Array`",
+          "correct": false
+        },
+        {
+          "id": "5993913",
+          "text": "`Array.prototype === Array`",
+          "correct": false
+        },
+        {
+          "id": "5993915",
+          "text": "Прототип – это объект",
+          "correct": true
+        },
+        {
+          "id": "5993917",
+          "text": "Прототипы используются при обращении к свойствам, которые не определены в объекте",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6104",
+      "prompt": "Чем полезно создание свойств в прототипе конструктора?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993920",
+          "text": "Методы, определенные таким образом, работают быстрее",
+          "correct": false
+        },
+        {
+          "id": "5993922",
+          "text": "Повторите вопрос пожалуйста",
+          "correct": false
+        },
+        {
+          "id": "5993923",
+          "text": "Свойства прототипа можно подменить, изменив поведение всех соответствующих объектов. Это бывает полезно при отладке или тестировании",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "prototype",
+    "lessonName": "Прототипы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/prototype/quiz_unit",
+    "lessonId": 1693
+  }
+}

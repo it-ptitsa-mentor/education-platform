@@ -1,0 +1,80 @@
+{
+  "slug": "intro_to_git-open-source",
+  "title": "Открытые проекты",
+  "questions": [
+    {
+      "id": "10526",
+      "prompt": "Что такое пулреквест?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937945",
+          "text": "Запрос на создание новой ветки в основном репозитории",
+          "correct": false
+        },
+        {
+          "id": "5937946",
+          "text": "Сообщение об ошибке в репозитории",
+          "correct": false
+        },
+        {
+          "id": "5937947",
+          "text": "Запрос на внесение изменений из одной ветки в другую внутри репозитория или между форками",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "10527",
+      "prompt": "Чем полезно участие в опенсорс-проектах?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937949",
+          "text": "Они помогают набраться практического опыта",
+          "correct": true
+        },
+        {
+          "id": "5937950",
+          "text": "Они помогают в трудоустройстве",
+          "correct": true
+        },
+        {
+          "id": "5937952",
+          "text": "Они прокачивают soft-скиллы",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "10528",
+      "prompt": "Что такое fork?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937957",
+          "text": "Список изменений в основной ветке репозитория",
+          "correct": false
+        },
+        {
+          "id": "5937959",
+          "text": "Оценка качества кода другим разработчиком",
+          "correct": false
+        },
+        {
+          "id": "5937960",
+          "text": "Ответвление от основной кодовой базы другого репозитория на GitHub",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "open-source",
+    "lessonName": "Открытые проекты",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/open-source/quiz_unit",
+    "lessonId": 1845
+  }
+}

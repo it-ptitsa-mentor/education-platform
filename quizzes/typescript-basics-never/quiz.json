@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-never",
+  "title": "Возврат из функции",
+  "questions": [
+    {
+      "id": "11485",
+      "prompt": "Чем отличаются типы `never` и `void`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956975",
+          "text": "Ничем, это взаимозаменяемые типы",
+          "correct": false
+        },
+        {
+          "id": "5956977",
+          "text": "В отличие от функций с типом `never`, функция с типом `void` может иногда использовать возвращаемое значение",
+          "correct": false
+        },
+        {
+          "id": "5956979",
+          "text": "Функция с типом `never` либо никогда не завершается, либо завершается в исключительных ситуациях",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11486",
+      "prompt": "Какой тип данных будет возвращен из функции с типом `never`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956981",
+          "text": "Любой тип данных",
+          "correct": false
+        },
+        {
+          "id": "5956982",
+          "text": "`undefined`",
+          "correct": false
+        },
+        {
+          "id": "5956984",
+          "text": "`never`",
+          "correct": false
+        },
+        {
+          "id": "5956986",
+          "text": "Код не дойдет до возврата, поэтому ничего не будет возвращено",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11487",
+      "prompt": "В каких случаях имеет смысл использовать тип `never`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956988",
+          "text": "В функциях с обработкой больших объемов данных",
+          "correct": false
+        },
+        {
+          "id": "5956989",
+          "text": "Практического применения типа `never` нет, он не используется в реальных проектах",
+          "correct": false
+        },
+        {
+          "id": "5956991",
+          "text": "В функциях, которые запускают приложение и останавливаются по команде пользователя",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "never",
+    "lessonName": "Возврат из функции",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/never/quiz_unit",
+    "lessonId": 3794
+  }
+}

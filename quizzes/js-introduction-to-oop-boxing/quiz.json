@@ -1,0 +1,80 @@
+{
+  "slug": "js-introduction-to-oop-boxing",
+  "title": "Упаковка и Распаковка (Boxing)",
+  "questions": [
+    {
+      "id": "6105",
+      "prompt": "Что такое автоматическая упаковка?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993927",
+          "text": "Явный вызов конструктора в коде, например так: `new String('Clojure')`",
+          "correct": false
+        },
+        {
+          "id": "5993928",
+          "text": "Преобразование кода из нескольких строк, в код состоящий из одной строки",
+          "correct": false
+        },
+        {
+          "id": "5993929",
+          "text": "Неявное создание объекта из примитивного типа при обращении к его свойствам",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6106",
+      "prompt": "Что выведется на экран?\n\n```javascript\nconst lang = 'Haskell';\ntypeof lang; // 'string'\nlang.toUpperCase();\nconsole.log(typeof lang); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993930",
+          "text": "Тип зависит от того, успел ли JavaScript распаковать значение",
+          "correct": false
+        },
+        {
+          "id": "5993932",
+          "text": "'object', так как до этого была упаковка",
+          "correct": false
+        },
+        {
+          "id": "5993934",
+          "text": "'string', так как тип не меняется",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6107",
+      "prompt": "Какие типы данных упаковываются?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993936",
+          "text": "Все",
+          "correct": false
+        },
+        {
+          "id": "5993938",
+          "text": "Все примитивные + массив",
+          "correct": false
+        },
+        {
+          "id": "5993940",
+          "text": "Только примитивные. Объекты не нужно упаковывать, они уже объекты",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "boxing",
+    "lessonName": "Упаковка и Распаковка (Boxing)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/boxing/quiz_unit",
+    "lessonId": 1684
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "js-frontend-architecture-forms",
+  "title": "Состояние форм",
+  "questions": [
+    {
+      "id": "6393",
+      "prompt": "В каком типе форм данные формы хранятся в состоянии?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972074",
+          "text": "Безпринципные формы",
+          "correct": false
+        },
+        {
+          "id": "5972075",
+          "text": "Неконтролируемые формы",
+          "correct": false
+        },
+        {
+          "id": "5972076",
+          "text": "Контролируемые формы",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6394",
+      "prompt": "В каком типе форм данные формы не хранятся в состоянии, а извлекаются из DOM по мере надобности",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972077",
+          "text": "Поисковые формы",
+          "correct": false
+        },
+        {
+          "id": "5972078",
+          "text": "Контролируемые формы",
+          "correct": false
+        },
+        {
+          "id": "5972079",
+          "text": "Неконтролируемые формы",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6395",
+      "prompt": "По какому событию правильно отправлять формы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972080",
+          "text": "click на кнопку отправки формы",
+          "correct": false
+        },
+        {
+          "id": "5972081",
+          "text": "click на любом месте формы",
+          "correct": false
+        },
+        {
+          "id": "5972082",
+          "text": "submit самой формы",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-frontend-architecture",
+    "courseName": "JS: Архитектура фронтенда",
+    "lessonSlug": "forms",
+    "lessonName": "Состояние форм",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/forms/quiz_unit",
+    "lessonId": 1652
+  }
+}

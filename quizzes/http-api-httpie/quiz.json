@@ -1,0 +1,139 @@
+{
+  "slug": "http-api-httpie",
+  "title": "HTTPie",
+  "questions": [
+    {
+      "id": "16024",
+      "prompt": "Что появится на экране, если выполнить такую команду?\n\n```bash\nhttp https://http.hexlet.app/http-protocol/example\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008381",
+          "text": "Ничего, ведь мы не указали метод запроса",
+          "correct": false
+        },
+        {
+          "id": "6008382",
+          "text": "Только тело ответа без заголовков",
+          "correct": false
+        },
+        {
+          "id": "6008383",
+          "text": "Заголовки и тело ответа",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22390",
+      "prompt": "Какой короткий флаг нужно добавить, чтобы HTTPie показал и запрос, и ответ?\n\n```bash\nhttp __ https://hexlet.io\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008384",
+          "text": "`-h`",
+          "correct": false
+        },
+        {
+          "id": "6008385",
+          "text": "`-b`",
+          "correct": false
+        },
+        {
+          "id": "6008386",
+          "text": "`-F`",
+          "correct": false
+        },
+        {
+          "id": "6008387",
+          "text": "`-v`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16026",
+      "prompt": "Можно ли в HTTPie указать HTTP метод запроса самостоятельно?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008388",
+          "text": "Нет, метод всегда выбирается автоматически",
+          "correct": false
+        },
+        {
+          "id": "6008389",
+          "text": "Да, метод всегда обязательно нужно указывать, иначе будет ошибка",
+          "correct": false
+        },
+        {
+          "id": "6008390",
+          "text": "Да, мы можем как сами указать метод запроса, так и положиться на автоматический выбор",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22391",
+      "prompt": "Чем заменить `__`, чтобы отправить заголовок `X-Greeting: Hello`?\n\n```bash\nhttp https://http.hexlet.app/http-protocol/example __\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008391",
+          "text": "`X-Greeting=Hello`",
+          "correct": false
+        },
+        {
+          "id": "6008392",
+          "text": "`-H \"X-Greeting=Hello\"`",
+          "correct": false
+        },
+        {
+          "id": "6008393",
+          "text": "`header:X-Greeting Hello`",
+          "correct": false
+        },
+        {
+          "id": "6008394",
+          "text": "`\"X-Greeting:Hello\"`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22392",
+      "prompt": "Какой фрагмент добавит в тело запроса JSON `{\"name\": \"John\"}`?\n\n```bash\nhttp https://http.hexlet.app/http-protocol/users __\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008395",
+          "text": "`\"name:John\"`",
+          "correct": false
+        },
+        {
+          "id": "6008397",
+          "text": "`name==John`",
+          "correct": false
+        },
+        {
+          "id": "6008398",
+          "text": "`-d name=John`",
+          "correct": false
+        },
+        {
+          "id": "6008399",
+          "text": "`'name=John'`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "httpie",
+    "lessonName": "HTTPie",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/httpie/quiz_unit",
+    "lessonId": 5541
+  }
+}

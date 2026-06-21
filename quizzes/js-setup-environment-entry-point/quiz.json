@@ -1,0 +1,102 @@
+{
+  "slug": "js-setup-environment-entry-point",
+  "title": "Точка входа",
+  "questions": [
+    {
+      "id": "12836",
+      "prompt": "Какая точка входа устанавливается по умолчанию в npm-пакете?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994763",
+          "text": "package.json",
+          "correct": false
+        },
+        {
+          "id": "5994765",
+          "text": "src/index.js",
+          "correct": false
+        },
+        {
+          "id": "5994767",
+          "text": "index.js",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12837",
+      "prompt": "В каких случаях стоит выделить в проекте функцию, чтобы проект мог работать как библиотека?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994770",
+          "text": "Когда проект состоит из нескольких модулей",
+          "correct": false
+        },
+        {
+          "id": "5994771",
+          "text": "Когда нужно переиспользовать логику в проекте",
+          "correct": false
+        },
+        {
+          "id": "5994773",
+          "text": "Всегда, когда это возможно",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12838",
+      "prompt": "Что такое точка входа в приложении?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994777",
+          "text": "Это функция, которая представляет приложение",
+          "correct": false
+        },
+        {
+          "id": "5994778",
+          "text": "Это команда, с помощью которой запускается приложение",
+          "correct": false
+        },
+        {
+          "id": "5994779",
+          "text": "Это код, который запускает приложение",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12839",
+      "prompt": "Что такое точка входа в npm-пакете?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994780",
+          "text": "Это файл _package.json_",
+          "correct": false
+        },
+        {
+          "id": "5994781",
+          "text": "Это файл _index.js_",
+          "correct": false
+        },
+        {
+          "id": "5994782",
+          "text": "Это модуль, который экспортирует логику библиотеки и который указан в \"main\"",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-setup-environment",
+    "courseName": "JS: Настройка окружения",
+    "lessonSlug": "entry-point",
+    "lessonName": "Точка входа",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-setup-environment/lessons/entry-point/quiz_unit",
+    "lessonId": 1005
+  }
+}

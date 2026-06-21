@@ -1,0 +1,85 @@
+{
+  "slug": "js-react-jsx-collections",
+  "title": "Работа с коллекциями",
+  "questions": [
+    {
+      "id": "4257",
+      "prompt": "Допустим ли такой код?\n\n```jsx\nclass Component extends React.Component {\n  render() {\n    return [\n      <div key='one'>one</div>,\n      <div key='two'>two</div>\n    ];\n  }\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940581",
+          "text": "Допустим только для div-элементов",
+          "correct": false
+        },
+        {
+          "id": "5940582",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5940583",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4258",
+      "prompt": "Когда нужно проставлять проп `key` у компонентов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940584",
+          "text": "Всегда",
+          "correct": false
+        },
+        {
+          "id": "5940585",
+          "text": "Никогда",
+          "correct": false
+        },
+        {
+          "id": "5940586",
+          "text": "По желанию",
+          "correct": false
+        },
+        {
+          "id": "5940587",
+          "text": "При отрисовке коллекции компонентов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4259",
+      "prompt": "Почему в JSX нельзя использовать циклы для отрисовки коллекций?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940588",
+          "text": "Можно",
+          "correct": false
+        },
+        {
+          "id": "5940589",
+          "text": "Фу, не функционально",
+          "correct": false
+        },
+        {
+          "id": "5940590",
+          "text": "Цикл – инструкция, а не выражение",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "jsx-collections",
+    "lessonName": "Работа с коллекциями",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/jsx-collections/quiz_unit",
+    "lessonId": 955
+  }
+}

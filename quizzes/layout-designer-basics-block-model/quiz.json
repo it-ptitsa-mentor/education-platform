@@ -1,0 +1,122 @@
+{
+  "slug": "layout-designer-basics-block-model",
+  "title": "Блочная модель",
+  "questions": [
+    {
+      "id": "5917",
+      "prompt": "Какие CSS свойства влияют на блочную модель?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5942465",
+          "text": "font-size",
+          "correct": false
+        },
+        {
+          "id": "5942466",
+          "text": "color",
+          "correct": false
+        },
+        {
+          "id": "5942467",
+          "text": "Блочная модель — это миф",
+          "correct": false
+        },
+        {
+          "id": "5942468",
+          "text": "padding",
+          "correct": true
+        },
+        {
+          "id": "5942469",
+          "text": "margin",
+          "correct": true
+        },
+        {
+          "id": "5942470",
+          "text": "border",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5918",
+      "prompt": "Корректна ли следующая разметка?\n```html\n<div>\n    <h1>Прекрасный большой заголовок. <h2>И его подзаголовок</h2></h1>\n</div>\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942471",
+          "text": "Да, конечно!",
+          "correct": false
+        },
+        {
+          "id": "5942472",
+          "text": "Нет, потому что нельзя вкладывать заголовки друг в друга",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5919",
+      "prompt": "В чем главное отличие блочных и строчных элементов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942477",
+          "text": "Строчные элементы занимают все свободное пространство",
+          "correct": false
+        },
+        {
+          "id": "5942478",
+          "text": "К блочным элементам не применяются свойства width и height",
+          "correct": false
+        },
+        {
+          "id": "5942479",
+          "text": "В блочные элементы нельзя вкладывать другие блочные элементы",
+          "correct": false
+        },
+        {
+          "id": "5942480",
+          "text": "К строчным элементам не применяются свойства width и height",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5920",
+      "prompt": "На какую «глубину» можно вкладывать элементы друг в друга?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942484",
+          "text": "Элементы нельзя вкладывать друг в друга",
+          "correct": false
+        },
+        {
+          "id": "5942485",
+          "text": "Не более двух уровней вложенности",
+          "correct": false
+        },
+        {
+          "id": "5942486",
+          "text": "До десяти раз можно вкладывать элементы друг в друга. Дальше браузер их не обрабатывает",
+          "correct": false
+        },
+        {
+          "id": "5942487",
+          "text": "Ограничений нет, но необходимо сохранять здравый смысл",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "block-model",
+    "lessonName": "Блочная модель",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/block-model/quiz_unit",
+    "lessonId": 1749
+  }
+}

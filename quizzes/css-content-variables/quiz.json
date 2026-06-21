@@ -1,0 +1,122 @@
+{
+  "slug": "css-content-variables",
+  "title": "CSS Переменные",
+  "questions": [
+    {
+      "id": "7585",
+      "prompt": "Какой из примеров правильный для указания переменной?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867896",
+          "text": "`bg: #fff`",
+          "correct": false
+        },
+        {
+          "id": "5867897",
+          "text": "`var bg: #fff`",
+          "correct": false
+        },
+        {
+          "id": "5867898",
+          "text": "`-bg: #fff`",
+          "correct": false
+        },
+        {
+          "id": "5867899",
+          "text": "`--bg: #fff`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7586",
+      "prompt": "Какой псевдокласс позволяет установить переменную для всего проекта?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867900",
+          "text": "`:html`",
+          "correct": false
+        },
+        {
+          "id": "5867901",
+          "text": "`:var`",
+          "correct": false
+        },
+        {
+          "id": "5867902",
+          "text": "`:main`",
+          "correct": false
+        },
+        {
+          "id": "5867903",
+          "text": "`:root`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7587",
+      "prompt": "С помощью какой функции можно получить значение переменной в CSS?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867904",
+          "text": "Функция не нужна",
+          "correct": false
+        },
+        {
+          "id": "5867905",
+          "text": "`value()`",
+          "correct": false
+        },
+        {
+          "id": "5867906",
+          "text": "`val()`",
+          "correct": false
+        },
+        {
+          "id": "5867907",
+          "text": "`variable()`",
+          "correct": false
+        },
+        {
+          "id": "5867908",
+          "text": "`var()`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7588",
+      "prompt": "Какой размер шрифта будет у элемента `.header`\n\n```css\n:root {\n  --font-size: 20px;\n}\n\nh1 {\n  --font-size: 5rem;\n\n  font-size: var(--font-size);\n}\n\nh1.header {\n  font-size: var(--font-size);\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867909",
+          "text": "`20px`",
+          "correct": false
+        },
+        {
+          "id": "5867910",
+          "text": "`32px`",
+          "correct": false
+        },
+        {
+          "id": "5867911",
+          "text": "`5rem`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "variables",
+    "lessonName": "CSS Переменные",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/variables/quiz_unit",
+    "lessonId": 2386
+  }
+}

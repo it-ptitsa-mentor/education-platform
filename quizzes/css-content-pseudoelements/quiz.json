@@ -1,0 +1,112 @@
+{
+  "slug": "css-content-pseudoelements",
+  "title": "Псевдоэлементы",
+  "questions": [
+    {
+      "id": "6644",
+      "prompt": "Что позволяет сделать псевдоэлемент?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867864",
+          "text": "Стилизовать состояние элемента",
+          "correct": false
+        },
+        {
+          "id": "5867865",
+          "text": "Временно удалить элемент из HTML",
+          "correct": false
+        },
+        {
+          "id": "5867866",
+          "text": "Создать элемент, которого нет в структуре HTML",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6645",
+      "prompt": "Каким псевдоэлементом можно стилизовать первый символ?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867867",
+          "text": "first-elements",
+          "correct": false
+        },
+        {
+          "id": "5867868",
+          "text": "first-word",
+          "correct": false
+        },
+        {
+          "id": "5867869",
+          "text": "first-line",
+          "correct": false
+        },
+        {
+          "id": "5867870",
+          "text": "first-letter",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6646",
+      "prompt": "Какое свойство обязательно для псевдоэлементов `::before` и `::after`",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867871",
+          "text": "position",
+          "correct": false
+        },
+        {
+          "id": "5867872",
+          "text": "width",
+          "correct": false
+        },
+        {
+          "id": "5867873",
+          "text": "display",
+          "correct": false
+        },
+        {
+          "id": "5867874",
+          "text": "content",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6647",
+      "prompt": "Может ли значение свойства `content` быть пустым?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867875",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5867876",
+          "text": "Что за свойство content?",
+          "correct": false
+        },
+        {
+          "id": "5867877",
+          "text": "Да, конечно",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "pseudoelements",
+    "lessonName": "Псевдоэлементы",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/pseudoelements/quiz_unit",
+    "lessonId": 1889
+  }
+}

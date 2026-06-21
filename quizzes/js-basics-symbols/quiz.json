@@ -1,0 +1,90 @@
+{
+  "slug": "js-basics-symbols",
+  "title": "Извлечение символов из строки",
+  "questions": [
+    {
+      "id": "8490",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconsole.log(\"JavaScript\"[4]);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992228",
+          "text": "Ошибка интерпретатора, так как для извлечения символов из строки нужно использовать круглые скобки, а не квадратные",
+          "correct": false
+        },
+        {
+          "id": "5992229",
+          "text": "a",
+          "correct": false
+        },
+        {
+          "id": "5992230",
+          "text": "JavaScript",
+          "correct": false
+        },
+        {
+          "id": "5992231",
+          "text": "S",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8491",
+      "prompt": "Как можно получить символ из строки?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992232",
+          "text": "Строка – это примитивный тип, и из нее нельзя извлечь символы",
+          "correct": false
+        },
+        {
+          "id": "5992233",
+          "text": "По индексу в круглых скобках после строки",
+          "correct": false
+        },
+        {
+          "id": "5992234",
+          "text": "По индексу в квадратных скобках после строки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22141",
+      "prompt": "Какие индексы нужно взять из строк `name1`, `name3` и `name2`, чтобы вывести `Jim` в примере ниже?\n\n```javascript\nconst name1 = \"John\";\nconst name2 = \"Tom\";\nconst name3 = \"Emily\";\nconsole.log(name1[i] + name3[j] + name2[y]); // Jim\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992238",
+          "text": "`1, 0, 1`",
+          "correct": false
+        },
+        {
+          "id": "5992239",
+          "text": "`3, 0, 2`",
+          "correct": false
+        },
+        {
+          "id": "5992240",
+          "text": "`0, 3, 0`",
+          "correct": false
+        },
+        {
+          "id": "5992241",
+          "text": "`0, 2, 2`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "symbols",
+    "lessonName": "Извлечение символов из строки",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/symbols/quiz_unit",
+    "lessonId": 2617
+  }
+}

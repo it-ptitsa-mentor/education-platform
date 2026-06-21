@@ -1,0 +1,85 @@
+{
+  "slug": "js-basics-for",
+  "title": "Цикл for",
+  "questions": [
+    {
+      "id": "8578",
+      "prompt": "Дан код, в котором используется цикл `for`. Можно ли его переписать, используя цикл `while`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992583",
+          "text": "нет",
+          "correct": false
+        },
+        {
+          "id": "5992584",
+          "text": "да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8579",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992585",
+          "text": "в цикле `for` обязательно должны присутствовать все три элемента: счетчик,\nусловие, изменение счетчика",
+          "correct": false
+        },
+        {
+          "id": "5992586",
+          "text": "цикл `while` не может быть бесконечным",
+          "correct": false
+        },
+        {
+          "id": "5992587",
+          "text": "цикл `while` может быть бесконечным",
+          "correct": true
+        },
+        {
+          "id": "5992588",
+          "text": "цикл `for` может быть бесконечным",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22144",
+      "prompt": "Какие элементы цикла `for` нужно использовать, чтобы функция ниже вернула первую половину строки?\n\n```javascript\nconst getHalfString = (str) => {\n  let result = '';\n  for (let i = 0; i < ???.length / 2; i += ???) {\n    result += ???;\n  }\n  return result;\n};\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992589",
+          "text": "Использовать `text` вместо `str`, шаг `2` и добавлять `str[i + 1]`",
+          "correct": false
+        },
+        {
+          "id": "5992590",
+          "text": "Использовать `str`, шаг `0` и добавлять `result`",
+          "correct": false
+        },
+        {
+          "id": "5992591",
+          "text": "Использовать `str`, шаг `1`, но добавлять `str[i] + str[i]`",
+          "correct": false
+        },
+        {
+          "id": "5992592",
+          "text": "Использовать `str`, шаг `1` и добавлять `str[i]`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "for",
+    "lessonName": "Цикл for",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/for/quiz_unit",
+    "lessonId": 2644
+  }
+}

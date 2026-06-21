@@ -1,0 +1,80 @@
+{
+  "slug": "typescript-basics-unknown",
+  "title": "Тип Unknown",
+  "questions": [
+    {
+      "id": "11488",
+      "prompt": "Какой тип данных может быть возвращен из функции с возвращаемым типом `unknown`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956996",
+          "text": "`unknown`",
+          "correct": false
+        },
+        {
+          "id": "5956997",
+          "text": "`undefined`",
+          "correct": false
+        },
+        {
+          "id": "5956998",
+          "text": "Любой тип данных",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11489",
+      "prompt": "Какой результат будет получен при попытке присвоить значение типа `string` переменной с типом `unknown`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956999",
+          "text": "Будет сгенерировано исключение во время выполнения программы",
+          "correct": false
+        },
+        {
+          "id": "5957000",
+          "text": "Будет сгенерирована ошибка компиляции",
+          "correct": false
+        },
+        {
+          "id": "5957001",
+          "text": "Присваивание значения будет выполнено без ошибок",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11490",
+      "prompt": "В чем преимущество типа `unknown` по сравнению с `any`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957005",
+          "text": "Преимуществао нет. Любой из этих типов можно заменять другим. Это ни на что не повлияет",
+          "correct": false
+        },
+        {
+          "id": "5957006",
+          "text": "Тип `unknown` отключает проверку типов, в то же время `any` сохраняет проверку типов",
+          "correct": false
+        },
+        {
+          "id": "5957007",
+          "text": "Тип `unknown` сохраняет проверку типов, в то же время `any` отключает проверку типов",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "unknown",
+    "lessonName": "Тип Unknown",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/unknown/quiz_unit",
+    "lessonId": 3795
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "js-setup-environment-linting",
+  "title": "Линтинг",
+  "questions": [
+    {
+      "id": "6286",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994793",
+          "text": "Общий стандарт форматирования убивает креативность",
+          "correct": false
+        },
+        {
+          "id": "5994794",
+          "text": "Хорошо форматированный код позволяет упростить его анализ",
+          "correct": true
+        },
+        {
+          "id": "5994795",
+          "text": "Общий стиль форматирования уменьшает количество возможных споров в команде",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6287",
+      "prompt": "Зачем нужен линтер?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994796",
+          "text": "Он заменяет собой тестирование кода",
+          "correct": false
+        },
+        {
+          "id": "5994797",
+          "text": "Для выявления потенциальных ошибок или опасного кода",
+          "correct": true
+        },
+        {
+          "id": "5994798",
+          "text": "Для проверки соответствия кода правилам форматирования",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6288",
+      "prompt": "Как называется файл, в котором ESLint будет свои настройки, если выполнить команды из теории?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994799",
+          "text": "linter.js",
+          "correct": false
+        },
+        {
+          "id": "5994800",
+          "text": "package.json",
+          "correct": false
+        },
+        {
+          "id": "5994801",
+          "text": "eslint.config.mjs",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-setup-environment",
+    "courseName": "JS: Настройка окружения",
+    "lessonSlug": "linting",
+    "lessonName": "Линтинг",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-setup-environment/lessons/linting/quiz_unit",
+    "lessonId": 1810
+  }
+}

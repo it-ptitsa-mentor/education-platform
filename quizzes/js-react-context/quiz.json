@@ -1,0 +1,75 @@
+{
+  "slug": "js-react-context",
+  "title": "Контекст (Context API)",
+  "questions": [
+    {
+      "id": "7544",
+      "prompt": "Для чего нужен контекст?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940810",
+          "text": "Чтобы сделать данные доступными только для конкретного компонента",
+          "correct": false
+        },
+        {
+          "id": "5940811",
+          "text": "Чтобы сделать глобальные данные доступными из любого компонента напрямую",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7545",
+      "prompt": "Как передаются данные через контекст?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940812",
+          "text": "Данные передаются при создании контекста",
+          "correct": false
+        },
+        {
+          "id": "5940813",
+          "text": "Данные импортируются из модуля с контекстом",
+          "correct": false
+        },
+        {
+          "id": "5940814",
+          "text": "Данные передаются через проп `value` у провайдера",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7546",
+      "prompt": "Какие данные рекомендуется передавать через контекст?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940823",
+          "text": "Любые данные",
+          "correct": false
+        },
+        {
+          "id": "5940824",
+          "text": "Глобальные данные",
+          "correct": false
+        },
+        {
+          "id": "5940825",
+          "text": "Глобальные неизменяемые данные",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "context",
+    "lessonName": "Контекст (Context API)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/context/quiz_unit",
+    "lessonId": 2385
+  }
+}

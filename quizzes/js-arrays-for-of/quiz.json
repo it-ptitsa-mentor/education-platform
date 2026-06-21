@@ -1,0 +1,85 @@
+{
+  "slug": "js-arrays-for-of",
+  "title": "Цикл for...of",
+  "questions": [
+    {
+      "id": "5789",
+      "prompt": "С какими типами данных из указанных работает `for...of`",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5991765",
+          "text": "Числа",
+          "correct": false
+        },
+        {
+          "id": "5991766",
+          "text": "Булев тип",
+          "correct": false
+        },
+        {
+          "id": "5991767",
+          "text": "Строки",
+          "correct": true
+        },
+        {
+          "id": "5991768",
+          "text": "Массивы",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5790",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5991769",
+          "text": "`for...of` требует наличия проверки остановки обхода",
+          "correct": false
+        },
+        {
+          "id": "5991770",
+          "text": "`for...of` может обходить коллекцию только в одном направлении",
+          "correct": true
+        },
+        {
+          "id": "5991771",
+          "text": "`for...of` умеет перебирать элементы только строго по одному без пропусков",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5648",
+      "prompt": "Когда предпочтительнее использовать `for...of` вместо `for`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991772",
+          "text": "Только для обхода небольших коллекций",
+          "correct": false
+        },
+        {
+          "id": "5991773",
+          "text": "Только для обхода коллекции с целью агрегации",
+          "correct": false
+        },
+        {
+          "id": "5991774",
+          "text": "Всегда, когда получается его использовать",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "for-of",
+    "lessonName": "Цикл for...of",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/for-of/quiz_unit",
+    "lessonId": 1593
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "css-positioning-flow",
+  "title": "Поток документа",
+  "questions": [
+    {
+      "id": "6177",
+      "prompt": "Как выражается нормальный поток документа?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5988999",
+          "text": "На странице видны все HTML-элементы, которые присутствуют в файле",
+          "correct": false
+        },
+        {
+          "id": "5989000",
+          "text": "Элементы на странице могут находиться в любом порядке",
+          "correct": false
+        },
+        {
+          "id": "5989001",
+          "text": "Элементы появляются в том порядке, в котором они появляются внутри HTML-файла",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6178",
+      "prompt": "Что является основной характеристикой блочного элемента?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989006",
+          "text": "Блочные элементы занимают всю доступную им высоту",
+          "correct": false
+        },
+        {
+          "id": "5989007",
+          "text": "Блочные элементы не обладают особыми характеристиками",
+          "correct": false
+        },
+        {
+          "id": "5989008",
+          "text": "Блочные элементы занимают всю доступную им ширину",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6179",
+      "prompt": "Как называется поток при использовании свойства `float`",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989009",
+          "text": "Нормальный поток",
+          "correct": false
+        },
+        {
+          "id": "5989010",
+          "text": "Абсолютный поток",
+          "correct": false
+        },
+        {
+          "id": "5989011",
+          "text": "Проточный поток",
+          "correct": false
+        },
+        {
+          "id": "5989012",
+          "text": "Плавающий поток",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-positioning",
+    "courseName": "CSS — Расположение и макеты",
+    "lessonSlug": "flow",
+    "lessonName": "Поток документа",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-positioning/lessons/flow/quiz_unit",
+    "lessonId": 1526
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "js-classes-inheritance",
+  "title": "Наследование",
+  "questions": [
+    {
+      "id": "6458",
+      "prompt": "Какое ключевое слово используется для реализации наследования?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992124",
+          "text": "implements",
+          "correct": false
+        },
+        {
+          "id": "5992125",
+          "text": "inheritance",
+          "correct": false
+        },
+        {
+          "id": "5992126",
+          "text": "extends",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6459",
+      "prompt": "Класс _A_ наследуется от класса _B_. У класса _A_ нет своего конструктора, но он есть у класса _B_. Будет ли вызван конструктор _B_ в таком коде:\n\n```javascript\nconst obj = new A();\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992132",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5992133",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6460",
+      "prompt": "Можно ли из класса-наследника вызывать родительские методы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992137",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5992138",
+          "text": "Только конструктор",
+          "correct": false
+        },
+        {
+          "id": "5992139",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-classes",
+    "courseName": "JS: Погружаясь в классы",
+    "lessonSlug": "inheritance",
+    "lessonName": "Наследование",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-classes/lessons/inheritance/quiz_unit",
+    "lessonId": 1863
+  }
+}

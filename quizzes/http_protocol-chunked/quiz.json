@@ -1,0 +1,107 @@
+{
+  "slug": "http_protocol-chunked",
+  "title": "Transfer-Encoding",
+  "questions": [
+    {
+      "id": "2472",
+      "prompt": "С чего начинается каждый chunk?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937948",
+          "text": "название chunk'а",
+          "correct": false
+        },
+        {
+          "id": "5937951",
+          "text": "число, указывающее на порядковый номер chunk'а",
+          "correct": false
+        },
+        {
+          "id": "5937953",
+          "text": "число, указывающее на его размер",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2473",
+      "prompt": "Чем заканчивается каждый chunk?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937954",
+          "text": "число 0",
+          "correct": false
+        },
+        {
+          "id": "5937955",
+          "text": "число, указывающее на порядковый номер chunk'а",
+          "correct": false
+        },
+        {
+          "id": "5937956",
+          "text": "число, указывающее на его размер",
+          "correct": false
+        },
+        {
+          "id": "5937958",
+          "text": "перевод строки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2474",
+      "prompt": "Каким образом обозначается последний chunk?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937961",
+          "text": "он имеет размер 42",
+          "correct": false
+        },
+        {
+          "id": "5937962",
+          "text": "никаким, специальное обозначение не требуется",
+          "correct": false
+        },
+        {
+          "id": "5937963",
+          "text": "он нулевой длины, после него — двойной перевод строки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2471",
+      "prompt": "В случае с передачей ответа с помощью chunks, каким образом тело ответа отделяется от заголовков?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937964",
+          "text": "при такой передаче заголовки вообще не нужны",
+          "correct": false
+        },
+        {
+          "id": "5937965",
+          "text": "никак, разделение тела и заголовков в chunks не требуется",
+          "correct": false
+        },
+        {
+          "id": "5937966",
+          "text": "как обычно — два перевода строки",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "chunked",
+    "lessonName": "Transfer-Encoding",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/chunked/quiz_unit",
+    "lessonId": 439
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "employment-linkedin-profile",
+  "title": "Профиль LinkedIn как инструмент поиска работы",
+  "questions": [
+    {
+      "id": "9753",
+      "prompt": "Что такое LinkedIn?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989685",
+          "text": "Это сервис для хранения и просмотра медиафайлов",
+          "correct": false
+        },
+        {
+          "id": "5989686",
+          "text": "Это сайт знакомств",
+          "correct": false
+        },
+        {
+          "id": "5989687",
+          "text": "Это социальная сеть для поиска деловых контактов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9754",
+      "prompt": "Какие есть инструменты в LinkedIn для поиска работы?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989688",
+          "text": "Эта сеть предназначена только для общения",
+          "correct": false
+        },
+        {
+          "id": "5989689",
+          "text": "Есть возможность указать статус \"в поиске работы\"",
+          "correct": true
+        },
+        {
+          "id": "5989690",
+          "text": "Есть возможность поиска вакансий",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9755",
+      "prompt": "Нужно ли начинающему разработчику заводить страницу на LinkedIn?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989691",
+          "text": "Нет, это сеть профессионалов с опытом",
+          "correct": false
+        },
+        {
+          "id": "5989692",
+          "text": "Да, создавать сеть контактов нужно как можно раньше",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9756",
+      "prompt": "Чем полезен LinkedIn?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989693",
+          "text": "Поиск работы",
+          "correct": false
+        },
+        {
+          "id": "5989694",
+          "text": "Новые контакты",
+          "correct": false
+        },
+        {
+          "id": "5989695",
+          "text": "Профессиональные новости",
+          "correct": false
+        },
+        {
+          "id": "5989696",
+          "text": "Поиск новых идей",
+          "correct": false
+        },
+        {
+          "id": "5989697",
+          "text": "Демонстрация бренда",
+          "correct": false
+        },
+        {
+          "id": "5989698",
+          "text": "Все утверждения верны",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "employment",
+    "courseName": "Трудоустройство",
+    "lessonSlug": "linkedin-profile",
+    "lessonName": "Профиль LinkedIn как инструмент поиска работы",
+    "sourceUrl": "https://ru.hexlet.io/courses/employment/lessons/linkedin-profile/quiz_unit",
+    "lessonId": 2426
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "js-testing-power-assert",
+  "title": "Библиотека power-assert",
+  "questions": [
+    {
+      "id": "5449",
+      "prompt": "Какие недостатки у обычных утверждений?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994783",
+          "text": "Очень многословные",
+          "correct": false
+        },
+        {
+          "id": "5994784",
+          "text": "Медленно работают",
+          "correct": false
+        },
+        {
+          "id": "5994785",
+          "text": "Не информативное сообщение при срабатывании",
+          "correct": true
+        },
+        {
+          "id": "5994786",
+          "text": "Нужно запоминать много разных утверждений под разные ситуации",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5450",
+      "prompt": "Какие преимущества у _power-assert_ по сравнению с модулем _assert_?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994787",
+          "text": "Встроены в Node.js",
+          "correct": false
+        },
+        {
+          "id": "5994788",
+          "text": "Эта библиотека предлагает больше разнообразных видов утверждений",
+          "correct": false
+        },
+        {
+          "id": "5994789",
+          "text": "Для большинства ситуаций достаточно одного типа утверждения `assert()`",
+          "correct": true
+        },
+        {
+          "id": "5994790",
+          "text": "Очень информативный вывод. Показывает значение всех идентификаторов и результатов операций, выполняемых при вызове утверждения",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5451",
+      "prompt": "Как правильно проверить, что размер массива равен пяти, используя _power-assert_?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994791",
+          "text": "`assert.equals(items.length, 5);`",
+          "correct": false
+        },
+        {
+          "id": "5994792",
+          "text": "`assert(items.length === 5);`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "power-assert",
+    "lessonName": "Библиотека power-assert",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/power-assert/quiz_unit",
+    "lessonId": 1409
+  }
+}

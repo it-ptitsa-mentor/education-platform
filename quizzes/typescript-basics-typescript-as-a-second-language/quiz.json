@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-typescript-as-a-second-language",
+  "title": "TypeScript",
+  "questions": [
+    {
+      "id": "11500",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5956773",
+          "text": "TypeScript добавляет новую функциональность, которая не будет работать в JavaScript",
+          "correct": false
+        },
+        {
+          "id": "5956774",
+          "text": "TypeScript всегда можно заменить на JavaScript без потери функциональности",
+          "correct": true
+        },
+        {
+          "id": "5956775",
+          "text": "Код TypeScript преобразуется в код JavaScript",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11501",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5956776",
+          "text": "Строгая типизация и статическая типизация — это одно и то же",
+          "correct": false
+        },
+        {
+          "id": "5956777",
+          "text": "Строгая типизация обозначает, насколько язык допускает автоматические преобразования типов",
+          "correct": true
+        },
+        {
+          "id": "5956778",
+          "text": "При cтатической типизации тип переменной задается при ее объявлении",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11502",
+      "prompt": "Какая ошибка в коде ниже?\n\n```typescript\nfunction repeat(str: string, a: number) {\n  return str.repeat(a);\n}\n\nconst result = repeat('a', '4');\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956779",
+          "text": "Ошибок нет",
+          "correct": false
+        },
+        {
+          "id": "5956780",
+          "text": "Не указан тип для `result`",
+          "correct": false
+        },
+        {
+          "id": "5956781",
+          "text": "Внутри `repeat()` рекурсивно вызывается эта же функция, что вызовет переполнение стека вызовов",
+          "correct": false
+        },
+        {
+          "id": "5956782",
+          "text": "При вызове функции вторым параметром передана строка, а ожидается число",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "typescript-as-a-second-language",
+    "lessonName": "TypeScript",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/typescript-as-a-second-language/quiz_unit",
+    "lessonId": 3810
+  }
+}

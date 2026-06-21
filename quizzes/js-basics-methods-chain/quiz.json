@@ -1,0 +1,102 @@
+{
+  "slug": "js-basics-methods-chain",
+  "title": "Цепочка вызовов",
+  "questions": [
+    {
+      "id": "8521",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nlet company = 'Hexlet';\nconsole.log(company.toLowerCase().toUpperCase().toLowerCase()); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992369",
+          "text": "HEXLET",
+          "correct": false
+        },
+        {
+          "id": "5992370",
+          "text": "Hexlet",
+          "correct": false
+        },
+        {
+          "id": "5992371",
+          "text": "hexlet",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8522",
+      "prompt": "Ограничена ли длина цепочек?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992372",
+          "text": "Да, не больше 10 методов в одной цепочке",
+          "correct": false
+        },
+        {
+          "id": "5992373",
+          "text": "Да, ограничена шириной экрана",
+          "correct": false
+        },
+        {
+          "id": "5992374",
+          "text": "Нет, ограничений нет, но очень длинными лучше не делать",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8523",
+      "prompt": "Заработает ли данный код?\n\n```javascript\nlet company = 'Hexlet';\nconsole.log(company.toUpperCase.toLowerCase().length);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992375",
+          "text": "Да",
+          "correct": false
+        },
+        {
+          "id": "5992376",
+          "text": "Почти",
+          "correct": false
+        },
+        {
+          "id": "5992377",
+          "text": "Нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12045",
+      "prompt": "Какой будет результат вызова `typeof`?\n\n```javascript\nconst number = 123;\ntypeof number.toString();\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992378",
+          "text": "double",
+          "correct": false
+        },
+        {
+          "id": "5992379",
+          "text": "integer",
+          "correct": false
+        },
+        {
+          "id": "5992380",
+          "text": "string",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "methods-chain",
+    "lessonName": "Цепочка вызовов",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/methods-chain/quiz_unit",
+    "lessonId": 2627
+  }
+}

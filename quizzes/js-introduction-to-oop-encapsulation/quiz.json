@@ -1,0 +1,134 @@
+{
+  "slug": "js-introduction-to-oop-encapsulation",
+  "title": "Инкапсуляция",
+  "questions": [
+    {
+      "id": "6049",
+      "prompt": "Что в первую очередь означает понятие инкапсуляция?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993821",
+          "text": "Что код на JavaScript можно писать, используя разные стили программирования",
+          "correct": false
+        },
+        {
+          "id": "5993822",
+          "text": "Защита данных объекта от прямого изменения",
+          "correct": false
+        },
+        {
+          "id": "5993823",
+          "text": "Объединение функций и данных в одной структуре",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6050",
+      "prompt": "Что дает вызов через точку по отношению к вызову функции?\n\n```javascript\nuser.getName();\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993824",
+          "text": "Код становится короче",
+          "correct": false
+        },
+        {
+          "id": "5993825",
+          "text": "Код становится понятнее",
+          "correct": false
+        },
+        {
+          "id": "5993826",
+          "text": "Появляется автокомплит",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6051",
+      "prompt": "Есть ли у цепочек вызовов методов аналог на функциях?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993827",
+          "text": "Кто здесь?",
+          "correct": false
+        },
+        {
+          "id": "5993828",
+          "text": "Нет, подобные цепочки возможно строить только через методы",
+          "correct": false
+        },
+        {
+          "id": "5993829",
+          "text": "Да, для этого используется пайплайн",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16732",
+      "prompt": "Какая из предложенных проблем содержится в этой функции для вычисления степени числа?\n```javascript\nconst makeDegree = (x) => (n) => n**x;\n\nconst getSecondDegree = makeDegree(2);\nconsole.log(getSecondDegree(3)); // => 9\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993830",
+          "text": "Синтаксис вида `(x) => (n) => n**x` некорректный",
+          "correct": false
+        },
+        {
+          "id": "5993831",
+          "text": "Функция `makeDegree()` требует двух параметров, поэтому вызов `makeDegree(2)` приведет к ошибке",
+          "correct": false
+        },
+        {
+          "id": "5993832",
+          "text": "Проблем нет. Функция `makeDegree()` возвращает новую функцию, которая хранит переданный параметр в `makeDegree()` благодаря замыканию",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16733",
+      "prompt": "Какой будет результат вызова функции `getSumOfSquares(3)`?\n\n```javascript\nconst getSquare = x => x ** 2;\n\nconst getSumOfCallback = f => x => f(x) + f(x);\n\nconst getSumOfSquares = getSumOfCallback(getSquare);\n\ngetSumOfSquares(3); // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993833",
+          "text": "9",
+          "correct": false
+        },
+        {
+          "id": "5993834",
+          "text": "6",
+          "correct": false
+        },
+        {
+          "id": "5993835",
+          "text": "12",
+          "correct": false
+        },
+        {
+          "id": "5993836",
+          "text": "Код содержит выдуманный синтаксис, поэтому будет ошибка",
+          "correct": false
+        },
+        {
+          "id": "5993837",
+          "text": "18",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "encapsulation",
+    "lessonName": "Инкапсуляция",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/encapsulation/quiz_unit",
+    "lessonId": 1676
+  }
+}

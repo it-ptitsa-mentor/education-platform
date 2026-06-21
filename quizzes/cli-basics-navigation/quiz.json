@@ -1,0 +1,105 @@
+{
+  "slug": "cli-basics-navigation",
+  "title": "Навигация",
+  "questions": [
+    {
+      "id": "4683",
+      "prompt": "Что такое рабочая директория?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946435",
+          "text": "Домашняя директория пользователя",
+          "correct": false
+        },
+        {
+          "id": "5946436",
+          "text": "Директория, в которой находятся рабочие проекты",
+          "correct": false
+        },
+        {
+          "id": "5946437",
+          "text": "Директория _/tmp_",
+          "correct": false
+        },
+        {
+          "id": "5946438",
+          "text": "Директория, относительно которой выполняются все команды в командной строке",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4684",
+      "prompt": "Как посмотреть содержимое директории `/opt`, если текущая рабочая директория `/opt/new`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946439",
+          "text": "`ls opt`",
+          "correct": false
+        },
+        {
+          "id": "5946440",
+          "text": "`ls .`",
+          "correct": false
+        },
+        {
+          "id": "5946441",
+          "text": "`ls /opt`",
+          "correct": true
+        },
+        {
+          "id": "5946442",
+          "text": "`ls ..`",
+          "correct": true
+        },
+        {
+          "id": "5946443",
+          "text": "Сначала `cd ..`, а затем `ls`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4685",
+      "prompt": "Как перейти из `/home/user/projects` в `/home`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946444",
+          "text": "`cd home`",
+          "correct": false
+        },
+        {
+          "id": "5946445",
+          "text": "`cd .`",
+          "correct": false
+        },
+        {
+          "id": "5946446",
+          "text": "`cd ..`",
+          "correct": false
+        },
+        {
+          "id": "5946447",
+          "text": "`cd /home`",
+          "correct": true
+        },
+        {
+          "id": "5946448",
+          "text": "`cd ../..`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "navigation",
+    "lessonName": "Навигация",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/navigation/quiz_unit",
+    "lessonId": 1201
+  }
+}

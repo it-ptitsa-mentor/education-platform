@@ -1,0 +1,90 @@
+{
+  "slug": "typescript-basics-variables",
+  "title": "Переменные",
+  "questions": [
+    {
+      "id": "11503",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5956783",
+          "text": "В TypeScript значение `null` можно присвоить любому типу",
+          "correct": false
+        },
+        {
+          "id": "5956784",
+          "text": "Переменная с типом не может менять значение",
+          "correct": false
+        },
+        {
+          "id": "5956785",
+          "text": "В TypeScript есть типы как для примитивных значений, так и для объектов",
+          "correct": true
+        },
+        {
+          "id": "5956786",
+          "text": "Если передать в метод значение с типом, которое не ожидается методом, то произойдет ошибка",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11504",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5956787",
+          "text": "Статическая типизация не накладывает ограничения на массивы",
+          "correct": false
+        },
+        {
+          "id": "5956788",
+          "text": "В TypeScript не нужно указывать тип при создании переменной со значением, тип будет привязан автоматически",
+          "correct": true
+        },
+        {
+          "id": "5956789",
+          "text": "Тип переменной поменяться не может",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11505",
+      "prompt": "Какая ошибка в коде ниже?\n\n```typescript\nlet name = 'Daria';\nname = 'John';\n\nname = 1234;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956790",
+          "text": "Ошибок нет",
+          "correct": false
+        },
+        {
+          "id": "5956791",
+          "text": "Не указан тип для `name`",
+          "correct": false
+        },
+        {
+          "id": "5956792",
+          "text": "Меняется константное значение",
+          "correct": false
+        },
+        {
+          "id": "5956793",
+          "text": "Меняется тип переменной",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "variables",
+    "lessonName": "Переменные",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/variables/quiz_unit",
+    "lessonId": 3821
+  }
+}

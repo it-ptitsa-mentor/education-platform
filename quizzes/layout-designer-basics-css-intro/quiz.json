@@ -1,0 +1,85 @@
+{
+  "slug": "layout-designer-basics-css-intro",
+  "title": "Основы CSS",
+  "questions": [
+    {
+      "id": "5932",
+      "prompt": "Что позволяет сделать селектор?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943054",
+          "text": "Установить цвет текста",
+          "correct": false
+        },
+        {
+          "id": "5943055",
+          "text": "Добавить тег на страницу",
+          "correct": false
+        },
+        {
+          "id": "5943056",
+          "text": "Анимировать страницу",
+          "correct": false
+        },
+        {
+          "id": "5943057",
+          "text": "Выбрать HTML-элемент",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22387",
+      "prompt": "Какой класс нужно указать вместо `__`, чтобы применились стили с красным жирным текстом?\n\n```css\n.alert {\n  font-weight: bold;\n  color: red;\n}\n\n.not-alert {\n  font-weight: normal;\n  color: white;\n}\n```\n\n```html\n<div>\n  <p class=\"__\">Внимание! Важная информация!</p>\n</div>\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943065",
+          "text": "`not-alert`",
+          "correct": false
+        },
+        {
+          "id": "5943066",
+          "text": "`alert text`",
+          "correct": false
+        },
+        {
+          "id": "5943067",
+          "text": "`warning`",
+          "correct": false
+        },
+        {
+          "id": "5943069",
+          "text": "`alert`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5935",
+      "prompt": "Можно ли использовать CSS без отдельного файла с расширением .css?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943073",
+          "text": "Нет, без этого файла браузер не может обработать стили",
+          "correct": false
+        },
+        {
+          "id": "5943075",
+          "text": "Да, конечно!",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "css-intro",
+    "lessonName": "Основы CSS",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/css-intro/quiz_unit",
+    "lessonId": 1745
+  }
+}

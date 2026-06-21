@@ -1,0 +1,90 @@
+{
+  "slug": "typescript-basics-intersection-types",
+  "title": "Пересечение",
+  "questions": [
+    {
+      "id": "11602",
+      "prompt": "Пересечение типов помогает получить новый тип, который...",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957231",
+          "text": "Содержит значения, подходящие под один из указанных типов",
+          "correct": false
+        },
+        {
+          "id": "5957232",
+          "text": "Не содержит значения, подходящие под ограничения обоих типов",
+          "correct": false
+        },
+        {
+          "id": "5957233",
+          "text": "Содержит значения, подходящие под ограничения обоих типов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11603",
+      "prompt": "Какой тип будет у переменной, значение которой не может существовать?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957234",
+          "text": "`undefined`",
+          "correct": false
+        },
+        {
+          "id": "5957235",
+          "text": "`null`",
+          "correct": false
+        },
+        {
+          "id": "5957236",
+          "text": "Такого типа не существует",
+          "correct": false
+        },
+        {
+          "id": "5957237",
+          "text": "`never`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21959",
+      "prompt": "Чем нужно дополнить объявление `type User = …`, чтобы объединить поля `Address` с собственными свойствами пользователя?\n```typescript\ntype Address = {\n  city: string;\n};\n\ntype User = /* здесь выражение */ {\n  name: string;\n  gender: 'male' | 'female';\n  age: number;\n};\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957238",
+          "text": "`extends Address`",
+          "correct": false
+        },
+        {
+          "id": "5957239",
+          "text": "`implements Address`",
+          "correct": false
+        },
+        {
+          "id": "5957240",
+          "text": "`Address |`",
+          "correct": false
+        },
+        {
+          "id": "5957241",
+          "text": "`Address &`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "intersection-types",
+    "lessonName": "Пересечение",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/intersection-types/quiz_unit",
+    "lessonId": 3809
+  }
+}

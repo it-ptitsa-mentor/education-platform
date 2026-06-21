@@ -1,0 +1,179 @@
+{
+  "slug": "css-content-table",
+  "title": "Таблицы",
+  "questions": [
+    {
+      "id": "6606",
+      "prompt": "Какие теги используются при верстке таблиц?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867754",
+          "text": "header",
+          "correct": false
+        },
+        {
+          "id": "5867755",
+          "text": "body",
+          "correct": false
+        },
+        {
+          "id": "5867756",
+          "text": "tt",
+          "correct": false
+        },
+        {
+          "id": "5867757",
+          "text": "row",
+          "correct": false
+        },
+        {
+          "id": "5867758",
+          "text": "div",
+          "correct": false
+        },
+        {
+          "id": "5867759",
+          "text": "table",
+          "correct": true
+        },
+        {
+          "id": "5867760",
+          "text": "tbody",
+          "correct": true
+        },
+        {
+          "id": "5867761",
+          "text": "thead",
+          "correct": true
+        },
+        {
+          "id": "5867762",
+          "text": "tr",
+          "correct": true
+        },
+        {
+          "id": "5867763",
+          "text": "td",
+          "correct": true
+        },
+        {
+          "id": "5867764",
+          "text": "th",
+          "correct": true
+        },
+        {
+          "id": "5867765",
+          "text": "caption",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6607",
+      "prompt": "Каким свойством можно выровнять контент внутри ячейки по вертикали?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867766",
+          "text": "vertical",
+          "correct": false
+        },
+        {
+          "id": "5867767",
+          "text": "text-align",
+          "correct": false
+        },
+        {
+          "id": "5867768",
+          "text": "align-item",
+          "correct": false
+        },
+        {
+          "id": "5867769",
+          "text": "align-self",
+          "correct": false
+        },
+        {
+          "id": "5867770",
+          "text": "Никаким",
+          "correct": false
+        },
+        {
+          "id": "5867771",
+          "text": "vertical-align",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6608",
+      "prompt": "Какие теги используются для указания ячеек-заголовков?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867772",
+          "text": "tbody",
+          "correct": false
+        },
+        {
+          "id": "5867773",
+          "text": "td",
+          "correct": false
+        },
+        {
+          "id": "5867774",
+          "text": "thead",
+          "correct": true
+        },
+        {
+          "id": "5867775",
+          "text": "th",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6609",
+      "prompt": "Валидна ли данная верстка?\n\n```html\n<table>\n  <thead>\n    <tr>Внешний фонд</tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Группа компаний «СДВИГ»</td>\n      <td>Капитал: 10000</td>\n    </tr>\n  </tbody>\n</table>\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867776",
+          "text": "Да",
+          "correct": false
+        },
+        {
+          "id": "5867777",
+          "text": "Нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6610",
+      "prompt": "Как можно объединить несколько ячеек по вертикали?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867778",
+          "text": "Используя атрибут colspan",
+          "correct": false
+        },
+        {
+          "id": "5867779",
+          "text": "Используя атрибут rowspan",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "table",
+    "lessonName": "Таблицы",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/table/quiz_unit",
+    "lessonId": 1886
+  }
+}

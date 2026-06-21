@@ -1,0 +1,112 @@
+{
+  "slug": "js-arrays-nested-loops",
+  "title": "Вложенные циклы",
+  "questions": [
+    {
+      "id": "15938",
+      "prompt": "Какую задачу решает функция `flatten`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991865",
+          "text": "Объединяет два массива",
+          "correct": false
+        },
+        {
+          "id": "5991866",
+          "text": "Преобразует массив в строку",
+          "correct": false
+        },
+        {
+          "id": "5991867",
+          "text": "Преобразует массив, раскрывая вложенные массивы в один уровень",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15939",
+      "prompt": "Какой стандартный метод JavaScript используется для выпрямления массива, аналогичный функции `flatten`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991871",
+          "text": "`map()`",
+          "correct": false
+        },
+        {
+          "id": "5991872",
+          "text": "`filter()`",
+          "correct": false
+        },
+        {
+          "id": "5991873",
+          "text": "`flat()`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15940",
+      "prompt": "Какие недостатки могут возникнуть при использовании вложенных циклов?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5991874",
+          "text": "Увеличение производительности",
+          "correct": false
+        },
+        {
+          "id": "5991875",
+          "text": "Возможность избежать лишних функций",
+          "correct": false
+        },
+        {
+          "id": "5991876",
+          "text": "Сложность отладки кода из-за большого количества переменных",
+          "correct": true
+        },
+        {
+          "id": "5991877",
+          "text": "Увеличение сложности и возможных ошибок",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15941",
+      "prompt": "Каким образом можно избежать использования вложенных циклов в коде?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5991878",
+          "text": "Всегда использовать рекурсию",
+          "correct": false
+        },
+        {
+          "id": "5991879",
+          "text": "Переписать код на другом языке программирования",
+          "correct": false
+        },
+        {
+          "id": "5991880",
+          "text": "Вынести логику вложенного цикла в отдельную функцию",
+          "correct": true
+        },
+        {
+          "id": "5991881",
+          "text": "Использовать встроенные методы, такие как `includes()`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "nested-loops",
+    "lessonName": "Вложенные циклы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/nested-loops/quiz_unit",
+    "lessonId": 1599
+  }
+}

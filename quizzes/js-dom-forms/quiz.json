@@ -1,0 +1,80 @@
+{
+  "slug": "js-dom-forms",
+  "title": "Формы",
+  "questions": [
+    {
+      "id": "5783",
+      "prompt": "Какое событие используется при отправке формы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993091",
+          "text": "Клик по кнопке отправки формы",
+          "correct": false
+        },
+        {
+          "id": "5993092",
+          "text": "Клик по форме",
+          "correct": false
+        },
+        {
+          "id": "5993093",
+          "text": "Событие формы `submit`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5784",
+      "prompt": "Как правильно извлекать данные из формы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993097",
+          "text": "Через прямое обращение к элементам формы через DOM API",
+          "correct": false
+        },
+        {
+          "id": "5993098",
+          "text": "Через свойства `e.target`",
+          "correct": false
+        },
+        {
+          "id": "5993099",
+          "text": "Через объект `FormData`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5785",
+      "prompt": "Как получить конкретное значение формы из объекта `FormData`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993103",
+          "text": "`formData.values('fieldName')`",
+          "correct": false
+        },
+        {
+          "id": "5993104",
+          "text": "`formData.fieldName`",
+          "correct": false
+        },
+        {
+          "id": "5993105",
+          "text": "`formData.get('fieldName')`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "forms",
+    "lessonName": "Формы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/forms/quiz_unit",
+    "lessonId": 922
+  }
+}

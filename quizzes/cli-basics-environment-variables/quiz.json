@@ -1,0 +1,85 @@
+{
+  "slug": "cli-basics-environment-variables",
+  "title": "Переменные окружения",
+  "questions": [
+    {
+      "id": "4892",
+      "prompt": "Зачем нужны переменные окружения?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946561",
+          "text": "Чтобы работать с ядром операционной системы",
+          "correct": false
+        },
+        {
+          "id": "5946562",
+          "text": "Чтобы выполнять навигацию по файловой системе",
+          "correct": false
+        },
+        {
+          "id": "5946563",
+          "text": "Чтобы использовать их для настройки во время запуска во многих программах",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4893",
+      "prompt": "Как правильно создать переменную окружения?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946564",
+          "text": "`KEY= value`",
+          "correct": false
+        },
+        {
+          "id": "5946565",
+          "text": "`KEY =value`",
+          "correct": false
+        },
+        {
+          "id": "5946566",
+          "text": "`KEY = value`",
+          "correct": false
+        },
+        {
+          "id": "5946567",
+          "text": "`KEY=value`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4894",
+      "prompt": "Как правильно обратиться к переменной окружения `KEY`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946568",
+          "text": "`KEY`",
+          "correct": false
+        },
+        {
+          "id": "5946569",
+          "text": "`KEY$`",
+          "correct": false
+        },
+        {
+          "id": "5946570",
+          "text": "`$KEY`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "environment-variables",
+    "lessonName": "Переменные окружения",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/environment-variables/quiz_unit",
+    "lessonId": 1189
+  }
+}

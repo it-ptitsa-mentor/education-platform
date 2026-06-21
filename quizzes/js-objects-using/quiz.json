@@ -1,0 +1,90 @@
+{
+  "slug": "js-objects-using",
+  "title": "Объекты в действии",
+  "questions": [
+    {
+      "id": "6244",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994130",
+          "text": "Для создания объектов используются переменные, а не константы",
+          "correct": false
+        },
+        {
+          "id": "5994131",
+          "text": "Лучше сразу создавать объект со всеми данными. Так проще видеть его структуру.",
+          "correct": true
+        },
+        {
+          "id": "5994132",
+          "text": "Если объект передан в функцию и там меняется, то его не нужно возвращать, так как снаружи он изменится тоже",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6245",
+      "prompt": "```javascript\nconst name = 'Hexlet';\nconst company = { name };\nconsole.log(company);\n```\n\nЧто будет напечатано на экране?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994136",
+          "text": "`{ name: name }`",
+          "correct": false
+        },
+        {
+          "id": "5994137",
+          "text": "`{ name }`",
+          "correct": false
+        },
+        {
+          "id": "5994138",
+          "text": "Этот код завершится с ошибкой, так как в нем синтаксическая ошибка",
+          "correct": false
+        },
+        {
+          "id": "5994139",
+          "text": "`{ name: 'Hexlet' }`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6246",
+      "prompt": "Что будет напечатано на экран?\n\n```javascript\nconst lessonsCount = 5;\nconst course = {\n  lessonsCount,\n  name: 'Объекты',\n};\ncourse.lessonsCount += 1;\n\nconsole.log(course);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994143",
+          "text": "В коде синтаксическая ошибка",
+          "correct": false
+        },
+        {
+          "id": "5994144",
+          "text": "`{ lessonsCount, name: 'Объекты' }`",
+          "correct": false
+        },
+        {
+          "id": "5994145",
+          "text": "`{ lessonsCount: 5, name: 'Объекты' }`",
+          "correct": false
+        },
+        {
+          "id": "5994146",
+          "text": "`{ lessonsCount: 6, name: 'Объекты' }`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "using",
+    "lessonName": "Объекты в действии",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/using/quiz_unit",
+    "lessonId": 1623
+  }
+}

@@ -11,6 +11,7 @@ const repoRoot = path.resolve(
 
 const app = buildApp({
   exercisesRoot: path.join(repoRoot, "exercises"),
+  quizzesRoot: path.join(repoRoot, "quizzes"),
 });
 
 const webDist = path.join(repoRoot, "packages/web/dist");

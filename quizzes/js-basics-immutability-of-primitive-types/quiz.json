@@ -1,0 +1,80 @@
+{
+  "slug": "js-basics-immutability-of-primitive-types",
+  "title": "Неизменяемость и примитивные типы",
+  "questions": [
+    {
+      "id": "8506",
+      "prompt": "Какое значение содержится в переменной `num`?\n\n```javascript\nlet num = -55;\nconsole.log(-num);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992268",
+          "text": "55",
+          "correct": false
+        },
+        {
+          "id": "5992270",
+          "text": "None",
+          "correct": false
+        },
+        {
+          "id": "5992271",
+          "text": "-55",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8507",
+      "prompt": "Можно ли перезаписывать значение переменных?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992272",
+          "text": "Нет, изменение значения переменных недопустимо",
+          "correct": false
+        },
+        {
+          "id": "5992274",
+          "text": "Значение переменной невозможно изменить",
+          "correct": false
+        },
+        {
+          "id": "5992276",
+          "text": "Можно, но делать это стоит только по необходимости (например, в циклах)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8508",
+      "prompt": "Можно ли изменить строку в JavaScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992279",
+          "text": "Да, все типы данных в JavaScript изменяемы",
+          "correct": false
+        },
+        {
+          "id": "5992281",
+          "text": "Да, строка – это изменяемый тип данных",
+          "correct": false
+        },
+        {
+          "id": "5992283",
+          "text": "Нет, строка является примитивным типом данных",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "immutability-of-primitive-types",
+    "lessonName": "Неизменяемость и примитивные типы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/immutability-of-primitive-types/quiz_unit",
+    "lessonId": 2619
+  }
+}

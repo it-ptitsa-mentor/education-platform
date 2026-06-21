@@ -1,0 +1,75 @@
+{
+  "slug": "js-basics-variadic-parameters",
+  "title": "Функции с переменным числом параметров",
+  "questions": [
+    {
+      "id": "8585",
+      "prompt": "Как в сигнатуре функции обозначают необязательность параметров?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992322",
+          "text": "`{, ...}`",
+          "correct": false
+        },
+        {
+          "id": "5992323",
+          "text": "`[, ...]`",
+          "correct": false
+        },
+        {
+          "id": "5992324",
+          "text": "`[]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8588",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992325",
+          "text": "количество параметров функции всегда задается жестко",
+          "correct": false
+        },
+        {
+          "id": "5992326",
+          "text": "параметры функции могут быть необязательными",
+          "correct": true
+        },
+        {
+          "id": "5992327",
+          "text": "функция может принимать переменное количество параметров",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8589",
+      "prompt": "Может ли функция не принимать параметры?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992328",
+          "text": "нет, не может",
+          "correct": false
+        },
+        {
+          "id": "5992329",
+          "text": "да, может",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "variadic-parameters",
+    "lessonName": "Функции с переменным числом параметров",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/variadic-parameters/quiz_unit",
+    "lessonId": 2623
+  }
+}

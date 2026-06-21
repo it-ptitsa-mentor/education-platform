@@ -1,0 +1,85 @@
+{
+  "slug": "js-dom-window",
+  "title": "Глобальный объект Window",
+  "questions": [
+    {
+      "id": "16544",
+      "prompt": "Что такое \"контекст выполнения кода\"?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992917",
+          "text": "Это операционная система, в которой выполняется код",
+          "correct": false
+        },
+        {
+          "id": "5992918",
+          "text": "Это характеристики компьютера, на котором выполняется код",
+          "correct": false
+        },
+        {
+          "id": "5992919",
+          "text": "Это область видимости, в которой выполняется код. От него зависит какие предустановлены переменные и объекты в текущей среде",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16545",
+      "prompt": "В чем заключается опасность использования глобального состояния?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992920",
+          "text": "В нем невозможно хранить данные",
+          "correct": false
+        },
+        {
+          "id": "5992921",
+          "text": "Такое состояние требует значительно больше памяти, что может негативно сказаться на быстродействии",
+          "correct": false
+        },
+        {
+          "id": "5992922",
+          "text": "Такое состояние может меняться в разных участках приложения и в разных модулях. Отследить такие изменения крайне сложно",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16546",
+      "prompt": "Выберите способы вывода в консоль DevTools:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992923",
+          "text": "`alert()`",
+          "correct": false
+        },
+        {
+          "id": "5992924",
+          "text": "`window.alert()`",
+          "correct": false
+        },
+        {
+          "id": "5992925",
+          "text": "`console.log()`",
+          "correct": true
+        },
+        {
+          "id": "5992926",
+          "text": "`window.console.log()`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "window",
+    "lessonName": "Глобальный объект Window",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/window/quiz_unit",
+    "lessonId": 913
+  }
+}

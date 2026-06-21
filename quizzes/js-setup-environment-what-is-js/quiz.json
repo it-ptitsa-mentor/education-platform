@@ -1,0 +1,80 @@
+{
+  "slug": "js-setup-environment-what-is-js",
+  "title": "Что такое JS?",
+  "questions": [
+    {
+      "id": "6270",
+      "prompt": "К какому классу языков относится JavaScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994557",
+          "text": "Компилируемые",
+          "correct": false
+        },
+        {
+          "id": "5994558",
+          "text": "Модные",
+          "correct": false
+        },
+        {
+          "id": "5994560",
+          "text": "Интерпретируемые",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6271",
+      "prompt": "Выберите верное утверждение",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994565",
+          "text": "Node.js это отдельный от JavaScript язык",
+          "correct": false
+        },
+        {
+          "id": "5994568",
+          "text": "JavaScript работает одинаково во всех браузерах",
+          "correct": false
+        },
+        {
+          "id": "5994569",
+          "text": "На JavaScript пишут программы за пределами обычных компьютеров, например, для автомобилей",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6272",
+      "prompt": "Что нужно для запуска JavaScript кода?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994573",
+          "text": "Компилятор",
+          "correct": false
+        },
+        {
+          "id": "5994574",
+          "text": "Ничего. Код на JavaScript может быть автоматически запущен на любом компьютере",
+          "correct": false
+        },
+        {
+          "id": "5994575",
+          "text": "Интерпретатор",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-setup-environment",
+    "courseName": "JS: Настройка окружения",
+    "lessonSlug": "what-is-js",
+    "lessonName": "Что такое JS?",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-setup-environment/lessons/what-is-js/quiz_unit",
+    "lessonId": 1008
+  }
+}

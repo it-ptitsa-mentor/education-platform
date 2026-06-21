@@ -1,0 +1,132 @@
+{
+  "slug": "css-content-overflow",
+  "title": "Переполнение",
+  "questions": [
+    {
+      "id": "6657",
+      "prompt": "Какие свойства можно использовать для контролирования переполнения контента внутри блоков?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867878",
+          "text": "x-overflow",
+          "correct": false
+        },
+        {
+          "id": "5867879",
+          "text": "y-overflow",
+          "correct": false
+        },
+        {
+          "id": "5867880",
+          "text": "overflow-all",
+          "correct": false
+        },
+        {
+          "id": "5867881",
+          "text": "overflow-x",
+          "correct": true
+        },
+        {
+          "id": "5867882",
+          "text": "overflow-y",
+          "correct": true
+        },
+        {
+          "id": "5867883",
+          "text": "overflow",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6658",
+      "prompt": "Какое значение свойства `overflow` добавит полосы прокрутки по всем направлениям вне зависимости от наличия переполнения?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867884",
+          "text": "auto",
+          "correct": false
+        },
+        {
+          "id": "5867885",
+          "text": "visible",
+          "correct": false
+        },
+        {
+          "id": "5867886",
+          "text": "hidden",
+          "correct": false
+        },
+        {
+          "id": "5867887",
+          "text": "scroll",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6659",
+      "prompt": "Как можно запретить перенос текста?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867888",
+          "text": "С помощью тега space",
+          "correct": false
+        },
+        {
+          "id": "5867889",
+          "text": "С помощью джедайской силы",
+          "correct": false
+        },
+        {
+          "id": "5867890",
+          "text": "С помощью свойства overflow-x",
+          "correct": false
+        },
+        {
+          "id": "5867891",
+          "text": "С помощью свойства text-overflow",
+          "correct": false
+        },
+        {
+          "id": "5867892",
+          "text": "С помощью свойства white-space",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6660",
+      "prompt": "Как добавить многоточие в строке?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867893",
+          "text": "text-overflow: clip",
+          "correct": false
+        },
+        {
+          "id": "5867894",
+          "text": "text-overflow: dots",
+          "correct": false
+        },
+        {
+          "id": "5867895",
+          "text": "text-overflow: ellipsis",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "overflow",
+    "lessonName": "Переполнение",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/overflow/quiz_unit",
+    "lessonId": 1891
+  }
+}

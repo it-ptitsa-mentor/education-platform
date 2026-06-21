@@ -1,0 +1,112 @@
+{
+  "slug": "js-introduction-to-oop-arrow-functions",
+  "title": "Особенности работы this со стрелочными функциями",
+  "questions": [
+    {
+      "id": "6063",
+      "prompt": "Чему равен `this` у стрелочной функции определенной на уровне модуля (вне функций)?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993864",
+          "text": "`this` текущего модуля",
+          "correct": false
+        },
+        {
+          "id": "5993865",
+          "text": "Зависит от того, кто и как вызывает эту функцию",
+          "correct": false
+        },
+        {
+          "id": "5993866",
+          "text": "undefined так как у модуля нет своего `this`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6064",
+      "prompt": "Чему равен `this` у стрелочной функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993867",
+          "text": "Тому объекту из которого она вызывается",
+          "correct": false
+        },
+        {
+          "id": "5993868",
+          "text": "У стрелочных функций не бывает `this`",
+          "correct": false
+        },
+        {
+          "id": "5993869",
+          "text": "`this` лексического контекста, то есть того места где была определена эта функция",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6065",
+      "prompt": "Что будет выведено на экран? Код выполняется в браузере.\n\n```javascript\nconst user = {\n  age: 45,\n  getAge: () => {\n    return this.age;\n  },\n};\n\nconsole.log(user.getAge());\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993870",
+          "text": "45",
+          "correct": false
+        },
+        {
+          "id": "5993871",
+          "text": "''",
+          "correct": false
+        },
+        {
+          "id": "5993872",
+          "text": "Возникнет ошибка",
+          "correct": false
+        },
+        {
+          "id": "5993873",
+          "text": "undefined",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6791",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconst group = {\n  names: ['Ivan'],\n  newName: 'Andrey',\n  changeNames() {\n    return this.names.map(() => this.newName);\n  },\n};\n\nconsole.log(group.changeNames());\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993874",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5993875",
+          "text": "['Ivan']",
+          "correct": false
+        },
+        {
+          "id": "5993876",
+          "text": "Возникнет ошибка",
+          "correct": false
+        },
+        {
+          "id": "5993877",
+          "text": "['Andrey']",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "arrow-functions",
+    "lessonName": "Особенности работы this со стрелочными функциями",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/arrow-functions/quiz_unit",
+    "lessonId": 1691
+  }
+}

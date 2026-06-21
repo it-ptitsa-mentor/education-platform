@@ -3,6 +3,22 @@ export {
   loadExerciseManifest,
   validateStudentFiles,
 } from "./exercise-manifest.js";
+export type {
+  PublicQuizDetail,
+  QuizCheckPayload,
+  QuizCheckResult,
+  QuizManifest,
+  QuizQuestion,
+} from "./quiz-manifest-types.js";
+export {
+  checkQuizAnswers,
+  toPublicQuizDetail,
+} from "./quiz-check.js";
+export {
+  loadQuizManifest,
+  toCategorizedQuizSummary,
+  toPublicQuizManifest,
+} from "./quiz-manifest.js";
 export {
   runBrowserExerciseCheck,
   type ExerciseCheckOutcome,

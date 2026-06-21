@@ -1,0 +1,95 @@
+{
+  "slug": "js-arrays-spread-operator",
+  "title": "Spread и создание новых массивов",
+  "questions": [
+    {
+      "id": "6381",
+      "prompt": "Если три точки стоят слева от оператора присваивания, это...",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992027",
+          "text": "дичь",
+          "correct": false
+        },
+        {
+          "id": "5992028",
+          "text": "spread",
+          "correct": false
+        },
+        {
+          "id": "5992029",
+          "text": "rest",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6382",
+      "prompt": "Если три точки стоят справа от оператора присваивания, это...",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992030",
+          "text": "деструктуризация",
+          "correct": false
+        },
+        {
+          "id": "5992031",
+          "text": "rest",
+          "correct": false
+        },
+        {
+          "id": "5992032",
+          "text": "spread",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6383",
+      "prompt": "Что выведет на экран код?\n\n```javascript\nconst schools = ['hexlet', 'codeacademy'];\nconst [one, two, ...three] = ['youtube', 'teamtreehouse', ...schools, 'codeschool'];\nconsole.log(three); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992033",
+          "text": "Это вообще законно?",
+          "correct": false
+        },
+        {
+          "id": "5992034",
+          "text": "['hexlet', 'codeacademy']",
+          "correct": false
+        },
+        {
+          "id": "5992035",
+          "text": "['teamtreehouse', 'hexlet']",
+          "correct": false
+        },
+        {
+          "id": "5992036",
+          "text": "['teamtreehouse', 'hexlet', 'codeacademy']",
+          "correct": false
+        },
+        {
+          "id": "5992037",
+          "text": "['youtube', 'teamtreehouse', 'codeschool']",
+          "correct": false
+        },
+        {
+          "id": "5992038",
+          "text": "['hexlet', 'codeacademy', 'codeschool']",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "spread-operator",
+    "lessonName": "Spread и создание новых массивов",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/spread-operator/quiz_unit",
+    "lessonId": 1644
+  }
+}

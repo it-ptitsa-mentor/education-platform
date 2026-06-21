@@ -1,0 +1,223 @@
+{
+  "slug": "js-dom-dom-hierarchy",
+  "title": "Навигация по DOM-дереву",
+  "questions": [
+    {
+      "id": "3908",
+      "prompt": "Какие из перечисленных типов узлов являются листовыми?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992949",
+          "text": "Element",
+          "correct": false
+        },
+        {
+          "id": "5992950",
+          "text": "HTMLElement",
+          "correct": false
+        },
+        {
+          "id": "5992951",
+          "text": "Text",
+          "correct": true
+        },
+        {
+          "id": "5992952",
+          "text": "Comment",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3909",
+      "prompt": "Каким тегом в HTML представляется `document.documentElement`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992953",
+          "text": "body",
+          "correct": false
+        },
+        {
+          "id": "5992954",
+          "text": "head",
+          "correct": false
+        },
+        {
+          "id": "5992955",
+          "text": "script",
+          "correct": false
+        },
+        {
+          "id": "5992956",
+          "text": "doctype",
+          "correct": false
+        },
+        {
+          "id": "5992957",
+          "text": "html",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3910",
+      "prompt": "```html\n<body>\n  <ul>\n    <li>1</li>\n    <li>2</li>\n  </ul>\n  <p>Абзац</p>\n  <br>\n</body>\n```\n\nЧему равно `document.body.firstElementChild.children.length`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992958",
+          "text": "0",
+          "correct": false
+        },
+        {
+          "id": "5992959",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5992960",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "5992961",
+          "text": "2",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22288",
+      "prompt": "Какое выражение нужно подставить вместо `__`, чтобы получить второй `li`, используя `children`?\n\n```html\n<body>\n  <p>one, two</p>\n  four\n  <ul>\n    <li>1</li>\n    <li>2</li>\n  </ul>\n  <br>\n</body>\n```\n\n```javascript\ndocument.body.__.lastElementChild;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992962",
+          "text": "`.children[0]`",
+          "correct": false
+        },
+        {
+          "id": "5992963",
+          "text": "`.firstElementChild`",
+          "correct": false
+        },
+        {
+          "id": "5992964",
+          "text": "`.children[2]`",
+          "correct": false
+        },
+        {
+          "id": "5992965",
+          "text": "`.children[1]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3912",
+      "prompt": "```html\n<body>\n  text\n  <ul>\n    <li>1</li>\n    <li>2</li>\n  </ul>\n  <br>\n  <p>\n    <span>Клад</span>\n  </p>\n</body>\n```\n\nКак добраться до клада?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992966",
+          "text": "document.body.children[0].children.firstElementChild",
+          "correct": false
+        },
+        {
+          "id": "5992967",
+          "text": "document.body.children[2].nextElementSibling.children[0]",
+          "correct": false
+        },
+        {
+          "id": "5992968",
+          "text": "document.body.children[3].children.firstElementChild",
+          "correct": false
+        },
+        {
+          "id": "5992969",
+          "text": "document.body.lastElementChild.children[0]",
+          "correct": true
+        },
+        {
+          "id": "5992970",
+          "text": "document.body.children[1].nextElementSibling.children[0]",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3913",
+      "prompt": "```html\n<div>\n  Text\n  <span>Text</span>\n  Text\n</div>\n```\n\nСколько дочерних узлов содержит представленный div?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992971",
+          "text": "3",
+          "correct": true
+        },
+        {
+          "id": "5992972",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5992973",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5992974",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "5992975",
+          "text": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "3914",
+      "prompt": "```html\n<div>\n  Text\n  <p><span>Text</span></p>\n  Text\n</div>\n```\n\nСколько потомков содержит представленный div?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992976",
+          "text": "5",
+          "correct": true
+        },
+        {
+          "id": "5992977",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "5992978",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5992979",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "5992980",
+          "text": "2",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "dom-hierarchy",
+    "lessonName": "Навигация по DOM-дереву",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/dom-hierarchy/quiz_unit",
+    "lessonId": 912
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "js-trees-manipulations",
+  "title": "Манипуляции с виртуальной файловой системой",
+  "questions": [
+    {
+      "id": "6263",
+      "prompt": "Как isDirectory проверяет что директория это директория?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994886",
+          "text": "Смотрит наличие `children`",
+          "correct": false
+        },
+        {
+          "id": "5994887",
+          "text": "Через проверку того что перед нами не файл",
+          "correct": false
+        },
+        {
+          "id": "5994888",
+          "text": "Через сравнение типа со строкой `'directory'`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6264",
+      "prompt": "Могут ли на одном уровне находиться директории и файлы вперемешку?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994892",
+          "text": "Могут, но только внутри корневой директории",
+          "correct": false
+        },
+        {
+          "id": "5994893",
+          "text": "Нет, в директории могут находиться либо только другие директории, либо только файлы",
+          "correct": false
+        },
+        {
+          "id": "5994894",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6265",
+      "prompt": "Каким образом в файловом дереве обновляется файл?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994895",
+          "text": "С помощью магии",
+          "correct": false
+        },
+        {
+          "id": "5994896",
+          "text": "Так как узел это объект, он просто изменяется напрямую",
+          "correct": false
+        },
+        {
+          "id": "5994897",
+          "text": "Создается новый на основе старого",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "manipulations",
+    "lessonName": "Манипуляции с виртуальной файловой системой",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/manipulations/quiz_unit",
+    "lessonId": 1722
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "typescript-advanced-abstract-classes",
+  "title": "Абстрактные классы",
+  "questions": [
+    {
+      "id": "12951",
+      "prompt": "Обязательно ли реализовывать все абстрактные методы в классе-наследнике?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892896",
+          "text": "Обязательно реализовывать только те, которые используются экземпляром",
+          "correct": false
+        },
+        {
+          "id": "5892897",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5892898",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12952",
+      "prompt": "Может ли абстрактный класс наследовать другой абстрактный класс?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892899",
+          "text": "Может если только содержит реализацию абстрактных методов родительского класса",
+          "correct": false
+        },
+        {
+          "id": "5892900",
+          "text": "Нет, не может",
+          "correct": false
+        },
+        {
+          "id": "5892901",
+          "text": "Да, может",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12953",
+      "prompt": "Может ли абстрактный класс использоваться как тип?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892902",
+          "text": "Может, но только внутри наследника",
+          "correct": false
+        },
+        {
+          "id": "5892903",
+          "text": "Нет, не может",
+          "correct": false
+        },
+        {
+          "id": "5892904",
+          "text": "Да, может",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "abstract-classes",
+    "lessonName": "Абстрактные классы",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/abstract-classes/quiz_unit",
+    "lessonId": 4474
+  }
+}

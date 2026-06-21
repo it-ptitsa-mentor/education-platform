@@ -1,0 +1,171 @@
+{
+  "slug": "css-content-gradient",
+  "title": "Градиенты",
+  "questions": [
+    {
+      "id": "16069",
+      "prompt": "Что такое точки остановки в градиенте?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867926",
+          "text": "Цвета, которые определяют начало и конец градиента",
+          "correct": false
+        },
+        {
+          "id": "5867927",
+          "text": "Временные метки при анимации градиента",
+          "correct": false
+        },
+        {
+          "id": "5867928",
+          "text": "Специальные эффекты в фоне",
+          "correct": false
+        },
+        {
+          "id": "5867929",
+          "text": "Позиции, в которых происходит начало и конец цвета в градиенте",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16070",
+      "prompt": "Какой из следующих примеров описывает радиальный градиент в CSS?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867930",
+          "text": "`linear-gradient(to right, red, blue)`",
+          "correct": false
+        },
+        {
+          "id": "5867931",
+          "text": "`gradient(type: radial, colors: red to blue)`",
+          "correct": false
+        },
+        {
+          "id": "5867932",
+          "text": "`background-gradient(center, red to blue)`",
+          "correct": false
+        },
+        {
+          "id": "5867933",
+          "text": "`radial-gradient(circle, red, blue)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16071",
+      "prompt": "Что такое комплементарное сочетание цветов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867934",
+          "text": "Сочетание трех равнобедренных цветов на цветовом круге",
+          "correct": false
+        },
+        {
+          "id": "5867935",
+          "text": "Сочетание светлых и темных оттенков одного цвета",
+          "correct": false
+        },
+        {
+          "id": "5867936",
+          "text": "Сочетание смежных цветов на цветовом круге",
+          "correct": false
+        },
+        {
+          "id": "5867937",
+          "text": "Цвета, которые находятся напротив друг друга на цветовом круге",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16072",
+      "prompt": "Какая характеристика триадного сочетания цветов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867938",
+          "text": "Все цвета находятся на одной линии",
+          "correct": false
+        },
+        {
+          "id": "5867939",
+          "text": "Все цвета имеют одинаковую светлоту",
+          "correct": false
+        },
+        {
+          "id": "5867940",
+          "text": "Это сочетание только теплых или только холодных цветов",
+          "correct": false
+        },
+        {
+          "id": "5867941",
+          "text": "Три цвета равномерно распределены по цветовому кругу",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16073",
+      "prompt": "Какое сочетание цветов считается аналоговой триадой?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867942",
+          "text": "Три цвета, находящиеся на равном расстоянии друг от друга",
+          "correct": false
+        },
+        {
+          "id": "5867943",
+          "text": "Цвета, которые находятся на противоположных сторонах круга",
+          "correct": false
+        },
+        {
+          "id": "5867944",
+          "text": "Сочетание светлых и темных оттенков одного цвета",
+          "correct": false
+        },
+        {
+          "id": "5867945",
+          "text": "Три цвета, находящиеся на соседних позициях на цветовом круге",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16074",
+      "prompt": "Какой синтаксис используется для создания линейного градиента в CSS?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867946",
+          "text": "`gradient(linear, color1, color2)`",
+          "correct": false
+        },
+        {
+          "id": "5867947",
+          "text": "`line-gradient(color1)`",
+          "correct": false
+        },
+        {
+          "id": "5867948",
+          "text": "`linear-gradient(45deg, color1, color2)`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "gradient",
+    "lessonName": "Градиенты",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/gradient/quiz_unit",
+    "lessonId": 2595
+  }
+}

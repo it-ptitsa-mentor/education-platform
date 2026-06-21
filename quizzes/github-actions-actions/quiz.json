@@ -1,0 +1,80 @@
+{
+  "slug": "github-actions-actions",
+  "title": "Экшены",
+  "questions": [
+    {
+      "id": "7344",
+      "prompt": "С помощью какого ключа экшенам передаются дополнительные параметры?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989811",
+          "text": "with",
+          "correct": true
+        },
+        {
+          "id": "5989812",
+          "text": "needs",
+          "correct": false
+        },
+        {
+          "id": "5989813",
+          "text": "props",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "7345",
+      "prompt": "Для чего нужно указывать версию экшена?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989814",
+          "text": "Так можно быть уверенным, что обновление экшена случайно не сломает сборку",
+          "correct": true
+        },
+        {
+          "id": "5989815",
+          "text": "GitHub собирает статистику по используемым версиям экшенов и со временем отключает устаревшие",
+          "correct": false
+        },
+        {
+          "id": "5989816",
+          "text": "Версию можно и не указывать. Это ни на что не влияет",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "7346",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989817",
+          "text": "Экшен — это такой же шаг задания, только вместо ключа `run` используется ключ `uses`",
+          "correct": true
+        },
+        {
+          "id": "5989818",
+          "text": "Экшены подключаются в отдельном файле *.github/workflows/actions.yml*",
+          "correct": false
+        },
+        {
+          "id": "5989819",
+          "text": "Экшены определяются в специальном блоке по ключу `actions`",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "github-actions",
+    "courseName": "Непрерывная интеграция (CI)",
+    "lessonSlug": "actions",
+    "lessonName": "Экшены",
+    "sourceUrl": "https://ru.hexlet.io/courses/github-actions/lessons/actions/quiz_unit",
+    "lessonId": 2296
+  }
+}

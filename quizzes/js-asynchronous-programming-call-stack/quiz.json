@@ -1,0 +1,85 @@
+{
+  "slug": "js-asynchronous-programming-call-stack",
+  "title": "Стек вызовов (Call Stack)",
+  "questions": [
+    {
+      "id": "5138",
+      "prompt": "Какая информация содержится в бектрейсе?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5991799",
+          "text": "Параметры, с которыми вызывалась каждая функция",
+          "correct": false
+        },
+        {
+          "id": "5991800",
+          "text": "Имя функции",
+          "correct": true
+        },
+        {
+          "id": "5991801",
+          "text": "Имя файла, в котором была определена функция",
+          "correct": true
+        },
+        {
+          "id": "5991802",
+          "text": "Номер строчки, на которой находится функция",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5139",
+      "prompt": "В каком случае стек вызовов растет?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991803",
+          "text": "При возврате из функции",
+          "correct": false
+        },
+        {
+          "id": "5991804",
+          "text": "Стек вызовов всегда уменьшается, он не может расти",
+          "correct": false
+        },
+        {
+          "id": "5991805",
+          "text": "Во время вызова функции",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5140",
+      "prompt": "В каком случае стек вызовов уменьшается?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991807",
+          "text": "Во время вызова функции",
+          "correct": false
+        },
+        {
+          "id": "5991809",
+          "text": "Стек вызовов всегда растет, он не может уменьшаться",
+          "correct": false
+        },
+        {
+          "id": "5991811",
+          "text": "При возврате из функции",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-asynchronous-programming",
+    "courseName": "JS: Асинхронное программирование",
+    "lessonSlug": "call-stack",
+    "lessonName": "Стек вызовов (Call Stack)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-asynchronous-programming/lessons/call-stack/quiz_unit",
+    "lessonId": 1290
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "regexp-quantifiers",
+  "title": "Квантификация",
+  "questions": [
+    {
+      "id": "2141",
+      "prompt": "Квантификатор — это...",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962485",
+          "text": "Символ `|`",
+          "correct": false
+        },
+        {
+          "id": "5962486",
+          "text": "Альтернатива классам",
+          "correct": false
+        },
+        {
+          "id": "5962487",
+          "text": "Ограничитель повторения",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2142",
+      "prompt": "Можно ли использовать квантификатор для указания точного числа повторений?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962488",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5962489",
+          "text": "Да, для этого используются символы `*` и `?`",
+          "correct": false
+        },
+        {
+          "id": "5962490",
+          "text": "Да, для этого используются фигурные скобки `{` `}`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2143",
+      "prompt": "Дан текст:\n\n```\nsample text is sooo good for testing\n```\n\nИ регулярное выражение:\n\n```\n/o{2,}/\n```\n\nСколько совпадений будет найдено?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962491",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5962492",
+          "text": "0",
+          "correct": false
+        },
+        {
+          "id": "5962493",
+          "text": "2",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22105",
+      "prompt": "Какое регулярное выражение с диапазонным квантификатором выберет только `colouur` и `colouuur`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962494",
+          "text": "`/colou+r/`",
+          "correct": false
+        },
+        {
+          "id": "5962495",
+          "text": "`/colou{3}r/`",
+          "correct": false
+        },
+        {
+          "id": "5962496",
+          "text": "`/colo{2,3}ur/`",
+          "correct": false
+        },
+        {
+          "id": "5962497",
+          "text": "`/colou{2,3}r/`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "quantifiers",
+    "lessonName": "Квантификация",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/quantifiers/quiz_unit",
+    "lessonId": 306
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "typescript-basics-anonymous-functions",
+  "title": "Анонимные функции",
+  "questions": [
+    {
+      "id": "11509",
+      "prompt": "В каком случае можно не указывать тип параметров в анонимных функциях?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956804",
+          "text": "Всегда",
+          "correct": false
+        },
+        {
+          "id": "5956805",
+          "text": "Только в тех случаях, когда функция применяется для методов массивов",
+          "correct": false
+        },
+        {
+          "id": "5956806",
+          "text": "Если есть контекст",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11510",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956807",
+          "text": "Анонимные функции всегда выводят типы параметров из контекста",
+          "correct": false
+        },
+        {
+          "id": "5956808",
+          "text": "Для анонимных функций типы задаются так же, как в именованных функциях",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11511",
+      "prompt": "Какая ошибка в коде ниже?\n\n```typescript\nconst toUpper = (name): string => name.toUpperCase();\nconst fruits = ['banana', 'mango', 'apple'];\nconst upperFruits = fruits.map(toUpper);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956809",
+          "text": "Ошибок нет",
+          "correct": false
+        },
+        {
+          "id": "5956810",
+          "text": "Указан тип возвращаемого значения",
+          "correct": false
+        },
+        {
+          "id": "5956811",
+          "text": "Не указан тип параметра в функции",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "anonymous-functions",
+    "lessonName": "Анонимные функции",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/anonymous-functions/quiz_unit",
+    "lessonId": 3839
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "cli-basics-operating-systems",
+  "title": "Операционные системы",
+  "questions": [
+    {
+      "id": "4677",
+      "prompt": "Кто заложил идею создания Linux?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946416",
+          "text": "Общество любителей пушистых котят",
+          "correct": false
+        },
+        {
+          "id": "5946417",
+          "text": "Разработчики, которых не удовлетворял Windows",
+          "correct": false
+        },
+        {
+          "id": "5946418",
+          "text": "Линус Торвальдс",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4678",
+      "prompt": "Что такое «Проект GNU»?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946419",
+          "text": "Устаревший текстовый редактор, в котором раньше разрабатывали открытые проекты",
+          "correct": false
+        },
+        {
+          "id": "5946420",
+          "text": "Секретный военный проект, в рамках которого разработаны дистрибутивы Linux",
+          "correct": false
+        },
+        {
+          "id": "5946421",
+          "text": "Открытый проект, в котором разработано множество программ, входящих в дистрибутивы Linux",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4679",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946422",
+          "text": "Операционная система Ubuntu не считается Linux-дистрибутивом, потому что в ней нет ядра Linux",
+          "correct": false
+        },
+        {
+          "id": "5946423",
+          "text": "Любая программа, написанная для Linux, будет без перебоев работать на Windows",
+          "correct": false
+        },
+        {
+          "id": "5946424",
+          "text": "Дистрибутивы Linux в своей основе содержат ядро Linux и отличаются только дополнительными программами",
+          "correct": true
+        },
+        {
+          "id": "5946425",
+          "text": "Linux не имеет своей графической оболочки",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "operating-systems",
+    "lessonName": "Операционные системы",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/operating-systems/quiz_unit",
+    "lessonId": 1185
+  }
+}

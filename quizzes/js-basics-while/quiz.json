@@ -1,0 +1,102 @@
+{
+  "slug": "js-basics-while",
+  "title": "Цикл while",
+  "questions": [
+    {
+      "id": "8566",
+      "prompt": "Возможно ли, чтобы код внутри цикла `while` ни разу не выполнился?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992499",
+          "text": "Нет, невозможно. Код в цикле выполняется как минимум один раз",
+          "correct": false
+        },
+        {
+          "id": "5992500",
+          "text": "Возможно. Проверка условия выполняется до выполнения, и если условие ложное, то код из тела цикла выполняться не будет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8567",
+      "prompt": "Возможны ли бесконечные циклы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992501",
+          "text": "Нет, условие всегда меняется, так что в какой-то момент оно обязательно станет ложным",
+          "correct": false
+        },
+        {
+          "id": "5992502",
+          "text": "Да, если условие всегда остается истинным",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22142",
+      "prompt": "Какое начальное значение `a` нужно подставить, чтобы после выполнения кода ниже в переменной оказалось 0?\n\n```javascript\nlet a = ?;\na -= 8 - a;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992503",
+          "text": "`a = 0`",
+          "correct": false
+        },
+        {
+          "id": "5992504",
+          "text": "`a = 8`",
+          "correct": false
+        },
+        {
+          "id": "5992505",
+          "text": "`a = -4`",
+          "correct": false
+        },
+        {
+          "id": "5992506",
+          "text": "`a = 4`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8569",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nlet a = 5;\na -= 4;\na += 1;\nconsole.log(a);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992507",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "5992508",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "5992509",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5992510",
+          "text": "2",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "while",
+    "lessonName": "Цикл while",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/while/quiz_unit",
+    "lessonId": 2639
+  }
+}

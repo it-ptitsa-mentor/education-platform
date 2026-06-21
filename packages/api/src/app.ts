@@ -3,13 +3,21 @@ import { readdir } from "node:fs/promises";
 import path from "node:path";
 import Fastify, { type FastifyInstance } from "fastify";
 import { runExerciseCheck, readStarterFiles } from "@ptitsa/runner";
-import { loadExerciseManifest, toCategorizedExerciseSummary } from "@ptitsa/shared";
+import {
+  checkQuizAnswers,
+  loadExerciseManifest,
+  loadQuizManifest,
+  toCategorizedExerciseSummary,
+  toCategorizedQuizSummary,
+  toPublicQuizDetail,
+} from "@ptitsa/shared";
 
 export type AppOptions = {
   exercisesRoot: string;
+  quizzesRoot?: string;
 };
 
-export const buildApp = ({ exercisesRoot }: AppOptions): FastifyInstance => {
+export const buildApp = ({ exercisesRoot, quizzesRoot }: AppOptions): FastifyInstance => {
   const app = Fastify({ logger: false });
 
   app.register(cors, { origin: true });
@@ -92,6 +100,69 @@ export const buildApp = ({ exercisesRoot }: AppOptions): FastifyInstance => {
       return reply.status(400).send({ error: message });
     }
   });
+
+  if (quizzesRoot) {
+    app.get("/api/quizzes", async () => {
+      const entries = await readdir(quizzesRoot, { withFileTypes: true });
+      const quizzes = (
+        await Promise.all(
+          entries
+            .filter((entry) => entry.isDirectory())
+            .map(async (entry) => {
+              try {
+                const manifest = await loadQuizManifest(
+                  path.join(quizzesRoot, entry.name, "quiz.json"),
+                );
+                return toCategorizedQuizSummary(manifest);
+              } catch {
+                return null;
+              }
+            }),
+        )
+      ).filter((item): item is ReturnType<typeof toCategorizedQuizSummary> => item !== null);
+
+      return { quizzes };
+    });
+
+    app.get<{ Params: { slug: string } }>(
+      "/api/quizzes/:slug",
+      async (request, reply) => {
+        const { slug } = request.params;
+
+        try {
+          const manifest = await loadQuizManifest(
+            path.join(quizzesRoot, slug, "quiz.json"),
+          );
+
+          return toPublicQuizDetail(manifest);
+        } catch {
+          return reply.status(404).send({ error: "Quiz not found" });
+        }
+      },
+    );
+
+    app.post<{
+      Params: { slug: string };
+      Body: { answers?: Record<string, string[]> };
+    }>("/api/quizzes/:slug/check", async (request, reply) => {
+      const { slug } = request.params;
+      const answers = request.body?.answers;
+
+      if (!answers || Object.keys(answers).length === 0) {
+        return reply.status(400).send({ error: "answers required" });
+      }
+
+      try {
+        const manifest = await loadQuizManifest(
+          path.join(quizzesRoot, slug, "quiz.json"),
+        );
+
+        return checkQuizAnswers(manifest, { answers });
+      } catch {
+        return reply.status(404).send({ error: "Quiz not found" });
+      }
+    });
+  }
 
   return app;
 };

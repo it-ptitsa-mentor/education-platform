@@ -1,0 +1,80 @@
+{
+  "slug": "js-testing-code-coverage",
+  "title": "Покрытие кода тестами",
+  "questions": [
+    {
+      "id": "5511",
+      "prompt": "Для чего нужно измерять покрытие кода тестами?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994916",
+          "text": "Оно помогает найти ошибки в коде",
+          "correct": false
+        },
+        {
+          "id": "5994917",
+          "text": "Оно помогает найти места, требующие оптимизации производительности",
+          "correct": false
+        },
+        {
+          "id": "5994918",
+          "text": "Оно позволяет найти места, которые не покрыты тестами",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5512",
+      "prompt": "Как влияет проверка покрытия кода на скорость выполнения тестов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994919",
+          "text": "Никак",
+          "correct": false
+        },
+        {
+          "id": "5994920",
+          "text": "Скорость становится выше",
+          "correct": false
+        },
+        {
+          "id": "5994921",
+          "text": "Скорость замедляется",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5513",
+      "prompt": "Как изменится покрытие кода, тесты которого упали с ошибкой во время прогона?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994922",
+          "text": "Покрытие увеличится",
+          "correct": false
+        },
+        {
+          "id": "5994923",
+          "text": "Покрытие не изменится",
+          "correct": false
+        },
+        {
+          "id": "5994925",
+          "text": "Покрытие уменьшится",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "code-coverage",
+    "lessonName": "Покрытие кода тестами",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/code-coverage/quiz_unit",
+    "lessonId": 1419
+  }
+}

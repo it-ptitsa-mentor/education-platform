@@ -1,0 +1,80 @@
+{
+  "slug": "js-object-oriented-design-proxy",
+  "title": "Прокси",
+  "questions": [
+    {
+      "id": "6560",
+      "prompt": "Зачем нужен Proxy, если геттеры и сеттеры можно прописать на уровне класса?\n```javascript\nclass Address {\n  constructor(street) {\n    this._street = street;\n  }\n  get street() {\n    return this._street;\n  }\n  set street(newValue) {\n    this._street = newValue;\n  }\n}\nconst address = new Address(5);\nconsole.log(address.street); // 5\naddress.street = 6;\nconsole.log(address.street); // 6\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994038",
+          "text": "Получается, что Proxy не нужен",
+          "correct": false
+        },
+        {
+          "id": "5994039",
+          "text": "Чтобы переложить ответственность с программиста на Proxy",
+          "correct": false
+        },
+        {
+          "id": "5994040",
+          "text": "Можно напрямую обратиться к _street, а Proxy позволит перехватить это обращение",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6561",
+      "prompt": "Можно ли полностью заменить Proxy на функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994046",
+          "text": "Proxy незаменим, потому что использует системные фичи",
+          "correct": false
+        },
+        {
+          "id": "5994047",
+          "text": "Для этого надо обернуть Proxy в функцию",
+          "correct": false
+        },
+        {
+          "id": "5994048",
+          "text": "Можно, но при условии создания собственного интерфейса для доступа к данным",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6562",
+      "prompt": "Можно ли в процессе рефакторинга полностью изменить интерфейсы исходных объектов через Proxy?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994049",
+          "text": "Нет, проксируются запросы только к уже существующим свойствам и методам",
+          "correct": false
+        },
+        {
+          "id": "5994050",
+          "text": "Да, для этого Proxy и существует",
+          "correct": false
+        },
+        {
+          "id": "5994051",
+          "text": "Можно, но делать этого не стоит, потому что Proxy не должен влиять на использующий код",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-object-oriented-design",
+    "courseName": "JS: Объектно-ориентированный дизайн",
+    "lessonSlug": "proxy",
+    "lessonName": "Прокси",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-object-oriented-design/lessons/proxy/quiz_unit",
+    "lessonId": 1850
+  }
+}

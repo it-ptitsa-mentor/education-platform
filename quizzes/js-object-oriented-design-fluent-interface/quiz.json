@@ -1,0 +1,85 @@
+{
+  "slug": "js-object-oriented-design-fluent-interface",
+  "title": "Fluent Interface",
+  "questions": [
+    {
+      "id": "6437",
+      "prompt": "Благодаря чему реализуется непрерывная (изменяемая) цепочка вызовов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993980",
+          "text": "возврату НДС",
+          "correct": false
+        },
+        {
+          "id": "5993981",
+          "text": "возврату `static`",
+          "correct": false
+        },
+        {
+          "id": "5993982",
+          "text": "возврату `self`",
+          "correct": false
+        },
+        {
+          "id": "5993983",
+          "text": "возврату `this`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6438",
+      "prompt": "Какие плюсы дает возврат из методов новой обновленной коллекции, вместо возврата `this`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993990",
+          "text": "Более высокая скорость работы",
+          "correct": false
+        },
+        {
+          "id": "5993991",
+          "text": "Можно переиспользовать новые коллекции",
+          "correct": true
+        },
+        {
+          "id": "5993992",
+          "text": "Изменение одной коллекции никак не сказывается на других",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6439",
+      "prompt": "Имеет ли смысл делать fluent interface у сущностей для работы с их свойствами. Например, у User?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993996",
+          "text": "Да",
+          "correct": false
+        },
+        {
+          "id": "5993997",
+          "text": "Зависит от сущности",
+          "correct": false
+        },
+        {
+          "id": "5993998",
+          "text": "Нет, fluent interface нужен там, где есть составной процесс",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-object-oriented-design",
+    "courseName": "JS: Объектно-ориентированный дизайн",
+    "lessonSlug": "fluent-interface",
+    "lessonName": "Fluent Interface",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-object-oriented-design/lessons/fluent-interface/quiz_unit",
+    "lessonId": 1851
+  }
+}

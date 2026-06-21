@@ -1,0 +1,107 @@
+{
+  "slug": "js-redux-toolkit-redux",
+  "title": "Redux",
+  "questions": [
+    {
+      "id": "12316",
+      "prompt": "Состоянием в хранилище могут быть...",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940629",
+          "text": "Только примитивные данные",
+          "correct": false
+        },
+        {
+          "id": "5940630",
+          "text": "Только составные данные",
+          "correct": false
+        },
+        {
+          "id": "5940631",
+          "text": "Данные любого типа",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12317",
+      "prompt": "Как изменить данные внутри хранилища?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940632",
+          "text": "Нужно напрямую манипулировать структурой",
+          "correct": false
+        },
+        {
+          "id": "5940633",
+          "text": "Никак, их невозможно поменять",
+          "correct": false
+        },
+        {
+          "id": "5940634",
+          "text": "Нужно выполнять действия",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12318",
+      "prompt": "Что такое действие?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940635",
+          "text": "Функция, которая используется в React",
+          "correct": false
+        },
+        {
+          "id": "5940636",
+          "text": "Данные, которые находятся внутри хранилища",
+          "correct": false
+        },
+        {
+          "id": "5940638",
+          "text": "Объект, в котором определено свойство `type`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12319",
+      "prompt": "Сколько хранилищ принято создавать в одном приложении?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940642",
+          "text": "Все зависит от приложения",
+          "correct": false
+        },
+        {
+          "id": "5940643",
+          "text": "По одному хранилищу на каждую сущность предметной области",
+          "correct": false
+        },
+        {
+          "id": "5940644",
+          "text": "Два хранилища",
+          "correct": false
+        },
+        {
+          "id": "5940645",
+          "text": "Одно хранилище",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-redux-toolkit",
+    "courseName": "React: Redux Toolkit",
+    "lessonSlug": "redux",
+    "lessonName": "Redux",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-redux-toolkit/lessons/redux/quiz_unit",
+    "lessonId": 4281
+  }
+}

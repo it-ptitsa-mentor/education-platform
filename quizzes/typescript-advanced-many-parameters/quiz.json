@@ -1,0 +1,90 @@
+{
+  "slug": "typescript-advanced-many-parameters",
+  "title": "Дженерики с несколькими параметрами",
+  "questions": [
+    {
+      "id": "12972",
+      "prompt": "Какой интерфейс подходит для колбека метода `map()`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5892965",
+          "text": "`declare function callback<T, U>(item: T): T;`",
+          "correct": false
+        },
+        {
+          "id": "5892966",
+          "text": "`declare function callback<T, U>(item: T): U[];`",
+          "correct": false
+        },
+        {
+          "id": "5892967",
+          "text": "`declare function callback<T>(item: T): any;`",
+          "correct": true
+        },
+        {
+          "id": "5892968",
+          "text": "`declare function callback<T, U>(item: T): U;`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12973",
+      "prompt": "В каких случаях можно использовать дженерики?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892969",
+          "text": "Когда реализация функции зависит от типа параметров",
+          "correct": false
+        },
+        {
+          "id": "5892970",
+          "text": "Всегда вместо перегрузки функции",
+          "correct": false
+        },
+        {
+          "id": "5892971",
+          "text": "Когда одна и та же реализация функции может работать с разными типами",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12975",
+      "prompt": "Какой тип будет иметь возвращаемое значение функции `someFunc()` в вызове ниже?\n\n```typescript\n  function someFunc<T, U>(value: T, defaultValue: U): T | U {\n    if (value === undefined || value === null) {\n      return defaultValue;\n    }\n    return value;\n  }\n\n  someFunc(undefined, 'some value');\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892972",
+          "text": "`string`",
+          "correct": false
+        },
+        {
+          "id": "5892973",
+          "text": "`undefined`",
+          "correct": false
+        },
+        {
+          "id": "5892974",
+          "text": "`string | undefined`",
+          "correct": false
+        },
+        {
+          "id": "5892975",
+          "text": "`'some value' | undefined`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "many-parameters",
+    "lessonName": "Дженерики с несколькими параметрами",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/many-parameters/quiz_unit",
+    "lessonId": 4481
+  }
+}

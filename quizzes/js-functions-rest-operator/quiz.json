@@ -1,0 +1,105 @@
+{
+  "slug": "js-functions-rest-operator",
+  "title": "Оператор Rest (упаковка аргументов)",
+  "questions": [
+    {
+      "id": "5704",
+      "prompt": "Что будет содержать параметр `something`:\n\n```javascript\nconst foo = (...something) => {\n  // some code\n};\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993435",
+          "text": "Число",
+          "correct": false
+        },
+        {
+          "id": "5993436",
+          "text": "Массив или `null`",
+          "correct": false
+        },
+        {
+          "id": "5993437",
+          "text": "Строку",
+          "correct": false
+        },
+        {
+          "id": "5993438",
+          "text": "`undefined`",
+          "correct": false
+        },
+        {
+          "id": "5993439",
+          "text": "Массив",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5705",
+      "prompt": "Выберите правильные определения функций:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993440",
+          "text": "`const foo = (first, ...rest, last) => {`",
+          "correct": false
+        },
+        {
+          "id": "5993441",
+          "text": "`const foo = (...rest, last) => {`",
+          "correct": false
+        },
+        {
+          "id": "5993442",
+          "text": "`const foo = (first, ...rest) => {`",
+          "correct": true
+        },
+        {
+          "id": "5993443",
+          "text": "`const foo = (...arguments) => {`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5706",
+      "prompt": "Что напечатает функция на экран?\n\n```javascript\nconst foo = (...arguments) => {\n  console.log(arguments);\n};\n\nconst arg = [[], 3, 10];\nfoo(arg);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993444",
+          "text": "`[[], 3, 10]`",
+          "correct": false
+        },
+        {
+          "id": "5993445",
+          "text": "`[[[[], 3, 10]]]`",
+          "correct": false
+        },
+        {
+          "id": "5993446",
+          "text": "`[]`",
+          "correct": false
+        },
+        {
+          "id": "5993447",
+          "text": "`[3, 10]`",
+          "correct": false
+        },
+        {
+          "id": "5993448",
+          "text": "`[[[], 3, 10]]`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "rest-operator",
+    "lessonName": "Оператор Rest (упаковка аргументов)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/rest-operator/quiz_unit",
+    "lessonId": 1627
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "css-grid-position-in-grid",
+  "title": "Позиционирование и Grid",
+  "questions": [
+    {
+      "id": "7360",
+      "prompt": "Как ведёт себя Grid-элемент при использовании относительного позиционирования",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868128",
+          "text": "Элемент позиционируется относительно своего контейнера",
+          "correct": false
+        },
+        {
+          "id": "5868129",
+          "text": "Элемент позиционируется относительно ряда, в котором он находится",
+          "correct": false
+        },
+        {
+          "id": "5868130",
+          "text": "Поведение не отличается от относительного позиционирования в любом другом блоке",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7361",
+      "prompt": "Какие свойства можно использовать для абсолютно/относительно позиционированного Grid-элемента без использования относительного позиционирования для контейнера?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5868131",
+          "text": "grid-row",
+          "correct": false
+        },
+        {
+          "id": "5868132",
+          "text": "grid-column",
+          "correct": false
+        },
+        {
+          "id": "5868133",
+          "text": "top",
+          "correct": true
+        },
+        {
+          "id": "5868134",
+          "text": "left",
+          "correct": true
+        },
+        {
+          "id": "5868135",
+          "text": "bottom",
+          "correct": true
+        },
+        {
+          "id": "5868136",
+          "text": "right",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7362",
+      "prompt": "Можно ли расположить абсолютно позиционированный элемент внутри неявной сетки?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868137",
+          "text": "Нет, нельзя",
+          "correct": false
+        },
+        {
+          "id": "5868138",
+          "text": "Да. Если свойств для сетки нет, то они установятся автоматически",
+          "correct": false
+        },
+        {
+          "id": "5868139",
+          "text": "Да, но только если для неявной сетки указаны свойства",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-grid",
+    "courseName": "CSS: Вёрстка на Grid",
+    "lessonSlug": "position-in-grid",
+    "lessonName": "Позиционирование и Grid",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-grid/lessons/position-in-grid/quiz_unit",
+    "lessonId": 1807
+  }
+}

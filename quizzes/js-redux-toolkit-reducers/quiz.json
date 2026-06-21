@@ -1,0 +1,80 @@
+{
+  "slug": "js-redux-toolkit-reducers",
+  "title": "Редьюсеры",
+  "questions": [
+    {
+      "id": "12320",
+      "prompt": "Как структурировать данные в хранилище?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940670",
+          "text": "Структура должна соответствовать визуальной структуре приложения",
+          "correct": false
+        },
+        {
+          "id": "5940671",
+          "text": "Структура должна быть устроена так, как удобно в конкретном случае",
+          "correct": false
+        },
+        {
+          "id": "5940672",
+          "text": "Структура должна идти от Domain Data и App State",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12321",
+      "prompt": "Зачем состояние разбивается на редьюсеры?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940673",
+          "text": "Чтобы обрабатывать вложенные данные, нет других способов работать с ними",
+          "correct": false
+        },
+        {
+          "id": "5940674",
+          "text": "Чтобы создать как можно больше функций и работать с вложенными данными в них",
+          "correct": false
+        },
+        {
+          "id": "5940675",
+          "text": "Чтобы разбить большие функции на маленькие и упростить работу с состоянием",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12322",
+      "prompt": "Чем является состояние конкретного редьюсера?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940680",
+          "text": "Это общее состояние текущего хранилища",
+          "correct": false
+        },
+        {
+          "id": "5940681",
+          "text": "Зависит от того, как работают другие редьюсеры",
+          "correct": false
+        },
+        {
+          "id": "5940682",
+          "text": "Это часть состояния, определенная при использовании `combineReducers`, за которую отвечает конкретный редьюсер",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-redux-toolkit",
+    "courseName": "React: Redux Toolkit",
+    "lessonSlug": "reducers",
+    "lessonName": "Редьюсеры",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-redux-toolkit/lessons/reducers/quiz_unit",
+    "lessonId": 4282
+  }
+}

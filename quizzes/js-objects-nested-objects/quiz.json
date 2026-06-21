@@ -1,0 +1,120 @@
+{
+  "slug": "js-objects-nested-objects",
+  "title": "Вложенные объекты",
+  "questions": [
+    {
+      "id": "6253",
+      "prompt": "Что вернет код?\n\n```javascript\nconst company = { name: 'Hexlet' };\nconst user = { company };\n\nuser.company.name; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994228",
+          "text": "Возникнет ошибка",
+          "correct": false
+        },
+        {
+          "id": "5994229",
+          "text": "name",
+          "correct": false
+        },
+        {
+          "id": "5994230",
+          "text": "company",
+          "correct": false
+        },
+        {
+          "id": "5994231",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5994232",
+          "text": "Hexlet",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6254",
+      "prompt": "Что вернет код?\n\n```javascript\nconst company = { name: 'Hexlet' };\nconst user = { company };\n\nuser?.company; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994237",
+          "text": "`null`",
+          "correct": false
+        },
+        {
+          "id": "5994238",
+          "text": "company",
+          "correct": false
+        },
+        {
+          "id": "5994239",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5994240",
+          "text": "Hexlet",
+          "correct": false
+        },
+        {
+          "id": "5994241",
+          "text": "`true`",
+          "correct": false
+        },
+        {
+          "id": "5994242",
+          "text": "`{ name: 'Hexlet' }`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6255",
+      "prompt": "Что вернет код?\n\n```javascript\nconst company = { name: 'Hexlet' };\nconst user = { company };\n\nuser?.company?.name ?? 'default'; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994243",
+          "text": "Возникнет ошибка",
+          "correct": false
+        },
+        {
+          "id": "5994244",
+          "text": "null",
+          "correct": false
+        },
+        {
+          "id": "5994245",
+          "text": "company",
+          "correct": false
+        },
+        {
+          "id": "5994246",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5994247",
+          "text": "default",
+          "correct": false
+        },
+        {
+          "id": "5994248",
+          "text": "Hexlet",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "nested-objects",
+    "lessonName": "Вложенные объекты",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/nested-objects/quiz_unit",
+    "lessonId": 1815
+  }
+}

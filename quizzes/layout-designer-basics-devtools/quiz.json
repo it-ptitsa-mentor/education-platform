@@ -1,0 +1,97 @@
+{
+  "slug": "layout-designer-basics-devtools",
+  "title": "Chrome DevTools",
+  "questions": [
+    {
+      "id": "7294",
+      "prompt": "Для чего используется _Chrome DevTools_?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943566",
+          "text": "Для написания кода",
+          "correct": false
+        },
+        {
+          "id": "5943568",
+          "text": "Для загрузки сайта на сервер",
+          "correct": false
+        },
+        {
+          "id": "5943570",
+          "text": "Для прохождения курсов Hexlet",
+          "correct": false
+        },
+        {
+          "id": "5943571",
+          "text": "Для проверки, отладки и тестирования сайта",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7295",
+      "prompt": "Для чего используется вкладка _Elements_?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943572",
+          "text": "Для работы с JavaScript",
+          "correct": false
+        },
+        {
+          "id": "5943574",
+          "text": "Для просмотра загружаемых файлов",
+          "correct": false
+        },
+        {
+          "id": "5943576",
+          "text": "Для работы с HTML и CSS",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7296",
+      "prompt": "Можно ли добавить любой атрибут к элементу с помощью _Chrome DevTools_?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943580",
+          "text": "Да не, бред какой-то",
+          "correct": false
+        },
+        {
+          "id": "5943581",
+          "text": "Да, конечно",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7297",
+      "prompt": "Сохраняются ли изменения при использовании _DevTools_?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943582",
+          "text": "Да — DevTools автоматически сохранит изменения в нужных файлах",
+          "correct": false
+        },
+        {
+          "id": "5943583",
+          "text": "Нет — изменения пропадут при обновлении страницы",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "devtools",
+    "lessonName": "Chrome DevTools",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/devtools/quiz_unit",
+    "lessonId": 1753
+  }
+}

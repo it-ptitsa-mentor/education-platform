@@ -1,0 +1,85 @@
+{
+  "slug": "js-functions-map",
+  "title": "Отображение (map)",
+  "questions": [
+    {
+      "id": "5715",
+      "prompt": "Как соотносится количество элементов исходной коллекции с количеством элементов возвращаемой (отображённой) методом `map` коллекции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993540",
+          "text": "Никак, все зависит от конкретного способа обработки",
+          "correct": false
+        },
+        {
+          "id": "5993541",
+          "text": "Выходная коллекция всегда больше",
+          "correct": false
+        },
+        {
+          "id": "5993542",
+          "text": "Выходная коллекция всегда меньше",
+          "correct": false
+        },
+        {
+          "id": "5993543",
+          "text": "Количество элементов всегда строго одинаково",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5716",
+      "prompt": "Что должна возвратить callback-функция внутри `map`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993544",
+          "text": "Новую коллекцию",
+          "correct": false
+        },
+        {
+          "id": "5993545",
+          "text": "true или false",
+          "correct": false
+        },
+        {
+          "id": "5993546",
+          "text": "Отображённый (изменённый) элемент",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5717",
+      "prompt": "Что вернёт метод `map`, если его вызвать на пустом массиве?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993547",
+          "text": "null",
+          "correct": false
+        },
+        {
+          "id": "5993548",
+          "text": "false",
+          "correct": false
+        },
+        {
+          "id": "5993549",
+          "text": "Пустой массив",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "map",
+    "lessonName": "Отображение (map)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/map/quiz_unit",
+    "lessonId": 1630
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "js-basics-errors",
+  "title": "Ошибки оформления (синтаксиса и линтера)",
+  "questions": [
+    {
+      "id": "8481",
+      "prompt": "Зачем нужно исправлять замечания линтера?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992108",
+          "text": "Замечания линтера не нужно исправлять, ведь они не влияют на работу программы",
+          "correct": false
+        },
+        {
+          "id": "5992109",
+          "text": "Для оптимизации. Код без стилистических ошибок работает быстрее",
+          "correct": false
+        },
+        {
+          "id": "5992110",
+          "text": "Чтобы код было проще читать и поддерживать, ведь в первую очередь код пишется для людей",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8482",
+      "prompt": "Что такое линтер?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992111",
+          "text": "Стандарт для написания кода",
+          "correct": false
+        },
+        {
+          "id": "5992112",
+          "text": "Программа для тестирования кода",
+          "correct": false
+        },
+        {
+          "id": "5992113",
+          "text": "Программа для проверки кода на соответствие стандартам кодирования",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8483",
+      "prompt": "Какой стандарт является самым распространенным при написании кода на JavaScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992114",
+          "text": "Eslint",
+          "correct": false
+        },
+        {
+          "id": "5992115",
+          "text": "В JavaScript нет стандартов, программист сам решает, как оформлять свой код",
+          "correct": false
+        },
+        {
+          "id": "5992116",
+          "text": "AirBnb",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "errors",
+    "lessonName": "Ошибки оформления (синтаксиса и линтера)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/errors/quiz_unit",
+    "lessonId": 2611
+  }
+}

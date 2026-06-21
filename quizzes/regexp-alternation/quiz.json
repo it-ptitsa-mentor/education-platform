@@ -1,0 +1,139 @@
+{
+  "slug": "regexp-alternation",
+  "title": "Альтернатива",
+  "questions": [
+    {
+      "id": "2139",
+      "prompt": "На какой логический оператор похожа альтернатива в регулярных выражениях? (она обозначается символом `|`)",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962467",
+          "text": "Ни на какой",
+          "correct": false
+        },
+        {
+          "id": "5962468",
+          "text": "`НЕ`",
+          "correct": false
+        },
+        {
+          "id": "5962469",
+          "text": "`И`",
+          "correct": false
+        },
+        {
+          "id": "5962470",
+          "text": "`ИЛИ`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2140",
+      "prompt": "Выберите два элемента регулярного выражения, которые будут эквивалентны в большинстве случаев:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962471",
+          "text": "`ax` и `a|x`",
+          "correct": false
+        },
+        {
+          "id": "5962472",
+          "text": "`(a|x)` и `(ax)`",
+          "correct": false
+        },
+        {
+          "id": "5962473",
+          "text": "`(a|x)` и `[ax]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9184",
+      "prompt": "Можно ли использовать символьные классы вместе с альтернативой?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962474",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5962475",
+          "text": "Да, но только классы `d` и `w`",
+          "correct": false
+        },
+        {
+          "id": "5962476",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22104",
+      "prompt": "Какой шаблон с альтернативой выберет только `java` или `php` из строки `java\\ruby\\php`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962477",
+          "text": "`/java/php/`",
+          "correct": false
+        },
+        {
+          "id": "5962478",
+          "text": "`/[java|php]/`",
+          "correct": false
+        },
+        {
+          "id": "5962479",
+          "text": "`/ruby|php/`",
+          "correct": false
+        },
+        {
+          "id": "5962480",
+          "text": "`/java|php/`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17084",
+      "prompt": "Какое основное отличие между символьными классами и альтернативой в регулярных выражениях?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962481",
+          "text": "Символьные классы могут содержать только один символ.",
+          "correct": false
+        },
+        {
+          "id": "5962482",
+          "text": "Альтернатива используется только для чисел.",
+          "correct": false
+        },
+        {
+          "id": "5962483",
+          "text": "Символьные классы всегда быстрее, чем альтернатива.",
+          "correct": false
+        },
+        {
+          "id": "5962484",
+          "text": "Символьные классы выбирают один символ из набора, а альтернатива выбирает одно из нескольких целых выражений.",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "alternation",
+    "lessonName": "Альтернатива",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/alternation/quiz_unit",
+    "lessonId": 303
+  }
+}

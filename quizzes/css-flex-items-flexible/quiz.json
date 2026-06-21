@@ -1,0 +1,163 @@
+{
+  "slug": "css-flex-items-flexible",
+  "title": "Свойства Flex-элементов. Гибкость",
+  "questions": [
+    {
+      "id": "6077",
+      "prompt": "Является ли flex-basis заменой свойств width/height?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989107",
+          "text": "Да, flex-basis устанавливает четкие размеры элемента",
+          "correct": false
+        },
+        {
+          "id": "5989108",
+          "text": "Нет, ширина/высота элемента зависит еще от значений других свойств",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6078",
+      "prompt": "Что случится в стандартной ситуации, если суммарный размер всех flex-basis больше размера контейнера?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989111",
+          "text": "Элементы выйдут за пределы контейнера",
+          "correct": false
+        },
+        {
+          "id": "5989112",
+          "text": "Элементы не будут отображаться",
+          "correct": false
+        },
+        {
+          "id": "5989113",
+          "text": "Элементы автоматически поменяют размер, чтобы вместиться внутрь контейнера",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6079",
+      "prompt": "Какое значение по умолчанию имеет свойство flex-shrink",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989117",
+          "text": "Свойство flex-shrink не имеет значения по умолчанию",
+          "correct": false
+        },
+        {
+          "id": "5989119",
+          "text": "0",
+          "correct": false
+        },
+        {
+          "id": "5989120",
+          "text": "1",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6080",
+      "prompt": "Можем ли мы высчитать заранее, сколько пространства исчезнет у элемента при использовании flex-shrink?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989125",
+          "text": "Нет, браузер автоматически высчитывает все значения по внутренним формулам, которые отталкиваются от многих параметров.",
+          "correct": false
+        },
+        {
+          "id": "5989126",
+          "text": "Да, конечно",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6081",
+      "prompt": "Что такое отрицательный размер контейнера?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989127",
+          "text": "Возможность CSS установить отрицательный размер контейнера",
+          "correct": false
+        },
+        {
+          "id": "5989128",
+          "text": "Разница между размером контейнера и размером всех элементов внутри него",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6082",
+      "prompt": "Можно ли запретить элементу сжиматься?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989129",
+          "text": "Да, с помощью значения flex-grow: 0",
+          "correct": false
+        },
+        {
+          "id": "5989130",
+          "text": "Да, с помощью значения flex-basis: 0",
+          "correct": false
+        },
+        {
+          "id": "5989131",
+          "text": "Нет, данная возможность контролируется браузером",
+          "correct": false
+        },
+        {
+          "id": "5989132",
+          "text": "Да, с помощью значения flex-shrink: 0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6083",
+      "prompt": "Какой порядок значений у свойства flex?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989134",
+          "text": "flex-basis, flex-grow, flex-shrink",
+          "correct": false
+        },
+        {
+          "id": "5989136",
+          "text": "flex-shrink, flex-basis, flex-grow",
+          "correct": false
+        },
+        {
+          "id": "5989138",
+          "text": "flex-grow, flex-basis, flex-shrink",
+          "correct": false
+        },
+        {
+          "id": "5989139",
+          "text": "flex-grow, flex-shrink, flex-basis",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-flex",
+    "courseName": "CSS: Flex",
+    "lessonSlug": "items-flexible",
+    "lessonName": "Свойства Flex-элементов. Гибкость",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-flex/lessons/items-flexible/quiz_unit",
+    "lessonId": 1614
+  }
+}

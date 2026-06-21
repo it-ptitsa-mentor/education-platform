@@ -1,0 +1,117 @@
+{
+  "slug": "internet-fundamentals-http-https",
+  "title": "Безопасность в интернете. Протокол HTTPS",
+  "questions": [
+    {
+      "id": "9671",
+      "prompt": "Какие протоколы используются для общения сервера и клиента",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937786",
+          "text": "Wi-Fi",
+          "correct": false
+        },
+        {
+          "id": "5937787",
+          "text": "Ethernet",
+          "correct": false
+        },
+        {
+          "id": "5937788",
+          "text": "TCP",
+          "correct": false
+        },
+        {
+          "id": "5937789",
+          "text": "HTTP",
+          "correct": true
+        },
+        {
+          "id": "5937790",
+          "text": "HTTPS",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9672",
+      "prompt": "На каком уровне стека TCP/IP находятся протоколы HTTP и HTTPS",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937791",
+          "text": "Транспортный",
+          "correct": false
+        },
+        {
+          "id": "5937792",
+          "text": "Канальный",
+          "correct": false
+        },
+        {
+          "id": "5937793",
+          "text": "Сетевой",
+          "correct": false
+        },
+        {
+          "id": "5937794",
+          "text": "Прикладной",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9673",
+      "prompt": "В чём особенность протокола HTTPS",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937795",
+          "text": "Быстрая передача",
+          "correct": false
+        },
+        {
+          "id": "5937796",
+          "text": "Использование гипертекста",
+          "correct": false
+        },
+        {
+          "id": "5937797",
+          "text": "Передача информации о клиенте",
+          "correct": false
+        },
+        {
+          "id": "5937798",
+          "text": "Шифрование данных",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9674",
+      "prompt": "Какой протокол обеспечивает защиту от атаки Man-in-the-Middle",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937802",
+          "text": "HTTP",
+          "correct": false
+        },
+        {
+          "id": "5937803",
+          "text": "HTTPS",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "internet-fundamentals",
+    "courseName": "Введение в интернет",
+    "lessonSlug": "http-https",
+    "lessonName": "Безопасность в интернете. Протокол HTTPS",
+    "sourceUrl": "https://ru.hexlet.io/courses/internet-fundamentals/lessons/http-https/quiz_unit",
+    "lessonId": 3124
+  }
+}

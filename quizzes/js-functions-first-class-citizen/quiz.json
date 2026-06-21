@@ -1,0 +1,181 @@
+{
+  "slug": "js-functions-first-class-citizen",
+  "title": "Объекты первого класса",
+  "questions": [
+    {
+      "id": "5712",
+      "prompt": "Функции можно вызывать сразу после определения. Что будет записано в `result`?\n\n```javascript\nconst result = ((a, b) => a ** b)(5, 2);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993476",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5993477",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "5993478",
+          "text": "10",
+          "correct": false
+        },
+        {
+          "id": "5993479",
+          "text": "25",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5713",
+      "prompt": "Являются ли функции объектами первого класса в языке JavaScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993480",
+          "text": "только анонимные",
+          "correct": false
+        },
+        {
+          "id": "5993481",
+          "text": "нет",
+          "correct": false
+        },
+        {
+          "id": "5993482",
+          "text": "да, все",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5714",
+      "prompt": "Выберите верные утверждения (для языка, в котором функции являются объектами первого класса)",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993483",
+          "text": "функцию невозможно создать во время выполнения программы",
+          "correct": false
+        },
+        {
+          "id": "5993484",
+          "text": "функцию невозможно передавать в другую функцию в качестве аргумента",
+          "correct": false
+        },
+        {
+          "id": "5993485",
+          "text": "функция и данные это, в принципе, одно и то же",
+          "correct": true
+        },
+        {
+          "id": "5993486",
+          "text": "функция может быть возвращена как результат выполнения другой функции",
+          "correct": true
+        },
+        {
+          "id": "5993487",
+          "text": "функцию можно применять к результату выполнения другой функции",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11437",
+      "prompt": "Является ли имя функции обязательным при ее объявлении?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993491",
+          "text": "да, если используется ключевое слово `function`",
+          "correct": false
+        },
+        {
+          "id": "5993492",
+          "text": "да, если функция принимает параметры",
+          "correct": false
+        },
+        {
+          "id": "5993493",
+          "text": "да, если функция принимает параметры по умолчанию",
+          "correct": false
+        },
+        {
+          "id": "5993494",
+          "text": "нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11438",
+      "prompt": "Выберите верное утверждение",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993498",
+          "text": "анонимными могут быть только стрелочные функции",
+          "correct": false
+        },
+        {
+          "id": "5993499",
+          "text": "анонимные функции можно использовать только внутри обычных",
+          "correct": false
+        },
+        {
+          "id": "5993500",
+          "text": "если используется ключевое слово `function`, то создать анонимную функцию невозможно",
+          "correct": false
+        },
+        {
+          "id": "5993501",
+          "text": "анонимной может быть любая функция, с которой не связано никакое имя",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11439",
+      "prompt": "Выберите все функции, которые являются анонимными\n\n```js\n    // первая\n    function() {\n      сonsole.log('Hello');\n    }\n\n    // вторая\n    () => console.log('Hello');\n\n    // третья\n    function hello() {\n      console.log('Hello');\n    }\n\n    // четвертая\n    const hello = () =>  console.log('Hello');\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993505",
+          "text": "первая и третья",
+          "correct": false
+        },
+        {
+          "id": "5993506",
+          "text": "вторая и четвертая",
+          "correct": false
+        },
+        {
+          "id": "5993507",
+          "text": "все функции анонимные",
+          "correct": false
+        },
+        {
+          "id": "5993508",
+          "text": "вторая и третья",
+          "correct": false
+        },
+        {
+          "id": "5993509",
+          "text": "первая, вторая и четвертая",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "first-class-citizen",
+    "lessonName": "Объекты первого класса",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/first-class-citizen/quiz_unit",
+    "lessonId": 1629
+  }
+}

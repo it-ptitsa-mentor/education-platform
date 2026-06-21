@@ -1,0 +1,80 @@
+{
+  "slug": "js-testing-jest",
+  "title": "Jest",
+  "questions": [
+    {
+      "id": "5452",
+      "prompt": "В какой директории должны лежать тесты Jest?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994802",
+          "text": "`_test_`",
+          "correct": false
+        },
+        {
+          "id": "5994803",
+          "text": "`test`",
+          "correct": false
+        },
+        {
+          "id": "5994805",
+          "text": "`__tests__`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5453",
+      "prompt": "Как правильно запускать Jest на выполнение?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994809",
+          "text": "jest",
+          "correct": false
+        },
+        {
+          "id": "5994810",
+          "text": "npm run jest",
+          "correct": false
+        },
+        {
+          "id": "5994811",
+          "text": "npx jest",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5454",
+      "prompt": "Каждый тест описывается внутри лямбда-функции, которая передается в функцию:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994816",
+          "text": "assert",
+          "correct": false
+        },
+        {
+          "id": "5994817",
+          "text": "expect",
+          "correct": false
+        },
+        {
+          "id": "5994818",
+          "text": "test",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "jest",
+    "lessonName": "Jest",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/jest/quiz_unit",
+    "lessonId": 1412
+  }
+}

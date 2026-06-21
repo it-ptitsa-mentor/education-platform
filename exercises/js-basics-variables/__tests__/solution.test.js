@@ -7,7 +7,7 @@ describe("js-basics-variables", () => {
   });
 
   it("prints Dragon twice", async () => {
-    const lines: string[] = [];
+    const lines = [];
     vi.spyOn(console, "log").mockImplementation((value) => {
       lines.push(String(value));
     });

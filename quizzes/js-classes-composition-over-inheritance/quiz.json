@@ -1,0 +1,173 @@
+{
+  "slug": "js-classes-composition-over-inheritance",
+  "title": "Композиция вместо наследования",
+  "questions": [
+    {
+      "id": "6464",
+      "prompt": "Почему с наследованием возникают проблемы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992266",
+          "text": "У меня нет никаких проблем",
+          "correct": false
+        },
+        {
+          "id": "5992267",
+          "text": "Наследование значительно влияет на производительность",
+          "correct": false
+        },
+        {
+          "id": "5992269",
+          "text": "Наследование пытается представить любые взаимоотношения как одну иерархическую структуру, но структура связей зависит от взгляда на проблему, который может меняться в рамках разных задач одного приложения",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6465",
+      "prompt": "Предположим, что мы продаем 5 типов товаров. Каждый из этих товаров может быть новым, а может быть б/у. Все эти особенности влияют на поведение. Если мы решим реализовать это поведение через наследование, то сколько классов придется создать?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992273",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "5992275",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5992277",
+          "text": "7",
+          "correct": false
+        },
+        {
+          "id": "5992278",
+          "text": "10",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9405",
+      "prompt": "Выберите настоящую альтернативу наследования:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992280",
+          "text": "Множественное наследование",
+          "correct": false
+        },
+        {
+          "id": "5992282",
+          "text": "Композиция",
+          "correct": false
+        },
+        {
+          "id": "5992284",
+          "text": "Миксины",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16791",
+      "prompt": "В какой момент определяется чему будет равен `this`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992285",
+          "text": "Это специальная переменная, которая всегда имеет определенное значение изначально",
+          "correct": false
+        },
+        {
+          "id": "5992286",
+          "text": "В тот момент, когда интерпретатор обрабатывает код класса",
+          "correct": false
+        },
+        {
+          "id": "5992287",
+          "text": "В момент создания объекта",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16792",
+      "prompt": "Какой вывод будет у вызова метода `logConstructor()`?\n\n```javascript\nclass A {\n  logConstructor() {\n    console.log(this.constructor);\n  }\n}\n\nclass B extends A {}\n\nclass C extends B {}\n\nconst c = new C();\nc.logConstructor(); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992288",
+          "text": "`[class A]`",
+          "correct": false
+        },
+        {
+          "id": "5992289",
+          "text": "`[class B extends A]`",
+          "correct": false
+        },
+        {
+          "id": "5992290",
+          "text": "`[class C extends B]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16793",
+      "prompt": "Какой вывод будет у вызова метода `logConstructor()`?\n\n```javascript\nclass A {\n  logConstructor() {\n    console.log(this.constructor);\n  }\n}\n\nclass B extends A {}\n\nclass C extends B {}\n\nconst b = new B();\nb.logConstructor(); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992291",
+          "text": "`[class A]`",
+          "correct": false
+        },
+        {
+          "id": "5992292",
+          "text": "`[class C extends B]`",
+          "correct": false
+        },
+        {
+          "id": "5992293",
+          "text": "`[class B extends A]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16794",
+      "prompt": "Какой вывод будет у вызова метода `logConstructor()`?\n\n```javascript\nclass A {\n  logConstructor() {\n    console.log(this.constructor);\n  }\n}\n\nclass B extends A {}\n\nclass C extends B {}\n\nconst a = new A();\na.logConstructor(); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992294",
+          "text": "`[class B extends A]`",
+          "correct": false
+        },
+        {
+          "id": "5992295",
+          "text": "`[class C extends B]`",
+          "correct": false
+        },
+        {
+          "id": "5992296",
+          "text": "`[class A]`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-classes",
+    "courseName": "JS: Погружаясь в классы",
+    "lessonSlug": "composition-over-inheritance",
+    "lessonName": "Композиция вместо наследования",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-classes/lessons/composition-over-inheritance/quiz_unit",
+    "lessonId": 1865
+  }
+}

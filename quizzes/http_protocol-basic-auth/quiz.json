@@ -1,0 +1,75 @@
+{
+  "slug": "http_protocol-basic-auth",
+  "title": "Базовая аутентификация",
+  "questions": [
+    {
+      "id": "15109",
+      "prompt": "Какой код используется для обозначения запрета доступа без аутентификации (\"access denied\")?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938394",
+          "text": "404",
+          "correct": false
+        },
+        {
+          "id": "5938395",
+          "text": "200",
+          "correct": false
+        },
+        {
+          "id": "5938396",
+          "text": "401",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15110",
+      "prompt": "Какое из утверждений является истинным для базовой аутентификации?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938400",
+          "text": "форма для ввода логина и пароля — это HTML-форма, ее генерирует серверная часть сайта",
+          "correct": false
+        },
+        {
+          "id": "5938401",
+          "text": "форма для ввода логина и пароля — это HTML-форма, ее генерирует frontend часть сайта",
+          "correct": false
+        },
+        {
+          "id": "5938402",
+          "text": "форму для ввода логина и пароля генерирует сам браузер",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15111",
+      "prompt": "Возможно ли применить базовую аутентификацию только к одной странице на сайте?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938406",
+          "text": "нет, запрет может быть только на весь сервер",
+          "correct": false
+        },
+        {
+          "id": "5938407",
+          "text": "да",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "basic-auth",
+    "lessonName": "Базовая аутентификация",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/basic-auth/quiz_unit",
+    "lessonId": 5304
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "js-object-oriented-design-configuration",
+  "title": "Конфигурация",
+  "questions": [
+    {
+      "id": "6411",
+      "prompt": "В чем заключается конфигурация как подход в языках с классами?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993902",
+          "text": "В отказе от использования конструкторов",
+          "correct": false
+        },
+        {
+          "id": "5993903",
+          "text": "Вместо создания объекта, там где достаточно функции, используется обычная функция",
+          "correct": false
+        },
+        {
+          "id": "5993904",
+          "text": "В создании объекта, конструктор которого принимает не данные (так как не является абстракцией данных), а настройки своей работы.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6412",
+      "prompt": "Предположим, что перед вами стоит задача реализовать библиотеку, которая позволяет определять страну и город по IP-адресу. Выберите верное утверждение относительно этой задачи.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993909",
+          "text": "В этой задаче нужно создать класс, который представляет собой абстракцию над IP-адресом",
+          "correct": false
+        },
+        {
+          "id": "5993910",
+          "text": "Эту задачу можно решить одной функцией, которая принимает на вход IP-адрес и возвращает нужные данные",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6413",
+      "prompt": "Какой дизайн кода правильный (при условии, что решено использовать класс) для библиотеки, определяющей местоположение по IP-адресу?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993912",
+          "text": "```javascript\nconst ipgeo = new IpGeo(ipAddress);\nipgeo.getCity();\nipgeo.getCountry();\n```",
+          "correct": false
+        },
+        {
+          "id": "5993914",
+          "text": "```javascript\nconst ipgeo = new IpGeo(ipAddress);\nconst result = ipgeo.resolve();\nconsole.log(result.getCity());\nconsole.log(result.getCountry());\n```",
+          "correct": false
+        },
+        {
+          "id": "5993916",
+          "text": "```javascript\nconst ipgeo = new IpGeo();\nconst result = ipgeo.resolve(ip);\nconsole.log(result.getCity());\nconsole.log(result.getCountry());\n```",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6414",
+      "prompt": "Может ли (с точки зрения грамотной разработки) вызов метода `resolve` привести к изменению объекта `ipgeo`?\n\n```javascript\nconst ipgeo = new IpGeo();\nconst result1 = ipgeo.resolve(ip1);\nconst result2 = ipgeo.resolve(ip2);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993918",
+          "text": "Конечно, всегда так делаю!",
+          "correct": false
+        },
+        {
+          "id": "5993919",
+          "text": "Да, это ведь объект а значит у него есть внутреннее состояние",
+          "correct": false
+        },
+        {
+          "id": "5993921",
+          "text": "Объект, в данной ситуации, всего лишь контейнер для хранения конфигурации (если она есть) и вызов `resolve` не может на него влиять. Достаточно представить что вместо объекта и метода используется обычный вызов функции.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6415",
+      "prompt": "Почему в примере ниже данные передаются в конструктор?\n\n```javascript\nconst file = new FileInfo('/path/to/file.so');\nfile.getName(); // file\nfile.getExt(); // so\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993924",
+          "text": "Это неправильный дизайн, конструктор только для конфигурации",
+          "correct": false
+        },
+        {
+          "id": "5993925",
+          "text": "Потому что конструктор создан для передачи данных",
+          "correct": false
+        },
+        {
+          "id": "5993926",
+          "text": "В данном примере `FileInfo` — абстракция над понятием Файл.",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-object-oriented-design",
+    "courseName": "JS: Объектно-ориентированный дизайн",
+    "lessonSlug": "configuration",
+    "lessonName": "Конфигурация",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-object-oriented-design/lessons/configuration/quiz_unit",
+    "lessonId": 1847
+  }
+}

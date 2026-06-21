@@ -1,0 +1,90 @@
+{
+  "slug": "js-objects-property-existence",
+  "title": "Проверка существования свойства",
+  "questions": [
+    {
+      "id": "6232",
+      "prompt": "Что будет выведено в консоль?\n\n```javascript\nconst user = { name: 'Petr', age: 10 };\n\nif (Object.hasOwn(user, 'car')) {\n  console.log('User has a car');\n} else {\n  console.log(\"User doesn't have a car\");\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994159",
+          "text": "User has a car",
+          "correct": false
+        },
+        {
+          "id": "5994160",
+          "text": "true",
+          "correct": false
+        },
+        {
+          "id": "5994161",
+          "text": "false",
+          "correct": false
+        },
+        {
+          "id": "5994162",
+          "text": "User doesn't have a car",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6233",
+      "prompt": "Правильный способ проверки свойства\n\n```javascript\nconst object = { key: 'value' };\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994167",
+          "text": "`object.hasProperty('key')`",
+          "correct": false
+        },
+        {
+          "id": "5994168",
+          "text": "`object.key === undefined`",
+          "correct": false
+        },
+        {
+          "id": "5994170",
+          "text": "`Object.hasOwn(object, 'key')`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6234",
+      "prompt": "Что вернёт следующий код?\n\n```javascript\nvalue = false;\nvalue ?? 'wow'; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994176",
+          "text": "true",
+          "correct": false
+        },
+        {
+          "id": "5994177",
+          "text": "'wow'",
+          "correct": false
+        },
+        {
+          "id": "5994179",
+          "text": "null",
+          "correct": false
+        },
+        {
+          "id": "5994181",
+          "text": "false",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "property-existence",
+    "lessonName": "Проверка существования свойства",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/property-existence/quiz_unit",
+    "lessonId": 1816
+  }
+}

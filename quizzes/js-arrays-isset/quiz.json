@@ -1,0 +1,90 @@
+{
+  "slug": "js-arrays-isset",
+  "title": "Проверка существования значения",
+  "questions": [
+    {
+      "id": "6354",
+      "prompt": "Что такое выход за границу массива?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991686",
+          "text": "Добавление нового элемента по не существующему индексу",
+          "correct": false
+        },
+        {
+          "id": "5991687",
+          "text": "Увеличение массива после его создания",
+          "correct": false
+        },
+        {
+          "id": "5991689",
+          "text": "Обращение к несуществующему индексу массива, то есть выходящему за его пределы",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6355",
+      "prompt": "Как ведет себя JavaScript при обращении к несуществующему индексу массива?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991692",
+          "text": "Падает с ошибкой",
+          "correct": false
+        },
+        {
+          "id": "5991695",
+          "text": "Возвращает случайный элемент из массива",
+          "correct": false
+        },
+        {
+          "id": "5991697",
+          "text": "Возвращает `null`",
+          "correct": false
+        },
+        {
+          "id": "5991698",
+          "text": "Возвращает `undefined`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6356",
+      "prompt": "Как убедиться, что индекс не выходит за верхнюю границу массива?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991702",
+          "text": "`index > 0`",
+          "correct": false
+        },
+        {
+          "id": "5991703",
+          "text": "`index > items.length`",
+          "correct": false
+        },
+        {
+          "id": "5991704",
+          "text": "`index <= items.length`",
+          "correct": false
+        },
+        {
+          "id": "5991705",
+          "text": "`index < items.length`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "isset",
+    "lessonName": "Проверка существования значения",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/isset/quiz_unit",
+    "lessonId": 1605
+  }
+}

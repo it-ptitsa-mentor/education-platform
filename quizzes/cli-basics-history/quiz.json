@@ -1,0 +1,90 @@
+{
+  "slug": "cli-basics-history",
+  "title": "История",
+  "questions": [
+    {
+      "id": "4898",
+      "prompt": "Как хотя бы частично замести следы на компьютере, на котором мы работали?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946571",
+          "text": "Разлогиниться",
+          "correct": false
+        },
+        {
+          "id": "5946572",
+          "text": "Перезагрузить компьютер",
+          "correct": false
+        },
+        {
+          "id": "5946573",
+          "text": "Выключить компьютер",
+          "correct": false
+        },
+        {
+          "id": "5946574",
+          "text": "Удалить файл _.bash_history_",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4899",
+      "prompt": "Какими способами можно посмотреть список из истории введенных команд?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946575",
+          "text": "Просмотреть содержимое файла _.bash_profile_",
+          "correct": false
+        },
+        {
+          "id": "5946576",
+          "text": "Нажать `ctrl + r`",
+          "correct": false
+        },
+        {
+          "id": "5946577",
+          "text": "Просмотреть содержимое файла _.bash_history_",
+          "correct": true
+        },
+        {
+          "id": "5946578",
+          "text": "Выполнить команду `history`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7677",
+      "prompt": "Как найти что-либо в истории команд?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946579",
+          "text": "Попросить админа найти команду",
+          "correct": false
+        },
+        {
+          "id": "5946580",
+          "text": "Использовать реверсивный поиск",
+          "correct": true
+        },
+        {
+          "id": "5946581",
+          "text": "Прогрепать файл _.bash_history_",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "history",
+    "lessonName": "История",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/history/quiz_unit",
+    "lessonId": 1186
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "internet-fundamentals-tcp-ip",
+  "title": "Обмен информацией между компьютерами",
+  "questions": [
+    {
+      "id": "9656",
+      "prompt": "Что такое стек TCP/IP?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937685",
+          "text": "Описание протоколов TCP и IP",
+          "correct": false
+        },
+        {
+          "id": "5937686",
+          "text": "Семейство оборудований для передачи информации",
+          "correct": false
+        },
+        {
+          "id": "5937687",
+          "text": "Набор правил для передачи информации внутри сети",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9657",
+      "prompt": "Сколько уровней у стека TCP/IP?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937688",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "5937689",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5937690",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "5937691",
+          "text": "4",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9658",
+      "prompt": "К какому уровню относятся протоколы TCP и UDP?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937692",
+          "text": "Канальный",
+          "correct": false
+        },
+        {
+          "id": "5937693",
+          "text": "Сетевой",
+          "correct": false
+        },
+        {
+          "id": "5937694",
+          "text": "Прикладной",
+          "correct": false
+        },
+        {
+          "id": "5937695",
+          "text": "Транспортный",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9659",
+      "prompt": "На что разбивается информация при передаче по сети?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937696",
+          "text": "Барсетки",
+          "correct": false
+        },
+        {
+          "id": "5937697",
+          "text": "Сумки",
+          "correct": false
+        },
+        {
+          "id": "5937698",
+          "text": "Коробки",
+          "correct": false
+        },
+        {
+          "id": "5937699",
+          "text": "Пакеты",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9660",
+      "prompt": "Какие особенности есть у протокола TCP?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937700",
+          "text": "Отсутствие гарантии передачи пакетов",
+          "correct": false
+        },
+        {
+          "id": "5937701",
+          "text": "Подходит для передачи больших объемов информации",
+          "correct": false
+        },
+        {
+          "id": "5937702",
+          "text": "Скорость передачи важнее целостности информации",
+          "correct": false
+        },
+        {
+          "id": "5937703",
+          "text": "Целостность информации важнее скорости передачи",
+          "correct": true
+        },
+        {
+          "id": "5937704",
+          "text": "Гарантия передачи пакетов",
+          "correct": true
+        },
+        {
+          "id": "5937705",
+          "text": "Установка связи через процесс рукопожатия",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9661",
+      "prompt": "Какие особенности у протокола UDP?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937706",
+          "text": "Гарантия передачи пакетов",
+          "correct": false
+        },
+        {
+          "id": "5937707",
+          "text": "Установка связи через процесс рукопожатия",
+          "correct": false
+        },
+        {
+          "id": "5937708",
+          "text": "Целостность информации важнее скорости передачи",
+          "correct": false
+        },
+        {
+          "id": "5937709",
+          "text": "Отсутствие гарантии передачи пакетов",
+          "correct": true
+        },
+        {
+          "id": "5937710",
+          "text": "Скорость передачи важнее целостности информации",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "internet-fundamentals",
+    "courseName": "Введение в интернет",
+    "lessonSlug": "tcp-ip",
+    "lessonName": "Обмен информацией между компьютерами",
+    "sourceUrl": "https://ru.hexlet.io/courses/internet-fundamentals/lessons/tcp-ip/quiz_unit",
+    "lessonId": 3002
+  }
+}

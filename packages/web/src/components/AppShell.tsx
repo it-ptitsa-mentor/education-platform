@@ -1,9 +1,10 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useLocation } from "react-router-dom";
 import { ThemeToggle } from "./ThemeToggle";
 import { useTheme } from "../hooks/useTheme";
 
 export const AppShell = () => {
   const { theme, toggleTheme } = useTheme();
+  const location = useLocation();
 
   return (
     <div className="app-shell">
@@ -21,6 +22,21 @@ export const AppShell = () => {
             <h1>IT Птица</h1>
           </div>
         </Link>
+
+        <nav className="topbar-nav" aria-label="Разделы платформы">
+          <Link
+            to="/"
+            className={`topbar-nav-link${location.pathname === "/" || location.pathname.startsWith("/exercise/") ? " is-active" : ""}`}
+          >
+            Задачи
+          </Link>
+          <Link
+            to="/quizzes"
+            className={`topbar-nav-link${location.pathname.startsWith("/quiz") ? " is-active" : ""}`}
+          >
+            Квизы
+          </Link>
+        </nav>
 
         <div className="topbar-actions">
           <ThemeToggle theme={theme} onToggle={toggleTheme} />

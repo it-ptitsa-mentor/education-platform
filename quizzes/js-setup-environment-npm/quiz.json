@@ -1,0 +1,80 @@
+{
+  "slug": "js-setup-environment-npm",
+  "title": "NPM",
+  "questions": [
+    {
+      "id": "4396",
+      "prompt": "Для инициализации проекта используется команда `npm init`. Что произойдет по ее завершении?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994625",
+          "text": "Создастся файл `package.xml` в формате XML",
+          "correct": false
+        },
+        {
+          "id": "5994627",
+          "text": "Создастся файл `package.html` в формате HTML",
+          "correct": false
+        },
+        {
+          "id": "5994628",
+          "text": "Создастся файл `package.json` в формате JSON",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6135",
+      "prompt": "Как запустить файл `index.js`, находящийся в директории `/home/user/project/src`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994631",
+          "text": "Находясь в директории `/home/user/` выполнить команду `node index.js`",
+          "correct": false
+        },
+        {
+          "id": "5994633",
+          "text": "Выполнить команду из любой директории `node index.js`",
+          "correct": false
+        },
+        {
+          "id": "5994635",
+          "text": "Находясь в директории `/home/user/project/src` выполнить команду `node index.js`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6136",
+      "prompt": "Что такое корень проекта?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994636",
+          "text": "Диск C",
+          "correct": false
+        },
+        {
+          "id": "5994637",
+          "text": "Файл index.js",
+          "correct": false
+        },
+        {
+          "id": "5994638",
+          "text": "Директория с файлами проекта, в которой лежит файл *package.json*",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-setup-environment",
+    "courseName": "JS: Настройка окружения",
+    "lessonSlug": "npm",
+    "lessonName": "NPM",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-setup-environment/lessons/npm/quiz_unit",
+    "lessonId": 1003
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "slug": "css-content-selectors",
+  "title": "Селекторы",
+  "questions": [
+    {
+      "id": "6611",
+      "prompt": "Какого цвета будет элемент с классом `.text`?\n\n```css\nbody {\n  color: #333;\n}\n\n.text {\n  color: red;\n}\n\nh1 + .text {\n  color: blue;\n}\n```\n\n```html\n<section>\n  <h1>Самые вкусные блины</h1>\n  <h2>Где мы находимся?</h2>\n  <p class=\"text\">В самом центре города!</p>\n</section>\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867816",
+          "text": "&#35;333",
+          "correct": false
+        },
+        {
+          "id": "5867817",
+          "text": "blue",
+          "correct": false
+        },
+        {
+          "id": "5867818",
+          "text": "red",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6612",
+      "prompt": "Какой шаблон относится к родственному селектору?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867819",
+          "text": "A + B",
+          "correct": false
+        },
+        {
+          "id": "5867820",
+          "text": "A - B",
+          "correct": false
+        },
+        {
+          "id": "5867821",
+          "text": "A = B",
+          "correct": false
+        },
+        {
+          "id": "5867822",
+          "text": "A ~ B",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6613",
+      "prompt": "Как можно обратиться к следующему элементу\n\n```html\n<div class=\"square\" data-figure=\"square\"></div>\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867823",
+          "text": ".figure",
+          "correct": false
+        },
+        {
+          "id": "5867824",
+          "text": "data-figure=square",
+          "correct": false
+        },
+        {
+          "id": "5867825",
+          "text": "[data-figure=\"square\"]",
+          "correct": true
+        },
+        {
+          "id": "5867826",
+          "text": "[data-figure]",
+          "correct": true
+        },
+        {
+          "id": "5867827",
+          "text": "[data-figure&#94;=\"square\"]",
+          "correct": true
+        },
+        {
+          "id": "5867828",
+          "text": ".square",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6614",
+      "prompt": "Какие элементы выберет следующий селектор:\n\n```css\n[data-attr*=\"square\"] {\n\n}\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867829",
+          "text": "&lt;div data-attr-side=\"square\"&gt;&lt;/div&gt;",
+          "correct": false
+        },
+        {
+          "id": "5867830",
+          "text": "&lt;div class=\"square\"&gt;&lt;/div&gt;",
+          "correct": false
+        },
+        {
+          "id": "5867831",
+          "text": "&lt;div data-attr=\"square\"&gt;&lt;/div&gt;",
+          "correct": true
+        },
+        {
+          "id": "5867832",
+          "text": "&lt;div data-attr=\"square-side-square\"&gt;&lt;/div&gt;",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6615",
+      "prompt": "Как можно обратиться к элементу с классом `square`?\n\n```html\n<section class=\"main\">\n  <h2>Прямоугольник</h2>\n  <div class=\"rectangle\" data-figure=\"rectangle\"></div>\n\n  <h2>Квадрат</h2>\n  <div class=\"square\" data-figure=\"square\"></div>\n</section>\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867833",
+          "text": ".rectangle .square",
+          "correct": false
+        },
+        {
+          "id": "5867834",
+          "text": ".main ~ .square",
+          "correct": false
+        },
+        {
+          "id": "5867835",
+          "text": ".main + .square",
+          "correct": false
+        },
+        {
+          "id": "5867836",
+          "text": ".main > .square",
+          "correct": true
+        },
+        {
+          "id": "5867837",
+          "text": ".rectangle ~ .square",
+          "correct": true
+        },
+        {
+          "id": "5867838",
+          "text": ".square",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "selectors",
+    "lessonName": "Селекторы",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/selectors/quiz_unit",
+    "lessonId": 1887
+  }
+}

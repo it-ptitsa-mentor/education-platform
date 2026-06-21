@@ -1,0 +1,85 @@
+{
+  "slug": "js-dom-events-in-action",
+  "title": "События на практике",
+  "questions": [
+    {
+      "id": "16547",
+      "prompt": "Какой минус в удалении класса выделения со всех элементов меню на странице?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993071",
+          "text": "Это ухудшает качество кода",
+          "correct": false
+        },
+        {
+          "id": "5993072",
+          "text": "Это может вызвать ошибку, если у элемента нет удаляемого класса",
+          "correct": false
+        },
+        {
+          "id": "5993073",
+          "text": "Если на странице несколько меню, то на всех будет снято выделение",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16548",
+      "prompt": "Каким способом лучше всего указывать меню, которые должны управляться JavaScript?\n\n```javascript\nconst boom = () => alert('Boom!');\nbutton.addEventListener('keyup', boom());\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993074",
+          "text": "С помощью специальных классов",
+          "correct": false
+        },
+        {
+          "id": "5993075",
+          "text": "С помощью уникального значения `id`",
+          "correct": false
+        },
+        {
+          "id": "5993076",
+          "text": "С помощью атрибутов `data-*`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22290",
+      "prompt": "Какой метод нужно вызвать вместо `__`, чтобы подняться от ссылки до контейнера `.nav`?\n\n```javascript\nlinks.forEach((link) => {\n  link.addEventListener('click', () => {\n    const nav = link.__('.nav');\n    const activeElement = nav.querySelector('.active');\n    activeElement.classList.remove('active');\n    link.classList.add('active');\n  });\n});\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993077",
+          "text": "`querySelector`",
+          "correct": false
+        },
+        {
+          "id": "5993078",
+          "text": "`parentElement`",
+          "correct": false
+        },
+        {
+          "id": "5993079",
+          "text": "`nearest`",
+          "correct": false
+        },
+        {
+          "id": "5993080",
+          "text": "`closest`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "events-in-action",
+    "lessonName": "События на практике",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/events-in-action/quiz_unit",
+    "lessonId": 1798
+  }
+}

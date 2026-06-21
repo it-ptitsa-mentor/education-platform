@@ -1,0 +1,80 @@
+{
+  "slug": "js-objects-hash-table",
+  "title": "Хеш-таблицы",
+  "questions": [
+    {
+      "id": "9979",
+      "prompt": "Что такое хеширование?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994351",
+          "text": "Перевод информации с одного языка на другой",
+          "correct": false
+        },
+        {
+          "id": "5994352",
+          "text": "Изменение системы счисления",
+          "correct": false
+        },
+        {
+          "id": "5994353",
+          "text": "Преобразование входных данных в строку фиксированной длины",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9980",
+      "prompt": "Что такое коллизия?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994354",
+          "text": "Совпадение значений в ассоциативном массиве",
+          "correct": false
+        },
+        {
+          "id": "5994355",
+          "text": "Исчерпание ключей для ассоциативного массива",
+          "correct": false
+        },
+        {
+          "id": "5994356",
+          "text": "Получение одного и того же хеша для разных данных",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9981",
+      "prompt": "Что является ключом, по которому хранятся ключ-значение в хеш-таблице",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994361",
+          "text": "Порядковый номер",
+          "correct": false
+        },
+        {
+          "id": "5994362",
+          "text": "Время добавления",
+          "correct": false
+        },
+        {
+          "id": "5994363",
+          "text": "Результат работы хеш-функции",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "hash-table",
+    "lessonName": "Хеш-таблицы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/hash-table/quiz_unit",
+    "lessonId": 1620
+  }
+}

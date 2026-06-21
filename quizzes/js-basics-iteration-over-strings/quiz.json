@@ -1,0 +1,85 @@
+{
+  "slug": "js-basics-iteration-over-strings",
+  "title": "Обход строк в цикле",
+  "questions": [
+    {
+      "id": "8593",
+      "prompt": "Что является нейтральным элементом для строк?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992544",
+          "text": "0",
+          "correct": false
+        },
+        {
+          "id": "5992545",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5992546",
+          "text": "Эта операция не имеет нейтрального элемента",
+          "correct": false
+        },
+        {
+          "id": "5992547",
+          "text": "`\"\"` (пустая строка)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8594",
+      "prompt": "Какое значение содержится в переменной `result`?\n\n```javascript\nconst name = 'hexlet';\nlet result = '';\nlet i = 0;\nwhile (i < name.length) {\n  result = `${result}${name[i].toUpperCase()}`\n  i += 1;\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992548",
+          "text": "hexlet",
+          "correct": false
+        },
+        {
+          "id": "5992549",
+          "text": "`\"\"` (пустая строка)",
+          "correct": false
+        },
+        {
+          "id": "5992550",
+          "text": "HEXLET",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8595",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992551",
+          "text": "циклы можно использовать только для обхода строк",
+          "correct": false
+        },
+        {
+          "id": "5992552",
+          "text": "для формирования строк в цикле используется только интерполяция",
+          "correct": false
+        },
+        {
+          "id": "5992553",
+          "text": "циклы подходят для работы как с числами, так и со строками",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "iteration-over-strings",
+    "lessonName": "Обход строк в цикле",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/iteration-over-strings/quiz_unit",
+    "lessonId": 2641
+  }
+}

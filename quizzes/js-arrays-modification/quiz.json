@@ -1,0 +1,90 @@
+{
+  "slug": "js-arrays-modification",
+  "title": "Модификация",
+  "questions": [
+    {
+      "id": "5905",
+      "prompt": "Как правильно изменить элемент массива?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991667",
+          "text": "`cities[] = 'Riga';`",
+          "correct": false
+        },
+        {
+          "id": "5991668",
+          "text": "`cities = 'Riga';`",
+          "correct": false
+        },
+        {
+          "id": "5991669",
+          "text": "`cities.push('Riga');`",
+          "correct": false
+        },
+        {
+          "id": "5991670",
+          "text": "`cities[4] = 'Riga';`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5906",
+      "prompt": "Что выведет на экран следующий код:\n\n```javascript\nconst cities = ['Moscow', 'Dubai', 'Bangkok'];\ncities.push('Omsk');\nconsole.log(cities);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991674",
+          "text": "`['Moscow', 'Dubai', 'Bangkok']`",
+          "correct": false
+        },
+        {
+          "id": "5991675",
+          "text": "`['Omsk', 'Moscow', 'Dubai', 'Bangkok']`",
+          "correct": false
+        },
+        {
+          "id": "5991676",
+          "text": "`['Moscow', 'Dubai', 'Bangkok', 'Omsk']`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5907",
+      "prompt": "Что выведет на экран следующий код:\n\n```javascript\nconst cities = ['Moscow', 'Dubai', 'Bangkok'];\ncities[0].toUpperCase();\nconsole.log(cities[0]);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991679",
+          "text": "MOSCOW",
+          "correct": false
+        },
+        {
+          "id": "5991680",
+          "text": "Dubai",
+          "correct": false
+        },
+        {
+          "id": "5991682",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5991684",
+          "text": "Moscow",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "modification",
+    "lessonName": "Модификация",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/modification/quiz_unit",
+    "lessonId": 1728
+  }
+}

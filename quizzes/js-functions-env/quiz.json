@@ -1,0 +1,132 @@
+{
+  "slug": "js-functions-env",
+  "title": "Область видимости и замыкания",
+  "questions": [
+    {
+      "id": "12077",
+      "prompt": "В глобальной области видимости находятся переменная `temp` и функция `calculate()`. Что можно сказать про эту ситуацию?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993407",
+          "text": "В функции `calculate()` нельзя создать константу c именем `temp`",
+          "correct": false
+        },
+        {
+          "id": "5993408",
+          "text": "В функции `calculate()` можно создать локальную переменную с именем `temp`",
+          "correct": true
+        },
+        {
+          "id": "5993409",
+          "text": "Значение `temp` можно передать в функцию `calculate()` в виде аргумента",
+          "correct": true
+        },
+        {
+          "id": "5993410",
+          "text": "Значение `temp` доступно внутри функции `calculate()`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12078",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconst x = 7;\nconst f = (x) => () => () => x;\nconsole.log(f(10)()());\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993411",
+          "text": "Сообщение об ошибке, потому что `x` не определен",
+          "correct": false
+        },
+        {
+          "id": "5993412",
+          "text": "`undefined`",
+          "correct": false
+        },
+        {
+          "id": "5993413",
+          "text": "`[\"Function function\"]`",
+          "correct": false
+        },
+        {
+          "id": "5993414",
+          "text": "7",
+          "correct": false
+        },
+        {
+          "id": "5993415",
+          "text": "10",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12079",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconst value = 777;\nconst func = (value) => value + 1;\nconsole.log(func(5));\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993416",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "5993417",
+          "text": "NaN",
+          "correct": false
+        },
+        {
+          "id": "5993418",
+          "text": "777",
+          "correct": false
+        },
+        {
+          "id": "5993419",
+          "text": "778",
+          "correct": false
+        },
+        {
+          "id": "5993420",
+          "text": "6",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22295",
+      "prompt": "Какое значение нужно подставить вместо `__`, чтобы вызов вернул `true`?\n\n```javascript\nconst isRightNum = (num) => {\n  const res = (num > 3) && (num ** 2 < 26) && (num !== 5);\n  return res;\n};\n\nisRightNum(__); // true\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993421",
+          "text": "`5`",
+          "correct": false
+        },
+        {
+          "id": "5993422",
+          "text": "`6`",
+          "correct": false
+        },
+        {
+          "id": "5993423",
+          "text": "`3`",
+          "correct": false
+        },
+        {
+          "id": "5993424",
+          "text": "`4`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "env",
+    "lessonName": "Область видимости и замыкания",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/env/quiz_unit",
+    "lessonId": 4190
+  }
+}

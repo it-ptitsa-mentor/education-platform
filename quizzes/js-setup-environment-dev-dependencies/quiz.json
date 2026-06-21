@@ -1,0 +1,80 @@
+{
+  "slug": "js-setup-environment-dev-dependencies",
+  "title": "Зависимости для разработки",
+  "questions": [
+    {
+      "id": "6274",
+      "prompt": "В какой среде \"крутится\" приложение для конечных пользователей?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994682",
+          "text": "development",
+          "correct": false
+        },
+        {
+          "id": "5994683",
+          "text": "test",
+          "correct": false
+        },
+        {
+          "id": "5994684",
+          "text": "production",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6275",
+      "prompt": "Зачем зависимости для разработки отделены от зависимостей для продакшена?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994685",
+          "text": "Для красоты",
+          "correct": false
+        },
+        {
+          "id": "5994686",
+          "text": "Так код работает быстрее",
+          "correct": false
+        },
+        {
+          "id": "5994687",
+          "text": "Чтобы не устанавливать лишнее для продакшена",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6276",
+      "prompt": "Какие зависимости устанавливает `npm install`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994691",
+          "text": "Только `dependencies`",
+          "correct": false
+        },
+        {
+          "id": "5994692",
+          "text": "Только `devDependencies`",
+          "correct": false
+        },
+        {
+          "id": "5994693",
+          "text": "И `dependencies`, и `devDependencies`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-setup-environment",
+    "courseName": "JS: Настройка окружения",
+    "lessonSlug": "dev-dependencies",
+    "lessonName": "Зависимости для разработки",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-setup-environment/lessons/dev-dependencies/quiz_unit",
+    "lessonId": 1812
+  }
+}

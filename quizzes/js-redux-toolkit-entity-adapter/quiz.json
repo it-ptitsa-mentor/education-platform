@@ -1,0 +1,125 @@
+{
+  "slug": "js-redux-toolkit-entity-adapter",
+  "title": "Механизм Entity Adapter",
+  "questions": [
+    {
+      "id": "13036",
+      "prompt": "Какой метод нужно использовать, чтобы добавить сущность?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940804",
+          "text": "`readOne`",
+          "correct": false
+        },
+        {
+          "id": "5940805",
+          "text": "`joinMany`",
+          "correct": false
+        },
+        {
+          "id": "5940806",
+          "text": "`addMany`",
+          "correct": false
+        },
+        {
+          "id": "5940807",
+          "text": "`removeOne`",
+          "correct": false
+        },
+        {
+          "id": "5940808",
+          "text": "`updateOne`",
+          "correct": false
+        },
+        {
+          "id": "5940809",
+          "text": "`addOne`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "13037",
+      "prompt": "Какой селектор возвращает `entities` из хранилища?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940815",
+          "text": "`selectData`",
+          "correct": false
+        },
+        {
+          "id": "5940816",
+          "text": "`filterEntities`",
+          "correct": false
+        },
+        {
+          "id": "5940817",
+          "text": "`getById`",
+          "correct": false
+        },
+        {
+          "id": "5940818",
+          "text": "`selectTotal`",
+          "correct": false
+        },
+        {
+          "id": "5940819",
+          "text": "`selectById`",
+          "correct": false
+        },
+        {
+          "id": "5940820",
+          "text": "`selectAll`",
+          "correct": false
+        },
+        {
+          "id": "5940821",
+          "text": "`selectIds`",
+          "correct": false
+        },
+        {
+          "id": "5940822",
+          "text": "`selectEntities`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22308",
+      "prompt": "Какой метод адаптера нужно вызвать вместо `__`, чтобы удалить пользователя?\n\n```javascript\nremoveUser: (state, { payload }) => {\n  usersAdapter.__(state, payload);\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940826",
+          "text": "`deleteOne`",
+          "correct": false
+        },
+        {
+          "id": "5940827",
+          "text": "`addOne`",
+          "correct": false
+        },
+        {
+          "id": "5940828",
+          "text": "`upsertOne`",
+          "correct": false
+        },
+        {
+          "id": "5940829",
+          "text": "`removeOne`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-redux-toolkit",
+    "courseName": "React: Redux Toolkit",
+    "lessonSlug": "entity-adapter",
+    "lessonName": "Механизм Entity Adapter",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-redux-toolkit/lessons/entity-adapter/quiz_unit",
+    "lessonId": 2216
+  }
+}

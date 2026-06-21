@@ -1,0 +1,139 @@
+{
+  "slug": "regexp-anchors",
+  "title": "Позиция внутри строки",
+  "questions": [
+    {
+      "id": "2135",
+      "prompt": "При обозначении позиции символ `^` означает...",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962449",
+          "text": "Не начало и не конец строки",
+          "correct": false
+        },
+        {
+          "id": "5962450",
+          "text": "Конец строки",
+          "correct": false
+        },
+        {
+          "id": "5962451",
+          "text": "Начало строки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2136",
+      "prompt": "Дана строка:\n\n```\nThis is a nice day, but you are not going anywhere.\n```\n\nДано регулярное выражение:\n\n```\n/^a/\n```\nСколько совпадений будет найдено?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962452",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "5962453",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "5962454",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5962455",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5962456",
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2137",
+      "prompt": "Символ `$` означает...",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962457",
+          "text": "Не начало и не конец строки",
+          "correct": false
+        },
+        {
+          "id": "5962458",
+          "text": "Начало строки",
+          "correct": false
+        },
+        {
+          "id": "5962459",
+          "text": "Конец строки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2138",
+      "prompt": "Дана строка:\n\n```\nhello and hello again, my friend!\n```\n\nИ регулярное выражение:\n```\n/^hello\\b/\n```\n\nСколько совпадений будет найдено?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962460",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5962461",
+          "text": "0",
+          "correct": false
+        },
+        {
+          "id": "5962462",
+          "text": "1",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22103",
+      "prompt": "Какое регулярное выражение выберет только слово `java`, если строка должна начинаться и заканчиваться этим словом?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962463",
+          "text": "`/java/`",
+          "correct": false
+        },
+        {
+          "id": "5962464",
+          "text": "`/^java/`",
+          "correct": false
+        },
+        {
+          "id": "5962465",
+          "text": "`/java$/`",
+          "correct": false
+        },
+        {
+          "id": "5962466",
+          "text": "`/^java$/`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "anchors",
+    "lessonName": "Позиция внутри строки",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/anchors/quiz_unit",
+    "lessonId": 305
+  }
+}

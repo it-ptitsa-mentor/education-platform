@@ -1,0 +1,129 @@
+{
+  "slug": "js-react-use-effect",
+  "title": "Хук useEffect",
+  "questions": [
+    {
+      "id": "17457",
+      "prompt": "Вызов `useEffect()` происходит",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940995",
+          "text": "Только во время обновления",
+          "correct": false
+        },
+        {
+          "id": "5940996",
+          "text": "Только во время монтирования",
+          "correct": false
+        },
+        {
+          "id": "5940997",
+          "text": "Только если передан второй параметр",
+          "correct": false
+        },
+        {
+          "id": "5940998",
+          "text": "После каждого рендера",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17458",
+      "prompt": "Что нужно сделать, чтобы `useEffect()` вызывался только на этапе монтирования?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940999",
+          "text": "React не предоставляет такой возможности",
+          "correct": false
+        },
+        {
+          "id": "5941000",
+          "text": "Вызывать `useEffect()` вне компонента",
+          "correct": false
+        },
+        {
+          "id": "5941001",
+          "text": "Передать вторым параметром пустой массив",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17459",
+      "prompt": "Может ли в рамках одного компонента быть несколько эффектов, вызываемых при изменении разных пропсов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5941002",
+          "text": "Нет, только один эффект на компонент",
+          "correct": false
+        },
+        {
+          "id": "5941003",
+          "text": "Да, сколько угодно",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17460",
+      "prompt": "Чтобы иногда пропустить действие хука `useEffect()` нужно",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5941007",
+          "text": "это невозможно, он выполняется всегда",
+          "correct": false
+        },
+        {
+          "id": "5941009",
+          "text": "добавить в компонент условие при котором хук не должен срабатывать",
+          "correct": false
+        },
+        {
+          "id": "5941011",
+          "text": "вторым параметром передать массив зависимостей",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17461",
+      "prompt": "В каких случаях используется хук `useEffect()`",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5941012",
+          "text": "для отрисовки компонента",
+          "correct": false
+        },
+        {
+          "id": "5941014",
+          "text": "при выполнении HTTP запросов",
+          "correct": true
+        },
+        {
+          "id": "5941016",
+          "text": "при обращении к DOM-элементам напрямую",
+          "correct": true
+        },
+        {
+          "id": "5941018",
+          "text": "для выполнения кода на определенных этапах жизненного цикла компонента",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "use-effect",
+    "lessonName": "Хук useEffect",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/use-effect/quiz_unit",
+    "lessonId": 5966
+  }
+}

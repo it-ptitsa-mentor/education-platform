@@ -1,0 +1,139 @@
+{
+  "slug": "internet-fundamentals-site",
+  "title": "Сайт в интернете",
+  "questions": [
+    {
+      "id": "9666",
+      "prompt": "На какие основные части делится сайт?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937750",
+          "text": "Fullend",
+          "correct": false
+        },
+        {
+          "id": "5937751",
+          "text": "Allend",
+          "correct": false
+        },
+        {
+          "id": "5937752",
+          "text": "Frontend",
+          "correct": true
+        },
+        {
+          "id": "5937753",
+          "text": "Backend",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9667",
+      "prompt": "Какие компании предоставляют серверы для размещения сайта?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937760",
+          "text": "Размещатели",
+          "correct": false
+        },
+        {
+          "id": "5937761",
+          "text": "Серверные компании",
+          "correct": false
+        },
+        {
+          "id": "5937763",
+          "text": "Домены",
+          "correct": false
+        },
+        {
+          "id": "5937765",
+          "text": "Хостеры",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9668",
+      "prompt": "Как называется адрес сайта?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937766",
+          "text": "БД",
+          "correct": false
+        },
+        {
+          "id": "5937767",
+          "text": "Хостинг",
+          "correct": false
+        },
+        {
+          "id": "5937768",
+          "text": "Домен",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9669",
+      "prompt": "Сколько уровней домена у адреса ru.hexlet.io?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937769",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5937770",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5937771",
+          "text": "3",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9670",
+      "prompt": "Какой сервис связывает IP-адрес сервера и доменное имя?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937772",
+          "text": "TCP",
+          "correct": false
+        },
+        {
+          "id": "5937773",
+          "text": "IP",
+          "correct": false
+        },
+        {
+          "id": "5937774",
+          "text": "UDP",
+          "correct": false
+        },
+        {
+          "id": "5937775",
+          "text": "DNS",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "internet-fundamentals",
+    "courseName": "Введение в интернет",
+    "lessonSlug": "site",
+    "lessonName": "Сайт в интернете",
+    "sourceUrl": "https://ru.hexlet.io/courses/internet-fundamentals/lessons/site/quiz_unit",
+    "lessonId": 3098
+  }
+}

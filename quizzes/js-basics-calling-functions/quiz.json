@@ -1,0 +1,70 @@
+{
+  "slug": "js-basics-calling-functions",
+  "title": "Функции и их вызов",
+  "questions": [
+    {
+      "id": "9179",
+      "prompt": "Какие операции могут выполнять функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992297",
+          "text": "Только математические вычисления",
+          "correct": false
+        },
+        {
+          "id": "5992298",
+          "text": "Функции могут выполнять любые допустимые в программировании операции",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9180",
+      "prompt": "Нужно ли знать наизусть все названия функций?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992299",
+          "text": "Обязательно. Иначе невозможно будет их использовать",
+          "correct": false
+        },
+        {
+          "id": "5992300",
+          "text": "Нет. Существуют подсказки редактора и документация по функциям",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9181",
+      "prompt": "Дан следующий код:\n\n```javascript\nconsole.log(getOne);\n```\n\nВызов функции `getOne()` возвращает единицу. Выберите верное утверждение относительно этого кода:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992301",
+          "text": "На экран будет выведено число 1 — результат работы функции",
+          "correct": false
+        },
+        {
+          "id": "5992302",
+          "text": "Код ничего не выведет на экран, потому что функция `getOne()` только возвращает значение",
+          "correct": false
+        },
+        {
+          "id": "5992303",
+          "text": "код не выведет число 1 на экран, потому что функция `getOne()` не вызывается",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "calling-functions",
+    "lessonName": "Функции и их вызов",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/calling-functions/quiz_unit",
+    "lessonId": 2927
+  }
+}

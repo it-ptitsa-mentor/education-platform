@@ -1,0 +1,85 @@
+{
+  "slug": "http_protocol-curl",
+  "title": "Curl",
+  "questions": [
+    {
+      "id": "16057",
+      "prompt": "Что появится на экране, если выполнить такую команду?\n\n```bash\ncurl http.hexlet.app/http-protocol/example\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938422",
+          "text": "Ничего, ведь мы не добавляли никаких флагов и опций",
+          "correct": false
+        },
+        {
+          "id": "5938423",
+          "text": "Заголовки ответа без тела",
+          "correct": false
+        },
+        {
+          "id": "5938424",
+          "text": "Тело ответа, в терминал будет распечатан полученный HTML",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22415",
+      "prompt": "Какой флаг нужно добавить, чтобы curl вывел и запрос, и ответ?\n\n```bash\ncurl __ http.hexlet.app/http-protocol/example\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938428",
+          "text": "`-I`",
+          "correct": false
+        },
+        {
+          "id": "5938429",
+          "text": "`-d`",
+          "correct": false
+        },
+        {
+          "id": "5938430",
+          "text": "`-H`",
+          "correct": false
+        },
+        {
+          "id": "5938431",
+          "text": "`-v`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16059",
+      "prompt": "С помощью какого флага или опции для curl можно указать тип выполняемого запроса?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938435",
+          "text": "-M, --method",
+          "correct": false
+        },
+        {
+          "id": "5938436",
+          "text": "Дополнительные флаги и опции не требуются, надо просто указать перед URL нужный метод",
+          "correct": false
+        },
+        {
+          "id": "5938437",
+          "text": "-X, --request",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "curl",
+    "lessonName": "Curl",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/curl/quiz_unit",
+    "lessonId": 5542
+  }
+}

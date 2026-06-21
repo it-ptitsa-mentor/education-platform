@@ -1,0 +1,124 @@
+{
+  "slug": "css-content-box-model",
+  "title": "Блочная модель и CSS",
+  "questions": [
+    {
+      "id": "16064",
+      "prompt": "Что такое внутренние отступы (padding) в блочной модели?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867617",
+          "text": "Отступы между элементами на странице",
+          "correct": false
+        },
+        {
+          "id": "5867618",
+          "text": "Отступы между границей элемента и краем окна браузера",
+          "correct": false
+        },
+        {
+          "id": "5867619",
+          "text": "Отступы между содержимым элемента и его границей",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16065",
+      "prompt": "Какое свойство характеризует границы блочной модели?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867620",
+          "text": "padding",
+          "correct": false
+        },
+        {
+          "id": "5867621",
+          "text": "margin",
+          "correct": false
+        },
+        {
+          "id": "5867622",
+          "text": "border",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16066",
+      "prompt": "Что произойдет, если установить значение `margin: 0 auto` для блочного элемента?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867623",
+          "text": "Элемент будет выровнен по левому краю",
+          "correct": false
+        },
+        {
+          "id": "5867624",
+          "text": "Элемент будет растянут на всю ширину",
+          "correct": false
+        },
+        {
+          "id": "5867625",
+          "text": "Элемент будет выровнен по центру",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16067",
+      "prompt": "Как изменится поведение элемента при установке `display: inline`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867626",
+          "text": "Элемент станет блочным и займет всю ширину",
+          "correct": false
+        },
+        {
+          "id": "5867627",
+          "text": "Элемент будет располагаться под другими элементами",
+          "correct": false
+        },
+        {
+          "id": "5867628",
+          "text": "Элемент станет строчным и не будет иметь высоты и ширины",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16068",
+      "prompt": "Какое значение свойства `box-sizing` не добавляет padding и border в общей ширине элемента?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867629",
+          "text": "padding-box",
+          "correct": false
+        },
+        {
+          "id": "5867630",
+          "text": "content-box",
+          "correct": false
+        },
+        {
+          "id": "5867631",
+          "text": "border-box",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "box-model",
+    "lessonName": "Блочная модель и CSS",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/box-model/quiz_unit",
+    "lessonId": 2444
+  }
+}

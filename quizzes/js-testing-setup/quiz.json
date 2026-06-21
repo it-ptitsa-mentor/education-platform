@@ -1,0 +1,85 @@
+{
+  "slug": "js-testing-setup",
+  "title": "Подготовка данных",
+  "questions": [
+    {
+      "id": "5505",
+      "prompt": "Какой хук нужно использовать для кода, который должен выполниться ровно один раз перед запуском всех тестов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994879",
+          "text": "beforeEach",
+          "correct": false
+        },
+        {
+          "id": "5994880",
+          "text": "В Jest нет такого хука",
+          "correct": false
+        },
+        {
+          "id": "5994881",
+          "text": "Этот код нужно вызывать на уровне модуля, вне функций Jest",
+          "correct": false
+        },
+        {
+          "id": "5994882",
+          "text": "beforeAll",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5506",
+      "prompt": "Как обеспечить в тестах доступ к данным, созданным внутри хуков Jest?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994883",
+          "text": "Это невозможно",
+          "correct": false
+        },
+        {
+          "id": "5994884",
+          "text": "Через _this_",
+          "correct": false
+        },
+        {
+          "id": "5994885",
+          "text": "Через переменные, определенные на уровне модуля",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5507",
+      "prompt": "Что нужно учитывать при работе с хуками Jest?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994889",
+          "text": "Нельзя создавать более одной переменной для каждого хука Jest",
+          "correct": false
+        },
+        {
+          "id": "5994890",
+          "text": "Тесты не должны влиять друг на друга. Данные всегда должны пересоздаваться заново после каждого теста.",
+          "correct": true
+        },
+        {
+          "id": "5994891",
+          "text": "Матчеры должны находиться внутри тестов, а не хуков Jest",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "setup",
+    "lessonName": "Подготовка данных",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/setup/quiz_unit",
+    "lessonId": 1414
+  }
+}

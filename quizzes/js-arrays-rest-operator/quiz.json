@@ -1,0 +1,95 @@
+{
+  "slug": "js-arrays-rest-operator",
+  "title": "Rest и деструктуризация",
+  "questions": [
+    {
+      "id": "6378",
+      "prompt": "Что выведет на экран код?\n\n```javascript\nconst [first, ...second] = [1, [2, 3]];\nconsole.log(second); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992006",
+          "text": "[]",
+          "correct": false
+        },
+        {
+          "id": "5992007",
+          "text": "[2, 3]",
+          "correct": false
+        },
+        {
+          "id": "5992008",
+          "text": "[[2, 3]]",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6379",
+      "prompt": "Что выведет на экран код?\n\n```javascript\nconst [first, second, ...rest] = [1, 2, 3];\nconsole.log(rest); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992009",
+          "text": "[]",
+          "correct": false
+        },
+        {
+          "id": "5992010",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5992011",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "5992012",
+          "text": "[3]",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6380",
+      "prompt": "Что выведет на экран код?\n\n```javascript\nconst [...rest] = [1, 2, 3];\nconsole.log(rest); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992013",
+          "text": "[]",
+          "correct": false
+        },
+        {
+          "id": "5992014",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5992015",
+          "text": "[2, 3]",
+          "correct": false
+        },
+        {
+          "id": "5992016",
+          "text": "[3]",
+          "correct": false
+        },
+        {
+          "id": "5992017",
+          "text": "[1, 2, 3]",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "rest-operator",
+    "lessonName": "Rest и деструктуризация",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/rest-operator/quiz_unit",
+    "lessonId": 1743
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "slug": "css-content-pseudoclasses",
+  "title": "Псевдоклассы",
+  "questions": [
+    {
+      "id": "6616",
+      "prompt": "Какие события есть у ссылки?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867839",
+          "text": "Взгляд",
+          "correct": false
+        },
+        {
+          "id": "5867840",
+          "text": "Удаление",
+          "correct": false
+        },
+        {
+          "id": "5867841",
+          "text": "Переименование",
+          "correct": false
+        },
+        {
+          "id": "5867842",
+          "text": "Наведение",
+          "correct": true
+        },
+        {
+          "id": "5867843",
+          "text": "Переход",
+          "correct": true
+        },
+        {
+          "id": "5867844",
+          "text": "Нажатие",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22850",
+      "prompt": "Какой псевдокласс отвечает за событие наведения на элемент?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867845",
+          "text": "`:focus`",
+          "correct": false
+        },
+        {
+          "id": "5867846",
+          "text": "`:active`",
+          "correct": false
+        },
+        {
+          "id": "5867847",
+          "text": "`:visited`",
+          "correct": false
+        },
+        {
+          "id": "5867848",
+          "text": "`:hover`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6618",
+      "prompt": "К какому элементу можно применить псевдокласс `:hover`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867849",
+          "text": "К ссылкам",
+          "correct": false
+        },
+        {
+          "id": "5867850",
+          "text": "К строчным элементам",
+          "correct": false
+        },
+        {
+          "id": "5867851",
+          "text": "К блочным элементам",
+          "correct": false
+        },
+        {
+          "id": "5867852",
+          "text": "К любому",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6619",
+      "prompt": "Какое событие возникает при переходе к элементу с помощью клавиатуры?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867853",
+          "text": "`active`",
+          "correct": false
+        },
+        {
+          "id": "5867854",
+          "text": "`visited`",
+          "correct": false
+        },
+        {
+          "id": "5867855",
+          "text": "`hover`",
+          "correct": false
+        },
+        {
+          "id": "5867856",
+          "text": "focus",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6620",
+      "prompt": "Какой последовательности соответствует выражение `2n + 2`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867857",
+          "text": "1, 3, 5, 7...",
+          "correct": false
+        },
+        {
+          "id": "5867858",
+          "text": "4, 6, 8, 10...",
+          "correct": false
+        },
+        {
+          "id": "5867859",
+          "text": "Здесь ошибка",
+          "correct": false
+        },
+        {
+          "id": "5867860",
+          "text": "2, 4, 6, 8...",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6621",
+      "prompt": "Какого цвета будет цифра 2?\n\n```css\nspan {\n  color: green;\n}\n\nsection span:nth-of-type(even) {\n  color: red;\n}\n\nsection span:nth-of-type(odd) {\n  color: blue;\n}\n```\n\n```html\n<section>\n  <h2>Цифры</h2>\n\n  <h3>Нечетные</h3>\n  <span>1</span>\n\n  <h3>Четные</h3>\n  <span>2</span>\n</section>\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867861",
+          "text": "`blue`",
+          "correct": false
+        },
+        {
+          "id": "5867862",
+          "text": "`green`",
+          "correct": false
+        },
+        {
+          "id": "5867863",
+          "text": "`red`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "pseudoclasses",
+    "lessonName": "Псевдоклассы",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/pseudoclasses/quiz_unit",
+    "lessonId": 1888
+  }
+}

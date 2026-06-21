@@ -1,0 +1,112 @@
+{
+  "slug": "css-positioning-z-index",
+  "title": "Наложение элементов",
+  "questions": [
+    {
+      "id": "6162",
+      "prompt": "По какой оси происходят изменения при использовании свойства `z-index`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989187",
+          "text": "x",
+          "correct": false
+        },
+        {
+          "id": "5989188",
+          "text": "y",
+          "correct": false
+        },
+        {
+          "id": "5989189",
+          "text": "z",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6163",
+      "prompt": "С какими элементами работает z-index?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989190",
+          "text": "С любыми элементами",
+          "correct": false
+        },
+        {
+          "id": "5989191",
+          "text": "С выбранными элементами",
+          "correct": false
+        },
+        {
+          "id": "5989192",
+          "text": "С плавающими элементами",
+          "correct": false
+        },
+        {
+          "id": "5989193",
+          "text": "С любыми элементами, которые имеют позиционирование отличное от стандартного",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6164",
+      "prompt": "В каком порядке накладываются элементы с абсолютным позиционированием по умолчанию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989194",
+          "text": "В порядке, обратном тому, в котором они определены внутри HTML-документа",
+          "correct": false
+        },
+        {
+          "id": "5989195",
+          "text": "В произвольном порядке",
+          "correct": false
+        },
+        {
+          "id": "5989196",
+          "text": "В рандомном порядке",
+          "correct": false
+        },
+        {
+          "id": "5989197",
+          "text": "В том порядке, в котором они определены внутри HTML-документа",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6165",
+      "prompt": "Какие значения может принимать свойство z-index?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989198",
+          "text": "Любые целые, включая отрицательные, но без ноля",
+          "correct": false
+        },
+        {
+          "id": "5989199",
+          "text": "Любые целые положительные значения",
+          "correct": false
+        },
+        {
+          "id": "5989200",
+          "text": "Любые целые, включая отрицательные и ноль",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-positioning",
+    "courseName": "CSS — Расположение и макеты",
+    "lessonSlug": "z-index",
+    "lessonName": "Наложение элементов",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-positioning/lessons/z-index/quiz_unit",
+    "lessonId": 1529
+  }
+}

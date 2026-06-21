@@ -1,0 +1,100 @@
+{
+  "slug": "employment-how-to-pass-the-interview-without-stress",
+  "title": "Борьба со стрессом",
+  "questions": [
+    {
+      "id": "9721",
+      "prompt": "Что помогает снизить тревогу перед собеседованием?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989515",
+          "text": "Хождение из угла в угол",
+          "correct": false
+        },
+        {
+          "id": "5989516",
+          "text": "Думскроллинг",
+          "correct": false
+        },
+        {
+          "id": "5989517",
+          "text": "Анализ и изменение мыслей",
+          "correct": true
+        },
+        {
+          "id": "5989518",
+          "text": "Содержательная подготовка",
+          "correct": true
+        },
+        {
+          "id": "5989519",
+          "text": "Психологическая подготовка",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9722",
+      "prompt": "Что входит в содержательную подготовку?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989520",
+          "text": "Поиск всех своих дипломов, сертификатов и наград",
+          "correct": false
+        },
+        {
+          "id": "5989521",
+          "text": "Поиск информации о компании",
+          "correct": true
+        },
+        {
+          "id": "5989522",
+          "text": "Подготовка вопросов к интервьюеру",
+          "correct": true
+        },
+        {
+          "id": "5989523",
+          "text": "Репетиция самопрезентации",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9723",
+      "prompt": "Что можно сделать, чтобы унять волнение на самом собеседовании?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989524",
+          "text": "Почувствовать себя как дома",
+          "correct": false
+        },
+        {
+          "id": "5989525",
+          "text": "Поставить себя выше интервьюера",
+          "correct": false
+        },
+        {
+          "id": "5989526",
+          "text": "Озвучить свои эмоции и состояние",
+          "correct": true
+        },
+        {
+          "id": "5989527",
+          "text": "Представить, что вы уже наняты и осталось ответить на несложные вопросы",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "employment",
+    "courseName": "Трудоустройство",
+    "lessonSlug": "how-to-pass-the-interview-without-stress",
+    "lessonName": "Борьба со стрессом",
+    "sourceUrl": "https://ru.hexlet.io/courses/employment/lessons/how-to-pass-the-interview-without-stress/quiz_unit",
+    "lessonId": 2377
+  }
+}

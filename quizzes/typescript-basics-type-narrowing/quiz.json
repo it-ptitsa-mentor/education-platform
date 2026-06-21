@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-type-narrowing",
+  "title": "Сужение типов",
+  "questions": [
+    {
+      "id": "11521",
+      "prompt": "Что такое Narrowing в TypeScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957074",
+          "text": "Это процесс преобразования типов данных в широкие типы",
+          "correct": false
+        },
+        {
+          "id": "5957075",
+          "text": "Это объединение всех механизмов работы с типами",
+          "correct": false
+        },
+        {
+          "id": "5957076",
+          "text": "Это процесс перевода конкретного типа данных в более узкий тип",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11522",
+      "prompt": "Выберите наиболее узкий тип:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957077",
+          "text": "`number | string`",
+          "correct": false
+        },
+        {
+          "id": "5957078",
+          "text": "`any`",
+          "correct": false
+        },
+        {
+          "id": "5957079",
+          "text": "`number`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21950",
+      "prompt": "Какое строковое значение должно использоваться во второй проверке `typeof`, чтобы корректно обрабатывать булевы значения?\n```typescript\nfunction format(value: number | boolean) {\n  if (typeof value === 'number') {\n    return value.toFixed(2);\n  }\n  if (typeof value === '???') {\n    return value ? '01' : '00';\n  }\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957080",
+          "text": "`'string'`",
+          "correct": false
+        },
+        {
+          "id": "5957081",
+          "text": "`'object'`",
+          "correct": false
+        },
+        {
+          "id": "5957082",
+          "text": "`'number'`",
+          "correct": false
+        },
+        {
+          "id": "5957083",
+          "text": "`'boolean'`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "type-narrowing",
+    "lessonName": "Сужение типов",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/type-narrowing/quiz_unit",
+    "lessonId": 3800
+  }
+}

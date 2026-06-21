@@ -1,0 +1,112 @@
+{
+  "slug": "js-introduction-to-oop-this",
+  "title": "Контекст (This)",
+  "questions": [
+    {
+      "id": "6052",
+      "prompt": "Что такое метод?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993838",
+          "text": "Особый тип функций, которые могут существовать только внутри объектов",
+          "correct": false
+        },
+        {
+          "id": "5993839",
+          "text": "Функция внутри которой используется this",
+          "correct": false
+        },
+        {
+          "id": "5993840",
+          "text": "Функция, записанная в свойство объекта",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6053",
+      "prompt": "Можно ли вызывать методы как обычные функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993841",
+          "text": "Зависит от того, используется ли внутри `this` или нет",
+          "correct": false
+        },
+        {
+          "id": "5993842",
+          "text": "Да, но только через метод `call()`",
+          "correct": false
+        },
+        {
+          "id": "5993843",
+          "text": "Да, ведь это обычные функции",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6054",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993844",
+          "text": "`this` всегда привязан к одному и тому же объекту",
+          "correct": false
+        },
+        {
+          "id": "5993845",
+          "text": "Методы можно добавлять только во время создания объекта",
+          "correct": false
+        },
+        {
+          "id": "5993846",
+          "text": "Функции это объекты",
+          "correct": true
+        },
+        {
+          "id": "5993847",
+          "text": "Контекст любого метода можно подменить через функцию `call()`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6058",
+      "prompt": "Что выведется на экран?\n\n```javascript\nconst obj = { data: '123' };\nconst append = function (text) {\n  return `${this.data}${text}`;\n};\nobj.append = append;\nconsole.log(obj.append('45'));\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993848",
+          "text": "45",
+          "correct": false
+        },
+        {
+          "id": "5993849",
+          "text": "undefined45",
+          "correct": false
+        },
+        {
+          "id": "5993850",
+          "text": "123",
+          "correct": false
+        },
+        {
+          "id": "5993851",
+          "text": "12345",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "this",
+    "lessonName": "Контекст (This)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/this/quiz_unit",
+    "lessonId": 1683
+  }
+}

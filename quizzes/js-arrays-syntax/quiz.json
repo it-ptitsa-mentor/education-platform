@@ -1,0 +1,95 @@
+{
+  "slug": "js-arrays-syntax",
+  "title": "Синтаксис",
+  "questions": [
+    {
+      "id": "5908",
+      "prompt": "Что выведет на экран следующий код?\n\n```javascript\nconst animals = ['cats', 'birds', 'dogs'];\nconsole.log(animals[1]);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991645",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5991646",
+          "text": "cats",
+          "correct": false
+        },
+        {
+          "id": "5991647",
+          "text": "dogs",
+          "correct": false
+        },
+        {
+          "id": "5991648",
+          "text": "birds",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22380",
+      "prompt": "Какой индекс нужно использовать, чтобы вывести `Moscow` из массива?\n\n```javascript\nconst cities = ['Moscow', 'Dubai', 'Bangkok'];\nconsole.log(cities[__]); // => Moscow\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991650",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5991652",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5991654",
+          "text": "-1",
+          "correct": false
+        },
+        {
+          "id": "5991655",
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5658",
+      "prompt": "Что выведет на экран следующий код?\n\n```javascript\nconst animals = ['cats', 'birds', 'dogs'];\nconsole.log(animals.at(-1));\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991658",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5991660",
+          "text": "cats",
+          "correct": false
+        },
+        {
+          "id": "5991662",
+          "text": "birds",
+          "correct": false
+        },
+        {
+          "id": "5991663",
+          "text": "dogs",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "syntax",
+    "lessonName": "Синтаксис",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/syntax/quiz_unit",
+    "lessonId": 1602
+  }
+}

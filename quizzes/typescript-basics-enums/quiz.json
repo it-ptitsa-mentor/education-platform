@@ -1,0 +1,80 @@
+{
+  "slug": "typescript-basics-enums",
+  "title": "Перечисления",
+  "questions": [
+    {
+      "id": "11518",
+      "prompt": "Можно ли задавать числовые значения для каждого элемента Enums?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956844",
+          "text": "Нет, нельзя",
+          "correct": false
+        },
+        {
+          "id": "5956845",
+          "text": "Да, можно, но только если числа идут по порядку",
+          "correct": false
+        },
+        {
+          "id": "5956846",
+          "text": "Да, можно",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11519",
+      "prompt": "Может ли два элемента Enums иметь одинаковое числовое значение?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5956847",
+          "text": "Нет, не может",
+          "correct": false
+        },
+        {
+          "id": "5956848",
+          "text": "Зависит от условий",
+          "correct": true
+        },
+        {
+          "id": "5956849",
+          "text": "Да, если задать одинаковые значения вручную",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11520",
+      "prompt": "Как в Enums можно избавиться от дополнительных числовых ключей вида 0, 1, 2 и так далее?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956850",
+          "text": "Указать строковые ключи",
+          "correct": false
+        },
+        {
+          "id": "5956851",
+          "text": "Это невозможно",
+          "correct": false
+        },
+        {
+          "id": "5956852",
+          "text": "Указать строковые значения",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "enums",
+    "lessonName": "Перечисления",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/enums/quiz_unit",
+    "lessonId": 3842
+  }
+}

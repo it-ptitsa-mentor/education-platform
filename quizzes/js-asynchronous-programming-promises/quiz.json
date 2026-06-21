@@ -1,0 +1,80 @@
+{
+  "slug": "js-asynchronous-programming-promises",
+  "title": "Промисы (Promise)",
+  "questions": [
+    {
+      "id": "5159",
+      "prompt": "Для чего нужны промисы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991935",
+          "text": "Промисы дают возможность получить преимущества асинхронного кода без асинхронности",
+          "correct": false
+        },
+        {
+          "id": "5991936",
+          "text": "Промисы открывают новые возможности, которые невозможно получить используя колбеки",
+          "correct": false
+        },
+        {
+          "id": "5991937",
+          "text": "Промисы это удобная абстракция для написания асинхронного кода.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5160",
+      "prompt": "Выберите верное утверждение",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991938",
+          "text": "Код на промисах невозможно переписать на код с колбеками",
+          "correct": false
+        },
+        {
+          "id": "5991939",
+          "text": "Код с колбеками невозможно переписать на код с промисами",
+          "correct": false
+        },
+        {
+          "id": "5991940",
+          "text": "Любой код с промисами можно заменить на колбеки и наоборот",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5161",
+      "prompt": "Что такое промис с технической точки зрения?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991941",
+          "text": "Результат выполнения асинхронной операции",
+          "correct": false
+        },
+        {
+          "id": "5991943",
+          "text": "Функция с именем `then`",
+          "correct": false
+        },
+        {
+          "id": "5991945",
+          "text": "Объект, который описывает состояние операции выполняющейся внутри него",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-asynchronous-programming",
+    "courseName": "JS: Асинхронное программирование",
+    "lessonSlug": "promises",
+    "lessonName": "Промисы (Promise)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-asynchronous-programming/lessons/promises/quiz_unit",
+    "lessonId": 1285
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "js-basics-ternary-operator",
+  "title": "Тернарный оператор",
+  "questions": [
+    {
+      "id": "8560",
+      "prompt": "Проанализируйте следующий код:\n\n```javascript\n// функция-предикат определяет, является ли число num четным\nconst isEven = (num) => {\n  return num % 2 === 0;\n}\n\n// функция увеличивает полученное число num на 10\nconst increaseNum = (num) => {\n  return num + 10;\n}\n\nconst num = 6;\n\nconst result = isEven(increaseNum(num) + 1) ? num + 1 : 1 - num;\n```\n\nЧто будет находиться в переменной `result` после его выполнения?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992479",
+          "text": "7",
+          "correct": false
+        },
+        {
+          "id": "5992480",
+          "text": "16",
+          "correct": false
+        },
+        {
+          "id": "5992481",
+          "text": "17",
+          "correct": false
+        },
+        {
+          "id": "5992482",
+          "text": "`true`",
+          "correct": false
+        },
+        {
+          "id": "5992483",
+          "text": "-5",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8561",
+      "prompt": "Что можно сказать о коде ниже?\n\n```\nconst num = 3;\nconst result = num === 2 ? 'two' : num === 3 ? 'three' : 'other number';\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992484",
+          "text": "Ничего особенного, код как код",
+          "correct": false
+        },
+        {
+          "id": "5992485",
+          "text": "В результате в переменной `result` окажется строка _two_",
+          "correct": false
+        },
+        {
+          "id": "5992486",
+          "text": "В коде один тернарный оператор вложен в другой. Так делать категорически нельзя. Кстати, в `result` будет записана строка _three_",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8562",
+      "prompt": "Этот скрипт определяет оценку в зависимости от набранных в тесте баллов:\n\n```javascript\nconst testScore = 10;\nconst result = testScore < 10 ? 'bad' : 'good';\nconsole.log(result);\n```\n\nЧто будет выведено на экран?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992487",
+          "text": "bad",
+          "correct": false
+        },
+        {
+          "id": "5992488",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5992489",
+          "text": "good",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "ternary-operator",
+    "lessonName": "Тернарный оператор",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/ternary-operator/quiz_unit",
+    "lessonId": 2637
+  }
+}

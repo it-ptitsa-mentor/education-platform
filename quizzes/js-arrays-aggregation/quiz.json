@@ -1,0 +1,100 @@
+{
+  "slug": "js-arrays-aggregation",
+  "title": "Агрегация",
+  "questions": [
+    {
+      "id": "5663",
+      "prompt": "Какой нейтральный элемент у операции умножения?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991752",
+          "text": "`''`",
+          "correct": false
+        },
+        {
+          "id": "5991753",
+          "text": "`null`",
+          "correct": false
+        },
+        {
+          "id": "5991754",
+          "text": "`0`",
+          "correct": false
+        },
+        {
+          "id": "5991755",
+          "text": "`1`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5664",
+      "prompt": "Предположим, что нам нужно самостоятельно написать функцию `uniq`, которая принимает на вход массив и возвращает новый массив, в который попали только уникальные значения из исходного массива. Чем будет являться нейтральный элемент при выполнении этой агрегации?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991756",
+          "text": "`1`",
+          "correct": false
+        },
+        {
+          "id": "5991757",
+          "text": "`null`",
+          "correct": false
+        },
+        {
+          "id": "5991758",
+          "text": "`0`",
+          "correct": false
+        },
+        {
+          "id": "5991759",
+          "text": "Исходный массив",
+          "correct": false
+        },
+        {
+          "id": "5991760",
+          "text": "`[]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5665",
+      "prompt": "Предположим, что нам нужно самостоятельно написать функцию `uniq`, которая принимает на вход массив и возвращает новый массив, в который попали только уникальные значения из исходного массива. Что должна вернуть функция `uniq`, если передать ей пустой массив?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991761",
+          "text": "`0`",
+          "correct": false
+        },
+        {
+          "id": "5991762",
+          "text": "Она должна завершиться с ошибкой",
+          "correct": false
+        },
+        {
+          "id": "5991763",
+          "text": "`null`",
+          "correct": false
+        },
+        {
+          "id": "5991764",
+          "text": "Пустой массив",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "aggregation",
+    "lessonName": "Агрегация",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/aggregation/quiz_unit",
+    "lessonId": 1604
+  }
+}

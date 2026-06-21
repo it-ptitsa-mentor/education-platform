@@ -1,0 +1,146 @@
+{
+  "slug": "http_protocol-http_x",
+  "title": "HTTP2 и HTTP3",
+  "questions": [
+    {
+      "id": "15495",
+      "prompt": "Какой из механизмов является ключевым преимуществом HTTP/2 над HTTP/1.1?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938826",
+          "text": "Использование текстового формата для передачи данных",
+          "correct": false
+        },
+        {
+          "id": "5938828",
+          "text": "Возможность отправки только одного запроса за раз",
+          "correct": false
+        },
+        {
+          "id": "5938830",
+          "text": "Мультиплексирование запросов в одном TCP-соединении",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15496",
+      "prompt": "Что такое \"head-of-line blocking\" в HTTP/1.1?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938834",
+          "text": "Шифрование заголовков запроса",
+          "correct": false
+        },
+        {
+          "id": "5938836",
+          "text": "Ограничение на количество заголовков в запросе",
+          "correct": false
+        },
+        {
+          "id": "5938838",
+          "text": "Блокировка последующих запросов из-за задержки обработки предыдущего запроса",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15497",
+      "prompt": "Какой формат данных используется в HTTP/2 для передачи информации?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938844",
+          "text": "Текстовый формат, как в HTTP/1.1",
+          "correct": false
+        },
+        {
+          "id": "5938847",
+          "text": "JSON формат для всех типов данных",
+          "correct": false
+        },
+        {
+          "id": "5938848",
+          "text": "Бинарный формат",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15498",
+      "prompt": "Что такое \"Server Push\" в HTTP/2?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938852",
+          "text": "Возможность сервера отправлять push-уведомления клиенту",
+          "correct": false
+        },
+        {
+          "id": "5938853",
+          "text": "Механизм принудительного обновления кэша браузера",
+          "correct": false
+        },
+        {
+          "id": "5938854",
+          "text": "Возможность сервера отправлять ресурсы клиенту до их запроса",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15499",
+      "prompt": "Какой протокол лежит в основе HTTP/3?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938855",
+          "text": "TCP, как и в HTTP/2",
+          "correct": false
+        },
+        {
+          "id": "5938856",
+          "text": "WebSocket",
+          "correct": false
+        },
+        {
+          "id": "5938857",
+          "text": "QUIC",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15500",
+      "prompt": "Как HTTP/2 решает проблему избыточности данных в заголовках?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938858",
+          "text": "Полностью удаляет заголовки из запросов",
+          "correct": false
+        },
+        {
+          "id": "5938859",
+          "text": "Использует JSON для компактного представления заголовков",
+          "correct": false
+        },
+        {
+          "id": "5938860",
+          "text": "Применяет сжатие заголовков с помощью HPACK",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "http_x",
+    "lessonName": "HTTP2 и HTTP3",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/http_x/quiz_unit",
+    "lessonId": 5153
+  }
+}

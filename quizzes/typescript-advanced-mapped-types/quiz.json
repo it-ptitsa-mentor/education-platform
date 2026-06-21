@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-advanced-mapped-types",
+  "title": "Сопоставление типов",
+  "questions": [
+    {
+      "id": "12990",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5893035",
+          "text": "Механизм поиска типов позволяет указать ключ на любой глубине вложенности",
+          "correct": false
+        },
+        {
+          "id": "5893036",
+          "text": "Поиск типа ничем не отличается от получения значения из объекта по ключу",
+          "correct": false
+        },
+        {
+          "id": "5893037",
+          "text": "В поиске типов можно делать объединение ключей",
+          "correct": true
+        },
+        {
+          "id": "5893038",
+          "text": "В поиске типов можно указывать необязательные ключи",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12991",
+      "prompt": "Какую задачу выполняет механизм поиска типов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5893039",
+          "text": "Получить значения указанных ключей, чтобы не дублировать данные",
+          "correct": false
+        },
+        {
+          "id": "5893040",
+          "text": "Получить типы ключей, для которых типы еще не известны",
+          "correct": false
+        },
+        {
+          "id": "5893041",
+          "text": "Получить тип, который будет включать все типы указанных ключей",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22766",
+      "prompt": "В типах, создаваемых через `Record`, выражение `[K in __]` перебирает ключи исходного типа.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5893042",
+          "text": "typeof",
+          "correct": false
+        },
+        {
+          "id": "5893043",
+          "text": "instanceof",
+          "correct": false
+        },
+        {
+          "id": "5893044",
+          "text": "keyof",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "mapped-types",
+    "lessonName": "Сопоставление типов",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/mapped-types/quiz_unit",
+    "lessonId": 4486
+  }
+}

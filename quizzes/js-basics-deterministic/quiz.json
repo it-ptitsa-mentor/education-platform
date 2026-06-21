@@ -1,0 +1,85 @@
+{
+  "slug": "js-basics-deterministic",
+  "title": "Детерминированность",
+  "questions": [
+    {
+      "id": "8496",
+      "prompt": "Является ли функция `length()` из урока детерминированной?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992330",
+          "text": "Нет, мы не знаем в каком виде будет возвращено число",
+          "correct": false
+        },
+        {
+          "id": "5992331",
+          "text": "Нет, эта функция изменяет исходное число",
+          "correct": false
+        },
+        {
+          "id": "5992332",
+          "text": "Да, на одних и тех же данных функция всегда вернет одинаковые значения",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8497",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992333",
+          "text": "Операция печати на экран – это аналог возврата значения из функции",
+          "correct": false
+        },
+        {
+          "id": "5992335",
+          "text": "Печать на экран не является побочным эффектом",
+          "correct": false
+        },
+        {
+          "id": "5992337",
+          "text": "Печать на экран является побочным эффектом функции",
+          "correct": true
+        },
+        {
+          "id": "5992339",
+          "text": "Функции с побочными эффектами нужно использовать осторожно, они могут стать источником проблем в коде",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8498",
+      "prompt": "Какое значение будет выведено на экран?\n\n```javascript\nMath.random();\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992342",
+          "text": "0.0985661311319767",
+          "correct": false
+        },
+        {
+          "id": "5992343",
+          "text": "1.0985661311319767",
+          "correct": false
+        },
+        {
+          "id": "5992344",
+          "text": "Невозможно предсказать, т.к. функция `Math.random()` недетерминированная",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "deterministic",
+    "lessonName": "Детерминированность",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/deterministic/quiz_unit",
+    "lessonId": 2624
+  }
+}

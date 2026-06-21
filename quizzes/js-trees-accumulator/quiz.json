@@ -1,0 +1,85 @@
+{
+  "slug": "js-trees-accumulator",
+  "title": "Аккумулятор",
+  "questions": [
+    {
+      "id": "6289",
+      "prompt": "На сколько увеличивается глубина при проваливании на следующий уровень вложенности?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994956",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "5994957",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5994958",
+          "text": "1",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6290",
+      "prompt": "Сколько может быть аккумуляторов у рекурсивной функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994963",
+          "text": "Только один",
+          "correct": false
+        },
+        {
+          "id": "5994964",
+          "text": "Не больше двух",
+          "correct": false
+        },
+        {
+          "id": "5994965",
+          "text": "Любое количество",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6291",
+      "prompt": "Что вернет данный код?\n\n```javascript\nconst items = [[1], [], [2, 2]];\nitems.flatMap((item) => item); // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994969",
+          "text": "`[[1], [], [2, 2]]`",
+          "correct": false
+        },
+        {
+          "id": "5994970",
+          "text": "`[1, [], 2, 2]`",
+          "correct": false
+        },
+        {
+          "id": "5994971",
+          "text": "`[[]]`",
+          "correct": false
+        },
+        {
+          "id": "5994972",
+          "text": "`[1, 2, 2]`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "accumulator",
+    "lessonName": "Аккумулятор",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/accumulator/quiz_unit",
+    "lessonId": 1735
+  }
+}

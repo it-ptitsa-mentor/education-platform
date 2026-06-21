@@ -1,0 +1,80 @@
+{
+  "slug": "typescript-advanced-interfaces-overview",
+  "title": "Интерфейсы",
+  "questions": [
+    {
+      "id": "12954",
+      "prompt": "Могут ли интерфейсы содержать реализацию метода?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892905",
+          "text": "Могут, но только статических методов",
+          "correct": false
+        },
+        {
+          "id": "5892906",
+          "text": "Да",
+          "correct": false
+        },
+        {
+          "id": "5892907",
+          "text": "Нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12955",
+      "prompt": "Что из интерфейса должен реализовывать класс?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892908",
+          "text": "Зависит от класса",
+          "correct": false
+        },
+        {
+          "id": "5892909",
+          "text": "Только методы",
+          "correct": false
+        },
+        {
+          "id": "5892910",
+          "text": "Все поля и методы",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22762",
+      "prompt": "В объекте, реализующем интерфейс `IUser`, нужно указать поле __ из списка обязательных свойств.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892911",
+          "text": "login",
+          "correct": false
+        },
+        {
+          "id": "5892912",
+          "text": "username",
+          "correct": false
+        },
+        {
+          "id": "5892913",
+          "text": "password",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "interfaces-overview",
+    "lessonName": "Интерфейсы",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/interfaces-overview/quiz_unit",
+    "lessonId": 4475
+  }
+}

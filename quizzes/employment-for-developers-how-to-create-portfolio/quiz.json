@@ -1,0 +1,95 @@
+{
+  "slug": "employment-for-developers-how-to-create-portfolio",
+  "title": "Портфолио: стажировка в открытых проектах",
+  "questions": [
+    {
+      "id": "9915",
+      "prompt": "Чем полезно участие в Open Source проектах?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989597",
+          "text": "Это пустая трата времени",
+          "correct": false
+        },
+        {
+          "id": "5989598",
+          "text": "Они помогают сразу заработать",
+          "correct": false
+        },
+        {
+          "id": "5989599",
+          "text": "Они помогают набраться практического опыта",
+          "correct": true
+        },
+        {
+          "id": "5989600",
+          "text": "Они помогают в трудоустройстве",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9916",
+      "prompt": "Кому можно участвовать в Open Source проектах?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989604",
+          "text": "Только опытным программистам",
+          "correct": false
+        },
+        {
+          "id": "5989605",
+          "text": "Студентам",
+          "correct": true
+        },
+        {
+          "id": "5989606",
+          "text": "Новичкам",
+          "correct": true
+        },
+        {
+          "id": "5989607",
+          "text": "Специалистам",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9917",
+      "prompt": "Чем удобен профиль на GitHub для трудоустройства?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989608",
+          "text": "Можно найти некачественный код, так как все изменения открыты",
+          "correct": false
+        },
+        {
+          "id": "5989609",
+          "text": "Все проекты лежат в одном месте",
+          "correct": true
+        },
+        {
+          "id": "5989610",
+          "text": "Видна персональная информация специалиста",
+          "correct": true
+        },
+        {
+          "id": "5989611",
+          "text": "Можно увидеть код и оценить его",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "employment-for-developers",
+    "courseName": "Трудоустройство для разработчиков",
+    "lessonSlug": "how-to-create-portfolio",
+    "lessonName": "Портфолио: стажировка в открытых проектах",
+    "sourceUrl": "https://ru.hexlet.io/courses/employment-for-developers/lessons/how-to-create-portfolio/quiz_unit",
+    "lessonId": 3073
+  }
+}

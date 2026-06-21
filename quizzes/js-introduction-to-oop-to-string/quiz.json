@@ -1,0 +1,70 @@
+{
+  "slug": "js-introduction-to-oop-to-string",
+  "title": "toString()",
+  "questions": [
+    {
+      "id": "6096",
+      "prompt": "Почему метод `toString()` особенный?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993945",
+          "text": "Тук тук Нео",
+          "correct": false
+        },
+        {
+          "id": "5993946",
+          "text": "Его невозможно вызвать напрямую",
+          "correct": false
+        },
+        {
+          "id": "5993947",
+          "text": "Он вызывается автоматически в тех ситуациях, когда объект используют как строку.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6097",
+      "prompt": "Вызовется ли `toString()` автоматически в данной ситуации?\n\n```javascript\nconst value = `Hello ${user}`;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993950",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5993952",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6098",
+      "prompt": "Вызовется ли `toString()` автоматически в данной ситуации?\n\n```javascript\nconst value = 'Hello ' +  user;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993953",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5993954",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "to-string",
+    "lessonName": "toString()",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/to-string/quiz_unit",
+    "lessonId": 1681
+  }
+}

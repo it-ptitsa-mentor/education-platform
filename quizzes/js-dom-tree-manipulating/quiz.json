@@ -1,0 +1,107 @@
+{
+  "slug": "js-dom-tree-manipulating",
+  "title": "Манипулирование DOM-деревом",
+  "questions": [
+    {
+      "id": "3897",
+      "prompt": "К каким последствиям приводят изменения DOM в браузере?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993008",
+          "text": "Изменения влияют на серверный код",
+          "correct": false
+        },
+        {
+          "id": "5993009",
+          "text": "Изменения происходят во всех вкладках в браузере",
+          "correct": false
+        },
+        {
+          "id": "5993010",
+          "text": "Изменения происходят только в конкретной вкладке в браузере",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3898",
+      "prompt": "Какой способ вставки текста в элемент считается предпочтительным?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993011",
+          "text": "innerHTML",
+          "correct": false
+        },
+        {
+          "id": "5993012",
+          "text": "textContent, потому что он не интерпретирует теги, встречающиеся в тексте",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3899",
+      "prompt": "Выберите верные утверждения о коде ниже:\n\n```javascript\nconst p = document.createElement('p');\n\n// Способ 1\nconst textNode = document.createTextNode('life is life');\np.append(textNode);\n\n// Способ 2\np.textContent = 'life is life';\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993013",
+          "text": "Это равноценные способы добавления текста",
+          "correct": false
+        },
+        {
+          "id": "5993014",
+          "text": "textContent удаляет всех потомков и заменяет их текстовым узлом",
+          "correct": true
+        },
+        {
+          "id": "5993015",
+          "text": "append добавляет текстовый узел в конец списка детей",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3989",
+      "prompt": "Какой метод позволяет добавить узел первым ребенком соответствующего узла?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993016",
+          "text": "append",
+          "correct": false
+        },
+        {
+          "id": "5993017",
+          "text": "after",
+          "correct": false
+        },
+        {
+          "id": "5993018",
+          "text": "replaceWith",
+          "correct": false
+        },
+        {
+          "id": "5993019",
+          "text": "before",
+          "correct": false
+        },
+        {
+          "id": "5993020",
+          "text": "prepend",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "tree-manipulating",
+    "lessonName": "Манипулирование DOM-деревом",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/tree-manipulating/quiz_unit",
+    "lessonId": 907
+  }
+}

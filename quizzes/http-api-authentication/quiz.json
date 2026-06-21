@@ -1,0 +1,102 @@
+{
+  "slug": "http-api-authentication",
+  "title": "Аутентификация в HTTP API",
+  "questions": [
+    {
+      "id": "15947",
+      "prompt": "Что такое аутентификация?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008428",
+          "text": "Выдача пользователю прав на определенные действия",
+          "correct": false
+        },
+        {
+          "id": "6008429",
+          "text": "Шифрование данных пользователя",
+          "correct": false
+        },
+        {
+          "id": "6008430",
+          "text": "Проверка подлинности пользователя",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15948",
+      "prompt": "Зачем нужна аутентификация в приложении?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008431",
+          "text": "Она повышает производительность приложений",
+          "correct": false
+        },
+        {
+          "id": "6008432",
+          "text": "Она оптимизирует работу сети",
+          "correct": false
+        },
+        {
+          "id": "6008433",
+          "text": "Она обеспечивает безопасность пользовательских данных",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15949",
+      "prompt": "Какой заголовок HTTP используется для передачи Bearer токена?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008434",
+          "text": "`Bearer`",
+          "correct": false
+        },
+        {
+          "id": "6008435",
+          "text": "`Authentication`",
+          "correct": false
+        },
+        {
+          "id": "6008436",
+          "text": "`Authorization`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15950",
+      "prompt": "В чем основное отличие Bearer-токена и API-ключа?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008440",
+          "text": "Отличий нет, это разные названия одного понятия",
+          "correct": false
+        },
+        {
+          "id": "6008441",
+          "text": "В способе передачи. Bearer-токен передается в заголовке, а API-ключ только в теле",
+          "correct": false
+        },
+        {
+          "id": "6008442",
+          "text": "В способе получения. Bearer-токен запрашивается из кода, а API-ключ копируется в запрос из веб-интерфейса",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "authentication",
+    "lessonName": "Аутентификация в HTTP API",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/authentication/quiz_unit",
+    "lessonId": 2592
+  }
+}

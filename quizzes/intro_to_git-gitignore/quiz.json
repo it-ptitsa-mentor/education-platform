@@ -1,0 +1,139 @@
+{
+  "slug": "intro_to_git-gitignore",
+  "title": "Игнорирование файлов",
+  "questions": [
+    {
+      "id": "7203",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937918",
+          "text": "Команда `git init` автоматически создает файл *.gitignore*",
+          "correct": false
+        },
+        {
+          "id": "5937919",
+          "text": "Файл *.gitignore* не нужно добавлять в репозиторий",
+          "correct": false
+        },
+        {
+          "id": "5937920",
+          "text": "Файл *.gitignore* нужно создать самостоятельно",
+          "correct": true
+        },
+        {
+          "id": "5937921",
+          "text": "Файл с описанием правил игнорирования должен называться *.gitignore*",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6542",
+      "prompt": "Что произойдет, если добавить в *.gitignore* файл, который уже был в репозитории?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937922",
+          "text": "Файл удалится в рабочей директории",
+          "correct": false
+        },
+        {
+          "id": "5937923",
+          "text": "Файл удалится из репозитория",
+          "correct": false
+        },
+        {
+          "id": "5937924",
+          "text": "Ничего",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6543",
+      "prompt": "Какие файлы обычно игнорируются?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937925",
+          "text": "Файлы с кодом",
+          "correct": false
+        },
+        {
+          "id": "5937926",
+          "text": "Зависимости",
+          "correct": true
+        },
+        {
+          "id": "5937927",
+          "text": "Файлы, создаваемые редакторами",
+          "correct": true
+        },
+        {
+          "id": "5937928",
+          "text": "Временные файлы",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6544",
+      "prompt": "Что будет проигнорировано, если содержимое *.gitignore* выглядит так?\n\n```text\nnode_modules/\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937929",
+          "text": "Первая попавшаяся в репозитории директория *node_modules*",
+          "correct": false
+        },
+        {
+          "id": "5937930",
+          "text": "Директория *node_modules*, находящаяся в корне проектов",
+          "correct": false
+        },
+        {
+          "id": "5937931",
+          "text": "Все директории *node_modules* внутри репозитория на любом уровне",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22394",
+      "prompt": "Какую строку нужно добавить вместо `__`, чтобы *.gitignore* игнорировал только директорию `node_modules/` в корне проекта?\n\n```text\naccess.log\n__\n/coverage/\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937932",
+          "text": "node_modules/",
+          "correct": false
+        },
+        {
+          "id": "5937933",
+          "text": "*/node_modules/",
+          "correct": false
+        },
+        {
+          "id": "5937934",
+          "text": "node_modules/*",
+          "correct": false
+        },
+        {
+          "id": "5937935",
+          "text": "/node_modules/",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "gitignore",
+    "lessonName": "Игнорирование файлов",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/gitignore/quiz_unit",
+    "lessonId": 1841
+  }
+}

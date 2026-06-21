@@ -1,0 +1,95 @@
+{
+  "slug": "typescript-basics-multi-dimensional-arrays",
+  "title": "Многомерные массивы",
+  "questions": [
+    {
+      "id": "11527",
+      "prompt": "Какой тип будет у `arr`?\n\n```typescript\n  const arr = [['hello'], ['goodbye', 'bye']];\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957119",
+          "text": "`string[]`",
+          "correct": false
+        },
+        {
+          "id": "5957120",
+          "text": "`Array`",
+          "correct": false
+        },
+        {
+          "id": "5957122",
+          "text": "Нет типа",
+          "correct": false
+        },
+        {
+          "id": "5957123",
+          "text": "Array<number[]>",
+          "correct": false
+        },
+        {
+          "id": "5957124",
+          "text": "`string[][]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11528",
+      "prompt": "Может ли массив содержать массивы разной длины?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957126",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5957128",
+          "text": "Да, если все элементы массива одного типа",
+          "correct": false
+        },
+        {
+          "id": "5957130",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21952",
+      "prompt": "Какой тип параметра `numbers` корректно описывает массив из трёх уровней вложенности?\n```typescript\nconst numbers = [[[1, 2]], [[3, 4, 5], [6, 7, 8, 9]]];\n\nfunction printNumbers(numbers: /* здесь тип */) {\n  return numbers.flat(3).join(' ');\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957134",
+          "text": "`number[][]`",
+          "correct": false
+        },
+        {
+          "id": "5957135",
+          "text": "`string[][][]`",
+          "correct": false
+        },
+        {
+          "id": "5957136",
+          "text": "`Array<number>`",
+          "correct": false
+        },
+        {
+          "id": "5957137",
+          "text": "`number[][][]`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "multi-dimensional-arrays",
+    "lessonName": "Многомерные массивы",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/multi-dimensional-arrays/quiz_unit",
+    "lessonId": 3802
+  }
+}

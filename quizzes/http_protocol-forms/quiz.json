@@ -1,0 +1,75 @@
+{
+  "slug": "http_protocol-forms",
+  "title": "Отправка форм",
+  "questions": [
+    {
+      "id": "2464",
+      "prompt": "В какой части HTTP-запроса находятся данные формы при ее отправке глаголом POST?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937744",
+          "text": "в request-line",
+          "correct": false
+        },
+        {
+          "id": "5937745",
+          "text": "в любом месте в заголовке",
+          "correct": false
+        },
+        {
+          "id": "5937747",
+          "text": "в теле",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2465",
+      "prompt": "Как разделяются названия полей формы в HTTP-запросе, если она отправлена GET-глаголом:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937754",
+          "text": "`:`",
+          "correct": false
+        },
+        {
+          "id": "5937756",
+          "text": "`?`",
+          "correct": false
+        },
+        {
+          "id": "5937758",
+          "text": "`&`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2466",
+      "prompt": "Может ли ответ на HTTP-запрос (то есть HTTP response) содержать тело с какой-то информацией?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937762",
+          "text": "нет, тело имеет смысл только при отправке запроса",
+          "correct": false
+        },
+        {
+          "id": "5937764",
+          "text": "да, конечно!",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "forms",
+    "lessonName": "Отправка форм",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/forms/quiz_unit",
+    "lessonId": 437
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-literal-types",
+  "title": "Литералы",
+  "questions": [
+    {
+      "id": "11599",
+      "prompt": "Для чего нужно приведение объектов к литеральному типу с помощью `as const`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957221",
+          "text": "Для дополнительной документации типа",
+          "correct": false
+        },
+        {
+          "id": "5957222",
+          "text": "Для объединения нескольких типов в один",
+          "correct": false
+        },
+        {
+          "id": "5957223",
+          "text": "Для запрета изменений свойств в объекте",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11600",
+      "prompt": "Для чего нужен литеральный тип?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957224",
+          "text": "Для вывода дополнительной информации о типе",
+          "correct": false
+        },
+        {
+          "id": "5957225",
+          "text": "Для создания псевдонима любого пользовательского типа",
+          "correct": false
+        },
+        {
+          "id": "5957226",
+          "text": "Для указания, что в переменную может быть присвоено одно единственное значение",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21958",
+      "prompt": "Какой литерал нужно добавить к объединению `gender`, чтобы переменная принимала значения `'male'` и `'female'`?\n```typescript\ntype User = {\n  name: string;\n  gender: 'male' | /* здесь литерал */;\n  age: number;\n};\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957227",
+          "text": "`'woman'`",
+          "correct": false
+        },
+        {
+          "id": "5957228",
+          "text": "`'girl'`",
+          "correct": false
+        },
+        {
+          "id": "5957229",
+          "text": "`'f'`",
+          "correct": false
+        },
+        {
+          "id": "5957230",
+          "text": "`'female'`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "literal-types",
+    "lessonName": "Литералы",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/literal-types/quiz_unit",
+    "lessonId": 3808
+  }
+}

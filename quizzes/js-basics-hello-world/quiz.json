@@ -1,0 +1,75 @@
+{
+  "slug": "js-basics-hello-world",
+  "title": "Hello, World!",
+  "questions": [
+    {
+      "id": "8468",
+      "prompt": "Как будет выглядеть код для вывода на экран слова \"goodbye\"?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992063",
+          "text": "`print(\"goodbye\")`",
+          "correct": false
+        },
+        {
+          "id": "5992064",
+          "text": "`\"goodbye\"`",
+          "correct": false
+        },
+        {
+          "id": "5992065",
+          "text": "`console.log('goodbye')`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8469",
+      "prompt": "Выберите правильные способы оформления комментариев:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992069",
+          "text": "`# comments`",
+          "correct": false
+        },
+        {
+          "id": "5992070",
+          "text": "`// comments`",
+          "correct": true
+        },
+        {
+          "id": "5992071",
+          "text": "`/* comments */`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8470",
+      "prompt": "Является ли комментарий частью программы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992075",
+          "text": "Да, является",
+          "correct": false
+        },
+        {
+          "id": "5992076",
+          "text": "Нет, он нужен только для заметок в коде",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "hello-world",
+    "lessonName": "Hello, World!",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/hello-world/quiz_unit",
+    "lessonId": 2607
+  }
+}

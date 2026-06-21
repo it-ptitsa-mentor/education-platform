@@ -1,0 +1,134 @@
+{
+  "slug": "js-setup-environment-lock",
+  "title": "Lock-файл",
+  "questions": [
+    {
+      "id": "4508",
+      "prompt": "Что делает команда `npm install`, которая запущена без аргументов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994702",
+          "text": "Падает с ошибкой",
+          "correct": false
+        },
+        {
+          "id": "5994703",
+          "text": "Устанавливает последние версии библиотек, которые указаны в `package.json`",
+          "correct": false
+        },
+        {
+          "id": "5994704",
+          "text": "Устанавливает все пакеты, которые перечислены в `package-lock.json` в соответствии с зафиксированными версиями",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4403",
+      "prompt": "Как сделать обновление **всех** локально установленных через NPM пакетов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994705",
+          "text": "`npm update hexlet-pairs`",
+          "correct": false
+        },
+        {
+          "id": "5994706",
+          "text": "`npm update -g`",
+          "correct": false
+        },
+        {
+          "id": "5994707",
+          "text": "`npm update`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4404",
+      "prompt": "Проанализируйте содержимое конфигурационного файла package.json\n\n```\ndependencies {\n'package1': \"*\",\n'package2': \"1.3.5\",\n'package3': \"~2.3.4\",\n'package4': \"^2.3.4\",\n}\n```\n\nДля какого пакета будет установлено последнее доступное обновление?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994711",
+          "text": "`package2`",
+          "correct": false
+        },
+        {
+          "id": "5994712",
+          "text": "`package3`",
+          "correct": false
+        },
+        {
+          "id": "5994713",
+          "text": "`package4`",
+          "correct": false
+        },
+        {
+          "id": "5994714",
+          "text": "`package1`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4405",
+      "prompt": "В каких случаях происходит создание и обновление файла `package-lock.json`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994719",
+          "text": "При появлении ошибок, связанных с работой пакетного менеджера",
+          "correct": false
+        },
+        {
+          "id": "5994720",
+          "text": "При всяком обновлении конфигурационного файла `package.json`",
+          "correct": false
+        },
+        {
+          "id": "5994721",
+          "text": "При установке новых зависимостей",
+          "correct": true
+        },
+        {
+          "id": "5994722",
+          "text": "При установке обновлений существующих зависимостей",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4406",
+      "prompt": "Какую проблематику решает `package-lock.json`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994726",
+          "text": "Является резервной копией файла `package.json`, если его случайно удалить или повредить",
+          "correct": false
+        },
+        {
+          "id": "5994727",
+          "text": "Он не решает проблемы, а создает их, поэтому его надо обязательно удалять",
+          "correct": false
+        },
+        {
+          "id": "5994728",
+          "text": "Фиксирует версии транзитивных зависимостей, так как обновление большого числа зависимых друг от друга библиотек может привести к неработоспособности всего проекта",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-setup-environment",
+    "courseName": "JS: Настройка окружения",
+    "lessonSlug": "lock",
+    "lessonName": "Lock-файл",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-setup-environment/lessons/lock/quiz_unit",
+    "lessonId": 1010
+  }
+}

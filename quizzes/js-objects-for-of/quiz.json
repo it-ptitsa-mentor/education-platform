@@ -1,0 +1,80 @@
+{
+  "slug": "js-objects-for-of",
+  "title": "Обход свойств объекта",
+  "questions": [
+    {
+      "id": "6247",
+      "prompt": "В каком порядке `Object.keys()` возвращает ключи?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994207",
+          "text": "В том порядке, в котором они добавлялись в объект",
+          "correct": false
+        },
+        {
+          "id": "5994208",
+          "text": "В алфавитном",
+          "correct": false
+        },
+        {
+          "id": "5994209",
+          "text": "Можно считать, что порядка нет, JavaScript не дает никаких гарантий",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6248",
+      "prompt": "Какая функция возвращает значения?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994210",
+          "text": "`Object.entries()`",
+          "correct": false
+        },
+        {
+          "id": "5994211",
+          "text": "`Object.keys()`",
+          "correct": false
+        },
+        {
+          "id": "5994212",
+          "text": "`Object.values()`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6249",
+      "prompt": "Выберите верное утверждение",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994213",
+          "text": "Цикл `for..of` позволяет обходить свойства объектов",
+          "correct": false
+        },
+        {
+          "id": "5994214",
+          "text": "Функция `Object.keys()` изменяет объект, на котором она применяется",
+          "correct": false
+        },
+        {
+          "id": "5994215",
+          "text": "`Object.entries()` возвращает массив массивов",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "for-of",
+    "lessonName": "Обход свойств объекта",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/for-of/quiz_unit",
+    "lessonId": 1617
+  }
+}

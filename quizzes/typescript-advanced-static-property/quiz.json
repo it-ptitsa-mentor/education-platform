@@ -1,0 +1,90 @@
+{
+  "slug": "typescript-advanced-static-property",
+  "title": "Статические методы и свойства",
+  "questions": [
+    {
+      "id": "12948",
+      "prompt": "Выберите правильные способы получить поле `message` в методе `getMessage()`:\n\n```typescript\n  class Greeting {\n    protected static message = 'hello!';\n  }\n\n  class Hello extends Greeting {\n    getMessage() {\n      // ?\n    }\n  }\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5892885",
+          "text": "`this.message`",
+          "correct": false
+        },
+        {
+          "id": "5892886",
+          "text": "`message`",
+          "correct": false
+        },
+        {
+          "id": "5892887",
+          "text": "Ни один из способов не работает, потому что поле защищено",
+          "correct": false
+        },
+        {
+          "id": "5892888",
+          "text": "`Greeting.message`",
+          "correct": true
+        },
+        {
+          "id": "5892889",
+          "text": "`Hello.message`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12949",
+      "prompt": "Какая ошибка допущена в коде ниже?\n\n```typescript\n  class Greeting {\n    private static message = 'hello!';\n\n    updateMessage(newMessage: string) {\n      Greeting.message = newMessage;\n    }\n  }\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892890",
+          "text": "В методе `updateMessage()` меняется статическое поле, чего делать нельзя",
+          "correct": false
+        },
+        {
+          "id": "5892891",
+          "text": "В методе `updateMessage()` неправильно указано обращение к полю, должно быть `this.message`",
+          "correct": false
+        },
+        {
+          "id": "5892892",
+          "text": "Ошибки нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22761",
+      "prompt": "В объявлении класса `class User { __ type = 'user'; }` пропущено ключевое слово для статического поля.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892893",
+          "text": "public",
+          "correct": false
+        },
+        {
+          "id": "5892894",
+          "text": "readonly",
+          "correct": false
+        },
+        {
+          "id": "5892895",
+          "text": "static",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "static-property",
+    "lessonName": "Статические методы и свойства",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/static-property/quiz_unit",
+    "lessonId": 4473
+  }
+}

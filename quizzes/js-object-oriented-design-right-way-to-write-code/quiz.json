@@ -1,0 +1,80 @@
+{
+  "slug": "js-object-oriented-design-right-way-to-write-code",
+  "title": "Пишем код правильно",
+  "questions": [
+    {
+      "id": "6503",
+      "prompt": "На какой вопрос нужно ответить первым при написании нового кода?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994059",
+          "text": "Сколько нужно программистов для его написания",
+          "correct": false
+        },
+        {
+          "id": "5994060",
+          "text": "Как код будет устроен внутри",
+          "correct": false
+        },
+        {
+          "id": "5994061",
+          "text": "Как код будет использоваться",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6504",
+      "prompt": "Какой самый базовый принцип организации кода?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994067",
+          "text": "Главное чтобы работало",
+          "correct": false
+        },
+        {
+          "id": "5994068",
+          "text": "Разделение кода по классам",
+          "correct": false
+        },
+        {
+          "id": "5994069",
+          "text": "Отделение побочных эффектов от чистого кода",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6505",
+      "prompt": "Выберите верное утверждение",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994070",
+          "text": "Любую операцию нужно представлять в коде объектом",
+          "correct": false
+        },
+        {
+          "id": "5994071",
+          "text": "Самое главное – то как реализован класс внутри",
+          "correct": false
+        },
+        {
+          "id": "5994072",
+          "text": "Наличие классов не делает код объектно-ориентированным",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-object-oriented-design",
+    "courseName": "JS: Объектно-ориентированный дизайн",
+    "lessonSlug": "right-way-to-write-code",
+    "lessonName": "Пишем код правильно",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-object-oriented-design/lessons/right-way-to-write-code/quiz_unit",
+    "lessonId": 1855
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "js-introduction-to-oop-bind",
+  "title": "Связывание (bind)",
+  "questions": [
+    {
+      "id": "6055",
+      "prompt": "Для чего нужен метод `bind()`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993852",
+          "text": "Для вызова методов без аргументов",
+          "correct": false
+        },
+        {
+          "id": "5993853",
+          "text": "Он вызывает старую функцию, передавая туда нужный контекст",
+          "correct": false
+        },
+        {
+          "id": "5993854",
+          "text": "Он создает новую функцию, связывая исходную функцию с указанным контекстом",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6056",
+      "prompt": "Чему равен вызов?\n\n```javascript\nconst sum = (a, b) => a + b;\nsum.bind(null, 8)(3);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993855",
+          "text": "NaN",
+          "correct": false
+        },
+        {
+          "id": "5993856",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5993857",
+          "text": "8",
+          "correct": false
+        },
+        {
+          "id": "5993858",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "5993859",
+          "text": "11",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6057",
+      "prompt": "Что выведется на экран?\n\n```javascript\nconst numbers = [4, 10, 0, 2];\nconsole.log(Math.min.call(null, ...numbers));\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993860",
+          "text": "Возникнет ошибка выполнения",
+          "correct": false
+        },
+        {
+          "id": "5993861",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5993862",
+          "text": "NaN",
+          "correct": false
+        },
+        {
+          "id": "5993863",
+          "text": "0",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "bind",
+    "lessonName": "Связывание (bind)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/bind/quiz_unit",
+    "lessonId": 1692
+  }
+}

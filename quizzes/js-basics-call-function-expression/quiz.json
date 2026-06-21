@@ -1,0 +1,80 @@
+{
+  "slug": "js-basics-call-function-expression",
+  "title": "Вызов функции — выражение",
+  "questions": [
+    {
+      "id": "8515",
+      "prompt": "Функция `getOne()` возвращает единицу. Что будет выведено на экран?\n\n```javascript\nconsole.log(getOne());\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992313",
+          "text": "Будет выведено тело функции",
+          "correct": false
+        },
+        {
+          "id": "5992314",
+          "text": "Ничего, так как функция `getOne()` сама ничего не выводит на экран, она только возвращает значение",
+          "correct": false
+        },
+        {
+          "id": "5992315",
+          "text": "Вызов функции – выражение. На экран будет выведен результат ее работы – 1 (единица)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8516",
+      "prompt": "Выберите что является выражением:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992316",
+          "text": "Объявления переменной",
+          "correct": false
+        },
+        {
+          "id": "5992317",
+          "text": "Строковые операции",
+          "correct": true
+        },
+        {
+          "id": "5992318",
+          "text": "Математические операции",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8517",
+      "prompt": "Функция `sum()` принимает два числа и возвращает их сумму. Взгляните на код ниже. Какое число будет выведено на экран?\n\n```javascript\nlet result = sum(sum(1, 3), sum(sum(4, 2), 3));\nconsole.log(result); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992319",
+          "text": "12",
+          "correct": false
+        },
+        {
+          "id": "5992320",
+          "text": "14",
+          "correct": false
+        },
+        {
+          "id": "5992321",
+          "text": "13",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "call-function-expression",
+    "lessonName": "Вызов функции — выражение",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/call-function-expression/quiz_unit",
+    "lessonId": 2622
+  }
+}

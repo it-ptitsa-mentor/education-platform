@@ -1,0 +1,80 @@
+{
+  "slug": "js-react-jsx-html-difference",
+  "title": "Различия jsx и html",
+  "questions": [
+    {
+      "id": "4260",
+      "prompt": "Выберите правильный способ описания атрибутов с `data-*` в JSX",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940591",
+          "text": "datatoggle",
+          "correct": false
+        },
+        {
+          "id": "5940592",
+          "text": "dataToggle",
+          "correct": false
+        },
+        {
+          "id": "5940593",
+          "text": "data-toggle",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4261",
+      "prompt": "Каким будет результирующий HTML?\n\n```jsx\nconst content = '<p>clojure mmm</p>';\nconst vdom = <div>{content}</div>;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940594",
+          "text": "`<div><p>clojure mmm</p></div>`",
+          "correct": false
+        },
+        {
+          "id": "5940595",
+          "text": "`<div>'<p>clojure mmm</p>'</div>`",
+          "correct": false
+        },
+        {
+          "id": "5940596",
+          "text": "`<div>&lt;p&gt;clojure mmm&lt;/p&gt;</div>`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4262",
+      "prompt": "Как правильно задавать стили в JSX?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940597",
+          "text": "`<div style=\"width: '100%;'\"></div>`",
+          "correct": false
+        },
+        {
+          "id": "5940598",
+          "text": "`<div style={ width: '100%' }></div>`",
+          "correct": false
+        },
+        {
+          "id": "5940599",
+          "text": "`<div style={{ width: '100%' }}></div>`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "jsx-html-difference",
+    "lessonName": "Различия jsx и html",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/jsx-html-difference/quiz_unit",
+    "lessonId": 957
+  }
+}

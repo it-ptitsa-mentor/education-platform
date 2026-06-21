@@ -1,0 +1,90 @@
+{
+  "slug": "typescript-advanced-async-functions",
+  "title": "Асинхронные функции",
+  "questions": [
+    {
+      "id": "12976",
+      "prompt": "Какой тип возвращает функция ниже?\n\n```typescript\n  const getHello = async () => {\n    return 'hello';\n  };\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892976",
+          "text": "```typescript\n  Promise<any>\n```",
+          "correct": false
+        },
+        {
+          "id": "5892977",
+          "text": "```typescript\n  Promise\n```",
+          "correct": false
+        },
+        {
+          "id": "5892978",
+          "text": "```typescript\n  Promise<string>\n```",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12977",
+      "prompt": "Как обработать результат нескольких асинхронных функций?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892979",
+          "text": "Создать для каждой асинхронной функции дополнительную `async`-функцию",
+          "correct": false
+        },
+        {
+          "id": "5892980",
+          "text": "Добавить `setTimeout()` и внутри него обработать результаты",
+          "correct": false
+        },
+        {
+          "id": "5892981",
+          "text": "Запустить функции в разных потоках",
+          "correct": false
+        },
+        {
+          "id": "5892982",
+          "text": "Использовать метод `Promise.all()`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12979",
+      "prompt": "Какая ошибка допущена в коде ниже?\n\n```typescript\n  const getMessage = async () => {\n    const promise = Promise.resolve()\n      .then(() => {\n        return 'hello';\n      });\n    const result = await promise;\n\n    console.log('result: ', result); // => hello\n  };\n\n  const sayHello = () => {\n    const message = getMessage();\n\n    console.log(message); // => hello\n  };\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892983",
+          "text": "Ошибки нет",
+          "correct": false
+        },
+        {
+          "id": "5892984",
+          "text": "Не хватает круглых скобок чтобы вызывался промис: `await promise()`",
+          "correct": false
+        },
+        {
+          "id": "5892985",
+          "text": "Внутри функции `sayHello()` нет доступа к функции `getMessage()`",
+          "correct": false
+        },
+        {
+          "id": "5892986",
+          "text": "Функция `getMessage()` возвращает промис, поэтому в `message` не будет строки",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "async-functions",
+    "lessonName": "Асинхронные функции",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/async-functions/quiz_unit",
+    "lessonId": 4482
+  }
+}

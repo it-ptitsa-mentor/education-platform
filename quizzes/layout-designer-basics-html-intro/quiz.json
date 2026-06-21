@@ -1,0 +1,70 @@
+{
+  "slug": "layout-designer-basics-html-intro",
+  "title": "Введение в HTML",
+  "questions": [
+    {
+      "id": "5921",
+      "prompt": "Какие из компонентов, участвующих в процессе доставки веб-страницы пользователю, должны «знать» HTML, то есть понимать и обрабатывать документы на языке HTML?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942261",
+          "text": "Операционная система",
+          "correct": false
+        },
+        {
+          "id": "5942262",
+          "text": "Интернет-провайдер",
+          "correct": false
+        },
+        {
+          "id": "5942263",
+          "text": "Веб-браузер",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5922",
+      "prompt": "Является ли текущая страница — с вопросами, вариантами ответов и кнопками — HTML-страницей?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942268",
+          "text": "Нет, потому что HTML — это только голый текст",
+          "correct": false
+        },
+        {
+          "id": "5942269",
+          "text": "Да, конечно!",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5923",
+      "prompt": "Возможна ли такая вложенность тегов?\n```html\n<section>\n  <p>Текст нашей страницы</p>\n</section>\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942272",
+          "text": "Нет, здесь какой-то бред",
+          "correct": false
+        },
+        {
+          "id": "5942273",
+          "text": "Здесь все корректно",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "html-intro",
+    "lessonName": "Введение в HTML",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/html-intro/quiz_unit",
+    "lessonId": 1750
+  }
+}

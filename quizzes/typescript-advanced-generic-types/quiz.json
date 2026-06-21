@@ -1,0 +1,70 @@
+{
+  "slug": "typescript-advanced-generic-types",
+  "title": "Дженерики (Типы)",
+  "questions": [
+    {
+      "id": "12966",
+      "prompt": "Как ограничить типы в параметрах дженерика только числами?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892947",
+          "text": "```typescript\n  <T extends number[]>\n```",
+          "correct": false
+        },
+        {
+          "id": "5892948",
+          "text": "```typescript\n  <T extends any>\n```",
+          "correct": false
+        },
+        {
+          "id": "5892949",
+          "text": "```typescript\n  <T extends number>\n```",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12967",
+      "prompt": "Можно ли использовать дженерики в классах?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892950",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5892951",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12968",
+      "prompt": "Можно ли использовать дженерики в интерфейсах?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892952",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5892953",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "generic-types",
+    "lessonName": "Дженерики (Типы)",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/generic-types/quiz_unit",
+    "lessonId": 4479
+  }
+}

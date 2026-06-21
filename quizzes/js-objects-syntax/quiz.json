@@ -1,0 +1,134 @@
+{
+  "slug": "js-objects-syntax",
+  "title": "Синтаксис",
+  "questions": [
+    {
+      "id": "5694",
+      "prompt": "Какими способами можно добраться до возраста пользователя?\n\n```javascript\nconst user = { name: 'Vasya', married: true, age: 25 };\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994084",
+          "text": "`user['25']`",
+          "correct": false
+        },
+        {
+          "id": "5994085",
+          "text": "`user[2]`",
+          "correct": false
+        },
+        {
+          "id": "5994086",
+          "text": "`age['user']`",
+          "correct": false
+        },
+        {
+          "id": "5994087",
+          "text": "`user['age']`",
+          "correct": true
+        },
+        {
+          "id": "5994088",
+          "text": "`user.age`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6229",
+      "prompt": "Что вернет код?\n\n```javascript\nconst user = { name: 'Vasya', married: true, age: 25 };\nuser['25']; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994089",
+          "text": "25",
+          "correct": false
+        },
+        {
+          "id": "5994090",
+          "text": "`'age'`",
+          "correct": false
+        },
+        {
+          "id": "5994091",
+          "text": "`undefined`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6230",
+      "prompt": "Что вернет код?\n\n```javascript\nconst user = { name: 'Vasya', married: true, age: 25 };\nconst name = 'age';\nuser[name]; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994092",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5994093",
+          "text": "`'Vasya'`",
+          "correct": false
+        },
+        {
+          "id": "5994094",
+          "text": "25",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6231",
+      "prompt": "Что вернет код?\n\n```javascript\nconst user = { name: 'Vasya', married: true, age: 25 };\nconst name = 'married';\nuser.name; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994095",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5994096",
+          "text": "`true`",
+          "correct": false
+        },
+        {
+          "id": "5994097",
+          "text": "'Vasya'",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11411",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconst key = 'name';\nconst value = 'Vasya';\nconst user = { [key + '11']: value };\nconsole.log(user);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994098",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5994099",
+          "text": "{ key11: 'Vasya'}",
+          "correct": false
+        },
+        {
+          "id": "5994100",
+          "text": "{ name11: 'Vasya'}",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "syntax",
+    "lessonName": "Синтаксис",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/syntax/quiz_unit",
+    "lessonId": 1619
+  }
+}

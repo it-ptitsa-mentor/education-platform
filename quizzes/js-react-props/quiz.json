@@ -1,0 +1,80 @@
+{
+  "slug": "js-react-props",
+  "title": "Props",
+  "questions": [
+    {
+      "id": "4254",
+      "prompt": "```jsx\nconst vdom = <Card text=\"hi, world!\" />;\n```\n\nКак можно обратиться к пропсу `text` внутри компонента `<Card>`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940572",
+          "text": "`props`",
+          "correct": false
+        },
+        {
+          "id": "5940573",
+          "text": "`this.text`",
+          "correct": false
+        },
+        {
+          "id": "5940574",
+          "text": "`this.props.text`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4255",
+      "prompt": "Выберите правильный способ передачи переменной `name` в компонент",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940575",
+          "text": "`<Card title=name />`",
+          "correct": false
+        },
+        {
+          "id": "5940576",
+          "text": "`<Card title={...name} />`",
+          "correct": false
+        },
+        {
+          "id": "5940577",
+          "text": "`<Card title={name} />`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4256",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5940578",
+          "text": "В компонент можно передать не более 3 свойств",
+          "correct": false
+        },
+        {
+          "id": "5940579",
+          "text": "Пропсы нельзя изменять",
+          "correct": true
+        },
+        {
+          "id": "5940580",
+          "text": "Значения по умолчанию для пропсов должны задаваться через свойство класса",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "props",
+    "lessonName": "Props",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/props/quiz_unit",
+    "lessonId": 971
+  }
+}

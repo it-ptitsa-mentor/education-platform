@@ -1,0 +1,122 @@
+{
+  "slug": "typescript-basics-hello-world",
+  "title": "Привет, Мир!",
+  "questions": [
+    {
+      "id": "21945",
+      "prompt": "Какая инструкция корректно выводит строку «Hello, world!» в консоль браузера?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956757",
+          "text": "console.write(\"Hello, world!\")",
+          "correct": false
+        },
+        {
+          "id": "5956758",
+          "text": "log.console(\"Hello, world!\")",
+          "correct": false
+        },
+        {
+          "id": "5956759",
+          "text": "console.log - \"Hello, world!\"",
+          "correct": false
+        },
+        {
+          "id": "5956760",
+          "text": "console.log(\"Hello, world!\");",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21946",
+      "prompt": "Что попадёт в консоль после выполнения кода?\n```typescript\nconsole.log(\"Hello,\");\nconsole.log(\"TypeScript!\");\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956761",
+          "text": "Одна строка Hello, TypeScript!",
+          "correct": false
+        },
+        {
+          "id": "5956762",
+          "text": "Программа завершится с ошибкой из-за двух вызовов",
+          "correct": false
+        },
+        {
+          "id": "5956763",
+          "text": "В консоль ничего не попадёт",
+          "correct": false
+        },
+        {
+          "id": "5956764",
+          "text": "```text\nHello,\nTypeScript!\n```",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21947",
+      "prompt": "Как следует относиться к точке с запятой (`;`) в конце инструкций TypeScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956765",
+          "text": "Точка с запятой обязательна после каждой инструкции",
+          "correct": false
+        },
+        {
+          "id": "5956766",
+          "text": "Компилятор TypeScript удаляет точки с запятой, поэтому ставить их нельзя",
+          "correct": false
+        },
+        {
+          "id": "5956767",
+          "text": "Она требуется только внутри циклов `for`",
+          "correct": false
+        },
+        {
+          "id": "5956768",
+          "text": "Ее можно опускать, но автоформаттеры добавляют `;` для единообразия и избегания ошибок",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21948",
+      "prompt": "Какого типа будет переменная после объявления `const message = \"Hello\";`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956769",
+          "text": "number",
+          "correct": false
+        },
+        {
+          "id": "5956770",
+          "text": "boolean",
+          "correct": false
+        },
+        {
+          "id": "5956771",
+          "text": "any",
+          "correct": false
+        },
+        {
+          "id": "5956772",
+          "text": "string",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "hello-world",
+    "lessonName": "Привет, Мир!",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/hello-world/quiz_unit",
+    "lessonId": 3798
+  }
+}

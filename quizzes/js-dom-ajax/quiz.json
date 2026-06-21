@@ -1,0 +1,85 @@
+{
+  "slug": "js-dom-ajax",
+  "title": "AJAX",
+  "questions": [
+    {
+      "id": "4943",
+      "prompt": "Выберите все верные утверждения в отношении AJAX-запросов",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993135",
+          "text": "AJAX-запрос требует перезагрузки страницы",
+          "correct": false
+        },
+        {
+          "id": "5993136",
+          "text": "AJAX-запросы работают только с XML",
+          "correct": false
+        },
+        {
+          "id": "5993137",
+          "text": "AJAX-запросы являются асинхронными",
+          "correct": true
+        },
+        {
+          "id": "5993138",
+          "text": "AJAX-запросы - это способ отправки и получения данных с сервера без перезагрузки страницы",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4944",
+      "prompt": "Какой механизм стоит выбрать для отправки AJAX-запросов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993139",
+          "text": "JQuery",
+          "correct": false
+        },
+        {
+          "id": "5993140",
+          "text": "XMLHttpRequest",
+          "correct": false
+        },
+        {
+          "id": "5993141",
+          "text": "fetch",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4945",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993142",
+          "text": "Нельзя использовать fetch с async/await",
+          "correct": false
+        },
+        {
+          "id": "5993143",
+          "text": "С помощью fetch нельзя отправлять формы",
+          "correct": false
+        },
+        {
+          "id": "5993144",
+          "text": "С помощью fetch можно вернуть промис",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "ajax",
+    "lessonName": "AJAX",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/ajax/quiz_unit",
+    "lessonId": 920
+  }
+}

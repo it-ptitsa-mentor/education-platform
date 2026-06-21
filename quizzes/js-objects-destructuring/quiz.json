@@ -1,0 +1,90 @@
+{
+  "slug": "js-objects-destructuring",
+  "title": "Деструктуризация",
+  "questions": [
+    {
+      "id": "6256",
+      "prompt": "В чем сила деструктуризации?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994330",
+          "text": "Деструктуризация позволяет извлекать из объекта части, которые невозможно извлечь другим способом",
+          "correct": false
+        },
+        {
+          "id": "5994331",
+          "text": "Лучше прослеживается структура объекта",
+          "correct": true
+        },
+        {
+          "id": "5994332",
+          "text": "Меньше кода, чем при ручном извлечении частей",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6257",
+      "prompt": "Что умеет деструктуризация?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994333",
+          "text": "Управлять тем, какая часть будет переменной, а какая — константой, при извлечении",
+          "correct": false
+        },
+        {
+          "id": "5994334",
+          "text": "Извлекать вложенные части объекта (внутренние объекты)",
+          "correct": true
+        },
+        {
+          "id": "5994335",
+          "text": "Задавать значения по умолчанию",
+          "correct": true
+        },
+        {
+          "id": "5994336",
+          "text": "Переименовывать названия извлекаемых свойств",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6258",
+      "prompt": "Выберите верные утверждения\n\n```javascript\nconst user = { name: 'Arya', date: '11.11.11' };\nconst { name, date: createdAt, ...rest } = user;\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994337",
+          "text": "Код завершится с ошибкой, так как нет данных для `...rest`",
+          "correct": false
+        },
+        {
+          "id": "5994338",
+          "text": "В константе `date` окажется значение `'11.11.11'`",
+          "correct": false
+        },
+        {
+          "id": "5994340",
+          "text": "В константе `createdAt` окажется значение `'11.11.11'`",
+          "correct": true
+        },
+        {
+          "id": "5994342",
+          "text": "Внутри `rest` окажется `{}`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "destructuring",
+    "lessonName": "Деструктуризация",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/destructuring/quiz_unit",
+    "lessonId": 1618
+  }
+}

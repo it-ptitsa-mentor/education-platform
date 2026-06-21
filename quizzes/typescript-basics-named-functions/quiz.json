@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-named-functions",
+  "title": "Именованные функции",
+  "questions": [
+    {
+      "id": "11506",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5956794",
+          "text": "Вывод типов работает с параметрами в функциях",
+          "correct": false
+        },
+        {
+          "id": "5956795",
+          "text": "Если в функции определен параметр без знака \"равно\", то этот параметр обязателен при вызове функции",
+          "correct": false
+        },
+        {
+          "id": "5956796",
+          "text": "При определении функции указывается тип каждого параметра",
+          "correct": true
+        },
+        {
+          "id": "5956797",
+          "text": "Необходимые параметры функции должны идти перед опциональными",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11507",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5956798",
+          "text": "Необязательный параметр всегда имеет тип `undefined`",
+          "correct": false
+        },
+        {
+          "id": "5956799",
+          "text": "Для обозначения необязательного параметра используется знак вопроса",
+          "correct": true
+        },
+        {
+          "id": "5956800",
+          "text": "Вывод типов работает с возвращаемым значением в функциях",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11508",
+      "prompt": "Какая ошибка в коде ниже?\n\n```typescript\nfunction greeting(name?: string) {\n  return `Hello, ${name ? name.toUpperCase() : 'Guest'}!`;\n}\n\nconst result = greeting();\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956801",
+          "text": "Вызов функции должен быть с обязательным параметром",
+          "correct": false
+        },
+        {
+          "id": "5956802",
+          "text": "Параметр функции должен иметь тип `string | null`",
+          "correct": false
+        },
+        {
+          "id": "5956803",
+          "text": "Ошибок нет",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "named-functions",
+    "lessonName": "Именованные функции",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/named-functions/quiz_unit",
+    "lessonId": 3832
+  }
+}

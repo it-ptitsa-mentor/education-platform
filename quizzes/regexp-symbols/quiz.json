@@ -1,0 +1,117 @@
+{
+  "slug": "regexp-symbols",
+  "title": "Представление символов и метасимвол",
+  "questions": [
+    {
+      "id": "2049",
+      "prompt": "Какой символ используется для экранирования специального символа в регулярном выражении?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962418",
+          "text": "`#`",
+          "correct": false
+        },
+        {
+          "id": "5962419",
+          "text": "`&`",
+          "correct": false
+        },
+        {
+          "id": "5962420",
+          "text": "`%`",
+          "correct": false
+        },
+        {
+          "id": "5962421",
+          "text": "`/`",
+          "correct": false
+        },
+        {
+          "id": "5962422",
+          "text": "`\\`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2050",
+      "prompt": "Что из перечисленного ниже может работать как регулярное выражение?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5962423",
+          "text": "`/\\\\./`",
+          "correct": true
+        },
+        {
+          "id": "5962424",
+          "text": "`/./`",
+          "correct": true
+        },
+        {
+          "id": "5962425",
+          "text": "`/word/`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2051",
+      "prompt": "Регулярное выражение — это...",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962426",
+          "text": "Драйвер в операционной системе",
+          "correct": false
+        },
+        {
+          "id": "5962427",
+          "text": "Скомпилированная программа",
+          "correct": false
+        },
+        {
+          "id": "5962428",
+          "text": "Набор символов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22100",
+      "prompt": "Какое регулярное выражение с корректным экранированием найдет подстроку `\\ruby\\` в строке `java\\ruby\\php`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962429",
+          "text": "`/ruby/`",
+          "correct": false
+        },
+        {
+          "id": "5962430",
+          "text": "`/\\\\ruby/`",
+          "correct": false
+        },
+        {
+          "id": "5962431",
+          "text": "`/ruby\\\\/`",
+          "correct": false
+        },
+        {
+          "id": "5962432",
+          "text": "`/\\\\ruby\\\\/`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "symbols",
+    "lessonName": "Представление символов и метасимвол",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/symbols/quiz_unit",
+    "lessonId": 297
+  }
+}

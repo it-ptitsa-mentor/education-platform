@@ -1,0 +1,95 @@
+{
+  "slug": "js-arrays-control-statements",
+  "title": "Управляющие инструкции",
+  "questions": [
+    {
+      "id": "22381",
+      "prompt": "Какую инструкцию нужно вставить вместо `__`, чтобы пропустить добавление `'vasya'` и получить в результате только остальных пользователей?\n\n```javascript\nconst userNames = ['petya', 'vasya', 'evgeny'];\nconst result = [];\n\nfor (const name of userNames) {\n    if (name === 'vasya') {\n        __;\n    }\n    result.push(name);\n}\n\nconsole.log(result); // => [ 'petya', 'evgeny' ]\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991787",
+          "text": "break",
+          "correct": false
+        },
+        {
+          "id": "5991788",
+          "text": "return",
+          "correct": false
+        },
+        {
+          "id": "5991789",
+          "text": "throw",
+          "correct": false
+        },
+        {
+          "id": "5991790",
+          "text": "continue",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22382",
+      "prompt": "Какую инструкцию нужно вставить вместо `__`, чтобы цикл остановился при встрече `'vasya'`, и в результирующий массив попал только первый элемент?\n\n```javascript\nconst userNames = ['petya', 'vasya', 'evgeny'];\nconst result = [];\n\nfor (const name of userNames) {\n    if (name === 'vasya') {\n        __;\n    }\n\n    result.push(name);\n}\n\nconsole.log(result); // => [ 'petya' ]\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991791",
+          "text": "continue",
+          "correct": false
+        },
+        {
+          "id": "5991792",
+          "text": "return",
+          "correct": false
+        },
+        {
+          "id": "5991793",
+          "text": "pass",
+          "correct": false
+        },
+        {
+          "id": "5991794",
+          "text": "break",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22383",
+      "prompt": "Какую инструкцию нужно подставить вместо `__`, чтобы в итоговом массиве оказались `'petya'` и `'vasya'`, а цикл завершился сразу после добавления `'vasya'`?\n\n```javascript\nconst userNames = ['petya', 'vasya', 'evgeny'];\nconst result = [];\n\nfor (const name of userNames) {\n    result.push(name);\n\n    if (name === 'vasya') {\n        __;\n    }\n}\n\nconsole.log(result); // => [ 'petya', 'vasya' ]\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991795",
+          "text": "continue",
+          "correct": false
+        },
+        {
+          "id": "5991796",
+          "text": "throw",
+          "correct": false
+        },
+        {
+          "id": "5991797",
+          "text": "return",
+          "correct": false
+        },
+        {
+          "id": "5991798",
+          "text": "break",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "control-statements",
+    "lessonName": "Управляющие инструкции",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/control-statements/quiz_unit",
+    "lessonId": 1603
+  }
+}

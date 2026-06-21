@@ -1,0 +1,95 @@
+{
+  "slug": "internet-fundamentals-connection-methods",
+  "title": "Как соединяются компьютеры",
+  "questions": [
+    {
+      "id": "9201",
+      "prompt": "Что из этого считается информацией",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937618",
+          "text": "Клавиатура",
+          "correct": false
+        },
+        {
+          "id": "5937620",
+          "text": "Бабушкины блины",
+          "correct": false
+        },
+        {
+          "id": "5937622",
+          "text": "Видео",
+          "correct": true
+        },
+        {
+          "id": "5937624",
+          "text": "Текст",
+          "correct": true
+        },
+        {
+          "id": "5937625",
+          "text": "Ход соперника в онлайн-партии по шахматам",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9202",
+      "prompt": "Типы способов соединения устройств",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937628",
+          "text": "Wi-Fi",
+          "correct": false
+        },
+        {
+          "id": "5937630",
+          "text": "RJ-45",
+          "correct": false
+        },
+        {
+          "id": "5937631",
+          "text": "Проводное",
+          "correct": true
+        },
+        {
+          "id": "5937632",
+          "text": "Беспроводное",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9203",
+      "prompt": "Какой тип соединения самый надежный",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937635",
+          "text": "Спутниковое соединение",
+          "correct": false
+        },
+        {
+          "id": "5937636",
+          "text": "Беспроводное соединение",
+          "correct": false
+        },
+        {
+          "id": "5937637",
+          "text": "Проводное соединение",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "internet-fundamentals",
+    "courseName": "Введение в интернет",
+    "lessonSlug": "connection-methods",
+    "lessonName": "Как соединяются компьютеры",
+    "sourceUrl": "https://ru.hexlet.io/courses/internet-fundamentals/lessons/connection-methods/quiz_unit",
+    "lessonId": 2956
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "css-content-background",
+  "title": "Фон",
+  "questions": [
+    {
+      "id": "7589",
+      "prompt": "Какое свойство позволяет установить фоновый цвет",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867912",
+          "text": "background-repeat",
+          "correct": false
+        },
+        {
+          "id": "5867913",
+          "text": "background-size",
+          "correct": false
+        },
+        {
+          "id": "5867914",
+          "text": "background-image",
+          "correct": false
+        },
+        {
+          "id": "5867915",
+          "text": "background",
+          "correct": true
+        },
+        {
+          "id": "5867916",
+          "text": "background-color",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7590",
+      "prompt": "Какая функция используется для указания пути к фоновому изображению?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867917",
+          "text": "img()",
+          "correct": false
+        },
+        {
+          "id": "5867918",
+          "text": "path()",
+          "correct": false
+        },
+        {
+          "id": "5867919",
+          "text": "src()",
+          "correct": false
+        },
+        {
+          "id": "5867920",
+          "text": "url()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7591",
+      "prompt": "Можно ли установить несколько изображений, используя свойство `background-image`",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867921",
+          "text": "Да, указав несколько свойств background-image",
+          "correct": false
+        },
+        {
+          "id": "5867922",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5867923",
+          "text": "Да, используя несколько функций url()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7592",
+      "prompt": "Влияет ли установленное изображение через `background-image` на размер блока?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867924",
+          "text": "Да",
+          "correct": false
+        },
+        {
+          "id": "5867925",
+          "text": "Нет",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "background",
+    "lessonName": "Фон",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/background/quiz_unit",
+    "lessonId": 2395
+  }
+}

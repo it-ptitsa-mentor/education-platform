@@ -1,0 +1,191 @@
+{
+  "slug": "css-content-media",
+  "title": "Медиаэлементы",
+  "questions": [
+    {
+      "id": "6600",
+      "prompt": "Какие основные атрибуты тега `<img>`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867727",
+          "text": "title",
+          "correct": false
+        },
+        {
+          "id": "5867728",
+          "text": "link",
+          "correct": false
+        },
+        {
+          "id": "5867729",
+          "text": "href",
+          "correct": false
+        },
+        {
+          "id": "5867730",
+          "text": "style",
+          "correct": false
+        },
+        {
+          "id": "5867731",
+          "text": "src",
+          "correct": true
+        },
+        {
+          "id": "5867732",
+          "text": "alt",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6601",
+      "prompt": "Зачем нужен атрибут alt у тега `<img>`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867733",
+          "text": "Чтобы не ругался валидатор",
+          "correct": false
+        },
+        {
+          "id": "5867734",
+          "text": "Для передачи дополнительного изображения",
+          "correct": false
+        },
+        {
+          "id": "5867735",
+          "text": "Для показа информации при невозможности загрузки изображения",
+          "correct": true
+        },
+        {
+          "id": "5867736",
+          "text": "Для передачи информации скринридеру",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6602",
+      "prompt": "Можно ли задать главное изображение в теге `<picture>`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867737",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5867738",
+          "text": "Да, через тег `<source>`",
+          "correct": false
+        },
+        {
+          "id": "5867739",
+          "text": "Да, через тег `<img>`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6603",
+      "prompt": "Есть ли ограничение на максимальное количество изображений внутри тега `<picture>`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867740",
+          "text": "Да",
+          "correct": false
+        },
+        {
+          "id": "5867741",
+          "text": "Нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6604",
+      "prompt": "Какой тег используется для вставки видео?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867742",
+          "text": "audio",
+          "correct": false
+        },
+        {
+          "id": "5867743",
+          "text": "source",
+          "correct": false
+        },
+        {
+          "id": "5867744",
+          "text": "img",
+          "correct": false
+        },
+        {
+          "id": "5867745",
+          "text": "movie",
+          "correct": false
+        },
+        {
+          "id": "5867746",
+          "text": "kino",
+          "correct": false
+        },
+        {
+          "id": "5867747",
+          "text": "video",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6605",
+      "prompt": "Какой атрибут позволяет вывести элементы управления для видео и аудио?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867748",
+          "text": "muted",
+          "correct": false
+        },
+        {
+          "id": "5867749",
+          "text": "autoplay",
+          "correct": false
+        },
+        {
+          "id": "5867750",
+          "text": "view",
+          "correct": false
+        },
+        {
+          "id": "5867751",
+          "text": "poster",
+          "correct": false
+        },
+        {
+          "id": "5867752",
+          "text": "buttons",
+          "correct": false
+        },
+        {
+          "id": "5867753",
+          "text": "controls",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "media",
+    "lessonName": "Медиаэлементы",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/media/quiz_unit",
+    "lessonId": 1885
+  }
+}

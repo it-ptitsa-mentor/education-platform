@@ -1,0 +1,95 @@
+{
+  "slug": "cli-basics-grep",
+  "title": "Grep",
+  "questions": [
+    {
+      "id": "4868",
+      "prompt": "Что означает фраза «грепать файл»?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946506",
+          "text": "Удалять файл",
+          "correct": false
+        },
+        {
+          "id": "5946507",
+          "text": "Искать файл",
+          "correct": false
+        },
+        {
+          "id": "5946508",
+          "text": "Выводить на экран содержимое файла",
+          "correct": false
+        },
+        {
+          "id": "5946509",
+          "text": "Искать в файле все строчки, соответствующие шаблону",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4869",
+      "prompt": "Что будет выведено на экран при выполнении команды `grep -C 3 PATH ~/.profile`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946510",
+          "text": "Список искомых строк",
+          "correct": false
+        },
+        {
+          "id": "5946511",
+          "text": "Три первые строки из файла _.profile_, содержащие текст `PATH`",
+          "correct": false
+        },
+        {
+          "id": "5946512",
+          "text": "Результат поиска, сгруппированный по три строки",
+          "correct": false
+        },
+        {
+          "id": "5946513",
+          "text": "Строки, содержащие `PATH` с тремя соседними строками до и после нее",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4870",
+      "prompt": "Где будет произведен поиск, если указана команда `grep -r myname`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946514",
+          "text": "В первом найденном файле",
+          "correct": false
+        },
+        {
+          "id": "5946515",
+          "text": "В скрытых файлах текущей директории",
+          "correct": false
+        },
+        {
+          "id": "5946516",
+          "text": "В файлах текущей директории",
+          "correct": false
+        },
+        {
+          "id": "5946517",
+          "text": "В файлах текущей директории и всех вложенных поддиректориях",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "grep",
+    "lessonName": "Grep",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/grep/quiz_unit",
+    "lessonId": 1194
+  }
+}

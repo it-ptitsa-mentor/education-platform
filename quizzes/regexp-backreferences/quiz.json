@@ -1,0 +1,144 @@
+{
+  "slug": "regexp-backreferences",
+  "title": "Группировка и обратная связь",
+  "questions": [
+    {
+      "id": "9385",
+      "prompt": "Как найти подстроку, если левые и правые части совпадают?\n\nta-tu `ta-ta tu-tu`",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962513",
+          "text": "С помощью группировки без обратной связи",
+          "correct": false
+        },
+        {
+          "id": "5962514",
+          "text": "С помощью атомарной группировки",
+          "correct": false
+        },
+        {
+          "id": "5962515",
+          "text": "С помощью группировки с обратной связью",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22106",
+      "prompt": "Какое регулярное выражение с обратной ссылкой найдет последовательность `am-am`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962516",
+          "text": "`/am-(am)/`",
+          "correct": false
+        },
+        {
+          "id": "5962517",
+          "text": "`/(am)-(ma)/`",
+          "correct": false
+        },
+        {
+          "id": "5962518",
+          "text": "`/(am)-\\2/`",
+          "correct": false
+        },
+        {
+          "id": "5962519",
+          "text": "`/(am)-\\1/`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9316",
+      "prompt": "Как правильно объявить именованную группу?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962520",
+          "text": "`<имя>`",
+          "correct": false
+        },
+        {
+          "id": "5962521",
+          "text": "`(имя)`",
+          "correct": false
+        },
+        {
+          "id": "5962522",
+          "text": "`?(имя)`",
+          "correct": false
+        },
+        {
+          "id": "5962523",
+          "text": "`?<имя>`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9317",
+      "prompt": "В каком из примеров верно определена группировка без обратной связи?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962524",
+          "text": "`a(?>bc|b|x)cc`",
+          "correct": false
+        },
+        {
+          "id": "5962525",
+          "text": "`a(?*bc|b|x)cc`",
+          "correct": false
+        },
+        {
+          "id": "5962526",
+          "text": "`a(?!bc|b|x)cc`",
+          "correct": false
+        },
+        {
+          "id": "5962527",
+          "text": "`a(?:bc|b|x)cc`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9318",
+      "prompt": "В каком из примеров верно определена атомарная группировка?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962528",
+          "text": "`a(?:bc|b|x)cc`",
+          "correct": false
+        },
+        {
+          "id": "5962529",
+          "text": "`a(?*bc|b|x)cc`",
+          "correct": false
+        },
+        {
+          "id": "5962530",
+          "text": "`a(?!bc|b|x)cc`",
+          "correct": false
+        },
+        {
+          "id": "5962531",
+          "text": "`a(?>bc|b|x)cc`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "backreferences",
+    "lessonName": "Группировка и обратная связь",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/backreferences/quiz_unit",
+    "lessonId": 325
+  }
+}

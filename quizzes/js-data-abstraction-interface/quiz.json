@@ -1,0 +1,95 @@
+{
+  "slug": "js-data-abstraction-interface",
+  "title": "Интерфейсы",
+  "questions": [
+    {
+      "id": "5468",
+      "prompt": "Что такое абстрактный тип данных?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992697",
+          "text": "Тип данных в языке программирования — например, строки",
+          "correct": false
+        },
+        {
+          "id": "5992698",
+          "text": "Набор конкретных функций для какой-либо абстракции данных",
+          "correct": false
+        },
+        {
+          "id": "5992699",
+          "text": "Математическая модель для типов данных, определяемая в терминах возможных операций над этими данными и их значений",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5469",
+      "prompt": "Что является интерфейсом у ноутбука?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992703",
+          "text": "Жёсткий диск",
+          "correct": false
+        },
+        {
+          "id": "5992704",
+          "text": "Процессор",
+          "correct": false
+        },
+        {
+          "id": "5992705",
+          "text": "Клавиатура",
+          "correct": true
+        },
+        {
+          "id": "5992706",
+          "text": "Порты",
+          "correct": true
+        },
+        {
+          "id": "5992707",
+          "text": "Экран",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5470",
+      "prompt": "Что входит в сигнатуру функции?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992712",
+          "text": "Тело функции",
+          "correct": false
+        },
+        {
+          "id": "5992713",
+          "text": "Входные параметры и их типы",
+          "correct": true
+        },
+        {
+          "id": "5992714",
+          "text": "Выходной параметр и его тип",
+          "correct": true
+        },
+        {
+          "id": "5992715",
+          "text": "Имя функции",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-data-abstraction",
+    "courseName": "JS: Абстракция с помощью данных",
+    "lessonSlug": "interface",
+    "lessonName": "Интерфейсы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-data-abstraction/lessons/interface/quiz_unit",
+    "lessonId": 1508
+  }
+}

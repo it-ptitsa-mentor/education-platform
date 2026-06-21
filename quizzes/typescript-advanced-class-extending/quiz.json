@@ -1,0 +1,80 @@
+{
+  "slug": "typescript-advanced-class-extending",
+  "title": "Наследование",
+  "questions": [
+    {
+      "id": "12945",
+      "prompt": "Сколько классов можно наследовать?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892876",
+          "text": "Зависит от типа класса",
+          "correct": false
+        },
+        {
+          "id": "5892877",
+          "text": "Бесконечно",
+          "correct": false
+        },
+        {
+          "id": "5892878",
+          "text": "Один",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12946",
+      "prompt": "Что делать, если нужно наследоваться от двух разных классов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892879",
+          "text": "Указать оба класса через запятую после ключевого слова `extends`",
+          "correct": false
+        },
+        {
+          "id": "5892880",
+          "text": "Cоздать дополнительный класс, который будет наследовать один из классов и возвращать объект второго класса",
+          "correct": false
+        },
+        {
+          "id": "5892881",
+          "text": "Наследоваться от двух классов можно только в том случае, если один из классов наследуется от другого",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22760",
+      "prompt": "В конструкторе `class User { constructor(__ username: string) {} }` какой модификатор нужно указать, чтобы поле было доступно в наследнике?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892882",
+          "text": "`private`",
+          "correct": false
+        },
+        {
+          "id": "5892883",
+          "text": "`public`",
+          "correct": false
+        },
+        {
+          "id": "5892884",
+          "text": "`protected`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "class-extending",
+    "lessonName": "Наследование",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/class-extending/quiz_unit",
+    "lessonId": 4472
+  }
+}

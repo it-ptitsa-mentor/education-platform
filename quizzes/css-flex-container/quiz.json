@@ -1,0 +1,85 @@
+{
+  "slug": "css-flex-container",
+  "title": "Флекс-контейнер",
+  "questions": [
+    {
+      "id": "6066",
+      "prompt": "Что такое Flex-контейнер?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5988979",
+          "text": "Специальное свойство CSS",
+          "correct": false
+        },
+        {
+          "id": "5988980",
+          "text": "Набор свойств, которыми можно создать различные оси",
+          "correct": false
+        },
+        {
+          "id": "5988981",
+          "text": "Обертка, внутри которой работают Flex-свойства",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6067",
+      "prompt": "Как ведет себя Flex-контейнер?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5988982",
+          "text": "Всегда выглядит как блочный элемент",
+          "correct": false
+        },
+        {
+          "id": "5988983",
+          "text": "Всегда выглядит как строчный элемент",
+          "correct": false
+        },
+        {
+          "id": "5988984",
+          "text": "Может вести себя как блочный или строчный элемент в зависимости от значения свойства display",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6068",
+      "prompt": "Какое свойство определяет ось, по которой будут располагаться элементы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5988985",
+          "text": "flex-axis",
+          "correct": false
+        },
+        {
+          "id": "5988986",
+          "text": "flex-route",
+          "correct": false
+        },
+        {
+          "id": "5988987",
+          "text": "элементы автоматически выбирают направление",
+          "correct": false
+        },
+        {
+          "id": "5988988",
+          "text": "flex-direction",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-flex",
+    "courseName": "CSS: Flex",
+    "lessonSlug": "container",
+    "lessonName": "Флекс-контейнер",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-flex/lessons/container/quiz_unit",
+    "lessonId": 1576
+  }
+}

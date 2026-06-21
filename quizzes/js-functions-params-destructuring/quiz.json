@@ -1,0 +1,100 @@
+{
+  "slug": "js-functions-params-destructuring",
+  "title": "Деструктуризация параметров",
+  "questions": [
+    {
+      "id": "22296",
+      "prompt": "Что нужно подставить вместо `__`, чтобы деструктурировать массив параметров и получить первые два элемента?\n\n```javascript\nconst func = (__) => {\n  console.log(first);\n  console.log(second);\n};\n\nfunc([1, 2]); // => 1, 2\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993463",
+          "text": "`[first; second]`",
+          "correct": false
+        },
+        {
+          "id": "5993464",
+          "text": "`first, second`",
+          "correct": false
+        },
+        {
+          "id": "5993465",
+          "text": "`{ first, second }`",
+          "correct": false
+        },
+        {
+          "id": "5993466",
+          "text": "`[first, second]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16008",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconst elements = [1];\n\nconst func = ([first = 100, second = 200]) => {\n  console.log(first);\n  console.log(second);\n};\n\nfunc(elements);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993467",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5993468",
+          "text": "[1]",
+          "correct": false
+        },
+        {
+          "id": "5993469",
+          "text": "100, 200",
+          "correct": false
+        },
+        {
+          "id": "5993470",
+          "text": "Ошибка",
+          "correct": false
+        },
+        {
+          "id": "5993471",
+          "text": "1, 200",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22297",
+      "prompt": "Какой синтаксис вместо `__` позволит получить только свойство `surname`?\n\n```javascript\nconst obj = { name: 'John', surname: 'Doe' };\n\nconst func = (__) => {\n  console.log(surname);\n};\n\nfunc(obj); // => Doe\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993472",
+          "text": "`[surname]`",
+          "correct": false
+        },
+        {
+          "id": "5993473",
+          "text": "`surname`",
+          "correct": false
+        },
+        {
+          "id": "5993474",
+          "text": "`{ name }`",
+          "correct": false
+        },
+        {
+          "id": "5993475",
+          "text": "`{ surname }`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "params-destructuring",
+    "lessonName": "Деструктуризация параметров",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/params-destructuring/quiz_unit",
+    "lessonId": 1656
+  }
+}

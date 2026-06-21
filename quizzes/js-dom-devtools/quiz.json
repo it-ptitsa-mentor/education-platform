@@ -1,0 +1,105 @@
+{
+  "slug": "js-dom-devtools",
+  "title": "Консоль разработчика",
+  "questions": [
+    {
+      "id": "6664",
+      "prompt": "Если открыть *DevTools* и набрать `$0` в консоли, что произойдет?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992994",
+          "text": "Спишется ноль долларов",
+          "correct": false
+        },
+        {
+          "id": "5992995",
+          "text": "Выполнится код на PHP",
+          "correct": false
+        },
+        {
+          "id": "5992996",
+          "text": "Вернется текущий элемент в DOM-формате",
+          "correct": false
+        },
+        {
+          "id": "5992997",
+          "text": "Ничего не произойдет",
+          "correct": false
+        },
+        {
+          "id": "5992998",
+          "text": "Вернется текущий элемент в формате HTML-элемента",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6665",
+      "prompt": "Какие из методов объекта `console` реально существуют?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992999",
+          "text": "tea — проверка поддержки сервером HTTP-ошибки 418 I'm a teapot",
+          "correct": false
+        },
+        {
+          "id": "5993000",
+          "text": "run — запуск кода на исполнение",
+          "correct": false
+        },
+        {
+          "id": "5993001",
+          "text": "log — логирование данных",
+          "correct": true
+        },
+        {
+          "id": "5993002",
+          "text": "error — логирование ошибок",
+          "correct": true
+        },
+        {
+          "id": "5993003",
+          "text": "clear — очистка текущего экрана логов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22289",
+      "prompt": "Какой метод нужно вызвать вместо `__`, чтобы увидеть дерево свойств DOM-узла?\n\n```javascript\nconsole.__($('p'));\n// ▾ p\n//     accessKey: \"\"\n//     align: \"\"\n//     ariaAtomic: null\n//     ...\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993004",
+          "text": "`log`",
+          "correct": false
+        },
+        {
+          "id": "5993005",
+          "text": "`table`",
+          "correct": false
+        },
+        {
+          "id": "5993006",
+          "text": "`info`",
+          "correct": false
+        },
+        {
+          "id": "5993007",
+          "text": "`dir`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "devtools",
+    "lessonName": "Консоль разработчика",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/devtools/quiz_unit",
+    "lessonId": 918
+  }
+}

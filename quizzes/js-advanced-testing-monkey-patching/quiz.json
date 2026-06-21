@@ -1,0 +1,80 @@
+{
+  "slug": "js-advanced-testing-monkey-patching",
+  "title": "Манкипатчинг",
+  "questions": [
+    {
+      "id": "6506",
+      "prompt": "Что такое манки-патчинг?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991688",
+          "text": "Подмена объекта",
+          "correct": false
+        },
+        {
+          "id": "5991690",
+          "text": "Программа, которая периодически удаляет случайные файлы из проекта",
+          "correct": false
+        },
+        {
+          "id": "5991691",
+          "text": "Изменение поведения объектов без прямого доступа к ним (например за счет прототипов)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6507",
+      "prompt": "Что дает манки-патчинг в тестах?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991693",
+          "text": "Можно протестировать код, который невозможно протестировать никаким другим методом",
+          "correct": false
+        },
+        {
+          "id": "5991694",
+          "text": "Он позволяет писать меньше тестов, чем при использовании других подходов",
+          "correct": false
+        },
+        {
+          "id": "5991696",
+          "text": "Подмена реализации без необходимости внедрять инверсию зависимости",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6508",
+      "prompt": "Каким образом Nock перехватывает запросы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991699",
+          "text": "В Nock встроена поддержка всех популярных http-клиентов на JavaScript",
+          "correct": false
+        },
+        {
+          "id": "5991700",
+          "text": "С помощью магии",
+          "correct": false
+        },
+        {
+          "id": "5991701",
+          "text": "Nock патчит базовую функциональность модуля *http* и автоматически работает со всеми http-клиентами, которые внутри себя завязаны на этот модуль",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-advanced-testing",
+    "courseName": "JS: Продвинутое тестирование",
+    "lessonSlug": "monkey-patching",
+    "lessonName": "Манкипатчинг",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-advanced-testing/lessons/monkey-patching/quiz_unit",
+    "lessonId": 1550
+  }
+}

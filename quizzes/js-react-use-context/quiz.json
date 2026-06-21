@@ -1,0 +1,80 @@
+{
+  "slug": "js-react-use-context",
+  "title": "Хук useContext",
+  "questions": [
+    {
+      "id": "17462",
+      "prompt": "Для чего нужен механизм Контекста",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5941025",
+          "text": "для получения доступа к пропсам",
+          "correct": false
+        },
+        {
+          "id": "5941026",
+          "text": "для доступа к состоянию других компонентов",
+          "correct": false
+        },
+        {
+          "id": "5941027",
+          "text": "для работы с глобальным состоянием",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17463",
+      "prompt": "Основные преимущества использования `useContext()`",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5941031",
+          "text": "облегчает повторное использование компонентов",
+          "correct": false
+        },
+        {
+          "id": "5941033",
+          "text": "позволяет избежать передачи пропсов в промежуточные компоненты",
+          "correct": true
+        },
+        {
+          "id": "5941034",
+          "text": "облегчает работу с глобальными данными, которые нужны во многих компонентах",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17464",
+      "prompt": "Можно ли в контексте хранить динамические данные?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5941036",
+          "text": "нет",
+          "correct": false
+        },
+        {
+          "id": "5941038",
+          "text": "да, но при использовании хука `useState()`",
+          "correct": false
+        },
+        {
+          "id": "5941040",
+          "text": "да",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "use-context",
+    "lessonName": "Хук useContext",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/use-context/quiz_unit",
+    "lessonId": 5967
+  }
+}

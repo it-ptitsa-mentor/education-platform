@@ -1,0 +1,80 @@
+{
+  "slug": "intro_to_git-changes-cancelation",
+  "title": "Отмена изменений в рабочей директории",
+  "questions": [
+    {
+      "id": "6524",
+      "prompt": "Почему команда `git restore` не работает для неотслеживаемых файлов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937859",
+          "text": "Потому что для таких файлов нужно вызывать команду `git restore --staged`",
+          "correct": false
+        },
+        {
+          "id": "5937860",
+          "text": "Потому что надо вызывать настойчивее — если долго вызывать, то сработает!",
+          "correct": false
+        },
+        {
+          "id": "5937861",
+          "text": "Потому что неотслеживаемые файлы невозможно восстановить, у них нет старого состояния",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6525",
+      "prompt": "В каком состоянии должен быть файл, чтобы сработала команда `git restore <file>`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937862",
+          "text": "Новый неотслеживаемый файл",
+          "correct": false
+        },
+        {
+          "id": "5937863",
+          "text": "Измененный и добавленный в индекс файл",
+          "correct": false
+        },
+        {
+          "id": "5937864",
+          "text": "Измененный в рабочей директории файл",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6526",
+      "prompt": "Какая команда отменяет индексацию, но не отменяет изменения, сделанные в файле?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937865",
+          "text": "Команда `git clean`",
+          "correct": false
+        },
+        {
+          "id": "5937866",
+          "text": "Команда `git restore <file>`",
+          "correct": false
+        },
+        {
+          "id": "5937867",
+          "text": "Команда `git restore --staged <file>`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "changes-cancelation",
+    "lessonName": "Отмена изменений в рабочей директории",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/changes-cancelation/quiz_unit",
+    "lessonId": 1838
+  }
+}

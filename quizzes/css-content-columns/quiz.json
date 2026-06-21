@@ -1,0 +1,137 @@
+{
+  "slug": "css-content-columns",
+  "title": "Колонки",
+  "questions": [
+    {
+      "id": "6591",
+      "prompt": "Какое свойство создает колонки?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867689",
+          "text": "column",
+          "correct": false
+        },
+        {
+          "id": "5867690",
+          "text": "kolonki",
+          "correct": false
+        },
+        {
+          "id": "5867691",
+          "text": "column-width",
+          "correct": false
+        },
+        {
+          "id": "5867692",
+          "text": "column-count",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6592",
+      "prompt": "Что определяет свойство column-width?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867693",
+          "text": "Максимальный размер колонки",
+          "correct": false
+        },
+        {
+          "id": "5867694",
+          "text": "Минимальный размер колонки",
+          "correct": false
+        },
+        {
+          "id": "5867695",
+          "text": "Фиксированный размер колонки",
+          "correct": false
+        },
+        {
+          "id": "5867696",
+          "text": "Оптимальный размер колонки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6593",
+      "prompt": "Какое значение по-умолчанию у свойства column-gap?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867697",
+          "text": "1px",
+          "correct": false
+        },
+        {
+          "id": "5867698",
+          "text": "10px",
+          "correct": false
+        },
+        {
+          "id": "5867699",
+          "text": "2em",
+          "correct": false
+        },
+        {
+          "id": "5867700",
+          "text": "Как повезет",
+          "correct": false
+        },
+        {
+          "id": "5867701",
+          "text": "1em",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6594",
+      "prompt": "Сокращением каких свойств является свойство column-rule?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867702",
+          "text": "column-rule-border",
+          "correct": false
+        },
+        {
+          "id": "5867703",
+          "text": "column-rule-padding",
+          "correct": false
+        },
+        {
+          "id": "5867704",
+          "text": "column-rule-align",
+          "correct": false
+        },
+        {
+          "id": "5867705",
+          "text": "column-rule-width",
+          "correct": true
+        },
+        {
+          "id": "5867706",
+          "text": "column-rule-style",
+          "correct": true
+        },
+        {
+          "id": "5867707",
+          "text": "column-rule-color",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "columns",
+    "lessonName": "Колонки",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/columns/quiz_unit",
+    "lessonId": 1883
+  }
+}

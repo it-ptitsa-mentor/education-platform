@@ -1,0 +1,85 @@
+{
+  "slug": "js-setup-environment-npx",
+  "title": "NPX",
+  "questions": [
+    {
+      "id": "6283",
+      "prompt": "Что запускается с помощью npx?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994747",
+          "text": "Любые консольные утилиты, включая встроенные в операционную систему",
+          "correct": false
+        },
+        {
+          "id": "5994748",
+          "text": "Библиотеки",
+          "correct": false
+        },
+        {
+          "id": "5994749",
+          "text": "Разрабатываемое приложение на JavaScript",
+          "correct": false
+        },
+        {
+          "id": "5994750",
+          "text": "Консольные утилиты, написанные на JavaScript",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6284",
+      "prompt": "В какой директории npx ищет исполняемый файл для запуска?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994751",
+          "text": "В системной директории куда устанавливаются пакеты с флагом `-g`",
+          "correct": false
+        },
+        {
+          "id": "5994752",
+          "text": "/bin",
+          "correct": false
+        },
+        {
+          "id": "5994753",
+          "text": "./node_modules/.bin",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6285",
+      "prompt": "Как узнать, под каким именем доступна утилита в командной строке?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994754",
+          "text": "Имя утилиты всегда совпадает с именем пакета",
+          "correct": false
+        },
+        {
+          "id": "5994755",
+          "text": "Спросить у друга-программиста",
+          "correct": false
+        },
+        {
+          "id": "5994756",
+          "text": "В документации на гитхабе",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-setup-environment",
+    "courseName": "JS: Настройка окружения",
+    "lessonSlug": "npx",
+    "lessonName": "NPX",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-setup-environment/lessons/npx/quiz_unit",
+    "lessonId": 1306
+  }
+}

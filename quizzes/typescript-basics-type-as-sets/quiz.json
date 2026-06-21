@@ -1,0 +1,90 @@
+{
+  "slug": "typescript-basics-type-as-sets",
+  "title": "Типы как множества",
+  "questions": [
+    {
+      "id": "11712",
+      "prompt": "Выберите правильные ответы:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5957190",
+          "text": "Типы данных для высокоуровневых языков можно менять на низком уровне без опасения нарушения структуры данных",
+          "correct": false
+        },
+        {
+          "id": "5957191",
+          "text": "В TypeScript работа с данными происходит на уровне операций с процессором и его регистрами",
+          "correct": false
+        },
+        {
+          "id": "5957192",
+          "text": "Есть низкоуровневые языки, в которых все данные представлены в виде чисел",
+          "correct": true
+        },
+        {
+          "id": "5957193",
+          "text": "Система типов TypeScript работает как множества",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11714",
+      "prompt": "Что характеризует тип данных?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957194",
+          "text": "Только сами данные и то, как они хранятся",
+          "correct": false
+        },
+        {
+          "id": "5957195",
+          "text": "Способы взаимодействия между типами данных",
+          "correct": false
+        },
+        {
+          "id": "5957196",
+          "text": "Все возможные значения и операции, которые можно совершать с данными",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21955",
+      "prompt": "Какой тип нужно добавить к объединению `SomeType`, чтобы переменная могла хранить строку или булево значение?\n```typescript\ntype SomeType = string | /* здесь тип */;\nconst v1: SomeType = 'some text';\nconst v2: SomeType = true;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957197",
+          "text": "`string[]`",
+          "correct": false
+        },
+        {
+          "id": "5957198",
+          "text": "`boolean[]`",
+          "correct": false
+        },
+        {
+          "id": "5957199",
+          "text": "`number`",
+          "correct": false
+        },
+        {
+          "id": "5957200",
+          "text": "`boolean`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "type-as-sets",
+    "lessonName": "Типы как множества",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/type-as-sets/quiz_unit",
+    "lessonId": 3805
+  }
+}

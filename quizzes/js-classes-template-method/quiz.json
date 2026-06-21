@@ -1,0 +1,80 @@
+{
+  "slug": "js-classes-template-method",
+  "title": "Шаблонный метод",
+  "questions": [
+    {
+      "id": "6443",
+      "prompt": "Где реализуется общая логика алгоритма при применении шаблонного метода?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992159",
+          "text": "В одном из наследников",
+          "correct": false
+        },
+        {
+          "id": "5992160",
+          "text": "В наследниках",
+          "correct": false
+        },
+        {
+          "id": "5992161",
+          "text": "В родительском классе",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6444",
+      "prompt": "Что самое важное в шаблонном методе?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992163",
+          "text": "Инкапсуляция",
+          "correct": false
+        },
+        {
+          "id": "5992165",
+          "text": "Наследование",
+          "correct": false
+        },
+        {
+          "id": "5992167",
+          "text": "Полиморфизм",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6445",
+      "prompt": "Что изменяется с внедрением шаблонного метода?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992169",
+          "text": "Появляется больше классов",
+          "correct": false
+        },
+        {
+          "id": "5992171",
+          "text": "Растет дублирование",
+          "correct": false
+        },
+        {
+          "id": "5992173",
+          "text": "Сокращается дублирование",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-classes",
+    "courseName": "JS: Погружаясь в классы",
+    "lessonSlug": "template-method",
+    "lessonName": "Шаблонный метод",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-classes/lessons/template-method/quiz_unit",
+    "lessonId": 1858
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "js-react-performance",
+  "title": "Производительность",
+  "questions": [
+    {
+      "id": "4311",
+      "prompt": "В чём отличие класса `React.PureComponent` от `React.Component`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940932",
+          "text": "`PureComponent` не позволяет делать побочных эффектов",
+          "correct": false
+        },
+        {
+          "id": "5940933",
+          "text": "В `Component` нельзя реализовать `shouldComponentUpdate`",
+          "correct": false
+        },
+        {
+          "id": "5940934",
+          "text": "`PureComponent` реализует `shouldComponentUpdate` и не перерисовывается, если данные не поменялись",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4312",
+      "prompt": "Почему такой код будет приводить к рендерингу приложения, учитывая что `MarkdownEditor` наследуется от `React.PureComponent`?\n\n```jsx\nclass App extends React.Component {\n  handleChange(e) {\n    // некоторый код\n  }\n\n  render() {\n    return <MarkdownEditor onChange={this.handleChange.bind(this)} value={this.state.value} />;\n  }\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940935",
+          "text": "Из-за того, что колбек передается снаружи через `props`",
+          "correct": false
+        },
+        {
+          "id": "5940936",
+          "text": "value часть состояния",
+          "correct": false
+        },
+        {
+          "id": "5940937",
+          "text": "Потому что вызов `bind` каждый раз создает новую функцию, что в свою очередь приводит к постоянному изменению `props`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4313",
+      "prompt": "Что не так с кодом ниже?\n\n```jsx\n  <Topics coll={this.props.topics || []} />;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940938",
+          "text": "Ошибка в синтаксисе",
+          "correct": false
+        },
+        {
+          "id": "5940939",
+          "text": "Нельзя называть компоненты во множественном числе",
+          "correct": false
+        },
+        {
+          "id": "5940940",
+          "text": "Неправильно создаётся значение по умолчанию, что не позволяет эффективно работать рендерингу",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "performance",
+    "lessonName": "Производительность",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/performance/quiz_unit",
+    "lessonId": 964
+  }
+}

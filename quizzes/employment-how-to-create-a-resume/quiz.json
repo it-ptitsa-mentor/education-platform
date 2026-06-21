@@ -1,0 +1,90 @@
+{
+  "slug": "employment-how-to-create-a-resume",
+  "title": "Резюме",
+  "questions": [
+    {
+      "id": "9708",
+      "prompt": "Что наиболее важно, когда вы проходите собеседование в большую и серьезную компанию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989397",
+          "text": "Прикладные навыки",
+          "correct": false
+        },
+        {
+          "id": "5989398",
+          "text": "Знание одного из функциональных языков программирования",
+          "correct": false
+        },
+        {
+          "id": "5989399",
+          "text": "Фундаментальная подготовка",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9709",
+      "prompt": "Нужно ли указывать образование в резюме?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989400",
+          "text": "Нет. Работодателя интересуют только ваши практические навыки, а не образование",
+          "correct": false
+        },
+        {
+          "id": "5989401",
+          "text": "Да. Это рассматривается как преимущество. Так как любое высшее образование, даже неоконченное, сильно меняет мышление в лучшую сторону",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9710",
+      "prompt": "Какая информация должна быть в резюме?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989407",
+          "text": "Наличие личного авто",
+          "correct": false
+        },
+        {
+          "id": "5989408",
+          "text": "Образование",
+          "correct": true
+        },
+        {
+          "id": "5989409",
+          "text": "Дополнительное образование",
+          "correct": true
+        },
+        {
+          "id": "5989411",
+          "text": "Опыт работы",
+          "correct": true
+        },
+        {
+          "id": "5989413",
+          "text": "Ключевые навыки",
+          "correct": true
+        },
+        {
+          "id": "5989415",
+          "text": "О себе",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "employment",
+    "courseName": "Трудоустройство",
+    "lessonSlug": "how-to-create-a-resume",
+    "lessonName": "Резюме",
+    "sourceUrl": "https://ru.hexlet.io/courses/employment/lessons/how-to-create-a-resume/quiz_unit",
+    "lessonId": 1935
+  }
+}

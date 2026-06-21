@@ -1,0 +1,95 @@
+{
+  "slug": "js-objects-merging",
+  "title": "Слияние",
+  "questions": [
+    {
+      "id": "6250",
+      "prompt": "Что вернет код?\n\n```javascript\nconst company = { name: null };\nObject.assign(company, { name: 'Hexlet' });\n\ncompany.name; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994260",
+          "text": "`undefined`",
+          "correct": false
+        },
+        {
+          "id": "5994261",
+          "text": "`null`",
+          "correct": false
+        },
+        {
+          "id": "5994262",
+          "text": "Hexlet",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6251",
+      "prompt": "Что вернет код?\n\n```javascript\nconst user = { company: { name: 'Hexlet' } };\nObject.assign(user, { company: {} });\n\nuser.company.name; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994266",
+          "text": "Hexlet",
+          "correct": false
+        },
+        {
+          "id": "5994267",
+          "text": "`null`",
+          "correct": false
+        },
+        {
+          "id": "5994268",
+          "text": "`{}`",
+          "correct": false
+        },
+        {
+          "id": "5994269",
+          "text": "name",
+          "correct": false
+        },
+        {
+          "id": "5994270",
+          "text": "`undefined`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6252",
+      "prompt": "Что вернет код?\n\n```javascript\nconst user = { };\nObject.assign(user, { name: 'Mila' }, { age: 25 });\n\nuser; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994271",
+          "text": "`{}`",
+          "correct": false
+        },
+        {
+          "id": "5994272",
+          "text": "`{ name: 'Mila' }`",
+          "correct": false
+        },
+        {
+          "id": "5994273",
+          "text": "`{ age: 25 }`",
+          "correct": false
+        },
+        {
+          "id": "5994274",
+          "text": "`{ name: 'Mila', age: 25 }`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "merging",
+    "lessonName": "Слияние",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/merging/quiz_unit",
+    "lessonId": 1814
+  }
+}

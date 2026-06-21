@@ -1,0 +1,87 @@
+{
+  "slug": "http_protocol-query_string",
+  "title": "Передача данных query string",
+  "questions": [
+    {
+      "id": "2486",
+      "prompt": "Какой из типов запросов должен использоваться только для получения данных и не должен приводить к изменениям данных?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937987",
+          "text": "DELETE",
+          "correct": false
+        },
+        {
+          "id": "5937988",
+          "text": "POST",
+          "correct": false
+        },
+        {
+          "id": "5937989",
+          "text": "GET",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2487",
+      "prompt": "Какой из типов запросов лучше всего поддается кэшированию (если запросы используются правильно)?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937990",
+          "text": "POST",
+          "correct": false
+        },
+        {
+          "id": "5937991",
+          "text": "GET",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2488",
+      "prompt": "Возможно ли в одном запросе передавать данные и в body, и в request line с помощью query string?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937992",
+          "text": "нет",
+          "correct": false
+        },
+        {
+          "id": "5937993",
+          "text": "да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2489",
+      "prompt": "Запрос публикует новый комментарий в блоге. Является ли такой запрос идемпотентным?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937994",
+          "text": "да",
+          "correct": false
+        },
+        {
+          "id": "5937995",
+          "text": "нет",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "query_string",
+    "lessonName": "Передача данных query string",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/query_string/quiz_unit",
+    "lessonId": 445
+  }
+}

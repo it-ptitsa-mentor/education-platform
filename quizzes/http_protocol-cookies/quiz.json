@@ -1,0 +1,119 @@
+{
+  "slug": "http_protocol-cookies",
+  "title": "Cookies",
+  "questions": [
+    {
+      "id": "2543",
+      "prompt": "HTTP — stateless protocol. Что это значит?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938735",
+          "text": "любая аутентификация на сайтах должна быть реализована через базовую аутентификацию HTTP",
+          "correct": false
+        },
+        {
+          "id": "5938736",
+          "text": "HTTP-сервер не умеет «запоминать» информацию о пользователях",
+          "correct": false
+        },
+        {
+          "id": "5938737",
+          "text": "с помощью HTTP невозможно передавать информацию о состоянии объектов",
+          "correct": false
+        },
+        {
+          "id": "5938738",
+          "text": "каждая пара «HTTP-запрос + ответ» независимая, и протокол не «помнит» ничего о прошлых запросах",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2544",
+      "prompt": "Может ли заголовок \"Set-cookie\" встречаться несколько раз в одном ответе (response)?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938739",
+          "text": "нет",
+          "correct": false
+        },
+        {
+          "id": "5938740",
+          "text": "да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2545",
+      "prompt": "Где у пользователя хранятся cookie, отправленные сервером?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938741",
+          "text": "нигде не хранится",
+          "correct": false
+        },
+        {
+          "id": "5938742",
+          "text": "в адресе (URL)",
+          "correct": false
+        },
+        {
+          "id": "5938743",
+          "text": "в браузере",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2547",
+      "prompt": "В куки есть такой фрагмент: `domain = .yandex.ru`. Для каких адресов будет использоваться этот куки?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938744",
+          "text": "только для поддоменов вида `x.yandex.ru`",
+          "correct": false
+        },
+        {
+          "id": "5938745",
+          "text": "только для `yandex.ru`",
+          "correct": false
+        },
+        {
+          "id": "5938746",
+          "text": "для `yandex.ru` и всех поддоменов вида `x.yandex.ru`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2546",
+      "prompt": "Пользователь зашел на сайт интернет-магазина (без авторизации, как гость), добавил несколько товаров в свою корзину, закрыл браузер, перезагрузил компьютер, открыл браузер, вернулся на сайт и увидел, что товары все еще находятся в его корзине. Какой тип cookie использовался (скорее всего) для достижения такого эффекта?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5938750",
+          "text": "сессионные куки (session cookies)",
+          "correct": false
+        },
+        {
+          "id": "5938751",
+          "text": "постоянные куки (persistent cookies)",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "cookies",
+    "lessonName": "Cookies",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/cookies/quiz_unit",
+    "lessonId": 461
+  }
+}

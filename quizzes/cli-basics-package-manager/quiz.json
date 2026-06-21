@@ -1,0 +1,80 @@
+{
+  "slug": "cli-basics-package-manager",
+  "title": "Пакетный менеджер",
+  "questions": [
+    {
+      "id": "4928",
+      "prompt": "Как правильно установить PHP, если вы работаете в Ubuntu?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946614",
+          "text": "Скачать установщик с официального сайта и запустить его",
+          "correct": false
+        },
+        {
+          "id": "5946615",
+          "text": "`brew install php`",
+          "correct": false
+        },
+        {
+          "id": "5946616",
+          "text": "`sudo apt install php`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4929",
+      "prompt": "Представьте, что ваш пакетный менеджер может вывести сообщение:\n\n> E: Unable to locate package wrongname\n\nПочему так могло произойти?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946617",
+          "text": "Не хватает прав на запуск `apt`",
+          "correct": false
+        },
+        {
+          "id": "5946618",
+          "text": "Пакета с таким именем не существует",
+          "correct": true
+        },
+        {
+          "id": "5946619",
+          "text": "Устарел индекс, нужно запустить `apt update`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4930",
+      "prompt": "Посмотрите документацию утилиты `apt`. Как с помощью этой утилиты найти пакет по слову в описании?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946620",
+          "text": "`apt look php`",
+          "correct": false
+        },
+        {
+          "id": "5946621",
+          "text": "`apt show php`",
+          "correct": false
+        },
+        {
+          "id": "5946622",
+          "text": "`apt search php`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "package-manager",
+    "lessonName": "Пакетный менеджер",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/package-manager/quiz_unit",
+    "lessonId": 1193
+  }
+}

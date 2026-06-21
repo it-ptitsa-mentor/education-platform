@@ -1,0 +1,80 @@
+{
+  "slug": "js-react-children",
+  "title": "Children",
+  "questions": [
+    {
+      "id": "4263",
+      "prompt": "Какого типа данные в свойстве `children`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940612",
+          "text": "Array",
+          "correct": false
+        },
+        {
+          "id": "5940613",
+          "text": "Object",
+          "correct": false
+        },
+        {
+          "id": "5940614",
+          "text": "Зависит от того, что было передано",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4264",
+      "prompt": "Как правильно обойти `children` для отрисовки?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940615",
+          "text": "`this.props.children.map(...)`",
+          "correct": false
+        },
+        {
+          "id": "5940616",
+          "text": "`this.props.children.forEach(...)`",
+          "correct": false
+        },
+        {
+          "id": "5940617",
+          "text": "`React.Children.map(this.props.children, ...)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4265",
+      "prompt": "Можно ли написать такой код?\n\n```jsx\nconst vdom = <Alert><Alert>hi!</Alert></Alert>;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940618",
+          "text": "Дети моих детей — не мои дети",
+          "correct": false
+        },
+        {
+          "id": "5940619",
+          "text": "Нельзя",
+          "correct": false
+        },
+        {
+          "id": "5940620",
+          "text": "Конечно",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "children",
+    "lessonName": "Children",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/children/quiz_unit",
+    "lessonId": 951
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "js-basics-conditionals",
+  "title": "Условные конструкции",
+  "questions": [
+    {
+      "id": "8551",
+      "prompt": "Дан код:\n\n```javascript\nif (a > 100) {\n  something;\n} else if (a === 95) {\n  somethingDifferent;\n} else if (a === 90) {\n  somethingDifferentYet;\n} else {\n  somethingElse;\n}\n```\n\nЧто будет, если ни одно условие из блоков `if` и `else if` не будет истинным?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992472",
+          "text": "компьютер зависнет",
+          "correct": false
+        },
+        {
+          "id": "5992473",
+          "text": "будет выполнена инструкция `somethingDifferentYet`",
+          "correct": false
+        },
+        {
+          "id": "5992474",
+          "text": "будет выполнена инструкция `somethingElse`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8553",
+      "prompt": "Дан код:\n\n```javascript\nif (temperature > 10) {\n  return temperature;\n} else if (temperature < 10) {\n  return 0;\n}\n```\n\nИзменится ли функциональность, если поменять местами условия таким образом:\n\n```javascript\nif (temperature < 10) {\n  return 0;\n} else if (temperature > 10) {\n  return temperature;\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992475",
+          "text": "Да",
+          "correct": false
+        },
+        {
+          "id": "5992476",
+          "text": "Нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8554",
+      "prompt": "Дан код:\n\n```javascript\nif (temperature > 10) {\n  return temperature;\n} else if (temperature < 10) {\n  return 0;\n}\n```\n\nИзменится ли функциональность, если изменить `else if` на `else`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992477",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5992478",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "conditionals",
+    "lessonName": "Условные конструкции",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/conditionals/quiz_unit",
+    "lessonId": 2636
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "js-objects-references",
+  "title": "Ссылки",
+  "questions": [
+    {
+      "id": "6238",
+      "prompt": "Чему равно выражение?\n\n```javascript\n{} === {}; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994118",
+          "text": "`true`",
+          "correct": false
+        },
+        {
+          "id": "5994119",
+          "text": "{}",
+          "correct": false
+        },
+        {
+          "id": "5994120",
+          "text": "`false`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6239",
+      "prompt": "Чему равно выражение?\n\n```javascript\nconst user1 = { name: 'John', age: 45 };\nconst user2 = user1;\nuser1 === user2; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994124",
+          "text": "`false`",
+          "correct": false
+        },
+        {
+          "id": "5994125",
+          "text": "{}",
+          "correct": false
+        },
+        {
+          "id": "5994126",
+          "text": "`true`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6240",
+      "prompt": "Чему равно выражение?\n\n```javascript\nconst company = { company: 'Hexlet' };\nconst company2 = { company: 'Hexlet' };\ncompany === company2; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994127",
+          "text": "`true`",
+          "correct": false
+        },
+        {
+          "id": "5994128",
+          "text": "{}",
+          "correct": false
+        },
+        {
+          "id": "5994129",
+          "text": "`false`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "references",
+    "lessonName": "Ссылки",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/references/quiz_unit",
+    "lessonId": 1813
+  }
+}

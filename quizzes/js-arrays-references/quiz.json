@@ -1,0 +1,102 @@
+{
+  "slug": "js-arrays-references",
+  "title": "Ссылки",
+  "questions": [
+    {
+      "id": "6241",
+      "prompt": "Чему равно выражение?\n\n```javascript\n[] === []; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991732",
+          "text": "`true`",
+          "correct": false
+        },
+        {
+          "id": "5991733",
+          "text": "[]",
+          "correct": false
+        },
+        {
+          "id": "5991734",
+          "text": "`false`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6242",
+      "prompt": "Чему равно выражение?\n\n```javascript\nconst items = [1, 2];\nconst items2 = items;\nitems === items2; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991739",
+          "text": "`false`",
+          "correct": false
+        },
+        {
+          "id": "5991740",
+          "text": "[]",
+          "correct": false
+        },
+        {
+          "id": "5991741",
+          "text": "`true`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6243",
+      "prompt": "Чему равно выражение?\n\n```javascript\nconst items = [1, 2];\nconst items2 = [1, 2];\nitems === items2; // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991744",
+          "text": "[]",
+          "correct": false
+        },
+        {
+          "id": "5991745",
+          "text": "`true`",
+          "correct": false
+        },
+        {
+          "id": "5991747",
+          "text": "`false`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16736",
+      "prompt": "Как поменять местами два элемента в массиве?\n\n```javascript\nconst items = [1, 2];\n// ?\nconsole.log(items); // [2, 1]\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991749",
+          "text": "Никак, это невозможно!",
+          "correct": false
+        },
+        {
+          "id": "5991750",
+          "text": "Переписать значение одного элемента на значение другого по порядку:\n```javascript\nitems[0] = items[1]; // перезаписываем значение элемента на значение второго элемента\nitems[1] = items[0]; // перезаписываем значение второго на значение первого элемента\n```",
+          "correct": false
+        },
+        {
+          "id": "5991751",
+          "text": "Сохранить значение первого элемента, затем перезаписать этот элемент на значение второго элемента. После этого второй элемент перезаписать на значение первого:\n```javascript\nconst temp = items[0]; // сохраняем значение элемента, чтобы не потерять его при перезаписи\nitems[0] = items[1]; // перезаписываем значение элемента на значение второго элемента\nitems[1] = temp; // перезаписываем значение второго элемента на ранее сохраненное\n```",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "references",
+    "lessonName": "Ссылки",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/references/quiz_unit",
+    "lessonId": 1609
+  }
+}

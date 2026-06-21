@@ -1,0 +1,85 @@
+{
+  "slug": "js-testing-fixtures",
+  "title": "Фикстуры",
+  "questions": [
+    {
+      "id": "15274",
+      "prompt": "Что такое фикстуры?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994953",
+          "text": "Переменные создаваемые в тестах",
+          "correct": false
+        },
+        {
+          "id": "5994954",
+          "text": "HTML-файлы",
+          "correct": false
+        },
+        {
+          "id": "5994955",
+          "text": "Любые данные, используемые в процессе тестирования",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15275",
+      "prompt": "Что может быть фикстурой?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994959",
+          "text": "Тесты",
+          "correct": false
+        },
+        {
+          "id": "5994960",
+          "text": "В некоторых случаях исходный код",
+          "correct": true
+        },
+        {
+          "id": "5994961",
+          "text": "Любые текстовые файлы",
+          "correct": true
+        },
+        {
+          "id": "5994962",
+          "text": "Любые бинарные данные (картинки, исполняемые файлы)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15276",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994966",
+          "text": "Текстовые фикстуры лучше хранить в JavaScript файлах",
+          "correct": false
+        },
+        {
+          "id": "5994967",
+          "text": "Фикстурой могут быть не только входные данные, но и ожидаемые (expected)",
+          "correct": true
+        },
+        {
+          "id": "5994968",
+          "text": "Фикстуры обычно хранятся в простых текстовых файлах",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "fixtures",
+    "lessonName": "Фикстуры",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/fixtures/quiz_unit",
+    "lessonId": 1417
+  }
+}

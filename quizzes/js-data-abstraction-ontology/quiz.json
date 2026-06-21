@@ -1,0 +1,117 @@
+{
+  "slug": "js-data-abstraction-ontology",
+  "title": "Онтология",
+  "questions": [
+    {
+      "id": "5455",
+      "prompt": "Что включает в себя онтология предметной области?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992647",
+          "text": "Код",
+          "correct": false
+        },
+        {
+          "id": "5992648",
+          "text": "ООП",
+          "correct": false
+        },
+        {
+          "id": "5992649",
+          "text": "Понятия (наборы объектов, группы) — автор книги",
+          "correct": true
+        },
+        {
+          "id": "5992650",
+          "text": "Атрибуты объектов — жанр книги",
+          "correct": true
+        },
+        {
+          "id": "5992651",
+          "text": "Объекты (экземпляры) — \"Война и мир\" Л.Н.Толстой",
+          "correct": true
+        },
+        {
+          "id": "5992652",
+          "text": "Отношения между понятиями — автор и книги связаны o2m",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5456",
+      "prompt": "Какая связь между пользователем интернет-магазина и его заказами?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992653",
+          "text": "o2o",
+          "correct": false
+        },
+        {
+          "id": "5992654",
+          "text": "m2m",
+          "correct": false
+        },
+        {
+          "id": "5992655",
+          "text": "o2m",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5457",
+      "prompt": "Какая связь между пользователями и курсами на Хекслете?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992656",
+          "text": "o2o",
+          "correct": false
+        },
+        {
+          "id": "5992657",
+          "text": "o2m",
+          "correct": false
+        },
+        {
+          "id": "5992658",
+          "text": "m2m",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5458",
+      "prompt": "Какая связь между государствами и столицами?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992659",
+          "text": "o2m",
+          "correct": false
+        },
+        {
+          "id": "5992660",
+          "text": "m2m",
+          "correct": false
+        },
+        {
+          "id": "5992661",
+          "text": "o2o",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-data-abstraction",
+    "courseName": "JS: Абстракция с помощью данных",
+    "lessonSlug": "ontology",
+    "lessonName": "Онтология",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-data-abstraction/lessons/ontology/quiz_unit",
+    "lessonId": 1504
+  }
+}

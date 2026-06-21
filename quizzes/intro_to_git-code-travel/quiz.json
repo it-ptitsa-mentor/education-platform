@@ -1,0 +1,80 @@
+{
+  "slug": "intro_to_git-code-travel",
+  "title": "Перемещение по истории",
+  "questions": [
+    {
+      "id": "6530",
+      "prompt": "Что делает команда `git checkout`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937899",
+          "text": "Выводит на экран изменения, сделанные в конкретном коммите",
+          "correct": false
+        },
+        {
+          "id": "5937900",
+          "text": "Откатывает изменения, сделанные в указанном коммите",
+          "correct": false
+        },
+        {
+          "id": "5937901",
+          "text": "Загружает в рабочую директорию состояние репозитория на момент нужного коммита",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6531",
+      "prompt": "Как вернуться после `git checkout` обратно на последний коммит?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937902",
+          "text": "С помощью команды `rm && git clone`",
+          "correct": false
+        },
+        {
+          "id": "5937903",
+          "text": "С помощью команды `git checkout <HEAD sha>`",
+          "correct": false
+        },
+        {
+          "id": "5937904",
+          "text": "С помощью команды `git checkout main`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6532",
+      "prompt": "Какой командой можно узнать текущий загруженный коммит?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937905",
+          "text": "Командой `git checkout`",
+          "correct": false
+        },
+        {
+          "id": "5937906",
+          "text": "Командой `git add`",
+          "correct": false
+        },
+        {
+          "id": "5937907",
+          "text": "Командой `git branch`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "code-travel",
+    "lessonName": "Перемещение по истории",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/code-travel/quiz_unit",
+    "lessonId": 1837
+  }
+}

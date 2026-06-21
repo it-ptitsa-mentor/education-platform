@@ -1,0 +1,80 @@
+{
+  "slug": "intro_to_git-workflow",
+  "title": "Рабочий процесс",
+  "questions": [
+    {
+      "id": "6399",
+      "prompt": "Зачем нужен индекс?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937741",
+          "text": "Чтобы добавлять в него файлы, которые не должны попасть в коммит",
+          "correct": false
+        },
+        {
+          "id": "5937742",
+          "text": "Чтобы автоматически загружать файлы в репозитории",
+          "correct": false
+        },
+        {
+          "id": "5937743",
+          "text": "Чтобы формировать набор файлов, которые попадут в один коммит",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6400",
+      "prompt": "Что такое коммит?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937746",
+          "text": "Добавление файлов в индекс перед фиксацией",
+          "correct": false
+        },
+        {
+          "id": "5937748",
+          "text": "Удаление файлов из репозитория",
+          "correct": false
+        },
+        {
+          "id": "5937749",
+          "text": "Фиксация изменений, добавленных в индекс внутри репозитория",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6401",
+      "prompt": "Можно ли закоммитить неотслеживаемые файлы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937755",
+          "text": "Не всегда, это зависит от типа файла",
+          "correct": false
+        },
+        {
+          "id": "5937757",
+          "text": "Да, любой новый файл после коммита сразу попадает в репозиторий",
+          "correct": false
+        },
+        {
+          "id": "5937759",
+          "text": "Нет, сначала файлы нужно добавить в индекс",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "workflow",
+    "lessonName": "Рабочий процесс",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/workflow/quiz_unit",
+    "lessonId": 1839
+  }
+}

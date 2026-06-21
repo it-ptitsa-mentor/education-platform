@@ -1,0 +1,80 @@
+{
+  "slug": "js-react-virtual-dom",
+  "title": "Virtual Dom",
+  "questions": [
+    {
+      "id": "4308",
+      "prompt": "С какого компонента начинается перерисовка дерева компонента после вызова `setState`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940834",
+          "text": "Всегда с корня",
+          "correct": false
+        },
+        {
+          "id": "5940835",
+          "text": "Всегда с листовых компонентов",
+          "correct": false
+        },
+        {
+          "id": "5940837",
+          "text": "С того, в котором был вызван `setState`, так как это изменение может повлиять только на потомков и никогда на предков",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4309",
+      "prompt": "Выберите верное утверждение",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940841",
+          "text": "Работая с React, важно знать в каком состоянии находился экран до того, как мы его начали обновлять",
+          "correct": false
+        },
+        {
+          "id": "5940842",
+          "text": "Виртуальный DOM требует поддержки браузера",
+          "correct": false
+        },
+        {
+          "id": "5940843",
+          "text": "React хранит предыдущую версию виртуального DOM для того, чтобы сравнивать его с новым",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4310",
+      "prompt": "Что означает фраза \"one-way data flow\"?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940848",
+          "text": "Компоненты можно вкладывать друг в друга",
+          "correct": false
+        },
+        {
+          "id": "5940849",
+          "text": "Состояние может храниться только в одном компоненте",
+          "correct": false
+        },
+        {
+          "id": "5940850",
+          "text": "Распространение изменений идёт в одну сторону. Меняются данные в состоянии, перерисовывается приложение",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "virtual-dom",
+    "lessonName": "Virtual Dom",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/virtual-dom/quiz_unit",
+    "lessonId": 968
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "cli-basics-command-line-interface",
+  "title": "Интерфейс командной строки",
+  "questions": [
+    {
+      "id": "23507",
+      "prompt": "Какие флаги использованы в команде `ls -lt`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946449",
+          "text": "Их нет",
+          "correct": false
+        },
+        {
+          "id": "5946450",
+          "text": "`ls`",
+          "correct": false
+        },
+        {
+          "id": "5946451",
+          "text": "`-t`",
+          "correct": true
+        },
+        {
+          "id": "5946452",
+          "text": "`-l`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4687",
+      "prompt": "Как еще можно записать команду `ls -lta` так, чтобы не изменился смысл?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946453",
+          "text": "`ls lta`",
+          "correct": false
+        },
+        {
+          "id": "5946454",
+          "text": "`lslta`",
+          "correct": false
+        },
+        {
+          "id": "5946455",
+          "text": "`ls --lta`",
+          "correct": false
+        },
+        {
+          "id": "5946456",
+          "text": "`ls -l ta`",
+          "correct": false
+        },
+        {
+          "id": "5946457",
+          "text": "`ls -l -t -a`",
+          "correct": true
+        },
+        {
+          "id": "5946458",
+          "text": "`ls -la -t`",
+          "correct": true
+        },
+        {
+          "id": "5946459",
+          "text": "`ls -atl`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4688",
+      "prompt": "Сколько аргументов использовано в команде `ls -lt /home`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946460",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "5946461",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5946462",
+          "text": "0",
+          "correct": false
+        },
+        {
+          "id": "5946463",
+          "text": "1",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "command-line-interface",
+    "lessonName": "Интерфейс командной строки",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/command-line-interface/quiz_unit",
+    "lessonId": 1183
+  }
+}

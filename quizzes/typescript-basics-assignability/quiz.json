@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-assignability",
+  "title": "Присваивание значения",
+  "questions": [
+    {
+      "id": "11605",
+      "prompt": "Что делать в первую очередь, если в вызове функции появилась ошибка _Type X is not assignable to type Y_?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957242",
+          "text": "Привести тип передаваемого значения к типу `any`",
+          "correct": false
+        },
+        {
+          "id": "5957243",
+          "text": "Отключить проверку типов",
+          "correct": false
+        },
+        {
+          "id": "5957244",
+          "text": "Проверить, какой тип передается в функцию и какой тип в ней ожидается",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11606",
+      "prompt": "Почему не стоит использовать сразу тип `any`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957245",
+          "text": "Тип `any` может вызвать ошибку на этапе компиляции",
+          "correct": false
+        },
+        {
+          "id": "5957246",
+          "text": "Современные разработчики не используют `any` — это считается дурным тоном",
+          "correct": false
+        },
+        {
+          "id": "5957247",
+          "text": "Тип `any` отключает проверку типа, поэтому теряется весь смысл использования TypeScript",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21960",
+      "prompt": "Какой тип должен иметь переменная `message`, чтобы в неё можно было присвоить строку `greeting`?\n```typescript\nlet message: /* здесь тип */;\nconst greeting: string = 'Hello, world!';\nmessage = greeting;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957248",
+          "text": "`number`",
+          "correct": false
+        },
+        {
+          "id": "5957249",
+          "text": "`any`",
+          "correct": false
+        },
+        {
+          "id": "5957250",
+          "text": "`never`",
+          "correct": false
+        },
+        {
+          "id": "5957251",
+          "text": "`string`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "assignability",
+    "lessonName": "Присваивание значения",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/assignability/quiz_unit",
+    "lessonId": 3811
+  }
+}

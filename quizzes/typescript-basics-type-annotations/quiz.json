@@ -1,0 +1,95 @@
+{
+  "slug": "typescript-basics-type-annotations",
+  "title": "Аннотации типов",
+  "questions": [
+    {
+      "id": "11524",
+      "prompt": "Какой тип будет у `arr`?\n\n```typescript\n  const arr = [1, 2, 3];\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957096",
+          "text": "`any[]`",
+          "correct": false
+        },
+        {
+          "id": "5957097",
+          "text": "`Array`",
+          "correct": false
+        },
+        {
+          "id": "5957098",
+          "text": "Нет типа",
+          "correct": false
+        },
+        {
+          "id": "5957099",
+          "text": "`number[]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11525",
+      "prompt": "Какой тип будет у `arr`?\n\n```typescript\n  const arr = [];\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957103",
+          "text": "`number[]`",
+          "correct": false
+        },
+        {
+          "id": "5957104",
+          "text": "`Array`",
+          "correct": false
+        },
+        {
+          "id": "5957105",
+          "text": "Нет типа",
+          "correct": false
+        },
+        {
+          "id": "5957106",
+          "text": "`any[]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21951",
+      "prompt": "Какой тип параметра `numbers` нужно задать функции `getEvenNumbers`, чтобы отфильтровать только четные значения массива?\n```typescript\nconst numbers = [1, 2, 3, 4];\n\nfunction getEvenNumbers(numbers: /* здесь тип */) {\n  return numbers.filter((n) => n % 2 === 0);\n}\n\nconsole.log(getEvenNumbers(numbers)); // => [2, 4]\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957107",
+          "text": "`string[]`",
+          "correct": false
+        },
+        {
+          "id": "5957108",
+          "text": "`any[]`",
+          "correct": false
+        },
+        {
+          "id": "5957109",
+          "text": "`Array<number | string>`",
+          "correct": false
+        },
+        {
+          "id": "5957110",
+          "text": "`number[]`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "type-annotations",
+    "lessonName": "Аннотации типов",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/type-annotations/quiz_unit",
+    "lessonId": 3801
+  }
+}

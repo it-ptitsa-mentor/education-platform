@@ -1,0 +1,95 @@
+{
+  "slug": "js-react-jsx",
+  "title": "JSX",
+  "questions": [
+    {
+      "id": "5701",
+      "prompt": "Укажите ошибку\n\n```jsx\nconst vdom = <Div id=\"row\">Hello, {name}</Div>;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940560",
+          "text": "Интерполяция в атрибутах работает только с фигурными скобками",
+          "correct": false
+        },
+        {
+          "id": "5940561",
+          "text": "Интерполяция в теле тега работает только с фигурными скобками",
+          "correct": false
+        },
+        {
+          "id": "5940562",
+          "text": "Правильное имя компонента `<div>`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5702",
+      "prompt": "Выберите синтаксически корректные варианты.",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5940563",
+          "text": "```jsx\n<p><span></p></span>\n```",
+          "correct": false
+        },
+        {
+          "id": "5940564",
+          "text": "```jsx\n<div id={name}>{hello world}</div>\n```",
+          "correct": false
+        },
+        {
+          "id": "5940565",
+          "text": "```jsx\n<div></div>\n```",
+          "correct": true
+        },
+        {
+          "id": "5940566",
+          "text": "```jsx\n<div id={name}><p>paragraph</p></div>\n```",
+          "correct": true
+        },
+        {
+          "id": "5940567",
+          "text": "```jsx\n<div id={name}><p>{paragraph}</p></div>\n```",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5703",
+      "prompt": "Выберите синтаксически корректные варианты.",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5940568",
+          "text": "```jsx\nconst vdom = isSomething ? {<div>block</div>} : false\n```",
+          "correct": false
+        },
+        {
+          "id": "5940569",
+          "text": "```jsx\n<div id={if (true) { 'one' } else { 'two' }}>Hello World!</div>\n```",
+          "correct": false
+        },
+        {
+          "id": "5940570",
+          "text": "```jsx\n<h1>{isSomething && \"header\"}</h1>\n```",
+          "correct": true
+        },
+        {
+          "id": "5940571",
+          "text": "```jsx\n<p>{isSomething ? \"value\" : <span>value2</span>}</p>\n```",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "jsx",
+    "lessonName": "JSX",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/jsx/quiz_unit",
+    "lessonId": 970
+  }
+}

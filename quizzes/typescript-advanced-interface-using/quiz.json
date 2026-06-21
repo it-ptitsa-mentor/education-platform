@@ -1,0 +1,90 @@
+{
+  "slug": "typescript-advanced-interface-using",
+  "title": "Использование интерфейсов",
+  "questions": [
+    {
+      "id": "12957",
+      "prompt": "Что делать, если нужно расширить интерфейс дополнительными свойствами?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5892914",
+          "text": "Расширять интерфейсы нельзя",
+          "correct": false
+        },
+        {
+          "id": "5892915",
+          "text": "Указать тип `any`",
+          "correct": false
+        },
+        {
+          "id": "5892916",
+          "text": "Дополнительно объявить интерфейс с новыми полями",
+          "correct": true
+        },
+        {
+          "id": "5892917",
+          "text": "Создать новый интерфейс с новыми полями и наследовать его от изначального",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12958",
+      "prompt": "Какая ошибка допущена в коде ниже?\n\n```typescript\n  interface IUser {\n    nickname: string;\n    readonly rating: number;\n  }\n\n  interface IAdmin extends IUser {\n    isUser: boolean = true;\n  }\n\n  const sergey: IAdmin = {\n    nickname: 'Sergey',\n    rating: 20,\n    isUser: true,\n  }\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892918",
+          "text": "Ошибки нет",
+          "correct": false
+        },
+        {
+          "id": "5892919",
+          "text": "В интерфейсе IAdmin не указаны поля интерфейса IUser",
+          "correct": false
+        },
+        {
+          "id": "5892920",
+          "text": "В интерфейсе нельзя указывать атрибут readonly",
+          "correct": false
+        },
+        {
+          "id": "5892921",
+          "text": "В интерфейсе нельзя инициировать значение поля",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22763",
+      "prompt": "Чтобы интерфейс `IAdmin` наследовал свойства `IUser`, между именами нужно указать ключевое слово __.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892922",
+          "text": "implements",
+          "correct": false
+        },
+        {
+          "id": "5892923",
+          "text": "inherit",
+          "correct": false
+        },
+        {
+          "id": "5892924",
+          "text": "extends",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "interface-using",
+    "lessonName": "Использование интерфейсов",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/interface-using/quiz_unit",
+    "lessonId": 4476
+  }
+}

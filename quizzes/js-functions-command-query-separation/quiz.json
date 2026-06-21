@@ -1,0 +1,85 @@
+{
+  "slug": "js-functions-command-query-separation",
+  "title": "Разделение команд и запросов",
+  "questions": [
+    {
+      "id": "6473",
+      "prompt": "Как можно описать CQS?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993425",
+          "text": "Чтобы получить ответ, нужно задать вопрос",
+          "correct": false
+        },
+        {
+          "id": "5993426",
+          "text": "Отвечай, не задавая вопросов",
+          "correct": false
+        },
+        {
+          "id": "5993427",
+          "text": "Не оставляй вопросы без ответа",
+          "correct": false
+        },
+        {
+          "id": "5993428",
+          "text": "Задавая вопрос, не изменяй ответ",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6474",
+      "prompt": "Чем является функция `getAddress()`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993429",
+          "text": "Командой",
+          "correct": false
+        },
+        {
+          "id": "5993430",
+          "text": "И команда и запрос",
+          "correct": false
+        },
+        {
+          "id": "5993431",
+          "text": "Запросом",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6475",
+      "prompt": "Чем является функция `sendEmail()`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993432",
+          "text": "Запросом",
+          "correct": false
+        },
+        {
+          "id": "5993433",
+          "text": "И команда и запрос",
+          "correct": false
+        },
+        {
+          "id": "5993434",
+          "text": "Командой",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "command-query-separation",
+    "lessonName": "Разделение команд и запросов",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/command-query-separation/quiz_unit",
+    "lessonId": 1631
+  }
+}

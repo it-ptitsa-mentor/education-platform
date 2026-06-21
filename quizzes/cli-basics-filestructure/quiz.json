@@ -1,0 +1,198 @@
+{
+  "slug": "cli-basics-filestructure",
+  "title": "Файловая структура",
+  "questions": [
+    {
+      "id": "4695",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946464",
+          "text": "В Linux диски именуются с большой буквы: _C:_ или _X:_",
+          "correct": false
+        },
+        {
+          "id": "5946465",
+          "text": "Относительный путь до файла однозначно указывает, где он находится в файловой системе",
+          "correct": false
+        },
+        {
+          "id": "5946466",
+          "text": "В POSIX-совместимых системах устройство — это файл внутри дерева с корнем в `/`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4696",
+      "prompt": "Выберите имена файлов, которые могут быть скрыты в Linux:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946467",
+          "text": "_bash.rc_",
+          "correct": false
+        },
+        {
+          "id": "5946468",
+          "text": "_settings_",
+          "correct": false
+        },
+        {
+          "id": "5946469",
+          "text": "_etc_",
+          "correct": false
+        },
+        {
+          "id": "5946470",
+          "text": "_.bash.rc_",
+          "correct": true
+        },
+        {
+          "id": "5946471",
+          "text": "_.bash_profile_",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4697",
+      "prompt": "Как называется файл `.index.html` в Linux?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946472",
+          "text": "_index.html_",
+          "correct": false
+        },
+        {
+          "id": "5946473",
+          "text": "_index_",
+          "correct": false
+        },
+        {
+          "id": "5946474",
+          "text": "_html_",
+          "correct": false
+        },
+        {
+          "id": "5946475",
+          "text": "_.index_",
+          "correct": false
+        },
+        {
+          "id": "5946476",
+          "text": "_.index.html_",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4698",
+      "prompt": "Изучите вывод команды `ls -la`:\n\n```bash\nls -la\n\ntotal 576\ndrwxr-xr-x+ 57 toto    hexlet   1824 Dec 29 12:11 .\ndrwxr-xr-x   5 root    admin     160 Oct 18 10:30 ..\ndrwxr-xr-x   8 toto    hexlet    256 Nov 22 13:44 .asdf\n-rw-r--r--   1 toto    hexlet     41 Nov 20 09:55 .profile\n```\n\nЧто обозначает точка на первой строке в списке?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946477",
+          "text": "Ничего, это служебный символ",
+          "correct": false
+        },
+        {
+          "id": "5946478",
+          "text": "Родительскую директорию",
+          "correct": false
+        },
+        {
+          "id": "5946479",
+          "text": "Скрытый файл",
+          "correct": false
+        },
+        {
+          "id": "5946480",
+          "text": "Текущую директорию",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4699",
+      "prompt": "Как сделать файл скрытым в Linux?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946481",
+          "text": "Никак, это невозможно",
+          "correct": false
+        },
+        {
+          "id": "5946482",
+          "text": "Зайти в свойства файла и там поставить галочку",
+          "correct": false
+        },
+        {
+          "id": "5946483",
+          "text": "Переименовать файл, чтобы первым символом имени шла точка",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4700",
+      "prompt": "Какой командой можно посмотреть информацию о файле _index.Html_, находящемся в текущей директории? Напоминаем, что файловая система чувствительна к регистру.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946484",
+          "text": "_stat index.html",
+          "correct": false
+        },
+        {
+          "id": "5946485",
+          "text": "Любой командой из перечисленных",
+          "correct": false
+        },
+        {
+          "id": "5946486",
+          "text": "_stat index.Html_",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15504",
+      "prompt": "По какому пути в Linux расположена домашняя директория пользователя системы с именем *jack*?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946487",
+          "text": "*/jack*",
+          "correct": false
+        },
+        {
+          "id": "5946488",
+          "text": "*/etc/jack*",
+          "correct": false
+        },
+        {
+          "id": "5946489",
+          "text": "*/users/jack*",
+          "correct": false
+        },
+        {
+          "id": "5946490",
+          "text": "*/home/jack*",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "filestructure",
+    "lessonName": "Файловая структура",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/filestructure/quiz_unit",
+    "lessonId": 1192
+  }
+}

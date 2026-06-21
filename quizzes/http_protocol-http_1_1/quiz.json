@@ -1,0 +1,80 @@
+{
+  "slug": "http_protocol-http_1_1",
+  "title": "HTTP 1.1",
+  "questions": [
+    {
+      "id": "2455",
+      "prompt": "Чем по сути является HTTP?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937567",
+          "text": "Естественным, необратимым следствием развития сетевых карт и интерфейсов",
+          "correct": false
+        },
+        {
+          "id": "5937568",
+          "text": "Языком программирования для создания веб-приложений",
+          "correct": false
+        },
+        {
+          "id": "5937569",
+          "text": "Искусственным общим языком для передачи данных",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2457",
+      "prompt": "Что из перечисленного является особенностью HTTP версии 1.1?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937570",
+          "text": "Коды состояния (вроде 200 или 301)",
+          "correct": false
+        },
+        {
+          "id": "5937571",
+          "text": "Возможность использования компрессии (например, gzip)",
+          "correct": false
+        },
+        {
+          "id": "5937572",
+          "text": "Возможность повторно использовать TCP-соединение вместо создания нового соединения при каждом запросе",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2458",
+      "prompt": "Код 301 это",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937573",
+          "text": "Тело запроса",
+          "correct": false
+        },
+        {
+          "id": "5937574",
+          "text": "Код запроса",
+          "correct": false
+        },
+        {
+          "id": "5937575",
+          "text": "Код ответа",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http_protocol",
+    "courseName": "Протокол HTTP",
+    "lessonSlug": "http_1_1",
+    "lessonName": "HTTP 1.1",
+    "sourceUrl": "https://ru.hexlet.io/courses/http_protocol/lessons/http_1_1/quiz_unit",
+    "lessonId": 432
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "employment-for-developers-github-profile",
+  "title": "Оформление профиля на GitHub",
+  "questions": [
+    {
+      "id": "9872",
+      "prompt": "Что должно быть в хорошем профиле?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989568",
+          "text": "Кем вы видите себя через 5 лет",
+          "correct": false
+        },
+        {
+          "id": "5989569",
+          "text": "Наличие высшего образования",
+          "correct": false
+        },
+        {
+          "id": "5989570",
+          "text": "Личная фотография",
+          "correct": true
+        },
+        {
+          "id": "5989571",
+          "text": "Имя и фамилия",
+          "correct": true
+        },
+        {
+          "id": "5989573",
+          "text": "Репозитории",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9873",
+      "prompt": "Что не относится к фундаментальным навыкам?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989578",
+          "text": "Алгоритмы и структуры данных",
+          "correct": false
+        },
+        {
+          "id": "5989579",
+          "text": "Математическая подготовка",
+          "correct": false
+        },
+        {
+          "id": "5989580",
+          "text": "Языки и уровень их владения",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9874",
+      "prompt": "Что обязательно должно быть в *README.md* проекта:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989586",
+          "text": "Личная фотография автора",
+          "correct": false
+        },
+        {
+          "id": "5989587",
+          "text": "Название проекта и его описание",
+          "correct": true
+        },
+        {
+          "id": "5989588",
+          "text": "Команды установки, запуска локально, запуск тестов и линтеров",
+          "correct": true
+        },
+        {
+          "id": "5989589",
+          "text": "Примеры использования",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "employment-for-developers",
+    "courseName": "Трудоустройство для разработчиков",
+    "lessonSlug": "github-profile",
+    "lessonName": "Оформление профиля на GitHub",
+    "sourceUrl": "https://ru.hexlet.io/courses/employment-for-developers/lessons/github-profile/quiz_unit",
+    "lessonId": 3072
+  }
+}

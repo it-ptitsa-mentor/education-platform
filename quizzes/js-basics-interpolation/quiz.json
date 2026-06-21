@@ -1,0 +1,85 @@
+{
+  "slug": "js-basics-interpolation",
+  "title": "Интерполяция",
+  "questions": [
+    {
+      "id": "8557",
+      "prompt": "Выберите строку, где используется интерполяция",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992209",
+          "text": "console.log(greeting + \", \" + firstName + \"!\");",
+          "correct": false
+        },
+        {
+          "id": "5992210",
+          "text": "console.log(\\`${greeting}, ${firstName}!\\`);",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8558",
+      "prompt": "Сколько переменных можно подставлять в строку для интерполяции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992211",
+          "text": "только одну",
+          "correct": false
+        },
+        {
+          "id": "5992212",
+          "text": "две",
+          "correct": false
+        },
+        {
+          "id": "5992213",
+          "text": "сколько поместится на экран",
+          "correct": false
+        },
+        {
+          "id": "5992214",
+          "text": "количество не ограничено",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8559",
+      "prompt": "В какие символы нужно завернуть строку для интерполяции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992215",
+          "text": "в одинарные кавычки",
+          "correct": false
+        },
+        {
+          "id": "5992216",
+          "text": "в двойные кавычки",
+          "correct": false
+        },
+        {
+          "id": "5992217",
+          "text": "в кавычки-елочки",
+          "correct": false
+        },
+        {
+          "id": "5992218",
+          "text": "в бектики",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "interpolation",
+    "lessonName": "Интерполяция",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/interpolation/quiz_unit",
+    "lessonId": 2616
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "js-polymorphism-factory",
+  "title": "Паттерн Фабрика",
+  "questions": [
+    {
+      "id": "5553",
+      "prompt": "Для чего может использоваться фабрика?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994611",
+          "text": "Как альтернатива паттерна null-object",
+          "correct": false
+        },
+        {
+          "id": "5994612",
+          "text": "Для ручной реализации диспетчеризации по ключу",
+          "correct": false
+        },
+        {
+          "id": "5994613",
+          "text": "Для изоляции процесса создания объектов",
+          "correct": true
+        },
+        {
+          "id": "5994614",
+          "text": "Для скрытия условных конструкций",
+          "correct": true
+        },
+        {
+          "id": "5994615",
+          "text": "Для изоляции повторяющейся сложной логики создания объекта",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5554",
+      "prompt": "Как может быть реализована фабрика?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994619",
+          "text": "Как массив",
+          "correct": false
+        },
+        {
+          "id": "5994620",
+          "text": "Как функция",
+          "correct": true
+        },
+        {
+          "id": "5994622",
+          "text": "Как статический метод",
+          "correct": true
+        },
+        {
+          "id": "5994624",
+          "text": "Как обычный метод",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5555",
+      "prompt": "Можно ли совмещать фабрику с разными видами диспетчеризации?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994629",
+          "text": "Нет, либо одно либо другое",
+          "correct": false
+        },
+        {
+          "id": "5994630",
+          "text": "Да, но только с диспетчеризацией по именам файлов",
+          "correct": false
+        },
+        {
+          "id": "5994632",
+          "text": "Да, но только с диспетчеризацией по ключам ассоциативного массива",
+          "correct": false
+        },
+        {
+          "id": "5994634",
+          "text": "Да, фабрика может быть устроена внутри любым способом",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "factory",
+    "lessonName": "Паттерн Фабрика",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/factory/quiz_unit",
+    "lessonId": 1562
+  }
+}

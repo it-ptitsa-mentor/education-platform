@@ -1,0 +1,122 @@
+{
+  "slug": "regexp-lookaround",
+  "title": "Просмотр вперед и назад",
+  "questions": [
+    {
+      "id": "9319",
+      "prompt": "Выберите пример с позитивным просмотром вперед:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962545",
+          "text": "`a(?!b)`",
+          "correct": false
+        },
+        {
+          "id": "5962546",
+          "text": "`(?<=b)a`",
+          "correct": false
+        },
+        {
+          "id": "5962547",
+          "text": "`(?<!b)a`",
+          "correct": false
+        },
+        {
+          "id": "5962548",
+          "text": "`a(?=b)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9320",
+      "prompt": "Выберите пример с негативным просмотром вперед:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962549",
+          "text": "`a(?=b)`",
+          "correct": false
+        },
+        {
+          "id": "5962550",
+          "text": "`(?<=b)a`",
+          "correct": false
+        },
+        {
+          "id": "5962551",
+          "text": "`(?<!b)a`",
+          "correct": false
+        },
+        {
+          "id": "5962552",
+          "text": "`a(?!b)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9321",
+      "prompt": "Выберите пример с позитивным просмотром назад:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962553",
+          "text": "`a(?=b)`",
+          "correct": false
+        },
+        {
+          "id": "5962554",
+          "text": "`a(?!b)`",
+          "correct": false
+        },
+        {
+          "id": "5962555",
+          "text": "`(?<!b)a`",
+          "correct": false
+        },
+        {
+          "id": "5962556",
+          "text": "`(?<=b)a`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9322",
+      "prompt": "Выберите пример с негативным просмотром назад:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962557",
+          "text": "`a(?=b)`",
+          "correct": false
+        },
+        {
+          "id": "5962558",
+          "text": "`a(?!b)`",
+          "correct": false
+        },
+        {
+          "id": "5962559",
+          "text": "`(?<=b)a`",
+          "correct": false
+        },
+        {
+          "id": "5962560",
+          "text": "`(?<!b)a`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "lookaround",
+    "lessonName": "Просмотр вперед и назад",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/lookaround/quiz_unit",
+    "lessonId": 326
+  }
+}

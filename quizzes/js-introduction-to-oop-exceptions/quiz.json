@@ -1,0 +1,95 @@
+{
+  "slug": "js-introduction-to-oop-exceptions",
+  "title": "Исключения",
+  "questions": [
+    {
+      "id": "6114",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994031",
+          "text": "Коды возврата удобнее исключений",
+          "correct": false
+        },
+        {
+          "id": "5994032",
+          "text": "Механизм исключений реализован во всех языках без исключения",
+          "correct": false
+        },
+        {
+          "id": "5994033",
+          "text": "Задача исключений – передать ошибку из того места, где она возникла, в то место, где она должна быть обработана",
+          "correct": true
+        },
+        {
+          "id": "5994034",
+          "text": "Исключения появились как замена кодам возврата",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6115",
+      "prompt": "Выполнится ли строчка идущая после возбуждения исключения?\n\n```javascript\nthrow new Error('Something goes wrong');\nconsole.log('i am here');\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994035",
+          "text": "Да, исключение не влияет на поток выполнения кода",
+          "correct": false
+        },
+        {
+          "id": "5994036",
+          "text": "Зависит от версии JavaScript",
+          "correct": false
+        },
+        {
+          "id": "5994037",
+          "text": "Нет, исключение прерывает выполнение текущего кода и начинает подниматься по стеку вызовов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6116",
+      "prompt": "Что будет напечатано на экран?\n\n```javascript\nlet result = '';\ntry {\n  result += 'one';\n} catch (e) {\n  result += 'two';\n}\nresult += ' three';\nconsole.log(result);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994041",
+          "text": "one two",
+          "correct": false
+        },
+        {
+          "id": "5994042",
+          "text": "two three",
+          "correct": false
+        },
+        {
+          "id": "5994043",
+          "text": "three",
+          "correct": false
+        },
+        {
+          "id": "5994044",
+          "text": "one two three",
+          "correct": false
+        },
+        {
+          "id": "5994045",
+          "text": "one three",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "exceptions",
+    "lessonName": "Исключения",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/exceptions/quiz_unit",
+    "lessonId": 1686
+  }
+}

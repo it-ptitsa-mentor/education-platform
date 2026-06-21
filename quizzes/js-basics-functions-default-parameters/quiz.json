@@ -1,0 +1,85 @@
+{
+  "slug": "js-basics-functions-default-parameters",
+  "title": "Необязательные параметры функций",
+  "questions": [
+    {
+      "id": "8534",
+      "prompt": "Ограничивается ли количество необязательных параметров функции",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992414",
+          "text": "Да, не больше 10",
+          "correct": false
+        },
+        {
+          "id": "5992415",
+          "text": "Да, не больше 2",
+          "correct": false
+        },
+        {
+          "id": "5992416",
+          "text": "Нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8535",
+      "prompt": "Какие определения функции записаны верно?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992417",
+          "text": "`const pow = (x = 2, base) => ...`",
+          "correct": false
+        },
+        {
+          "id": "5992418",
+          "text": "`const pow = (x, base = 2) => ...`",
+          "correct": true
+        },
+        {
+          "id": "5992419",
+          "text": "`const pow = (x, base) => ...`",
+          "correct": true
+        },
+        {
+          "id": "5992420",
+          "text": "`const pow = (x = 2, base = 2) => ...`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8536",
+      "prompt": "В каком порядке в определении функции должны идти параметры",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992421",
+          "text": "Сначала необязательные, потом обязательные",
+          "correct": false
+        },
+        {
+          "id": "5992422",
+          "text": "Можно вперемешку",
+          "correct": false
+        },
+        {
+          "id": "5992423",
+          "text": "Сначала обязательные, потом необязательные",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "functions-default-parameters",
+    "lessonName": "Необязательные параметры функций",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/functions-default-parameters/quiz_unit",
+    "lessonId": 2631
+  }
+}

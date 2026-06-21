@@ -1,0 +1,124 @@
+{
+  "slug": "internet-fundamentals-about-the-internet",
+  "title": "Что такое интернет",
+  "questions": [
+    {
+      "id": "16015",
+      "prompt": "Что такое интернет?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937583",
+          "text": "Всемирная паутина (WWW)",
+          "correct": false
+        },
+        {
+          "id": "5937584",
+          "text": "Главный компьютер, который соединяет все устройства",
+          "correct": false
+        },
+        {
+          "id": "5937585",
+          "text": "Система связанных друг с другом компьютеров",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16016",
+      "prompt": "Какая сеть предшествовала современному интернету?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937590",
+          "text": "WWW",
+          "correct": false
+        },
+        {
+          "id": "5937591",
+          "text": "GoogleNet",
+          "correct": false
+        },
+        {
+          "id": "5937592",
+          "text": "ARPANet",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16017",
+      "prompt": "Для чего военные создали интернет?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937597",
+          "text": "Для торговли",
+          "correct": false
+        },
+        {
+          "id": "5937598",
+          "text": "Для развлечений",
+          "correct": false
+        },
+        {
+          "id": "5937599",
+          "text": "Для передачи информации",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16018",
+      "prompt": "Можно ли отключить весь интернет?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937600",
+          "text": "Да, достаточно отключить главный компьютер",
+          "correct": false
+        },
+        {
+          "id": "5937601",
+          "text": "Да, если выключить все сервисы",
+          "correct": false
+        },
+        {
+          "id": "5937602",
+          "text": "Нет, интернет — децентрализованная система",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16019",
+      "prompt": "Какая сеть стала основой для массового интернета?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937603",
+          "text": "ARPANet",
+          "correct": false
+        },
+        {
+          "id": "5937604",
+          "text": "Академсеть",
+          "correct": false
+        },
+        {
+          "id": "5937605",
+          "text": "NSFNet",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "internet-fundamentals",
+    "courseName": "Введение в интернет",
+    "lessonSlug": "about-the-internet",
+    "lessonName": "Что такое интернет",
+    "sourceUrl": "https://ru.hexlet.io/courses/internet-fundamentals/lessons/about-the-internet/quiz_unit",
+    "lessonId": 3214
+  }
+}

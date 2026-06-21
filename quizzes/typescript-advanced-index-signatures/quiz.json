@@ -1,0 +1,117 @@
+{
+  "slug": "typescript-advanced-index-signatures",
+  "title": "Динамические ключи",
+  "questions": [
+    {
+      "id": "12986",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5893018",
+          "text": "Динамический ключ нельзя указывать со значением ключа",
+          "correct": false
+        },
+        {
+          "id": "5893020",
+          "text": "В TypeScript ключ может быть любым типом данных",
+          "correct": false
+        },
+        {
+          "id": "5893022",
+          "text": "Динамические ключи можно использовать для статических свойств",
+          "correct": true
+        },
+        {
+          "id": "5893023",
+          "text": "Динамические ключи могут быть представлены типом `symbol`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12987",
+      "prompt": "Выберите типы данных, которыми могут быть представлены динамические ключи:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5893024",
+          "text": "`boolean`",
+          "correct": false
+        },
+        {
+          "id": "5893025",
+          "text": "`string`",
+          "correct": true
+        },
+        {
+          "id": "5893026",
+          "text": "`number`",
+          "correct": true
+        },
+        {
+          "id": "5893027",
+          "text": "`symbol`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12988",
+      "prompt": "Что характеризует тип данных?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5893028",
+          "text": "Только сами данные и то, как они хранятся",
+          "correct": false
+        },
+        {
+          "id": "5893029",
+          "text": "Способы взаимодействия между типами данных",
+          "correct": false
+        },
+        {
+          "id": "5893030",
+          "text": "Все возможные значения и операции, которые можно совершать с данными",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "23428",
+      "prompt": "Какой вариант корректно дополняет объект `validators`, если тип `Validators`\nописывает объект с динамическими ключами вида `%{type}${string}`?\n\n```typescript\ntype Validators = {\n  [key: `%{type}${string}`]: (value: unknown) => boolean\n}\n```\n\nКлючи объекта должны строго соответствовать этому шаблону.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5893031",
+          "text": "Используется произвольное имя ключа, не связанное с шаблоном динамического ключа.",
+          "correct": false
+        },
+        {
+          "id": "5893032",
+          "text": "Ключ начинается с `type`, но не содержит обязательный префикс `%{type}`.",
+          "correct": false
+        },
+        {
+          "id": "5893033",
+          "text": "Используются несколько ключей одновременно, что нарушает требование выбрать одну строку.",
+          "correct": false
+        },
+        {
+          "id": "5893034",
+          "text": "Используется один ключ, который начинается с `%{type}` и продолжается произвольной строкой, полностью соответствуя шаблону типа.",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "index-signatures",
+    "lessonName": "Динамические ключи",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/index-signatures/quiz_unit",
+    "lessonId": 4485
+  }
+}

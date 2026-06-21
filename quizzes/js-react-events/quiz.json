@@ -1,0 +1,80 @@
+{
+  "slug": "js-react-events",
+  "title": "События",
+  "questions": [
+    {
+      "id": "4269",
+      "prompt": "Как правильно предотвратить действие по умолчанию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940648",
+          "text": "Вернуть из обработчика `false`",
+          "correct": false
+        },
+        {
+          "id": "5940650",
+          "text": "Вернуть из обработчика `true`",
+          "correct": false
+        },
+        {
+          "id": "5940652",
+          "text": "Вызвать `e.preventDefault()`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4270",
+      "prompt": "Сколько обработчиков одного события можно повесить на элемент?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940655",
+          "text": "Любое количество через `addEventListener`",
+          "correct": false
+        },
+        {
+          "id": "5940656",
+          "text": "Два",
+          "correct": false
+        },
+        {
+          "id": "5940658",
+          "text": "Только один",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4272",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5940660",
+          "text": "В React нельзя отключить поведение по умолчанию некоторых событий",
+          "correct": false
+        },
+        {
+          "id": "5940662",
+          "text": "React использует собственную абстракцию поверх событий браузера",
+          "correct": true
+        },
+        {
+          "id": "5940664",
+          "text": "Главное преимущество `syntheticEvent` в том, что он кроссбраузерный",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "events",
+    "lessonName": "События",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/events/quiz_unit",
+    "lessonId": 963
+  }
+}

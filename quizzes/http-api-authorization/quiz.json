@@ -1,0 +1,102 @@
+{
+  "slug": "http-api-authorization",
+  "title": "Авторизация в API",
+  "questions": [
+    {
+      "id": "15951",
+      "prompt": "Что такое авторизация?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008450",
+          "text": "Шифрование данных пользователя",
+          "correct": false
+        },
+        {
+          "id": "6008451",
+          "text": "Проверка подлинности пользователя",
+          "correct": false
+        },
+        {
+          "id": "6008452",
+          "text": "Проверка, что пользователь имеет права на определенные действия",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15952",
+      "prompt": "Что такое JWT?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008454",
+          "text": "Формат шифрования данных",
+          "correct": false
+        },
+        {
+          "id": "6008456",
+          "text": "Метод аутентификации по имени пользователя и паролю",
+          "correct": false
+        },
+        {
+          "id": "6008457",
+          "text": "Формат токена, который используется для передачи информации между сторонами в виде JSON-объекта",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15953",
+      "prompt": "Какой заголовок HTTP обычно используется для передачи JWT?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008460",
+          "text": "Кастомный заголовок",
+          "correct": false
+        },
+        {
+          "id": "6008461",
+          "text": "`JWT`",
+          "correct": false
+        },
+        {
+          "id": "6008462",
+          "text": "`Authorization`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15954",
+      "prompt": "Что такое payload в JWT?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008467",
+          "text": "Алгоритм шифрования",
+          "correct": false
+        },
+        {
+          "id": "6008468",
+          "text": "Подпись, которая служит для проверки подлинности токена",
+          "correct": false
+        },
+        {
+          "id": "6008469",
+          "text": "Сами данные, которые необходимо передать в зашифрованном виде",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "authorization",
+    "lessonName": "Авторизация в API",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/authorization/quiz_unit",
+    "lessonId": 5334
+  }
+}

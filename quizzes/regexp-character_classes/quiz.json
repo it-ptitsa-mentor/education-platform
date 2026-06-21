@@ -1,0 +1,129 @@
+{
+  "slug": "regexp-character_classes",
+  "title": "Символьные классы",
+  "questions": [
+    {
+      "id": "2058",
+      "prompt": "В символьных классах символ `^` обычно означает...",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962433",
+          "text": "Пробел",
+          "correct": false
+        },
+        {
+          "id": "5962434",
+          "text": "Любой символ",
+          "correct": false
+        },
+        {
+          "id": "5962435",
+          "text": "Повторение",
+          "correct": false
+        },
+        {
+          "id": "5962436",
+          "text": "Отрицание",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2059",
+      "prompt": "Разные варианты регулярных выражений удовлетворяют одному и тому же формату. Возможно ли такое?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962437",
+          "text": "Нет, на каждый случай возможен только один вариант",
+          "correct": false
+        },
+        {
+          "id": "5962438",
+          "text": "Да, возможно много вариантов с одинаковым эффектом",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2060",
+      "prompt": "Часто большая и маленькая буквы (например, `\\d` и `\\D`) являются...",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962439",
+          "text": "Синонимами",
+          "correct": false
+        },
+        {
+          "id": "5962440",
+          "text": "Антонимами",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22101",
+      "prompt": "Какой символьный класс выбирает цифры в регулярном выражении?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962441",
+          "text": "`\\w`",
+          "correct": false
+        },
+        {
+          "id": "5962442",
+          "text": "`\\s`",
+          "correct": false
+        },
+        {
+          "id": "5962443",
+          "text": "`[A-F]`",
+          "correct": false
+        },
+        {
+          "id": "5962444",
+          "text": "`\\d`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22102",
+      "prompt": "Какой символьный класс найдет латинские буквы в диапазоне от `a` до `z`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962445",
+          "text": "`[z-a]`",
+          "correct": false
+        },
+        {
+          "id": "5962446",
+          "text": "`[A-Z]`",
+          "correct": false
+        },
+        {
+          "id": "5962447",
+          "text": "`\\w`",
+          "correct": false
+        },
+        {
+          "id": "5962448",
+          "text": "`[a-z]`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "character_classes",
+    "lessonName": "Символьные классы",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/character_classes/quiz_unit",
+    "lessonId": 298
+  }
+}

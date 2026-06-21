@@ -1,0 +1,80 @@
+{
+  "slug": "js-functions-high-order-functions",
+  "title": "Функции высшего порядка",
+  "questions": [
+    {
+      "id": "5726",
+      "prompt": "Что бывает высшего порядка?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993524",
+          "text": "Числа",
+          "correct": false
+        },
+        {
+          "id": "5993525",
+          "text": "Массивы",
+          "correct": false
+        },
+        {
+          "id": "5993526",
+          "text": "Функции",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5727",
+      "prompt": "В чем фишка функций высшего порядка?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993527",
+          "text": "Дают чувство превосходства",
+          "correct": false
+        },
+        {
+          "id": "5993528",
+          "text": "Код становится быстрее",
+          "correct": false
+        },
+        {
+          "id": "5993529",
+          "text": "Они реализуют обобщенный алгоритм задачи, делегируя обработку вызывающему коду, что позволяет не реализовывать алгоритм каждый раз.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9404",
+      "prompt": "Что не так с этим кодом?\n\n```javascript\nconst items = [\n  { name: 'apple', price: 1 },\n  { name: 'meat', price: 20 },\n  { name: 'banana', price: 2 },\n  { name: 'bread', price: 5 },\n];\n\nconst compare = (a, b) => a.price > b.price ? 1 : -1;\n\nitems.sort(compare());\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993533",
+          "text": "Ошибки нет",
+          "correct": false
+        },
+        {
+          "id": "5993534",
+          "text": "Функция `compare()` обязательно должна возвращать 0, если сравниваемые значения равны, иначе функция не отсортирует элементы",
+          "correct": false
+        },
+        {
+          "id": "5993535",
+          "text": "В функцию `sort()` передаётся результат вызова функции, а не сама функция",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "high-order-functions",
+    "lessonName": "Функции высшего порядка",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/high-order-functions/quiz_unit",
+    "lessonId": 1635
+  }
+}

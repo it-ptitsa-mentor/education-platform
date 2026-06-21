@@ -1,0 +1,112 @@
+{
+  "slug": "github-actions-jobs",
+  "title": "Задания",
+  "questions": [
+    {
+      "id": "7341",
+      "prompt": "С помощью какого ключевого слова упорядочиваются задания?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989797",
+          "text": "needs",
+          "correct": true
+        },
+        {
+          "id": "5989798",
+          "text": "depends",
+          "correct": false
+        },
+        {
+          "id": "5989799",
+          "text": "must",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "7342",
+      "prompt": "Какие операционные системы позволяет использовать GitHub Actions для запуска воркфлоу?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989800",
+          "text": "Windows",
+          "correct": true
+        },
+        {
+          "id": "5989801",
+          "text": "Ubuntu",
+          "correct": true
+        },
+        {
+          "id": "5989802",
+          "text": "MacOS",
+          "correct": true
+        },
+        {
+          "id": "5989803",
+          "text": "Arch Linux",
+          "correct": false
+        },
+        {
+          "id": "5989804",
+          "text": "CentOS",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "7343",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989805",
+          "text": "Переменные окружения можно задать как для всех шагов, так и переопределить их для каждого шага",
+          "correct": true
+        },
+        {
+          "id": "5989806",
+          "text": "Переменные окружения можно задать только один раз сразу для всех шагов",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "17448",
+      "prompt": "Предположим, что мы написали следующий воркфлоу:\n\n```yaml\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      # Клонируем репозиторий\n      - uses: actions/checkout@v4\n      # Ставим зависимости\n      - run: make install\n\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      # Запускаем тесты\n      - name: run tests\n        run: make test\n```\n\nНо произошла ошибка при попытке запустить тесты. Почему?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989807",
+          "text": "Тесты не запускаются, потому что в шаге `test` не указано, что нужно сначала установить зависимости.",
+          "correct": true
+        },
+        {
+          "id": "5989808",
+          "text": "Нельзя использовать несколько задач, можно использовать только одну.",
+          "correct": false
+        },
+        {
+          "id": "5989809",
+          "text": "Ошибка произошла из-за того, что в в задаче `test` указана неправильная операционная система, например, `windows-latest`.",
+          "correct": false
+        },
+        {
+          "id": "5989810",
+          "text": "Ошибка произошла, потому что в шаге `build` не указано, что нужно сначала собрать проект перед тестированием.",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "github-actions",
+    "courseName": "Непрерывная интеграция (CI)",
+    "lessonSlug": "jobs",
+    "lessonName": "Задания",
+    "sourceUrl": "https://ru.hexlet.io/courses/github-actions/lessons/jobs/quiz_unit",
+    "lessonId": 2295
+  }
+}

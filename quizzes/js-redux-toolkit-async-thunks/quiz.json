@@ -1,0 +1,154 @@
+{
+  "slug": "js-redux-toolkit-async-thunks",
+  "title": "Асинхронные запросы",
+  "questions": [
+    {
+      "id": "13042",
+      "prompt": "Какую проблему решает механизм `createAsyncThunk()` в Redux Toolkit?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940851",
+          "text": "Уменьшает количество кода в компонентах",
+          "correct": false
+        },
+        {
+          "id": "5940852",
+          "text": "Позволяет работать с HTTP-запросами внутри компонентов",
+          "correct": false
+        },
+        {
+          "id": "5940853",
+          "text": "Упрощает работу с состоянием в компонентах",
+          "correct": false
+        },
+        {
+          "id": "5940854",
+          "text": "Помогает управлять асинхронными запросами и их обработкой внутри Redux",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "13043",
+      "prompt": "Какие три редьюсера существуют для каждого `createAsyncThunk()`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5940859",
+          "text": "initial",
+          "correct": false
+        },
+        {
+          "id": "5940860",
+          "text": "complete",
+          "correct": false
+        },
+        {
+          "id": "5940861",
+          "text": "failed",
+          "correct": false
+        },
+        {
+          "id": "5940862",
+          "text": "pending",
+          "correct": true
+        },
+        {
+          "id": "5940863",
+          "text": "fulfilled",
+          "correct": true
+        },
+        {
+          "id": "5940864",
+          "text": "rejected",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "13044",
+      "prompt": "Для чего можно использовать `thunk` в Redux Toolkit?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940869",
+          "text": "Для работы с HTTP-запросами",
+          "correct": false
+        },
+        {
+          "id": "5940870",
+          "text": "Для управления состоянием компонентов",
+          "correct": false
+        },
+        {
+          "id": "5940871",
+          "text": "Для асинхронных операций",
+          "correct": false
+        },
+        {
+          "id": "5940872",
+          "text": "Для переноса сложной логики или побочных эффектов из компонентов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "13045",
+      "prompt": "Может ли `thunk` полностью заменить `useEffect` в работе с побочными эффектами в компонентах?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940877",
+          "text": "Да, во всех случаях",
+          "correct": false
+        },
+        {
+          "id": "5940878",
+          "text": "Да, но только при работе с асинхронными запросами",
+          "correct": false
+        },
+        {
+          "id": "5940879",
+          "text": "Нет, `thunk` не заменяет использование `useEffect`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22310",
+      "prompt": "Чем заменить `__`, чтобы корректно создать thunk?\n\n ```javascript\n const fetchUserById = __('users/fetchUserById', __ (userId) => {\n   const response = await axios.get(getUserUrl(userId));\n   return response.data;\n });\n ```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940880",
+          "text": "`createSlice` и `function`",
+          "correct": false
+        },
+        {
+          "id": "5940881",
+          "text": "`createReducer` и `async`",
+          "correct": false
+        },
+        {
+          "id": "5940882",
+          "text": "`createAsyncThunk` и `function`",
+          "correct": false
+        },
+        {
+          "id": "5940883",
+          "text": "`createAsyncThunk` и `async`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-redux-toolkit",
+    "courseName": "React: Redux Toolkit",
+    "lessonSlug": "async-thunks",
+    "lessonName": "Асинхронные запросы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-redux-toolkit/lessons/async-thunks/quiz_unit",
+    "lessonId": 2218
+  }
+}

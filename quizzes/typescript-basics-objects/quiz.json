@@ -1,0 +1,80 @@
+{
+  "slug": "typescript-basics-objects",
+  "title": "Объектные типы",
+  "questions": [
+    {
+      "id": "11515",
+      "prompt": "Можно ли указать несколько типов данных для свойства?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956822",
+          "text": "Нет, нельзя",
+          "correct": false
+        },
+        {
+          "id": "5956823",
+          "text": "Зависит от условий",
+          "correct": false
+        },
+        {
+          "id": "5956824",
+          "text": "Да, можно",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11516",
+      "prompt": "Можно ли использовать тип объекта для определения типа параметров функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956828",
+          "text": "Нет, нельзя",
+          "correct": false
+        },
+        {
+          "id": "5956829",
+          "text": "Зависит от условий",
+          "correct": false
+        },
+        {
+          "id": "5956831",
+          "text": "Да, можно",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11517",
+      "prompt": "Можно ли поменять тип свойства?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956834",
+          "text": "Да, можно",
+          "correct": false
+        },
+        {
+          "id": "5956835",
+          "text": "Зависит от условий",
+          "correct": false
+        },
+        {
+          "id": "5956836",
+          "text": "Нет, нельзя",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "objects",
+    "lessonName": "Объектные типы",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/objects/quiz_unit",
+    "lessonId": 3841
+  }
+}

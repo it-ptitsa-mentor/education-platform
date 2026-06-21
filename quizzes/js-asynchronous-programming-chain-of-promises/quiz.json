@@ -1,0 +1,85 @@
+{
+  "slug": "js-asynchronous-programming-chain-of-promises",
+  "title": "Цепочка промисов",
+  "questions": [
+    {
+      "id": "5162",
+      "prompt": "В каком порядке выполняются колбеки в цепочке `then` одного промиса?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991973",
+          "text": "В произвольном порядке",
+          "correct": false
+        },
+        {
+          "id": "5991974",
+          "text": "Одновременно",
+          "correct": false
+        },
+        {
+          "id": "5991975",
+          "text": "Строго друг за другом",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5163",
+      "prompt": "Что происходит с промисом при вызове `then`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991976",
+          "text": "`then` изменяет текущий промис",
+          "correct": false
+        },
+        {
+          "id": "5991977",
+          "text": "`then` ведет себя по-разному в зависимости от того, возвращается ли в его колбеке промис или обычное значение",
+          "correct": false
+        },
+        {
+          "id": "5991978",
+          "text": "`then` возвращает новый промис",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5164",
+      "prompt": "Выберите правильные ответы",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5991979",
+          "text": "Лучше вкладывать промисы друг в друга как матрешку",
+          "correct": false
+        },
+        {
+          "id": "5991980",
+          "text": "В асинхронном коде лучше любую логику реализовывать через промисы",
+          "correct": false
+        },
+        {
+          "id": "5991981",
+          "text": "Нужно стремиться делать цепочки промисов максимально плоскими. Иначе получатся те же колбеки, но через `then`.",
+          "correct": true
+        },
+        {
+          "id": "5991982",
+          "text": "Промисы стоит использовать только с асинхронным кодом",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-asynchronous-programming",
+    "courseName": "JS: Асинхронное программирование",
+    "lessonSlug": "chain-of-promises",
+    "lessonName": "Цепочка промисов",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-asynchronous-programming/lessons/chain-of-promises/quiz_unit",
+    "lessonId": 1284
+  }
+}

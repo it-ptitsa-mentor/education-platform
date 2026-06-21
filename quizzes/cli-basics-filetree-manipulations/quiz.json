@@ -1,0 +1,95 @@
+{
+  "slug": "cli-basics-filetree-manipulations",
+  "title": "Манипулирование файловой структурой",
+  "questions": [
+    {
+      "id": "4886",
+      "prompt": "Какой командой создается пустой файл?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946549",
+          "text": "`create`",
+          "correct": false
+        },
+        {
+          "id": "5946550",
+          "text": "`file`",
+          "correct": false
+        },
+        {
+          "id": "5946551",
+          "text": "`cp`",
+          "correct": false
+        },
+        {
+          "id": "5946552",
+          "text": "`touch`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22375",
+      "prompt": "Какая команда правильно переименует файл `source.png` в `dest.png`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946553",
+          "text": "`cp source.png dest.png`",
+          "correct": false
+        },
+        {
+          "id": "5946554",
+          "text": "`rename source.png dest.png`",
+          "correct": false
+        },
+        {
+          "id": "5946555",
+          "text": "`touch source.png dest.png`",
+          "correct": false
+        },
+        {
+          "id": "5946556",
+          "text": "`mv source.png dest.png`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22376",
+      "prompt": "Какой вариант команды удалит директорию `mydir` вместе с её содержимым?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946557",
+          "text": "`rm mydir`",
+          "correct": false
+        },
+        {
+          "id": "5946558",
+          "text": "`rm -f mydir`",
+          "correct": false
+        },
+        {
+          "id": "5946559",
+          "text": "`rm --dir mydir`",
+          "correct": false
+        },
+        {
+          "id": "5946560",
+          "text": "`rm -r mydir`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "filetree-manipulations",
+    "lessonName": "Манипулирование файловой структурой",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/filetree-manipulations/quiz_unit",
+    "lessonId": 1198
+  }
+}

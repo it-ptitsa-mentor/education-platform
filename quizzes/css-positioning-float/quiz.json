@@ -1,0 +1,176 @@
+{
+  "slug": "css-positioning-float",
+  "title": "Плавающие элементы",
+  "questions": [
+    {
+      "id": "6166",
+      "prompt": "Какой поток возникает при использовании свойства `float`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989160",
+          "text": "Нормальный поток",
+          "correct": false
+        },
+        {
+          "id": "5989161",
+          "text": "Абсолютный поток",
+          "correct": false
+        },
+        {
+          "id": "5989162",
+          "text": "Относительный поток",
+          "correct": false
+        },
+        {
+          "id": "5989163",
+          "text": "Плавающий поток",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6167",
+      "prompt": "Что происходит с элементом при использовании float?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989167",
+          "text": "Элемент остается внутри нормального потока, но появляется плавающий поток",
+          "correct": false
+        },
+        {
+          "id": "5989168",
+          "text": "Элемент удаляется из нормального потока документа",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6168",
+      "prompt": "Какие значения может принимать свойство float?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989169",
+          "text": "top",
+          "correct": false
+        },
+        {
+          "id": "5989170",
+          "text": "bottom",
+          "correct": false
+        },
+        {
+          "id": "5989171",
+          "text": "start",
+          "correct": false
+        },
+        {
+          "id": "5989172",
+          "text": "end",
+          "correct": false
+        },
+        {
+          "id": "5989173",
+          "text": "left",
+          "correct": true
+        },
+        {
+          "id": "5989174",
+          "text": "right",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6169",
+      "prompt": "Для чего стоит использовать float?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989175",
+          "text": "Для верстки макетов",
+          "correct": false
+        },
+        {
+          "id": "5989176",
+          "text": "Для создания отзывчивых сайтов",
+          "correct": false
+        },
+        {
+          "id": "5989177",
+          "text": "Для верстки текстов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6170",
+      "prompt": "Что можно сказать об элементе:\n\n```html\n<span class=\"float\"></span>\n```\n\n```css\n.float {\n  float: left;\n}\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989178",
+          "text": "Элемент в нормальном потоке",
+          "correct": false
+        },
+        {
+          "id": "5989179",
+          "text": "Элемент является строчным",
+          "correct": false
+        },
+        {
+          "id": "5989180",
+          "text": "Элемент не находится в нормальном потоке",
+          "correct": true
+        },
+        {
+          "id": "5989181",
+          "text": "Элемент является блочным",
+          "correct": true
+        },
+        {
+          "id": "5989182",
+          "text": "Элемент в плавающем потоке",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6171",
+      "prompt": "Какое свойство используется для очистки плавающего потока?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989183",
+          "text": "nofloat",
+          "correct": false
+        },
+        {
+          "id": "5989184",
+          "text": "float",
+          "correct": false
+        },
+        {
+          "id": "5989185",
+          "text": "empty",
+          "correct": false
+        },
+        {
+          "id": "5989186",
+          "text": "clear",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-positioning",
+    "courseName": "CSS — Расположение и макеты",
+    "lessonSlug": "float",
+    "lessonName": "Плавающие элементы",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-positioning/lessons/float/quiz_unit",
+    "lessonId": 1525
+  }
+}

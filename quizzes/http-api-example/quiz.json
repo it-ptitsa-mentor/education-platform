@@ -1,0 +1,85 @@
+{
+  "slug": "http-api-example",
+  "title": "Пример HTTP API",
+  "questions": [
+    {
+      "id": "8628",
+      "prompt": "Чем отличается статический эндпоинт от динамического?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008356",
+          "text": "Динамический эндпоинт меняется через определенный промежуток времени",
+          "correct": false
+        },
+        {
+          "id": "6008357",
+          "text": "Статический эндпоинт отдает только статические данные, а динамический используется для потокового видео или аудио",
+          "correct": false
+        },
+        {
+          "id": "6008358",
+          "text": "У динамического эндпоинта есть изменяющаяся часть",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8629",
+      "prompt": "Что такое эндпоинт?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008359",
+          "text": "Последний пункт в списке ссылок HTTP API",
+          "correct": false
+        },
+        {
+          "id": "6008360",
+          "text": "Ситуация, при которой API перестает отвечать на запросы",
+          "correct": false
+        },
+        {
+          "id": "6008361",
+          "text": "Ссылка, по которой мы получаем данные в HTTP API",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22389",
+      "prompt": "Как заполнить пропуски `__`, чтобы получить валидный JSON `{\"cash\": 250}`?\n\n```json\n{ \"__\": __ }\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008362",
+          "text": "`cash: 250`",
+          "correct": false
+        },
+        {
+          "id": "6008363",
+          "text": "`'cash', 250`",
+          "correct": false
+        },
+        {
+          "id": "6008364",
+          "text": "`\\\"cash\\\": \\\"250\\\"`",
+          "correct": false
+        },
+        {
+          "id": "6008365",
+          "text": "`\"cash\"`, `250`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "example",
+    "lessonName": "Пример HTTP API",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/example/quiz_unit",
+    "lessonId": 2587
+  }
+}

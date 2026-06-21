@@ -1,0 +1,149 @@
+{
+  "slug": "js-redux-toolkit-integration",
+  "title": "Подключение Redux Toolkit к React",
+  "questions": [
+    {
+      "id": "13025",
+      "prompt": "Что делает функция `createSlice`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940720",
+          "text": "Создает компонент React",
+          "correct": false
+        },
+        {
+          "id": "5940721",
+          "text": "Создает новый файл в директории slices",
+          "correct": false
+        },
+        {
+          "id": "5940722",
+          "text": "Инициализирует хранилище Redux",
+          "correct": false
+        },
+        {
+          "id": "5940723",
+          "text": "Создает слайс с редьюсерами и действиями",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "13026",
+      "prompt": "Что такое слайсы в Redux Toolkit?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940727",
+          "text": "Это компоненты React для работы с Redux",
+          "correct": false
+        },
+        {
+          "id": "5940728",
+          "text": "Это функции для создания асинхронных действий в Redux",
+          "correct": false
+        },
+        {
+          "id": "5940729",
+          "text": "Это спецификации для конфигурации хранилища в Redux",
+          "correct": false
+        },
+        {
+          "id": "5940730",
+          "text": "Это части состояния в хранилище, управляемые отдельными редьюсерами",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "13027",
+      "prompt": "Какую альтернативу функции `combineReducers` предоставляет Redux Toolkit для настройки хранилища?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940731",
+          "text": "createStore",
+          "correct": false
+        },
+        {
+          "id": "5940732",
+          "text": "createSlice",
+          "correct": false
+        },
+        {
+          "id": "5940733",
+          "text": "combineSlices",
+          "correct": false
+        },
+        {
+          "id": "5940734",
+          "text": "configureStore",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "13028",
+      "prompt": "Что делает хук `useSelector` в Redux Toolkit?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940735",
+          "text": "Отправляет действия в хранилище",
+          "correct": false
+        },
+        {
+          "id": "5940736",
+          "text": "Объединяет редьюсеры в хранилище",
+          "correct": false
+        },
+        {
+          "id": "5940737",
+          "text": "Создает слайсы в хранилище",
+          "correct": false
+        },
+        {
+          "id": "5940738",
+          "text": "Получает данные из хранилища в компоненте",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "13029",
+      "prompt": "Как отправить действие в хранилище при работе с Redux Toolkit?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940742",
+          "text": "`store.dispatch(action)`",
+          "correct": false
+        },
+        {
+          "id": "5940743",
+          "text": "`dispatchToStore(action)`",
+          "correct": false
+        },
+        {
+          "id": "5940744",
+          "text": "`sendAction(action)`",
+          "correct": false
+        },
+        {
+          "id": "5940745",
+          "text": "`dispatch(action)`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-redux-toolkit",
+    "courseName": "React: Redux Toolkit",
+    "lessonSlug": "integration",
+    "lessonName": "Подключение Redux Toolkit к React",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-redux-toolkit/lessons/integration/quiz_unit",
+    "lessonId": 2213
+  }
+}

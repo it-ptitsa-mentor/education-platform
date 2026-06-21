@@ -1,0 +1,139 @@
+{
+  "slug": "css-grid-element-position",
+  "title": "Расположение элементов в сетке",
+  "questions": [
+    {
+      "id": "6327",
+      "prompt": "Сколько порядковых номеров имеет линия по умолчанию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868090",
+          "text": "Три",
+          "correct": false
+        },
+        {
+          "id": "5868091",
+          "text": "Один",
+          "correct": false
+        },
+        {
+          "id": "5868092",
+          "text": "Два",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6328",
+      "prompt": "Что произойдёт при указании `grid-column-start: 3;`",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868093",
+          "text": "Элемент расположится начиная с 3 горизонтальной линии сетки",
+          "correct": false
+        },
+        {
+          "id": "5868094",
+          "text": "Элемент займёт 3 линии по вертикали",
+          "correct": false
+        },
+        {
+          "id": "5868095",
+          "text": "Элемент займёт 3 линии по горизонтали",
+          "correct": false
+        },
+        {
+          "id": "5868096",
+          "text": "Элемент расположится начиная с 3 вертикальной линии сетки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6329",
+      "prompt": "Сколько колонок займёт элемент с классом `.main`?\n\n```css\n.grid-12 {\n  display: grid;\n  grid-template-columns: repeat(12, 1fr);\n}\n\n.grid-12 .main {\n  grid-column-start: 1;\n  grid-column-end: 12;\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868097",
+          "text": "10",
+          "correct": false
+        },
+        {
+          "id": "5868098",
+          "text": "12",
+          "correct": false
+        },
+        {
+          "id": "5868099",
+          "text": "13",
+          "correct": false
+        },
+        {
+          "id": "5868100",
+          "text": "11",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6330",
+      "prompt": "Опишите элемент `.main`\n\n```css\n.main {\n  grid-column: span 3;\n}\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5868101",
+          "text": "Элемент займёт две колонки",
+          "correct": false
+        },
+        {
+          "id": "5868102",
+          "text": "Элемент расположится от 3 вертикальной линии",
+          "correct": false
+        },
+        {
+          "id": "5868103",
+          "text": "Элемент займёт три колонки",
+          "correct": true
+        },
+        {
+          "id": "5868104",
+          "text": "В качестве стартовой колонки будет использована та, где располагался элемент в HTML",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6331",
+      "prompt": "На что указывает запись `grid-template-columns: [sidebar-begin] 1fr;`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868105",
+          "text": "Создать ячейку с именем sidebar-begin",
+          "correct": false
+        },
+        {
+          "id": "5868106",
+          "text": "Создать ячейку с именем sidebar-begin и шириной auto. Создать вторую ячейку шириной в 1fr",
+          "correct": false
+        },
+        {
+          "id": "5868107",
+          "text": "Первой линии присвоить имя sidebar-begin и создать ячейку шириной в 1fr",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-grid",
+    "courseName": "CSS: Вёрстка на Grid",
+    "lessonSlug": "element-position",
+    "lessonName": "Расположение элементов в сетке",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-grid/lessons/element-position/quiz_unit",
+    "lessonId": 1795
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "js-introduction-to-oop-definition",
+  "title": "Место и понимание ООП в программировании",
+  "questions": [
+    {
+      "id": "6046",
+      "prompt": "Что такое ООП?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994073",
+          "text": "Язык программирования",
+          "correct": false
+        },
+        {
+          "id": "5994074",
+          "text": "Гангнам стайл",
+          "correct": false
+        },
+        {
+          "id": "5994075",
+          "text": "Стиль программирования",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6047",
+      "prompt": "Какой язык оказал наибольшее влияние на то, чем сейчас является ООП?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994076",
+          "text": "Lisp",
+          "correct": false
+        },
+        {
+          "id": "5994077",
+          "text": "JavaScript",
+          "correct": false
+        },
+        {
+          "id": "5994078",
+          "text": "Smalltalk",
+          "correct": false
+        },
+        {
+          "id": "5994079",
+          "text": "C++",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6048",
+      "prompt": "Кто придумал термин ООП?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994080",
+          "text": "Бьорн Страуструп",
+          "correct": false
+        },
+        {
+          "id": "5994081",
+          "text": "Гради Буч",
+          "correct": false
+        },
+        {
+          "id": "5994082",
+          "text": "Никола Тесла",
+          "correct": false
+        },
+        {
+          "id": "5994083",
+          "text": "Алан Кей",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "definition",
+    "lessonName": "Место и понимание ООП в программировании",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/definition/quiz_unit",
+    "lessonId": 1680
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "js-asynchronous-programming-http",
+  "title": "HTTP-запросы",
+  "questions": [
+    {
+      "id": "7072",
+      "prompt": "Как выполнить два одновременных HTTP-запроса?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992057",
+          "text": "Это невозможно в JavaScript",
+          "correct": false
+        },
+        {
+          "id": "5992059",
+          "text": "Записать два подряд идущих запроса добавив слева `await` перед каждым вызовом",
+          "correct": false
+        },
+        {
+          "id": "5992061",
+          "text": "Создать два промиса и поместить их в `Promise.all()`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7073",
+      "prompt": "В каком формате отправляет данные на сервер вызов `axios.post(url, data)`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992066",
+          "text": "YAML",
+          "correct": false
+        },
+        {
+          "id": "5992067",
+          "text": "form-data",
+          "correct": false
+        },
+        {
+          "id": "5992068",
+          "text": "JSON",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7074",
+      "prompt": "Сработает ли такой код, как ожидается? В `data` окажется тело ответа?\n\n```javascript\nconst data = await axios.get('https://ru.hexlet.io').data;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992072",
+          "text": "Зависит от скорости выполнения запроса, может и получится",
+          "correct": false
+        },
+        {
+          "id": "5992073",
+          "text": "Да конечно",
+          "correct": false
+        },
+        {
+          "id": "5992074",
+          "text": "Нет, `.data` вызывается не у ответа, а у промиса",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-asynchronous-programming",
+    "courseName": "JS: Асинхронное программирование",
+    "lessonSlug": "http",
+    "lessonName": "HTTP-запросы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-asynchronous-programming/lessons/http/quiz_unit",
+    "lessonId": 1877
+  }
+}

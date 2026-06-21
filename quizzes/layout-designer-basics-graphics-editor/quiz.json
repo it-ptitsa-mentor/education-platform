@@ -1,0 +1,100 @@
+{
+  "slug": "layout-designer-basics-graphics-editor",
+  "title": "Графические редакторы",
+  "questions": [
+    {
+      "id": "15913",
+      "prompt": "Какую информацию можно получить в инспекторе (Properties) в Figma?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5944181",
+          "text": "Размер макета и формат файла.",
+          "correct": false
+        },
+        {
+          "id": "5944182",
+          "text": "Текст элемента.",
+          "correct": false
+        },
+        {
+          "id": "5944183",
+          "text": "Данные о версиях и истории изменений макета.",
+          "correct": false
+        },
+        {
+          "id": "5944185",
+          "text": "Информацию о слоях.",
+          "correct": false
+        },
+        {
+          "id": "5944187",
+          "text": "Ширину и высоту элемента, отступы, информацию о шрифтах, цветах и содержимом.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15914",
+      "prompt": "Какое преимущество Figma по сравнению с Adobe Photoshop в контексте верстки веб-интерфейсов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5944193",
+          "text": "Figma предлагает больше возможностей для редактирования изображений.",
+          "correct": false
+        },
+        {
+          "id": "5944195",
+          "text": "Figma лучше подходит для работы с графическими файлами большого размера.",
+          "correct": false
+        },
+        {
+          "id": "5944196",
+          "text": "Figma требует установки большого количества плагинов для работы.",
+          "correct": false
+        },
+        {
+          "id": "5944197",
+          "text": "Figma более ориентирована на проектирование интерфейсов и проще в освоении.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15915",
+      "prompt": "Какой параметр можно узнать, удерживая клавишу `Alt` (или `Option` на macOS) и выбирая элемент в Figma?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5944202",
+          "text": "Цвет текста",
+          "correct": false
+        },
+        {
+          "id": "5944203",
+          "text": "Размер изображения",
+          "correct": false
+        },
+        {
+          "id": "5944204",
+          "text": "Фон элемента",
+          "correct": false
+        },
+        {
+          "id": "5944205",
+          "text": "Отступы между элементами",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "graphics-editor",
+    "lessonName": "Графические редакторы",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/graphics-editor/quiz_unit",
+    "lessonId": 1893
+  }
+}

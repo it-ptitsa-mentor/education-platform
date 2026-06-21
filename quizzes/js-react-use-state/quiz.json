@@ -1,0 +1,85 @@
+{
+  "slug": "js-react-use-state",
+  "title": "Хук useState",
+  "questions": [
+    {
+      "id": "17454",
+      "prompt": "Какие основные функции хук `useState` выполняет внутри компонента:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5940975",
+          "text": "инициализирует состояние",
+          "correct": true
+        },
+        {
+          "id": "5940976",
+          "text": "обновляет состояние",
+          "correct": true
+        },
+        {
+          "id": "5940977",
+          "text": "предоставляет доступ к состоянию",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17455",
+      "prompt": "Хук `useState` можно использовать",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940978",
+          "text": "только в классовых компонентах",
+          "correct": false
+        },
+        {
+          "id": "5940979",
+          "text": "как в классовых так и в функциональных компонентах",
+          "correct": false
+        },
+        {
+          "id": "5940980",
+          "text": "только в функциональных компонентах",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17456",
+      "prompt": "Выберите все верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5940981",
+          "text": "хук `useState()` сливает старое состояние с новым",
+          "correct": false
+        },
+        {
+          "id": "5940982",
+          "text": "начальным состоянием в `useState()` может быть только объект",
+          "correct": false
+        },
+        {
+          "id": "5940983",
+          "text": "хук `useState` может использоваться больше одного раза, если это нужно",
+          "correct": true
+        },
+        {
+          "id": "5940984",
+          "text": "функцию `setState()` можно вызвать в любом месте, например, в другом компоненте",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "use-state",
+    "lessonName": "Хук useState",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/use-state/quiz_unit",
+    "lessonId": 5965
+  }
+}

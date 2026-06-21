@@ -1,0 +1,105 @@
+{
+  "slug": "js-objects-spread-operator",
+  "title": "Создание новых объектов и spread",
+  "questions": [
+    {
+      "id": "6140",
+      "prompt": "Какие задачи можно выполнить, используя spread-оператор?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994300",
+          "text": "Удаление ключей из объекта",
+          "correct": false
+        },
+        {
+          "id": "5994301",
+          "text": "Разделение одного объекта на несколько других",
+          "correct": false
+        },
+        {
+          "id": "5994302",
+          "text": "Копирование объекта",
+          "correct": true
+        },
+        {
+          "id": "5994303",
+          "text": "Конструирование нового объекта на основе старого",
+          "correct": true
+        },
+        {
+          "id": "5994304",
+          "text": "Слияние нескольких объектов в один",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6141",
+      "prompt": "Какое значение будет выведено в консоль?\n\n```javascript\nconst user1 = { name: 'Vasya', age: 25 };\nconst user2 = { name: 'Petya', married: true, age: 27 };\n\nconst newUser = { ...user1, age: 18, ...user2 };\n\nconsole.log(newUser.age);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994305",
+          "text": "25",
+          "correct": false
+        },
+        {
+          "id": "5994307",
+          "text": "18",
+          "correct": false
+        },
+        {
+          "id": "5994309",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5994311",
+          "text": "27",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6142",
+      "prompt": "Что будет выведено в консоль?\n\n```javascript\nconst user1 = { name: 'Vasya', married: true, age: 25 };\n\nconst user2 = { ...user1, age: 18 };\nuser1.age = 21;\n\nconsole.log(user2.age);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994315",
+          "text": "25",
+          "correct": false
+        },
+        {
+          "id": "5994317",
+          "text": "21",
+          "correct": false
+        },
+        {
+          "id": "5994318",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5994319",
+          "text": "будет выведена ошибка",
+          "correct": false
+        },
+        {
+          "id": "5994320",
+          "text": "18",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-objects",
+    "courseName": "JS: Объекты",
+    "lessonSlug": "spread-operator",
+    "lessonName": "Создание новых объектов и spread",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-objects/lessons/spread-operator/quiz_unit",
+    "lessonId": 1645
+  }
+}

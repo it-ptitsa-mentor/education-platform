@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-advanced-class-as-types",
+  "title": "Классы как типы",
+  "questions": [
+    {
+      "id": "12936",
+      "prompt": "Какая ошибка допущена в коде ниже?\n\n```typescript\n  class Guest {\n    username = 'guest';\n  }\n\n  function printName(user: Guest) {\n    console.log(user.username);\n  }\n\n  const admin = { username: 'super user', isAdmin: true };\n\n  printName(admin);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892829",
+          "text": "В функцию `printName()` передается значение с типом, который не ожидается функцией",
+          "correct": false
+        },
+        {
+          "id": "5892830",
+          "text": "Не определен конструктор в классе",
+          "correct": false
+        },
+        {
+          "id": "5892831",
+          "text": "Ошибки нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12937",
+      "prompt": "Какой тип будет у поля `username`?\n\n```typescript\n  class Guest {\n    username = 'guest';\n  }\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892832",
+          "text": "`'guest'`",
+          "correct": false
+        },
+        {
+          "id": "5892833",
+          "text": "`any`",
+          "correct": false
+        },
+        {
+          "id": "5892834",
+          "text": "`undefined`",
+          "correct": false
+        },
+        {
+          "id": "5892835",
+          "text": "`string`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12938",
+      "prompt": "Какая ошибка допущена в коде ниже?\n\n```typescript\n  class User {\n    username: string;\n\n    private password: string;\n\n    constructor(username: string, password: string) {\n      this.username = username;\n      this.password = password;\n    }\n\n\n  }\n\n  function printName(user: User) {\n    console.log(user.username);\n  }\n\n  printName({ username: 'user', password: 'password' });\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892836",
+          "text": "В конструкторе изменяется приватное поле",
+          "correct": false
+        },
+        {
+          "id": "5892837",
+          "text": "Ошибки нет",
+          "correct": false
+        },
+        {
+          "id": "5892838",
+          "text": "В функцию `printName()` не передается экземпляр класса `User`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "class-as-types",
+    "lessonName": "Классы как типы",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/class-as-types/quiz_unit",
+    "lessonId": 4469
+  }
+}

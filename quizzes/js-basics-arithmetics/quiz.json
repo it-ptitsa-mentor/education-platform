@@ -1,0 +1,107 @@
+{
+  "slug": "js-basics-arithmetics",
+  "title": "Арифметические операции",
+  "questions": [
+    {
+      "id": "8477",
+      "prompt": "Какой из операторов может быть и унарным и бинарным, в зависимости от ситуации?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992088",
+          "text": "`/`",
+          "correct": false
+        },
+        {
+          "id": "5992089",
+          "text": "`*`",
+          "correct": false
+        },
+        {
+          "id": "5992091",
+          "text": "`-`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8478",
+      "prompt": "Выберите операцию которая не является коммутативной:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992094",
+          "text": "3 + 2",
+          "correct": false
+        },
+        {
+          "id": "5992096",
+          "text": "2 * 2",
+          "correct": false
+        },
+        {
+          "id": "5992098",
+          "text": "4 / 2",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8479",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconsole.log((8 / 4) - (8 + (2 - 1)) + 7 * 2);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992101",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "5992102",
+          "text": "12",
+          "correct": false
+        },
+        {
+          "id": "5992103",
+          "text": "7",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8480",
+      "prompt": "Чему равно значение выражения?\n\n```javascript\n14 % 4;  // ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992104",
+          "text": "0",
+          "correct": false
+        },
+        {
+          "id": "5992105",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "5992106",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "5992107",
+          "text": "2",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "arithmetics",
+    "lessonName": "Арифметические операции",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/arithmetics/quiz_unit",
+    "lessonId": 2610
+  }
+}

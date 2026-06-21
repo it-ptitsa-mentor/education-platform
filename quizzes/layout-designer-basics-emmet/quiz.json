@@ -1,0 +1,127 @@
+{
+  "slug": "layout-designer-basics-emmet",
+  "title": "Emmet",
+  "questions": [
+    {
+      "id": "7298",
+      "prompt": "Зачем нужен Emmet?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5944057",
+          "text": "Просто вы так сказали, а я верю Хекслету",
+          "correct": false
+        },
+        {
+          "id": "5944058",
+          "text": "Для быстрого написания JavaScript кода",
+          "correct": false
+        },
+        {
+          "id": "5944059",
+          "text": "Для ускорения создания HTML разметки и написания CSS кода",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7299",
+      "prompt": "Как с помощью Emmet создать следующую разметку:\n\n```html\n<div class=\"hello\"></div>\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5944069",
+          "text": "hello.div",
+          "correct": false
+        },
+        {
+          "id": "5944070",
+          "text": "div>.hello",
+          "correct": false
+        },
+        {
+          "id": "5944071",
+          "text": "div.hello",
+          "correct": true
+        },
+        {
+          "id": "5944072",
+          "text": ".hello",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7300",
+      "prompt": "Как с помощью Emmet создать следующую разметку:\n\n```html\n<ul>\n  <li>Hexlet</li>\n  <li>Hexlet</li>\n  <li>Hexlet</li>\n</ul>\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5944079",
+          "text": "(ul>li{Hexlet})*3",
+          "correct": false
+        },
+        {
+          "id": "5944080",
+          "text": "list>li*3>Hexlet",
+          "correct": false
+        },
+        {
+          "id": "5944081",
+          "text": "ul*3>li{Hexlet}",
+          "correct": false
+        },
+        {
+          "id": "5944082",
+          "text": "ul>li{Hexlet}*3",
+          "correct": true
+        },
+        {
+          "id": "5944083",
+          "text": "ul>li{Hexlet}+li{Hexlet}+li{Hexlet}",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7301",
+      "prompt": "Как с помощью Emmet создать следующую разметку:\n\n```html\n<img class=\"hexlet\" src=\"hexlet.png\" alt=\"Картинка Hexlet\">\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5944087",
+          "text": "images.hexlet[src='hexlet.png' alt='Картинка Hexlet']",
+          "correct": false
+        },
+        {
+          "id": "5944088",
+          "text": "picture.hexlet[src='hexlet.png' alt='Картинка Hexlet']",
+          "correct": false
+        },
+        {
+          "id": "5944089",
+          "text": "picture[src='hexlet.png' alt='Картинка Hexlet']",
+          "correct": false
+        },
+        {
+          "id": "5944090",
+          "text": "img.hexlet[src='hexlet.png' alt='Картинка Hexlet']",
+          "correct": true
+        },
+        {
+          "id": "5944091",
+          "text": "img.hexlet[src='hexlet.png'][alt='Картинка Hexlet']",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "emmet",
+    "lessonName": "Emmet",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/emmet/quiz_unit",
+    "lessonId": 1756
+  }
+}

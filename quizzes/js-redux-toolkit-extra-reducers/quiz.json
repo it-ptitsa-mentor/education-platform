@@ -1,0 +1,95 @@
+{
+  "slug": "js-redux-toolkit-extra-reducers",
+  "title": "Механизм ExtraReducers",
+  "questions": [
+    {
+      "id": "13039",
+      "prompt": "Что делает механизм `ExtraReducers` в Redux Toolkit?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940830",
+          "text": "Создает дополнительные действия внутри слайсов",
+          "correct": false
+        },
+        {
+          "id": "5940831",
+          "text": "Упрощает работу с асинхронными операциями",
+          "correct": false
+        },
+        {
+          "id": "5940832",
+          "text": "Помогает управлять состоянием приложения",
+          "correct": false
+        },
+        {
+          "id": "5940833",
+          "text": "Помогает реагировать на действия, происходящие в других слайсах",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22309",
+      "prompt": "Какой метод `builder` нужно вызвать вместо `__`, чтобы добавить обработчик действия `removePost`?\n\n```javascript\nextraReducers: (builder) => {\n  builder.__(removePost, (state, action) => {\n    // ...\n  });\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940836",
+          "text": "`addMatcher`",
+          "correct": false
+        },
+        {
+          "id": "5940838",
+          "text": "`addDefaultCase`",
+          "correct": false
+        },
+        {
+          "id": "5940839",
+          "text": "`setCase`",
+          "correct": false
+        },
+        {
+          "id": "5940840",
+          "text": "`addCase`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "13041",
+      "prompt": "Выберите все верные утверждения об использовании `extraReducers` в Redux Toolkit:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5940844",
+          "text": "Чтобы использовать `extraReducers`, нужно явно возвращать значения из дополнительных редьюсеров",
+          "correct": false
+        },
+        {
+          "id": "5940845",
+          "text": "В объекте `extraReducers` `builder` изменяет его напрямую, поэтому возвращать значения не требуется",
+          "correct": true
+        },
+        {
+          "id": "5940846",
+          "text": "Чтобы последовательно добавить нескольких редьюсеров в `extraReducers`, можно использовать цепочку вызовов `builder.addCase().addCase()...`",
+          "correct": true
+        },
+        {
+          "id": "5940847",
+          "text": "В Redux Toolkit `extraReducers` добавляется внутри `createSlice`, что позволяет реагировать на действия в других слайсах",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-redux-toolkit",
+    "courseName": "React: Redux Toolkit",
+    "lessonSlug": "extra-reducers",
+    "lessonName": "Механизм ExtraReducers",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-redux-toolkit/lessons/extra-reducers/quiz_unit",
+    "lessonId": 2217
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "js-arrays-stack",
+  "title": "Стек",
+  "questions": [
+    {
+      "id": "5666",
+      "prompt": "Как описывается стек?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991942",
+          "text": "FIFO",
+          "correct": false
+        },
+        {
+          "id": "5991944",
+          "text": "FIFA",
+          "correct": false
+        },
+        {
+          "id": "5991946",
+          "text": "LIFO",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5667",
+      "prompt": "Что из перечисленного является стеком?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991947",
+          "text": "Очередь за колбасой",
+          "correct": false
+        },
+        {
+          "id": "5991948",
+          "text": "Полка для книг",
+          "correct": false
+        },
+        {
+          "id": "5991949",
+          "text": "Стопка блинов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5668",
+      "prompt": "Какая функция используется для извлечения элемента из стека?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991950",
+          "text": "`push`",
+          "correct": false
+        },
+        {
+          "id": "5991951",
+          "text": "`unshift`",
+          "correct": false
+        },
+        {
+          "id": "5991952",
+          "text": "`pop`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "stack",
+    "lessonName": "Стек",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/stack/quiz_unit",
+    "lessonId": 1607
+  }
+}

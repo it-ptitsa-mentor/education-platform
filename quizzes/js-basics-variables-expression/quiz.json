@@ -1,0 +1,85 @@
+{
+  "slug": "js-basics-variables-expression",
+  "title": "Выражения в определениях",
+  "questions": [
+    {
+      "id": "8484",
+      "prompt": "Выберите все варианты ответов, содержащие выражения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992162",
+          "text": "`let greeting`",
+          "correct": false
+        },
+        {
+          "id": "5992164",
+          "text": "`50 * 1.25`",
+          "correct": true
+        },
+        {
+          "id": "5992166",
+          "text": "`'Good' + 'will'`",
+          "correct": true
+        },
+        {
+          "id": "5992168",
+          "text": "`console.log('The price is ' + dollarsCount * rublesPerDollar + ' rubles')`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8485",
+      "prompt": "Какое значение будет напечатано на экран?\n```javascript\nconst first = 'brave';\nconst middle = 'new';\nconst last = 'world';\nconst space = ' ';\n\nconsole.log(first + space + middle + last)\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992170",
+          "text": "`brave new world`",
+          "correct": false
+        },
+        {
+          "id": "5992172",
+          "text": "`bravenewworld`",
+          "correct": false
+        },
+        {
+          "id": "5992174",
+          "text": "`brave newworld`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8486",
+      "prompt": "Какое значение будет выведено на экран?\n\n```javascript\nconst applesPerBox = 60;\nconst boxesPerContainer = 50;\nconst container = 4;\nconst applesCount = applesPerBox * boxesPerContainer * container;\n\nconsole.log(applesCount);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992175",
+          "text": "10000",
+          "correct": false
+        },
+        {
+          "id": "5992176",
+          "text": "20000",
+          "correct": false
+        },
+        {
+          "id": "5992177",
+          "text": "12000",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "variables-expression",
+    "lessonName": "Выражения в определениях",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/variables-expression/quiz_unit",
+    "lessonId": 2614
+  }
+}

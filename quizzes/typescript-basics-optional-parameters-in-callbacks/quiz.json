@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-optional-parameters-in-callbacks",
+  "title": "Опциональные параметры в функциях",
+  "questions": [
+    {
+      "id": "11479",
+      "prompt": "Как задаются опциональные параметры?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5956937",
+          "text": "Так же, как и обычные параметры",
+          "correct": false
+        },
+        {
+          "id": "5956938",
+          "text": "С помощью специального типа",
+          "correct": false
+        },
+        {
+          "id": "5956939",
+          "text": "С помощью знака вопроса",
+          "correct": true
+        },
+        {
+          "id": "5956940",
+          "text": "С помощью значения по умолчанию",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11480",
+      "prompt": "Что происходит, если в колбек передается функция с меньшим числом параметров, чем ожидается?\n```javascript\n  function check(n: number, cb: (a: number, b: number, c: number) => boolean) {\n    return cb(n, n, n);\n  }\n  \n  const result = check(1, (n) => n === 1);\n  console.log(result);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956941",
+          "text": "Происходит ошибка на этапе транспиляции",
+          "correct": false
+        },
+        {
+          "id": "5956942",
+          "text": "В TypeScript нельзя указывать лишние параметры, потому что это нарушает типизацию функции",
+          "correct": false
+        },
+        {
+          "id": "5956943",
+          "text": "Точно так же, как и в JavaScript, лишние параметры игнорируются",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11481",
+      "prompt": "Как правильно указать необязательный параметр в колбеке, чтобы не получить ошибку _Object is possibly 'undefined'_?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956944",
+          "text": "Ошибку невозможно исправить, нужно переписать код на JavaScript",
+          "correct": false
+        },
+        {
+          "id": "5956945",
+          "text": "Вместо стрелочной функции использовать `function`",
+          "correct": false
+        },
+        {
+          "id": "5956946",
+          "text": "Указать его как обычный обязательный параметр",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "optional-parameters-in-callbacks",
+    "lessonName": "Опциональные параметры в функциях",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/optional-parameters-in-callbacks/quiz_unit",
+    "lessonId": 3792
+  }
+}

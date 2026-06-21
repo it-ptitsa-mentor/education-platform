@@ -1,0 +1,90 @@
+{
+  "slug": "js-react-use-callback",
+  "title": "Хуки useCallback и useMemo",
+  "questions": [
+    {
+      "id": "17468",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5941072",
+          "text": "Приложение одинаково работает после сборки в production режиме и в режиме разработки",
+          "correct": false
+        },
+        {
+          "id": "5941074",
+          "text": "Хук `useCallback` можно заменить на хук `useMemo` с небольшой доработкой",
+          "correct": true
+        },
+        {
+          "id": "5941076",
+          "text": "В приложении для production-сборки можно включить поддержку профайлера",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17469",
+      "prompt": "Есть ли ошибка в коде и какая?\n\n```jsx\n  import { useState, useMemo } from 'react';\n  import axios from 'axios';\n\n  function Submit({ submitHandler }) {\n    return <button onClick={submitHandler}>Отправить</button>;\n  };\n\n  const App = ({ url }) => {\n    const [name, setName] = useState('');\n    const submitHandler = useMemo(() => () => axios.post(url, {}), [url]);\n    return (\n      <>\n        <input value={name} onChange={(e) => setName(e.target.value)} />\n        <Submit submitHandler={submitHandler} />\n      </>\n    );\n  };\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5941079",
+          "text": "Нельзя использовать стрелочные и обычные функции вместе",
+          "correct": false
+        },
+        {
+          "id": "5941081",
+          "text": "Ошибок нет",
+          "correct": false
+        },
+        {
+          "id": "5941083",
+          "text": "Мемоизируется функция с запросом на сервер, чего делать категорически нельзя, так как вычисление результата происходит на стороне сервера, а не в веб-клиенте",
+          "correct": false
+        },
+        {
+          "id": "5941084",
+          "text": "Компонент `Submit` не мемоизирован, поэтому он все равно будет перерисовываться при изменении ввода, несмотря на использование `useMemo`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22306",
+      "prompt": "Какой хук нужно вызвать вместо `__`, чтобы мемоизировать обработчик `submitHandler`?\n\n```jsx\nimport { useState, useCallback, memo } from 'react';\nimport axios from 'axios';\n\nconst Submit = memo(function({ submitHandler }) {\n  return <button onClick={submitHandler}>Отправить</button>;\n});\n\nconst App = ({ url }) => {\n  const [name, setName] = useState('');\n  const submitHandler = __(() => axios.post(url, {}), [url]);\n  return (\n    <>\n      <input value={name} onChange={(e) => setName(e.target.value)} />\n      <Submit submitHandler={submitHandler} />\n    </>\n  );\n};\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5941086",
+          "text": "`useMemo`",
+          "correct": false
+        },
+        {
+          "id": "5941088",
+          "text": "`useEffect`",
+          "correct": false
+        },
+        {
+          "id": "5941090",
+          "text": "`memo`",
+          "correct": false
+        },
+        {
+          "id": "5941092",
+          "text": "`useCallback`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "use-callback",
+    "lessonName": "Хуки useCallback и useMemo",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/use-callback/quiz_unit",
+    "lessonId": 5969
+  }
+}

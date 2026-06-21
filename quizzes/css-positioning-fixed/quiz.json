@@ -1,0 +1,100 @@
+{
+  "slug": "css-positioning-fixed",
+  "title": "Фиксированное позиционирование",
+  "questions": [
+    {
+      "id": "7324",
+      "prompt": "Относительно чего позиционируется элемент при использовании `position: fixed`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989133",
+          "text": "Относительно координат (0,0) у body",
+          "correct": false
+        },
+        {
+          "id": "5989135",
+          "text": "Относительно координат (0,0) у html",
+          "correct": false
+        },
+        {
+          "id": "5989137",
+          "text": "Относительно видимой области сайта",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7325",
+      "prompt": "Как ведет себя элемент с `position: fixed`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989140",
+          "text": "Остается в нормальном потоке документа",
+          "correct": false
+        },
+        {
+          "id": "5989141",
+          "text": "Выдергивается из нормального потока документа",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7326",
+      "prompt": "Какие свойства могут использоваться при использовании `position: fixed`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989142",
+          "text": "start",
+          "correct": false
+        },
+        {
+          "id": "5989143",
+          "text": "end",
+          "correct": false
+        },
+        {
+          "id": "5989144",
+          "text": "west",
+          "correct": false
+        },
+        {
+          "id": "5989145",
+          "text": "east",
+          "correct": false
+        },
+        {
+          "id": "5989146",
+          "text": "top",
+          "correct": true
+        },
+        {
+          "id": "5989147",
+          "text": "left",
+          "correct": true
+        },
+        {
+          "id": "5989148",
+          "text": "right",
+          "correct": true
+        },
+        {
+          "id": "5989149",
+          "text": "bottom",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-positioning",
+    "courseName": "CSS — Расположение и макеты",
+    "lessonSlug": "fixed",
+    "lessonName": "Фиксированное позиционирование",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-positioning/lessons/fixed/quiz_unit",
+    "lessonId": 1523
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "js-asynchronous-programming-promise-all",
+  "title": "Promise.all",
+  "questions": [
+    {
+      "id": "5236",
+      "prompt": "```javascript\nconst promise = fs.access(path).then(() => {\n  const promise1 = fs.readFile(filePath1);\n  const promise2 = fs.readFile(filePath2);\n  return [promise1, promise2];\n});\nPromise.all(promise).then(console.log);\n```\n\nСработает ли этот код, так как ожидается?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991991",
+          "text": "Да, он выведет на экран содержимое обоих файлов",
+          "correct": false
+        },
+        {
+          "id": "5991992",
+          "text": "Нет, `Promise.all` принимает на вход массив из промисов, а не промис",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5175",
+      "prompt": "Что возвращает Promise.all?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991997",
+          "text": "Массив промисов",
+          "correct": false
+        },
+        {
+          "id": "5991998",
+          "text": "Массив с результатами асинхронных операций",
+          "correct": false
+        },
+        {
+          "id": "5991999",
+          "text": "Промис",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5176",
+      "prompt": "В какой последовательности выполняются асинхронные операции внутри промиса, полученного через Promise.all?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992000",
+          "text": "Сначала выполняются все операции чтения, затем — операции записи",
+          "correct": false
+        },
+        {
+          "id": "5992001",
+          "text": "Строго последовательно — с первого по последний",
+          "correct": false
+        },
+        {
+          "id": "5992002",
+          "text": "Они запускаются сразу друг за другом и выполняются одновременно",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5177",
+      "prompt": "Как поведет себя промис, если хотя бы одна из операций после Promise.all завершилась с ошибкой?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992003",
+          "text": "Промис завершит выполнение всех асинхронных операций и передаст их результат в следующий `then`",
+          "correct": false
+        },
+        {
+          "id": "5992004",
+          "text": "Промис остановит выполнение всех невыполненных операций и передаст в следующий `then` только то, что успел выполнить на этот момент",
+          "correct": false
+        },
+        {
+          "id": "5992005",
+          "text": "Промис будет немедленно отклонен, и управление перейдет в ближайший блок `catch`. Сами асинхронные операции продолжат выполняться",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-asynchronous-programming",
+    "courseName": "JS: Асинхронное программирование",
+    "lessonSlug": "promise-all",
+    "lessonName": "Promise.all",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-asynchronous-programming/lessons/promise-all/quiz_unit",
+    "lessonId": 1282
+  }
+}

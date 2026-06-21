@@ -1,0 +1,80 @@
+{
+  "slug": "js-polymorphism-breaking-polymorphism",
+  "title": "Код, который убивает полиморфизм",
+  "questions": [
+    {
+      "id": "5535",
+      "prompt": "Почему использование instanceof мешает создавать полиморфный код?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994531",
+          "text": "Мне не мешает",
+          "correct": false
+        },
+        {
+          "id": "5994532",
+          "text": "Появляются условные конструкции в коде",
+          "correct": false
+        },
+        {
+          "id": "5994533",
+          "text": "Происходит завязка на конкретные типы, что само по себе противоречит идее полиморфизма",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5536",
+      "prompt": "Полиморфная ли эта функция?\n\n```javascript\nconst sayHiByEmail = (user, sender) => {\n  if (user.isGuest()) {\n    return;\n  }\n  sender.send(user.getEmail(), 'hi!');\n};\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994534",
+          "text": "Нет, внутри этой функции есть условная конструкция, которая использует метод переданного объекта",
+          "correct": false
+        },
+        {
+          "id": "5994535",
+          "text": "Полиморфная она или нет, зависит от того, как создается пользователь в системе",
+          "correct": false
+        },
+        {
+          "id": "5994536",
+          "text": "Да, все зависимости в эту функцию передаются снаружи и она не зависит от конкретных типов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5584",
+      "prompt": "Полиморфная ли эта функция?\n\n```javascript\nconst getPageBody = (url) => {\n  const client = new HTTPClient();\n  const response = client.get(url);\n  return response.getBody();\n};\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994537",
+          "text": "Да, так как можно менять адрес",
+          "correct": false
+        },
+        {
+          "id": "5994538",
+          "text": "Да если `getPageBody` является методом и нет если функцией",
+          "correct": false
+        },
+        {
+          "id": "5994539",
+          "text": "Нет, этот код завязан на конкретный HTTP-клиент",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "breaking-polymorphism",
+    "lessonName": "Код, который убивает полиморфизм",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/breaking-polymorphism/quiz_unit",
+    "lessonId": 1555
+  }
+}

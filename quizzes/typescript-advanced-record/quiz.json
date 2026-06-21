@@ -1,0 +1,90 @@
+{
+  "slug": "typescript-advanced-record",
+  "title": "Записи",
+  "questions": [
+    {
+      "id": "12993",
+      "prompt": "Выберите правильные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5893055",
+          "text": "При использовании Record тип значения ключа может быть только примитивным",
+          "correct": false
+        },
+        {
+          "id": "5893056",
+          "text": "Record позволяет задать тип только для значения ключа, если передать в него один аргумент",
+          "correct": false
+        },
+        {
+          "id": "5893057",
+          "text": "С Record можно задать несколько ключей",
+          "correct": true
+        },
+        {
+          "id": "5893058",
+          "text": "Record предпочтительнее использовать, когда нужно задать один динамический ключ",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12994",
+      "prompt": "Какая ошибка допущена в этом коде?\n\n```typescript\n  type Money = 'yen' | 'dollar' | 'franc';\n  type MoneyRating = Record<Money, number>;\n\n  const rating: MoneyRating = {\n    dollar: 2,\n    yen: 1,\n    franc: 3,\n  };\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5893059",
+          "text": "Неправильно задан тип ключа в Record",
+          "correct": false
+        },
+        {
+          "id": "5893060",
+          "text": "Неправильно задан тип значения в Record",
+          "correct": false
+        },
+        {
+          "id": "5893061",
+          "text": "Неправильно заданы тип ключа и тип значения в Record",
+          "correct": false
+        },
+        {
+          "id": "5893062",
+          "text": "Ошибки нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22768",
+      "prompt": "В типе `Record<K, V>` параметр __ описывает тип ключей.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5893063",
+          "text": "V",
+          "correct": false
+        },
+        {
+          "id": "5893064",
+          "text": "T",
+          "correct": false
+        },
+        {
+          "id": "5893065",
+          "text": "K",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "record",
+    "lessonName": "Записи",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/record/quiz_unit",
+    "lessonId": 4487
+  }
+}

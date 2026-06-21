@@ -1,0 +1,102 @@
+{
+  "slug": "typescript-basics-tuples",
+  "title": "Кортежи",
+  "questions": [
+    {
+      "id": "11585",
+      "prompt": "Как указать единственный тип данных для всех элементов кортежа?\n\n```\n  type Type = string;\n\n  const tuple: ? = ['first', 'second', 'third'];\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957163",
+          "text": "`[Type[]]`",
+          "correct": false
+        },
+        {
+          "id": "5957164",
+          "text": "`[Type...]`",
+          "correct": false
+        },
+        {
+          "id": "5957165",
+          "text": "`[Type, Type, Type]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11586",
+      "prompt": "Можно ли задавать значения по умолчанию для элементов кортежа?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957166",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5957167",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11587",
+      "prompt": "Как задать необязательный элемент для кортежа?\n\n```\n  let tuple: ? = ['Ivan', 'Ivanov', 28];\n  tuple = ['Petr', 'Petrov'];\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957169",
+          "text": "`[string, string]`",
+          "correct": false
+        },
+        {
+          "id": "5957171",
+          "text": "`[string, string, number]`",
+          "correct": false
+        },
+        {
+          "id": "5957173",
+          "text": "`[string, string, number?]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21954",
+      "prompt": "Какой тип нужно указать у свойства `city` во втором элементе кортежа `point`, чтобы в нём хранилась строка?\n```typescript\nconst point: [number, { city: /* здесь тип */ }] = [101000, { city: 'Moscow' }];\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957175",
+          "text": "`number`",
+          "correct": false
+        },
+        {
+          "id": "5957177",
+          "text": "`boolean`",
+          "correct": false
+        },
+        {
+          "id": "5957179",
+          "text": "`string[]`",
+          "correct": false
+        },
+        {
+          "id": "5957180",
+          "text": "`string`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "tuples",
+    "lessonName": "Кортежи",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/tuples/quiz_unit",
+    "lessonId": 3804
+  }
+}

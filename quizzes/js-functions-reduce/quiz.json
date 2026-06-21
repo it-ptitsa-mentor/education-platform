@@ -1,0 +1,95 @@
+{
+  "slug": "js-functions-reduce",
+  "title": "Агрегация (reduce)",
+  "questions": [
+    {
+      "id": "5723",
+      "prompt": "Чем может быть аккумулятор в свёртке?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993560",
+          "text": "Примитивный тип данных",
+          "correct": false
+        },
+        {
+          "id": "5993561",
+          "text": "Число",
+          "correct": false
+        },
+        {
+          "id": "5993562",
+          "text": "Строка",
+          "correct": false
+        },
+        {
+          "id": "5993563",
+          "text": "Объект первого класса (все данные)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5724",
+      "prompt": "Что должна возвратить callback-функция внутри reduce?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993564",
+          "text": "Новую коллекцию",
+          "correct": false
+        },
+        {
+          "id": "5993565",
+          "text": "Отображённый (измененый) элемент",
+          "correct": false
+        },
+        {
+          "id": "5993566",
+          "text": "true или false",
+          "correct": false
+        },
+        {
+          "id": "5993567",
+          "text": "Новое значение аккумулятора",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5725",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993568",
+          "text": "с помощью `filter` можно реализовать `reduce`",
+          "correct": false
+        },
+        {
+          "id": "5993569",
+          "text": "с помощью `map` можно реализовать `reduce`",
+          "correct": false
+        },
+        {
+          "id": "5993570",
+          "text": "Основное отличие `reduce` от `map` и `filter` в том, что управление состоянием происходит явно",
+          "correct": true
+        },
+        {
+          "id": "5993571",
+          "text": "с помощью `reduce` можно реализовать `map` и `filter`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "reduce",
+    "lessonName": "Агрегация (reduce)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/reduce/quiz_unit",
+    "lessonId": 1634
+  }
+}

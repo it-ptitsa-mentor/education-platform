@@ -7,7 +7,7 @@ describe("js-basics-hello-world", () => {
   });
 
   it("prints expected console output from readme", async () => {
-    const lines: string[] = [];
+    const lines = [];
     vi.spyOn(console, "log").mockImplementation((value) => {
       lines.push(String(value));
     });

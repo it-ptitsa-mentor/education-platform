@@ -1,0 +1,80 @@
+{
+  "slug": "http-api-postman",
+  "title": "Postman",
+  "questions": [
+    {
+      "id": "8638",
+      "prompt": "Какие HTTP-запросы нельзя выполнить с помощью Postman?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008515",
+          "text": "Запросы GET и POST",
+          "correct": false
+        },
+        {
+          "id": "6008516",
+          "text": "Запросы типа PATCH",
+          "correct": false
+        },
+        {
+          "id": "6008517",
+          "text": "С помощью Postman можно выполнять все виды HTTP-запросов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8639",
+      "prompt": "Какое главное преимущество у Postman по сравнению с curl?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008518",
+          "text": "Postman выполняет запросы быстрее",
+          "correct": false
+        },
+        {
+          "id": "6008519",
+          "text": "С помощью Postman можно зайти на FTP-сервер и исправить ошибки в файлах приложения",
+          "correct": false
+        },
+        {
+          "id": "6008520",
+          "text": "С помощью Postman можно описывать API сервиса как единое целое",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8640",
+      "prompt": "Что такое коллекция в терминологии Postman?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008521",
+          "text": "Набор классных винтажных эндпоинтов",
+          "correct": false
+        },
+        {
+          "id": "6008522",
+          "text": "Набор параметров для конкретного типа запросов",
+          "correct": false
+        },
+        {
+          "id": "6008523",
+          "text": "Набор эндпоинтов с единым методом аутентификации или параметрами запроса",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "postman",
+    "lessonName": "Postman",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/postman/quiz_unit",
+    "lessonId": 2597
+  }
+}

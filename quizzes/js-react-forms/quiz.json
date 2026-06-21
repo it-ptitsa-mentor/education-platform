@@ -1,0 +1,80 @@
+{
+  "slug": "js-react-forms",
+  "title": "Формы",
+  "questions": [
+    {
+      "id": "4273",
+      "prompt": "Где хранится состояние формы при использовании React?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940714",
+          "text": "В DOM",
+          "correct": false
+        },
+        {
+          "id": "5940715",
+          "text": "В пропсах React-компонентов",
+          "correct": false
+        },
+        {
+          "id": "5940716",
+          "text": "Внутри состояния React",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4274",
+      "prompt": "Как в обработчике получить значение элемента формы, которое было изменено?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940717",
+          "text": "`e.value`",
+          "correct": false
+        },
+        {
+          "id": "5940718",
+          "text": "Никак, это можно сделать только обратившись к DOM напрямую",
+          "correct": false
+        },
+        {
+          "id": "5940719",
+          "text": "`e.target.value`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4275",
+      "prompt": "Откуда извлекаются данные формы во время ее обработки при использовании управляемых компонентов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940724",
+          "text": "Из формы",
+          "correct": false
+        },
+        {
+          "id": "5940725",
+          "text": "Из космоса",
+          "correct": false
+        },
+        {
+          "id": "5940726",
+          "text": "Из состояния",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "forms",
+    "lessonName": "Формы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/forms/quiz_unit",
+    "lessonId": 961
+  }
+}

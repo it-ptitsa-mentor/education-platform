@@ -1,0 +1,95 @@
+{
+  "slug": "js-dom-bom",
+  "title": "BOM-объекты",
+  "questions": [
+    {
+      "id": "7382",
+      "prompt": "Что можно делать с помощью BOM?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992927",
+          "text": "Манипулировать содержимым страницы",
+          "correct": false
+        },
+        {
+          "id": "5992928",
+          "text": "Манипулировать внешним видом страницы",
+          "correct": false
+        },
+        {
+          "id": "5992929",
+          "text": "Манипулировать адресной строкой",
+          "correct": true
+        },
+        {
+          "id": "5992930",
+          "text": "Выполнять HTTP-запросы",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7383",
+      "prompt": "Какой объект позволяет перейти к предыдущей странице?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992931",
+          "text": "location",
+          "correct": false
+        },
+        {
+          "id": "5992932",
+          "text": "fetch",
+          "correct": false
+        },
+        {
+          "id": "5992933",
+          "text": "navigator",
+          "correct": false
+        },
+        {
+          "id": "5992934",
+          "text": "history",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7384",
+      "prompt": "Какой объект содержит в себе функцию `alert`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992935",
+          "text": "location",
+          "correct": false
+        },
+        {
+          "id": "5992936",
+          "text": "screen",
+          "correct": false
+        },
+        {
+          "id": "5992937",
+          "text": "history",
+          "correct": false
+        },
+        {
+          "id": "5992938",
+          "text": "window",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "bom",
+    "lessonName": "BOM-объекты",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/bom/quiz_unit",
+    "lessonId": 2383
+  }
+}

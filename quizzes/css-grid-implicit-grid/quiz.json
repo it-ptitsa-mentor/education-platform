@@ -1,0 +1,90 @@
+{
+  "slug": "css-grid-implicit-grid",
+  "title": "Неявная сетка",
+  "questions": [
+    {
+      "id": "6335",
+      "prompt": "Что такое неявная сетка?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868117",
+          "text": "Участок сетки, созданный с помощью свойства grid-auto-rows/grid-auto-columns",
+          "correct": false
+        },
+        {
+          "id": "5868118",
+          "text": "Участок сетки, созданный с помощью свойства implicit-grid",
+          "correct": false
+        },
+        {
+          "id": "5868119",
+          "text": "Участок сетки, сформированный не свойствами, а вследствие расположения элементов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6336",
+      "prompt": "Где может появиться неявная сетка?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868120",
+          "text": "До начала сетки",
+          "correct": false
+        },
+        {
+          "id": "5868121",
+          "text": "После окончания сетки",
+          "correct": false
+        },
+        {
+          "id": "5868122",
+          "text": "В любом месте за пределами сетки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6337",
+      "prompt": "Какими свойствами можно управлять неявной сеткой?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5868123",
+          "text": "grid-template-columns",
+          "correct": false
+        },
+        {
+          "id": "5868124",
+          "text": "grid-template-rows",
+          "correct": false
+        },
+        {
+          "id": "5868125",
+          "text": "Неявной сеткой невозможно управлять",
+          "correct": false
+        },
+        {
+          "id": "5868126",
+          "text": "grid-auto-rows",
+          "correct": true
+        },
+        {
+          "id": "5868127",
+          "text": "grid-auto-columns",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-grid",
+    "courseName": "CSS: Вёрстка на Grid",
+    "lessonSlug": "implicit-grid",
+    "lessonName": "Неявная сетка",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-grid/lessons/implicit-grid/quiz_unit",
+    "lessonId": 1799
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "js-trees-filetree",
+  "title": "Виртуальная файловая система",
+  "questions": [
+    {
+      "id": "6266",
+      "prompt": "По какому признаку правильно определять является ли узел директорией?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994862",
+          "text": "По наличию свойства `children`",
+          "correct": false
+        },
+        {
+          "id": "5994864",
+          "text": "По имени. У имен нет расширений.",
+          "correct": false
+        },
+        {
+          "id": "5994866",
+          "text": "По типу",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6267",
+      "prompt": "Посмотрите дерево, представленное в теории. Чем в нём является узел?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994867",
+          "text": "Строкой",
+          "correct": false
+        },
+        {
+          "id": "5994869",
+          "text": "Массивом",
+          "correct": false
+        },
+        {
+          "id": "5994871",
+          "text": "Объектом",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6268",
+      "prompt": "Может ли узел с типом *file* содержать внутри себя *children*?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994874",
+          "text": "Может. Любой узел может содержать внутри себя другие узлы",
+          "correct": false
+        },
+        {
+          "id": "5994875",
+          "text": "Файл это листовой узел, а значит у него не может быть детей",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6269",
+      "prompt": "Какой тип данных хранится в свойстве `children`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994876",
+          "text": "Функция",
+          "correct": false
+        },
+        {
+          "id": "5994877",
+          "text": "Объект",
+          "correct": false
+        },
+        {
+          "id": "5994878",
+          "text": "Массив",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "filetree",
+    "lessonName": "Виртуальная файловая система",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/filetree/quiz_unit",
+    "lessonId": 1723
+  }
+}

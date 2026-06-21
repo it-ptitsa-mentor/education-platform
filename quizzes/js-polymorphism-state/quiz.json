@@ -1,0 +1,90 @@
+{
+  "slug": "js-polymorphism-state",
+  "title": "Паттерн Состояние (State)",
+  "questions": [
+    {
+      "id": "5526",
+      "prompt": "Кто отвечает за переход из одного состояния в другое в паттерне `State`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994688",
+          "text": "Интерпретатор",
+          "correct": false
+        },
+        {
+          "id": "5994689",
+          "text": "Клиент сам должен делать необходимые переходы",
+          "correct": false
+        },
+        {
+          "id": "5994690",
+          "text": "Функции, относящиеся к конкретному состоянию",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5527",
+      "prompt": "Можно ли реализовать `State` без использования классов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994694",
+          "text": "За ООП!",
+          "correct": false
+        },
+        {
+          "id": "5994695",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5994696",
+          "text": "Да. Все, что нужно, это динамическая диспетчеризация",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5528",
+      "prompt": "Если поведение кнопки зависит от того, в каком режиме находится устройство, то каким поведением обладает данное устройство?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994697",
+          "text": "Магическим",
+          "correct": false
+        },
+        {
+          "id": "5994698",
+          "text": "Непростым",
+          "correct": false
+        },
+        {
+          "id": "5994699",
+          "text": "Несложным",
+          "correct": false
+        },
+        {
+          "id": "5994700",
+          "text": "Простым",
+          "correct": false
+        },
+        {
+          "id": "5994701",
+          "text": "Сложным",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "state",
+    "lessonName": "Паттерн Состояние (State)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/state/quiz_unit",
+    "lessonId": 1551
+  }
+}

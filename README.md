@@ -43,9 +43,24 @@ NODE_ENV=production pnpm --filter @ptitsa/api start:prod
 ## Тесты
 
 ```bash
-pnpm test           # unit: manifest, runner, browser checks
-pnpm test:feature   # API + реальный vitest на js-variables
+pnpm test                  # unit: manifest, generator, runner helpers, quiz check
+pnpm test:feature          # API inject + smoke на заданиях и квизах
+pnpm generate:exercise-tests # пересобрать __tests__ для каталога exercises/
+pnpm generate:static-quizzes # статика квизов для GitHub Pages
 ```
+
+## Квизы (Hexlet)
+
+```bash
+# 1. Куки в .hexlet-cookies.json (см. .hexlet-cookies.json.example)
+# 2. Импорт quiz_unit из программы «Фронтенд-разработчик»
+pnpm import:hexlet-quizzes
+pnpm generate:static-quizzes
+```
+
+Импорт сбрасывает прогресс квиза на Hexlet для каждого урока (`PATCH /api/lessons/:id/reset_quiz`), чтобы вытащить варианты ответов. В UI — отдельный раздел **Квизы** (`/quizzes`).
+
+После импорта Hexlet (`pnpm import:hexlet-frontend`) запустите `pnpm generate:exercise-tests` — скрипт заменяет `placeholder.test.js` на автотесты по `exercise.json` (console output, smoke import, css/html/jsx presence).
 
 ## Добавить JS-упражнение
 

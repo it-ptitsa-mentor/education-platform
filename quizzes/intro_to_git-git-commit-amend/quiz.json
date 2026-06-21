@@ -1,0 +1,80 @@
+{
+  "slug": "intro_to_git-git-commit-amend",
+  "title": "Изменение последнего коммита",
+  "questions": [
+    {
+      "id": "6533",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937881",
+          "text": "Команда `amend` меняет любой указанный коммит",
+          "correct": false
+        },
+        {
+          "id": "5937882",
+          "text": "Команда `amend` не меняет последний коммит, вместо этого создается новый",
+          "correct": false
+        },
+        {
+          "id": "5937883",
+          "text": "Команда `amend` меняет последний коммит — откатывает его и создает новый",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6534",
+      "prompt": "В каком случае использовать `git commit --amend` безопасно?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937884",
+          "text": "В любом случае",
+          "correct": false
+        },
+        {
+          "id": "5937885",
+          "text": "Пока в локальном репозитории не более одного нового коммита по сравнению с удаленным репозиторием на GitHub",
+          "correct": false
+        },
+        {
+          "id": "5937886",
+          "text": "Пока изменения не запушены на GitHub",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6535",
+      "prompt": "Сколько раз можно добавлять изменения с помощью `--amend` в последний коммит?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937887",
+          "text": "Один раз",
+          "correct": false
+        },
+        {
+          "id": "5937888",
+          "text": "Два раза",
+          "correct": false
+        },
+        {
+          "id": "5937889",
+          "text": "Любое количество раз",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "git-commit-amend",
+    "lessonName": "Изменение последнего коммита",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/git-commit-amend/quiz_unit",
+    "lessonId": 1840
+  }
+}

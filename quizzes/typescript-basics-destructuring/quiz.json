@@ -1,0 +1,80 @@
+{
+  "slug": "typescript-basics-destructuring",
+  "title": "Деструктуризация",
+  "questions": [
+    {
+      "id": "11491",
+      "prompt": "Как указать в аргументах функции, что некоторые значения свойств можно упустить при деструктуризации?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957020",
+          "text": "Использовать операторы `||`",
+          "correct": false
+        },
+        {
+          "id": "5957021",
+          "text": "Использовать операторы `&&`",
+          "correct": false
+        },
+        {
+          "id": "5957022",
+          "text": "Использовать знак `?`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11492",
+      "prompt": "Можно ли использовать вложенную деструктуризацию в аргументах функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957023",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5957024",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11493",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5957025",
+          "text": "Деструктуризация используется только в стрелочных функциях",
+          "correct": false
+        },
+        {
+          "id": "5957026",
+          "text": "Все передаваемые объекты в функцию должны быть обязательно деструктурированы",
+          "correct": false
+        },
+        {
+          "id": "5957027",
+          "text": "Деструктуризация работает как для объектов, так и для массивов",
+          "correct": true
+        },
+        {
+          "id": "5957028",
+          "text": "Тип для деструктурируемого объекта можно вынести в псевдоним",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "destructuring",
+    "lessonName": "Деструктуризация",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/destructuring/quiz_unit",
+    "lessonId": 3796
+  }
+}

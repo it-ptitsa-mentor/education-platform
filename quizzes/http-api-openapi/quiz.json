@@ -1,0 +1,85 @@
+{
+  "slug": "http-api-openapi",
+  "title": "OpenAPI (Swagger)",
+  "questions": [
+    {
+      "id": "8644",
+      "prompt": "Почему REST API такие разные? Выберите главную причину:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008487",
+          "text": "Потому что API приходится писать для очень сильно отличающихся друг от друга приложений",
+          "correct": false
+        },
+        {
+          "id": "6008488",
+          "text": "Потому что в Unicode очень много символов, надо использовать их все",
+          "correct": false
+        },
+        {
+          "id": "6008489",
+          "text": "Потому что REST — это не конкретная спецификация, а описание принципов построения хорошего API",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8645",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008490",
+          "text": "Единственное, что удалось OpenAPI — это решить задачу автоматической проверки корректности вызовов",
+          "correct": false
+        },
+        {
+          "id": "6008491",
+          "text": "Формат OpenAPI читается хуже, чем все остальные существующие стандарты",
+          "correct": false
+        },
+        {
+          "id": "6008492",
+          "text": "OpenAPI — это простой и языконезависимый способ описания API в формате, который понятен машинам и людям",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8646",
+      "prompt": "Какие форматы можно использовать для описания в OpenAPI?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "6008493",
+          "text": "HTML",
+          "correct": false
+        },
+        {
+          "id": "6008494",
+          "text": "XML",
+          "correct": false
+        },
+        {
+          "id": "6008495",
+          "text": "YAML",
+          "correct": true
+        },
+        {
+          "id": "6008496",
+          "text": "JSON",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "openapi",
+    "lessonName": "OpenAPI (Swagger)",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/openapi/quiz_unit",
+    "lessonId": 2593
+  }
+}

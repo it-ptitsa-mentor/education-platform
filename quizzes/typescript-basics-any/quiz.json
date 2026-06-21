@@ -1,0 +1,90 @@
+{
+  "slug": "typescript-basics-any",
+  "title": "Тип Any",
+  "questions": [
+    {
+      "id": "11470",
+      "prompt": "Выберите правильные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5956877",
+          "text": "Тип `any` делает типизацию более строгой",
+          "correct": false
+        },
+        {
+          "id": "5956878",
+          "text": "Компилятор выдает ошибку при использовании типа `any`",
+          "correct": false
+        },
+        {
+          "id": "5956879",
+          "text": "Тип `any` делает код более читаемым и понятным",
+          "correct": false
+        },
+        {
+          "id": "5956880",
+          "text": "Тип `any` может содержать любое значение",
+          "correct": true
+        },
+        {
+          "id": "5956881",
+          "text": "Использование типа any затрудняет отслеживание ошибок в коде",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11471",
+      "prompt": "Какие проблемы могут возникнуть при использовании типа `any` в TypeScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956882",
+          "text": "Функции могут возвращать неожиданные значения",
+          "correct": false
+        },
+        {
+          "id": "5956883",
+          "text": "Неверно типизированный код может приводить к ошибкам",
+          "correct": false
+        },
+        {
+          "id": "5956884",
+          "text": "Оба варианта верные",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11472",
+      "prompt": "Можно ли передавать значение типа `any` в параметры функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956885",
+          "text": "Нет, нельзя",
+          "correct": false
+        },
+        {
+          "id": "5956886",
+          "text": "Зависит от условий",
+          "correct": false
+        },
+        {
+          "id": "5956887",
+          "text": "Да, можно",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "any",
+    "lessonName": "Тип Any",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/any/quiz_unit",
+    "lessonId": 3789
+  }
+}

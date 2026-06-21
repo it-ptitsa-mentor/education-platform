@@ -1,0 +1,75 @@
+{
+  "slug": "js-advanced-testing-property-based-testing",
+  "title": "Property-based тестирование",
+  "questions": [
+    {
+      "id": "7100",
+      "prompt": "Как вы думаете, какие утверждения верны в отношении property-based тестирования?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5991735",
+          "text": "Такие тесты проще писать, чем обычные тесты",
+          "correct": false
+        },
+        {
+          "id": "5991736",
+          "text": "Тесты на основе свойств уменьшают время выполнения тестов",
+          "correct": false
+        },
+        {
+          "id": "5991737",
+          "text": "Они заменяют множество обычных тестов, то есть при меньшем количестве кода вы получаете больше тестов",
+          "correct": true
+        },
+        {
+          "id": "5991738",
+          "text": "Такие тесты могут сами находить крайние случаи, например деление на ноль",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7101",
+      "prompt": "Нужно ли для property-based тестирования жестко задавать все тестовые примеры",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991742",
+          "text": "Да, нужно",
+          "correct": false
+        },
+        {
+          "id": "5991743",
+          "text": "Нет, нужно только описать условия, которым должны соответствовать эти примеры",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7102",
+      "prompt": "Могут ли property-based тесты полностью заменить классические тесты",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991746",
+          "text": "Да, могут",
+          "correct": false
+        },
+        {
+          "id": "5991748",
+          "text": "Нет, отличным вариантом будет комбинировать классические и property-based тесты",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-advanced-testing",
+    "courseName": "JS: Продвинутое тестирование",
+    "lessonSlug": "property-based-testing",
+    "lessonName": "Property-based тестирование",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-advanced-testing/lessons/property-based-testing/quiz_unit",
+    "lessonId": 2082
+  }
+}

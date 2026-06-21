@@ -1,0 +1,85 @@
+{
+  "slug": "http-api-devtools",
+  "title": "HTTP-запросы в браузере",
+  "questions": [
+    {
+      "id": "8621",
+      "prompt": "Как обозначены запросы к HTTP API на вкладке Network?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008346",
+          "text": "hrx",
+          "correct": false
+        },
+        {
+          "id": "6008347",
+          "text": "rhx",
+          "correct": false
+        },
+        {
+          "id": "6008348",
+          "text": "rx8",
+          "correct": false
+        },
+        {
+          "id": "6008349",
+          "text": "xhr",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8622",
+      "prompt": "Что можно увидеть на вкладке Network в инструментах разработчика?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008350",
+          "text": "Текущую скорость подключения к интернету",
+          "correct": false
+        },
+        {
+          "id": "6008351",
+          "text": "Карту локальной сети",
+          "correct": false
+        },
+        {
+          "id": "6008352",
+          "text": "Запросы, которые выполняет браузер",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8623",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "6008353",
+          "text": "На вкладке Network можно посмотреть только запросы к серверу, ответы сервера так и останутся загадкой",
+          "correct": false
+        },
+        {
+          "id": "6008354",
+          "text": "Панель разработчика поставляется только в виде расширений, которые нужно устанавливать вручную",
+          "correct": false
+        },
+        {
+          "id": "6008355",
+          "text": "На вкладке Network можно посмотреть и запросы к серверу, и ответы от сервера",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "http-api",
+    "courseName": "HTTP API",
+    "lessonSlug": "devtools",
+    "lessonName": "HTTP-запросы в браузере",
+    "sourceUrl": "https://ru.hexlet.io/courses/http-api/lessons/devtools/quiz_unit",
+    "lessonId": 2588
+  }
+}

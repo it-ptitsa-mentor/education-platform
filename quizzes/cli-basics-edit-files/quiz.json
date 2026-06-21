@@ -1,0 +1,90 @@
+{
+  "slug": "cli-basics-edit-files",
+  "title": "Редактирование файлов",
+  "questions": [
+    {
+      "id": "11063",
+      "prompt": "Как выйти из Vim без сохранения изменений?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946518",
+          "text": "xD",
+          "correct": false
+        },
+        {
+          "id": "5946519",
+          "text": "i",
+          "correct": false
+        },
+        {
+          "id": "5946520",
+          "text": "q!",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11064",
+      "prompt": "Как выйти из Nano?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946521",
+          "text": "Ctrl + s",
+          "correct": false
+        },
+        {
+          "id": "5946522",
+          "text": "q",
+          "correct": false
+        },
+        {
+          "id": "5946523",
+          "text": "Alt + x",
+          "correct": false
+        },
+        {
+          "id": "5946524",
+          "text": "Ctrl + x",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11065",
+      "prompt": "Как войти в режим редактирования в Vim?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946525",
+          "text": "v",
+          "correct": false
+        },
+        {
+          "id": "5946526",
+          "text": "q",
+          "correct": false
+        },
+        {
+          "id": "5946527",
+          "text": "w",
+          "correct": false
+        },
+        {
+          "id": "5946528",
+          "text": "i",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "edit-files",
+    "lessonName": "Редактирование файлов",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/edit-files/quiz_unit",
+    "lessonId": 1200
+  }
+}

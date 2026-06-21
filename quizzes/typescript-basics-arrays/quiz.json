@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-arrays",
+  "title": "Массивы",
+  "questions": [
+    {
+      "id": "21949",
+      "prompt": "Какой тип возвращаемого значения нужно указать у функции `toLowerArray`, чтобы описать результат работы `map`?\n```typescript\nfunction toLowerArray(items: string[]): /* здесь тип */ {\n  return items.map((s) => s.toLowerCase());\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956812",
+          "text": "`string`",
+          "correct": false
+        },
+        {
+          "id": "5956813",
+          "text": "`string[][]`",
+          "correct": false
+        },
+        {
+          "id": "5956814",
+          "text": "`void`",
+          "correct": false
+        },
+        {
+          "id": "5956815",
+          "text": "`string[]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11513",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5956816",
+          "text": "TypeScript не выводит типы массивов",
+          "correct": false
+        },
+        {
+          "id": "5956817",
+          "text": "Массив — это составной тип данных",
+          "correct": true
+        },
+        {
+          "id": "5956818",
+          "text": "В типе массива указывается тип элементов, которые хранятся в массиве",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11514",
+      "prompt": "Как отсортировать элементы массива в TypeScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956819",
+          "text": "```typescript\narr.order();\n```",
+          "correct": false
+        },
+        {
+          "id": "5956820",
+          "text": "```typescript\narr.shuffle();\n```",
+          "correct": false
+        },
+        {
+          "id": "5956821",
+          "text": "```typescript\narr.sort();\n```",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "arrays",
+    "lessonName": "Массивы",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/arrays/quiz_unit",
+    "lessonId": 3840
+  }
+}

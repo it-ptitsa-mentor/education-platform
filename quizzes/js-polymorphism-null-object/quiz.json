@@ -1,0 +1,80 @@
+{
+  "slug": "js-polymorphism-null-object",
+  "title": "Null Object Pattern",
+  "questions": [
+    {
+      "id": "5562",
+      "prompt": "В чем смысл существования паттерна Null Object?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994522",
+          "text": "Больше классов богу классов",
+          "correct": false
+        },
+        {
+          "id": "5994523",
+          "text": "Он позволяет отказаться от использования `null` при программировании",
+          "correct": false
+        },
+        {
+          "id": "5994524",
+          "text": "Устранение особого поведения (проверок существования) в случае отсутствия чего-либо",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5563",
+      "prompt": "Что происходит с условной конструкцией, которая проверяет на null?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994525",
+          "text": "Она уходит и в коде не остается условий",
+          "correct": false
+        },
+        {
+          "id": "5994526",
+          "text": "Она остается там где и была",
+          "correct": false
+        },
+        {
+          "id": "5994527",
+          "text": "Она переезжает в код, который отвечает за создание объекта",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5564",
+      "prompt": "Предположим, что в нашей системе используется Null Object паттерн для имитации гостя. Он представлен классом `Guest`. При этом иногда нужно точно знать, кто перед нами: обычный пользователь либо гость. Как правильно выполнить такую проверку?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994528",
+          "text": "`instanceof`",
+          "correct": false
+        },
+        {
+          "id": "5994529",
+          "text": "Если требуется такая проверка, то в архитектуре есть проблемы",
+          "correct": false
+        },
+        {
+          "id": "5994530",
+          "text": "Нужно добавить метод `isGuest()` в оба класса и вызывать его",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "null-object",
+    "lessonName": "Null Object Pattern",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/null-object/quiz_unit",
+    "lessonId": 1565
+  }
+}

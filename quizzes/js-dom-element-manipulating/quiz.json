@@ -1,0 +1,159 @@
+{
+  "slug": "js-dom-element-manipulating",
+  "title": "Управление узлами DOM",
+  "questions": [
+    {
+      "id": "3903",
+      "prompt": "Как допустимо получить классы элемента?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993021",
+          "text": "el.getAttribute('className')",
+          "correct": false
+        },
+        {
+          "id": "5993022",
+          "text": "el.getAttribute('ClassNamE')",
+          "correct": false
+        },
+        {
+          "id": "5993023",
+          "text": "el.hasAttribute('className')",
+          "correct": false
+        },
+        {
+          "id": "5993024",
+          "text": "el.getAttribute('class')",
+          "correct": true
+        },
+        {
+          "id": "5993025",
+          "text": "el.getAttribute('ClasS')",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3904",
+      "prompt": "Как правильно добавить класс `tab` элементу?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993028",
+          "text": "`el.setAttribute('class', 'tab')`",
+          "correct": false
+        },
+        {
+          "id": "5993029",
+          "text": "`el.className = 'tab'`",
+          "correct": false
+        },
+        {
+          "id": "5993030",
+          "text": "`el.classList.add('tab')`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3905",
+      "prompt": "Для чего нужны атрибуты `data-*`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993033",
+          "text": "Для работы с выборкой по селектору",
+          "correct": false
+        },
+        {
+          "id": "5993034",
+          "text": "Для описания свойств недоступных как атрибуты",
+          "correct": false
+        },
+        {
+          "id": "5993035",
+          "text": "Для хранения пользовательских данных",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3906",
+      "prompt": "Как правильно получить доступ к атрибуту `data` у следующего элемента?\n\n```html\n<button data-as-type=\"icon\">Удалить</button>\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993039",
+          "text": "`el.dataset.as-type()`",
+          "correct": false
+        },
+        {
+          "id": "5993040",
+          "text": "`el.dataset.dataAsType`",
+          "correct": false
+        },
+        {
+          "id": "5993041",
+          "text": "`el.data-as-type`",
+          "correct": false
+        },
+        {
+          "id": "5993042",
+          "text": "`el.data.as-type`",
+          "correct": false
+        },
+        {
+          "id": "5993044",
+          "text": "`el.dataset.asType`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3907",
+      "prompt": "Изучите код ниже:\n\n```html\n<a href=\"/pages/about\"></a>\n```\n\nПредставьте, что в адресной строке браузера написано https://ru.hexlet.io. Чему равно свойство `href` у такого тега?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993047",
+          "text": "/courses",
+          "correct": false
+        },
+        {
+          "id": "5993048",
+          "text": "ru.hexlet.io/courses",
+          "correct": false
+        },
+        {
+          "id": "5993049",
+          "text": "courses",
+          "correct": false
+        },
+        {
+          "id": "5993050",
+          "text": "/pages/about",
+          "correct": false
+        },
+        {
+          "id": "5993051",
+          "text": "pages/about",
+          "correct": false
+        },
+        {
+          "id": "5993052",
+          "text": "https://ru.hexlet.io/pages/about",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "element-manipulating",
+    "lessonName": "Управление узлами DOM",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/element-manipulating/quiz_unit",
+    "lessonId": 910
+  }
+}

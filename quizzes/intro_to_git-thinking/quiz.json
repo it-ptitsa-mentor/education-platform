@@ -1,0 +1,85 @@
+{
+  "slug": "intro_to_git-thinking",
+  "title": "Понимание Git",
+  "questions": [
+    {
+      "id": "6536",
+      "prompt": "Как обозначается последний коммит в ветке, загруженной в рабочую директорию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937908",
+          "text": "REST",
+          "correct": false
+        },
+        {
+          "id": "5937909",
+          "text": "LAST",
+          "correct": false
+        },
+        {
+          "id": "5937910",
+          "text": "HEAD",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6537",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937911",
+          "text": "Коммиты замкнуты сами в себе, они ни на кого не ссылаются",
+          "correct": false
+        },
+        {
+          "id": "5937912",
+          "text": "Каждый коммит имеет ссылку на дочерний коммит",
+          "correct": false
+        },
+        {
+          "id": "5937913",
+          "text": "Каждый коммит имеет ссылку на родительский коммит",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6538",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937914",
+          "text": "Git хранит только некоторую часть истории о последних коммитах, чтобы не занимать много места",
+          "correct": false
+        },
+        {
+          "id": "5937915",
+          "text": "Git не позволяет работать параллелльно с одним и тем же кодом",
+          "correct": false
+        },
+        {
+          "id": "5937916",
+          "text": "Git хранит всю историю коммитов",
+          "correct": true
+        },
+        {
+          "id": "5937917",
+          "text": "Git можно использовать для параллельной разработки — создавать ветки, чтобы код из разных веток не пересекался между собой",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "thinking",
+    "lessonName": "Понимание Git",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/thinking/quiz_unit",
+    "lessonId": 1834
+  }
+}

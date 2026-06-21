@@ -1,0 +1,90 @@
+{
+  "slug": "js-basics-naming",
+  "title": "Именование",
+  "questions": [
+    {
+      "id": "8487",
+      "prompt": "Какие подходы нужно использовать при именовании переменных?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992185",
+          "text": "именовать, как попало",
+          "correct": false
+        },
+        {
+          "id": "5992187",
+          "text": "использовать транслитерацию",
+          "correct": false
+        },
+        {
+          "id": "5992189",
+          "text": "придумать имя, соответствующее содержимому",
+          "correct": true
+        },
+        {
+          "id": "5992191",
+          "text": "использовать английский язык",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8488",
+      "prompt": "Какой стиль именования переменных используется в JavaScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992192",
+          "text": "`kebab-case`",
+          "correct": false
+        },
+        {
+          "id": "5992193",
+          "text": "`snake_case`",
+          "correct": false
+        },
+        {
+          "id": "5992194",
+          "text": "`lowerCamelCase`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8489",
+      "prompt": "Что в программировании означает термин \"магические числа\"?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992195",
+          "text": "таких чисел не существует",
+          "correct": false
+        },
+        {
+          "id": "5992196",
+          "text": "числа из волшебной книги Гарри Поттера",
+          "correct": false
+        },
+        {
+          "id": "5992197",
+          "text": "все числа, которые используются в коде",
+          "correct": false
+        },
+        {
+          "id": "5992198",
+          "text": "числа, происхождение которых невозможно понять без анализа кода",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "naming",
+    "lessonName": "Именование",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/naming/quiz_unit",
+    "lessonId": 2615
+  }
+}

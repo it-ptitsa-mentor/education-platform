@@ -1,0 +1,95 @@
+{
+  "slug": "typescript-advanced-parameter-properties",
+  "title": "Свойства параметров",
+  "questions": [
+    {
+      "id": "12942",
+      "prompt": "Каким качеством обладает свойство `password` в классе ниже?\n\n```typescript\n  class User {\n    constructor(public username: string, private password: string) {}\n  }\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892864",
+          "text": "Защищенное",
+          "correct": false
+        },
+        {
+          "id": "5892865",
+          "text": "Публичное",
+          "correct": false
+        },
+        {
+          "id": "5892866",
+          "text": "Все перечисленные качества",
+          "correct": false
+        },
+        {
+          "id": "5892867",
+          "text": "Ни одно из перечисленных качеств",
+          "correct": false
+        },
+        {
+          "id": "5892868",
+          "text": "Приватное",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12943",
+      "prompt": "Какая ошибка допущена в коде ниже?\n\n```typescript\n  class User {\n    constructor(private username: string) {}\n\n    get username(): string {\n      return this.username;\n    }\n  }\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892869",
+          "text": "Метод `username()` возвращает приватное свойство",
+          "correct": false
+        },
+        {
+          "id": "5892870",
+          "text": "Ошибки нет",
+          "correct": false
+        },
+        {
+          "id": "5892871",
+          "text": "В конструкторе нет присваивания в свойство `username`",
+          "correct": false
+        },
+        {
+          "id": "5892872",
+          "text": "Дублируется имя свойства `username` для поля и метода",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22759",
+      "prompt": "Чтобы сделать параметр конструктора только для чтения, перед ним указывают модификатор __.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892873",
+          "text": "public",
+          "correct": false
+        },
+        {
+          "id": "5892874",
+          "text": "static",
+          "correct": false
+        },
+        {
+          "id": "5892875",
+          "text": "readonly",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "parameter-properties",
+    "lessonName": "Свойства параметров",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/parameter-properties/quiz_unit",
+    "lessonId": 4471
+  }
+}

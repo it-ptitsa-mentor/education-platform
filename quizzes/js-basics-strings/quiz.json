@@ -1,0 +1,117 @@
+{
+  "slug": "js-basics-strings",
+  "title": "Строки",
+  "questions": [
+    {
+      "id": "8581",
+      "prompt": "Какая строка получится в результате конкатенации `\"let\" + \"hex\"`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992117",
+          "text": "`\"hexlet\"`",
+          "correct": false
+        },
+        {
+          "id": "5992118",
+          "text": "`\"let+hex\"`",
+          "correct": false
+        },
+        {
+          "id": "5992119",
+          "text": "`\"let hex\"`",
+          "correct": false
+        },
+        {
+          "id": "5992120",
+          "text": "`\"lethex\"`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8582",
+      "prompt": "Для экранирования используется символ `\\`. А как можно вывести сам обратный слеш?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992121",
+          "text": "обернуть его в двойные кавычки",
+          "correct": false
+        },
+        {
+          "id": "5992122",
+          "text": "обернуть его в одинарные кавычки",
+          "correct": false
+        },
+        {
+          "id": "5992123",
+          "text": "экранировать его таким же символом",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8583",
+      "prompt": "Выберите все валидные (корректные) строки:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992127",
+          "text": "`\"Jack \"Hellboy\" Jeffries\"`",
+          "correct": false
+        },
+        {
+          "id": "5992128",
+          "text": "`'computer'`",
+          "correct": true
+        },
+        {
+          "id": "5992129",
+          "text": "`\"Who's to blame?\"`",
+          "correct": true
+        },
+        {
+          "id": "5992130",
+          "text": "`''`",
+          "correct": true
+        },
+        {
+          "id": "5992131",
+          "text": "`\"Say \\\"Hello\\\"\"`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8584",
+      "prompt": "Как сделать перевод строки в коде:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992134",
+          "text": "Нажать на Enter",
+          "correct": false
+        },
+        {
+          "id": "5992135",
+          "text": "Это невозможно",
+          "correct": false
+        },
+        {
+          "id": "5992136",
+          "text": "Использовать экранирующую последовательность `\\n`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "strings",
+    "lessonName": "Строки",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/strings/quiz_unit",
+    "lessonId": 2612
+  }
+}

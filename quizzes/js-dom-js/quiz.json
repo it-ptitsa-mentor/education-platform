@@ -1,0 +1,80 @@
+{
+  "slug": "js-dom-js",
+  "title": "JavaScript в браузере",
+  "questions": [
+    {
+      "id": "3901",
+      "prompt": "В каком месте HTML можно использовать тег `script`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992908",
+          "text": "Только в body",
+          "correct": false
+        },
+        {
+          "id": "5992909",
+          "text": "Только в head",
+          "correct": false
+        },
+        {
+          "id": "5992910",
+          "text": "И в head, и в body",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3902",
+      "prompt": "Можно ли безопасно использовать современные возможности JavaScript в браузере?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992911",
+          "text": "Да, конечно",
+          "correct": false
+        },
+        {
+          "id": "5992912",
+          "text": "Нет, только по старому стандарту",
+          "correct": false
+        },
+        {
+          "id": "5992913",
+          "text": "Не совсем, современный JavaScript использовать можно, но нужна дополнительная обработка",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8502",
+      "prompt": "В каком порядке выполняются теги `<script>` по умолчанию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992914",
+          "text": "В случайном порядке",
+          "correct": false
+        },
+        {
+          "id": "5992915",
+          "text": "Порядок зависит от того, работаем мы с внешним файлом или инлайновым скриптом",
+          "correct": false
+        },
+        {
+          "id": "5992916",
+          "text": "В том порядке, в котором он встречается в HTML",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "js",
+    "lessonName": "JavaScript в браузере",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/js/quiz_unit",
+    "lessonId": 909
+  }
+}

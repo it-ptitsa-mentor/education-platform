@@ -1,0 +1,85 @@
+{
+  "slug": "js-basics-logical-operations",
+  "title": "Логика",
+  "questions": [
+    {
+      "id": "8540",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconsole.log(5 <= 5);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992433",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "5992434",
+          "text": "`false`",
+          "correct": false
+        },
+        {
+          "id": "5992435",
+          "text": "`true`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8541",
+      "prompt": "Как правильно назвать функцию, которая проверяет, есть ли у пользователя друзья, и возвращает результат булева типа?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992436",
+          "text": "`isFriends()`",
+          "correct": false
+        },
+        {
+          "id": "5992437",
+          "text": "`getFriends()`",
+          "correct": false
+        },
+        {
+          "id": "5992438",
+          "text": "`hasFriends()`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8542",
+      "prompt": "Как называются функции, которые отвечают на вопрос «да» или «нет» и возвращают значение типа boolean?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992439",
+          "text": "Утвердительные функции",
+          "correct": false
+        },
+        {
+          "id": "5992440",
+          "text": "Функции-прейскуранты",
+          "correct": false
+        },
+        {
+          "id": "5992441",
+          "text": "Такие функции не имеют отдельного названия",
+          "correct": false
+        },
+        {
+          "id": "5992442",
+          "text": "Функции-предикаты",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "logical-operations",
+    "lessonName": "Логика",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/logical-operations/quiz_unit",
+    "lessonId": 2633
+  }
+}

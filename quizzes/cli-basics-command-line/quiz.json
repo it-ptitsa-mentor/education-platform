@@ -1,0 +1,80 @@
+{
+  "slug": "cli-basics-command-line",
+  "title": "Командная строка",
+  "questions": [
+    {
+      "id": "4689",
+      "prompt": "Может ли терминал быть устройством?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946426",
+          "text": "Нет, терминал — это всегда программа",
+          "correct": false
+        },
+        {
+          "id": "5946427",
+          "text": "Да, он может быть устройством — например, есть терминал для приема оплаты",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4681",
+      "prompt": "Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946428",
+          "text": "Терминал и командный интерпретатор — это синонимы",
+          "correct": false
+        },
+        {
+          "id": "5946429",
+          "text": "Терминал запускается командным интерпретатором",
+          "correct": false
+        },
+        {
+          "id": "5946430",
+          "text": "Командный интерпретатор запускается терминалом",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4682",
+      "prompt": "Какие возможности обычно есть у командной оболочки?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946431",
+          "text": "Восстановление вкладок после закрытия программы",
+          "correct": false
+        },
+        {
+          "id": "5946432",
+          "text": "Поддержка вкладок",
+          "correct": false
+        },
+        {
+          "id": "5946433",
+          "text": "Автозавершение вводимых команд",
+          "correct": true
+        },
+        {
+          "id": "5946434",
+          "text": "История введенных команд",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "command-line",
+    "lessonName": "Командная строка",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/command-line/quiz_unit",
+    "lessonId": 1190
+  }
+}

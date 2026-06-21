@@ -1,0 +1,100 @@
+{
+  "slug": "js-arrays-nested-arrays",
+  "title": "Вложенные массивы",
+  "questions": [
+    {
+      "id": "5652",
+      "prompt": "```javascript\nconst numbers = [2, [[3], 4]];\n```\n\nКак добраться до значения 4?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991806",
+          "text": "`numbers[0][1]`",
+          "correct": false
+        },
+        {
+          "id": "5991808",
+          "text": "`numbers[1][0]`",
+          "correct": false
+        },
+        {
+          "id": "5991810",
+          "text": "`numbers[1][2]`",
+          "correct": false
+        },
+        {
+          "id": "5991812",
+          "text": "`numbers[2][1]`",
+          "correct": false
+        },
+        {
+          "id": "5991813",
+          "text": "`numbers[1][1]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5653",
+      "prompt": "```javascript\nconst numbers = [2, [[3], 4]];\n```\n\nКак добраться до значения 3?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991814",
+          "text": "`numbers[0][0][0]`",
+          "correct": false
+        },
+        {
+          "id": "5991815",
+          "text": "`numbers[1][1][0]`",
+          "correct": false
+        },
+        {
+          "id": "5991816",
+          "text": "`numbers[1][0][1]`",
+          "correct": false
+        },
+        {
+          "id": "5991817",
+          "text": "`numbers[1][0][0]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5654",
+      "prompt": "```javascript\nconst numbers = [2, [[3], 4]];\n```\n\n`numbers[1].length;` — чему равно значение этого выражения?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991818",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5991819",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "5991820",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "5991821",
+          "text": "2",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "nested-arrays",
+    "lessonName": "Вложенные массивы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/nested-arrays/quiz_unit",
+    "lessonId": 1600
+  }
+}

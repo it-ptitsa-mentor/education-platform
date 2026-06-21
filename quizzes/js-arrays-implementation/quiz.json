@@ -1,0 +1,90 @@
+{
+  "slug": "js-arrays-implementation",
+  "title": "Массивы в памяти компьютера",
+  "questions": [
+    {
+      "id": "5649",
+      "prompt": "Для чего предназначены массивы в языке Си?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992049",
+          "text": "Для хранения набора разнотипных данных, привязанных к одному объекту, например, человеку (рост, вес, цвет волос и тому подобное)",
+          "correct": false
+        },
+        {
+          "id": "5992050",
+          "text": "Для красоты",
+          "correct": false
+        },
+        {
+          "id": "5992051",
+          "text": "Для хранения коллекций однотипных элементов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5650",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992052",
+          "text": "Массивы в JavaScript могут хранить только данные одного типа",
+          "correct": false
+        },
+        {
+          "id": "5992053",
+          "text": "Массивы в JavaScript имеют фиксированный размер",
+          "correct": false
+        },
+        {
+          "id": "5992054",
+          "text": "Массивы в JavaScript могут хранить данные любых типов",
+          "correct": true
+        },
+        {
+          "id": "5992055",
+          "text": "Массивы в JavaScript имеют динамический размер",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5651",
+      "prompt": "Что происходит в JavaScript при выходе за границу массива?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992056",
+          "text": "Возвращается пустая строка",
+          "correct": false
+        },
+        {
+          "id": "5992058",
+          "text": "Происходит чтение куска чужой памяти",
+          "correct": false
+        },
+        {
+          "id": "5992060",
+          "text": "Генерируется ошибка",
+          "correct": false
+        },
+        {
+          "id": "5992062",
+          "text": "Возвращается значение `undefined`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "implementation",
+    "lessonName": "Массивы в памяти компьютера",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/implementation/quiz_unit",
+    "lessonId": 1598
+  }
+}

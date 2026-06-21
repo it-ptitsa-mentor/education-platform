@@ -1,0 +1,90 @@
+{
+  "slug": "css-flex-basics",
+  "title": "Что такое Flex?",
+  "questions": [
+    {
+      "id": "6074",
+      "prompt": "Какая ключевая возможность Flex относительно различных видов позиционирования?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5988968",
+          "text": "Стало меньше CSS-кода",
+          "correct": false
+        },
+        {
+          "id": "5988969",
+          "text": "Flex самостоятельно адаптирует страницу под разные разрешения экранов",
+          "correct": false
+        },
+        {
+          "id": "5988970",
+          "text": "Появление осей main axis и cross axis",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6075",
+      "prompt": "Что необходимо для работы с Flex?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5988971",
+          "text": "Указать специальные свойства для всех элементов",
+          "correct": false
+        },
+        {
+          "id": "5988972",
+          "text": "Все элементы изначально подчиняются Flex-свойствам",
+          "correct": false
+        },
+        {
+          "id": "5988973",
+          "text": "Создать контейнер и указать для него свойство display с соответствующим значением",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6076",
+      "prompt": "Какие свойства не работают с Flex-элементами?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5988974",
+          "text": "все свойства работают",
+          "correct": false
+        },
+        {
+          "id": "5988975",
+          "text": "display",
+          "correct": false
+        },
+        {
+          "id": "5988976",
+          "text": "text-transform",
+          "correct": false
+        },
+        {
+          "id": "5988977",
+          "text": "float",
+          "correct": true
+        },
+        {
+          "id": "5988978",
+          "text": "табличные свойства",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-flex",
+    "courseName": "CSS: Flex",
+    "lessonSlug": "basics",
+    "lessonName": "Что такое Flex?",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-flex/lessons/basics/quiz_unit",
+    "lessonId": 1570
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "js-react-component-lifecycle",
+  "title": "Жизненный цикл компонента",
+  "questions": [
+    {
+      "id": "15981",
+      "prompt": "Что происходит с компонентом React в процессе его жизненного цикла?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940917",
+          "text": "Компонент создаётся и сразу же удаляется",
+          "correct": false
+        },
+        {
+          "id": "5940918",
+          "text": "Компонент создается без возможности обновления",
+          "correct": false
+        },
+        {
+          "id": "5940919",
+          "text": "Компонент может только отображаться, без возможности изменения",
+          "correct": false
+        },
+        {
+          "id": "5940920",
+          "text": "Компонент создаётся, добавляется в DOM, обновляется и удаляется",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15982",
+      "prompt": "Когда вызывается метод `componentDidMount()` в React?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940921",
+          "text": "Перед удалением компонента из DOM",
+          "correct": false
+        },
+        {
+          "id": "5940922",
+          "text": "При каждом обновлении состояния компонента",
+          "correct": false
+        },
+        {
+          "id": "5940923",
+          "text": "Перед вызовом конструктора компонента",
+          "correct": false
+        },
+        {
+          "id": "5940924",
+          "text": "Сразу после отрисовки компонента в DOM",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15983",
+      "prompt": "Какую роль выполняет метод `componentWillUnmount()` в жизненном цикле компонента?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940925",
+          "text": "Устанавливает таймеры для компонента",
+          "correct": false
+        },
+        {
+          "id": "5940926",
+          "text": "Инициализирует состояние компонента",
+          "correct": false
+        },
+        {
+          "id": "5940927",
+          "text": "Вызывает `render` перед обновлением компонента",
+          "correct": false
+        },
+        {
+          "id": "5940928",
+          "text": "Очищает ресурсы, такие как таймеры, перед удалением компонента",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16735",
+      "prompt": "Какая из предложенных проблем содержится в коде компонента?\n```jsx\nclass Select extends React.Component {\n  handleClick = (item) => (e) => {\n    e.preventDefault();\n    const { onClick } = this.props;\n    onClick(item);\n  }\n  render() {\n    const { items } = this.props;\n    if (!items) {\n      return null;\n    }\n    return (\n      <div>\n        {items.map((item) => (\n          <div key={item.id} onClick={this.handleClick(item)}>{item.name}</div>\n        ))}\n      </div>\n    );\n  }\n}\n\n// Пример использования Select:\n// <Select\n//   items={[{ id:1, name: 'first' }, { id: 2, name: 'second' }]}\n//   onClick={(item) => console.log(item)}\n// />\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940929",
+          "text": "`onClick={this.handleClick(item)}` здесь, в `onClick` передается не функция, поэтому код будет работать с ошибками",
+          "correct": false
+        },
+        {
+          "id": "5940930",
+          "text": "Функция `handleClick()` требует двух параметров, поэтому вызов `handleClick(item)` приведет к ошибке",
+          "correct": false
+        },
+        {
+          "id": "5940931",
+          "text": "Проблем нет. Функция `this.handleClick()` возвращает новую функцию, которая хранит переданный параметр `item` благодаря замыканию",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "component-lifecycle",
+    "lessonName": "Жизненный цикл компонента",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/component-lifecycle/quiz_unit",
+    "lessonId": 952
+  }
+}

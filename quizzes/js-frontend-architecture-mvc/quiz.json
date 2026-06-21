@@ -1,0 +1,102 @@
+{
+  "slug": "js-frontend-architecture-mvc",
+  "title": "MVC",
+  "questions": [
+    {
+      "id": "5752",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5972062",
+          "text": "Модель отвечает за перерисовку экрана",
+          "correct": false
+        },
+        {
+          "id": "5972063",
+          "text": "Модель не может взаимодействовать с DOM",
+          "correct": true
+        },
+        {
+          "id": "5972064",
+          "text": "Модель не может взаимодействовать с контроллером",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5753",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5972065",
+          "text": "Контроллер не знает про существование модели",
+          "correct": false
+        },
+        {
+          "id": "5972066",
+          "text": "Контроллер не может менять представление",
+          "correct": true
+        },
+        {
+          "id": "5972067",
+          "text": "Контроллер реагирует на события и изменяет модель",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5754",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5972068",
+          "text": "Представление может изменять модель",
+          "correct": false
+        },
+        {
+          "id": "5972069",
+          "text": "Представление не знает про существование контроллера",
+          "correct": true
+        },
+        {
+          "id": "5972070",
+          "text": "Представление реагирует на изменения модели",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5755",
+      "prompt": "Какая цепочка событий отражает происходящее в MVC",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972071",
+          "text": "Событие => Отрисовка => Обновление данных",
+          "correct": false
+        },
+        {
+          "id": "5972072",
+          "text": "Обновление данных => Отрисовка => Событие",
+          "correct": false
+        },
+        {
+          "id": "5972073",
+          "text": "Событие => Обновление данных => Отрисовка",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-frontend-architecture",
+    "courseName": "JS: Архитектура фронтенда",
+    "lessonSlug": "mvc",
+    "lessonName": "MVC",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/mvc/quiz_unit",
+    "lessonId": 1650
+  }
+}

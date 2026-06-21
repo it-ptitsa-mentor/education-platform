@@ -1,0 +1,144 @@
+{
+  "slug": "css-content-units",
+  "title": "Единицы измерения",
+  "questions": [
+    {
+      "id": "6595",
+      "prompt": "К какому классу принадлежит единица измерения «px»",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867708",
+          "text": "Относительная",
+          "correct": false
+        },
+        {
+          "id": "5867709",
+          "text": "Абсолютная",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6596",
+      "prompt": "Какие единицы измерения называются относительными?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867710",
+          "text": "Они зависят от значений свойств тега body",
+          "correct": false
+        },
+        {
+          "id": "5867711",
+          "text": "Они зависят от производителя экрана",
+          "correct": false
+        },
+        {
+          "id": "5867712",
+          "text": "Они независимые",
+          "correct": false
+        },
+        {
+          "id": "5867713",
+          "text": "Они высчитывают от значений свойств в других блоках",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6597",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5867714",
+          "text": "em зависит от размера шрифта корневого элемента",
+          "correct": false
+        },
+        {
+          "id": "5867715",
+          "text": "rem зависит от размера шрифта родительского элемента",
+          "correct": false
+        },
+        {
+          "id": "5867716",
+          "text": "em зависит от размера шрифта родительского элемента",
+          "correct": true
+        },
+        {
+          "id": "5867717",
+          "text": "rem зависит от размера шрифта корневого элемента",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6598",
+      "prompt": "От чего считаются значения vh и vw",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867718",
+          "text": "От размера контента",
+          "correct": false
+        },
+        {
+          "id": "5867719",
+          "text": "От размера тега html",
+          "correct": false
+        },
+        {
+          "id": "5867720",
+          "text": "От размера viewport",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6599",
+      "prompt": "Какой размер шрифта будет у элемента `.news-title`?\n\n```html\n<section class=\"news\">\n  <article class=\"news-item\">\n    <h2 class=\"news-title\">Заголовок новости</h2>\n  </article>\n</section>\n```\n\n```css\nhtml {\n  font-size: 20px;\n}\n\n.news {\n  font-size: 2rem;\n}\n\n.news-title {\n  font-size: 1em;\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5867721",
+          "text": "30px",
+          "correct": false
+        },
+        {
+          "id": "5867722",
+          "text": "10px",
+          "correct": false
+        },
+        {
+          "id": "5867723",
+          "text": "20px",
+          "correct": false
+        },
+        {
+          "id": "5867724",
+          "text": "35px",
+          "correct": false
+        },
+        {
+          "id": "5867725",
+          "text": "36.6px",
+          "correct": false
+        },
+        {
+          "id": "5867726",
+          "text": "40px",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-content",
+    "courseName": "Верстка контента",
+    "lessonSlug": "units",
+    "lessonName": "Единицы измерения",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-content/lessons/units/quiz_unit",
+    "lessonId": 1884
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "layout-designer-basics-page-structure",
+  "title": "Базовая структура HTML документа",
+  "questions": [
+    {
+      "id": "7290",
+      "prompt": "Какой элемент идет первым в HTML документе?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942752",
+          "text": "&#060;html&#062;",
+          "correct": false
+        },
+        {
+          "id": "5942753",
+          "text": "&#060;body&#062;",
+          "correct": false
+        },
+        {
+          "id": "5942754",
+          "text": "&#060;title&#062;",
+          "correct": false
+        },
+        {
+          "id": "5942755",
+          "text": "&#060;!DOCTYPE&#062;",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7291",
+      "prompt": "Какую роль выполняет DOCTYPE?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942756",
+          "text": "Указание типа страницы",
+          "correct": false
+        },
+        {
+          "id": "5942757",
+          "text": "Указание версии CSS",
+          "correct": false
+        },
+        {
+          "id": "5942758",
+          "text": "Указание используемой версии HTML",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7292",
+      "prompt": "Что хранит в себе элемент `<head>`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942759",
+          "text": "Типы семантических тегов: шапка, меню, футер, заголовки и так далее",
+          "correct": false
+        },
+        {
+          "id": "5942760",
+          "text": "Основную разметку сайта",
+          "correct": false
+        },
+        {
+          "id": "5942761",
+          "text": "Служебную информацию: название страницы, кодировка, ключевые слова, ссылки на подключаемые файлы и так далее",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7293",
+      "prompt": "Какой тег указывает заголовок страницы, показываемый во вкладке браузера?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942762",
+          "text": "&#060;head&#062;",
+          "correct": false
+        },
+        {
+          "id": "5942763",
+          "text": "&#060;body&#062;",
+          "correct": false
+        },
+        {
+          "id": "5942764",
+          "text": "&#060;html&#062;",
+          "correct": false
+        },
+        {
+          "id": "5942765",
+          "text": "&#060;title&#062;",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "page-structure",
+    "lessonName": "Базовая структура HTML документа",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/page-structure/quiz_unit",
+    "lessonId": 1804
+  }
+}

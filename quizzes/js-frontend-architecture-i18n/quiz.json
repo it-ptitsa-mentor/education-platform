@@ -1,0 +1,85 @@
+{
+  "slug": "js-frontend-architecture-i18n",
+  "title": "Организация текстов интерфейса",
+  "questions": [
+    {
+      "id": "5844",
+      "prompt": "Какие тексты принято переводить через библиотеки i18n?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5972083",
+          "text": "Данные в базе",
+          "correct": false
+        },
+        {
+          "id": "5972084",
+          "text": "Элементы интерфейса",
+          "correct": true
+        },
+        {
+          "id": "5972085",
+          "text": "Сообщения об ошибках",
+          "correct": true
+        },
+        {
+          "id": "5972086",
+          "text": "Сообщения (flash, alerts)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5845",
+      "prompt": "Что должно храниться внутри состояния при работе с ошибками?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972087",
+          "text": "Текст ошибки полученный из переводов",
+          "correct": false
+        },
+        {
+          "id": "5972088",
+          "text": "Ошибки в состоянии не хранят",
+          "correct": false
+        },
+        {
+          "id": "5972089",
+          "text": "Код ошибки (словесный или цифровой)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5846",
+      "prompt": "В каком месте должна происходить инициализация `i18next`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972090",
+          "text": "Каждый раз во время рендеринга",
+          "correct": false
+        },
+        {
+          "id": "5972091",
+          "text": "Один раз во время рендеринга",
+          "correct": false
+        },
+        {
+          "id": "5972092",
+          "text": "На старте программы один раз",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-frontend-architecture",
+    "courseName": "JS: Архитектура фронтенда",
+    "lessonSlug": "i18n",
+    "lessonName": "Организация текстов интерфейса",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/i18n/quiz_unit",
+    "lessonId": 1651
+  }
+}

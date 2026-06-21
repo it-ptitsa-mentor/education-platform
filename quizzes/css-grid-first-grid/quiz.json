@@ -1,0 +1,149 @@
+{
+  "slug": "css-grid-first-grid",
+  "title": "Первая сетка",
+  "questions": [
+    {
+      "id": "6322",
+      "prompt": "С помощью какого свойства можно сделать Grid-контейнер?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868070",
+          "text": "grid",
+          "correct": false
+        },
+        {
+          "id": "5868071",
+          "text": "container",
+          "correct": false
+        },
+        {
+          "id": "5868072",
+          "text": "grid-template",
+          "correct": false
+        },
+        {
+          "id": "5868073",
+          "text": "display",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6323",
+      "prompt": "Какие свойства необходимы для указания количества колонок и рядов",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5868074",
+          "text": "grid-columns",
+          "correct": false
+        },
+        {
+          "id": "5868075",
+          "text": "grid-rows",
+          "correct": false
+        },
+        {
+          "id": "5868076",
+          "text": "grid-column-count",
+          "correct": false
+        },
+        {
+          "id": "5868077",
+          "text": "grid-row-count",
+          "correct": false
+        },
+        {
+          "id": "5868078",
+          "text": "grid-template-columns",
+          "correct": true
+        },
+        {
+          "id": "5868079",
+          "text": "grid-template-rows",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6324",
+      "prompt": "Укажите все равнозначные значения свойства grid-template-columns",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5868080",
+          "text": "20px",
+          "correct": false
+        },
+        {
+          "id": "5868081",
+          "text": "repeat(6, 20px)",
+          "correct": false
+        },
+        {
+          "id": "5868082",
+          "text": "20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px",
+          "correct": true
+        },
+        {
+          "id": "5868083",
+          "text": "repeat(12, 20px)",
+          "correct": true
+        },
+        {
+          "id": "5868084",
+          "text": "repeat(6, 20px) repeat(6, 20px)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6325",
+      "prompt": "В чём особенность значения auto-fill?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868085",
+          "text": "Если в контейнере осталось свободное пространство после размещения всех колонок и элементов, то браузер автоматически сожмёт все остальные полосы до нуля",
+          "correct": false
+        },
+        {
+          "id": "5868086",
+          "text": "Если контейнер ограничен по ширине, то браузер разместит столько колонок, сколько это возможно без выхода за рамки размера контейнера",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6326",
+      "prompt": "На что указывает единица измерения fr?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5868087",
+          "text": "Значение ширины ячейки в процентах",
+          "correct": false
+        },
+        {
+          "id": "5868088",
+          "text": "Значение высоты ячейки в процентах",
+          "correct": false
+        },
+        {
+          "id": "5868089",
+          "text": "Сколько частей относительно других элементов займёт ячейка",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-grid",
+    "courseName": "CSS: Вёрстка на Grid",
+    "lessonSlug": "first-grid",
+    "lessonName": "Первая сетка",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-grid/lessons/first-grid/quiz_unit",
+    "lessonId": 1794
+  }
+}

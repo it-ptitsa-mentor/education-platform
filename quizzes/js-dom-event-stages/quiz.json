@@ -1,0 +1,85 @@
+{
+  "slug": "js-dom-event-stages",
+  "title": "Перехват и всплытие",
+  "questions": [
+    {
+      "id": "4938",
+      "prompt": "Предположим, что на сайте есть выпадающее меню, которое должно закрываться по клику на любую часть сайта. Как правильно реализовать это поведение?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993116",
+          "text": "Такое поведение реализовать невозможно",
+          "correct": false
+        },
+        {
+          "id": "5993117",
+          "text": "Придется вешать обработчики на все элементы DOM",
+          "correct": false
+        },
+        {
+          "id": "5993118",
+          "text": "Повесить обработчик на документ — он сработает при любом клике, если его не подавили",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22291",
+      "prompt": "Какое свойство события нужно подставить вместо `__`, чтобы получить содержимое элемента, по которому кликнули?\n\n```javascript\ndiv.addEventListener('click', e => console.log(e.__.textContent));\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993119",
+          "text": "`currentTarget`",
+          "correct": false
+        },
+        {
+          "id": "5993120",
+          "text": "`node`",
+          "correct": false
+        },
+        {
+          "id": "5993121",
+          "text": "`element`",
+          "correct": false
+        },
+        {
+          "id": "5993122",
+          "text": "`target`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4940",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993123",
+          "text": "Фаза погружения идет сразу после фазы всплытия",
+          "correct": false
+        },
+        {
+          "id": "5993124",
+          "text": "По умолчанию обработчики событий добавляются в стадию всплытия",
+          "correct": true
+        },
+        {
+          "id": "5993125",
+          "text": "Порядок вызова обработчиков на разных элементах определяется стадией",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "event-stages",
+    "lessonName": "Перехват и всплытие",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/event-stages/quiz_unit",
+    "lessonId": 908
+  }
+}

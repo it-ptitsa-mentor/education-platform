@@ -1,0 +1,144 @@
+{
+  "slug": "js-basics-mutators",
+  "title": "Инкремент и декремент",
+  "questions": [
+    {
+      "id": "8590",
+      "prompt": "Выберите две формы, которые приведут к одинаковому значению переменной `x`:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992564",
+          "text": "`x++`",
+          "correct": false
+        },
+        {
+          "id": "5992565",
+          "text": "`x -= 0`",
+          "correct": false
+        },
+        {
+          "id": "5992566",
+          "text": "`x--`",
+          "correct": true
+        },
+        {
+          "id": "5992567",
+          "text": "`x -= 1`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8591",
+      "prompt": "Выберите верные утверждения об инкременте и декременте:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992568",
+          "text": "их можно использовать без ограничений",
+          "correct": false
+        },
+        {
+          "id": "5992569",
+          "text": "эти операции имеют побочные эффекты",
+          "correct": true
+        },
+        {
+          "id": "5992570",
+          "text": "их нужно использовать с осторожностью",
+          "correct": true
+        },
+        {
+          "id": "5992571",
+          "text": "в JavaScript код с этими операциями не пройдет проверку линтера",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8592",
+      "prompt": "Какое значение будет выведено на экран?\n\n```javascript\nlet x = 5;\nx++;\nconsole.log(x++);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992572",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "5992573",
+          "text": "7",
+          "correct": false
+        },
+        {
+          "id": "5992574",
+          "text": "6",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11292",
+      "prompt": "Какие значения будут выведены на экран?\n\n```javascript\nlet x = 10;\nwhile(--x > 5) {\n  console.log(x);\n};\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992575",
+          "text": "9, 8, 7, 6, 5",
+          "correct": false
+        },
+        {
+          "id": "5992576",
+          "text": "10, 9, 8, 7, 6, 5",
+          "correct": false
+        },
+        {
+          "id": "5992577",
+          "text": "10, 9, 8, 7, 6",
+          "correct": false
+        },
+        {
+          "id": "5992578",
+          "text": "9, 8, 7, 6",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11293",
+      "prompt": "Какое слово будет в переменной `result` в результате работы цикла?\n\n```javascript\nconst str = 'HELLO';\nlet result = '';\nlet i = 0;\nwhile (i < str.length) {\n  const current = str[i];\n  ++i;\n  result = `${result}${current.toLowerCase()}`\n  i++;\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992579",
+          "text": "hell",
+          "correct": false
+        },
+        {
+          "id": "5992580",
+          "text": "ello",
+          "correct": false
+        },
+        {
+          "id": "5992581",
+          "text": "llo",
+          "correct": false
+        },
+        {
+          "id": "5992582",
+          "text": "hlo",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "mutators",
+    "lessonName": "Инкремент и декремент",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/mutators/quiz_unit",
+    "lessonId": 2643
+  }
+}

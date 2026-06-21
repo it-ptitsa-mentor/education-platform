@@ -1,0 +1,85 @@
+{
+  "slug": "js-basics-variables",
+  "title": "Переменные",
+  "questions": [
+    {
+      "id": "8493",
+      "prompt": "Как программа может хранить и переиспользовать данные?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992143",
+          "text": "это невозможно, данные нужно сразу использовать",
+          "correct": false
+        },
+        {
+          "id": "5992144",
+          "text": "с помощью переменных",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8494",
+      "prompt": "Выберите все корректные имена переменных",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992148",
+          "text": "`1first`",
+          "correct": false
+        },
+        {
+          "id": "5992149",
+          "text": "`password$`",
+          "correct": true
+        },
+        {
+          "id": "5992150",
+          "text": "`user_name1`",
+          "correct": true
+        },
+        {
+          "id": "5992151",
+          "text": "`_hello`",
+          "correct": true
+        },
+        {
+          "id": "5992152",
+          "text": "`mother`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8495",
+      "prompt": "Какое значение будет напечатано на экран?\n\n```javascript\nlet name1 = \"Bill\";\nlet name2 = \"James\";\nname1 = \"Fill\";\nconsole.log(name1);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992156",
+          "text": "Bill",
+          "correct": false
+        },
+        {
+          "id": "5992157",
+          "text": "James",
+          "correct": false
+        },
+        {
+          "id": "5992158",
+          "text": "Fill",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "variables",
+    "lessonName": "Переменные",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/variables/quiz_unit",
+    "lessonId": 2613
+  }
+}

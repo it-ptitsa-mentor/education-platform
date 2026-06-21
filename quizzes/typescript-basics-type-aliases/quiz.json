@@ -1,0 +1,80 @@
+{
+  "slug": "typescript-basics-type-aliases",
+  "title": "Псевдонимы типов",
+  "questions": [
+    {
+      "id": "11467",
+      "prompt": "Что такое Type Alias в TypeScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956853",
+          "text": "Это способ создания нового типа данных",
+          "correct": false
+        },
+        {
+          "id": "5956854",
+          "text": "Это способ объединения нескольких типов данных",
+          "correct": false
+        },
+        {
+          "id": "5956855",
+          "text": "Это способ сокращенной записи определения типа",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11468",
+      "prompt": "Можно ли использовать Type Alias для чисел, строк и других простых типов данных?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956856",
+          "text": "Нет, нельзя",
+          "correct": false
+        },
+        {
+          "id": "5956857",
+          "text": "Зависит от условий",
+          "correct": false
+        },
+        {
+          "id": "5956858",
+          "text": "Да, можно",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11469",
+      "prompt": "Можно ли использовать несколько Type Aliases для одного типа данных?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956862",
+          "text": "Нет, нельзя",
+          "correct": false
+        },
+        {
+          "id": "5956863",
+          "text": "Зависит от условий",
+          "correct": false
+        },
+        {
+          "id": "5956864",
+          "text": "Да, можно",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "type-aliases",
+    "lessonName": "Псевдонимы типов",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/type-aliases/quiz_unit",
+    "lessonId": 3788
+  }
+}

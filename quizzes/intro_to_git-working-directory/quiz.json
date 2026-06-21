@@ -1,0 +1,80 @@
+{
+  "slug": "intro_to_git-working-directory",
+  "title": "Рабочая директория",
+  "questions": [
+    {
+      "id": "6497",
+      "prompt": "Что такое рабочая директория?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937799",
+          "text": "Место, куда попадают файлы после выполнения команды `git add`",
+          "correct": false
+        },
+        {
+          "id": "5937800",
+          "text": "Место на диске, где нужно держать все разрабатываемые проекты",
+          "correct": false
+        },
+        {
+          "id": "5937801",
+          "text": "Файлы и директории, находящиеся в директории проекта — там, где находится каталог _.git_",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6498",
+      "prompt": "Можно ли восстановить файлы из репозитория после удаления их в рабочей директории?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937804",
+          "text": "Да, но только если коммиты были добавлены на github",
+          "correct": false
+        },
+        {
+          "id": "5937805",
+          "text": "Нет, они автоматически пропадают из репозитория",
+          "correct": false
+        },
+        {
+          "id": "5937806",
+          "text": "Да, за исключением новых файлов, которых еще не было в репозитории",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6499",
+      "prompt": "Какой командой восстанавливаются файлы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937807",
+          "text": "Командой `git init`",
+          "correct": false
+        },
+        {
+          "id": "5937808",
+          "text": "Командой `git add`",
+          "correct": false
+        },
+        {
+          "id": "5937809",
+          "text": "Командой `git restore`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "working-directory",
+    "lessonName": "Рабочая директория",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/working-directory/quiz_unit",
+    "lessonId": 1833
+  }
+}

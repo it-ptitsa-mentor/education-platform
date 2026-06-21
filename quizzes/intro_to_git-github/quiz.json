@@ -1,0 +1,85 @@
+{
+  "slug": "intro_to_git-github",
+  "title": "Интеграция с GitHub",
+  "questions": [
+    {
+      "id": "6405",
+      "prompt": "Как соотносятся репозиторий на GitHub и локальный репозиторий после связывания?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937776",
+          "text": "Это один и тот же репозиторий",
+          "correct": false
+        },
+        {
+          "id": "5937777",
+          "text": "Локальная копия — это неполноценная копия репозитория, находящегося на GitHub",
+          "correct": false
+        },
+        {
+          "id": "5937778",
+          "text": "Это независимые репозитории. В локальный репозиторий можно заливать изменения из GitHub-репозитория и наоборот",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6406",
+      "prompt": "Как отправить изменения в репозиторий на GitHub?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937779",
+          "text": "Командой `git pull`",
+          "correct": false
+        },
+        {
+          "id": "5937780",
+          "text": "Командой `git commit`",
+          "correct": false
+        },
+        {
+          "id": "5937781",
+          "text": "Командой `git github`",
+          "correct": false
+        },
+        {
+          "id": "5937782",
+          "text": "Командой `git push`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6407",
+      "prompt": "Что делать, если локальный репозиторий удален, но осталась копия на GitHub?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937783",
+          "text": "Использовать команду `git pull`",
+          "correct": false
+        },
+        {
+          "id": "5937784",
+          "text": "Создавать репозиторий с нуля, потому что восстановление данных невозможно",
+          "correct": false
+        },
+        {
+          "id": "5937785",
+          "text": "Использовать команду `git clone`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "github",
+    "lessonName": "Интеграция с GitHub",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/github/quiz_unit",
+    "lessonId": 935
+  }
+}

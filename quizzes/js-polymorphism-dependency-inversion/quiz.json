@@ -1,0 +1,107 @@
+{
+  "slug": "js-polymorphism-dependency-inversion",
+  "title": "Инверсия зависимостей",
+  "questions": [
+    {
+      "id": "5543",
+      "prompt": "Какую возможность открывает инверсия зависимостей?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994540",
+          "text": "Инкапсуляция",
+          "correct": false
+        },
+        {
+          "id": "5994541",
+          "text": "Автоматическое тестирование",
+          "correct": false
+        },
+        {
+          "id": "5994542",
+          "text": "Полиморфизм подтипов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5544",
+      "prompt": "Какая отличительная черта кода, в котором используется инверсия зависимостей?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994543",
+          "text": "Все методы заменяются на статические",
+          "correct": false
+        },
+        {
+          "id": "5994544",
+          "text": "Объекты создаются в том месте, где они и используются",
+          "correct": false
+        },
+        {
+          "id": "5994545",
+          "text": "Функции (Методы) не создают объекты сами, они получают их снаружи",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5545",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5994546",
+          "text": "Инверсия открывает доступ к параметрическому полиморфизму",
+          "correct": false
+        },
+        {
+          "id": "5994547",
+          "text": "Инверсия ускоряет разработку",
+          "correct": false
+        },
+        {
+          "id": "5994548",
+          "text": "Инверсия зависимостей повышает уровень абстракции, что создает более сложный для понимания код",
+          "correct": true
+        },
+        {
+          "id": "5994549",
+          "text": "Инверсия приводит к усложнению сигнатур функций (методов)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5546",
+      "prompt": "Какой вид инъекции используется в коде ниже?\n\n```javascript\nclass Test {\n  run(reporter) {\n    // ...\n  }\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994550",
+          "text": "Через конструктор",
+          "correct": false
+        },
+        {
+          "id": "5994551",
+          "text": "Через сеттер",
+          "correct": false
+        },
+        {
+          "id": "5994552",
+          "text": "Через вызывающий метод",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-polymorphism",
+    "courseName": "JS: Полиморфизм",
+    "lessonSlug": "dependency-inversion",
+    "lessonName": "Инверсия зависимостей",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-polymorphism/lessons/dependency-inversion/quiz_unit",
+    "lessonId": 1558
+  }
+}

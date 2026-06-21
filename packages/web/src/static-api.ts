@@ -1,8 +1,10 @@
+import { checkQuizAnswers } from "@ptitsa/shared";
 import {
   runBrowserExerciseCheck,
   type ExerciseManifest,
 } from "@ptitsa/shared/exercise-checks";
 import type { CheckResult, ExerciseDetail, ExerciseSummary } from "./exercise-types";
+import type { QuizCheckResult, QuizDetail, QuizSummary } from "./quiz-types";
 import {
   staticExerciseSummaries,
   staticExercises,
@@ -54,4 +56,43 @@ export const staticCheckExercise = async (
 
   const result = await runBrowserExerciseCheck(toManifest(exercise), files);
   return result;
+};
+
+const loadQuizGenerated = async () => import("./generated/quizzes-data.js");
+
+export const staticFetchQuizzes = async (): Promise<{ quizzes: QuizSummary[] }> => {
+  const { staticQuizSummaries } = await loadQuizGenerated();
+  return {
+    quizzes: staticQuizSummaries.map((summary) => ({ ...summary })),
+  };
+};
+
+export const staticFetchQuiz = async (slug: string): Promise<QuizDetail> => {
+  const { staticQuizzes } = await loadQuizGenerated();
+  const quiz = staticQuizzes.find((item) => item.slug === slug);
+  if (!quiz) {
+    throw new Error("Quiz not found");
+  }
+
+  return {
+    slug: quiz.slug,
+    title: quiz.title,
+    questions: quiz.questions.map((question) => ({
+      ...question,
+      options: question.options.map((option) => ({ ...option })),
+    })),
+  };
+};
+
+export const staticCheckQuiz = async (
+  slug: string,
+  answers: Record<string, string[]>,
+): Promise<QuizCheckResult> => {
+  const { staticQuizManifests } = await loadQuizGenerated();
+  const manifest = staticQuizManifests.find((item) => item.slug === slug);
+  if (!manifest) {
+    throw new Error("Quiz not found");
+  }
+
+  return checkQuizAnswers(manifest, { answers });
 };

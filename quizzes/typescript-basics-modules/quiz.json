@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-modules",
+  "title": "Система модулей",
+  "questions": [
+    {
+      "id": "11473",
+      "prompt": "Что такое `namespace` в TypeScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956899",
+          "text": "Область видимости для переменных и функций",
+          "correct": false
+        },
+        {
+          "id": "5956901",
+          "text": "Механизм, заменяющий импорт в TypeScript",
+          "correct": false
+        },
+        {
+          "id": "5956902",
+          "text": "Механизм, позволяющий группировать модули в логически связанные группы",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11474",
+      "prompt": "Выберите правильные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5956905",
+          "text": "Синтаксис импорта модулей в TypeScript не похож на синтаксис импорта модулей в JavaScript",
+          "correct": false
+        },
+        {
+          "id": "5956907",
+          "text": "В TypeScript невозможно указать псевдоним для импортируемой сущности",
+          "correct": false
+        },
+        {
+          "id": "5956908",
+          "text": "Система модулей TypeScript совместима с системой модулей JavaScript",
+          "correct": true
+        },
+        {
+          "id": "5956909",
+          "text": "В TypeScript есть специальный синтаксис для импорта типов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11475",
+      "prompt": "Как объявить пространство имен в TypeScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956910",
+          "text": "```typescript\nfunction bar() { ... }\n```",
+          "correct": false
+        },
+        {
+          "id": "5956911",
+          "text": "```typescript\nclass baz { ... }\n```",
+          "correct": false
+        },
+        {
+          "id": "5956912",
+          "text": "```typescript\nnamespace foo { ... }\n```",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "modules",
+    "lessonName": "Система модулей",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/modules/quiz_unit",
+    "lessonId": 3790
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "typescript-basics-type-hierarcy",
+  "title": "Иерархия типов",
+  "questions": [
+    {
+      "id": "11608",
+      "prompt": "Какие типы включают в себя значение `true`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5957252",
+          "text": "`string`",
+          "correct": false
+        },
+        {
+          "id": "5957253",
+          "text": "`number`",
+          "correct": false
+        },
+        {
+          "id": "5957254",
+          "text": "`never`",
+          "correct": false
+        },
+        {
+          "id": "5957255",
+          "text": "`boolean`",
+          "correct": true
+        },
+        {
+          "id": "5957256",
+          "text": "`unknown`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11609",
+      "prompt": "Выберите код, в котором происходит восходящее приведение типа:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5957257",
+          "text": "```typescript\n  type Hello = 'Hello';\n  type Hi = 'Hi!';\n  type Greeting = Hello | Hi;\n\n  const message: Hello = 'Hello';\n```",
+          "correct": false
+        },
+        {
+          "id": "5957258",
+          "text": "```typescript\n  const message: string = 'Hello';\n```",
+          "correct": true
+        },
+        {
+          "id": "5957259",
+          "text": "```typescript\n  type Hello = 'Hello';\n  type Hi = 'Hi!';\n  type Greeting = Hello | Hi;\n\n  const message: Greeting = 'Hello';\n```",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21961",
+      "prompt": "Какой тип нужно объединить с `NumberGrades`, чтобы переменная `Grades` принимала числовые и текстовые оценки?\n```typescript\ntype NumberGrades = 2 | 3 | 4 | 5;\ntype StringGrades = 'Неудовлетворительно' | 'Удовлетворительно' | 'Хорошо' | 'Отлично';\ntype Grades = NumberGrades | /* здесь тип */;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957260",
+          "text": "`'4' | '5'`",
+          "correct": false
+        },
+        {
+          "id": "5957261",
+          "text": "`NumberGrades[]`",
+          "correct": false
+        },
+        {
+          "id": "5957262",
+          "text": "`typeof StringGrades`",
+          "correct": false
+        },
+        {
+          "id": "5957263",
+          "text": "`StringGrades`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "type-hierarcy",
+    "lessonName": "Иерархия типов",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/type-hierarcy/quiz_unit",
+    "lessonId": 3812
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "js-trees-html",
+  "title": "HTML-дерево",
+  "questions": [
+    {
+      "id": "8339",
+      "prompt": "Для чего выделять разные типы узлов в дереве?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994973",
+          "text": "Чтобы хранить нужные данные",
+          "correct": false
+        },
+        {
+          "id": "5994974",
+          "text": "Чтобы различать уникальные узлы",
+          "correct": false
+        },
+        {
+          "id": "5994975",
+          "text": "Чтобы определять, как обрабатывать каждый узел",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8340",
+      "prompt": "Какие узлы могут наследоваться от листовых узлов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994976",
+          "text": "Любые узлы",
+          "correct": false
+        },
+        {
+          "id": "5994977",
+          "text": "Только листовые узлы",
+          "correct": false
+        },
+        {
+          "id": "5994978",
+          "text": "Листовые узлы не могут иметь детей",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8341",
+      "prompt": "Какую проблему решает структура, описывающая дерево в уроке?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994979",
+          "text": "Такая структура не решает никакой проблемы",
+          "correct": false
+        },
+        {
+          "id": "5994980",
+          "text": "Другого способа нет, мы не можем работать напрямую со строкой HTML",
+          "correct": false
+        },
+        {
+          "id": "5994981",
+          "text": "С такой структурой удобно работать, так как она состоит из стандартных объектов",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-trees",
+    "courseName": "JS: Деревья",
+    "lessonSlug": "html",
+    "lessonName": "HTML-дерево",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-trees/lessons/html/quiz_unit",
+    "lessonId": 2416
+  }
+}

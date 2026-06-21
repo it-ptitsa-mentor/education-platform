@@ -1,0 +1,80 @@
+{
+  "slug": "js-arrays-build-strings",
+  "title": "Генерация строки в цикле",
+  "questions": [
+    {
+      "id": "6366",
+      "prompt": "Почему конкатенация строк в цикле — это плохая идея?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991826",
+          "text": "Есть идея, есть икея!",
+          "correct": false
+        },
+        {
+          "id": "5991829",
+          "text": "Это слишком долго",
+          "correct": false
+        },
+        {
+          "id": "5991831",
+          "text": "В большинстве языков это приводит к повышенному потреблению памяти",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6367",
+      "prompt": "Как правильно собирать динамические строки?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991833",
+          "text": "С помощью конкатенации в цикле",
+          "correct": false
+        },
+        {
+          "id": "5991835",
+          "text": "С помощью интерполяции в цикле",
+          "correct": false
+        },
+        {
+          "id": "5991837",
+          "text": "С помощью создания массива в цикле и последующего объединения элементов массива с помощью метода `join()`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6368",
+      "prompt": "В чем ошибка данного кода?\n\n```javascript\nconst coll = ['First', 'Second', 'Third'];\nconst parts = [];\nfor (const item of coll) {\n  parts.push(`\\n<li>${item}</li>`);\n}\nconst innerValue = parts.join('');\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991838",
+          "text": "Здесь все хорошо",
+          "correct": false
+        },
+        {
+          "id": "5991839",
+          "text": "Не используется конкатенация",
+          "correct": false
+        },
+        {
+          "id": "5991840",
+          "text": "Перевод строки добавляется в самих строках, а не через метод `join()`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "build-strings",
+    "lessonName": "Генерация строки в цикле",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/build-strings/quiz_unit",
+    "lessonId": 1592
+  }
+}

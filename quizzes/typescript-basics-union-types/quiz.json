@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-union-types",
+  "title": "Объединения",
+  "questions": [
+    {
+      "id": "11593",
+      "prompt": "Как определить тип, который включает множество строк и булевых значений?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957201",
+          "text": "`string & boolean`",
+          "correct": false
+        },
+        {
+          "id": "5957202",
+          "text": "`string && boolean`",
+          "correct": false
+        },
+        {
+          "id": "5957203",
+          "text": "`string | boolean`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11594",
+      "prompt": "С помощью какого оператора можно объединить типы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957204",
+          "text": "`&`",
+          "correct": false
+        },
+        {
+          "id": "5957205",
+          "text": "`&&`",
+          "correct": false
+        },
+        {
+          "id": "5957206",
+          "text": "`|`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21956",
+      "prompt": "Какой тип нужно объединить с `number`, чтобы переменная `SomeType` могла хранить и числа, и булевы значения?\n```typescript\ntype SomeType = number | /* здесь тип */;\nconst value1: SomeType = 1;\nconst value2: SomeType = true;\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957207",
+          "text": "`string`",
+          "correct": false
+        },
+        {
+          "id": "5957208",
+          "text": "`number[]`",
+          "correct": false
+        },
+        {
+          "id": "5957209",
+          "text": "`never`",
+          "correct": false
+        },
+        {
+          "id": "5957210",
+          "text": "`boolean`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "union-types",
+    "lessonName": "Объединения",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/union-types/quiz_unit",
+    "lessonId": 3806
+  }
+}

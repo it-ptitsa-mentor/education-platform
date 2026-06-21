@@ -1,0 +1,95 @@
+{
+  "slug": "typescript-advanced-class-fields",
+  "title": "Классы",
+  "questions": [
+    {
+      "id": "12933",
+      "prompt": "Почему код ниже вызовет ошибку компиляции?\n\n```typescript\n  class User {\n    lastName: string;\n\n    phone: string | number;\n\n    constructor(name: string, phone: string) {\n      this.name = name;\n      this.phone = phone;\n    }\n  }\n```",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5892817",
+          "text": "В конструкторе поле `phone` нельзя присвоить, потому что не соответствует тип",
+          "correct": false
+        },
+        {
+          "id": "5892818",
+          "text": "В поля нельзя указывать литеральные типы",
+          "correct": false
+        },
+        {
+          "id": "5892819",
+          "text": "Ошибок не будет",
+          "correct": false
+        },
+        {
+          "id": "5892820",
+          "text": "Не назначено значение свойству `lastName`",
+          "correct": true
+        },
+        {
+          "id": "5892821",
+          "text": "В конструкторе используется несуществующее поле `name`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12934",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5892822",
+          "text": "Нельзя создавать классы без указания полей",
+          "correct": false
+        },
+        {
+          "id": "5892823",
+          "text": "В методах класса можно добавлять новые поля, которые не были описаны в самом классе",
+          "correct": false
+        },
+        {
+          "id": "5892824",
+          "text": "В классе не обязательно указывать конструктор",
+          "correct": true
+        },
+        {
+          "id": "5892825",
+          "text": "Поля и свойства — это не одно и то же",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22757",
+      "prompt": "Поле объявляется как `firstName: __;` если оно должно хранить строку.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892826",
+          "text": "number",
+          "correct": false
+        },
+        {
+          "id": "5892827",
+          "text": "bool",
+          "correct": false
+        },
+        {
+          "id": "5892828",
+          "text": "string",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "class-fields",
+    "lessonName": "Классы",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/class-fields/quiz_unit",
+    "lessonId": 4468
+  }
+}

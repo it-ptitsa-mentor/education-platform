@@ -1,0 +1,80 @@
+{
+  "slug": "js-basics-switch",
+  "title": "Конструкция Switch",
+  "questions": [
+    {
+      "id": "8563",
+      "prompt": "```javascript\nif (answer === 10 || answer === 11) {\n  return \"Good!\";\n} else if (answer === 12) {\n  return \"Better!\";\n} else {\n  return \"Bad...\";\n}\n```\n\nМожно ли подобное условие переписать с помощью `switch`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992490",
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "id": "5992491",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8564",
+      "prompt": "Что будет, если при использовании `switch` внутри `case` нет ни `break`, ни `return`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992492",
+          "text": "произойдет выход из функции",
+          "correct": false
+        },
+        {
+          "id": "5992493",
+          "text": "произойдет выход из switch",
+          "correct": false
+        },
+        {
+          "id": "5992494",
+          "text": "управление сразу будет передано в `default` кейс",
+          "correct": false
+        },
+        {
+          "id": "5992495",
+          "text": "управление будет передано следующему кейсу, если он есть, либо продолжит выполняться код после `switch`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8565",
+      "prompt": "Выберите главный случай, когда стоит использовать `switch`.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992496",
+          "text": "Когда в коде есть бесконечный цикл",
+          "correct": false
+        },
+        {
+          "id": "5992497",
+          "text": "Эту конструкцию нужно использовать всегда. Чем чаще тем лучше!",
+          "correct": false
+        },
+        {
+          "id": "5992498",
+          "text": "Если есть цепочка *if else* с проверками на равенство",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "switch",
+    "lessonName": "Конструкция Switch",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/switch/quiz_unit",
+    "lessonId": 2638
+  }
+}

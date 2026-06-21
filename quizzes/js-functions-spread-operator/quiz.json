@@ -1,0 +1,105 @@
+{
+  "slug": "js-functions-spread-operator",
+  "title": "Оператор Spread (распаковка аргументов)",
+  "questions": [
+    {
+      "id": "5718",
+      "prompt": "Какой тип данных может быть у `something`, чтобы без ошибок сработал spread-оператор:\n\n```javascript\nfoo(...something);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993449",
+          "text": "Число",
+          "correct": false
+        },
+        {
+          "id": "5993450",
+          "text": "Массив или `null`",
+          "correct": false
+        },
+        {
+          "id": "5993451",
+          "text": "Логический тип `true` или `false`",
+          "correct": false
+        },
+        {
+          "id": "5993452",
+          "text": "Массив",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5719",
+      "prompt": "Что напечатает функция на экран?\n\n```javascript\nconst args = [3, 2];\n\n// Функция Math.pow возводит первый аргумент в степень, переданную вторым аргументом\nconsole.log(Math.pow(...args));\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993453",
+          "text": "6",
+          "correct": false
+        },
+        {
+          "id": "5993454",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "5993455",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5993456",
+          "text": "Ошибка",
+          "correct": false
+        },
+        {
+          "id": "5993457",
+          "text": "9",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9403",
+      "prompt": "Что напечатает функция на экран?\n\n```javascript\nconst args = [1, 2, 3, 4];\n\nconst func = (num, ...params) => {\n  console.log(params);\n};\n\nfunc(...args);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993458",
+          "text": "[1, 2, 3, 4]",
+          "correct": false
+        },
+        {
+          "id": "5993459",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5993460",
+          "text": "[4]",
+          "correct": false
+        },
+        {
+          "id": "5993461",
+          "text": "Ошибка",
+          "correct": false
+        },
+        {
+          "id": "5993462",
+          "text": "[2, 3, 4]",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-functions",
+    "courseName": "JS: Функции",
+    "lessonSlug": "spread-operator",
+    "lessonName": "Оператор Spread (распаковка аргументов)",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-functions/lessons/spread-operator/quiz_unit",
+    "lessonId": 1632
+  }
+}

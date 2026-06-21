@@ -1,0 +1,117 @@
+{
+  "slug": "internet-fundamentals-client-server",
+  "title": "Клиент-серверная архитектура",
+  "questions": [
+    {
+      "id": "9662",
+      "prompt": "Три компонента в клиент-серверной архитектуре:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937716",
+          "text": "Сетевая карта",
+          "correct": false
+        },
+        {
+          "id": "5937717",
+          "text": "База клиентов",
+          "correct": false
+        },
+        {
+          "id": "5937719",
+          "text": "Клиент",
+          "correct": true
+        },
+        {
+          "id": "5937721",
+          "text": "Сервер",
+          "correct": true
+        },
+        {
+          "id": "5937723",
+          "text": "База данных",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9663",
+      "prompt": "Кто такой клиент?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937726",
+          "text": "Тот, кто всегда прав",
+          "correct": false
+        },
+        {
+          "id": "5937728",
+          "text": "Приложение для взаимодействия с базой данных",
+          "correct": false
+        },
+        {
+          "id": "5937729",
+          "text": "Приложение для взаимодействия с сервером",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9664",
+      "prompt": "Как обеспечивается бесперебойность работы приложения?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937733",
+          "text": "С помощью балансировщиков",
+          "correct": false
+        },
+        {
+          "id": "5937735",
+          "text": "С помощью ограничений клиентов",
+          "correct": false
+        },
+        {
+          "id": "5937736",
+          "text": "С помощью полиции",
+          "correct": false
+        },
+        {
+          "id": "5937737",
+          "text": "С помощью кластеров",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9665",
+      "prompt": "Какой сервис позволяет распределить нагрузки в кластере?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937738",
+          "text": "Уравнитель",
+          "correct": false
+        },
+        {
+          "id": "5937739",
+          "text": "Распределитель",
+          "correct": false
+        },
+        {
+          "id": "5937740",
+          "text": "Балансировщик",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "internet-fundamentals",
+    "courseName": "Введение в интернет",
+    "lessonSlug": "client-server",
+    "lessonName": "Клиент-серверная архитектура",
+    "sourceUrl": "https://ru.hexlet.io/courses/internet-fundamentals/lessons/client-server/quiz_unit",
+    "lessonId": 3055
+  }
+}

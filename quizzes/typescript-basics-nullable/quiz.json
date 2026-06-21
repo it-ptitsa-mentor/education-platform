@@ -1,0 +1,85 @@
+{
+  "slug": "typescript-basics-nullable",
+  "title": "Null и Undefined",
+  "questions": [
+    {
+      "id": "11596",
+      "prompt": "Как обойти ошибку, которая возникает при работе с переменной, у которой может быть тип `null`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957211",
+          "text": "Добавить значение к переменной",
+          "correct": false
+        },
+        {
+          "id": "5957212",
+          "text": "Использовать значение по умолчанию",
+          "correct": false
+        },
+        {
+          "id": "5957213",
+          "text": "Использовать условное выражение для проверки переменной на `null`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11597",
+      "prompt": "Какая ошибка в функции:\n\n```typescript\n  function toUpperCase(value?: string | null) {\n    const upperValue = value?.toUpperCase();\n    return upperValue;\n  }\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957214",
+          "text": "Нет проверки `value` на существование значения",
+          "correct": false
+        },
+        {
+          "id": "5957215",
+          "text": "Переопределяется глобальная функция `toUpperCase()`",
+          "correct": false
+        },
+        {
+          "id": "5957216",
+          "text": "Ошибки нет",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21957",
+      "prompt": "Какой тип нужно объединить с `null`, чтобы функция `toFixed` принимала числа и безопасно работала с опциональным значением?\n```typescript\nfunction toFixed(value?: null | /* здесь тип */) {\n  const result = value?.toFixed();\n  return result;\n}\n\ntoFixed(123.3); // => 123\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957217",
+          "text": "`string`",
+          "correct": false
+        },
+        {
+          "id": "5957218",
+          "text": "`boolean`",
+          "correct": false
+        },
+        {
+          "id": "5957219",
+          "text": "`null`",
+          "correct": false
+        },
+        {
+          "id": "5957220",
+          "text": "`number`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "nullable",
+    "lessonName": "Null и Undefined",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/nullable/quiz_unit",
+    "lessonId": 3807
+  }
+}

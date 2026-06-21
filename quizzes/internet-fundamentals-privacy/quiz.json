@@ -1,0 +1,117 @@
+{
+  "slug": "internet-fundamentals-privacy",
+  "title": "Приватность и безопасность в интернете",
+  "questions": [
+    {
+      "id": "9941",
+      "prompt": "Почему важна приватность в сети?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937841",
+          "text": "Так не вычислят по IP",
+          "correct": false
+        },
+        {
+          "id": "5937842",
+          "text": "Это позволяет нарушать закон без последствий",
+          "correct": false
+        },
+        {
+          "id": "5937843",
+          "text": "Это помогает изучить новые технологии",
+          "correct": false
+        },
+        {
+          "id": "5937844",
+          "text": "Это повышает безопасность, в том числе защищает от мошенников",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9942",
+      "prompt": "Как скрыть историю посещений сайтов и не сохранять куки",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937848",
+          "text": "Использовать VPN",
+          "correct": false
+        },
+        {
+          "id": "5937849",
+          "text": "Использовать Tor",
+          "correct": false
+        },
+        {
+          "id": "5937850",
+          "text": "Использовать прокси-сервера",
+          "correct": false
+        },
+        {
+          "id": "5937851",
+          "text": "Использовать режим инкогнито",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9943",
+      "prompt": "В чём общая особенность использования прокси, VPN и Tor?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937852",
+          "text": "Шифрование данных",
+          "correct": false
+        },
+        {
+          "id": "5937853",
+          "text": "Блокирование куки",
+          "correct": false
+        },
+        {
+          "id": "5937854",
+          "text": "Скрытие реального IP адреса",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9944",
+      "prompt": "Какой способ обеспечивает самую большую приватность?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937855",
+          "text": "VPN",
+          "correct": false
+        },
+        {
+          "id": "5937856",
+          "text": "Прокси-сервер",
+          "correct": false
+        },
+        {
+          "id": "5937857",
+          "text": "Режим инкогнито",
+          "correct": false
+        },
+        {
+          "id": "5937858",
+          "text": "Tor",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "internet-fundamentals",
+    "courseName": "Введение в интернет",
+    "lessonSlug": "privacy",
+    "lessonName": "Приватность и безопасность в интернете",
+    "sourceUrl": "https://ru.hexlet.io/courses/internet-fundamentals/lessons/privacy/quiz_unit",
+    "lessonId": 3191
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "intro_to_git-inspect",
+  "title": "Анализ истории изменений",
+  "questions": [
+    {
+      "id": "6515",
+      "prompt": "Какая команда показывает историю коммитов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937835",
+          "text": "Команда `git grep`",
+          "correct": false
+        },
+        {
+          "id": "5937836",
+          "text": "Команда `git show`",
+          "correct": false
+        },
+        {
+          "id": "5937837",
+          "text": "Команда `git log`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6516",
+      "prompt": "Для чего нужна команда `git blame`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937838",
+          "text": "Она указывает, кто в команде пишет кривой код",
+          "correct": false
+        },
+        {
+          "id": "5937839",
+          "text": "Она помогает изучать изменения, сделанные в конкретном коммите",
+          "correct": false
+        },
+        {
+          "id": "5937840",
+          "text": "Она показывает, кто и в каком коммите последним менял строчки в указанном файле",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6517",
+      "prompt": "Что вернет команда `git grep hexlet`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937845",
+          "text": "Список файлов, в которых встречается слово *hexlet*",
+          "correct": false
+        },
+        {
+          "id": "5937846",
+          "text": "Список всех коммитов, в описании которых есть подстрока *hexlet*",
+          "correct": false
+        },
+        {
+          "id": "5937847",
+          "text": "Список строк во всех файлах репозитория, в которых есть подстрока *hexlet*",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "inspect",
+    "lessonName": "Анализ истории изменений",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/inspect/quiz_unit",
+    "lessonId": 1829
+  }
+}

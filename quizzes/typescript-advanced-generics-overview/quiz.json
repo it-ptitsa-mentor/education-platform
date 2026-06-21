@@ -1,0 +1,90 @@
+{
+  "slug": "typescript-advanced-generics-overview",
+  "title": "Введение в дженерики",
+  "questions": [
+    {
+      "id": "12963",
+      "prompt": "Какой тип будет находиться в переменной `result`?\n\n```typescript\n  const items = [1, 2, 3, 4];\n  const result = items.reduce((acc, item) => acc + item, 0);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892936",
+          "text": "`number[]`",
+          "correct": false
+        },
+        {
+          "id": "5892937",
+          "text": "`undefined`",
+          "correct": false
+        },
+        {
+          "id": "5892938",
+          "text": "Невозможно определить",
+          "correct": false
+        },
+        {
+          "id": "5892939",
+          "text": "`never`",
+          "correct": false
+        },
+        {
+          "id": "5892940",
+          "text": "`number`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12964",
+      "prompt": "Какую задачу выполняют дженерики в функциях?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892941",
+          "text": "Дженерики предопределяют типы, с которыми должна работать функция",
+          "correct": false
+        },
+        {
+          "id": "5892942",
+          "text": "Дженерики переопределяют типы параметров при вызове функции, делая их более обобщенными",
+          "correct": false
+        },
+        {
+          "id": "5892943",
+          "text": "Дженерики позволяют описывать одинаковую логику в функциях для разных типов данных",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22764",
+      "prompt": "В объявлении `Promise<__>` буква обозначает тип значения, которое вернёт промис.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892944",
+          "text": "typeof",
+          "correct": false
+        },
+        {
+          "id": "5892945",
+          "text": "value",
+          "correct": false
+        },
+        {
+          "id": "5892946",
+          "text": "T",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "generics-overview",
+    "lessonName": "Введение в дженерики",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/generics-overview/quiz_unit",
+    "lessonId": 4478
+  }
+}

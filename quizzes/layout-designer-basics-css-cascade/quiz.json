@@ -1,0 +1,119 @@
+{
+  "slug": "layout-designer-basics-css-cascade",
+  "title": "Каскадность в CSS",
+  "questions": [
+    {
+      "id": "6021",
+      "prompt": "Что такое каскадность?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943366",
+          "text": "Специальное свойство в CSS, позволяющее копировать стили",
+          "correct": false
+        },
+        {
+          "id": "5943367",
+          "text": "Каскадность — это водопад",
+          "correct": false
+        },
+        {
+          "id": "5943368",
+          "text": "Механизм, благодаря которому свойства из разных источников могут применяться к одному элементу",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6022",
+      "prompt": "Какой селектор в CSS имеет самый высокий приоритет?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943375",
+          "text": "Селектор по тегу",
+          "correct": false
+        },
+        {
+          "id": "5943377",
+          "text": "Селектор по классу",
+          "correct": false
+        },
+        {
+          "id": "5943380",
+          "text": "Селектор по идентификатору",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6023",
+      "prompt": "Какого цвета будет данная строка:\n\n```html\n<p class=\"red\" id=\"blue\">Строка с текстом</p>\n```\n\n```css\n.red {\n  color: red;\n}\n\n#blue {\n  color: blue;\n}\n\np {\n  color: white;\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943388",
+          "text": "Белая",
+          "correct": false
+        },
+        {
+          "id": "5943389",
+          "text": "Красная",
+          "correct": false
+        },
+        {
+          "id": "5943390",
+          "text": "Синяя",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6024",
+      "prompt": "Существует ли разница в порядке написания классов в CSS?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943394",
+          "text": "Нет. Все зависит от порядка расположения классов в HTML",
+          "correct": false
+        },
+        {
+          "id": "5943395",
+          "text": "Да. Все зависит от порядка расположения классов в CSS",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6025",
+      "prompt": "Какого цвета будет следующая строка:\n```html\n<p class=\"green red\">Это все матрица</p>\n```\n```css\n.red {\n  color: red;\n}\n\n.green {\n  color: green;\n}\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5943396",
+          "text": "Строки нет. Это все иллюзия",
+          "correct": false
+        },
+        {
+          "id": "5943397",
+          "text": "Красная",
+          "correct": false
+        },
+        {
+          "id": "5943398",
+          "text": "Зеленая",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "css-cascade",
+    "lessonName": "Каскадность в CSS",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/css-cascade/quiz_unit",
+    "lessonId": 1746
+  }
+}

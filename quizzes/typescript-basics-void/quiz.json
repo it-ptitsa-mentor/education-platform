@@ -1,0 +1,80 @@
+{
+  "slug": "typescript-basics-void",
+  "title": "Тип Void",
+  "questions": [
+    {
+      "id": "11482",
+      "prompt": "Какое значение можно вернуть из функции с типом `void`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956959",
+          "text": "Функция возвращает специальное значение с типом `void`",
+          "correct": false
+        },
+        {
+          "id": "5956960",
+          "text": "Невозможно определить, потому что функция ничего не возвращает",
+          "correct": false
+        },
+        {
+          "id": "5956961",
+          "text": "Может возвращаться любое значение, но оно будет проигнорировано",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11483",
+      "prompt": "Можно ли использовать тип `void` для описания аргументов функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956965",
+          "text": "Можно, если аргумент может принимать значение `undefined`",
+          "correct": false
+        },
+        {
+          "id": "5956966",
+          "text": "Нет, нельзя",
+          "correct": false
+        },
+        {
+          "id": "5956967",
+          "text": "Можно, но в этом нет смысла, потому что передаваемый аргумент будет всегда `undefined`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11484",
+      "prompt": "Можно ли передать в метод `filter()` функцию с типом `void`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956968",
+          "text": "Нет, потому что метод ожидает функцию-колбек, которая возвращает что-то, что можно привести к булевому типу",
+          "correct": false
+        },
+        {
+          "id": "5956969",
+          "text": "Да, в таком случае метод отфильтрует все значения `undefined`",
+          "correct": false
+        },
+        {
+          "id": "5956970",
+          "text": "Да, но это бессмысленно, потому что фильтрация работать не будет",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "void",
+    "lessonName": "Тип Void",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/void/quiz_unit",
+    "lessonId": 3793
+  }
+}

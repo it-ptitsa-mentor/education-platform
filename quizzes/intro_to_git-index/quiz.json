@@ -1,0 +1,80 @@
+{
+  "slug": "intro_to_git-index",
+  "title": "Индекс",
+  "questions": [
+    {
+      "id": "6527",
+      "prompt": "Что нужно делать перед коммитом?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937890",
+          "text": "Ставить свечку",
+          "correct": false
+        },
+        {
+          "id": "5937891",
+          "text": "Просматривать последние изменения с помощью команды `git log -p`",
+          "correct": false
+        },
+        {
+          "id": "5937892",
+          "text": "Изучать сделанные изменения с помощью команды `git diff --staged`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6528",
+      "prompt": "По какому принципу нужно формировать коммиты?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937893",
+          "text": "В коммит должен входить только один файл",
+          "correct": false
+        },
+        {
+          "id": "5937894",
+          "text": "В коммит должны попадать все сделанные изменения в рабочей копии",
+          "correct": false
+        },
+        {
+          "id": "5937895",
+          "text": "В коммит должно входить одно логически связанное изменение или одна задача",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6529",
+      "prompt": "Какой флаг используется для интерактивного добавления изменений в индекс?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937896",
+          "text": "Флаг `-m`",
+          "correct": false
+        },
+        {
+          "id": "5937897",
+          "text": "Флаг `-a`",
+          "correct": false
+        },
+        {
+          "id": "5937898",
+          "text": "Флаг `-i`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "index",
+    "lessonName": "Индекс",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/index/quiz_unit",
+    "lessonId": 1844
+  }
+}

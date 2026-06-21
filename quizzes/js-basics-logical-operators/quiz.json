@@ -1,0 +1,134 @@
+{
+  "slug": "js-basics-logical-operators",
+  "title": "Логические операторы",
+  "questions": [
+    {
+      "id": "8543",
+      "prompt": "Каким будет результат `(12 > 40) || (400 >= 400)`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992443",
+          "text": "`false`",
+          "correct": false
+        },
+        {
+          "id": "5992444",
+          "text": "Невозможно ответить",
+          "correct": false
+        },
+        {
+          "id": "5992445",
+          "text": "`true`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8544",
+      "prompt": "Как работает оператор отрицания `!`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992446",
+          "text": "Всегда возвращает `false`",
+          "correct": false
+        },
+        {
+          "id": "5992447",
+          "text": "Отменяет действие других операторов",
+          "correct": false
+        },
+        {
+          "id": "5992448",
+          "text": "Меняет логическое значение на противоположное",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8545",
+      "prompt": "Как в коде обозначается оператор `И`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992449",
+          "text": "`||`",
+          "correct": false
+        },
+        {
+          "id": "5992450",
+          "text": "`or`",
+          "correct": false
+        },
+        {
+          "id": "5992451",
+          "text": "`and`",
+          "correct": false
+        },
+        {
+          "id": "5992452",
+          "text": "В Javascript нет такого оператора",
+          "correct": false
+        },
+        {
+          "id": "5992453",
+          "text": "`&&`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8546",
+      "prompt": "Что будет выведено на экран? :)\n\n```javascript\nlet value = true;\nconsole.log(!!!!value);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992454",
+          "text": "`false`",
+          "correct": false
+        },
+        {
+          "id": "5992455",
+          "text": "`'Заберите меня отсюда!!!!'`",
+          "correct": false
+        },
+        {
+          "id": "5992456",
+          "text": "`true`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8547",
+      "prompt": "Что будет записано в переменную `result`?\n\n```javascript\nlet result = !true || false\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992457",
+          "text": "`На этот вопрос невозможно ответить`",
+          "correct": false
+        },
+        {
+          "id": "5992458",
+          "text": "`true`",
+          "correct": false
+        },
+        {
+          "id": "5992459",
+          "text": "`false`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "logical-operators",
+    "lessonName": "Логические операторы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/logical-operators/quiz_unit",
+    "lessonId": 2634
+  }
+}

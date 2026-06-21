@@ -1,0 +1,95 @@
+{
+  "slug": "js-arrays-destructuring",
+  "title": "Деструктуризация",
+  "questions": [
+    {
+      "id": "6375",
+      "prompt": "Зачем нужна деструктуризация?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991983",
+          "text": "Она ускоряет работу программы",
+          "correct": false
+        },
+        {
+          "id": "5991984",
+          "text": "Без деструктуризации невозможно добраться до всех элементов массива",
+          "correct": false
+        },
+        {
+          "id": "5991985",
+          "text": "Во-первых, это красиво. Во-вторых, код становится лаконичнее и нагляднее.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6376",
+      "prompt": "Что выведет на экран код?\n\n```javascript\nconst [first, second] = [1, [2, 3]];\nconsole.log(second); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991986",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5991987",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "5991988",
+          "text": "[]",
+          "correct": false
+        },
+        {
+          "id": "5991989",
+          "text": "[2]",
+          "correct": false
+        },
+        {
+          "id": "5991990",
+          "text": "[2, 3]",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6377",
+      "prompt": "Что выведет на экран код?\n\n```javascript\nconst numbers = [1, [2, 3]];\nconst [first, second] = numbers[1];\nconsole.log(second); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991993",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "5991994",
+          "text": "[2, 3]",
+          "correct": false
+        },
+        {
+          "id": "5991995",
+          "text": "[2]",
+          "correct": false
+        },
+        {
+          "id": "5991996",
+          "text": "3",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "destructuring",
+    "lessonName": "Деструктуризация",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/destructuring/quiz_unit",
+    "lessonId": 1594
+  }
+}

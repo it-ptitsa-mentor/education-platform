@@ -1,0 +1,97 @@
+{
+  "slug": "layout-designer-basics-semantic-html",
+  "title": "Семантический HTML",
+  "questions": [
+    {
+      "id": "5924",
+      "prompt": "Зачем нужна семантическая верстка?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942500",
+          "text": "Потому что вы сказали, что это хорошо",
+          "correct": false
+        },
+        {
+          "id": "5942501",
+          "text": "Для создания стилей элементов",
+          "correct": false
+        },
+        {
+          "id": "5942502",
+          "text": "Для вывода элементов в браузере",
+          "correct": false
+        },
+        {
+          "id": "5942503",
+          "text": "Для корректной обработки страницы роботами",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5925",
+      "prompt": "Можно ли расположить несколько элементов nav на странице?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942504",
+          "text": "Нет. nav — это уникальный элемент для страницы",
+          "correct": false
+        },
+        {
+          "id": "5942505",
+          "text": "Да, конечно!",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5926",
+      "prompt": "Есть ли разница между section и div с точки зрения поведения?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942509",
+          "text": "section можно стилизовать с помощью специальных свойств",
+          "correct": false
+        },
+        {
+          "id": "5942510",
+          "text": "div более универсальный и браузеры его лучше понимают",
+          "correct": false
+        },
+        {
+          "id": "5942511",
+          "text": "Разницы нет. Это два блочных элемента без стандартных стилей",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5927",
+      "prompt": "Можно ли вкладывать семантические элементы друг в друга?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5942516",
+          "text": "Нет, потому что каждый семантический элемент является самостоятельной единицей и их нельзя объединять",
+          "correct": false
+        },
+        {
+          "id": "5942517",
+          "text": "Да, так как это просто блочные элементы",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "layout-designer-basics",
+    "courseName": "Основы современной верстки",
+    "lessonSlug": "semantic-html",
+    "lessonName": "Семантический HTML",
+    "sourceUrl": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/semantic-html/quiz_unit",
+    "lessonId": 1747
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "typescript-basics-variability",
+  "title": "Ковариантность и контравариантность",
+  "questions": [
+    {
+      "id": "11614",
+      "prompt": "Какая ошибка в определении типов допущена в коде ниже?\n\n```typescript\n  type FilterCallback = (item1: number) => boolean;\n  declare function filter(arr: Array<number>, callback: FilterCallback): Array<any>\n\n  const arr = [1, 2, 3];\n  const getEvenNumbers = (item: number) => item % 2 === 0;\n\n  filter(arr, getEvenNumbers);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957274",
+          "text": "Функция `getEvenNumbers()` не может возвращать значение, потому что тип возвращаемого значения определен как `boolean` и `number`",
+          "correct": false
+        },
+        {
+          "id": "5957275",
+          "text": "Ошибок нет",
+          "correct": false
+        },
+        {
+          "id": "5957276",
+          "text": "Функция `filter()` возвращает более широкий тип `Array<any>` вместо `Array<number>`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11615",
+      "prompt": "Какие множества являются подмножеством типа `number | boolean`?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5957277",
+          "text": "`'hello' | true`",
+          "correct": false
+        },
+        {
+          "id": "5957278",
+          "text": "`boolean`",
+          "correct": true
+        },
+        {
+          "id": "5957279",
+          "text": "`123 | 0`",
+          "correct": true
+        },
+        {
+          "id": "5957280",
+          "text": "`false`",
+          "correct": true
+        },
+        {
+          "id": "5957281",
+          "text": "`0 | true`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "21963",
+      "prompt": "Какой тип возвращает функция `sum`, если колбэк складывает элементы массива чисел?\n```typescript\ntype SumCallback = (acc: number, item: number) => number;\ndeclare function sum(arr: Array<number>, callback: SumCallback): /* здесь тип */;\n\nconst arr = [1, 2, 3];\nconst getSum = (acc: number, item: number) => acc + item;\n\nsum(arr, getSum);\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5957282",
+          "text": "`Array<number>`",
+          "correct": false
+        },
+        {
+          "id": "5957283",
+          "text": "`void`",
+          "correct": false
+        },
+        {
+          "id": "5957284",
+          "text": "`SumCallback`",
+          "correct": false
+        },
+        {
+          "id": "5957285",
+          "text": "`number`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "variability",
+    "lessonName": "Ковариантность и контравариантность",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/variability/quiz_unit",
+    "lessonId": 3814
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "js-classes-overriding",
+  "title": "Переопределение методов",
+  "questions": [
+    {
+      "id": "6449",
+      "prompt": "Если метод определен и в родителе, и в наследнике, какой из них вызовется при обращении к методу из родителя (из объекта родительского класса)?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992178",
+          "text": "Возникнет ошибка, так как нельзя определять методы с одинаковыми именами по всей иерархии наследования",
+          "correct": false
+        },
+        {
+          "id": "5992179",
+          "text": "Метод из наследника",
+          "correct": false
+        },
+        {
+          "id": "5992180",
+          "text": "Родительский",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6450",
+      "prompt": "Как правильно вызывать родительский конструктор?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992181",
+          "text": "`this.constructor()`",
+          "correct": false
+        },
+        {
+          "id": "5992182",
+          "text": "`constructor()`",
+          "correct": false
+        },
+        {
+          "id": "5992183",
+          "text": "`super()`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6546",
+      "prompt": "Как правильно вызывать родительский метод?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992184",
+          "text": "`this.method()`",
+          "correct": false
+        },
+        {
+          "id": "5992186",
+          "text": "`method()`",
+          "correct": false
+        },
+        {
+          "id": "5992188",
+          "text": "`super()`",
+          "correct": false
+        },
+        {
+          "id": "5992190",
+          "text": "`super.method()`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-classes",
+    "courseName": "JS: Погружаясь в классы",
+    "lessonSlug": "overriding",
+    "lessonName": "Переопределение методов",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-classes/lessons/overriding/quiz_unit",
+    "lessonId": 1860
+  }
+}

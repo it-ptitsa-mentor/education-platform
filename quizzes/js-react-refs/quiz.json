@@ -1,0 +1,122 @@
+{
+  "slug": "js-react-refs",
+  "title": "Refs",
+  "questions": [
+    {
+      "id": "15986",
+      "prompt": "Что такое рефы (refs) в React?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940941",
+          "text": "Это способ хранить состояние компонента",
+          "correct": false
+        },
+        {
+          "id": "5940942",
+          "text": "Это атрибут, который хранит данные в props",
+          "correct": false
+        },
+        {
+          "id": "5940943",
+          "text": "Это методы для работы с событием клика",
+          "correct": false
+        },
+        {
+          "id": "5940944",
+          "text": "Это способ получения прямого доступа к DOM-элементам",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15987",
+      "prompt": "Как создаются рефы в React?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940945",
+          "text": "С помощью метода `setState()`",
+          "correct": false
+        },
+        {
+          "id": "5940946",
+          "text": "С помощью props компонента",
+          "correct": false
+        },
+        {
+          "id": "5940947",
+          "text": "С помощью метода `componentDidUpdate()`",
+          "correct": false
+        },
+        {
+          "id": "5940948",
+          "text": "С помощью функции `React.createRef()` в конструкторе компонента",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15988",
+      "prompt": "Как получить доступ к DOM-элементу, связанному с рефом?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940949",
+          "text": "С помощью метода `componentDidMount()`",
+          "correct": false
+        },
+        {
+          "id": "5940950",
+          "text": "Используя props компонента",
+          "correct": false
+        },
+        {
+          "id": "5940951",
+          "text": "Обращаясь к `this.state`",
+          "correct": false
+        },
+        {
+          "id": "5940952",
+          "text": "Используя `this.<имя рефа>.current`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "15989",
+      "prompt": "Когда следует использовать рефы в React?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5940953",
+          "text": "Для управления состоянием компонента",
+          "correct": false
+        },
+        {
+          "id": "5940954",
+          "text": "Когда нужно передать данные между компонентами",
+          "correct": false
+        },
+        {
+          "id": "5940955",
+          "text": "Всегда, когда компонент обновляется",
+          "correct": false
+        },
+        {
+          "id": "5940956",
+          "text": "Когда необходимо взаимодействовать с DOM-элементами напрямую",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-react",
+    "courseName": "JS: React",
+    "lessonSlug": "refs",
+    "lessonName": "Refs",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-react/lessons/refs/quiz_unit",
+    "lessonId": 954
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "js-dom-search",
+  "title": "Декларативный поиск по DOM-дереву",
+  "questions": [
+    {
+      "id": "3921",
+      "prompt": "Как найти все элементы с классом `row`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992981",
+          "text": "document.querySelector('.row')",
+          "correct": false
+        },
+        {
+          "id": "5992982",
+          "text": "document.querySelector('row')",
+          "correct": false
+        },
+        {
+          "id": "5992983",
+          "text": "document.getElementById('row')",
+          "correct": false
+        },
+        {
+          "id": "5992984",
+          "text": "document.getElementsByTagName('#row')",
+          "correct": false
+        },
+        {
+          "id": "5992985",
+          "text": "document.getElementsByClassName('.row')",
+          "correct": false
+        },
+        {
+          "id": "5992986",
+          "text": "document.getElementsByClassName('row')",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3922",
+      "prompt": "Как найти элемент с идентификатором `main`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992987",
+          "text": "document.querySelector('main')",
+          "correct": false
+        },
+        {
+          "id": "5992988",
+          "text": "document.getElementsByTagName('.main')",
+          "correct": false
+        },
+        {
+          "id": "5992989",
+          "text": "document.getElementById('#main')",
+          "correct": false
+        },
+        {
+          "id": "5992990",
+          "text": "document.getElementById('main')",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3923",
+      "prompt": "Как найти все элементы с классом `small` внутри списков?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992991",
+          "text": "document.querySelector('li > .small')",
+          "correct": false
+        },
+        {
+          "id": "5992992",
+          "text": "document.getElementsByTagName('li.small')",
+          "correct": false
+        },
+        {
+          "id": "5992993",
+          "text": "document.querySelectorAll('li .small')",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "search",
+    "lessonName": "Декларативный поиск по DOM-дереву",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/search/quiz_unit",
+    "lessonId": 917
+  }
+}

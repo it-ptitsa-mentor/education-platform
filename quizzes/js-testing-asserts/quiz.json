@@ -1,0 +1,112 @@
+{
+  "slug": "js-testing-asserts",
+  "title": "Утверждения",
+  "questions": [
+    {
+      "id": "5436",
+      "prompt": "Как правильно проверить функцию `isNaN`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994757",
+          "text": "`assert(!isNaN(NaN))`",
+          "correct": false
+        },
+        {
+          "id": "5994758",
+          "text": "`assert(isNaN)`",
+          "correct": false
+        },
+        {
+          "id": "5994759",
+          "text": "`assert(isNaN(NaN))`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5437",
+      "prompt": "Какое утверждение лучше подходит для ситуации, в которой проверяется что 3 — это простое число",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994760",
+          "text": "`assert(!isPrime(3))`",
+          "correct": false
+        },
+        {
+          "id": "5994761",
+          "text": "`assert(isPrime(3))`",
+          "correct": false
+        },
+        {
+          "id": "5994762",
+          "text": "`assert.strictEqual(isPrime(3), true)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5438",
+      "prompt": "Какое утверждение лучше подходит для ситуации, когда надо проверить длину строки",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994764",
+          "text": "`assert('str'.length !== 3)`",
+          "correct": false
+        },
+        {
+          "id": "5994766",
+          "text": "`assert('str'.length === 3)`",
+          "correct": false
+        },
+        {
+          "id": "5994768",
+          "text": "`assert('str'.length)`",
+          "correct": false
+        },
+        {
+          "id": "5994769",
+          "text": "`assert.strictEqual('str'.length, 3)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5594",
+      "prompt": "Дана функция getDividers, которая принимает число и возвращает массив делителей этого числа:\n\n```javascript\nconst getDividers = (num) => {\n  const dividers = [];\n  for (let i = 1; i <= num; i += 1) {\n    if (num % i === 0) {\n      dividers.push(i);\n    }\n  }\n  return dividers;\n};\n\nconst actual = getDividers(9);\nconst expected = [1, 3, 9];\n```\n\nНеобходимо протестировать эту функцию, как правильно проверить результат ее работы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5994772",
+          "text": "`assert.strictEqual(actual, expected);`",
+          "correct": false
+        },
+        {
+          "id": "5994774",
+          "text": "`assert(actual);`",
+          "correct": false
+        },
+        {
+          "id": "5994775",
+          "text": "`assert.notStrictEqual(actual, expected);`",
+          "correct": false
+        },
+        {
+          "id": "5994776",
+          "text": "`assert.deepStrictEqual(actual, expected);`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-testing",
+    "courseName": "JS: Автоматическое тестирование",
+    "lessonSlug": "asserts",
+    "lessonName": "Утверждения",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-testing/lessons/asserts/quiz_unit",
+    "lessonId": 1408
+  }
+}

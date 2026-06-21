@@ -1,0 +1,85 @@
+{
+  "slug": "js-dom-dom",
+  "title": "DOM",
+  "questions": [
+    {
+      "id": "3918",
+      "prompt": "Какие автоисправления делаются во время создания dom?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992939",
+          "text": "Удаляются ссылки на несуществующие ресурсы",
+          "correct": false
+        },
+        {
+          "id": "5992940",
+          "text": "Добавляются теги html, head и body при необходимости",
+          "correct": true
+        },
+        {
+          "id": "5992941",
+          "text": "Закрываются незакрытые теги",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3919",
+      "prompt": "Что не добавляется в DOM из HTML?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992942",
+          "text": "Комментарии",
+          "correct": false
+        },
+        {
+          "id": "5992943",
+          "text": "Пробельные символы",
+          "correct": false
+        },
+        {
+          "id": "5992944",
+          "text": "Doctype",
+          "correct": false
+        },
+        {
+          "id": "5992945",
+          "text": "DOM содержит все, что было в HTML",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "3920",
+      "prompt": "Что из себя представляет DOM-дерево с точки зрения JavaScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992946",
+          "text": "Браузерный JavaScript не предоставляет доступ к DOM-tree",
+          "correct": false
+        },
+        {
+          "id": "5992947",
+          "text": "Особый тип данных",
+          "correct": false
+        },
+        {
+          "id": "5992948",
+          "text": "Объект",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "dom",
+    "lessonName": "DOM",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/dom/quiz_unit",
+    "lessonId": 915
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "js-basics-functions-return",
+  "title": "Возврат значений",
+  "questions": [
+    {
+      "id": "8528",
+      "prompt": "Что происходит, когда интерпретатор при выполнении кода встречает оператор `return`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992396",
+          "text": "На экран выводится значение и функция продолжает выполняться дальше",
+          "correct": false
+        },
+        {
+          "id": "5992397",
+          "text": "На экран ничего не выводится, но функция продолжает выполняться и после возврата значения",
+          "correct": false
+        },
+        {
+          "id": "5992398",
+          "text": "Функция возвращает значение и ее выполнение на этом заканчивается",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8529",
+      "prompt": "Что вернет функция, код которой приведен ниже:\n\n```javascript\nconst multiply = (num1, num2) => {\n  num1 * num2;\n};\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992399",
+          "text": "Результат умножения `num1` на `num2`",
+          "correct": false
+        },
+        {
+          "id": "5992400",
+          "text": "Так как внутри функции не используется оператор `return`, она вернет значение 0",
+          "correct": false
+        },
+        {
+          "id": "5992401",
+          "text": "Так как внутри функции не используется оператор `return`, она неявно вернет значение `undefined`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8530",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconst multiply = (num1, num2) => {\n  num1 * num2;\n};\n\nlet result = multiply(2, 2);\nconsole.log(result); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992402",
+          "text": "Будет выведен результат умножения — число 4",
+          "correct": false
+        },
+        {
+          "id": "5992403",
+          "text": "Результат функции, которая ничего не возвращает, невозможно вывести на экран",
+          "correct": false
+        },
+        {
+          "id": "5992404",
+          "text": "На экран будет выведено значение `undefined`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "functions-return",
+    "lessonName": "Возврат значений",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/functions-return/quiz_unit",
+    "lessonId": 2629
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "js-dom-jquery",
+  "title": "JQuery",
+  "questions": [
+    {
+      "id": "5756",
+      "prompt": "Какие задачи решает JQuery?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993145",
+          "text": "Помогает работать с абстракциями для выполнения арифметических операций",
+          "correct": false
+        },
+        {
+          "id": "5993146",
+          "text": "Помогает в кроссбраузерной работе с DOM",
+          "correct": true
+        },
+        {
+          "id": "5993147",
+          "text": "Помогает работать с анимациями",
+          "correct": true
+        },
+        {
+          "id": "5993148",
+          "text": "Помогает работать с AJAX-запросами",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5757",
+      "prompt": "Что такое «ненавязчивый JavaScript»?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993149",
+          "text": "Использование CSS3",
+          "correct": false
+        },
+        {
+          "id": "5993150",
+          "text": "Объединение поведения и верстки",
+          "correct": false
+        },
+        {
+          "id": "5993151",
+          "text": "Отказ от использования AJAX",
+          "correct": false
+        },
+        {
+          "id": "5993152",
+          "text": "Отделение поведения от верстки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5758",
+      "prompt": "Почему фронтенд-разработчики отказываются от JQuery?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993153",
+          "text": "Все меньше сайтов используют JavaScript",
+          "correct": false
+        },
+        {
+          "id": "5993154",
+          "text": "Кроссбраузерность достигается за счет полифиллов",
+          "correct": true
+        },
+        {
+          "id": "5993155",
+          "text": "Современный DOM обогнал JQuery по возможностям и имеет более удобное API",
+          "correct": true
+        },
+        {
+          "id": "5993156",
+          "text": "CSS поддерживает анимации нативно",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-dom",
+    "courseName": "JS: DOM API",
+    "lessonSlug": "jquery",
+    "lessonName": "JQuery",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-dom/lessons/jquery/quiz_unit",
+    "lessonId": 919
+  }
+}

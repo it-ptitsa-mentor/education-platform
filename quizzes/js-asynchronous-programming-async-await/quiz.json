@@ -1,0 +1,85 @@
+{
+  "slug": "js-asynchronous-programming-async-await",
+  "title": "Async и Await",
+  "questions": [
+    {
+      "id": "5181",
+      "prompt": "Как промисы соотносятся с механизмом async/await",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992039",
+          "text": "_async/await_ заменяют собой механизм промисов, который отмечен как устаревший",
+          "correct": false
+        },
+        {
+          "id": "5992040",
+          "text": "_async/await_ еще один механизм помимо промисов, который в некоторых ситуациях работает лучше",
+          "correct": false
+        },
+        {
+          "id": "5992041",
+          "text": "_async/await_ – другой, более удобный способ работы с промисами, чем цепочка _then/catch_",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5182",
+      "prompt": "Что возвращает функция, которая помечена как _async_?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992042",
+          "text": "Результат выполнения асинхронного кода",
+          "correct": false
+        },
+        {
+          "id": "5992043",
+          "text": "Либо промис, либо null",
+          "correct": false
+        },
+        {
+          "id": "5992044",
+          "text": "Всегда только промис",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5183",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992045",
+          "text": "_async/await_ выполняется медленнее чем промисы",
+          "correct": false
+        },
+        {
+          "id": "5992046",
+          "text": "_async/await_ конструкция превращает любой код в синхронный",
+          "correct": false
+        },
+        {
+          "id": "5992047",
+          "text": "_async/await_ может использоваться вместе с _try/catch_",
+          "correct": true
+        },
+        {
+          "id": "5992048",
+          "text": "Используя только _async/await_ невозможно одновременно запускать несколько промисов без использования `Promise.all`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-asynchronous-programming",
+    "courseName": "JS: Асинхронное программирование",
+    "lessonSlug": "async-await",
+    "lessonName": "Async и Await",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-asynchronous-programming/lessons/async-await/quiz_unit",
+    "lessonId": 1286
+  }
+}

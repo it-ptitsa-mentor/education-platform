@@ -1,0 +1,80 @@
+{
+  "slug": "typescript-basics-function-as-parameter",
+  "title": "Функции как параметры",
+  "questions": [
+    {
+      "id": "11476",
+      "prompt": "Что такое типизация функции в TypeScript?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956916",
+          "text": "Определение имени функции",
+          "correct": false
+        },
+        {
+          "id": "5956917",
+          "text": "Определение количества параметров функции",
+          "correct": false
+        },
+        {
+          "id": "5956918",
+          "text": "Определение типов параметров и возвращаемого значения функции",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11477",
+      "prompt": "Как объявить тип стрелочной функции, принимающий строку и возвращающий число?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956922",
+          "text": "```typescript\n(n: number) => string;\n```",
+          "correct": false
+        },
+        {
+          "id": "5956923",
+          "text": "```typescript\n(n: string) => string;\n```",
+          "correct": false
+        },
+        {
+          "id": "5956924",
+          "text": "```typescript\n(n: string) => number;\n```",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "11478",
+      "prompt": "Как отличить определение стрелочной функции от описания типа этой же функции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5956928",
+          "text": "Это одно и то же",
+          "correct": false
+        },
+        {
+          "id": "5956929",
+          "text": "По ключевому слову `type` при создании типа",
+          "correct": false
+        },
+        {
+          "id": "5956930",
+          "text": "Определение типа идет после знака `:`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-basics",
+    "courseName": "Основы Typescript",
+    "lessonSlug": "function-as-parameter",
+    "lessonName": "Функции как параметры",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-basics/lessons/function-as-parameter/quiz_unit",
+    "lessonId": 3791
+  }
+}

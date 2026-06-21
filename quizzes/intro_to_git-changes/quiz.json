@@ -1,0 +1,85 @@
+{
+  "slug": "intro_to_git-changes",
+  "title": "Анализ сделанных изменений",
+  "questions": [
+    {
+      "id": "6518",
+      "prompt": "Что означает символ `+` в выводе команды `git diff`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937814",
+          "text": "Неизмененные строки",
+          "correct": false
+        },
+        {
+          "id": "5937815",
+          "text": "Удаленные строки",
+          "correct": false
+        },
+        {
+          "id": "5937816",
+          "text": "Это техническая информация, которая нам не нужна",
+          "correct": false
+        },
+        {
+          "id": "5937817",
+          "text": "Добавленные строки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6519",
+      "prompt": "Какие файлы показывает команда `git diff` по умолчанию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937822",
+          "text": "Все сделанные изменения независимо от их состояния",
+          "correct": false
+        },
+        {
+          "id": "5937823",
+          "text": "Неотслеживаемые изменения",
+          "correct": false
+        },
+        {
+          "id": "5937824",
+          "text": "Изменения, добавленные в индекс",
+          "correct": false
+        },
+        {
+          "id": "5937825",
+          "text": "Измененные в рабочей директории файлы, которые еще не добавлены в индекс",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6520",
+      "prompt": "Показывает ли команда `git diff` неотслеживаемые файлы по умолчанию?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937829",
+          "text": "Да",
+          "correct": false
+        },
+        {
+          "id": "5937830",
+          "text": "Нет",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "changes",
+    "lessonName": "Анализ сделанных изменений",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/changes/quiz_unit",
+    "lessonId": 1830
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "cli-basics-read-files",
+  "title": "Чтение файлов",
+  "questions": [
+    {
+      "id": "4864",
+      "prompt": "Представим, что вы находитесь в домашней директории. Как просмотреть содержимое файла _/etc/hosts_?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946491",
+          "text": "`cat ../hosts`",
+          "correct": false
+        },
+        {
+          "id": "5946492",
+          "text": "`cat ../etc/hosts`",
+          "correct": false
+        },
+        {
+          "id": "5946493",
+          "text": "`cat hosts`",
+          "correct": false
+        },
+        {
+          "id": "5946494",
+          "text": "`cat ../../etc/hosts`",
+          "correct": true
+        },
+        {
+          "id": "5946495",
+          "text": "`cat /etc/hosts`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4865",
+      "prompt": "Какой командой можно просмотреть начало файла?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946496",
+          "text": "`tail`",
+          "correct": false
+        },
+        {
+          "id": "5946497",
+          "text": "`cat`",
+          "correct": false
+        },
+        {
+          "id": "5946498",
+          "text": "`head`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "4866",
+      "prompt": "Какой командой можно просмотреть конец файла?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5946499",
+          "text": "`head`",
+          "correct": false
+        },
+        {
+          "id": "5946500",
+          "text": "`cat`",
+          "correct": false
+        },
+        {
+          "id": "5946501",
+          "text": "`tail`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "14615",
+      "prompt": "В чем преимущество использования less вместо cat?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5946502",
+          "text": "less работает со всеми типами файлов, тогда как cat только с текстовыми",
+          "correct": false
+        },
+        {
+          "id": "5946503",
+          "text": "less позволяет редактировать файлы",
+          "correct": false
+        },
+        {
+          "id": "5946504",
+          "text": "less позволяет искать по файлу",
+          "correct": true
+        },
+        {
+          "id": "5946505",
+          "text": "less загружает файл по мере требования, тогда как cat читает файл целиком",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "cli-basics",
+    "courseName": "Основы командной строки",
+    "lessonSlug": "read-files",
+    "lessonName": "Чтение файлов",
+    "sourceUrl": "https://ru.hexlet.io/courses/cli-basics/lessons/read-files/quiz_unit",
+    "lessonId": 1197
+  }
+}

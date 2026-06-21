@@ -1,0 +1,75 @@
+{
+  "slug": "js-frontend-architecture-rendering",
+  "title": "Отрисовка (рендеринг) состояния",
+  "questions": [
+    {
+      "id": "16553",
+      "prompt": "Что может находиться в коде отрисовки?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972022",
+          "text": "Изменение существующего состояния",
+          "correct": false
+        },
+        {
+          "id": "5972023",
+          "text": "Создание нового состояния",
+          "correct": false
+        },
+        {
+          "id": "5972024",
+          "text": "Любые изменения в DOM",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16554",
+      "prompt": "Какая проблема в коде отрисовки кнопки:\n```javascript\n  const render = (state, container) => {\n    const button = document.createElement('button');\n\n    button.addEventListener('click', (e) => {\n      state.uiState.button = 'clicked';\n    });\n    container.appendChild(button);\n  };\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972025",
+          "text": "В рендере происходит изменение состояния `state.uiState.button`. Функция не должна менять состояние",
+          "correct": false
+        },
+        {
+          "id": "5972026",
+          "text": "Функция рендера не должна принимать параметры",
+          "correct": false
+        },
+        {
+          "id": "5972027",
+          "text": "Здесь нет проблемы, так как функция напрямую не меняет состояние. Функция добавляет обработчик к созданной кнопке. В свою очередь этот обработчик не является рендером и может менять состояние",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "16555",
+      "prompt": "Предположим, что в приложении есть отрисовка двух списков: статей и комментариев к этим статьям. Как лучше всего организовать функции по отрисовке этих данных?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5972028",
+          "text": "Создать функцию общую функцию для отрисовки статей и комментариев",
+          "correct": false
+        },
+        {
+          "id": "5972029",
+          "text": "Создать две отдельные функции для отрисовки статей и комментариев",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-frontend-architecture",
+    "courseName": "JS: Архитектура фронтенда",
+    "lessonSlug": "rendering",
+    "lessonName": "Отрисовка (рендеринг) состояния",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/rendering/quiz_unit",
+    "lessonId": 1873
+  }
+}

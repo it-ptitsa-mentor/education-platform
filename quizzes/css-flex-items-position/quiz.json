@@ -1,0 +1,107 @@
+{
+  "slug": "css-flex-items-position",
+  "title": "Свойства Flex-элементов. Расположение",
+  "questions": [
+    {
+      "id": "7331",
+      "prompt": "Для какого элемента устанавливается свойство `order`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989150",
+          "text": "Для всей страницы",
+          "correct": false
+        },
+        {
+          "id": "5989151",
+          "text": "Для Flex-контейнера",
+          "correct": false
+        },
+        {
+          "id": "5989152",
+          "text": "Для Flex-элемента",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7332",
+      "prompt": "Какие значения может принимать свойство `order`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989153",
+          "text": "Только положительные",
+          "correct": false
+        },
+        {
+          "id": "5989154",
+          "text": "Только отрицательные",
+          "correct": false
+        },
+        {
+          "id": "5989155",
+          "text": "Положительные и отрицательные",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7333",
+      "prompt": "Какое значение по умолчанию у свойства `order`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989156",
+          "text": "none",
+          "correct": false
+        },
+        {
+          "id": "5989157",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "5989158",
+          "text": "-1",
+          "correct": false
+        },
+        {
+          "id": "5989159",
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "7334",
+      "prompt": "В чем отличие `align-self` от `align-items`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989164",
+          "text": "align-items используется для конкретного элемента внутри контейнера",
+          "correct": false
+        },
+        {
+          "id": "5989165",
+          "text": "align-self используется для всех элементов внутри контейнера",
+          "correct": false
+        },
+        {
+          "id": "5989166",
+          "text": "align-self используется для конкретного элемента внутри контейнера",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "css-flex",
+    "courseName": "CSS: Flex",
+    "lessonSlug": "items-position",
+    "lessonName": "Свойства Flex-элементов. Расположение",
+    "sourceUrl": "https://ru.hexlet.io/courses/css-flex/lessons/items-position/quiz_unit",
+    "lessonId": 1625
+  }
+}

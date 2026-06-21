@@ -1,0 +1,107 @@
+{
+  "slug": "intro_to_git-commits-cancelation",
+  "title": "Отмена коммитов",
+  "questions": [
+    {
+      "id": "6521",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937868",
+          "text": "Неправильные коммиты всегда нужно удалять, чтобы не засорять историю",
+          "correct": false
+        },
+        {
+          "id": "5937869",
+          "text": "Если изменения уже отправлены во внешний репозиторий, то нужно создавать новые коммиты, а не править старые",
+          "correct": true
+        },
+        {
+          "id": "5937870",
+          "text": "Самый простой и безопасный способ делать изменения коммитов в Git — это создавать новые коммиты",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6522",
+      "prompt": "Что делает команда `revert`?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937871",
+          "text": "Удаляет последний коммит в репозитории",
+          "correct": false
+        },
+        {
+          "id": "5937872",
+          "text": "Очищает рабочую директорию от изменений",
+          "correct": false
+        },
+        {
+          "id": "5937873",
+          "text": "Создает новый коммит, в котором выполнены изменения, обратные указанному в команде коммиту",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6523",
+      "prompt": "Какая команда помогает удалить последний коммит?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937874",
+          "text": "Команда `git revert --hard HEAD~1`",
+          "correct": false
+        },
+        {
+          "id": "5937875",
+          "text": "Команда `git reset --hard`",
+          "correct": false
+        },
+        {
+          "id": "5937876",
+          "text": "Команда `git reset --hard HEAD~1`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22393",
+      "prompt": "Какой флаг нужно передать команде `git reset`, чтобы отменить последний коммит и сохранить изменения в индексе?\n\n```bash\ngit reset __ HEAD~1\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937877",
+          "text": "`--mixed`",
+          "correct": false
+        },
+        {
+          "id": "5937878",
+          "text": "`--hard`",
+          "correct": false
+        },
+        {
+          "id": "5937879",
+          "text": "`--merge`",
+          "correct": false
+        },
+        {
+          "id": "5937880",
+          "text": "`--soft`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "intro_to_git",
+    "courseName": "Введение в Git",
+    "lessonSlug": "commits-cancelation",
+    "lessonName": "Отмена коммитов",
+    "sourceUrl": "https://ru.hexlet.io/courses/intro_to_git/lessons/commits-cancelation/quiz_unit",
+    "lessonId": 1831
+  }
+}

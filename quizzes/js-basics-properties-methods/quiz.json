@@ -1,0 +1,95 @@
+{
+  "slug": "js-basics-properties-methods",
+  "title": "Свойства и методы",
+  "questions": [
+    {
+      "id": "8518",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nlet company = 'hexlet';\nconsole.log(company.toUpperCase()); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992357",
+          "text": "У строки нет такого метода",
+          "correct": false
+        },
+        {
+          "id": "5992358",
+          "text": "hexlet",
+          "correct": false
+        },
+        {
+          "id": "5992359",
+          "text": "Hexlet",
+          "correct": false
+        },
+        {
+          "id": "5992360",
+          "text": "HEXLET",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8519",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992361",
+          "text": "У данных нет методов, есть только свойства",
+          "correct": false
+        },
+        {
+          "id": "5992362",
+          "text": "Методы в JavaScript – это чистые функции",
+          "correct": false
+        },
+        {
+          "id": "5992363",
+          "text": "Метод применяется к данным, на которых он вызван",
+          "correct": true
+        },
+        {
+          "id": "5992364",
+          "text": "Метод – это функции, находящиеся внутри свойств объекта",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8520",
+      "prompt": "Какое значение содержится в переменной `company`?\n\n```javascript\nlet company = 'Hexlet';\nconsole.log(company.toLowerCase().toUpperCase());\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992365",
+          "text": "Код завершится с ошибкой",
+          "correct": false
+        },
+        {
+          "id": "5992366",
+          "text": "HEXLET",
+          "correct": false
+        },
+        {
+          "id": "5992367",
+          "text": "hexlet",
+          "correct": false
+        },
+        {
+          "id": "5992368",
+          "text": "Hexlet",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "properties-methods",
+    "lessonName": "Свойства и методы",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/properties-methods/quiz_unit",
+    "lessonId": 2626
+  }
+}

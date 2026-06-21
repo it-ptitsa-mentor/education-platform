@@ -1,0 +1,85 @@
+{
+  "slug": "employment-soft-skills",
+  "title": "Развитие soft skills",
+  "questions": [
+    {
+      "id": "9757",
+      "prompt": "Что относится к soft skills?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5989590",
+          "text": "Знание языков программирования и фреймворков",
+          "correct": false
+        },
+        {
+          "id": "5989591",
+          "text": "Умение общаться с командой",
+          "correct": true
+        },
+        {
+          "id": "5989592",
+          "text": "Тайм-менеджмент",
+          "correct": true
+        },
+        {
+          "id": "5989593",
+          "text": "Умение давать конструктивную обратную связь",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9758",
+      "prompt": "С чем помогают хорошо развитые soft skills? Выберите верное утверждение:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989594",
+          "text": "Быстро находить и исправлять ошибки в коде проекта",
+          "correct": false
+        },
+        {
+          "id": "5989595",
+          "text": "Создавать приложения с хорошей архитектурой",
+          "correct": false
+        },
+        {
+          "id": "5989596",
+          "text": "Выстраивать слаженную работу в команде",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9759",
+      "prompt": "Важная для развития критического мышления привычка это:",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5989601",
+          "text": "Ведение дневника",
+          "correct": false
+        },
+        {
+          "id": "5989602",
+          "text": "Планирование рабочего дня",
+          "correct": false
+        },
+        {
+          "id": "5989603",
+          "text": "Фактчекинг или проверка фактов",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "employment",
+    "courseName": "Трудоустройство",
+    "lessonSlug": "soft-skills",
+    "lessonName": "Развитие soft skills",
+    "sourceUrl": "https://ru.hexlet.io/courses/employment/lessons/soft-skills/quiz_unit",
+    "lessonId": 2361
+  }
+}

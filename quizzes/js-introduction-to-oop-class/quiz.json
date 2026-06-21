@@ -1,0 +1,80 @@
+{
+  "slug": "js-introduction-to-oop-class",
+  "title": "Класс",
+  "questions": [
+    {
+      "id": "6108",
+      "prompt": "В чем заключается удобство классов по сравнению с прямым использованием прототипов?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993970",
+          "text": "Классы не используют механизм прототипов, поэтому с ними легче работать",
+          "correct": false
+        },
+        {
+          "id": "5993971",
+          "text": "С их помощью можно делать вещи, которые нельзя делать с помощью прототипов",
+          "correct": false
+        },
+        {
+          "id": "5993972",
+          "text": "Меньше кода",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6109",
+      "prompt": "Выберите верные утверждения",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5993977",
+          "text": "Класс нельзя создать без указания конструктора",
+          "correct": false
+        },
+        {
+          "id": "5993978",
+          "text": "Любой класс в JavaScript — это функция-конструктор",
+          "correct": true
+        },
+        {
+          "id": "5993979",
+          "text": "Класс можно менять после создания",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "6110",
+      "prompt": "Что выведет этот код?\n\n```javascript\nclass User {\n  constructor(name) {\n    this.name = name;\n  }\n\n  name() {\n    return this.name;\n  }\n}\n\nconst user = new User('Tirion');\nconsole.log(user.name()); // => ?\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5993987",
+          "text": "Tirion",
+          "correct": false
+        },
+        {
+          "id": "5993988",
+          "text": "undefined",
+          "correct": false
+        },
+        {
+          "id": "5993989",
+          "text": "Этот код завершится с ошибкой, так как в конструкторе перезаписывается свойство `name` к которому идет обращение в конце",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-introduction-to-oop",
+    "courseName": "JS: Введение в ООП",
+    "lessonSlug": "class",
+    "lessonName": "Класс",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-introduction-to-oop/lessons/class/quiz_unit",
+    "lessonId": 1679
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "js-arrays-set-theory",
+  "title": "Теория множеств",
+  "questions": [
+    {
+      "id": "5655",
+      "prompt": "Когда мы говорим об общих чертах чего-либо, что подразумевается с точки зрения теории множеств?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991892",
+          "text": "Разность",
+          "correct": false
+        },
+        {
+          "id": "5991893",
+          "text": "Объединение",
+          "correct": false
+        },
+        {
+          "id": "5991894",
+          "text": "Пересечение",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "5656",
+      "prompt": "Чем является пустой массив с точки зрения теории множеств?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991895",
+          "text": "Пустой массив не может быть рассмотрен с точки зрения теории множеств",
+          "correct": false
+        },
+        {
+          "id": "5991896",
+          "text": "Множеством из одного элемента",
+          "correct": false
+        },
+        {
+          "id": "5991897",
+          "text": "Пустым множеством",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22384",
+      "prompt": "Какую функцию Lodash нужно вызвать в коде ниже, чтобы получить элементы из `array1`, отсутствующие в `array2`?\n\n```javascript\nconst array1 = [1, 2, 3];\nconst array2 = [4, 3, 6, 1, 5];\n\nconst result = _.__(array1, array2);\nconsole.log(result); // => [2]\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5991898",
+          "text": "union",
+          "correct": false
+        },
+        {
+          "id": "5991899",
+          "text": "intersection",
+          "correct": false
+        },
+        {
+          "id": "5991901",
+          "text": "xor",
+          "correct": false
+        },
+        {
+          "id": "5991903",
+          "text": "difference",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-arrays",
+    "courseName": "JS: Массивы",
+    "lessonSlug": "set-theory",
+    "lessonName": "Теория множеств",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-arrays/lessons/set-theory/quiz_unit",
+    "lessonId": 1601
+  }
+}

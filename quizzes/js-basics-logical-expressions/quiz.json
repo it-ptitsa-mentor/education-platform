@@ -1,0 +1,95 @@
+{
+  "slug": "js-basics-logical-expressions",
+  "title": "Результат логических операций",
+  "questions": [
+    {
+      "id": "8548",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconsole.log(true || 'yes');\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992460",
+          "text": "`false`",
+          "correct": false
+        },
+        {
+          "id": "5992461",
+          "text": "*yes*",
+          "correct": false
+        },
+        {
+          "id": "5992462",
+          "text": "`true`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8549",
+      "prompt": "Что будет выведено на экран?\n\n```javascript\nconsole.log(false || 'yes');\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992463",
+          "text": "`true`",
+          "correct": false
+        },
+        {
+          "id": "5992464",
+          "text": "`false`",
+          "correct": false
+        },
+        {
+          "id": "5992465",
+          "text": "*yes*",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8550",
+      "prompt": "Какие значения преобразуются в false?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992466",
+          "text": "`'0'`",
+          "correct": false
+        },
+        {
+          "id": "5992467",
+          "text": "`0`",
+          "correct": true
+        },
+        {
+          "id": "5992468",
+          "text": "`undefined`",
+          "correct": true
+        },
+        {
+          "id": "5992469",
+          "text": "`''`",
+          "correct": true
+        },
+        {
+          "id": "5992470",
+          "text": "`null`",
+          "correct": true
+        },
+        {
+          "id": "5992471",
+          "text": "`NaN`",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "logical-expressions",
+    "lessonName": "Результат логических операций",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/logical-expressions/quiz_unit",
+    "lessonId": 2635
+  }
+}

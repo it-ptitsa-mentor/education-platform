@@ -1,0 +1,85 @@
+{
+  "slug": "internet-fundamentals-lan-wan",
+  "title": "Локальные и глобальные сети",
+  "questions": [
+    {
+      "id": "9653",
+      "prompt": "Какие существуют типы сетей",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5937638",
+          "text": "Карманные",
+          "correct": false
+        },
+        {
+          "id": "5937640",
+          "text": "Офисные",
+          "correct": false
+        },
+        {
+          "id": "5937642",
+          "text": "Глобальные",
+          "correct": true
+        },
+        {
+          "id": "5937643",
+          "text": "Локальные",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9654",
+      "prompt": "Какой уровень провайдера — главные поставщики интернета",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937645",
+          "text": "Tier-2",
+          "correct": false
+        },
+        {
+          "id": "5937646",
+          "text": "Tier-3",
+          "correct": false
+        },
+        {
+          "id": "5937648",
+          "text": "Tier-1",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9655",
+      "prompt": "В чем особенность локальной сети?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5937651",
+          "text": "Невозможность подключения более десяти компьютеров",
+          "correct": false
+        },
+        {
+          "id": "5937653",
+          "text": "Для создания сети нужно специальное оборудование",
+          "correct": false
+        },
+        {
+          "id": "5937654",
+          "text": "Отсутствие выхода в глобальную сеть",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "internet-fundamentals",
+    "courseName": "Введение в интернет",
+    "lessonSlug": "lan-wan",
+    "lessonName": "Локальные и глобальные сети",
+    "sourceUrl": "https://ru.hexlet.io/courses/internet-fundamentals/lessons/lan-wan/quiz_unit",
+    "lessonId": 3090
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "regexp-modifiers",
+  "title": "Модификаторы",
+  "questions": [
+    {
+      "id": "2146",
+      "prompt": "Если модификатор определен в группе, то он действует...",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962532",
+          "text": "Глобально во всем выражении, независимо от групп",
+          "correct": false
+        },
+        {
+          "id": "5962533",
+          "text": "Внутри этой группы и во всех соседних группах",
+          "correct": false
+        },
+        {
+          "id": "5962534",
+          "text": "Только внутри этой группы",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "2147",
+      "prompt": "Можно ли указать включение одного модификатора и отключение другого модификатора внутри одной группы?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962535",
+          "text": "В одной группе может быть только один модификатор, поэтому нет",
+          "correct": false
+        },
+        {
+          "id": "5962536",
+          "text": "Нет, или все должны быть включены, или все отключены",
+          "correct": false
+        },
+        {
+          "id": "5962537",
+          "text": "Да",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "9186",
+      "prompt": "Какой символ ставится перед модификатором?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5962538",
+          "text": "`\\`",
+          "correct": false
+        },
+        {
+          "id": "5962539",
+          "text": "`:`",
+          "correct": false
+        },
+        {
+          "id": "5962540",
+          "text": "`?`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "17085",
+      "prompt": "Дана строка: \n  \n```\nbaAcAbacAac\n```\n\nВыберите регулярное выражение с модификатором, с помощью которого можно выбрать все подстроки `a` и `A`.",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5962541",
+          "text": "`/(?i:a)/`",
+          "correct": true
+        },
+        {
+          "id": "5962542",
+          "text": "`/(?i)a/`",
+          "correct": true
+        },
+        {
+          "id": "5962543",
+          "text": "`/[aA]/`",
+          "correct": false
+        },
+        {
+          "id": "5962544",
+          "text": "`/a/`",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "regexp",
+    "courseName": "Регулярные выражения (Regexp)",
+    "lessonSlug": "modifiers",
+    "lessonName": "Модификаторы",
+    "sourceUrl": "https://ru.hexlet.io/courses/regexp/lessons/modifiers/quiz_unit",
+    "lessonId": 329
+  }
+}

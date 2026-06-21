@@ -1,0 +1,95 @@
+{
+  "slug": "typescript-advanced-members-visibility",
+  "title": "Защита свойств и методов",
+  "questions": [
+    {
+      "id": "12939",
+      "prompt": "Каким качеством обладает свойство `username` в классе ниже?\n\n```typescript\n  class User {\n    username: string;\n\n    constructor(username: string) {\n      this.username = username;\n    }\n  }\n```",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892839",
+          "text": "Защищенное",
+          "correct": false
+        },
+        {
+          "id": "5892840",
+          "text": "Приватное",
+          "correct": false
+        },
+        {
+          "id": "5892841",
+          "text": "Все перечисленные качества",
+          "correct": false
+        },
+        {
+          "id": "5892842",
+          "text": "Ни одно из перечисленных качеств",
+          "correct": false
+        },
+        {
+          "id": "5892843",
+          "text": "Публичное",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "12940",
+      "prompt": "Выберите верные утверждения:",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5892844",
+          "text": "Приватному свойству нельзя указать тип `any`",
+          "correct": false
+        },
+        {
+          "id": "5892845",
+          "text": "Значение приватному свойству можно назначить только в конструкторе",
+          "correct": false
+        },
+        {
+          "id": "5892846",
+          "text": "Публичные свойства доступны в дочерних классах",
+          "correct": true
+        },
+        {
+          "id": "5892847",
+          "text": "Защищенные свойства можно перезаписывать в методах текущего и дочерних классов",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "22758",
+      "prompt": "Свойство помеченное модификатором __ доступно только внутри класса, где оно объявлено.",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5892852",
+          "text": "public",
+          "correct": false
+        },
+        {
+          "id": "5892853",
+          "text": "protected",
+          "correct": false
+        },
+        {
+          "id": "5892854",
+          "text": "private",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "typescript-advanced",
+    "courseName": "Продвинутый Typescript",
+    "lessonSlug": "members-visibility",
+    "lessonName": "Защита свойств и методов",
+    "sourceUrl": "https://ru.hexlet.io/courses/typescript-advanced/lessons/members-visibility/quiz_unit",
+    "lessonId": 4470
+  }
+}

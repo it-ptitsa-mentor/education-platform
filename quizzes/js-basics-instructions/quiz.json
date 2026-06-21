@@ -1,0 +1,80 @@
+{
+  "slug": "js-basics-instructions",
+  "title": "Инструкции",
+  "questions": [
+    {
+      "id": "8474",
+      "prompt": "Что такое инструкция в языке программирования?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992077",
+          "text": "Нет такого понятия",
+          "correct": false
+        },
+        {
+          "id": "5992078",
+          "text": "Это такой документ",
+          "correct": false
+        },
+        {
+          "id": "5992079",
+          "text": "Команда компьютеру выполнить что-либо",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "23525",
+      "prompt": "Как в JavaScript инструкции отделяются друг от друга?",
+      "multiple": true,
+      "options": [
+        {
+          "id": "5992080",
+          "text": "С помощью `,` (запятая)",
+          "correct": false
+        },
+        {
+          "id": "5992081",
+          "text": "Инструкции не нужно отделять — интерпретатор сам всегда правильно разделит код",
+          "correct": false
+        },
+        {
+          "id": "5992082",
+          "text": "С помощью `;` (точка с запятой), если инструкции находятся на одной строке",
+          "correct": true
+        },
+        {
+          "id": "5992083",
+          "text": "Записать каждую инструкцию с новой строки",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "8476",
+      "prompt": "В каком порядке команда, запускающая код, выполняет инструкции?",
+      "multiple": false,
+      "options": [
+        {
+          "id": "5992084",
+          "text": "В случайном порядке",
+          "correct": false
+        },
+        {
+          "id": "5992085",
+          "text": "Строго по очереди",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "hexlet": {
+    "courseSlug": "js-basics",
+    "courseName": "Основы JavaScript",
+    "lessonSlug": "instructions",
+    "lessonName": "Инструкции",
+    "sourceUrl": "https://ru.hexlet.io/courses/js-basics/lessons/instructions/quiz_unit",
+    "lessonId": 2609
+  }
+}
