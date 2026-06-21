@@ -10,10 +10,14 @@ import { ExerciseWorkspace } from "../components/ExerciseWorkspace";
 import { useExerciseHotkeys } from "../hooks/useExerciseHotkeys";
 import { formatRunTestsHotkey } from "../lib/exercise-hotkeys";
 
+const primaryFile = (exercise: Pick<ExerciseDetail, "filesToOpen">) =>
+  exercise.filesToOpen[0] ?? "solution.js";
+
 export const ExercisePage = () => {
   const { slug = "" } = useParams();
   const [exercise, setExercise] = useState<ExerciseDetail | null>(null);
-  const [code, setCode] = useState("");
+  const [files, setFiles] = useState<Record<string, string>>({});
+  const [activeFile, setActiveFile] = useState("");
   const [checking, setChecking] = useState(false);
   const [result, setResult] = useState<CheckResult | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -24,8 +28,8 @@ export const ExercisePage = () => {
     setExercise(null);
     const detail = await fetchExercise(nextSlug);
     setExercise(detail);
-    const primaryFile = detail.filesToOpen[0] ?? "solution.js";
-    setCode(detail.files[primaryFile] ?? "");
+    setFiles(detail.files);
+    setActiveFile(primaryFile(detail));
   }, []);
 
   useEffect(() => {
@@ -33,20 +37,23 @@ export const ExercisePage = () => {
     loadExercise(slug).catch((err: Error) => setError(err.message));
   }, [slug, loadExercise]);
 
+  const handleFileChange = useCallback((filePath: string, content: string) => {
+    setFiles((current) => ({ ...current, [filePath]: content }));
+  }, []);
+
   const handleCheck = useCallback(async () => {
     if (!exercise || checking) return;
     setChecking(true);
     setError(null);
     try {
-      const primaryFile = exercise.filesToOpen[0] ?? "solution.js";
-      const check = await checkExercise(slug, { [primaryFile]: code });
+      const check = await checkExercise(slug, files);
       setResult(check);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Проверка не удалась");
     } finally {
       setChecking(false);
     }
-  }, [checking, code, exercise, slug]);
+  }, [checking, exercise, files, slug]);
 
   useExerciseHotkeys({
     enabled: Boolean(exercise) && !checking,
@@ -133,8 +140,10 @@ export const ExercisePage = () => {
       {exercise ? (
         <ExerciseWorkspace
           exercise={exercise}
-          code={code}
-          onCodeChange={setCode}
+          files={files}
+          activeFile={activeFile}
+          onActiveFileChange={setActiveFile}
+          onFileChange={handleFileChange}
           result={result}
           onRunTests={() => void handleCheck()}
         />

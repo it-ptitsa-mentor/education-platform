@@ -1,24 +1,10 @@
 import { validateStudentFiles } from "../validate-student-files.js";
 import type { ExerciseManifest } from "../exercise-manifest-types.js";
-import { checkImportedPlaceholder } from "./imported-placeholder.js";
-import { checkJsVariables, type ExerciseCheckOutcome } from "./js-variables.js";
+import { runBrowserExerciseCheck } from "./browser-exercise-check.js";
 
 export type { ExerciseCheckOutcome } from "./js-variables.js";
 export type { ExerciseManifest } from "../exercise-manifest-types.js";
+export { runBrowserExerciseCheck };
 
-const checksBySlug: Record<
-  string,
-  (files: Record<string, string>) => Promise<ExerciseCheckOutcome>
-> = {
-  "js-variables": async (files) => checkJsVariables(files["solution.js"] ?? ""),
-};
-
-export const runBrowserExerciseCheck = async (
-  manifest: ExerciseManifest,
-  studentFiles: Record<string, string>,
-): Promise<ExerciseCheckOutcome> => {
-  validateStudentFiles(manifest, studentFiles);
-
-  const check = checksBySlug[manifest.slug] ?? (async () => checkImportedPlaceholder());
-  return check(studentFiles);
-};
+// Re-export for callers that imported validateStudentFiles from this module before.
+export { validateStudentFiles };

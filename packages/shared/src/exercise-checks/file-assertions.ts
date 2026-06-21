@@ -1,0 +1,39 @@
+export const assertNonEmpty = (content: string, filePath: string): string | null => {
+  if (content.trim().length === 0) {
+    return `${filePath} must not be empty`;
+  }
+
+  return null;
+};
+
+export const assertJsxComponent = (source: string, filePath: string): string | null => {
+  if (!/export\s+(default\s+)?(?:function|class|const)/.test(source)) {
+    return `${filePath} must export a component`;
+  }
+
+  return null;
+};
+
+export const assertHtmlMarkup = (html: string, filePath: string): string | null => {
+  const lower = html.toLowerCase();
+  if (!/<html|<!doctype|<body|<div|<main|<section/.test(lower)) {
+    return `${filePath} must contain html markup`;
+  }
+
+  return null;
+};
+
+export const assertCssRules = (css: string, filePath: string): string | null => {
+  const emptyError = assertNonEmpty(css, filePath);
+  if (emptyError) return emptyError;
+
+  if (!/\{[\s\S]*\}/.test(css)) {
+    return `${filePath} must contain css rules`;
+  }
+
+  return null;
+};
+
+export const collectAssertionErrors = (
+  checks: Array<string | null>,
+): string[] => checks.filter((message): message is string => message !== null);

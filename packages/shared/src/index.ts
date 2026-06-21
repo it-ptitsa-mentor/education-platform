@@ -31,3 +31,7 @@ export {
   type ExerciseCategoryGroup,
   type ExerciseCategoryMeta,
 } from "./exercise-categories.js";
+export {
+  extractCodeFromReadme,
+  starterForFile,
+} from "./exercise-starter-from-readme.js";

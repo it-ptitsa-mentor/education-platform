@@ -15,4 +15,9 @@ export const validateStudentFiles = (
       throw new Error(`Path not allowed: ${filePath}`);
     }
   });
+
+  const missing = manifest.studentFiles.filter((filePath) => !(filePath in files));
+  if (missing.length > 0) {
+    throw new Error(`Missing required files: ${missing.join(", ")}`);
+  }
 };

@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { starterForFile } from "../packages/shared/src/exercise-starter-from-readme.ts";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const cookiesPath = path.join(repoRoot, ".hexlet-cookies.json");
@@ -106,64 +107,7 @@ const defaultFilesForLanguage = (language: string): string[] => {
   return ["solution.js"];
 };
 
-const extractCodeFromReadme = (readme: string, fileName: string): string | null => {
-  const ext = path.extname(fileName).slice(1);
-  const langPattern =
-    ext === "js" || ext === "jsx"
-      ? "(?:javascript|js|jsx)"
-      : ext === "ts" || ext === "tsx"
-        ? "(?:typescript|ts|tsx)"
-        : ext === "html"
-          ? "html"
-          : ext === "css"
-            ? "css"
-            : "shell|bash|sh";
-
-  const blocks = [
-    ...readme.matchAll(new RegExp(`\`\`\`${langPattern}\\n([\\s\\S]*?)\`\`\``, "gi")),
-  ];
-
-  if (blocks.length === 0) return null;
-
-  const typedExercise =
-    /наберите|символ в символ|type the following|copy the code/i.test(readme);
-
-  if (typedExercise || blocks.length === 1) {
-    const content = blocks[0]?.[1];
-    if (content) return content.trim();
-  }
-
-  return null;
-};
-
-const starterForFile = (fileName: string, readme: string, language: string) => {
-  const fromReadme = extractCodeFromReadme(readme, fileName);
-  if (fromReadme) return fromReadme;
-
-  if (fileName.endsWith(".html")) {
-    return "<!DOCTYPE html>\n<html lang=\"ru\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <title>Exercise</title>\n  </head>\n  <body>\n    <!-- Решение -->\n  </body>\n</html>\n";
-  }
-
-  if (fileName.endsWith(".css")) {
-    return "/* Стили упражнения */\n";
-  }
-
-  if (fileName.endsWith(".jsx") || fileName.endsWith(".tsx")) {
-    return "// Компонент упражнения\nexport default function App() {\n  return null;\n}\n";
-  }
-
-  if (fileName.endsWith(".ts")) {
-    return "// Решение упражнения\n";
-  }
-
-  if (language === "shell" || fileName === "solution") {
-    return "#!/bin/bash\n# Решение упражнения\n";
-  }
-
-  return "// Решение упражнения\n";
-};
-
-const placeholderTest = (slug: string) => `import { describe, it, expect } from "vitest";
+const resolveFilesToOpen = async (
 
 describe("${slug}", () => {
   it("placeholder — оригинальные тесты Hexlet пока не импортированы", () => {
@@ -254,7 +198,12 @@ const writeExercise = async (entry: CatalogEntry) => {
 
   await Promise.all(
     entry.filesToOpen.map(async (fileName) => {
-      const content = starterForFile(fileName, entry.readme, entry.language);
+      const content = starterForFile(
+        fileName,
+        entry.readme,
+        entry.language,
+        entry.filesToOpen,
+      );
       const filePath = path.join(exerciseDir, fileName);
       await mkdir(path.dirname(filePath), { recursive: true });
       await writeFile(filePath, content, "utf8");

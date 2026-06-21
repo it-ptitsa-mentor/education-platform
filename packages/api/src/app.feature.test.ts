@@ -72,4 +72,84 @@ console.log(pet);
     expect(body.passed).toBe(true);
     expect(body.stdout.length).toBeGreaterThan(0);
   });
+
+  it("returns starter code for every file in a multi-file exercise", async () => {
+    const response = await app.inject({
+      method: "GET",
+      url: "/api/exercises/js-redux-toolkit-slices",
+    });
+
+    expect(response.statusCode).toBe(200);
+    const body = response.json() as {
+      filesToOpen: string[];
+      files: Record<string, string>;
+    };
+
+    expect(body.filesToOpen).toEqual([
+      "src/components/App.jsx",
+      "src/components/Comment.jsx",
+      "src/slices/commentsSlice.js",
+      "src/slices/index.js",
+    ]);
+    expect(Object.keys(body.files).sort()).toEqual(body.filesToOpen.slice().sort());
+    expect(body.files["src/components/App.jsx"]).toContain("function App");
+    expect(body.files["src/components/Comment.jsx"]).toContain("function Comment");
+  });
+
+  it("checks all submitted files in a multi-file exercise", async () => {
+    const detailResponse = await app.inject({
+      method: "GET",
+      url: "/api/exercises/js-redux-toolkit-slices",
+    });
+
+    const { files } = detailResponse.json() as { files: Record<string, string> };
+
+    const passResponse = await app.inject({
+      method: "POST",
+      url: "/api/exercises/js-redux-toolkit-slices/check",
+      payload: { files },
+    });
+
+    expect(passResponse.statusCode).toBe(200);
+    expect(passResponse.json()).toMatchObject({ passed: true });
+
+    const failResponse = await app.inject({
+      method: "POST",
+      url: "/api/exercises/js-redux-toolkit-slices/check",
+      payload: {
+        files: {
+          ...files,
+          "src/components/Comment.jsx": "export default 1;",
+        },
+      },
+    });
+
+    expect(failResponse.statusCode).toBe(200);
+    expect(failResponse.json()).toMatchObject({ passed: false });
+  });
+
+  it("rejects partial file payloads for multi-file exercises", async () => {
+    const detailResponse = await app.inject({
+      method: "GET",
+      url: "/api/exercises/js-redux-toolkit-slices",
+    });
+
+    const { files } = detailResponse.json() as { files: Record<string, string> };
+    const [firstFile] = Object.keys(files);
+
+    const response = await app.inject({
+      method: "POST",
+      url: "/api/exercises/js-redux-toolkit-slices/check",
+      payload: {
+        files: {
+          [firstFile]: files[firstFile],
+        },
+      },
+    });
+
+    expect(response.statusCode).toBe(400);
+    expect(response.json()).toMatchObject({
+      error: expect.stringMatching(/Missing required files/i),
+    });
+  });
 });

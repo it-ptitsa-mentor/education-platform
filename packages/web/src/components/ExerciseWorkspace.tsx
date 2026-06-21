@@ -1,41 +1,83 @@
-import Editor, { type OnMount } from "@monaco-editor/react";
+import Editor, { type BeforeMount, type OnMount } from "@monaco-editor/react";
+import { useCallback, useEffect, useRef } from "react";
 import ReactMarkdown from "react-markdown";
 import type { CheckResult, ExerciseDetail } from "../exercise-types";
 import { monacoThemeId, useTheme } from "../hooks/useTheme";
 import { formatRunTestsHotkey } from "../lib/exercise-hotkeys";
-import { definePtitsaTheme } from "../lib/monaco-theme";
+import { markdownComponents } from "../lib/markdown-components";
+import { editorLanguageForFile } from "../lib/editor-language";
+import { bindJsxSyntaxHighlight, setupMonaco } from "../lib/monaco-setup";
 import { registerEditorHotkeys } from "../lib/monaco-shortcuts";
 import { usePanelLayout } from "../hooks/usePanelLayout";
 import { ResizeHandle } from "./ResizeHandle";
 
 type ExerciseWorkspaceProps = {
   exercise: ExerciseDetail;
-  code: string;
-  onCodeChange: (value: string) => void;
+  files: Record<string, string>;
+  activeFile: string;
+  onActiveFileChange: (filePath: string) => void;
+  onFileChange: (filePath: string, content: string) => void;
   result: CheckResult | null;
   onRunTests: () => void;
 };
 
-const editorLanguage = (language: string) => {
-  if (language === "html") return "html";
-  if (language === "shell") return "shell";
-  return "javascript";
-};
-
 export const ExerciseWorkspace = ({
   exercise,
-  code,
-  onCodeChange,
+  files,
+  activeFile,
+  onActiveFileChange,
+  onFileChange,
   result,
   onRunTests,
 }: ExerciseWorkspaceProps) => {
   const { layout, setReadmeWidth, setOutputHeight } = usePanelLayout();
   const { theme } = useTheme();
+  const editorRef = useRef<Parameters<OnMount>[0] | null>(null);
+  const monacoRef = useRef<Parameters<OnMount>[1] | null>(null);
+  const jsxCleanupRef = useRef<(() => void) | null>(null);
+  const editorPath = `${exercise.slug}/${activeFile}`;
+  const editorValue = files[activeFile] ?? "";
+
+  const selectFile = useCallback(
+    (nextFile: string) => {
+      if (nextFile === activeFile) return;
+
+      const editor = editorRef.current;
+      const model = editor?.getModel();
+      if (model) {
+        onFileChange(activeFile, model.getValue());
+      }
+
+      onActiveFileChange(nextFile);
+    },
+    [activeFile, onActiveFileChange, onFileChange],
+  );
+
+  const handleBeforeMount: BeforeMount = (monaco) => {
+    setupMonaco(monaco);
+  };
 
   const handleEditorMount: OnMount = (editor, monaco) => {
-    definePtitsaTheme(monaco);
+    editorRef.current = editor;
+    monacoRef.current = monaco;
     registerEditorHotkeys({ editor, monaco, onRunTests });
+    jsxCleanupRef.current?.();
+    jsxCleanupRef.current = bindJsxSyntaxHighlight(monaco, editor, activeFile);
   };
+
+  useEffect(() => {
+    const editor = editorRef.current;
+    const monaco = monacoRef.current;
+    if (!editor || !monaco) return;
+
+    jsxCleanupRef.current?.();
+    jsxCleanupRef.current = bindJsxSyntaxHighlight(monaco, editor, activeFile);
+
+    return () => {
+      jsxCleanupRef.current?.();
+      jsxCleanupRef.current = null;
+    };
+  }, [activeFile]);
 
   return (
     <main
@@ -52,7 +94,9 @@ export const ExerciseWorkspace = ({
           <span className="chip">{exercise.language}</span>
         </div>
         <article className="readme prose">
-          <ReactMarkdown>{exercise.readme}</ReactMarkdown>
+          <ReactMarkdown components={markdownComponents}>
+            {exercise.readme}
+          </ReactMarkdown>
         </article>
       </aside>
 
@@ -69,9 +113,16 @@ export const ExerciseWorkspace = ({
         <div className="editor-panel panel glass-panel">
           <div className="panel-corners" aria-hidden />
           <div className="panel-head editor-head">
-            <div className="tabs">
+            <div className="tabs" role="tablist" aria-label="Файлы задачи">
               {exercise.filesToOpen.map((file) => (
-                <button key={file} type="button" className="tab active">
+                <button
+                  key={file}
+                  type="button"
+                  role="tab"
+                  aria-selected={file === activeFile}
+                  className={`tab${file === activeFile ? " active" : ""}`}
+                  onClick={() => selectFile(file)}
+                >
                   <span className="tab-dot" aria-hidden />
                   {file}
                 </button>
@@ -83,11 +134,13 @@ export const ExerciseWorkspace = ({
           <div className="editor-surface">
             <Editor
               height="100%"
-              language={editorLanguage(exercise.language)}
+              path={editorPath}
+              language={editorLanguageForFile(activeFile)}
               theme={monacoThemeId(theme)}
-              value={code}
+              value={editorValue}
+              beforeMount={handleBeforeMount}
               onMount={handleEditorMount}
-              onChange={(value) => onCodeChange(value ?? "")}
+              onChange={(value) => onFileChange(activeFile, value ?? "")}
               options={{
                 fontFamily: "'IBM Plex Mono', monospace",
                 fontSize: 14,

@@ -50,4 +50,17 @@ describe("validateStudentFiles", () => {
       validateStudentFiles(manifest, { "../secret.js": "nope" }),
     ).toThrow(/not allowed/i);
   });
+
+  it("requires every student file in the payload", () => {
+    expect(() =>
+      validateStudentFiles(
+        {
+          ...manifest,
+          filesToOpen: ["src/App.jsx", "src/Comment.jsx"],
+          studentFiles: ["src/App.jsx", "src/Comment.jsx"],
+        },
+        { "src/App.jsx": "export default function App() { return null; }" },
+      ),
+    ).toThrow(/Missing required files/i);
+  });
 });

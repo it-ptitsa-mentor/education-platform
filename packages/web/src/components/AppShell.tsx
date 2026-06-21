@@ -1,4 +1,5 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
+import { brandLogoUrl } from "../lib/brand-assets";
 import { ThemeToggle } from "./ThemeToggle";
 import { useTheme } from "../hooks/useTheme";
 
@@ -12,15 +13,16 @@ export const AppShell = () => {
       <div className="app-grid" aria-hidden />
 
       <header className="topbar">
-        <Link to="/" className="brand brand-link">
-          <span className="brand-mark" aria-hidden>
-            <span className="brand-dot" />
-            <span className="brand-ring" />
-          </span>
-          <div>
-            <p className="brand-eyebrow">SYS · TRAINER · v0.1</p>
-            <h1>IT Птица</h1>
-          </div>
+        <Link to="/" className="brand brand-link" aria-label="IT Птица — каталог">
+          <img
+            className="brand-logo"
+            src={brandLogoUrl}
+            width={40}
+            height={40}
+            alt=""
+            aria-hidden
+          />
+          <p className="brand-eyebrow">SYS · TRAINER · v0.1</p>
         </Link>
 
         <nav className="topbar-nav" aria-label="Разделы платформы">
