@@ -13,3 +13,4 @@ packages/api/dist
 packages/web/src/generated
 .hexlet-cookies.json
 scripts/hexlet-import/
+packages/web/public/course

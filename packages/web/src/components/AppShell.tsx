@@ -31,7 +31,13 @@ export const AppShell = () => {
         <nav className="topbar-nav" aria-label="Разделы платформы">
           <Link
             to="/"
-            className={`topbar-nav-link${location.pathname === "/" || location.pathname.startsWith("/exercise/") ? " is-active" : ""}`}
+            className={`topbar-nav-link${location.pathname === "/" || location.pathname.startsWith("/learn") ? " is-active" : ""}`}
+          >
+            Курс
+          </Link>
+          <Link
+            to="/tasks"
+            className={`topbar-nav-link${location.pathname.startsWith("/tasks") || location.pathname.startsWith("/exercise/") ? " is-active" : ""}`}
           >
             Задачи
           </Link>
