@@ -11,9 +11,7 @@
         var key = "ptitsa-theme";
         var theme = localStorage.getItem(key);
         if (theme !== "light" && theme !== "dark") {
-          theme = window.matchMedia("(prefers-color-scheme: light)").matches
-            ? "light"
-            : "dark";
+          theme = "dark";
         }
         document.documentElement.dataset.theme = theme;
         document.documentElement.style.colorScheme = theme;
@@ -22,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Doto:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Doto:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Onest:wght@400;500;600;700&family=Unbounded:wght@600;700;800;900&display=swap"
       rel="stylesheet"
     />
   </head>

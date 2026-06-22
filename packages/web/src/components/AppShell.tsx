@@ -22,7 +22,10 @@ export const AppShell = () => {
             alt=""
             aria-hidden
           />
-          <p className="brand-eyebrow">SYS · TRAINER · v0.1</p>
+          <span className="brand-word">
+            IT&nbsp;Птица
+            <span className="brand-chip">EDU</span>
+          </span>
         </Link>
 
         <nav className="topbar-nav" aria-label="Разделы платформы">
