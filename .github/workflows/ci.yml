@@ -1,0 +1,100 @@
+name: CI / Deploy education.*
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ── Гейт: тесты на каждый PR и push в main ──
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Unit tests
+        run: pnpm test
+
+      - name: Feature tests
+        run: pnpm test:feature
+
+  # ── Деплой на сервер: только при пуше в main и зелёных тестах ──
+  deploy:
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+      TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate static exercise bundle
+        run: pnpm generate:static-exercises
+
+      - name: Build web (server, base=/app/)
+        run: pnpm --filter @ptitsa/web build
+        env:
+          VITE_BASE_PATH: /app/
+          VITE_STATIC_API: "true"
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.SSH_DEPLOY_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+
+      - name: Deploy via rsync
+        run: |
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/deploy_key -o UserKnownHostsFile=~/.ssh/known_hosts" \
+            packages/web/dist/ \
+            "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/education.it-ptitsa-mentor.ru/app/"
+          ssh -i ~/.ssh/deploy_key -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" '
+              chown -R www-data:www-data /var/www/education.it-ptitsa-mentor.ru/app
+              find /var/www/education.it-ptitsa-mentor.ru/app -type d -exec chmod 755 {} \;
+              find /var/www/education.it-ptitsa-mentor.ru/app -type f -exec chmod 644 {} \;
+            '
+
+      # ── Уведомление в TG-группу ботом @it_ptitsa_bot ──
+      # Пропускается, пока не заданы секреты TG_BOT_TOKEN и TG_CHAT_ID
+      - name: Notify Telegram
+        if: ${{ env.TG_BOT_TOKEN != '' && env.TG_CHAT_ID != '' }}
+        run: |
+          MSG="🚀 Влито в main и задеплоено на education.it-ptitsa-mentor.ru/app/
+
+          ${{ github.event.head_commit.message }}
+
+          👤 ${{ github.actor }}
+          🔗 ${{ github.event.head_commit.url }}"
+          curl -sS "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT_ID}" \
+            --data-urlencode "text=${MSG}" \
+            -d disable_web_page_preview=true >/dev/null
