@@ -1,1 +1,1 @@
-export const brandLogoUrl = `${import.meta.env.BASE_URL}logo.png`;
+export const brandLogoUrl = `${import.meta.env.BASE_URL}it-ptitsa.gif`;
