@@ -1,0 +1,79 @@
+---
+title: "Ковариантность и контравариантность"
+module: "Модуль 6"
+topic: "Основы Typescript"
+buildin_id: c4e300eb-777d-4b00-bf37-e12a0c3fd71d
+---
+
+# Ковариантность и контравариантность
+
+Когда мы присваиваем значение или передаем аргументы в вызов функции, проверка типов TypeScript проверяет типы на совместимость. При передаче аргументов в функцию проверка выполняется и для типов параметров, и для возвращаемых типов.
+
+Представим, что мы хотим передать функцию, возвращающую тип `number` для колбека функции сортировки, которая ожидает возврата `-1 | 0 | 1`. В таком случае мы получим ошибку *Type 'number' is not assignable to type '0 | 1 | -1'*:
+
+```
+type ComparatorCallback = (item1: number, item2: number, index: number) => -1 | 0 | 1
+declare function sort(arr: Array<number>, callback: ComparatorCallback): Array<number>
+
+const arr = [1, 2, 3]
+const comparator = (item1: number, item2: number) => Math.sign(item1 - item2)
+// (item1: number, item2: number) => number;
+
+sort(arr, comparator) // Error: Type 'number' is not assignable to type '0 | 1 | -1'.
+```
+
+Множество значений из объединения трех литеральных типов `-1 | 0 | 1` является подмножеством `number`. Но из ошибки можно понять, что возвращаемый тип должен быть либо таким же, либо более узким. Такое поведение проверки типов называется **ковариантностью**.
+
+Чтобы решить проблему с `ComparatorCallback`, нам нужно сузить возвращаемый тип функции `comparator` до `-1 | 0 | 1` или более узкого. Перепишем код без `Math.sign`, чтобы вернуть нужный тип:
+
+```
+type ComparatorCallback = (item1: number, item2: number, index: number) => -1 | 0 | 1
+declare function sort(arr: Array<number>, callback: ComparatorCallback): Array<number>
+
+const arr = [1, 2, 3]
+const comparator = (item1: number, item2: number) => {
+// (item1: number, item2: number) => -1 | 0 | 1;
+  if (item1 === item2) {
+    return 0
+  }
+
+  return item1 > item2 ? 1 : -1
+}
+
+sort(arr, comparator)
+```
+
+Теперь код проходит проверку типов. Возвращаемый тип `comparator` стал более узким.
+
+Для аргументов функции проверка типов выполняется в обратном порядке. Если мы передадим функцию, которая ожидает литеральный тип `1` вместо `number`, то получим ошибку `Type 'number' is not assignable to type '1'.`:
+
+```
+type ComparatorCallback = (item1: number, item2: number) => -1 | 0 | 1
+declare function sort(arr: Array<number>, callback: ComparatorCallback): Array<number>
+
+const arr = [1, 2, 3]
+const comparator = (item1: 1, item2: number) => Math.sign(item1 - item2) as -1 | 0 | 1
+
+sort(arr, comparator) // Type 'number' is not assignable to type '1'.
+```
+
+Тип `1` является подмножеством `number`. И в нашем примере мы передаем в функцию `sort` функцию, которая ожидает более узкий тип на входе. Также вы можете обратить внимание, что мы приводим тип возвращаемого значения к `-1 | 0 | 1` с помощью ключевого слова `as`. Нам потребовалось приведение вниз, так как типизация `Math.sign` возвращает `number`.
+
+Когда мы передаем аргументы в функцию, то ожидаемые типы параметров должны быть более широкими, чем фактические. Такое поведение проверки типов называется **контравариантностью**.
+
+Попробуйте самостоятельно объяснить поведение проверки типов через вариантность в следующем примере:
+
+```
+type Formatter = (val: string) => string
+
+const formatToConcrete: Formatter = (): 'test' => 'test'
+const formatToNumber: Formatter = (val: '1') => val // Error!
+```
+
+Ответ
+
+Тип параметров может быть шире, а тип на выходе — уже. В примере `formatToConcrete` не принимает никаких параметров. Это дает более широкий тип, нежели требуемый `string`. А возвращает более узкий литеральный тип. `formatToNumber` ожидает более узкий тип на входе, поэтому и возникает ошибка.
+
+Если при работе с TypeScript учитывать наследие JavaScript с утиной типизацией, то все становится на свои места.
+
+Чтобы код не упал с ошибкой, достаточно проверки на наличие полей или методов нужных типов. А чтобы получить гарантии во внешнем мире, нужно, чтобы переменная попадала под внешние ограничения. Для этого тип должен быть более узким или таким же.
