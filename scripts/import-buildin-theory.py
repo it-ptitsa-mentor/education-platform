@@ -223,10 +223,24 @@ def main():
             trec = {"index": ti, "title": ttitle, "id": tp["id"], "slug": tslug, "lessons": []}
             print(f"  📚 {ttitle}")
 
-            lessons = query_db(tp["id"])
+            # сортировка уроков: по числовому префиксу «N.» если есть,
+            # иначе — в порядке БД; префикс срезаем (чистый заголовок лучше
+            # матчится с заданиями, у которых lessonName без номера)
+            raw = []
+            for qi, lp in enumerate(query_db(tp["id"])):
+                tt = title_of(lp)
+                if tt:
+                    raw.append((tt, lp, qi))
+
+            def _skey(x):
+                m = re.match(r"^\s*(\d+)[.)]\s*", x[0])
+                return (0, int(m.group(1))) if m else (1, x[2])
+
+            raw.sort(key=_skey)
+
             li = 0
-            for lp in lessons:
-                ltitle = title_of(lp)
+            for ltitle_raw, lp, _qi in raw:
+                ltitle = re.sub(r"^\s*\d+[.)]\s*", "", ltitle_raw).strip()
                 if not ltitle:
                     continue
                 li += 1

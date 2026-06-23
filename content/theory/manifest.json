@@ -382,237 +382,237 @@
           "lessons": [
             {
               "index": 1,
-              "title": "33. Цикл while",
-              "id": "03e7f24b-aa34-4196-8794-dd076c38c6f2",
-              "slug": "01-33-cikl-while"
+              "title": "Введение",
+              "id": "96aefe71-6c5f-4061-8be9-8c6e5acb7287",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "34. Агрегация данных",
-              "id": "0ff6edc7-66d0-4fe1-8256-9b110bc7b6b9",
-              "slug": "02-34-agregaciya-dannyh"
+              "title": "Hello, World!",
+              "id": "40ed8b88-548d-4673-b547-c29adcb5f2b4",
+              "slug": "02-hello-world"
             },
             {
               "index": 3,
-              "title": "31. Тернарный оператор",
-              "id": "1160c296-d7d4-4dc9-ae29-3661187ff8fd",
-              "slug": "03-31-ternarnyy-operator"
+              "title": "Инструкции",
+              "id": "6f444113-56f2-44bf-a3a0-21a28217f067",
+              "slug": "03-instrukcii"
             },
             {
               "index": 4,
-              "title": "35. Обход строк в цикле",
-              "id": "12849beb-1884-4268-878c-e78598be8feb",
-              "slug": "04-35-obhod-strok-v-cikle"
+              "title": "Арифметические операции",
+              "id": "f3e7148f-594b-49ea-9aa8-e3d874d8311e",
+              "slug": "04-arifmeticheskie-operacii"
             },
             {
               "index": 5,
-              "title": "36. Условия внутри тела цикла",
-              "id": "2f75482f-b347-46d7-a905-f8f2878a0238",
-              "slug": "05-36-usloviya-vnutri-tela-cikla"
+              "title": "Ошибки оформления (синтаксиса и линтера)",
+              "id": "f3845dfb-7621-411b-ad6d-33561a9df2e6",
+              "slug": "05-oshibki-oformleniya-sintaksisa-i-lintera"
             },
             {
               "index": 6,
-              "title": "9. Именование",
-              "id": "31ee1c3a-2f46-4586-a5d5-41b56f092370",
-              "slug": "06-9-imenovanie"
+              "title": "Строки",
+              "id": "ecf05640-aafe-497e-b1d2-46613c867237",
+              "slug": "06-stroki"
             },
             {
               "index": 7,
-              "title": "32. Конструкция Switch",
-              "id": "34f4ad20-8545-48f5-8adc-1337e16008ea",
-              "slug": "07-32-konstrukciya-switch"
+              "title": "Переменные",
+              "id": "cc0ec90b-b0a0-4e6f-8255-691e410b71bb",
+              "slug": "07-peremennye"
             },
             {
               "index": 8,
-              "title": "38. Цикл for",
-              "id": "37775019-7de2-45c0-a18e-e4135201d096",
-              "slug": "08-38-cikl-for"
+              "title": "Выражения в определениях",
+              "id": "b1d9d03d-1eab-4a4f-89f8-12a37417eee9",
+              "slug": "08-vyrazheniya-v-opredeleniyah"
             },
             {
               "index": 9,
-              "title": "16. Вызов функции — выражение",
-              "id": "3d9d9a5a-2a89-422e-a08e-eae780b46798",
-              "slug": "09-16-vyzov-funkcii-vyrazhenie"
+              "title": "Именование",
+              "id": "31ee1c3a-2f46-4586-a5d5-41b56f092370",
+              "slug": "09-imenovanie"
             },
             {
               "index": 10,
-              "title": "21. Цепочка вызовов",
-              "id": "4023f3d4-7014-4908-a504-4ed60e45ca3e",
-              "slug": "10-21-cepochka-vyzovov"
+              "title": "Интерполяция",
+              "id": "b6959166-657e-4ae2-9076-dc773b94552a",
+              "slug": "10-interpolyaciya"
             },
             {
               "index": 11,
-              "title": "2. Hello, World!",
-              "id": "40ed8b88-548d-4673-b547-c29adcb5f2b4",
-              "slug": "11-2-hello-world"
+              "title": "Извлечение символов из строки",
+              "id": "c6147b6b-e461-4916-9d2d-c4a238c8371f",
+              "slug": "11-izvlechenie-simvolov-iz-stroki"
             },
             {
               "index": 12,
-              "title": "27. Логика",
-              "id": "42ed7b61-49b6-450d-a07b-4aba0959dbb7",
-              "slug": "12-27-logika"
+              "title": "Типы данных",
+              "id": "8e0b192c-5e9a-464a-b18f-4853f7339a95",
+              "slug": "12-tipy-dannyh"
             },
             {
               "index": 13,
-              "title": "15. Сигнатура функции",
-              "id": "53cef232-4f03-42c5-9a2c-633378e18008",
-              "slug": "13-15-signatura-funkcii"
+              "title": "Неизменяемость и примитивные типы",
+              "id": "ac7c3e5b-b41f-4e6f-8ff1-304091f94fe3",
+              "slug": "13-neizmenyaemost-i-primitivnye-tipy"
             },
             {
               "index": 14,
-              "title": "18. Детерминированность",
-              "id": "60857e72-cd40-4cdf-adfc-be181b6044ea",
-              "slug": "14-18-determinirovannost"
+              "title": "Функции и их вызов",
+              "id": "cea30576-4645-440d-8031-57a446e76970",
+              "slug": "14-funkcii-i-ih-vyzov"
             },
             {
               "index": 15,
-              "title": "37. Инкремент и декремент",
-              "id": "657b292f-916d-4584-9a48-52c663fa9d4a",
-              "slug": "15-37-inkrement-i-dekrement"
+              "title": "Сигнатура функции",
+              "id": "53cef232-4f03-42c5-9a2c-633378e18008",
+              "slug": "15-signatura-funkcii"
             },
             {
               "index": 16,
-              "title": "22. Определение функций",
-              "id": "669f6414-2da9-4cae-8476-eb68cc967f06",
-              "slug": "16-22-opredelenie-funkciy"
+              "title": "Вызов функции — выражение",
+              "id": "3d9d9a5a-2a89-422e-a08e-eae780b46798",
+              "slug": "16-vyzov-funkcii-vyrazhenie"
             },
             {
               "index": 17,
-              "title": "28. Логические операторы",
-              "id": "68d7ae00-bc54-4978-83d4-72ab7b1d046d",
-              "slug": "17-28-logicheskie-operatory"
+              "title": "Функции с переменным числом параметров",
+              "id": "ff98f79a-c141-43c5-8134-e550cb2e4798",
+              "slug": "17-funkcii-s-peremennym-chislom-parametrov"
             },
             {
               "index": 18,
-              "title": "3. Инструкции",
-              "id": "6f444113-56f2-44bf-a3a0-21a28217f067",
-              "slug": "18-3-instrukcii"
+              "title": "Детерминированность",
+              "id": "60857e72-cd40-4cdf-adfc-be181b6044ea",
+              "slug": "18-determinirovannost"
             },
             {
               "index": 19,
-              "title": "12. Типы данных",
-              "id": "8e0b192c-5e9a-464a-b18f-4853f7339a95",
-              "slug": "19-12-tipy-dannyh"
+              "title": "Стандартная библиотека",
+              "id": "fb52edef-6bc1-4551-828c-72a938bf30a7",
+              "slug": "19-standartnaya-biblioteka"
             },
             {
               "index": 20,
-              "title": "1. Введение",
-              "id": "96aefe71-6c5f-4061-8be9-8c6e5acb7287",
-              "slug": "20-1-vvedenie"
+              "title": "Свойства и методы",
+              "id": "ee2fcb88-4f6d-41d4-8632-98aa7d27e31b",
+              "slug": "20-svoystva-i-metody"
             },
             {
               "index": 21,
-              "title": "13. Неизменяемость и примитивные типы",
-              "id": "ac7c3e5b-b41f-4e6f-8ff1-304091f94fe3",
-              "slug": "21-13-neizmenyaemost-i-primitivnye-tipy"
+              "title": "Цепочка вызовов",
+              "id": "4023f3d4-7014-4908-a504-4ed60e45ca3e",
+              "slug": "21-cepochka-vyzovov"
             },
             {
               "index": 22,
-              "title": "8. Выражения в определениях",
-              "id": "b1d9d03d-1eab-4a4f-89f8-12a37417eee9",
-              "slug": "22-8-vyrazheniya-v-opredeleniyah"
+              "title": "Определение функций",
+              "id": "669f6414-2da9-4cae-8476-eb68cc967f06",
+              "slug": "22-opredelenie-funkciy"
             },
             {
               "index": 23,
-              "title": "10. Интерполяция",
-              "id": "b6959166-657e-4ae2-9076-dc773b94552a",
-              "slug": "23-10-interpolyaciya"
+              "title": "Возврат значений",
+              "id": "d2605217-981e-465d-885f-6c1c4024eb1f",
+              "slug": "23-vozvrat-znacheniy"
             },
             {
               "index": 24,
-              "title": "26. Упрощенный синтаксис функций",
-              "id": "bd2cdb52-4270-48eb-9dee-3eb39314d7df",
-              "slug": "24-26-uproschennyy-sintaksis-funkciy"
+              "title": "Параметры функций",
+              "id": "de4f6bf4-b773-4204-88d7-c0e6e65f1289",
+              "slug": "24-parametry-funkciy"
             },
             {
               "index": 25,
-              "title": "30. Условные конструкции",
-              "id": "bec275ab-6f78-4275-8d5e-f5c7af781707",
-              "slug": "25-30-uslovnye-konstrukcii"
+              "title": "Необязательные параметры функций",
+              "id": "ea76bb96-76d8-4b1f-b7b2-04c80cc2e81e",
+              "slug": "25-neobyazatelnye-parametry-funkciy"
             },
             {
               "index": 26,
-              "title": "11. Извлечение символов из строки",
-              "id": "c6147b6b-e461-4916-9d2d-c4a238c8371f",
-              "slug": "26-11-izvlechenie-simvolov-iz-stroki"
+              "title": "Упрощенный синтаксис функций",
+              "id": "bd2cdb52-4270-48eb-9dee-3eb39314d7df",
+              "slug": "26-uproschennyy-sintaksis-funkciy"
             },
             {
               "index": 27,
-              "title": "29. Результат логических операций",
-              "id": "c84d1efa-cd48-42e3-96ed-3d21ee3c9ed6",
-              "slug": "27-29-rezultat-logicheskih-operaciy"
+              "title": "Логика",
+              "id": "42ed7b61-49b6-450d-a07b-4aba0959dbb7",
+              "slug": "27-logika"
             },
             {
               "index": 28,
-              "title": "7. Переменные",
-              "id": "cc0ec90b-b0a0-4e6f-8255-691e410b71bb",
-              "slug": "28-7-peremennye"
+              "title": "Логические операторы",
+              "id": "68d7ae00-bc54-4978-83d4-72ab7b1d046d",
+              "slug": "28-logicheskie-operatory"
             },
             {
               "index": 29,
-              "title": "14. Функции и их вызов",
-              "id": "cea30576-4645-440d-8031-57a446e76970",
-              "slug": "29-14-funkcii-i-ih-vyzov"
+              "title": "Результат логических операций",
+              "id": "c84d1efa-cd48-42e3-96ed-3d21ee3c9ed6",
+              "slug": "29-rezultat-logicheskih-operaciy"
             },
             {
               "index": 30,
-              "title": "23. Возврат значений",
-              "id": "d2605217-981e-465d-885f-6c1c4024eb1f",
-              "slug": "30-23-vozvrat-znacheniy"
+              "title": "Условные конструкции",
+              "id": "bec275ab-6f78-4275-8d5e-f5c7af781707",
+              "slug": "30-uslovnye-konstrukcii"
             },
             {
               "index": 31,
-              "title": "24. Параметры функций",
-              "id": "de4f6bf4-b773-4204-88d7-c0e6e65f1289",
-              "slug": "31-24-parametry-funkciy"
+              "title": "Тернарный оператор",
+              "id": "1160c296-d7d4-4dc9-ae29-3661187ff8fd",
+              "slug": "31-ternarnyy-operator"
             },
             {
               "index": 32,
-              "title": "25. Необязательные параметры функций",
-              "id": "ea76bb96-76d8-4b1f-b7b2-04c80cc2e81e",
-              "slug": "32-25-neobyazatelnye-parametry-funkciy"
+              "title": "Конструкция Switch",
+              "id": "34f4ad20-8545-48f5-8adc-1337e16008ea",
+              "slug": "32-konstrukciya-switch"
             },
             {
               "index": 33,
-              "title": "39. Модули",
-              "id": "ec432050-d928-46a6-b697-29871d7aedf0",
-              "slug": "33-39-moduli"
+              "title": "Цикл while",
+              "id": "03e7f24b-aa34-4196-8794-dd076c38c6f2",
+              "slug": "33-cikl-while"
             },
             {
               "index": 34,
-              "title": "6. Строки",
-              "id": "ecf05640-aafe-497e-b1d2-46613c867237",
-              "slug": "34-6-stroki"
+              "title": "Агрегация данных",
+              "id": "0ff6edc7-66d0-4fe1-8256-9b110bc7b6b9",
+              "slug": "34-agregaciya-dannyh"
             },
             {
               "index": 35,
-              "title": "20. Свойства и методы",
-              "id": "ee2fcb88-4f6d-41d4-8632-98aa7d27e31b",
-              "slug": "35-20-svoystva-i-metody"
+              "title": "Обход строк в цикле",
+              "id": "12849beb-1884-4268-878c-e78598be8feb",
+              "slug": "35-obhod-strok-v-cikle"
             },
             {
               "index": 36,
-              "title": "5. Ошибки оформления (синтаксиса и линтера)",
-              "id": "f3845dfb-7621-411b-ad6d-33561a9df2e6",
-              "slug": "36-5-oshibki-oformleniya-sintaksisa-i-lintera"
+              "title": "Условия внутри тела цикла",
+              "id": "2f75482f-b347-46d7-a905-f8f2878a0238",
+              "slug": "36-usloviya-vnutri-tela-cikla"
             },
             {
               "index": 37,
-              "title": "4. Арифметические операции",
-              "id": "f3e7148f-594b-49ea-9aa8-e3d874d8311e",
-              "slug": "37-4-arifmeticheskie-operacii"
+              "title": "Инкремент и декремент",
+              "id": "657b292f-916d-4584-9a48-52c663fa9d4a",
+              "slug": "37-inkrement-i-dekrement"
             },
             {
               "index": 38,
-              "title": "19. Стандартная библиотека",
-              "id": "fb52edef-6bc1-4551-828c-72a938bf30a7",
-              "slug": "38-19-standartnaya-biblioteka"
+              "title": "Цикл for",
+              "id": "37775019-7de2-45c0-a18e-e4135201d096",
+              "slug": "38-cikl-for"
             },
             {
               "index": 39,
-              "title": "17. Функции с переменным числом параметров",
-              "id": "ff98f79a-c141-43c5-8134-e550cb2e4798",
-              "slug": "39-17-funkcii-s-peremennym-chislom-parametrov"
+              "title": "Модули",
+              "id": "ec432050-d928-46a6-b697-29871d7aedf0",
+              "slug": "39-moduli"
             }
           ]
         },
@@ -624,135 +624,135 @@
           "lessons": [
             {
               "index": 1,
-              "title": "9. Удаление элементов массива",
-              "id": "0b8d0754-362b-4cf0-80e2-4150761bbfc0",
-              "slug": "01-9-udalenie-elementov-massiva"
+              "title": "О курсе",
+              "id": "5a9e7799-c47f-4704-a6a6-09ca41b4b9cb",
+              "slug": "01-o-kurse"
             },
             {
               "index": 2,
-              "title": "12. Генерация строки в цикле",
-              "id": "0be25fc5-b31f-48a8-8a1f-c4f3dbd10194",
-              "slug": "02-12-generaciya-stroki-v-cikle"
+              "title": "Синтаксис",
+              "id": "6d596fa0-8964-440b-a417-023b958a5f6e",
+              "slug": "02-sintaksis"
             },
             {
               "index": 3,
-              "title": "6. Ссылки",
-              "id": "21ba86c0-b72e-4f9f-87e8-e8d30409efcc",
-              "slug": "03-6-ssylki"
+              "title": "Модификация",
+              "id": "3e906ace-af55-4394-8cae-eabfd071d98d",
+              "slug": "03-modifikaciya"
             },
             {
               "index": 4,
-              "title": "3. Модификация",
-              "id": "3e906ace-af55-4394-8cae-eabfd071d98d",
-              "slug": "04-3-modifikaciya"
+              "title": "Проверка существования значения",
+              "id": "ab252627-7e35-4de0-b808-d2d0a5c6af2b",
+              "slug": "04-proverka-suschestvovaniya-znacheniya"
             },
             {
               "index": 5,
-              "title": "15. Теория множеств",
-              "id": "46b51de9-f740-4ccb-8570-65ac3ba08aec",
-              "slug": "05-15-teoriya-mnozhestv"
+              "title": "Цикл for",
+              "id": "f9dd0a67-3cbd-4469-aa6b-c389c0eec9b6",
+              "slug": "05-cikl-for"
             },
             {
               "index": 6,
-              "title": "7. Агрегация",
-              "id": "50926d70-9491-4ac5-8544-4fd08ea7784b",
-              "slug": "06-7-agregaciya"
+              "title": "Ссылки",
+              "id": "21ba86c0-b72e-4f9f-87e8-e8d30409efcc",
+              "slug": "06-ssylki"
             },
             {
               "index": 7,
-              "title": "1. О курсе",
-              "id": "5a9e7799-c47f-4704-a6a6-09ca41b4b9cb",
-              "slug": "07-1-o-kurse"
+              "title": "Агрегация",
+              "id": "50926d70-9491-4ac5-8544-4fd08ea7784b",
+              "slug": "07-agregaciya"
             },
             {
               "index": 8,
-              "title": "13. Обработка строк через преобразование в массив",
-              "id": "686c34a6-fcd0-4d8c-bc7a-98a3f3212994",
-              "slug": "08-13-obrabotka-strok-cherez-preobrazovanie-v-massiv"
+              "title": "Цикл for...of",
+              "id": "8a0a159f-0a03-4017-9a95-6588581651d8",
+              "slug": "08-cikl-for-of"
             },
             {
               "index": 9,
-              "title": "2. Синтаксис",
-              "id": "6d596fa0-8964-440b-a417-023b958a5f6e",
-              "slug": "09-2-sintaksis"
+              "title": "Удаление элементов массива",
+              "id": "0b8d0754-362b-4cf0-80e2-4150761bbfc0",
+              "slug": "09-udalenie-elementov-massiva"
             },
             {
               "index": 10,
-              "title": "14. Вложенные циклы",
-              "id": "7cc6cf8a-73f3-4302-86db-a54f4d7e5a92",
-              "slug": "10-14-vlozhennye-cikly"
+              "title": "Управляющие инструкции",
+              "id": "7e99b83a-9837-4a33-a46f-ce5895c0db85",
+              "slug": "10-upravlyayuschie-instrukcii"
             },
             {
               "index": 11,
-              "title": "19. Деструктуризация",
-              "id": "7cd828ab-7a2e-4e92-814f-08faa14d3e3b",
-              "slug": "11-19-destrukturizaciya"
+              "title": "Вложенные массивы",
+              "id": "fb1cc9d5-aae8-474e-9d55-483f57e89e10",
+              "slug": "11-vlozhennye-massivy"
             },
             {
               "index": 12,
-              "title": "10. Управляющие инструкции",
-              "id": "7e99b83a-9837-4a33-a46f-ce5895c0db85",
-              "slug": "12-10-upravlyayuschie-instrukcii"
+              "title": "Генерация строки в цикле",
+              "id": "0be25fc5-b31f-48a8-8a1f-c4f3dbd10194",
+              "slug": "12-generaciya-stroki-v-cikle"
             },
             {
               "index": 13,
-              "title": "20. Rest и деструктуризация",
-              "id": "85e776c5-048e-477b-a028-86c2ca10e194",
-              "slug": "13-20-rest-i-destrukturizaciya"
+              "title": "Обработка строк через преобразование в массив",
+              "id": "686c34a6-fcd0-4d8c-bc7a-98a3f3212994",
+              "slug": "13-obrabotka-strok-cherez-preobrazovanie-v-massiv"
             },
             {
               "index": 14,
-              "title": "16. Сортировка массивов",
-              "id": "8857ed70-e5b3-441b-9906-f7b69931efb6",
-              "slug": "14-16-sortirovka-massivov"
+              "title": "Вложенные циклы",
+              "id": "7cc6cf8a-73f3-4302-86db-a54f4d7e5a92",
+              "slug": "14-vlozhennye-cikly"
             },
             {
               "index": 15,
-              "title": "8. Цикл for...of",
-              "id": "8a0a159f-0a03-4017-9a95-6588581651d8",
-              "slug": "15-8-cikl-for-of"
+              "title": "Теория множеств",
+              "id": "46b51de9-f740-4ccb-8570-65ac3ba08aec",
+              "slug": "15-teoriya-mnozhestv"
             },
             {
               "index": 16,
-              "title": "4. Проверка существования значения",
-              "id": "ab252627-7e35-4de0-b808-d2d0a5c6af2b",
-              "slug": "16-4-proverka-suschestvovaniya-znacheniya"
+              "title": "Сортировка массивов",
+              "id": "8857ed70-e5b3-441b-9906-f7b69931efb6",
+              "slug": "16-sortirovka-massivov"
             },
             {
               "index": 17,
-              "title": "21. Spread и создание новых массивов",
-              "id": "c24d4bc4-ef9b-491f-b4a1-92a3b444c8fe",
-              "slug": "17-21-spread-i-sozdanie-novyh-massivov"
+              "title": "Стек",
+              "id": "fefc5f9e-ce51-46d9-9120-de012eb1d4b6",
+              "slug": "17-stek"
             },
             {
               "index": 18,
-              "title": "22. Массивы в памяти компьютера",
-              "id": "d43ef6d1-41d7-4043-8b87-20af1dc92757",
-              "slug": "18-22-massivy-v-pamyati-kompyutera"
+              "title": "Big O",
+              "id": "fd91afe1-dac1-4467-95fd-48f40c863f8e",
+              "slug": "18-big-o"
             },
             {
               "index": 19,
-              "title": "5. Цикл for",
-              "id": "f9dd0a67-3cbd-4469-aa6b-c389c0eec9b6",
-              "slug": "19-5-cikl-for"
+              "title": "Деструктуризация",
+              "id": "7cd828ab-7a2e-4e92-814f-08faa14d3e3b",
+              "slug": "19-destrukturizaciya"
             },
             {
               "index": 20,
-              "title": "11. Вложенные массивы",
-              "id": "fb1cc9d5-aae8-474e-9d55-483f57e89e10",
-              "slug": "20-11-vlozhennye-massivy"
+              "title": "Rest и деструктуризация",
+              "id": "85e776c5-048e-477b-a028-86c2ca10e194",
+              "slug": "20-rest-i-destrukturizaciya"
             },
             {
               "index": 21,
-              "title": "18. Big O",
-              "id": "fd91afe1-dac1-4467-95fd-48f40c863f8e",
-              "slug": "21-18-big-o"
+              "title": "Spread и создание новых массивов",
+              "id": "c24d4bc4-ef9b-491f-b4a1-92a3b444c8fe",
+              "slug": "21-spread-i-sozdanie-novyh-massivov"
             },
             {
               "index": 22,
-              "title": "17. Стек",
-              "id": "fefc5f9e-ce51-46d9-9120-de012eb1d4b6",
-              "slug": "22-17-stek"
+              "title": "Массивы в памяти компьютера",
+              "id": "d43ef6d1-41d7-4043-8b87-20af1dc92757",
+              "slug": "22-massivy-v-pamyati-kompyutera"
             }
           ]
         },
@@ -764,81 +764,81 @@
           "lessons": [
             {
               "index": 1,
-              "title": "5. Объекты в действии",
-              "id": "2f29433b-c6f1-4144-a0b1-191416318367",
-              "slug": "01-5-obekty-v-deystvii"
+              "title": "О курсе",
+              "id": "bf00a357-a529-4628-92ad-5411f1257952",
+              "slug": "01-o-kurse"
             },
             {
               "index": 2,
-              "title": "10. Клонирование и копирование",
-              "id": "4867b0dd-fa23-458e-afd1-64465c881d83",
-              "slug": "02-10-klonirovanie-i-kopirovanie"
+              "title": "Синтаксис",
+              "id": "8ed74d40-4fa4-4e05-a34e-11e227090feb",
+              "slug": "02-sintaksis"
             },
             {
               "index": 3,
-              "title": "13. Хеш-таблицы",
-              "id": "57e05eef-219f-4605-bc4a-1f8033c78fc5",
-              "slug": "03-13-hesh-tablicy"
+              "title": "Модификация",
+              "id": "888dda58-0e7e-4c15-b1ca-622f88f138cb",
+              "slug": "03-modifikaciya"
             },
             {
               "index": 4,
-              "title": "11. Создание новых объектов и spread",
-              "id": "87ce7829-8abe-4bf9-aeb0-adc3285b9c2e",
-              "slug": "04-11-sozdanie-novyh-obektov-i-spread"
+              "title": "Ссылки",
+              "id": "d197f219-0527-4444-b1d8-d1c3a17e83bd",
+              "slug": "04-ssylki"
             },
             {
               "index": 5,
-              "title": "3. Модификация",
-              "id": "888dda58-0e7e-4c15-b1ca-622f88f138cb",
-              "slug": "05-3-modifikaciya"
+              "title": "Объекты в действии",
+              "id": "2f29433b-c6f1-4144-a0b1-191416318367",
+              "slug": "05-obekty-v-deystvii"
             },
             {
               "index": 6,
-              "title": "2. Синтаксис",
-              "id": "8ed74d40-4fa4-4e05-a34e-11e227090feb",
-              "slug": "06-2-sintaksis"
+              "title": "Проверка существования свойства",
+              "id": "9650e3e2-db6f-46e7-a3ca-9baaace25be1",
+              "slug": "06-proverka-suschestvovaniya-svoystva"
             },
             {
               "index": 7,
-              "title": "6. Проверка существования свойства",
-              "id": "9650e3e2-db6f-46e7-a3ca-9baaace25be1",
-              "slug": "07-6-proverka-suschestvovaniya-svoystva"
+              "title": "Обход свойств объекта",
+              "id": "a39c626c-aa39-442c-b011-51da21848e19",
+              "slug": "07-obhod-svoystv-obekta"
             },
             {
               "index": 8,
-              "title": "9. Слияние",
-              "id": "9a5699f6-b0cc-462a-bac1-8910c7aa1c75",
-              "slug": "08-9-sliyanie"
+              "title": "Вложенные объекты",
+              "id": "cf2ad969-d39e-4cb3-8270-3384cdcad509",
+              "slug": "08-vlozhennye-obekty"
             },
             {
               "index": 9,
-              "title": "7. Обход свойств объекта",
-              "id": "a39c626c-aa39-442c-b011-51da21848e19",
-              "slug": "09-7-obhod-svoystv-obekta"
+              "title": "Слияние",
+              "id": "9a5699f6-b0cc-462a-bac1-8910c7aa1c75",
+              "slug": "09-sliyanie"
             },
             {
               "index": 10,
-              "title": "1. О курсе",
-              "id": "bf00a357-a529-4628-92ad-5411f1257952",
-              "slug": "10-1-o-kurse"
+              "title": "Клонирование и копирование",
+              "id": "4867b0dd-fa23-458e-afd1-64465c881d83",
+              "slug": "10-klonirovanie-i-kopirovanie"
             },
             {
               "index": 11,
-              "title": "8. Вложенные объекты",
-              "id": "cf2ad969-d39e-4cb3-8270-3384cdcad509",
-              "slug": "11-8-vlozhennye-obekty"
+              "title": "Создание новых объектов и spread",
+              "id": "87ce7829-8abe-4bf9-aeb0-adc3285b9c2e",
+              "slug": "11-sozdanie-novyh-obektov-i-spread"
             },
             {
               "index": 12,
-              "title": "4. Ссылки",
-              "id": "d197f219-0527-4444-b1d8-d1c3a17e83bd",
-              "slug": "12-4-ssylki"
+              "title": "Деструктуризация",
+              "id": "fb34d121-cc3d-4c99-b00f-f4fce8fae298",
+              "slug": "12-destrukturizaciya"
             },
             {
               "index": 13,
-              "title": "12. Деструктуризация",
-              "id": "fb34d121-cc3d-4c99-b00f-f4fce8fae298",
-              "slug": "13-12-destrukturizaciya"
+              "title": "Хеш-таблицы",
+              "id": "57e05eef-219f-4605-bc4a-1f8033c78fc5",
+              "slug": "13-hesh-tablicy"
             }
           ]
         },
@@ -850,117 +850,117 @@
           "lessons": [
             {
               "index": 1,
-              "title": "8. Grep",
-              "id": "0545fc81-2325-419c-956b-bd2cc209d3b6",
-              "slug": "01-8-grep"
+              "title": "Введение",
+              "id": "e89ffe9f-4f1e-4e14-83d2-0fd3c979c897",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "6. Файловая структура",
-              "id": "2db87a6a-5437-4e85-817e-7787d4ad1954",
-              "slug": "02-6-faylovaya-struktura"
+              "title": "Операционные системы",
+              "id": "b640cd79-04fe-4f77-b34f-06c7f4148f2b",
+              "slug": "02-operacionnye-sistemy"
             },
             {
               "index": 3,
-              "title": "5. Интерфейс командной строки",
-              "id": "460aa386-8ed8-47cd-bdd4-b82f1ad291ec",
-              "slug": "03-5-interfeys-komandnoy-stroki"
+              "title": "Командная строка",
+              "id": "9cd95208-ad51-410e-adb8-7d473fe57863",
+              "slug": "03-komandnaya-stroka"
             },
             {
               "index": 4,
-              "title": "19. Выполнение программ",
-              "id": "4c076210-b41f-4fde-95a8-00615c16cb69",
-              "slug": "04-19-vypolnenie-programm"
+              "title": "Навигация",
+              "id": "b42be957-e671-48a6-893b-6f856ef1f132",
+              "slug": "04-navigaciya"
             },
             {
               "index": 5,
-              "title": "12. Манипулирование файловой структурой",
-              "id": "596da8d3-b0b9-4925-8093-8a4e09df6803",
-              "slug": "05-12-manipulirovanie-faylovoy-strukturoy"
+              "title": "Интерфейс командной строки",
+              "id": "460aa386-8ed8-47cd-bdd4-b82f1ad291ec",
+              "slug": "05-interfeys-komandnoy-stroki"
             },
             {
               "index": 6,
-              "title": "13. Переменные окружения",
-              "id": "67e32269-9078-4082-be62-24a1de0b82b1",
-              "slug": "06-13-peremennye-okruzheniya"
+              "title": "Файловая структура",
+              "id": "2db87a6a-5437-4e85-817e-7787d4ad1954",
+              "slug": "06-faylovaya-struktura"
             },
             {
               "index": 7,
-              "title": "16. Sudo",
-              "id": "68c82151-3c89-4bfd-a452-72de0bd38f69",
-              "slug": "07-16-sudo"
+              "title": "Чтение файлов",
+              "id": "d46998e5-d14e-4683-b8cc-3903d0e9c704",
+              "slug": "07-chtenie-faylov"
             },
             {
               "index": 8,
-              "title": "10. Потоки",
-              "id": "96fad9ce-6b49-459f-ab32-9e445da5dbe4",
-              "slug": "08-10-potoki"
+              "title": "Grep",
+              "id": "0545fc81-2325-419c-956b-bd2cc209d3b6",
+              "slug": "08-grep"
             },
             {
               "index": 9,
-              "title": "3. Командная строка",
-              "id": "9cd95208-ad51-410e-adb8-7d473fe57863",
-              "slug": "09-3-komandnaya-stroka"
+              "title": "Редактирование файлов",
+              "id": "b2caa1c9-2211-486b-8cb2-d607007a7150",
+              "slug": "09-redaktirovanie-faylov"
             },
             {
               "index": 10,
-              "title": "14. История",
-              "id": "a2e6c3d6-45cf-4b75-94d8-1bb1ee433ed8",
-              "slug": "10-14-istoriya"
+              "title": "Потоки",
+              "id": "96fad9ce-6b49-459f-ab32-9e445da5dbe4",
+              "slug": "10-potoki"
             },
             {
               "index": 11,
-              "title": "11. Пайплайн",
+              "title": "Пайплайн",
               "id": "ab99f2ff-1643-4fa9-9dc7-1c22dd6a82f0",
-              "slug": "11-11-payplayn"
+              "slug": "11-payplayn"
             },
             {
               "index": 12,
-              "title": "9. Редактирование файлов",
-              "id": "b2caa1c9-2211-486b-8cb2-d607007a7150",
-              "slug": "12-9-redaktirovanie-faylov"
+              "title": "Манипулирование файловой структурой",
+              "id": "596da8d3-b0b9-4925-8093-8a4e09df6803",
+              "slug": "12-manipulirovanie-faylovoy-strukturoy"
             },
             {
               "index": 13,
-              "title": "4. Навигация",
-              "id": "b42be957-e671-48a6-893b-6f856ef1f132",
-              "slug": "13-4-navigaciya"
+              "title": "Переменные окружения",
+              "id": "67e32269-9078-4082-be62-24a1de0b82b1",
+              "slug": "13-peremennye-okruzheniya"
             },
             {
               "index": 14,
-              "title": "2. Операционные системы",
-              "id": "b640cd79-04fe-4f77-b34f-06c7f4148f2b",
-              "slug": "14-2-operacionnye-sistemy"
+              "title": "История",
+              "id": "a2e6c3d6-45cf-4b75-94d8-1bb1ee433ed8",
+              "slug": "14-istoriya"
             },
             {
               "index": 15,
-              "title": "15. Пользователи и группы",
+              "title": "Пользователи и группы",
               "id": "ca33489f-a575-4cb5-8841-05a9667df5e9",
-              "slug": "15-15-polzovateli-i-gruppy"
+              "slug": "15-polzovateli-i-gruppy"
             },
             {
               "index": 16,
-              "title": "18. Пакетный менеджер",
-              "id": "d0785f59-1331-451c-b27f-3bfaf9c2be20",
-              "slug": "16-18-paketnyy-menedzher"
+              "title": "Sudo",
+              "id": "68c82151-3c89-4bfd-a452-72de0bd38f69",
+              "slug": "16-sudo"
             },
             {
               "index": 17,
-              "title": "7. Чтение файлов",
-              "id": "d46998e5-d14e-4683-b8cc-3903d0e9c704",
-              "slug": "17-7-chtenie-faylov"
+              "title": "Права доступа",
+              "id": "ef81f2be-f12c-41c3-982c-670da8e27314",
+              "slug": "17-prava-dostupa"
             },
             {
               "index": 18,
-              "title": "1. Введение",
-              "id": "e89ffe9f-4f1e-4e14-83d2-0fd3c979c897",
-              "slug": "18-1-vvedenie"
+              "title": "Пакетный менеджер",
+              "id": "d0785f59-1331-451c-b27f-3bfaf9c2be20",
+              "slug": "18-paketnyy-menedzher"
             },
             {
               "index": 19,
-              "title": "17. Права доступа",
-              "id": "ef81f2be-f12c-41c3-982c-670da8e27314",
-              "slug": "19-17-prava-dostupa"
+              "title": "Выполнение программ",
+              "id": "4c076210-b41f-4fde-95a8-00615c16cb69",
+              "slug": "19-vypolnenie-programm"
             }
           ]
         },
@@ -972,93 +972,93 @@
           "lessons": [
             {
               "index": 1,
-              "title": "13. Игнорирование файлов",
-              "id": "1786c92a-f3e3-4f32-9048-831321e0e677",
-              "slug": "01-13-ignorirovanie-faylov"
+              "title": "Введение",
+              "id": "a1ae435d-c5a1-4261-a2f6-9df65caea55d",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "5. Анализ сделанных изменений",
-              "id": "2080a6a2-abfd-4037-920f-2fe0550c5d55",
-              "slug": "02-5-analiz-sdelannyh-izmeneniy"
+              "title": "Рабочий процесс",
+              "id": "5d006588-a6e2-4586-83ae-15314c99d7f8",
+              "slug": "02-rabochiy-process"
             },
             {
               "index": 3,
-              "title": "4. Рабочая директория",
-              "id": "33bc5298-32af-4f5c-ac92-70646bc42272",
-              "slug": "03-4-rabochaya-direktoriya"
+              "title": "Интеграция с GitHub",
+              "id": "be54b1aa-153f-4444-ab86-34aef5b5b557",
+              "slug": "03-integraciya-s-github"
             },
             {
               "index": 4,
-              "title": "9. Изменение последнего коммита",
-              "id": "3c81d220-ec46-4817-9f5c-50cbc57db033",
-              "slug": "04-9-izmenenie-poslednego-kommita"
+              "title": "Рабочая директория",
+              "id": "33bc5298-32af-4f5c-ac92-70646bc42272",
+              "slug": "04-rabochaya-direktoriya"
             },
             {
               "index": 5,
-              "title": "15. Открытые проекты",
-              "id": "416d39d9-c485-445d-add1-9269013934dd",
-              "slug": "05-15-otkrytye-proekty"
+              "title": "Анализ сделанных изменений",
+              "id": "2080a6a2-abfd-4037-920f-2fe0550c5d55",
+              "slug": "05-analiz-sdelannyh-izmeneniy"
             },
             {
               "index": 6,
-              "title": "8. Отмена коммитов",
-              "id": "4e68faee-48a6-4c40-86b0-a252e17414e4",
-              "slug": "06-8-otmena-kommitov"
+              "title": "Анализ истории изменений",
+              "id": "a43d4933-3d63-42dd-84cb-13cc723e03b0",
+              "slug": "06-analiz-istorii-izmeneniy"
             },
             {
               "index": 7,
-              "title": "2. Рабочий процесс",
-              "id": "5d006588-a6e2-4586-83ae-15314c99d7f8",
-              "slug": "07-2-rabochiy-process"
+              "title": "Отмена изменений в рабочей директории",
+              "id": "5ed36098-0120-4e11-8db8-96f3333bbf23",
+              "slug": "07-otmena-izmeneniy-v-rabochey-direktorii"
             },
             {
               "index": 8,
-              "title": "7. Отмена изменений в рабочей директории",
-              "id": "5ed36098-0120-4e11-8db8-96f3333bbf23",
-              "slug": "08-7-otmena-izmeneniy-v-rabochey-direktorii"
+              "title": "Отмена коммитов",
+              "id": "4e68faee-48a6-4c40-86b0-a252e17414e4",
+              "slug": "08-otmena-kommitov"
             },
             {
               "index": 9,
-              "title": "14. Stash",
-              "id": "849073a3-88a6-4388-95b5-ee76c87a34b1",
-              "slug": "09-14-stash"
+              "title": "Изменение последнего коммита",
+              "id": "3c81d220-ec46-4817-9f5c-50cbc57db033",
+              "slug": "09-izmenenie-poslednego-kommita"
             },
             {
               "index": 10,
-              "title": "11. Перемещение по истории",
-              "id": "8fcf122d-41be-4fa1-be02-4f413a0328a3",
-              "slug": "10-11-peremeschenie-po-istorii"
+              "title": "Индекс",
+              "id": "e5f01e1b-c7de-4e7d-8161-e75c39b6596c",
+              "slug": "10-indeks"
             },
             {
               "index": 11,
-              "title": "1. Введение",
-              "id": "a1ae435d-c5a1-4261-a2f6-9df65caea55d",
-              "slug": "11-1-vvedenie"
+              "title": "Перемещение по истории",
+              "id": "8fcf122d-41be-4fa1-be02-4f413a0328a3",
+              "slug": "11-peremeschenie-po-istorii"
             },
             {
               "index": 12,
-              "title": "6. Анализ истории изменений",
-              "id": "a43d4933-3d63-42dd-84cb-13cc723e03b0",
-              "slug": "12-6-analiz-istorii-izmeneniy"
+              "title": "Понимание Git",
+              "id": "b1c372b3-0e6f-427e-b39f-22eedf549089",
+              "slug": "12-ponimanie-git"
             },
             {
               "index": 13,
-              "title": "12. Понимание Git",
-              "id": "b1c372b3-0e6f-427e-b39f-22eedf549089",
-              "slug": "13-12-ponimanie-git"
+              "title": "Игнорирование файлов",
+              "id": "1786c92a-f3e3-4f32-9048-831321e0e677",
+              "slug": "13-ignorirovanie-faylov"
             },
             {
               "index": 14,
-              "title": "3. Интеграция с GitHub",
-              "id": "be54b1aa-153f-4444-ab86-34aef5b5b557",
-              "slug": "14-3-integraciya-s-github"
+              "title": "Stash",
+              "id": "849073a3-88a6-4388-95b5-ee76c87a34b1",
+              "slug": "14-stash"
             },
             {
               "index": 15,
-              "title": "10. Индекс",
-              "id": "e5f01e1b-c7de-4e7d-8161-e75c39b6596c",
-              "slug": "15-10-indeks"
+              "title": "Открытые проекты",
+              "id": "416d39d9-c485-445d-add1-9269013934dd",
+              "slug": "15-otkrytye-proekty"
             }
           ]
         },
@@ -1070,69 +1070,69 @@
           "lessons": [
             {
               "index": 1,
-              "title": "7. Lock-файл",
-              "id": "19d92257-b88f-45e7-8ce5-730951f682a5",
-              "slug": "01-7-lock-fayl"
+              "title": "Введение",
+              "id": "9d00809c-2f5d-4418-bcc1-404117d28678",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "10. Точка входа",
-              "id": "3c351c9b-5227-46bd-9729-9d307fd1bd8e",
-              "slug": "02-10-tochka-vhoda"
+              "title": "Что такое JS?",
+              "id": "86bdda9e-5c6d-472e-9b15-8708949e3d31",
+              "slug": "02-chto-takoe-js"
             },
             {
               "index": 3,
-              "title": "5. Зависимости",
-              "id": "46a7fe83-9ffc-4d27-8bb9-aefe09618930",
-              "slug": "03-5-zavisimosti"
+              "title": "Установка JavaScript",
+              "id": "ae2d8632-9240-4450-a0ec-ebef10a2271f",
+              "slug": "03-ustanovka-javascript"
             },
             {
               "index": 4,
-              "title": "6. Зависимости для разработки",
-              "id": "4b781962-6007-4e74-ac1c-cc62091f0d94",
-              "slug": "04-6-zavisimosti-dlya-razrabotki"
+              "title": "NPM",
+              "id": "e0f7ff12-e6ab-48c3-a756-61648c5f5580",
+              "slug": "04-npm"
             },
             {
               "index": 5,
-              "title": "11. Линтинг",
-              "id": "4e2dbdb7-1bd2-4b83-8da3-6d7d52f29a31",
-              "slug": "05-11-linting"
+              "title": "Зависимости",
+              "id": "46a7fe83-9ffc-4d27-8bb9-aefe09618930",
+              "slug": "05-zavisimosti"
             },
             {
               "index": 6,
-              "title": "2. Что такое JS?",
-              "id": "86bdda9e-5c6d-472e-9b15-8708949e3d31",
-              "slug": "06-2-chto-takoe-js"
+              "title": "Зависимости для разработки",
+              "id": "4b781962-6007-4e74-ac1c-cc62091f0d94",
+              "slug": "06-zavisimosti-dlya-razrabotki"
             },
             {
               "index": 7,
-              "title": "1. Введение",
-              "id": "9d00809c-2f5d-4418-bcc1-404117d28678",
-              "slug": "07-1-vvedenie"
+              "title": "Lock-файл",
+              "id": "19d92257-b88f-45e7-8ce5-730951f682a5",
+              "slug": "07-lock-fayl"
             },
             {
               "index": 8,
-              "title": "3. Установка JavaScript",
-              "id": "ae2d8632-9240-4450-a0ec-ebef10a2271f",
-              "slug": "08-3-ustanovka-javascript"
+              "title": "Глобальная установка пакетов",
+              "id": "dfb0be62-d1e3-449d-be54-427f69f2f98f",
+              "slug": "08-globalnaya-ustanovka-paketov"
             },
             {
               "index": 9,
-              "title": "9. NPX",
+              "title": "NPX",
               "id": "b991c23d-2e2c-4c5b-8b93-576fb5dd4c27",
-              "slug": "09-9-npx"
+              "slug": "09-npx"
             },
             {
               "index": 10,
-              "title": "8. Глобальная установка пакетов",
-              "id": "dfb0be62-d1e3-449d-be54-427f69f2f98f",
-              "slug": "10-8-globalnaya-ustanovka-paketov"
+              "title": "Точка входа",
+              "id": "3c351c9b-5227-46bd-9729-9d307fd1bd8e",
+              "slug": "10-tochka-vhoda"
             },
             {
               "index": 11,
-              "title": "4. NPM",
-              "id": "e0f7ff12-e6ab-48c3-a756-61648c5f5580",
-              "slug": "11-4-npm"
+              "title": "Линтинг",
+              "id": "4e2dbdb7-1bd2-4b83-8da3-6d7d52f29a31",
+              "slug": "11-linting"
             }
           ]
         }
@@ -1262,63 +1262,63 @@
           "lessons": [
             {
               "index": 1,
-              "title": "1. Введение",
+              "title": "Введение",
               "id": "31d863cb-ce7c-4e67-939b-8ac4b1bcbd8a",
-              "slug": "01-1-vvedenie"
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "Покрытие кода тестами",
-              "id": "4ca9df0f-94ad-4879-8a77-cfc199ddb831",
-              "slug": "02-pokrytie-koda-testami"
+              "title": "Причины тестирования",
+              "id": "caca54f1-2514-45ac-ab42-a0bba0465f3f",
+              "slug": "02-prichiny-testirovaniya"
             },
             {
               "index": 3,
-              "title": "Библиотека power-assert",
-              "id": "90ae2864-7276-47d9-8b21-33674266dde6",
-              "slug": "03-biblioteka-power-assert"
+              "title": "Утверждения",
+              "id": "b699d394-5f8c-420b-9289-e16a50d0c75d",
+              "slug": "03-utverzhdeniya"
             },
             {
               "index": 4,
-              "title": "Подготовка данных",
-              "id": "a495086c-05da-4eaf-a6d5-b667bc976d69",
-              "slug": "04-podgotovka-dannyh"
+              "title": "Покрытие кода тестами",
+              "id": "4ca9df0f-94ad-4879-8a77-cfc199ddb831",
+              "slug": "04-pokrytie-koda-testami"
             },
             {
               "index": 5,
-              "title": "Jest",
-              "id": "afd81e93-4ea5-45ac-8420-858617bfbcc8",
-              "slug": "05-jest"
+              "title": "Библиотека power-assert",
+              "id": "90ae2864-7276-47d9-8b21-33674266dde6",
+              "slug": "05-biblioteka-power-assert"
             },
             {
               "index": 6,
-              "title": "3. Утверждения",
-              "id": "b699d394-5f8c-420b-9289-e16a50d0c75d",
-              "slug": "06-3-utverzhdeniya"
+              "title": "Подготовка данных",
+              "id": "a495086c-05da-4eaf-a6d5-b667bc976d69",
+              "slug": "06-podgotovka-dannyh"
             },
             {
               "index": 7,
-              "title": "Модульные тесты",
-              "id": "b99f80ee-dfd0-485b-a8e7-fb8b2c0eb2a8",
-              "slug": "07-modulnye-testy"
+              "title": "Jest",
+              "id": "afd81e93-4ea5-45ac-8420-858617bfbcc8",
+              "slug": "07-jest"
             },
             {
               "index": 8,
-              "title": "Разработка через тестирование",
-              "id": "bf8df9bf-cfdc-4383-9e81-dc166d658142",
-              "slug": "08-razrabotka-cherez-testirovanie"
+              "title": "Модульные тесты",
+              "id": "b99f80ee-dfd0-485b-a8e7-fb8b2c0eb2a8",
+              "slug": "08-modulnye-testy"
             },
             {
               "index": 9,
-              "title": "Плохие и хорошие практики тестирования",
-              "id": "c23b84e7-f914-42a4-8508-8710134ce718",
-              "slug": "09-plohie-i-horoshie-praktiki-testirovaniya"
+              "title": "Разработка через тестирование",
+              "id": "bf8df9bf-cfdc-4383-9e81-dc166d658142",
+              "slug": "09-razrabotka-cherez-testirovanie"
             },
             {
               "index": 10,
-              "title": "2. Причины тестирования",
-              "id": "caca54f1-2514-45ac-ab42-a0bba0465f3f",
-              "slug": "10-2-prichiny-testirovaniya"
+              "title": "Плохие и хорошие практики тестирования",
+              "id": "c23b84e7-f914-42a4-8508-8710134ce718",
+              "slug": "10-plohie-i-horoshie-praktiki-testirovaniya"
             },
             {
               "index": 11,
@@ -1398,57 +1398,57 @@
           "lessons": [
             {
               "index": 1,
-              "title": "7. Агрегация 2",
-              "id": "28d9ef6e-9170-4200-b3b8-a31e598658ec",
-              "slug": "01-7-agregaciya-2"
+              "title": "Введение",
+              "id": "b70a36f3-74ed-4291-960d-ec23c8a05b4d",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "2. Определения",
+              "title": "Определения",
               "id": "50f98924-5b58-402c-8e9f-1b49c19731d8",
-              "slug": "02-2-opredeleniya"
+              "slug": "02-opredeleniya"
             },
             {
               "index": 3,
-              "title": "6. Агрегация",
-              "id": "7a835427-f6be-487e-995a-6ac6868e217c",
-              "slug": "03-6-agregaciya"
+              "title": "Виртуальная файловая система",
+              "id": "da917e33-9b41-4bfc-ac63-801e1b89bc4f",
+              "slug": "03-virtualnaya-faylovaya-sistema"
             },
             {
               "index": 4,
-              "title": "8. Аккумулятор",
-              "id": "809e1412-a742-47b2-a19b-b6d8a85e0050",
-              "slug": "04-8-akkumulyator"
+              "title": "Манипуляции с виртуальной файловой системой",
+              "id": "81327c60-88a4-4a23-9d91-4ba1171db42b",
+              "slug": "04-manipulyacii-s-virtualnoy-faylovoy-sistemoy"
             },
             {
               "index": 5,
-              "title": "4. Манипуляции с виртуальной файловой системой",
-              "id": "81327c60-88a4-4a23-9d91-4ba1171db42b",
-              "slug": "05-4-manipulyacii-s-virtualnoy-faylovoy-sistemoy"
+              "title": "Обход дерева",
+              "id": "f277f318-76e3-414d-ade3-cc69c615ab29",
+              "slug": "05-obhod-dereva"
             },
             {
               "index": 6,
-              "title": "1. Введение",
-              "id": "b70a36f3-74ed-4291-960d-ec23c8a05b4d",
-              "slug": "06-1-vvedenie"
+              "title": "Агрегация",
+              "id": "7a835427-f6be-487e-995a-6ac6868e217c",
+              "slug": "06-agregaciya"
             },
             {
               "index": 7,
-              "title": "9. HTML-дерево",
-              "id": "bd187792-566c-4cd4-bf8c-9823806fbb6d",
-              "slug": "07-9-html-derevo"
+              "title": "Агрегация 2",
+              "id": "28d9ef6e-9170-4200-b3b8-a31e598658ec",
+              "slug": "07-agregaciya-2"
             },
             {
               "index": 8,
-              "title": "3. Виртуальная файловая система",
-              "id": "da917e33-9b41-4bfc-ac63-801e1b89bc4f",
-              "slug": "08-3-virtualnaya-faylovaya-sistema"
+              "title": "Аккумулятор",
+              "id": "809e1412-a742-47b2-a19b-b6d8a85e0050",
+              "slug": "08-akkumulyator"
             },
             {
               "index": 9,
-              "title": "5. Обход дерева",
-              "id": "f277f318-76e3-414d-ade3-cc69c615ab29",
-              "slug": "09-5-obhod-dereva"
+              "title": "HTML-дерево",
+              "id": "bd187792-566c-4cd4-bf8c-9823806fbb6d",
+              "slug": "09-html-derevo"
             }
           ]
         },
@@ -2086,183 +2086,183 @@
           "lessons": [
             {
               "index": 1,
-              "title": "8. Children",
-              "id": "0a2e11d3-070e-4169-80c8-a6ec78c95c1c",
-              "slug": "01-8-children"
+              "title": "Введение",
+              "id": "7057a13c-a385-493c-ba31-00ef6493d194",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "16. Контекст (Context API)",
-              "id": "20d92f03-87b8-4ff7-8141-9f342a1aab0e",
-              "slug": "02-16-kontekst-context-api"
+              "title": "Компоненты",
+              "id": "ba2d2f8a-2f65-4353-b68a-792142749af4",
+              "slug": "02-komponenty"
             },
             {
               "index": 3,
-              "title": "4. Props",
-              "id": "2c0644ef-298d-40c8-9dc2-5aadc60d3087",
-              "slug": "03-4-props"
+              "title": "JSX",
+              "id": "e3c2425f-8b44-40d2-ab47-eca1f45764eb",
+              "slug": "03-jsx"
             },
             {
               "index": 4,
-              "title": "27. Хук useRef",
-              "id": "341872d3-597a-4af6-8a41-80d70984e6da",
-              "slug": "04-27-huk-useref"
+              "title": "Props",
+              "id": "2c0644ef-298d-40c8-9dc2-5aadc60d3087",
+              "slug": "04-props"
             },
             {
               "index": 5,
-              "title": "10. События",
-              "id": "3f1eba57-8d2f-4283-83c4-fbfdaed5f69a",
-              "slug": "05-10-sobytiya"
+              "title": "Работа с коллекциями",
+              "id": "936312cd-69ca-47e6-aaab-6d39486694aa",
+              "slug": "05-rabota-s-kollekciyami"
             },
             {
               "index": 6,
-              "title": "23. Введение в хуки",
-              "id": "4074fe69-b83f-4f39-a45b-4105f6708562",
-              "slug": "06-23-vvedenie-v-huki"
+              "title": "Различия jsx и html",
+              "id": "7f0ae407-0222-48d0-aeda-256604a915b9",
+              "slug": "06-razlichiya-jsx-i-html"
             },
             {
               "index": 7,
-              "title": "25. Хук useEffect",
-              "id": "41294339-dab6-4ef6-940d-d149629c0ee5",
-              "slug": "07-25-huk-useeffect"
+              "title": "Обработка имён классов",
+              "id": "a9b50a5e-a407-47df-9b91-b0ddcf16e404",
+              "slug": "07-obrabotka-imen-klassov"
             },
             {
               "index": 8,
-              "title": "17. Virtual Dom",
-              "id": "48b423b2-4425-40c9-96a1-3fa31b9643d2",
-              "slug": "08-17-virtual-dom"
+              "title": "Children",
+              "id": "0a2e11d3-070e-4169-80c8-a6ec78c95c1c",
+              "slug": "08-children"
             },
             {
               "index": 9,
-              "title": "20. Жизненный цикл компонента",
-              "id": "49bea8db-00d9-4118-8395-35854af965f1",
-              "slug": "09-20-zhiznennyy-cikl-komponenta"
+              "title": "Состояние",
+              "id": "c34410f9-cd50-4d49-aaa2-af84cc635882",
+              "slug": "09-sostoyanie"
             },
             {
               "index": 10,
-              "title": "29. Композиция компонентов",
-              "id": "4d37be12-34df-4732-8701-75b2a824362f",
-              "slug": "10-29-kompoziciya-komponentov"
+              "title": "События",
+              "id": "3f1eba57-8d2f-4283-83c4-fbfdaed5f69a",
+              "slug": "10-sobytiya"
             },
             {
               "index": 11,
-              "title": "15. Функциональные компоненты",
-              "id": "51ba1f08-a083-421a-8bbc-64b80e5ec481",
-              "slug": "11-15-funkcionalnye-komponenty"
+              "title": "Автоматное программирование",
+              "id": "995ec6bf-e9aa-4c48-b406-9c2a54bc3c64",
+              "slug": "11-avtomatnoe-programmirovanie"
             },
             {
               "index": 12,
-              "title": "26. Хук useContext",
-              "id": "5d3f2819-2bb6-4be2-ae9e-05ab1092fd65",
-              "slug": "12-26-huk-usecontext"
+              "title": "Формы",
+              "id": "85dd5b58-87ac-456a-bef5-79f5d9959587",
+              "slug": "12-formy"
             },
             {
               "index": 13,
-              "title": "19. Асинхронная обработка",
-              "id": "67522f67-e794-4fca-99f5-f8d118eb4b82",
-              "slug": "13-19-asinhronnaya-obrabotka"
+              "title": "Неизменяемость",
+              "id": "85fd104c-e6cd-4788-b651-41e70e381359",
+              "slug": "13-neizmenyaemost"
             },
             {
               "index": 14,
-              "title": "1. Введение",
-              "id": "7057a13c-a385-493c-ba31-00ef6493d194",
-              "slug": "14-1-vvedenie"
+              "title": "Вложенные компоненты",
+              "id": "bd5d6c11-2d73-4ad3-a739-ee1c7b08a0e0",
+              "slug": "14-vlozhennye-komponenty"
             },
             {
               "index": 15,
-              "title": "6. Различия jsx и html",
-              "id": "7f0ae407-0222-48d0-aeda-256604a915b9",
-              "slug": "15-6-razlichiya-jsx-i-html"
+              "title": "Функциональные компоненты",
+              "id": "51ba1f08-a083-421a-8bbc-64b80e5ec481",
+              "slug": "15-funkcionalnye-komponenty"
             },
             {
               "index": 16,
-              "title": "12. Формы",
-              "id": "85dd5b58-87ac-456a-bef5-79f5d9959587",
-              "slug": "16-12-formy"
+              "title": "Контекст (Context API)",
+              "id": "20d92f03-87b8-4ff7-8141-9f342a1aab0e",
+              "slug": "16-kontekst-context-api"
             },
             {
               "index": 17,
-              "title": "13. Неизменяемость",
-              "id": "85fd104c-e6cd-4788-b651-41e70e381359",
-              "slug": "17-13-neizmenyaemost"
+              "title": "Virtual Dom",
+              "id": "48b423b2-4425-40c9-96a1-3fa31b9643d2",
+              "slug": "17-virtual-dom"
             },
             {
               "index": 18,
-              "title": "28. Хуки useCallback и useMemo",
-              "id": "8ebc501d-67b3-430e-a528-2c1cc0e39c43",
-              "slug": "18-28-huki-usecallback-i-usememo"
+              "title": "Тестирование",
+              "id": "90e3beaa-0280-44be-985c-b23426101d9b",
+              "slug": "18-testirovanie"
             },
             {
               "index": 19,
-              "title": "18. Тестирование",
-              "id": "90e3beaa-0280-44be-985c-b23426101d9b",
-              "slug": "19-18-testirovanie"
+              "title": "Асинхронная обработка",
+              "id": "67522f67-e794-4fca-99f5-f8d118eb4b82",
+              "slug": "19-asinhronnaya-obrabotka"
             },
             {
               "index": 20,
-              "title": "5. Работа с коллекциями",
-              "id": "936312cd-69ca-47e6-aaab-6d39486694aa",
-              "slug": "20-5-rabota-s-kollekciyami"
+              "title": "Жизненный цикл компонента",
+              "id": "49bea8db-00d9-4118-8395-35854af965f1",
+              "slug": "20-zhiznennyy-cikl-komponenta"
             },
             {
               "index": 21,
-              "title": "11. Автоматное программирование",
-              "id": "995ec6bf-e9aa-4c48-b406-9c2a54bc3c64",
-              "slug": "21-11-avtomatnoe-programmirovanie"
+              "title": "Производительность",
+              "id": "e3145b90-8872-4601-97dc-bbeae12d58fc",
+              "slug": "21-proizvoditelnost"
             },
             {
               "index": 22,
-              "title": "30. Заключение",
-              "id": "9c9d6374-23cd-41cd-bc6a-479623af74ad",
-              "slug": "22-30-zaklyuchenie"
+              "title": "Refs",
+              "id": "a970c039-5c8d-4f29-bb3b-d56894724a85",
+              "slug": "22-refs"
             },
             {
               "index": 23,
-              "title": "22. Refs",
-              "id": "a970c039-5c8d-4f29-bb3b-d56894724a85",
-              "slug": "23-22-refs"
+              "title": "Введение в хуки",
+              "id": "4074fe69-b83f-4f39-a45b-4105f6708562",
+              "slug": "23-vvedenie-v-huki"
             },
             {
               "index": 24,
-              "title": "7. Обработка имён классов",
-              "id": "a9b50a5e-a407-47df-9b91-b0ddcf16e404",
-              "slug": "24-7-obrabotka-imen-klassov"
+              "title": "Хук useState",
+              "id": "e55e671e-5197-48a5-9501-05d7d79b222c",
+              "slug": "24-huk-usestate"
             },
             {
               "index": 25,
-              "title": "2. Компоненты",
-              "id": "ba2d2f8a-2f65-4353-b68a-792142749af4",
-              "slug": "25-2-komponenty"
+              "title": "Хук useEffect",
+              "id": "41294339-dab6-4ef6-940d-d149629c0ee5",
+              "slug": "25-huk-useeffect"
             },
             {
               "index": 26,
-              "title": "14. Вложенные компоненты",
-              "id": "bd5d6c11-2d73-4ad3-a739-ee1c7b08a0e0",
-              "slug": "26-14-vlozhennye-komponenty"
+              "title": "Хук useContext",
+              "id": "5d3f2819-2bb6-4be2-ae9e-05ab1092fd65",
+              "slug": "26-huk-usecontext"
             },
             {
               "index": 27,
-              "title": "9. Состояние",
-              "id": "c34410f9-cd50-4d49-aaa2-af84cc635882",
-              "slug": "27-9-sostoyanie"
+              "title": "Хук useRef",
+              "id": "341872d3-597a-4af6-8a41-80d70984e6da",
+              "slug": "27-huk-useref"
             },
             {
               "index": 28,
-              "title": "21. Производительность",
-              "id": "e3145b90-8872-4601-97dc-bbeae12d58fc",
-              "slug": "28-21-proizvoditelnost"
+              "title": "Хуки useCallback и useMemo",
+              "id": "8ebc501d-67b3-430e-a528-2c1cc0e39c43",
+              "slug": "28-huki-usecallback-i-usememo"
             },
             {
               "index": 29,
-              "title": "3. JSX",
-              "id": "e3c2425f-8b44-40d2-ab47-eca1f45764eb",
-              "slug": "29-3-jsx"
+              "title": "Композиция компонентов",
+              "id": "4d37be12-34df-4732-8701-75b2a824362f",
+              "slug": "29-kompoziciya-komponentov"
             },
             {
               "index": 30,
-              "title": "24. Хук useState",
-              "id": "e55e671e-5197-48a5-9501-05d7d79b222c",
-              "slug": "30-24-huk-usestate"
+              "title": "Заключение",
+              "id": "9c9d6374-23cd-41cd-bc6a-479623af74ad",
+              "slug": "30-zaklyuchenie"
             }
           ]
         },
@@ -2274,69 +2274,69 @@
           "lessons": [
             {
               "index": 1,
-              "title": "10. Асинхронные запросы",
-              "id": "096bc29e-0d34-4a1c-a63a-c0534a221181",
-              "slug": "01-10-asinhronnye-zaprosy"
+              "title": "Введение",
+              "id": "ba1fb1ce-6bd5-4abf-90db-c5df8452a168",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "6. Подробнее о слайсах",
-              "id": "56cd2722-82df-490a-a614-3ac15b38b7b9",
-              "slug": "02-6-podrobnee-o-slaysah"
+              "title": "Redux",
+              "id": "bbf9b71e-c518-4425-9aca-ba8e4d358955",
+              "slug": "02-redux"
             },
             {
               "index": 3,
-              "title": "3. Редьюсеры",
+              "title": "Редьюсеры",
               "id": "5f838c6e-b816-499e-a07e-70e42f775695",
-              "slug": "03-3-redyusery"
+              "slug": "03-redyusery"
             },
             {
               "index": 4,
-              "title": "9. Механизм ExtraReducers",
-              "id": "a75d2562-c7b9-40d9-a606-dde5a8294734",
-              "slug": "04-9-mehanizm-extrareducers"
+              "title": "Мидлвары",
+              "id": "b66443f2-0977-4ea6-9e0e-a51f058e44eb",
+              "slug": "04-midlvary"
             },
             {
               "index": 5,
-              "title": "8. Механизм Entity Adapter",
-              "id": "b1074fcb-f7a7-4f1b-bf9c-c5f431fcf0ea",
-              "slug": "05-8-mehanizm-entity-adapter"
+              "title": "Подключение Redux Toolkit к React",
+              "id": "e5b55a92-d62f-4307-bc88-5446ce7aa068",
+              "slug": "05-podklyuchenie-redux-toolkit-k-react"
             },
             {
               "index": 6,
-              "title": "11. RTK Query",
-              "id": "b598be44-9ef9-47cf-9458-aa97f664c157",
-              "slug": "06-11-rtk-query"
+              "title": "Подробнее о слайсах",
+              "id": "56cd2722-82df-490a-a614-3ac15b38b7b9",
+              "slug": "06-podrobnee-o-slaysah"
             },
             {
               "index": 7,
-              "title": "4. Мидлвары",
-              "id": "b66443f2-0977-4ea6-9e0e-a51f058e44eb",
-              "slug": "07-4-midlvary"
+              "title": "Нормализация данных в Redux",
+              "id": "ee4e99bb-b23a-4994-91cb-ff58b8bd7002",
+              "slug": "07-normalizaciya-dannyh-v-redux"
             },
             {
               "index": 8,
-              "title": "1. Введение",
-              "id": "ba1fb1ce-6bd5-4abf-90db-c5df8452a168",
-              "slug": "08-1-vvedenie"
+              "title": "Механизм Entity Adapter",
+              "id": "b1074fcb-f7a7-4f1b-bf9c-c5f431fcf0ea",
+              "slug": "08-mehanizm-entity-adapter"
             },
             {
               "index": 9,
-              "title": "2. Redux",
-              "id": "bbf9b71e-c518-4425-9aca-ba8e4d358955",
-              "slug": "09-2-redux"
+              "title": "Механизм ExtraReducers",
+              "id": "a75d2562-c7b9-40d9-a606-dde5a8294734",
+              "slug": "09-mehanizm-extrareducers"
             },
             {
               "index": 10,
-              "title": "5. Подключение Redux Toolkit к React",
-              "id": "e5b55a92-d62f-4307-bc88-5446ce7aa068",
-              "slug": "10-5-podklyuchenie-redux-toolkit-k-react"
+              "title": "Асинхронные запросы",
+              "id": "096bc29e-0d34-4a1c-a63a-c0534a221181",
+              "slug": "10-asinhronnye-zaprosy"
             },
             {
               "index": 11,
-              "title": "7. Нормализация данных в Redux",
-              "id": "ee4e99bb-b23a-4994-91cb-ff58b8bd7002",
-              "slug": "11-7-normalizaciya-dannyh-v-redux"
+              "title": "RTK Query",
+              "id": "b598be44-9ef9-47cf-9458-aa97f664c157",
+              "slug": "11-rtk-query"
             }
           ]
         }
@@ -2454,207 +2454,207 @@
           "lessons": [
             {
               "index": 1,
-              "title": "Иерархия типов",
-              "id": "021b45a7-e71f-4cab-95dc-c1859edbad62",
-              "slug": "01-ierarhiya-tipov"
+              "title": "Введение",
+              "id": "26ebe26a-5121-4868-b525-d0c32eb85f0f",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "16. Возврат из функции",
-              "id": "07addbce-6354-4a1d-8c3e-17bd46cf5ac0",
-              "slug": "02-16-vozvrat-iz-funkcii"
+              "title": "Привет, Мир!",
+              "id": "c3d62e37-f109-42d0-a7d4-24526a764914",
+              "slug": "02-privet-mir"
             },
             {
               "index": 3,
-              "title": "Неизменяемые массивы",
-              "id": "08431f91-cfd6-49bf-bc31-4d72923a72bb",
-              "slug": "03-neizmenyaemye-massivy"
+              "title": "TypeScript",
+              "id": "ef53d5a8-f5b0-4fce-945d-f4f3f31942d5",
+              "slug": "03-typescript"
             },
             {
               "index": 4,
-              "title": "Пересечение",
-              "id": "0cc3b973-ff05-49c0-a696-56b28e53cecd",
-              "slug": "04-peresechenie"
+              "title": "Переменные",
+              "id": "295a9bb6-864d-42a7-9002-b65ffbaa14e9",
+              "slug": "04-peremennye"
             },
             {
               "index": 5,
-              "title": "8. Объектные типы",
-              "id": "2656ad7d-fa62-4cd9-8768-f27124280009",
-              "slug": "05-8-obektnye-tipy"
+              "title": "Именованные функции",
+              "id": "c1982583-c140-44ad-9650-33ad262160ea",
+              "slug": "05-imenovannye-funkcii"
             },
             {
               "index": 6,
-              "title": "1. Введение",
-              "id": "26ebe26a-5121-4868-b525-d0c32eb85f0f",
-              "slug": "06-1-vvedenie"
+              "title": "Анонимные функции",
+              "id": "3d0e92ff-4b26-473f-a7b0-e36c33536e9d",
+              "slug": "06-anonimnye-funkcii"
             },
             {
               "index": 7,
-              "title": "Null и Undefined",
-              "id": "286ed199-bdc9-4feb-98f8-010acabf724b",
-              "slug": "07-null-i-undefined"
+              "title": "Массивы",
+              "id": "70c5e899-c6e3-46ae-a45a-448a19790d2d",
+              "slug": "07-massivy"
             },
             {
               "index": 8,
-              "title": "4. Переменные",
-              "id": "295a9bb6-864d-42a7-9002-b65ffbaa14e9",
-              "slug": "08-4-peremennye"
+              "title": "Объектные типы",
+              "id": "2656ad7d-fa62-4cd9-8768-f27124280009",
+              "slug": "08-obektnye-tipy"
             },
             {
               "index": 9,
-              "title": "Присваивание значения",
-              "id": "2b1319d5-986d-447b-9af2-5a42fb31dace",
-              "slug": "09-prisvaivanie-znacheniya"
+              "title": "Перечисления",
+              "id": "4ddc27fc-d99e-46e1-bd47-2faa431025d6",
+              "slug": "09-perechisleniya"
             },
             {
               "index": 10,
-              "title": "6. Анонимные функции",
-              "id": "3d0e92ff-4b26-473f-a7b0-e36c33536e9d",
-              "slug": "10-6-anonimnye-funkcii"
+              "title": "Псевдонимы типов",
+              "id": "f9951301-56e3-4bc7-93e3-b91793ed794b",
+              "slug": "10-psevdonimy-tipov"
             },
             {
               "index": 11,
-              "title": "20. Перегрузка функций",
-              "id": "40c4555c-95a7-4ebd-b7d7-cf05093849b1",
-              "slug": "11-20-peregruzka-funkciy"
+              "title": "Тип Any",
+              "id": "a0d982f9-ead2-449c-8011-6ed1fe27488e",
+              "slug": "11-tip-any"
             },
             {
               "index": 12,
-              "title": "9. Перечисления",
-              "id": "4ddc27fc-d99e-46e1-bd47-2faa431025d6",
-              "slug": "12-9-perechisleniya"
+              "title": "Система модулей",
+              "id": "5b5fd560-718c-42c5-9df7-cfa439767fa1",
+              "slug": "12-sistema-moduley"
             },
             {
               "index": 13,
-              "title": "Аннотации типов",
-              "id": "54c61664-2508-4408-9b80-4c8cc47dab08",
-              "slug": "13-annotacii-tipov"
+              "title": "Функции как параметры",
+              "id": "9a293d45-54e8-48b0-bab2-c155611c3c3c",
+              "slug": "13-funkcii-kak-parametry"
             },
             {
               "index": 14,
-              "title": "12. Система модулей",
-              "id": "5b5fd560-718c-42c5-9df7-cfa439767fa1",
-              "slug": "14-12-sistema-moduley"
+              "title": "Опциональные параметры в функциях",
+              "id": "bc9c2875-d46a-4ce3-bfe3-5691cd8ccbda",
+              "slug": "14-opcionalnye-parametry-v-funkciyah"
             },
             {
               "index": 15,
-              "title": "Объединения",
-              "id": "66a73e95-b6ff-4464-8249-8d4f297fee5b",
-              "slug": "15-obedineniya"
+              "title": "Тип Void",
+              "id": "84f29d0f-2e73-4da7-8afe-342afbb8ce91",
+              "slug": "15-tip-void"
             },
             {
               "index": 16,
-              "title": "7. Массивы",
-              "id": "70c5e899-c6e3-46ae-a45a-448a19790d2d",
-              "slug": "16-7-massivy"
+              "title": "Возврат из функции",
+              "id": "07addbce-6354-4a1d-8c3e-17bd46cf5ac0",
+              "slug": "16-vozvrat-iz-funkcii"
             },
             {
               "index": 17,
-              "title": "15. Тип Void",
-              "id": "84f29d0f-2e73-4da7-8afe-342afbb8ce91",
-              "slug": "17-15-tip-void"
+              "title": "Тип Unknown",
+              "id": "f55870ff-0b36-411c-8d81-a0e6557ad2c0",
+              "slug": "17-tip-unknown"
             },
             {
               "index": 18,
-              "title": "Структурная типизация",
-              "id": "9045a4b6-e29b-4443-94a9-b7517b1b8759",
-              "slug": "18-strukturnaya-tipizaciya"
+              "title": "Деструктуризация",
+              "id": "e02f874e-0e99-4c47-b674-91261f9ab7df",
+              "slug": "18-destrukturizaciya"
             },
             {
               "index": 19,
-              "title": "Кортежи",
-              "id": "91c65ba6-5484-44e5-b044-73a4e650b858",
-              "slug": "19-kortezhi"
+              "title": "Операции Rest и Spread",
+              "id": "b0615510-7310-4b61-ab6f-45832ef2f720",
+              "slug": "19-operacii-rest-i-spread"
             },
             {
               "index": 20,
-              "title": "Типы как множества",
-              "id": "9211ab1c-68c5-4a44-8ff5-7b31d45ac495",
-              "slug": "20-tipy-kak-mnozhestva"
+              "title": "Перегрузка функций",
+              "id": "40c4555c-95a7-4ebd-b7d7-cf05093849b1",
+              "slug": "20-peregruzka-funkciy"
             },
             {
               "index": 21,
-              "title": "13. Функции как параметры",
-              "id": "9a293d45-54e8-48b0-bab2-c155611c3c3c",
-              "slug": "21-13-funkcii-kak-parametry"
+              "title": "Иерархия типов",
+              "id": "021b45a7-e71f-4cab-95dc-c1859edbad62",
+              "slug": "21-ierarhiya-tipov"
             },
             {
               "index": 22,
-              "title": "11. Тип Any",
-              "id": "a0d982f9-ead2-449c-8011-6ed1fe27488e",
-              "slug": "22-11-tip-any"
+              "title": "Неизменяемые массивы",
+              "id": "08431f91-cfd6-49bf-bc31-4d72923a72bb",
+              "slug": "22-neizmenyaemye-massivy"
             },
             {
               "index": 23,
-              "title": "19. Операции Rest и Spread",
-              "id": "b0615510-7310-4b61-ab6f-45832ef2f720",
-              "slug": "23-19-operacii-rest-i-spread"
+              "title": "Пересечение",
+              "id": "0cc3b973-ff05-49c0-a696-56b28e53cecd",
+              "slug": "23-peresechenie"
             },
             {
               "index": 24,
-              "title": "14. Опциональные параметры в функциях",
-              "id": "bc9c2875-d46a-4ce3-bfe3-5691cd8ccbda",
-              "slug": "24-14-opcionalnye-parametry-v-funkciyah"
+              "title": "Null и Undefined",
+              "id": "286ed199-bdc9-4feb-98f8-010acabf724b",
+              "slug": "24-null-i-undefined"
             },
             {
               "index": 25,
-              "title": "5. Именованные функции",
-              "id": "c1982583-c140-44ad-9650-33ad262160ea",
-              "slug": "25-5-imenovannye-funkcii"
+              "title": "Присваивание значения",
+              "id": "2b1319d5-986d-447b-9af2-5a42fb31dace",
+              "slug": "25-prisvaivanie-znacheniya"
             },
             {
               "index": 26,
-              "title": "2. Привет, Мир!",
-              "id": "c3d62e37-f109-42d0-a7d4-24526a764914",
-              "slug": "26-2-privet-mir"
+              "title": "Аннотации типов",
+              "id": "54c61664-2508-4408-9b80-4c8cc47dab08",
+              "slug": "26-annotacii-tipov"
             },
             {
               "index": 27,
-              "title": "Сужение типов",
-              "id": "c4a97834-5998-4381-bad4-3f7e41fb0399",
-              "slug": "27-suzhenie-tipov"
+              "title": "Объединения",
+              "id": "66a73e95-b6ff-4464-8249-8d4f297fee5b",
+              "slug": "27-obedineniya"
             },
             {
               "index": 28,
-              "title": "Ковариантность и контравариантность",
-              "id": "c4e300eb-777d-4b00-bf37-e12a0c3fd71d",
-              "slug": "28-kovariantnost-i-kontravariantnost"
+              "title": "Структурная типизация",
+              "id": "9045a4b6-e29b-4443-94a9-b7517b1b8759",
+              "slug": "28-strukturnaya-tipizaciya"
             },
             {
               "index": 29,
-              "title": "Многомерные массивы",
-              "id": "d7a4bb8b-8668-457b-a74b-11352c19d7a5",
-              "slug": "29-mnogomernye-massivy"
+              "title": "Кортежи",
+              "id": "91c65ba6-5484-44e5-b044-73a4e650b858",
+              "slug": "29-kortezhi"
             },
             {
               "index": 30,
-              "title": "18. Деструктуризация",
-              "id": "e02f874e-0e99-4c47-b674-91261f9ab7df",
-              "slug": "30-18-destrukturizaciya"
+              "title": "Типы как множества",
+              "id": "9211ab1c-68c5-4a44-8ff5-7b31d45ac495",
+              "slug": "30-tipy-kak-mnozhestva"
             },
             {
               "index": 31,
-              "title": "Литералы",
-              "id": "e9d54ae6-817e-40aa-882d-9337045fff08",
-              "slug": "31-literaly"
+              "title": "Сужение типов",
+              "id": "c4a97834-5998-4381-bad4-3f7e41fb0399",
+              "slug": "31-suzhenie-tipov"
             },
             {
               "index": 32,
-              "title": "3. TypeScript",
-              "id": "ef53d5a8-f5b0-4fce-945d-f4f3f31942d5",
-              "slug": "32-3-typescript"
+              "title": "Ковариантность и контравариантность",
+              "id": "c4e300eb-777d-4b00-bf37-e12a0c3fd71d",
+              "slug": "32-kovariantnost-i-kontravariantnost"
             },
             {
               "index": 33,
-              "title": "17. Тип Unknown",
-              "id": "f55870ff-0b36-411c-8d81-a0e6557ad2c0",
-              "slug": "33-17-tip-unknown"
+              "title": "Многомерные массивы",
+              "id": "d7a4bb8b-8668-457b-a74b-11352c19d7a5",
+              "slug": "33-mnogomernye-massivy"
             },
             {
               "index": 34,
-              "title": "10. Псевдонимы типов",
-              "id": "f9951301-56e3-4bc7-93e3-b91793ed794b",
-              "slug": "34-10-psevdonimy-tipov"
+              "title": "Литералы",
+              "id": "e9d54ae6-817e-40aa-882d-9337045fff08",
+              "slug": "34-literaly"
             }
           ]
         },

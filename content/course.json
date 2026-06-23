@@ -433,274 +433,274 @@
           "lessons": [
             {
               "index": 1,
-              "title": "33. Цикл while",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/01-33-cikl-while.md",
+              "title": "Введение",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/01-vvedenie.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 2,
-              "title": "34. Агрегация данных",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/02-34-agregaciya-dannyh.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Hello, World!",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/02-hello-world.md",
+              "quiz": "js-basics-hello-world",
+              "exercise": "js-basics-hello-world"
             },
             {
               "index": 3,
-              "title": "31. Тернарный оператор",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/03-31-ternarnyy-operator.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Инструкции",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/03-instrukcii.md",
+              "quiz": "js-basics-instructions",
+              "exercise": "js-basics-instructions"
             },
             {
               "index": 4,
-              "title": "35. Обход строк в цикле",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/04-35-obhod-strok-v-cikle.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Арифметические операции",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/04-arifmeticheskie-operacii.md",
+              "quiz": "js-basics-arithmetics",
+              "exercise": "js-basics-arithmetics"
             },
             {
               "index": 5,
-              "title": "36. Условия внутри тела цикла",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/05-36-usloviya-vnutri-tela-cikla.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Ошибки оформления (синтаксиса и линтера)",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/05-oshibki-oformleniya-sintaksisa-i-lintera.md",
+              "quiz": "js-basics-errors",
+              "exercise": "js-basics-errors"
             },
             {
               "index": 6,
-              "title": "9. Именование",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/06-9-imenovanie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Строки",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/06-stroki.md",
+              "quiz": "js-basics-strings",
+              "exercise": "js-basics-strings"
             },
             {
               "index": 7,
-              "title": "32. Конструкция Switch",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/07-32-konstrukciya-switch.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Переменные",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/07-peremennye.md",
+              "quiz": "js-basics-variables",
+              "exercise": "js-basics-variables"
             },
             {
               "index": 8,
-              "title": "38. Цикл for",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/08-38-cikl-for.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Выражения в определениях",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/08-vyrazheniya-v-opredeleniyah.md",
+              "quiz": "js-basics-variables-expression",
+              "exercise": "js-basics-variables-expressions"
             },
             {
               "index": 9,
-              "title": "16. Вызов функции — выражение",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/09-16-vyzov-funkcii-vyrazhenie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Именование",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/09-imenovanie.md",
+              "quiz": "js-basics-naming",
+              "exercise": "js-basics-naming"
             },
             {
               "index": 10,
-              "title": "21. Цепочка вызовов",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/10-21-cepochka-vyzovov.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Интерполяция",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/10-interpolyaciya.md",
+              "quiz": "js-basics-interpolation",
+              "exercise": "js-basics-interpolation"
             },
             {
               "index": 11,
-              "title": "2. Hello, World!",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/11-2-hello-world.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Извлечение символов из строки",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/11-izvlechenie-simvolov-iz-stroki.md",
+              "quiz": "js-basics-symbols",
+              "exercise": "js-basics-symbols"
             },
             {
               "index": 12,
-              "title": "27. Логика",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/12-27-logika.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Типы данных",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/12-tipy-dannyh.md",
+              "quiz": "js-basics-data-types",
+              "exercise": "js-basics-data-types"
             },
             {
               "index": 13,
-              "title": "15. Сигнатура функции",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/13-15-signatura-funkcii.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Неизменяемость и примитивные типы",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/13-neizmenyaemost-i-primitivnye-tipy.md",
+              "quiz": "js-basics-immutability-of-primitive-types",
+              "exercise": "js-basics-immutability-of-primitive-types"
             },
             {
               "index": 14,
-              "title": "18. Детерминированность",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/14-18-determinirovannost.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Функции и их вызов",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/14-funkcii-i-ih-vyzov.md",
+              "quiz": "js-basics-calling-functions",
+              "exercise": "js-basics-calling-functions"
             },
             {
               "index": 15,
-              "title": "37. Инкремент и декремент",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/15-37-inkrement-i-dekrement.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Сигнатура функции",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/15-signatura-funkcii.md",
+              "quiz": "js-basics-signature",
+              "exercise": "js-basics-signature"
             },
             {
               "index": 16,
-              "title": "22. Определение функций",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/16-22-opredelenie-funkciy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Вызов функции — выражение",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/16-vyzov-funkcii-vyrazhenie.md",
+              "quiz": "js-basics-call-function-expression",
+              "exercise": "js-basics-call-function-expression-ercise"
             },
             {
               "index": 17,
-              "title": "28. Логические операторы",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/17-28-logicheskie-operatory.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Функции с переменным числом параметров",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/17-funkcii-s-peremennym-chislom-parametrov.md",
+              "quiz": "js-basics-variadic-parameters",
+              "exercise": "js-basics-variadic-parameters"
             },
             {
               "index": 18,
-              "title": "3. Инструкции",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/18-3-instrukcii.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Детерминированность",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/18-determinirovannost.md",
+              "quiz": "js-basics-deterministic",
+              "exercise": "js-basics-deterministic"
             },
             {
               "index": 19,
-              "title": "12. Типы данных",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/19-12-tipy-dannyh.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Стандартная библиотека",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/19-standartnaya-biblioteka.md",
+              "quiz": "js-basics-stdlib",
+              "exercise": "js-basics-stdlib"
             },
             {
               "index": 20,
-              "title": "1. Введение",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/20-1-vvedenie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Свойства и методы",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/20-svoystva-i-metody.md",
+              "quiz": "js-basics-properties-methods",
+              "exercise": "js-basics-properties-methods"
             },
             {
               "index": 21,
-              "title": "13. Неизменяемость и примитивные типы",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/21-13-neizmenyaemost-i-primitivnye-tipy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Цепочка вызовов",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/21-cepochka-vyzovov.md",
+              "quiz": "js-basics-methods-chain",
+              "exercise": "js-basics-methods-chain"
             },
             {
               "index": 22,
-              "title": "8. Выражения в определениях",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/22-8-vyrazheniya-v-opredeleniyah.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Определение функций",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/22-opredelenie-funkciy.md",
+              "quiz": "js-basics-functions-define",
+              "exercise": "js-basics-functions-define"
             },
             {
               "index": 23,
-              "title": "10. Интерполяция",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/23-10-interpolyaciya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Возврат значений",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/23-vozvrat-znacheniy.md",
+              "quiz": "js-basics-functions-return",
+              "exercise": "js-basics-functions-return"
             },
             {
               "index": 24,
-              "title": "26. Упрощенный синтаксис функций",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/24-26-uproschennyy-sintaksis-funkciy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Параметры функций",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/24-parametry-funkciy.md",
+              "quiz": "js-basics-functions-parameters",
+              "exercise": "js-basics-functions-parameters"
             },
             {
               "index": 25,
-              "title": "30. Условные конструкции",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/25-30-uslovnye-konstrukcii.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Необязательные параметры функций",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/25-neobyazatelnye-parametry-funkciy.md",
+              "quiz": "js-basics-functions-default-parameters",
+              "exercise": "js-basics-functions-default-parameters"
             },
             {
               "index": 26,
-              "title": "11. Извлечение символов из строки",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/26-11-izvlechenie-simvolov-iz-stroki.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Упрощенный синтаксис функций",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/26-uproschennyy-sintaksis-funkciy.md",
+              "quiz": "js-basics-functions-short-syntax",
+              "exercise": "js-basics-functions-short-syntax"
             },
             {
               "index": 27,
-              "title": "29. Результат логических операций",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/27-29-rezultat-logicheskih-operaciy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Логика",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/27-logika.md",
+              "quiz": "js-basics-logical-operations",
+              "exercise": "js-basics-logical-operations"
             },
             {
               "index": 28,
-              "title": "7. Переменные",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/28-7-peremennye.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Логические операторы",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory.md",
+              "quiz": "js-basics-logical-operators",
+              "exercise": "js-basics-logical-operators"
             },
             {
               "index": 29,
-              "title": "14. Функции и их вызов",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/29-14-funkcii-i-ih-vyzov.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Результат логических операций",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/29-rezultat-logicheskih-operaciy.md",
+              "quiz": "js-basics-logical-expressions",
+              "exercise": "js-basics-logical-expressions"
             },
             {
               "index": 30,
-              "title": "23. Возврат значений",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/30-23-vozvrat-znacheniy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Условные конструкции",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/30-uslovnye-konstrukcii.md",
+              "quiz": "js-basics-conditionals",
+              "exercise": "js-basics-conditionals"
             },
             {
               "index": 31,
-              "title": "24. Параметры функций",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/31-24-parametry-funkciy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Тернарный оператор",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/31-ternarnyy-operator.md",
+              "quiz": "js-basics-ternary-operator",
+              "exercise": "js-basics-ternary-operator"
             },
             {
               "index": 32,
-              "title": "25. Необязательные параметры функций",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/32-25-neobyazatelnye-parametry-funkciy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Конструкция Switch",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/32-konstrukciya-switch.md",
+              "quiz": "js-basics-switch",
+              "exercise": "js-basics-switch"
             },
             {
               "index": 33,
-              "title": "39. Модули",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/33-39-moduli.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Цикл while",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/33-cikl-while.md",
+              "quiz": "js-basics-while",
+              "exercise": "js-basics-while"
             },
             {
               "index": 34,
-              "title": "6. Строки",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/34-6-stroki.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Агрегация данных",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/34-agregaciya-dannyh.md",
+              "quiz": "js-basics-aggregation",
+              "exercise": "js-basics-aggregation"
             },
             {
               "index": 35,
-              "title": "20. Свойства и методы",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/35-20-svoystva-i-metody.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Обход строк в цикле",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/35-obhod-strok-v-cikle.md",
+              "quiz": "js-basics-iteration-over-strings",
+              "exercise": "js-basics-iteration-over-strings"
             },
             {
               "index": 36,
-              "title": "5. Ошибки оформления (синтаксиса и линтера)",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/36-5-oshibki-oformleniya-sintaksisa-i-lintera.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Условия внутри тела цикла",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/36-usloviya-vnutri-tela-cikla.md",
+              "quiz": "js-basics-conditions-inside-loops",
+              "exercise": "js-basics-conditions-inside-loops"
             },
             {
               "index": 37,
-              "title": "4. Арифметические операции",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/37-4-arifmeticheskie-operacii.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Инкремент и декремент",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/37-inkrement-i-dekrement.md",
+              "quiz": "js-basics-mutators",
+              "exercise": "js-basics-mutators"
             },
             {
               "index": 38,
-              "title": "19. Стандартная библиотека",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/38-19-standartnaya-biblioteka.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Цикл for",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/38-cikl-for.md",
+              "quiz": "js-basics-for",
+              "exercise": "js-basics-for"
             },
             {
               "index": 39,
-              "title": "17. Функции с переменным числом параметров",
-              "theory": "content/theory/02-modul-2/01-osnovy-javascript/39-17-funkcii-s-peremennym-chislom-parametrov.md",
+              "title": "Модули",
+              "theory": "content/theory/02-modul-2/01-osnovy-javascript/39-moduli.md",
               "quiz": null,
               "exercise": null
             }
@@ -714,156 +714,156 @@
           "lessons": [
             {
               "index": 1,
-              "title": "9. Удаление элементов массива",
-              "theory": "content/theory/02-modul-2/02-js-massivy/01-9-udalenie-elementov-massiva.md",
+              "title": "О курсе",
+              "theory": "content/theory/02-modul-2/02-js-massivy/01-o-kurse.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 2,
-              "title": "12. Генерация строки в цикле",
-              "theory": "content/theory/02-modul-2/02-js-massivy/02-12-generaciya-stroki-v-cikle.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Синтаксис",
+              "theory": "content/theory/02-modul-2/02-js-massivy/02-sintaksis.md",
+              "quiz": "js-arrays-syntax",
+              "exercise": "js-arrays-syntax"
             },
             {
               "index": 3,
-              "title": "6. Ссылки",
-              "theory": "content/theory/02-modul-2/02-js-massivy/03-6-ssylki.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Модификация",
+              "theory": "content/theory/02-modul-2/02-js-massivy/03-modifikaciya.md",
+              "quiz": "js-arrays-modification",
+              "exercise": "js-arrays-modification"
             },
             {
               "index": 4,
-              "title": "3. Модификация",
-              "theory": "content/theory/02-modul-2/02-js-massivy/04-3-modifikaciya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Проверка существования значения",
+              "theory": "content/theory/02-modul-2/02-js-massivy/04-proverka-suschestvovaniya-znacheniya.md",
+              "quiz": "js-arrays-isset",
+              "exercise": "js-arrays-isset"
             },
             {
               "index": 5,
-              "title": "15. Теория множеств",
-              "theory": "content/theory/02-modul-2/02-js-massivy/05-15-teoriya-mnozhestv.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Цикл for",
+              "theory": "content/theory/02-modul-2/02-js-massivy/05-cikl-for.md",
+              "quiz": "js-arrays-for",
+              "exercise": "js-arrays-for"
             },
             {
               "index": 6,
-              "title": "7. Агрегация",
-              "theory": "content/theory/02-modul-2/02-js-massivy/06-7-agregaciya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Ссылки",
+              "theory": "content/theory/02-modul-2/02-js-massivy/06-ssylki.md",
+              "quiz": "js-arrays-references",
+              "exercise": "js-arrays-references"
             },
             {
               "index": 7,
-              "title": "1. О курсе",
-              "theory": "content/theory/02-modul-2/02-js-massivy/07-1-o-kurse.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Агрегация",
+              "theory": "content/theory/02-modul-2/02-js-massivy/07-agregaciya.md",
+              "quiz": "js-arrays-aggregation",
+              "exercise": "js-arrays-aggregation"
             },
             {
               "index": 8,
-              "title": "13. Обработка строк через преобразование в массив",
-              "theory": "content/theory/02-modul-2/02-js-massivy/08-13-obrabotka-strok-cherez-preobrazovanie-v-massiv.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Цикл for...of",
+              "theory": "content/theory/02-modul-2/02-js-massivy/08-cikl-for-of.md",
+              "quiz": "js-arrays-for-of",
+              "exercise": "js-arrays-for-of"
             },
             {
               "index": 9,
-              "title": "2. Синтаксис",
-              "theory": "content/theory/02-modul-2/02-js-massivy/09-2-sintaksis.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Удаление элементов массива",
+              "theory": "content/theory/02-modul-2/02-js-massivy/09-udalenie-elementov-massiva.md",
+              "quiz": "js-arrays-removing",
+              "exercise": "js-arrays-removing"
             },
             {
               "index": 10,
-              "title": "14. Вложенные циклы",
-              "theory": "content/theory/02-modul-2/02-js-massivy/10-14-vlozhennye-cikly.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Управляющие инструкции",
+              "theory": "content/theory/02-modul-2/02-js-massivy/10-upravlyayuschie-instrukcii.md",
+              "quiz": "js-arrays-control-statements",
+              "exercise": "js-arrays-control-statements"
             },
             {
               "index": 11,
-              "title": "19. Деструктуризация",
-              "theory": "content/theory/02-modul-2/02-js-massivy/11-19-destrukturizaciya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Вложенные массивы",
+              "theory": "content/theory/02-modul-2/02-js-massivy/11-vlozhennye-massivy.md",
+              "quiz": "js-arrays-nested-arrays",
+              "exercise": "js-arrays-nested-arrays"
             },
             {
               "index": 12,
-              "title": "10. Управляющие инструкции",
-              "theory": "content/theory/02-modul-2/02-js-massivy/12-10-upravlyayuschie-instrukcii.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Генерация строки в цикле",
+              "theory": "content/theory/02-modul-2/02-js-massivy/12-generaciya-stroki-v-cikle.md",
+              "quiz": "js-arrays-build-strings",
+              "exercise": "js-arrays-build-strings"
             },
             {
               "index": 13,
-              "title": "20. Rest и деструктуризация",
-              "theory": "content/theory/02-modul-2/02-js-massivy/13-20-rest-i-destrukturizaciya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Обработка строк через преобразование в массив",
+              "theory": "content/theory/02-modul-2/02-js-massivy/13-obrabotka-strok-cherez-preobrazovanie-v-massiv.md",
+              "quiz": "js-arrays-strings",
+              "exercise": "js-arrays-strings"
             },
             {
               "index": 14,
-              "title": "16. Сортировка массивов",
-              "theory": "content/theory/02-modul-2/02-js-massivy/14-16-sortirovka-massivov.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Вложенные циклы",
+              "theory": "content/theory/02-modul-2/02-js-massivy/14-vlozhennye-cikly.md",
+              "quiz": "js-arrays-nested-loops",
+              "exercise": "js-arrays-nested-loops"
             },
             {
               "index": 15,
-              "title": "8. Цикл for...of",
-              "theory": "content/theory/02-modul-2/02-js-massivy/15-8-cikl-for-of.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Теория множеств",
+              "theory": "content/theory/02-modul-2/02-js-massivy/15-teoriya-mnozhestv.md",
+              "quiz": "js-arrays-set-theory",
+              "exercise": "js-arrays-set-theory"
             },
             {
               "index": 16,
-              "title": "4. Проверка существования значения",
-              "theory": "content/theory/02-modul-2/02-js-massivy/16-4-proverka-suschestvovaniya-znacheniya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Сортировка массивов",
+              "theory": "content/theory/02-modul-2/02-js-massivy/16-sortirovka-massivov.md",
+              "quiz": "js-arrays-sorting",
+              "exercise": "js-arrays-sorting"
             },
             {
               "index": 17,
-              "title": "21. Spread и создание новых массивов",
-              "theory": "content/theory/02-modul-2/02-js-massivy/17-21-spread-i-sozdanie-novyh-massivov.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Стек",
+              "theory": "content/theory/02-modul-2/02-js-massivy/17-stek.md",
+              "quiz": "js-arrays-stack",
+              "exercise": "js-arrays-stack"
             },
             {
               "index": 18,
-              "title": "22. Массивы в памяти компьютера",
-              "theory": "content/theory/02-modul-2/02-js-massivy/18-22-massivy-v-pamyati-kompyutera.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Big O",
+              "theory": "content/theory/02-modul-2/02-js-massivy/18-big-o.md",
+              "quiz": "js-arrays-big-o",
+              "exercise": "js-arrays-big-o"
             },
             {
               "index": 19,
-              "title": "5. Цикл for",
-              "theory": "content/theory/02-modul-2/02-js-massivy/19-5-cikl-for.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Деструктуризация",
+              "theory": "content/theory/02-modul-2/02-js-massivy/19-destrukturizaciya.md",
+              "quiz": "js-arrays-destructuring",
+              "exercise": "js-arrays-destructuring"
             },
             {
               "index": 20,
-              "title": "11. Вложенные массивы",
-              "theory": "content/theory/02-modul-2/02-js-massivy/20-11-vlozhennye-massivy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Rest и деструктуризация",
+              "theory": "content/theory/02-modul-2/02-js-massivy/20-rest-i-destrukturizaciya.md",
+              "quiz": "js-arrays-rest-operator",
+              "exercise": "js-arrays-rest-operator"
             },
             {
               "index": 21,
-              "title": "18. Big O",
-              "theory": "content/theory/02-modul-2/02-js-massivy/21-18-big-o.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Spread и создание новых массивов",
+              "theory": "content/theory/02-modul-2/02-js-massivy/21-spread-i-sozdanie-novyh-massivov.md",
+              "quiz": "js-arrays-spread-operator",
+              "exercise": "js-arrays-spread-operator"
             },
             {
               "index": 22,
-              "title": "17. Стек",
-              "theory": "content/theory/02-modul-2/02-js-massivy/22-17-stek.md",
-              "quiz": null,
+              "title": "Массивы в памяти компьютера",
+              "theory": "content/theory/02-modul-2/02-js-massivy/22-massivy-v-pamyati-kompyutera.md",
+              "quiz": "js-arrays-implementation",
               "exercise": null
             }
           ]
@@ -876,94 +876,94 @@
           "lessons": [
             {
               "index": 1,
-              "title": "5. Объекты в действии",
-              "theory": "content/theory/02-modul-2/03-js-obekty/01-5-obekty-v-deystvii.md",
+              "title": "О курсе",
+              "theory": "content/theory/02-modul-2/03-js-obekty/01-o-kurse.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 2,
-              "title": "10. Клонирование и копирование",
-              "theory": "content/theory/02-modul-2/03-js-obekty/02-10-klonirovanie-i-kopirovanie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Синтаксис",
+              "theory": "content/theory/02-modul-2/03-js-obekty/02-sintaksis.md",
+              "quiz": "js-objects-syntax",
+              "exercise": "js-objects-syntax"
             },
             {
               "index": 3,
-              "title": "13. Хеш-таблицы",
-              "theory": "content/theory/02-modul-2/03-js-obekty/03-13-hesh-tablicy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Модификация",
+              "theory": "content/theory/02-modul-2/03-js-obekty/03-modifikaciya.md",
+              "quiz": "js-objects-modifications",
+              "exercise": "js-objects-modifications"
             },
             {
               "index": 4,
-              "title": "11. Создание новых объектов и spread",
-              "theory": "content/theory/02-modul-2/03-js-obekty/04-11-sozdanie-novyh-obektov-i-spread.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Ссылки",
+              "theory": "content/theory/02-modul-2/03-js-obekty/04-ssylki.md",
+              "quiz": "js-objects-references",
+              "exercise": "js-objects-references"
             },
             {
               "index": 5,
-              "title": "3. Модификация",
-              "theory": "content/theory/02-modul-2/03-js-obekty/05-3-modifikaciya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Объекты в действии",
+              "theory": "content/theory/02-modul-2/03-js-obekty/05-obekty-v-deystvii.md",
+              "quiz": "js-objects-using",
+              "exercise": "js-objects-using"
             },
             {
               "index": 6,
-              "title": "2. Синтаксис",
-              "theory": "content/theory/02-modul-2/03-js-obekty/06-2-sintaksis.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Проверка существования свойства",
+              "theory": "content/theory/02-modul-2/03-js-obekty/06-proverka-suschestvovaniya-svoystva.md",
+              "quiz": "js-objects-property-existence",
+              "exercise": "js-objects-property-exitence"
             },
             {
               "index": 7,
-              "title": "6. Проверка существования свойства",
-              "theory": "content/theory/02-modul-2/03-js-obekty/07-6-proverka-suschestvovaniya-svoystva.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Обход свойств объекта",
+              "theory": "content/theory/02-modul-2/03-js-obekty/07-obhod-svoystv-obekta.md",
+              "quiz": "js-objects-for-of",
+              "exercise": "js-objects-for-of"
             },
             {
               "index": 8,
-              "title": "9. Слияние",
-              "theory": "content/theory/02-modul-2/03-js-obekty/08-9-sliyanie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Вложенные объекты",
+              "theory": "content/theory/02-modul-2/03-js-obekty/08-vlozhennye-obekty.md",
+              "quiz": "js-objects-nested-objects",
+              "exercise": "js-objects-nested-objects"
             },
             {
               "index": 9,
-              "title": "7. Обход свойств объекта",
-              "theory": "content/theory/02-modul-2/03-js-obekty/09-7-obhod-svoystv-obekta.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Слияние",
+              "theory": "content/theory/02-modul-2/03-js-obekty/09-sliyanie.md",
+              "quiz": "js-objects-merging",
+              "exercise": "js-objects-merging"
             },
             {
               "index": 10,
-              "title": "1. О курсе",
-              "theory": "content/theory/02-modul-2/03-js-obekty/10-1-o-kurse.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Клонирование и копирование",
+              "theory": "content/theory/02-modul-2/03-js-obekty/10-klonirovanie-i-kopirovanie.md",
+              "quiz": "js-objects-cloning",
+              "exercise": "js-objects-shallow-cloning"
             },
             {
               "index": 11,
-              "title": "8. Вложенные объекты",
-              "theory": "content/theory/02-modul-2/03-js-obekty/11-8-vlozhennye-obekty.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Создание новых объектов и spread",
+              "theory": "content/theory/02-modul-2/03-js-obekty/11-sozdanie-novyh-obektov-i-spread.md",
+              "quiz": "js-objects-spread-operator",
+              "exercise": "js-objects-spread"
             },
             {
               "index": 12,
-              "title": "4. Ссылки",
-              "theory": "content/theory/02-modul-2/03-js-obekty/12-4-ssylki.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Деструктуризация",
+              "theory": "content/theory/02-modul-2/03-js-obekty/12-destrukturizaciya.md",
+              "quiz": "js-objects-destructuring",
+              "exercise": "js-objects-destructuring"
             },
             {
               "index": 13,
-              "title": "12. Деструктуризация",
-              "theory": "content/theory/02-modul-2/03-js-obekty/13-12-destrukturizaciya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Хеш-таблицы",
+              "theory": "content/theory/02-modul-2/03-js-obekty/13-hesh-tablicy.md",
+              "quiz": "js-objects-hash-table",
+              "exercise": "js-objects-hash-table"
             }
           ]
         },
@@ -975,136 +975,136 @@
           "lessons": [
             {
               "index": 1,
-              "title": "8. Grep",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/01-8-grep.md",
+              "title": "Введение",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/01-vvedenie.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 2,
-              "title": "6. Файловая структура",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/02-6-faylovaya-struktura.md",
-              "quiz": null,
+              "title": "Операционные системы",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy.md",
+              "quiz": "cli-basics-operating-systems",
               "exercise": null
             },
             {
               "index": 3,
-              "title": "5. Интерфейс командной строки",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/03-5-interfeys-komandnoy-stroki.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Командная строка",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka.md",
+              "quiz": "cli-basics-command-line",
+              "exercise": "cli-basics-command-line"
             },
             {
               "index": 4,
-              "title": "19. Выполнение программ",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/04-19-vypolnenie-programm.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Навигация",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/04-navigaciya.md",
+              "quiz": "cli-basics-navigation",
+              "exercise": "cli-basics-navigation"
             },
             {
               "index": 5,
-              "title": "12. Манипулирование файловой структурой",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/05-12-manipulirovanie-faylovoy-strukturoy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Интерфейс командной строки",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki.md",
+              "quiz": "cli-basics-command-line-interface",
+              "exercise": "cli-basics-command-line-interface"
             },
             {
               "index": 6,
-              "title": "13. Переменные окружения",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/06-13-peremennye-okruzheniya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Файловая структура",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/06-faylovaya-struktura.md",
+              "quiz": "cli-basics-filestructure",
+              "exercise": "cli-basics-filestructure"
             },
             {
               "index": 7,
-              "title": "16. Sudo",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/07-16-sudo.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Чтение файлов",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/07-chtenie-faylov.md",
+              "quiz": "cli-basics-read-files",
+              "exercise": "cli-basics-read-files"
             },
             {
               "index": 8,
-              "title": "10. Потоки",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/08-10-potoki.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Grep",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/08-grep.md",
+              "quiz": "cli-basics-grep",
+              "exercise": "cli-basics-grep"
             },
             {
               "index": 9,
-              "title": "3. Командная строка",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/09-3-komandnaya-stroka.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Редактирование файлов",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov.md",
+              "quiz": "cli-basics-edit-files",
+              "exercise": "cli-basics-edit-files"
             },
             {
               "index": 10,
-              "title": "14. История",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/10-14-istoriya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Потоки",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/10-potoki.md",
+              "quiz": "cli-basics-streams",
+              "exercise": "cli-basics-streams"
             },
             {
               "index": 11,
-              "title": "11. Пайплайн",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/11-11-payplayn.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Пайплайн",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/11-payplayn.md",
+              "quiz": "cli-basics-pipeline",
+              "exercise": "cli-basics-pipline"
             },
             {
               "index": 12,
-              "title": "9. Редактирование файлов",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/12-9-redaktirovanie-faylov.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Манипулирование файловой структурой",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/12-manipulirovanie-faylovoy-strukturoy.md",
+              "quiz": "cli-basics-filetree-manipulations",
+              "exercise": "bash-fs"
             },
             {
               "index": 13,
-              "title": "4. Навигация",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/13-4-navigaciya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Переменные окружения",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/13-peremennye-okruzheniya.md",
+              "quiz": "cli-basics-environment-variables",
+              "exercise": "cli-basics-environment-variables"
             },
             {
               "index": 14,
-              "title": "2. Операционные системы",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/14-2-operacionnye-sistemy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "История",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/14-istoriya.md",
+              "quiz": "cli-basics-history",
+              "exercise": "cli-basics-history"
             },
             {
               "index": 15,
-              "title": "15. Пользователи и группы",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/15-15-polzovateli-i-gruppy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Пользователи и группы",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy.md",
+              "quiz": "cli-basics-users-and-groups",
+              "exercise": "cli-basics-users-and-groups"
             },
             {
               "index": 16,
-              "title": "18. Пакетный менеджер",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/16-18-paketnyy-menedzher.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Sudo",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/16-sudo.md",
+              "quiz": "cli-basics-sudo",
+              "exercise": "cli-basics-sudo"
             },
             {
               "index": 17,
-              "title": "7. Чтение файлов",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/17-7-chtenie-faylov.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Права доступа",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/17-prava-dostupa.md",
+              "quiz": "cli-basics-permissions",
+              "exercise": "cli-basics-permission"
             },
             {
               "index": 18,
-              "title": "1. Введение",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/18-1-vvedenie.md",
-              "quiz": null,
+              "title": "Пакетный менеджер",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/18-paketnyy-menedzher.md",
+              "quiz": "cli-basics-package-manager",
               "exercise": null
             },
             {
               "index": 19,
-              "title": "17. Права доступа",
-              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/19-17-prava-dostupa.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Выполнение программ",
+              "theory": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/19-vypolnenie-programm.md",
+              "quiz": "cli-basics-execution",
+              "exercise": "cli-basics-execution"
             }
           ]
         },
@@ -1116,107 +1116,107 @@
           "lessons": [
             {
               "index": 1,
-              "title": "13. Игнорирование файлов",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/01-13-ignorirovanie-faylov.md",
+              "title": "Введение",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/01-vvedenie.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 2,
-              "title": "5. Анализ сделанных изменений",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/02-5-analiz-sdelannyh-izmeneniy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Рабочий процесс",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/02-rabochiy-process.md",
+              "quiz": "intro_to_git-workflow",
+              "exercise": "git-basics-workflow"
             },
             {
               "index": 3,
-              "title": "4. Рабочая директория",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/03-4-rabochaya-direktoriya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Интеграция с GitHub",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github.md",
+              "quiz": "intro_to_git-github",
+              "exercise": "git-basics-github"
             },
             {
               "index": 4,
-              "title": "9. Изменение последнего коммита",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/04-9-izmenenie-poslednego-kommita.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Рабочая директория",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/04-rabochaya-direktoriya.md",
+              "quiz": "intro_to_git-working-directory",
+              "exercise": "git-basics-working-directory"
             },
             {
               "index": 5,
-              "title": "15. Открытые проекты",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/05-15-otkrytye-proekty.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Анализ сделанных изменений",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/05-analiz-sdelannyh-izmeneniy.md",
+              "quiz": "intro_to_git-changes",
+              "exercise": "git-basics-changes"
             },
             {
               "index": 6,
-              "title": "8. Отмена коммитов",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/06-8-otmena-kommitov.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Анализ истории изменений",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/06-analiz-istorii-izmeneniy.md",
+              "quiz": "intro_to_git-inspect",
+              "exercise": "git-basics-inspect"
             },
             {
               "index": 7,
-              "title": "2. Рабочий процесс",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/07-2-rabochiy-process.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Отмена изменений в рабочей директории",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/07-otmena-izmeneniy-v-rabochey-direktorii.md",
+              "quiz": "intro_to_git-changes-cancelation",
+              "exercise": "git-basics-changes-cancelation"
             },
             {
               "index": 8,
-              "title": "7. Отмена изменений в рабочей директории",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/08-7-otmena-izmeneniy-v-rabochey-direktorii.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Отмена коммитов",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov.md",
+              "quiz": "intro_to_git-commits-cancelation",
+              "exercise": "git-basics-commits-cancelation"
             },
             {
               "index": 9,
-              "title": "14. Stash",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/09-14-stash.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Изменение последнего коммита",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/09-izmenenie-poslednego-kommita.md",
+              "quiz": "intro_to_git-git-commit-amend",
+              "exercise": "git-basics-git-commit-amend"
             },
             {
               "index": 10,
-              "title": "11. Перемещение по истории",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/10-11-peremeschenie-po-istorii.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Индекс",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/10-indeks.md",
+              "quiz": "intro_to_git-index",
+              "exercise": "git-basics-index"
             },
             {
               "index": 11,
-              "title": "1. Введение",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/11-1-vvedenie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Перемещение по истории",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/11-peremeschenie-po-istorii.md",
+              "quiz": "intro_to_git-code-travel",
+              "exercise": "git-basics-code-travel"
             },
             {
               "index": 12,
-              "title": "6. Анализ истории изменений",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/12-6-analiz-istorii-izmeneniy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Понимание Git",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/12-ponimanie-git.md",
+              "quiz": "intro_to_git-thinking",
+              "exercise": "git-basics-thinking"
             },
             {
               "index": 13,
-              "title": "12. Понимание Git",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/13-12-ponimanie-git.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Игнорирование файлов",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/13-ignorirovanie-faylov.md",
+              "quiz": "intro_to_git-gitignore",
+              "exercise": "git-basics-gitignore"
             },
             {
               "index": 14,
-              "title": "3. Интеграция с GitHub",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/14-3-integraciya-s-github.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Stash",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/14-stash.md",
+              "quiz": "intro_to_git-git-stash",
+              "exercise": "git-basics-stash"
             },
             {
               "index": 15,
-              "title": "10. Индекс",
-              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/15-10-indeks.md",
-              "quiz": null,
+              "title": "Открытые проекты",
+              "theory": "content/theory/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty.md",
+              "quiz": "intro_to_git-open-source",
               "exercise": null
             }
           ]
@@ -1229,78 +1229,78 @@
           "lessons": [
             {
               "index": 1,
-              "title": "7. Lock-файл",
-              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/01-7-lock-fayl.md",
+              "title": "Введение",
+              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/01-vvedenie.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 2,
-              "title": "10. Точка входа",
-              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/02-10-tochka-vhoda.md",
+              "title": "Что такое JS?",
+              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/02-chto-takoe-js.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 3,
-              "title": "5. Зависимости",
-              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/03-5-zavisimosti.md",
+              "title": "Установка JavaScript",
+              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/03-ustanovka-javascript.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 4,
-              "title": "6. Зависимости для разработки",
-              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/04-6-zavisimosti-dlya-razrabotki.md",
+              "title": "NPM",
+              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/04-npm.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 5,
-              "title": "11. Линтинг",
-              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/05-11-linting.md",
+              "title": "Зависимости",
+              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/05-zavisimosti.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 6,
-              "title": "2. Что такое JS?",
-              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/06-2-chto-takoe-js.md",
+              "title": "Зависимости для разработки",
+              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/06-zavisimosti-dlya-razrabotki.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 7,
-              "title": "1. Введение",
-              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/07-1-vvedenie.md",
+              "title": "Lock-файл",
+              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/07-lock-fayl.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 8,
-              "title": "3. Установка JavaScript",
-              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/08-3-ustanovka-javascript.md",
+              "title": "Глобальная установка пакетов",
+              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/08-globalnaya-ustanovka-paketov.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 9,
-              "title": "9. NPX",
-              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/09-9-npx.md",
+              "title": "NPX",
+              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/09-npx.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 10,
-              "title": "8. Глобальная установка пакетов",
-              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/10-8-globalnaya-ustanovka-paketov.md",
+              "title": "Точка входа",
+              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/10-tochka-vhoda.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 11,
-              "title": "4. NPM",
-              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/11-4-npm.md",
+              "title": "Линтинг",
+              "theory": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/11-linting.md",
               "quiz": null,
               "exercise": null
             }
@@ -1448,73 +1448,73 @@
           "lessons": [
             {
               "index": 1,
-              "title": "1. Введение",
-              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/01-1-vvedenie.md",
+              "title": "Введение",
+              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/01-vvedenie.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 2,
+              "title": "Причины тестирования",
+              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/02-prichiny-testirovaniya.md",
+              "quiz": "js-testing-goal",
+              "exercise": "js-testing-goal"
+            },
+            {
+              "index": 3,
+              "title": "Утверждения",
+              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/03-utverzhdeniya.md",
+              "quiz": "js-testing-asserts",
+              "exercise": "js-testing-asserts"
+            },
+            {
+              "index": 4,
               "title": "Покрытие кода тестами",
-              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/02-pokrytie-koda-testami.md",
+              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/04-pokrytie-koda-testami.md",
               "quiz": "js-testing-code-coverage",
               "exercise": "js-testing-code-coverage"
             },
             {
-              "index": 3,
+              "index": 5,
               "title": "Библиотека power-assert",
-              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/03-biblioteka-power-assert.md",
+              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/05-biblioteka-power-assert.md",
               "quiz": "js-testing-power-assert",
               "exercise": "js-testing-power-assert"
             },
             {
-              "index": 4,
+              "index": 6,
               "title": "Подготовка данных",
-              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/04-podgotovka-dannyh.md",
+              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/06-podgotovka-dannyh.md",
               "quiz": "js-testing-setup",
               "exercise": "js-testing-setup"
             },
             {
-              "index": 5,
+              "index": 7,
               "title": "Jest",
-              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/05-jest.md",
+              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/07-jest.md",
               "quiz": "js-testing-jest",
               "exercise": "js-testing-jest"
             },
             {
-              "index": 6,
-              "title": "3. Утверждения",
-              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/06-3-utverzhdeniya.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 7,
+              "index": 8,
               "title": "Модульные тесты",
-              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/07-modulnye-testy.md",
+              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/08-modulnye-testy.md",
               "quiz": "js-testing-unit-tests",
               "exercise": "js-testing-unit-tests"
             },
             {
-              "index": 8,
+              "index": 9,
               "title": "Разработка через тестирование",
-              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/08-razrabotka-cherez-testirovanie.md",
+              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/09-razrabotka-cherez-testirovanie.md",
               "quiz": "js-testing-tdd",
               "exercise": "js-testing-tdd"
             },
             {
-              "index": 9,
+              "index": 10,
               "title": "Плохие и хорошие практики тестирования",
-              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/09-plohie-i-horoshie-praktiki-testirovaniya.md",
+              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/10-plohie-i-horoshie-praktiki-testirovaniya.md",
               "quiz": "js-testing-bad-practice",
               "exercise": "js-testing-bad-practice"
-            },
-            {
-              "index": 10,
-              "title": "2. Причины тестирования",
-              "theory": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/10-2-prichiny-testirovaniya.md",
-              "quiz": null,
-              "exercise": null
             },
             {
               "index": 11,
@@ -1604,66 +1604,66 @@
           "lessons": [
             {
               "index": 1,
-              "title": "7. Агрегация 2",
-              "theory": "content/theory/03-modul-3/04-js-derevya/01-7-agregaciya-2.md",
+              "title": "Введение",
+              "theory": "content/theory/03-modul-3/04-js-derevya/01-vvedenie.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 2,
-              "title": "2. Определения",
-              "theory": "content/theory/03-modul-3/04-js-derevya/02-2-opredeleniya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Определения",
+              "theory": "content/theory/03-modul-3/04-js-derevya/02-opredeleniya.md",
+              "quiz": "js-trees-definition",
+              "exercise": "js-trees-definition"
             },
             {
               "index": 3,
-              "title": "6. Агрегация",
-              "theory": "content/theory/03-modul-3/04-js-derevya/03-6-agregaciya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Виртуальная файловая система",
+              "theory": "content/theory/03-modul-3/04-js-derevya/03-virtualnaya-faylovaya-sistema.md",
+              "quiz": "js-trees-filetree",
+              "exercise": "js-trees-filesystem"
             },
             {
               "index": 4,
-              "title": "8. Аккумулятор",
-              "theory": "content/theory/03-modul-3/04-js-derevya/04-8-akkumulyator.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Манипуляции с виртуальной файловой системой",
+              "theory": "content/theory/03-modul-3/04-js-derevya/04-manipulyacii-s-virtualnoy-faylovoy-sistemoy.md",
+              "quiz": "js-trees-manipulations",
+              "exercise": "js-trees-manipulations"
             },
             {
               "index": 5,
-              "title": "4. Манипуляции с виртуальной файловой системой",
-              "theory": "content/theory/03-modul-3/04-js-derevya/05-4-manipulyacii-s-virtualnoy-faylovoy-sistemoy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Обход дерева",
+              "theory": "content/theory/03-modul-3/04-js-derevya/05-obhod-dereva.md",
+              "quiz": "js-trees-traversal",
+              "exercise": "js-trees-traversal"
             },
             {
               "index": 6,
-              "title": "1. Введение",
-              "theory": "content/theory/03-modul-3/04-js-derevya/06-1-vvedenie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Агрегация",
+              "theory": "content/theory/03-modul-3/04-js-derevya/06-agregaciya.md",
+              "quiz": "js-trees-aggregation",
+              "exercise": "js-trees-aggregation"
             },
             {
               "index": 7,
-              "title": "9. HTML-дерево",
-              "theory": "content/theory/03-modul-3/04-js-derevya/07-9-html-derevo.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Агрегация 2",
+              "theory": "content/theory/03-modul-3/04-js-derevya/07-agregaciya-2.md",
+              "quiz": "js-trees-calculate",
+              "exercise": "js-trees-calculate"
             },
             {
               "index": 8,
-              "title": "3. Виртуальная файловая система",
-              "theory": "content/theory/03-modul-3/04-js-derevya/08-3-virtualnaya-faylovaya-sistema.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Аккумулятор",
+              "theory": "content/theory/03-modul-3/04-js-derevya/08-akkumulyator.md",
+              "quiz": "js-trees-accumulator",
+              "exercise": "js-trees-accumulator"
             },
             {
               "index": 9,
-              "title": "5. Обход дерева",
-              "theory": "content/theory/03-modul-3/04-js-derevya/09-5-obhod-dereva.md",
-              "quiz": null,
-              "exercise": null
+              "title": "HTML-дерево",
+              "theory": "content/theory/03-modul-3/04-js-derevya/09-html-derevo.md",
+              "quiz": "js-trees-html",
+              "exercise": "js-trees-html"
             }
           ]
         },
@@ -2390,211 +2390,211 @@
           "lessons": [
             {
               "index": 1,
-              "title": "8. Children",
-              "theory": "content/theory/05-modul-5/01-js-react/01-8-children.md",
+              "title": "Введение",
+              "theory": "content/theory/05-modul-5/01-js-react/01-vvedenie.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 2,
-              "title": "16. Контекст (Context API)",
-              "theory": "content/theory/05-modul-5/01-js-react/02-16-kontekst-context-api.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Компоненты",
+              "theory": "content/theory/05-modul-5/01-js-react/02-komponenty.md",
+              "quiz": "js-react-component",
+              "exercise": "js-react-component"
             },
             {
               "index": 3,
-              "title": "4. Props",
-              "theory": "content/theory/05-modul-5/01-js-react/03-4-props.md",
-              "quiz": null,
-              "exercise": null
+              "title": "JSX",
+              "theory": "content/theory/05-modul-5/01-js-react/03-jsx.md",
+              "quiz": "js-react-jsx",
+              "exercise": "js-react-jsx"
             },
             {
               "index": 4,
-              "title": "27. Хук useRef",
-              "theory": "content/theory/05-modul-5/01-js-react/04-27-huk-useref.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Props",
+              "theory": "content/theory/05-modul-5/01-js-react/04-props.md",
+              "quiz": "js-react-props",
+              "exercise": "js-react-props"
             },
             {
               "index": 5,
-              "title": "10. События",
-              "theory": "content/theory/05-modul-5/01-js-react/05-10-sobytiya.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Работа с коллекциями",
+              "theory": "content/theory/05-modul-5/01-js-react/05-rabota-s-kollekciyami.md",
+              "quiz": "js-react-jsx-collections",
+              "exercise": "js-react-jsx-collections"
             },
             {
               "index": 6,
-              "title": "23. Введение в хуки",
-              "theory": "content/theory/05-modul-5/01-js-react/06-23-vvedenie-v-huki.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Различия jsx и html",
+              "theory": "content/theory/05-modul-5/01-js-react/06-razlichiya-jsx-i-html.md",
+              "quiz": "js-react-jsx-html-difference",
+              "exercise": "js-react-jsx-html-difference"
             },
             {
               "index": 7,
-              "title": "25. Хук useEffect",
-              "theory": "content/theory/05-modul-5/01-js-react/07-25-huk-useeffect.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Обработка имён классов",
+              "theory": "content/theory/05-modul-5/01-js-react/07-obrabotka-imen-klassov.md",
+              "quiz": "js-react-classnames",
+              "exercise": "js-react-classnames"
             },
             {
               "index": 8,
-              "title": "17. Virtual Dom",
-              "theory": "content/theory/05-modul-5/01-js-react/08-17-virtual-dom.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Children",
+              "theory": "content/theory/05-modul-5/01-js-react/08-children.md",
+              "quiz": "js-react-children",
+              "exercise": "js-react-children"
             },
             {
               "index": 9,
-              "title": "20. Жизненный цикл компонента",
-              "theory": "content/theory/05-modul-5/01-js-react/09-20-zhiznennyy-cikl-komponenta.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Состояние",
+              "theory": "content/theory/05-modul-5/01-js-react/09-sostoyanie.md",
+              "quiz": "js-react-state",
+              "exercise": "js-react-state"
             },
             {
               "index": 10,
-              "title": "29. Композиция компонентов",
-              "theory": "content/theory/05-modul-5/01-js-react/10-29-kompoziciya-komponentov.md",
-              "quiz": null,
-              "exercise": null
+              "title": "События",
+              "theory": "content/theory/05-modul-5/01-js-react/10-sobytiya.md",
+              "quiz": "js-react-events",
+              "exercise": "js-react-events"
             },
             {
               "index": 11,
-              "title": "15. Функциональные компоненты",
-              "theory": "content/theory/05-modul-5/01-js-react/11-15-funkcionalnye-komponenty.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Автоматное программирование",
+              "theory": "content/theory/05-modul-5/01-js-react/11-avtomatnoe-programmirovanie.md",
+              "quiz": "js-react-fsm",
+              "exercise": "js-react-fsm"
             },
             {
               "index": 12,
-              "title": "26. Хук useContext",
-              "theory": "content/theory/05-modul-5/01-js-react/12-26-huk-usecontext.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Формы",
+              "theory": "content/theory/05-modul-5/01-js-react/12-formy.md",
+              "quiz": "js-react-forms",
+              "exercise": "js-react-forms"
             },
             {
               "index": 13,
-              "title": "19. Асинхронная обработка",
-              "theory": "content/theory/05-modul-5/01-js-react/13-19-asinhronnaya-obrabotka.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Неизменяемость",
+              "theory": "content/theory/05-modul-5/01-js-react/13-neizmenyaemost.md",
+              "quiz": "js-react-immutability",
+              "exercise": "js-react-immutability"
             },
             {
               "index": 14,
-              "title": "1. Введение",
-              "theory": "content/theory/05-modul-5/01-js-react/14-1-vvedenie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Вложенные компоненты",
+              "theory": "content/theory/05-modul-5/01-js-react/14-vlozhennye-komponenty.md",
+              "quiz": "js-react-nested-components",
+              "exercise": "js-react-nested-components"
             },
             {
               "index": 15,
-              "title": "6. Различия jsx и html",
-              "theory": "content/theory/05-modul-5/01-js-react/15-6-razlichiya-jsx-i-html.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Функциональные компоненты",
+              "theory": "content/theory/05-modul-5/01-js-react/15-funkcionalnye-komponenty.md",
+              "quiz": "js-react-functional-components",
+              "exercise": "js-react-functional-components"
             },
             {
               "index": 16,
-              "title": "12. Формы",
-              "theory": "content/theory/05-modul-5/01-js-react/16-12-formy.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Контекст (Context API)",
+              "theory": "content/theory/05-modul-5/01-js-react/16-kontekst-context-api.md",
+              "quiz": "js-react-context",
+              "exercise": "js-react-context"
             },
             {
               "index": 17,
-              "title": "13. Неизменяемость",
-              "theory": "content/theory/05-modul-5/01-js-react/17-13-neizmenyaemost.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Virtual Dom",
+              "theory": "content/theory/05-modul-5/01-js-react/17-virtual-dom.md",
+              "quiz": "js-react-virtual-dom",
+              "exercise": "js-react-virtual-dom"
             },
             {
               "index": 18,
-              "title": "28. Хуки useCallback и useMemo",
-              "theory": "content/theory/05-modul-5/01-js-react/18-28-huki-usecallback-i-usememo.md",
-              "quiz": null,
+              "title": "Тестирование",
+              "theory": "content/theory/05-modul-5/01-js-react/18-testirovanie.md",
+              "quiz": "js-react-tests",
               "exercise": null
             },
             {
               "index": 19,
-              "title": "18. Тестирование",
-              "theory": "content/theory/05-modul-5/01-js-react/19-18-testirovanie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Асинхронная обработка",
+              "theory": "content/theory/05-modul-5/01-js-react/19-asinhronnaya-obrabotka.md",
+              "quiz": "js-react-async",
+              "exercise": "js-react-async"
             },
             {
               "index": 20,
-              "title": "5. Работа с коллекциями",
-              "theory": "content/theory/05-modul-5/01-js-react/20-5-rabota-s-kollekciyami.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Жизненный цикл компонента",
+              "theory": "content/theory/05-modul-5/01-js-react/20-zhiznennyy-cikl-komponenta.md",
+              "quiz": "js-react-component-lifecycle",
+              "exercise": "js-react-component-lifecycle"
             },
             {
               "index": 21,
-              "title": "11. Автоматное программирование",
-              "theory": "content/theory/05-modul-5/01-js-react/21-11-avtomatnoe-programmirovanie.md",
-              "quiz": null,
+              "title": "Производительность",
+              "theory": "content/theory/05-modul-5/01-js-react/21-proizvoditelnost.md",
+              "quiz": "js-react-performance",
               "exercise": null
             },
             {
               "index": 22,
-              "title": "30. Заключение",
-              "theory": "content/theory/05-modul-5/01-js-react/22-30-zaklyuchenie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Refs",
+              "theory": "content/theory/05-modul-5/01-js-react/22-refs.md",
+              "quiz": "js-react-refs",
+              "exercise": "js-react-refs"
             },
             {
               "index": 23,
-              "title": "22. Refs",
-              "theory": "content/theory/05-modul-5/01-js-react/23-22-refs.md",
+              "title": "Введение в хуки",
+              "theory": "content/theory/05-modul-5/01-js-react/23-vvedenie-v-huki.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 24,
-              "title": "7. Обработка имён классов",
-              "theory": "content/theory/05-modul-5/01-js-react/24-7-obrabotka-imen-klassov.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Хук useState",
+              "theory": "content/theory/05-modul-5/01-js-react/24-huk-usestate.md",
+              "quiz": "js-react-use-state",
+              "exercise": "js-react-hooks-use-state"
             },
             {
               "index": 25,
-              "title": "2. Компоненты",
-              "theory": "content/theory/05-modul-5/01-js-react/25-2-komponenty.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Хук useEffect",
+              "theory": "content/theory/05-modul-5/01-js-react/25-huk-useeffect.md",
+              "quiz": "js-react-use-effect",
+              "exercise": "js-react-hooks-use-effect"
             },
             {
               "index": 26,
-              "title": "14. Вложенные компоненты",
-              "theory": "content/theory/05-modul-5/01-js-react/26-14-vlozhennye-komponenty.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Хук useContext",
+              "theory": "content/theory/05-modul-5/01-js-react/26-huk-usecontext.md",
+              "quiz": "js-react-use-context",
+              "exercise": "js-react-hooks-use-context"
             },
             {
               "index": 27,
-              "title": "9. Состояние",
-              "theory": "content/theory/05-modul-5/01-js-react/27-9-sostoyanie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Хук useRef",
+              "theory": "content/theory/05-modul-5/01-js-react/27-huk-useref.md",
+              "quiz": "js-react-use-ref",
+              "exercise": "js-react-hooks-use-ref"
             },
             {
               "index": 28,
-              "title": "21. Производительность",
-              "theory": "content/theory/05-modul-5/01-js-react/28-21-proizvoditelnost.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Хуки useCallback и useMemo",
+              "theory": "content/theory/05-modul-5/01-js-react/28-huki-usecallback-i-usememo.md",
+              "quiz": "js-react-use-callback",
+              "exercise": "js-react-hooks-use-callback"
             },
             {
               "index": 29,
-              "title": "3. JSX",
-              "theory": "content/theory/05-modul-5/01-js-react/29-3-jsx.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Композиция компонентов",
+              "theory": "content/theory/05-modul-5/01-js-react/29-kompoziciya-komponentov.md",
+              "quiz": "js-react-optimization",
+              "exercise": "js-react-optimization"
             },
             {
               "index": 30,
-              "title": "24. Хук useState",
-              "theory": "content/theory/05-modul-5/01-js-react/30-24-huk-usestate.md",
+              "title": "Заключение",
+              "theory": "content/theory/05-modul-5/01-js-react/30-zaklyuchenie.md",
               "quiz": null,
               "exercise": null
             }
@@ -2608,80 +2608,80 @@
           "lessons": [
             {
               "index": 1,
-              "title": "10. Асинхронные запросы",
-              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/01-10-asinhronnye-zaprosy.md",
+              "title": "Введение",
+              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/01-vvedenie.md",
               "quiz": null,
               "exercise": null
             },
             {
               "index": 2,
-              "title": "6. Подробнее о слайсах",
-              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/02-6-podrobnee-o-slaysah.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Redux",
+              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/02-redux.md",
+              "quiz": "js-redux-toolkit-redux",
+              "exercise": "js-redux-toolkit-redux"
             },
             {
               "index": 3,
-              "title": "3. Редьюсеры",
-              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/03-3-redyusery.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Редьюсеры",
+              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/03-redyusery.md",
+              "quiz": "js-redux-toolkit-reducers",
+              "exercise": "js-redux-tookit-reducers"
             },
             {
               "index": 4,
-              "title": "9. Механизм ExtraReducers",
-              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/04-9-mehanizm-extrareducers.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Мидлвары",
+              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/04-midlvary.md",
+              "quiz": "js-redux-toolkit-middlewares",
+              "exercise": "js-redux-tookit-middlewares"
             },
             {
               "index": 5,
-              "title": "8. Механизм Entity Adapter",
-              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/05-8-mehanizm-entity-adapter.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Подключение Redux Toolkit к React",
+              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/05-podklyuchenie-redux-toolkit-k-react.md",
+              "quiz": "js-redux-toolkit-integration",
+              "exercise": "js-redux-toolkit-integration"
             },
             {
               "index": 6,
-              "title": "11. RTK Query",
-              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/06-11-rtk-query.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Подробнее о слайсах",
+              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/06-podrobnee-o-slaysah.md",
+              "quiz": "js-redux-toolkit-slices",
+              "exercise": "js-redux-toolkit-slices"
             },
             {
               "index": 7,
-              "title": "4. Мидлвары",
-              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/07-4-midlvary.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Нормализация данных в Redux",
+              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/07-normalizaciya-dannyh-v-redux.md",
+              "quiz": "js-redux-toolkit-data-normalization",
+              "exercise": "js-redux-toolkit-data-normalization"
             },
             {
               "index": 8,
-              "title": "1. Введение",
-              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/08-1-vvedenie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Механизм Entity Adapter",
+              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/08-mehanizm-entity-adapter.md",
+              "quiz": "js-redux-toolkit-entity-adapter",
+              "exercise": "js-redux-toolkit-entity-adapter"
             },
             {
               "index": 9,
-              "title": "2. Redux",
-              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/09-2-redux.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Механизм ExtraReducers",
+              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/09-mehanizm-extrareducers.md",
+              "quiz": "js-redux-toolkit-extra-reducers",
+              "exercise": "js-redux-toolkit-extra-reducers"
             },
             {
               "index": 10,
-              "title": "5. Подключение Redux Toolkit к React",
-              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/10-5-podklyuchenie-redux-toolkit-k-react.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Асинхронные запросы",
+              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/10-asinhronnye-zaprosy.md",
+              "quiz": "js-redux-toolkit-async-thunks",
+              "exercise": "js-redux-toolkit-async-thunks"
             },
             {
               "index": 11,
-              "title": "7. Нормализация данных в Redux",
-              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/11-7-normalizaciya-dannyh-v-redux.md",
-              "quiz": null,
-              "exercise": null
+              "title": "RTK Query",
+              "theory": "content/theory/05-modul-5/02-react-redux-toolkit/11-rtk-query.md",
+              "quiz": "js-redux-toolkit-rtk-query",
+              "exercise": "js-redux-toolkit-rtk-query"
             }
           ]
         }
@@ -2813,241 +2813,241 @@
           "lessons": [
             {
               "index": 1,
+              "title": "Введение",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/01-vvedenie.md",
+              "quiz": null,
+              "exercise": null
+            },
+            {
+              "index": 2,
+              "title": "Привет, Мир!",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/02-privet-mir.md",
+              "quiz": "typescript-basics-hello-world",
+              "exercise": "typescript-basics-hello-world"
+            },
+            {
+              "index": 3,
+              "title": "TypeScript",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/03-typescript.md",
+              "quiz": "typescript-basics-typescript-as-a-second-language",
+              "exercise": "typescript-basics-typescript-as-a-second-language"
+            },
+            {
+              "index": 4,
+              "title": "Переменные",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/04-peremennye.md",
+              "quiz": "typescript-basics-variables",
+              "exercise": "typescript-basics-variables"
+            },
+            {
+              "index": 5,
+              "title": "Именованные функции",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/05-imenovannye-funkcii.md",
+              "quiz": "typescript-basics-named-functions",
+              "exercise": "typescript-basics-named-functions"
+            },
+            {
+              "index": 6,
+              "title": "Анонимные функции",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/06-anonimnye-funkcii.md",
+              "quiz": "typescript-basics-anonymous-functions",
+              "exercise": "typescript-basics-anonymous-functions"
+            },
+            {
+              "index": 7,
+              "title": "Массивы",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/07-massivy.md",
+              "quiz": "typescript-basics-arrays",
+              "exercise": "typescript-basics-arrays"
+            },
+            {
+              "index": 8,
+              "title": "Объектные типы",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/08-obektnye-tipy.md",
+              "quiz": "typescript-basics-objects",
+              "exercise": "typescript-basics-objects"
+            },
+            {
+              "index": 9,
+              "title": "Перечисления",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/09-perechisleniya.md",
+              "quiz": "typescript-basics-enums",
+              "exercise": "typescript-basics-enums"
+            },
+            {
+              "index": 10,
+              "title": "Псевдонимы типов",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/10-psevdonimy-tipov.md",
+              "quiz": "typescript-basics-type-aliases",
+              "exercise": "typescript-basics-type-aliases"
+            },
+            {
+              "index": 11,
+              "title": "Тип Any",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/11-tip-any.md",
+              "quiz": "typescript-basics-any",
+              "exercise": "typescript-basics-any"
+            },
+            {
+              "index": 12,
+              "title": "Система модулей",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/12-sistema-moduley.md",
+              "quiz": "typescript-basics-modules",
+              "exercise": "typescript-basics-modules"
+            },
+            {
+              "index": 13,
+              "title": "Функции как параметры",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/13-funkcii-kak-parametry.md",
+              "quiz": "typescript-basics-function-as-parameter",
+              "exercise": "typescript-basics-function-as-parameter"
+            },
+            {
+              "index": 14,
+              "title": "Опциональные параметры в функциях",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/14-opcionalnye-parametry-v-funkciyah.md",
+              "quiz": "typescript-basics-optional-parameters-in-callbacks",
+              "exercise": "typescript-basics-optional-parameters-in-callbacks"
+            },
+            {
+              "index": 15,
+              "title": "Тип Void",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/15-tip-void.md",
+              "quiz": "typescript-basics-void",
+              "exercise": "typescript-basics-void"
+            },
+            {
+              "index": 16,
+              "title": "Возврат из функции",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/16-vozvrat-iz-funkcii.md",
+              "quiz": "typescript-basics-never",
+              "exercise": "typescript-basics-never"
+            },
+            {
+              "index": 17,
+              "title": "Тип Unknown",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/17-tip-unknown.md",
+              "quiz": "typescript-basics-unknown",
+              "exercise": "typescript-basics-unknown"
+            },
+            {
+              "index": 18,
+              "title": "Деструктуризация",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/18-destrukturizaciya.md",
+              "quiz": "typescript-basics-destructuring",
+              "exercise": "typescript-basics-destructuring"
+            },
+            {
+              "index": 19,
+              "title": "Операции Rest и Spread",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/19-operacii-rest-i-spread.md",
+              "quiz": "typescript-basics-rest-spread",
+              "exercise": "typescript-basics-rest-spread"
+            },
+            {
+              "index": 20,
+              "title": "Перегрузка функций",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/20-peregruzka-funkciy.md",
+              "quiz": "typescript-basics-function-overloads",
+              "exercise": "typescript-basics-function-overloads"
+            },
+            {
+              "index": 21,
               "title": "Иерархия типов",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/01-ierarhiya-tipov.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/21-ierarhiya-tipov.md",
               "quiz": "typescript-basics-type-hierarcy",
               "exercise": "typescript-basics-type-hierarcy"
             },
             {
-              "index": 2,
-              "title": "16. Возврат из функции",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/02-16-vozvrat-iz-funkcii.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 3,
+              "index": 22,
               "title": "Неизменяемые массивы",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/03-neizmenyaemye-massivy.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/22-neizmenyaemye-massivy.md",
               "quiz": "typescript-basics-readonly-arrays",
               "exercise": "typescript-basics-readonly-arrays"
             },
             {
-              "index": 4,
+              "index": 23,
               "title": "Пересечение",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/04-peresechenie.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/23-peresechenie.md",
               "quiz": "typescript-basics-intersection-types",
               "exercise": "typescript-basics-intersection-types"
             },
             {
-              "index": 5,
-              "title": "8. Объектные типы",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/05-8-obektnye-tipy.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 6,
-              "title": "1. Введение",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/06-1-vvedenie.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 7,
+              "index": 24,
               "title": "Null и Undefined",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/07-null-i-undefined.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/24-null-i-undefined.md",
               "quiz": "typescript-basics-nullable",
               "exercise": "typescript-basics-nullable"
             },
             {
-              "index": 8,
-              "title": "4. Переменные",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/08-4-peremennye.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 9,
+              "index": 25,
               "title": "Присваивание значения",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/09-prisvaivanie-znacheniya.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/25-prisvaivanie-znacheniya.md",
               "quiz": "typescript-basics-assignability",
               "exercise": "typescript-basics-assignability"
             },
             {
-              "index": 10,
-              "title": "6. Анонимные функции",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/10-6-anonimnye-funkcii.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 11,
-              "title": "20. Перегрузка функций",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/11-20-peregruzka-funkciy.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 12,
-              "title": "9. Перечисления",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/12-9-perechisleniya.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 13,
+              "index": 26,
               "title": "Аннотации типов",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/13-annotacii-tipov.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/26-annotacii-tipov.md",
               "quiz": "typescript-basics-type-annotations",
               "exercise": "typescript-basics-type-annotations"
             },
             {
-              "index": 14,
-              "title": "12. Система модулей",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/14-12-sistema-moduley.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 15,
+              "index": 27,
               "title": "Объединения",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/15-obedineniya.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/27-obedineniya.md",
               "quiz": "typescript-basics-union-types",
               "exercise": "typescript-basics-union-types"
             },
             {
-              "index": 16,
-              "title": "7. Массивы",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/16-7-massivy.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 17,
-              "title": "15. Тип Void",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/17-15-tip-void.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 18,
+              "index": 28,
               "title": "Структурная типизация",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/18-strukturnaya-tipizaciya.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya.md",
               "quiz": "typescript-basics-structural-typing",
               "exercise": "typescript-basics-structural-typing"
             },
             {
-              "index": 19,
+              "index": 29,
               "title": "Кортежи",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/19-kortezhi.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/29-kortezhi.md",
               "quiz": "typescript-basics-tuples",
               "exercise": "typescript-basics-tuples"
             },
             {
-              "index": 20,
+              "index": 30,
               "title": "Типы как множества",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/20-tipy-kak-mnozhestva.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva.md",
               "quiz": "typescript-basics-type-as-sets",
               "exercise": "typescript-basics-type-as-sets"
             },
             {
-              "index": 21,
-              "title": "13. Функции как параметры",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/21-13-funkcii-kak-parametry.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 22,
-              "title": "11. Тип Any",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/22-11-tip-any.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 23,
-              "title": "19. Операции Rest и Spread",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/23-19-operacii-rest-i-spread.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 24,
-              "title": "14. Опциональные параметры в функциях",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/24-14-opcionalnye-parametry-v-funkciyah.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 25,
-              "title": "5. Именованные функции",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/25-5-imenovannye-funkcii.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 26,
-              "title": "2. Привет, Мир!",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/26-2-privet-mir.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 27,
+              "index": 31,
               "title": "Сужение типов",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/27-suzhenie-tipov.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/31-suzhenie-tipov.md",
               "quiz": "typescript-basics-type-narrowing",
               "exercise": "typescript-basics-type-narrowing"
             },
             {
-              "index": 28,
+              "index": 32,
               "title": "Ковариантность и контравариантность",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/28-kovariantnost-i-kontravariantnost.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/32-kovariantnost-i-kontravariantnost.md",
               "quiz": "typescript-basics-variability",
               "exercise": "typescript-basics-variability"
             },
             {
-              "index": 29,
+              "index": 33,
               "title": "Многомерные массивы",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/29-mnogomernye-massivy.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/33-mnogomernye-massivy.md",
               "quiz": "typescript-basics-multi-dimensional-arrays",
               "exercise": "typescript-basics-multi-dimensional-arrays"
             },
             {
-              "index": 30,
-              "title": "18. Деструктуризация",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/30-18-destrukturizaciya.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 31,
+              "index": 34,
               "title": "Литералы",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/31-literaly.md",
+              "theory": "content/theory/06-modul-6/02-osnovy-typescript/34-literaly.md",
               "quiz": "typescript-basics-literal-types",
               "exercise": "typescript-basics-literal-types"
-            },
-            {
-              "index": 32,
-              "title": "3. TypeScript",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/32-3-typescript.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 33,
-              "title": "17. Тип Unknown",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/33-17-tip-unknown.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
-              "index": 34,
-              "title": "10. Псевдонимы типов",
-              "theory": "content/theory/06-modul-6/02-osnovy-typescript/34-10-psevdonimy-tipov.md",
-              "quiz": null,
-              "exercise": null
             }
           ]
         },
