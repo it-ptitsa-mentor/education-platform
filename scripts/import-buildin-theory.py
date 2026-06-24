@@ -18,6 +18,9 @@ COURSE_ID = "2427ffcb-409b-463a-bfc0-01f0be591a9a"
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "content" / "theory"
 
+# Модули, переписанные в репозитории — не перезаписывать при импорте из Buildin.
+FROZEN_MODULES = {"01-modul-1"}
+
 # ── HTTP с ретраями (REST иногда отдаёт 502/500) ──
 def _req(method, path, body=None, retries=5):
     url = f"{BASE}{path}"
@@ -192,9 +195,41 @@ def title_of(page):
 
 # ── основной обход ──
 def main():
+    import shutil
+
+    frozen_manifest_mods = {}
+    tmp = OUT.parent / ".theory-frozen-backup"
+    if OUT.exists() and FROZEN_MODULES:
+        manifest_path = OUT / "manifest.json"
+        if manifest_path.exists():
+            old_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            for m in old_manifest.get("modules", []):
+                if m.get("slug") in FROZEN_MODULES:
+                    frozen_manifest_mods[m["slug"]] = m
+        backed = []
+        if tmp.exists():
+            shutil.rmtree(tmp)
+        tmp.mkdir(parents=True)
+        for mslug in FROZEN_MODULES:
+            src = OUT / mslug
+            if src.is_dir():
+                shutil.copytree(src, tmp / mslug)
+                backed.append(mslug)
+        if backed:
+            print(f"🔒 Бэкап замороженных модулей: {', '.join(sorted(backed))}")
+
     if OUT.exists():
-        import shutil; shutil.rmtree(OUT)
+        shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
+
+    if tmp.exists() and any((tmp / mslug).is_dir() for mslug in FROZEN_MODULES):
+        for mslug in FROZEN_MODULES:
+            src = tmp / mslug
+            if src.is_dir():
+                shutil.copytree(src, OUT / mslug)
+        shutil.rmtree(tmp)
+        print("   ↳ локальные версии модулей восстановлены")
+
     manifest = {"course": "JS Разработчик", "course_id": COURSE_ID, "modules": []}
     lesson_count = topic_count = 0
 
@@ -204,6 +239,19 @@ def main():
         mdir = OUT / mslug
         mrec = {"index": mi, "title": mtitle, "id": mid, "slug": mslug, "topics": []}
         print(f"\n📦 {mtitle}")
+
+        if mslug in FROZEN_MODULES and mslug in frozen_manifest_mods:
+            print("  🔒 модуль заморожен — импорт из Buildin пропущен")
+            manifest["modules"].append(frozen_manifest_mods[mslug])
+            for t in frozen_manifest_mods[mslug].get("topics", []):
+                topic_count += 1
+                lesson_count += len(t.get("lessons", []))
+            continue
+
+        if mslug in FROZEN_MODULES and mdir.is_dir():
+            print("  🔒 модуль заморожен — есть локальные файлы, импорт пропущен")
+            manifest["modules"].append(mrec)
+            continue
 
         try:
             topic_blocks = [b for b in children(mid) if b.get("type") == "child_database"]
