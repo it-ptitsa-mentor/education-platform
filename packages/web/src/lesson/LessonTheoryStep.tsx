@@ -1,56 +1,27 @@
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import ReactMarkdown from "react-markdown";
-import { loadTheory, markUnitDone } from "../course";
-import { markdownComponents } from "../lib/markdown-components";
-import { lessonUnitPath, nextUnit } from "../lib/lesson-units";
+import { markUnitDone } from "../course";
+import {
+  lessonTheoryContinueTarget,
+} from "../lib/lesson-units";
+import { LessonContinueButton } from "./LessonContinueButton";
 import { useLesson } from "./lesson-context";
-import { LessonUnitNav } from "./LessonStepper";
+import { LessonTheoryContent } from "./LessonTheoryContent";
 
 export const LessonTheoryStep = () => {
-  const { current, next, refreshProgress } = useLesson();
-  const navigate = useNavigate();
-  const [theory, setTheory] = useState("");
-  const { lesson, id } = current;
-
-  useEffect(() => {
-    setTheory("");
-    loadTheory(lesson.theory)
-      .then(setTheory)
-      .catch(() => setTheory("_Не удалось загрузить теорию._"));
-  }, [lesson.theory]);
-
-  const handleContinue = () => {
-    markUnitDone(id, "theory");
-    refreshProgress();
-
-    const nextStep = nextUnit(lesson, "theory");
-    if (nextStep) {
-      navigate(lessonUnitPath(current, nextStep));
-      return;
-    }
-    if (next) navigate(lessonUnitPath(next, "theory"));
-  };
+  const { current, allLessons, refreshProgress } = useLesson();
+  const target = lessonTheoryContinueTarget(current, allLessons);
 
   return (
     <>
-      <article className="lesson-theory lesson-content prose">
-        <ReactMarkdown components={markdownComponents}>{theory}</ReactMarkdown>
-      </article>
-
-      <LessonUnitNav
-        unit="theory"
-        onContinue={handleContinue}
-        continueLabel={
-          nextUnit(lesson, "theory") === "quiz"
-            ? "К квизу →"
-            : nextUnit(lesson, "theory") === "exercise"
-              ? "К практике →"
-              : next
-                ? `${next.lesson.title} →`
-                : "Завершить урок"
-        }
-      />
+      <LessonTheoryContent theoryPath={current.lesson.theory} />
+      {target ? (
+        <LessonContinueButton
+          target={target}
+          onNavigate={() => {
+            markUnitDone(current.id, "theory");
+            refreshProgress();
+          }}
+        />
+      ) : null}
     </>
   );
 };

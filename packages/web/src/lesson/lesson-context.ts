@@ -1,9 +1,13 @@
 import { createContext, useContext } from "react";
-import type { Course, LessonRef } from "../course";
+import type { Course, LessonRef, Module, Topic } from "../course";
 
 export type LessonContextValue = {
   course: Course;
+  module: Module;
+  topic: Topic;
   current: LessonRef;
+  topicLessons: LessonRef[];
+  allLessons: LessonRef[];
   prev: LessonRef | null;
   next: LessonRef | null;
   progressVersion: number;

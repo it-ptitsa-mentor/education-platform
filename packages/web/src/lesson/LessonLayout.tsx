@@ -3,22 +3,38 @@ import { Link, Navigate, Outlet, useLocation, useParams } from "react-router-dom
 import {
   flattenLessons,
   loadCourse,
-  readLessonUnits,
   type Course,
-  type LessonUnit,
-  type Topic,
+  type LessonRef,
 } from "../course";
-import { TopicLessonsModal } from "../components/TopicLessonsModal";
+import {
+  activeUnitFromPath,
+  lessonUnitPath,
+} from "../lib/lesson-units";
 import { LessonContext } from "./lesson-context";
-import { LessonStepper, LessonUnitNav } from "./LessonStepper";
+import { LessonStepper } from "./LessonStepper";
+
+const findTopic = (course: Course, moduleSlug: string, topicSlug: string) => {
+  const mod = course.modules.find((m) => m.slug === moduleSlug);
+  const topic = mod?.topics.find((t) => t.slug === topicSlug);
+  if (!mod || !topic) return null;
+  return { mod, topic };
+};
+
+const findLessonRef = (
+  topicLessons: LessonRef[],
+  lessonIndex: number,
+): LessonRef | null =>
+  topicLessons.find((l) => l.lesson.index === lessonIndex) ?? null;
 
 export const LessonLayout = () => {
-  const { moduleSlug = "", topicSlug = "", lessonIndex = "" } = useParams();
+  const { moduleSlug = "", topicSlug = "", lessonIndex = "1" } = useParams();
   const location = useLocation();
+  const parsedIndex = Number.parseInt(lessonIndex, 10) || 1;
+  const activeUnit = activeUnitFromPath(location.pathname);
+
   const [course, setCourse] = useState<Course | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [progressVersion, setProgressVersion] = useState(0);
-  const [pickerTopic, setPickerTopic] = useState<Topic | null>(null);
 
   useEffect(() => {
     loadCourse()
@@ -26,25 +42,43 @@ export const LessonLayout = () => {
       .catch((e: Error) => setError(e.message));
   }, []);
 
-  const lessons = useMemo(
+  const allLessons = useMemo(
     () => (course ? flattenLessons(course) : []),
     [course],
   );
-  const id = `${moduleSlug}/${topicSlug}/${lessonIndex}`;
-  const pos = lessons.findIndex((l) => l.id === id);
-  const current = pos >= 0 ? lessons[pos] : null;
-  const prev = pos > 0 ? lessons[pos - 1] : null;
-  const next = pos >= 0 && pos < lessons.length - 1 ? lessons[pos + 1] : null;
 
-  const activeUnit = useMemo((): LessonUnit => {
-    if (location.pathname.endsWith("/quiz")) return "quiz";
-    if (location.pathname.endsWith("/exercise")) return "exercise";
-    return "theory";
-  }, [location.pathname]);
+  const topicEntry = course ? findTopic(course, moduleSlug, topicSlug) : null;
+
+  const topicLessons = useMemo(
+    () =>
+      allLessons.filter(
+        (l) => l.module.slug === moduleSlug && l.topic.slug === topicSlug,
+      ),
+    [allLessons, moduleSlug, topicSlug],
+  );
+
+  const current = useMemo(
+    () => findLessonRef(topicLessons, parsedIndex),
+    [topicLessons, parsedIndex],
+  );
+
+  const prev = useMemo(() => {
+    if (!current) return null;
+    const pos = allLessons.findIndex((l) => l.id === current.id);
+    return pos > 0 ? allLessons[pos - 1] : null;
+  }, [allLessons, current]);
+
+  const next = useMemo(() => {
+    if (!current) return null;
+    const pos = allLessons.findIndex((l) => l.id === current.id);
+    return pos >= 0 && pos < allLessons.length - 1
+      ? allLessons[pos + 1]
+      : null;
+  }, [allLessons, current]);
 
   useEffect(() => {
     window.scrollTo({ top: 0 });
-  }, [location.pathname]);
+  }, [moduleSlug, topicSlug, lessonIndex, activeUnit]);
 
   if (error) {
     return (
@@ -54,7 +88,7 @@ export const LessonLayout = () => {
     );
   }
 
-  if (!course || !current) {
+  if (!course || !topicEntry) {
     return (
       <div className="loading">
         <span className="spinner spinner-lg" aria-hidden />
@@ -63,124 +97,79 @@ export const LessonLayout = () => {
     );
   }
 
-  const { module: mod, topic, lesson } = current;
-  const units = readLessonUnits(id);
-  void units;
+  if (!current) {
+    const first = topicLessons[0];
+    if (first) {
+      return (
+        <Navigate to={lessonUnitPath(first, "theory")} replace />
+      );
+    }
+    return (
+      <div className="banner banner-error home-banner">
+        <span className="banner-label">ERR</span> Урок не найден
+      </div>
+    );
+  }
 
+  const { mod, topic } = topicEntry;
   const refreshProgress = () => setProgressVersion((v) => v + 1);
-
-  const fillMain = activeUnit === "exercise";
-  const [asideOpen, setAsideOpen] = useState(!fillMain);
-
-  useEffect(() => {
-    setAsideOpen(!fillMain);
-  }, [fillMain, location.pathname]);
-
-  const layoutClass = [
-    "lesson-layout",
-    fillMain ? "lesson-layout--focus" : "",
-    fillMain && asideOpen ? "lesson-layout--aside-open" : "",
-  ]
-    .filter(Boolean)
-    .join(" ");
 
   return (
     <LessonContext.Provider
       value={{
         course,
+        module: mod,
+        topic,
         current,
+        topicLessons,
+        allLessons,
         prev,
         next,
         progressVersion,
         refreshProgress,
       }}
     >
-      <div className={layoutClass}>
-        {fillMain && asideOpen ? (
-          <button
-            type="button"
-            className="lesson-aside-backdrop"
-            aria-label="Скрыть модули"
-            onClick={() => setAsideOpen(false)}
-          />
-        ) : null}
-
-        <aside className="lesson-aside" aria-hidden={fillMain && !asideOpen}>
-          <Link to="/learn" className="lesson-aside-back">
-            ← Все модули
-          </Link>
-          <p className="lesson-aside-module">{mod.title}</p>
-          <ul className="lesson-aside-topics">
-            {mod.topics.map((t) => {
-              const isCurrent = t.slug === topic.slug;
-              return (
-                <li key={t.slug}>
-                  <button
-                    type="button"
-                    className={`lesson-aside-topic-btn${isCurrent ? " is-current" : ""}`}
-                    onClick={() => setPickerTopic(t)}
-                  >
-                    {t.title}
-                  </button>
-                </li>
-              );
-            })}
-          </ul>
-        </aside>
-
-        <main
-          className={`lesson-main${fillMain ? " lesson-main--fill" : ""}`}
-        >
-          <div
-            className={`lesson-main-header${fillMain ? " lesson-main-header--compact" : ""}`}
-          >
-            {fillMain ? (
-              <div className="lesson-main-header-row">
-                <button
-                  type="button"
-                  className="lesson-aside-toggle"
-                  aria-expanded={asideOpen}
-                  onClick={() => setAsideOpen((open) => !open)}
-                >
-                  {asideOpen ? "Скрыть модули" : "Модули"}
-                </button>
-                <h1 className="lesson-title lesson-title--compact">
-                  {lesson.title}
-                </h1>
-                <LessonStepper />
-                <LessonUnitNav unit={activeUnit} compact />
-              </div>
-            ) : (
-              <>
-                <div className="lesson-breadcrumb">
-                  {mod.title} · {topic.title}
-                </div>
-                <h1 className="lesson-title">{lesson.title}</h1>
-                <LessonStepper />
-              </>
-            )}
+      <div className="lesson-layout">
+        <main className="lesson-main">
+          <div className="lesson-main-header">
+            <Link to="/" className="lesson-nav-link lesson-nav-link--back">
+              ← Роадмап
+            </Link>
+            <div className="lesson-breadcrumb">
+              {mod.title} · {topic.title}
+            </div>
+            <h1 className="lesson-title">{current.lesson.title}</h1>
+            <LessonStepper activeUnit={activeUnit} />
           </div>
 
-          <div
-            className={`lesson-main-body${fillMain ? " lesson-main-body--fill" : ""}`}
-          >
+          <div className="lesson-main-body">
             <Outlet />
           </div>
-        </main>
 
-        {pickerTopic && (
-          <TopicLessonsModal
-            module={mod}
-            topic={pickerTopic}
-            activeLessonId={id}
-            onClose={() => setPickerTopic(null)}
-          />
-        )}
+          {(prev || next) && (
+            <footer className="lesson-footer-nav">
+              {prev ? (
+                <Link
+                  to={lessonUnitPath(prev, "theory")}
+                  className="lesson-nav-link"
+                >
+                  ← {prev.lesson.title}
+                </Link>
+              ) : (
+                <span />
+              )}
+              {next ? (
+                <Link
+                  to={lessonUnitPath(next, "theory")}
+                  className="lesson-nav-link"
+                >
+                  {next.lesson.title} →
+                </Link>
+              ) : null}
+            </footer>
+          )}
+        </main>
       </div>
     </LessonContext.Provider>
   );
 };
-
-export const LessonIndexRedirect = () => (
-  <Navigate to="theory" replace />
-);

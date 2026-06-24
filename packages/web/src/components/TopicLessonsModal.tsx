@@ -67,7 +67,7 @@ export const TopicLessonsModal = ({
             return (
               <li key={lesson.index}>
                 <Link
-                  to={`/learn/${id}/theory`}
+                  to={`/learn/${module.slug}/${topic.slug}/${lesson.index}/theory`}
                   className={[
                     "course-modal-lesson",
                     done ? "is-done" : "",

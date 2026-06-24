@@ -869,8 +869,13 @@ body.is-resizing-vertical {
 
 .home {
   flex: 1;
+  min-height: 0;
+  overflow-x: hidden;
   overflow-y: auto;
-  padding: 1.5rem 1.25rem 3rem;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 1.25rem clamp(1.25rem, 3vw, 2.75rem) 2.75rem;
   animation: fade-in 0.45s var(--ease-out) both;
 }
 
@@ -884,18 +889,17 @@ body.is-resizing-vertical {
 
 .home-hero {
   position: relative;
-  max-width: 46rem;
-  margin-bottom: 3rem;
-  padding: 2.5rem 0 0.5rem;
+  margin-bottom: 2.5rem;
+  padding: 1.75rem 0 0.25rem;
 }
 
 .home-hero::before {
   content: "";
   position: absolute;
-  top: -3rem;
-  left: -6rem;
-  width: 36rem;
-  height: 22rem;
+  top: -2rem;
+  left: 0;
+  width: min(36rem, 70vw);
+  height: 16rem;
   z-index: -1;
   pointer-events: none;
   background: radial-gradient(
@@ -939,7 +943,7 @@ body.is-resizing-vertical {
 
 .home-lead {
   margin: 0;
-  max-width: 38rem;
+  max-width: 52rem;
   font-size: var(--text-md);
   line-height: 1.6;
   color: var(--text-muted);
@@ -1828,9 +1832,14 @@ body.is-resizing-vertical {
 
 /* ════════ КУРС: обзор ════════ */
 .course-home { padding-bottom: 4rem; }
-.course-meta { display: flex; gap: 1.75rem; margin-top: 1.25rem; }
-.course-meta span { font-size: 0.9rem; color: var(--text-muted); }
-.course-meta b { font-family: var(--font-display); font-weight: 800; font-size: 1.4rem; color: var(--accent); display: block; }
+.course-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem 1.75rem;
+  margin-top: 1.25rem;
+}
+.course-meta span { font-size: 0.85rem; color: var(--text-muted); }
+.course-meta b { font-family: var(--font-display); font-weight: 800; font-size: 1.35rem; color: var(--accent); display: block; line-height: 1.1; }
 
 .course-modules { display: flex; flex-direction: column; gap: 2.5rem; margin-top: 2.5rem; }
 .course-module-head { display: flex; align-items: baseline; gap: 1rem; padding-bottom: 0.85rem; border-bottom: 1px solid var(--border); }
@@ -1862,8 +1871,202 @@ body.is-resizing-vertical {
 .course-modal-lesson-meta { display: flex; gap: 0.35rem; font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.03em; text-transform: uppercase; color: var(--text-subtle); }
 .course-modal-lesson-meta span { padding: 0.15rem 0.35rem; border: 1px solid var(--border); border-radius: 4px; }
 
+/* ════════ КНОПКИ (общие) ════════ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.7rem 1.3rem;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid var(--border-strong);
+  background: var(--surface-raised);
+  color: var(--text);
+  transition: transform 0.15s, border-color 0.15s, background 0.15s;
+}
+.btn:hover { transform: translateY(-2px); border-color: var(--accent); }
+.btn-primary { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+.btn-primary:hover { background: color-mix(in srgb, var(--accent) 92%, white); }
+.btn-secondary { background: var(--surface-raised); }
+.btn-ghost { background: transparent; color: var(--text-muted); }
+.btn-ghost:hover { color: var(--text); background: var(--accent-dim); }
+
+/* ════════ РОАДМАП ════════ */
+.roadmap-home {
+  display: flex;
+  flex-direction: column;
+  min-height: min(100%, 100dvh - var(--header-h));
+}
+
+.roadmap-home .home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 0 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+@media (min-width: 900px) {
+  .roadmap-home .home-hero {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+  }
+
+  .roadmap-home .roadmap-hero-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    text-align: right;
+  }
+}
+
+.roadmap-lead-extra { margin: 1rem 0 0; font-size: var(--text-sm); line-height: 1.55; color: var(--text-muted); max-width: 52rem; }
+.roadmap-hero-actions { margin-top: 0; }
+.roadmap-home .course-meta { margin-top: 0; justify-content: flex-end; }
+.roadmap-phases { display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0; flex: 1; }
+
+.roadmap-phase { border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--surface); overflow: hidden; }
+.roadmap-phase-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  padding: 0.95rem 1rem;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.roadmap-phase-toggle:hover { background: var(--accent-dim); }
+.roadmap-phase-num {
+  flex: none;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.roadmap-phase-label {
+  flex: 1 1 12rem;
+  min-width: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+.roadmap-phase-meta {
+  flex: none;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.roadmap-phase-chevron {
+  flex: none;
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-left: 0.15rem;
+  border-right: 2px solid var(--text-muted);
+  border-bottom: 2px solid var(--text-muted);
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+}
+.roadmap-phase-toggle[aria-expanded="true"] .roadmap-phase-chevron { transform: rotate(-135deg); margin-top: 0.2rem; }
+.roadmap-phase-body { padding: 0 1rem 1.15rem; display: flex; flex-direction: column; gap: 1.15rem; border-top: 1px solid var(--border); }
+
+.roadmap-week-title { margin: 0.85rem 0 0.55rem; font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-subtle); }
+.roadmap-week-nodes { display: flex; flex-direction: column; gap: 0.4rem; }
+
+.roadmap-node-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(244, 239, 229, 0.02);
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s, transform 0.15s;
+}
+.roadmap-node-pill:hover { border-color: var(--accent); background: var(--accent-dim); transform: translateY(-1px); }
+.roadmap-node-pill.is-done { border-color: color-mix(in srgb, var(--accent) 40%, var(--border)); }
+.roadmap-node-pill-main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.65rem;
+  min-width: 0;
+  flex: 1;
+}
+.roadmap-node-pill-kind {
+  flex: none;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-subtle);
+  padding: 0.2rem 0.45rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+.roadmap-node-pill--project .roadmap-node-pill-kind { color: var(--gold-soft, var(--accent)); border-color: color-mix(in srgb, var(--accent) 35%, var(--border)); }
+.roadmap-node-pill-label { font-family: var(--font-display); font-weight: 600; font-size: 0.92rem; line-height: 1.3; min-width: 0; }
+.roadmap-node-pill-badge {
+  flex: none;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  padding: 0.12rem 0.38rem;
+  border-radius: 4px;
+  background: var(--accent-dim);
+}
+.roadmap-node-pill-done { flex: none; width: 0.45rem; height: 0.45rem; border-radius: 50%; background: var(--accent); }
+
+.roadmap-node-page {
+  flex: 1;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 1.25rem clamp(1.25rem, 3vw, 2.75rem) 2.75rem;
+  animation: fade-in 0.45s var(--ease-out) both;
+}
+.roadmap-node-page .roadmap-node-desc,
+.roadmap-node-page .roadmap-node-head {
+  max-width: 52rem;
+}
+.roadmap-node-crumb { margin-bottom: 1.25rem; font-size: 0.85rem; color: var(--text-muted); }
+.roadmap-node-crumb a { color: var(--accent); text-decoration: none; }
+.roadmap-node-crumb a:hover { text-decoration: underline; }
+.roadmap-node-head { margin-bottom: 1.5rem; }
+.roadmap-node-kind { display: inline-block; font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.05em; text-transform: uppercase; padding: 0.25rem 0.5rem; border: 1px solid var(--border); border-radius: 4px; margin-bottom: 0.75rem; }
+.roadmap-node-kind--project { color: var(--gold-soft, var(--accent)); }
+.roadmap-node-title { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: clamp(1.6rem, 4vw, 2.2rem); letter-spacing: -0.02em; line-height: 1.1; }
+.roadmap-node-done-label { margin: 0.5rem 0 0; font-size: 0.85rem; color: var(--accent); }
+.roadmap-node-desc { margin-bottom: 1.75rem; line-height: 1.6; color: var(--text-muted); }
+.roadmap-node-desc p { margin: 0 0 0.85rem; }
+.roadmap-node-actions { display: flex; flex-wrap: wrap; gap: 0.65rem; margin-bottom: 2rem; }
+.roadmap-node-links h2 { font-family: var(--font-display); font-size: 1rem; margin: 0 0 0.75rem; }
+.roadmap-node-links ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.45rem; }
+.roadmap-node-links a { display: flex; align-items: baseline; gap: 0.65rem; padding: 0.65rem 0.75rem; border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); text-decoration: none; transition: border-color 0.15s, background 0.15s; }
+.roadmap-node-links a:hover { border-color: var(--accent); background: var(--accent-dim); }
+.roadmap-link-type { flex: none; font-family: var(--font-mono); font-size: 0.62rem; text-transform: uppercase; color: var(--text-subtle); }
+
 /* ════════ УРОК: дерево + центр ════════ */
-.lesson-layout { display: grid; grid-template-columns: 17rem 1fr; gap: 0; flex: 1; min-height: 0; overflow: hidden; }
+.lesson-layout { display: flex; flex-direction: column; flex: 1; min-height: 0; overflow: hidden; }
 .lesson-layout--focus { grid-template-columns: 1fr; }
 .lesson-layout--focus .lesson-aside {
   position: fixed;
@@ -1925,6 +2128,67 @@ body.is-resizing-vertical {
 .lesson-step.is-active { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
 .lesson-step.is-done:not(.is-active) { border-color: color-mix(in srgb, var(--accent) 55%, var(--border)); color: var(--text); }
 .lesson-step.is-off { opacity: 0.35; pointer-events: none; }
+
+.lesson-flow { display: flex; flex-direction: column; gap: 3.5rem; max-width: 52rem; }
+.lesson-flow-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.lesson-flow-block:last-child { border-bottom: none; padding-bottom: 0; }
+.lesson-flow-block-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+.lesson-flow-block-num {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.lesson-flow-block-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3;
+}
+.lesson-flow-section { scroll-margin-top: 1.25rem; }
+.lesson-flow-heading {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-subtle);
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.lesson-flow-section--exercise .lesson-unit--exercise {
+  min-height: min(70vh, 42rem);
+}
+.lesson-flow-continue {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+.lesson-flow-continue-btn {
+  min-width: min(100%, 16rem);
+  padding: 0.75rem 1.75rem;
+  font-size: 0.95rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.lesson-main-header .lesson-nav-link--back {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
 
 .lesson-main--fill { display: flex; flex-direction: column; overflow: hidden; padding: 0.65rem 0.85rem 0; }
 .lesson-main-header { flex-shrink: 0; }
@@ -2091,6 +2355,15 @@ body.is-resizing-vertical {
 }
 .lesson-nav-link:hover { color: var(--accent); }
 .lesson-nav-link--next { text-align: right; margin-left: auto; max-width: 45%; }
+
+.lesson-footer-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
 
 @media (max-width: 860px) {
   .lesson-layout:not(.lesson-layout--focus) { grid-template-columns: 1fr; }
