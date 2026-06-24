@@ -1,17 +1,55 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { loadCourse, readProgress, type Course } from "../course";
+import { useEffect, useMemo, useState } from "react";
+import { loadCourse, isLessonComplete, type Course, type Module, type Topic } from "../course";
+import { TopicLessonsModal } from "../components/TopicLessonsModal";
+
+type OpenTopic = {
+  module: Module;
+  topic: Topic;
+};
 
 export const CourseHomePage = () => {
   const [course, setCourse] = useState<Course | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const progress = readProgress();
+  const [progressVersion, setProgressVersion] = useState(0);
+  const [openTopic, setOpenTopic] = useState<OpenTopic | null>(null);
 
   useEffect(() => {
     loadCourse()
       .then(setCourse)
       .catch((e: Error) => setError(e.message));
   }, []);
+
+  useEffect(() => {
+    const bump = () => setProgressVersion((v) => v + 1);
+    window.addEventListener("ptitsa-course-progress", bump);
+    window.addEventListener("focus", bump);
+    return () => {
+      window.removeEventListener("ptitsa-course-progress", bump);
+      window.removeEventListener("focus", bump);
+    };
+  }, []);
+
+  const lessonIndex = useMemo(() => {
+    const map = new Map<string, Course["modules"][0]["topics"][0]["lessons"][0]>();
+    if (!course) return map;
+    for (const m of course.modules)
+      for (const t of m.topics)
+        for (const l of t.lessons) map.set(`${m.slug}/${t.slug}/${l.index}`, l);
+    return map;
+  }, [course]);
+
+  const allLessonIds = useMemo(
+    () => [...lessonIndex.keys()],
+    [lessonIndex],
+  );
+
+  const done = useMemo(() => {
+    void progressVersion;
+    return allLessonIds.filter((id) => {
+      const lesson = lessonIndex.get(id);
+      return lesson ? isLessonComplete(lesson, id) : false;
+    }).length;
+  }, [allLessonIds, lessonIndex, progressVersion]);
 
   if (error)
     return (
@@ -30,7 +68,13 @@ export const CourseHomePage = () => {
   const allLessons = course.modules.flatMap((m) =>
     m.topics.flatMap((t) => t.lessons),
   );
-  const done = Object.values(progress).filter(Boolean).length;
+
+  const topicDoneCount = (moduleSlug: string, topic: Topic) => {
+    void progressVersion;
+    return topic.lessons.filter((l) =>
+      isLessonComplete(l, `${moduleSlug}/${topic.slug}/${l.index}`),
+    ).length;
+  };
 
   return (
     <div className="home course-home">
@@ -68,43 +112,42 @@ export const CourseHomePage = () => {
               </span>
             </header>
 
-            <div className="course-topics">
-              {m.topics.map((t) => (
-                <div key={t.slug} className="course-topic">
-                  <div className="course-topic-title">{t.title}</div>
-                  <ul className="course-lessons">
-                    {t.lessons.map((l) => {
-                      const id = `${m.slug}/${t.slug}/${l.index}`;
-                      const isDone = progress[id];
-                      return (
-                        <li key={l.index}>
-                          <Link to={`/learn/${id}`} className="course-lesson">
-                            <span
-                              className={`course-lesson-dot${isDone ? " is-done" : ""}`}
-                              aria-hidden
-                            >
-                              {isDone ? "✓" : ""}
-                            </span>
-                            <span className="course-lesson-title">
-                              {l.title}
-                            </span>
-                            <span className="course-lesson-badges">
-                              {l.quiz && <span title="есть квиз">❓</span>}
-                              {l.exercise && (
-                                <span title="есть практика">💻</span>
-                              )}
-                            </span>
-                          </Link>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </div>
-              ))}
-            </div>
+            <ul className="course-topic-list">
+              {m.topics.map((t) => {
+                const doneInTopic = topicDoneCount(m.slug, t);
+                const total = t.lessons.length;
+                return (
+                  <li key={t.slug}>
+                    <button
+                      type="button"
+                      className="course-topic-btn"
+                      onClick={() => setOpenTopic({ module: m, topic: t })}
+                    >
+                      <span className="course-topic-btn-title">{t.title}</span>
+                      <span className="course-topic-btn-meta">
+                        {total} уроков
+                        {doneInTopic > 0 && (
+                          <span className="course-topic-btn-progress">
+                            · {doneInTopic}/{total}
+                          </span>
+                        )}
+                      </span>
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
           </section>
         ))}
       </div>
+
+      {openTopic && (
+        <TopicLessonsModal
+          module={openTopic.module}
+          topic={openTopic.topic}
+          onClose={() => setOpenTopic(null)}
+        />
+      )}
     </div>
   );
 };
