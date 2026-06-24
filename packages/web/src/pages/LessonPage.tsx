@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { markdownComponents } from "../lib/markdown-components";
 import {
   loadCourse,
@@ -120,7 +121,12 @@ export const LessonPage = () => {
         </div>
 
         <article className="lesson-theory prose">
-          <ReactMarkdown components={markdownComponents}>{theory}</ReactMarkdown>
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            components={markdownComponents}
+          >
+            {theory}
+          </ReactMarkdown>
         </article>
 
         <div className="lesson-actions">
