@@ -1,7 +1,7 @@
 # Theory rewrite pilot — Module 1 (CSS/HTML)
 
 **Date:** 2026-06-24  
-**Status:** Draft — awaiting user review of this spec  
+**Status:** In progress — branch `content/theory-rewrite`, PR отдельно от UX  
 **Scope:** Переписать теорию Модуля 1 своими словами; проекты roadmap не трогаем
 
 ## Goal
