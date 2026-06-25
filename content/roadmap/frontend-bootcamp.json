@@ -1,0 +1,1807 @@
+{
+  "id": "frontend-bootcamp",
+  "title": "Frontend Bootcamp",
+  "subtitle": "16 недель · CLI и JS → Web/DOM → React",
+  "profession": "Frontend-разработчик",
+  "phases": [
+    {
+      "id": "p1",
+      "label": "Фаза 1: CLI и JS-фундамент (W1-3)",
+      "weeks": [
+        {
+          "week": 1,
+          "phaseId": "p1",
+          "topicIds": [
+            "xYLNxAe6ar_CeeJxqHEOh",
+            "TUPGvmRx6EWPtjAhFSK3P",
+            "ft_yRUzj6XSf-SSs5B6g8",
+            "o-4Vvpig68AqEJgHSrgr7",
+            "XhJbF3gmOv4LrHfOD0VXW"
+          ],
+          "projectIds": [
+            "T9dBSYD3ZH9WfZWmQf4mN"
+          ]
+        },
+        {
+          "week": 2,
+          "phaseId": "p1",
+          "topicIds": [
+            "7xu-YzzkdaGpv1BH4_ejb",
+            "Qm75DvNzYi8yQseoNEwhQ",
+            "rj1sir2pJgMLDMmNcW9ug",
+            "KQ1-7iJzxNktOge4ECEj3"
+          ],
+          "projectIds": [
+            "CsRO6NzhdlMXvKTJUsnXT"
+          ]
+        },
+        {
+          "week": 3,
+          "phaseId": "p1",
+          "topicIds": [
+            "qZlSxT0-a4rP9Ct46JHjd",
+            "e02Cgy5PF12K43GlLU1uM",
+            "rSRwSpYRjJoqTuO1AmSrZ",
+            "GssdTLSWTAGqeWeyq9CmH"
+          ],
+          "projectIds": [
+            "Uto4ex6FpBUav82tZqcW-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "label": "Фаза 2: Web и DOM (W4-6)",
+      "weeks": [
+        {
+          "week": 4,
+          "phaseId": "p2",
+          "topicIds": [
+            "NChAW80sKcC9HAd3YJaM6",
+            "wNCBhe38w0tY-tZYNOKjl",
+            "MEhx1Q2SADXVst-1RrA8G",
+            "6s7P81PUmqvg2X01a3oXV"
+          ],
+          "projectIds": [
+            "qJ9RkaAsHTTrVLU5BESqt"
+          ]
+        },
+        {
+          "week": 5,
+          "phaseId": "p2",
+          "topicIds": [
+            "Og6mayvEtGIYh_1WY2LjI",
+            "xlt-qxVIH6NJ-IqPXgsVE",
+            "U4LAcHTHYij6LrVbpVA5Z",
+            "RznH6C9Q4qlcNzpaFj7-6"
+          ],
+          "projectIds": [
+            "0IthBqe8B_TcwHr1PpD_H"
+          ]
+        },
+        {
+          "week": 6,
+          "phaseId": "p2",
+          "topicIds": [
+            "JB0a4rORx10HlZFbqWi5H",
+            "Ej5qD0-FFKKrmc9hmbJxy",
+            "oSLsq6uRXTH7XUdBdAvBD"
+          ],
+          "projectIds": [
+            "oGBm1GfNcWNpMkR3fZRYo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "label": "Фаза 3: React-экосистема (W7-16)",
+      "weeks": [
+        {
+          "week": 7,
+          "phaseId": "p3",
+          "topicIds": [
+            "Whham7GqO8DCRTj4KCQJZ"
+          ],
+          "projectIds": [
+            "OlITR86htg30B0toXde2m",
+            "M7bpzjZUt5fyNGTFC6XPF"
+          ]
+        },
+        {
+          "week": 8,
+          "phaseId": "p3",
+          "topicIds": [],
+          "projectIds": [
+            "Flk0VD7JievPXTRlKyEbe",
+            "Iu8fM3AfYrs80i2VCit4K",
+            "4XtAdDTFUBXrBx82QuRV9"
+          ]
+        },
+        {
+          "week": 9,
+          "phaseId": "p3",
+          "topicIds": [],
+          "projectIds": [
+            "AMcDRZurA-Nm2mfQ0yzvm",
+            "P9bMR4WzZAr6YIbGDNMec"
+          ]
+        },
+        {
+          "week": 10,
+          "phaseId": "p3",
+          "topicIds": [],
+          "projectIds": [
+            "SjeCW_Tz2pP8AKV-4BWa0"
+          ]
+        },
+        {
+          "week": 11,
+          "phaseId": "p3",
+          "topicIds": [
+            "jfOW3iVpm6vD-RjpZcWur"
+          ],
+          "projectIds": [
+            "in4qKYUAK5FHrnfyii2QN"
+          ]
+        },
+        {
+          "week": 12,
+          "phaseId": "p3",
+          "topicIds": [],
+          "projectIds": [
+            "cshRf7gBul5HjXXKAasE0"
+          ]
+        },
+        {
+          "week": 13,
+          "phaseId": "p3",
+          "topicIds": [
+            "70BKCvRdtYDITRSx53SJK"
+          ],
+          "projectIds": [
+            "cj3zrOipuIYieDKjjvBSY"
+          ]
+        },
+        {
+          "week": 14,
+          "phaseId": "p3",
+          "topicIds": [
+            "8EebPCngfC0CcnapUIrwN",
+            "rdQ-6BuNuwrEyWwcHyj1P"
+          ],
+          "projectIds": [
+            "Hh7OC0RBqaqTljqrIFeZu"
+          ]
+        },
+        {
+          "week": 15,
+          "phaseId": "p3",
+          "topicIds": [
+            "I-qqSyPZoyMSWeBwT7MSQ"
+          ],
+          "projectIds": [
+            "Ba6ZgSTdbiTK3TG-_MVNe"
+          ]
+        },
+        {
+          "week": 16,
+          "phaseId": "p3",
+          "topicIds": [
+            "6tj8SDdgLTsL3CwWevRQO"
+          ],
+          "projectIds": [
+            "KibXRLuGu1QPFdxvCVHrd"
+          ]
+        }
+      ]
+    }
+  ],
+  "nodes": {
+    "xYLNxAe6ar_CeeJxqHEOh": {
+      "kind": "topic",
+      "label": "Основы командной строки",
+      "description": "Навигация по системе, работа с файлами и директориями, перенаправления, пайпы, базовые утилиты (ls, cat, grep), а также настройка окружения разработки и написание простых shell-скриптов для автоматизации рутинных задач.",
+      "links": [
+        {
+          "type": "official",
+          "title": "MDN: Command line crash course",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line"
+        },
+        {
+          "type": "article",
+          "title": "MIT: The Missing Semester — Shell Tools",
+          "url": "https://missing.csail.mit.edu/2020/shell-tools/"
+        },
+        {
+          "type": "article",
+          "title": "MIT: The Missing Semester — Course overview",
+          "url": "https://missing.csail.mit.edu/2020/course-shell/"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: Linux/CLI",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "02-modul-2",
+        "topicSlug": "04-osnovy-komandnoy-stroki",
+        "title": "Основы командной строки"
+      }
+    },
+    "TUPGvmRx6EWPtjAhFSK3P": {
+      "kind": "topic",
+      "label": "Введение в Git",
+      "description": "Принципы распределённой системы контроля версий: инициализация репозитория, коммиты, ветки, слияния и разрешение конфликтов. Рекомендации по рабочему потоку (feature-ветки, pull request) и хорошим сообщениям коммитов.",
+      "links": [
+        {
+          "type": "official",
+          "title": "Git Documentation",
+          "url": "https://git-scm.com/doc"
+        },
+        {
+          "type": "official",
+          "title": "GitHub Docs: Quickstart",
+          "url": "https://docs.github.com/ru/get-started/quickstart"
+        },
+        {
+          "type": "article",
+          "title": "Pro Git book (RU)",
+          "url": "https://git-scm.com/book/ru/v2"
+        },
+        {
+          "type": "article",
+          "title": "Learn Git Branching (интерактивно)",
+          "url": "https://learngitbranching.js.org/?locale=ru_RU"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: Git",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "02-modul-2",
+        "topicSlug": "05-vvedenie-v-git",
+        "title": "Введение в Git"
+      }
+    },
+    "ft_yRUzj6XSf-SSs5B6g8": {
+      "kind": "topic",
+      "label": "JS: Настройка окружения",
+      "description": "Установка и конфигурация инструментов: редактор кода, менеджеры пакетов (npm, pnpm, bun), bundlers (Vite), линтеры (ESLint, Biome), форматтеры (Prettier). Как настроить проект с минимальными усилиями и повторяемыми скриптами.",
+      "links": [
+        {
+          "type": "official",
+          "title": "MDN: Client-side tooling overview",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview"
+        },
+        {
+          "type": "official",
+          "title": "Vite Guide",
+          "url": "https://vitejs.dev/guide/"
+        },
+        {
+          "type": "official",
+          "title": "Bun Quickstart",
+          "url": "https://bun.sh/docs/quickstart"
+        },
+        {
+          "type": "official",
+          "title": "ESLint Getting Started",
+          "url": "https://eslint.org/docs/latest/use/getting-started"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: Инструменты",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "02-modul-2",
+        "topicSlug": "06-js-nastroyka-okruzheniya",
+        "title": "JS: Настройка окружения"
+      }
+    },
+    "o-4Vvpig68AqEJgHSrgr7": {
+      "kind": "topic",
+      "label": "AI-инструменты разработчика",
+      "description": "Ускорение разработки в 2-3 раза за счёт грамотного использования AI-ассистентов: Cursor для агентного редактирования кодовой базы, GitHub Copilot для inline-предложений, основы prompt-инжиниринга для качественных ответов модели. Ключевая мысль — AI это инструмент, а не магия: важно понимать, когда он помогает, а когда мешает. Junior-разработчику AI экономит часы на чтении незнакомого репо, написании тестов, типов и документации, но плохо заменяет понимание архитектуры и отладку нетривиальных багов. Учись писать узкие промпты: вместо «исправь этот баг» — «вот стектрейс, вот функция X, вот ожидаемое поведение, найди причину».",
+      "links": [
+        {
+          "type": "official",
+          "title": "Cursor Documentation",
+          "url": "https://docs.cursor.com/"
+        },
+        {
+          "type": "official",
+          "title": "Anthropic: Prompt Engineering Overview",
+          "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"
+        },
+        {
+          "type": "official",
+          "title": "GitHub Copilot Documentation",
+          "url": "https://docs.github.com/en/copilot"
+        },
+        {
+          "type": "article",
+          "title": "OpenAI: Prompt Engineering Guide",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        },
+        {
+          "type": "course",
+          "title": "Learn Prompting (бесплатный курс по промпт-инжинирингу)",
+          "url": "https://learnprompting.org"
+        },
+        {
+          "type": "article",
+          "title": "Cursor Blog (паттерны и обновления)",
+          "url": "https://cursor.com/blog"
+        },
+        {
+          "type": "opensource",
+          "title": "Anthropic Cookbook (примеры реальных задач)",
+          "url": "https://github.com/anthropics/anthropic-cookbook"
+        },
+        {
+          "type": "video",
+          "title": "Theo (t3.gg): AI coding workflow",
+          "url": "https://www.youtube.com/@t3dotgg"
+        }
+      ],
+      "courseTopic": null
+    },
+    "XhJbF3gmOv4LrHfOD0VXW": {
+      "kind": "topic",
+      "label": "Основы JavaScript",
+      "description": "Основы языка: примитивы и объекты, управление потоком (условия, циклы), функции и области видимости, работа с DOM и простые примеры взаимодействия на странице. Также — как подходить к отладке и чтению ошибок.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Введение",
+          "url": "https://learn.javascript.ru/intro"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Первые шаги в JavaScript",
+          "url": "https://developer.mozilla.org/ru/docs/Learn/JavaScript/First_steps"
+        },
+        {
+          "type": "article",
+          "title": "web.dev: Learn JavaScript",
+          "url": "https://web.dev/learn/javascript"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: JavaScript",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Yauhen Kavalchuk: JavaScript",
+          "url": "https://www.youtube.com/@YauhenKavalchuk/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "02-modul-2",
+        "topicSlug": "01-osnovy-javascript",
+        "title": "Основы JavaScript"
+      }
+    },
+    "7xu-YzzkdaGpv1BH4_ejb": {
+      "kind": "topic",
+      "label": "Основы современной верстки",
+      "description": "Краткое и практическое введение в создание веб-страниц с помощью HTML и CSS: структура документа, семантические теги, блочная модель, базовая типографика, цвета и адаптивность. Покажу, как мысленно строить страницу от макета к реализациям и какие приёмы использовать для совместимости в браузерах.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: HTML",
+          "url": "https://doka.guide/html/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Введение в HTML",
+          "url": "https://developer.mozilla.org/ru/docs/Learn/HTML/Introduction_to_HTML"
+        },
+        {
+          "type": "article",
+          "title": "web.dev: Learn HTML",
+          "url": "https://web.dev/learn/html"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: HTML & CSS",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "01-modul-1",
+        "topicSlug": "01-osnovy-sovremennoy-verstki",
+        "title": "Основы современной верстки"
+      }
+    },
+    "Qm75DvNzYi8yQseoNEwhQ": {
+      "kind": "topic",
+      "label": "Верстка контента",
+      "description": "Приёмы работы с текстом, изображениями и мультимедийными блоками: оптимизация читабельности, типографические системы, использование семантических контейнеров, адаптивные картинки и ресайз, доступность (a11y) и мобильная оптимизация для плавного восприятия контента на любых экранах.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: Типографика и вёрстка",
+          "url": "https://doka.guide/css/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Структура и семантика",
+          "url": "https://developer.mozilla.org/ru/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure"
+        },
+        {
+          "type": "article",
+          "title": "web.dev: Learn Accessibility",
+          "url": "https://web.dev/learn/accessibility"
+        },
+        {
+          "type": "article",
+          "title": "web.dev: Responsive images",
+          "url": "https://web.dev/articles/serve-responsive-images"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: Frontend",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "01-modul-1",
+        "topicSlug": "02-verstka-kontenta",
+        "title": "Верстка контента"
+      }
+    },
+    "rj1sir2pJgMLDMmNcW9ug": {
+      "kind": "topic",
+      "label": "JS: Функции",
+      "description": "Функции как единицы логики: декларация и выражение, область видимости, замыкания, аргументы по умолчанию и каррирование. Принципы чистых функций и декомпозиции задач для улучшения тестируемости.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: Функция",
+          "url": "https://doka.guide/js/function/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Функции",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Functions"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Основы функций",
+          "url": "https://learn.javascript.ru/function-basics"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Замыкания",
+          "url": "https://learn.javascript.ru/closure"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: Frontend",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "03-modul-3",
+        "topicSlug": "01-js-funkcii",
+        "title": "JS: Функции"
+      }
+    },
+    "KQ1-7iJzxNktOge4ECEj3": {
+      "kind": "topic",
+      "label": "JS: Массивы",
+      "description": "Структуры для хранения коллекций: методы итерации (forEach, map, filter, reduce), изменение и копирование массивов, подходы к иммутабельности и типичные паттерны для обработки списков данных в приложениях.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: Массив",
+          "url": "https://doka.guide/js/arrays/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Array",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Массивы",
+          "url": "https://learn.javascript.ru/array"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Методы массивов",
+          "url": "https://learn.javascript.ru/array-methods"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: Frontend",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "02-modul-2",
+        "topicSlug": "02-js-massivy",
+        "title": "JS: Массивы"
+      }
+    },
+    "qZlSxT0-a4rP9Ct46JHjd": {
+      "kind": "topic",
+      "label": "Tailwind CSS",
+      "description": "Utility-first CSS-фреймворк, де-факто стандарт 2026: атомарные классы прямо в JSX/HTML, темизация через CSS-переменные и @theme, JIT-компиляция, плагины и дизайн-токены. Ускоряет вёрстку в 2-3 раза без потери поддерживаемости и хорошо комбинируется с компонентными библиотеками (shadcn/ui, Radix). Главный антипаттерн — пытаться «переписать Tailwind на семантические классы» через @apply: используй их редко и точечно. Конфигурируй цвета, отступы и брейкпоинты через @theme, а не хардкодом — тогда дизайн-система остаётся согласованной и переход на dark mode становится 5-минутной задачей.",
+      "links": [
+        {
+          "type": "official",
+          "title": "Tailwind CSS Documentation",
+          "url": "https://tailwindcss.com/docs"
+        },
+        {
+          "type": "website",
+          "title": "Tailwind Play (online REPL)",
+          "url": "https://play.tailwindcss.com/"
+        },
+        {
+          "type": "article",
+          "title": "Tailwind Blog: Tailwind CSS v4.0",
+          "url": "https://tailwindcss.com/blog/tailwindcss-v4"
+        },
+        {
+          "type": "article",
+          "title": "Adam Wathan: CSS Utility Classes and Separation of Concerns",
+          "url": "https://adamwathan.me/css-utility-classes-and-separation-of-concerns/"
+        },
+        {
+          "type": "article",
+          "title": "Nerdcave: Tailwind Cheat Sheet",
+          "url": "https://nerdcave.com/tailwind-cheat-sheet"
+        },
+        {
+          "type": "website",
+          "title": "Tailwind CSS Showcase (real-world примеры)",
+          "url": "https://tailwindcss.com/showcase"
+        },
+        {
+          "type": "opensource",
+          "title": "shadcn/ui (компонентная библиотека на Tailwind)",
+          "url": "https://ui.shadcn.com/"
+        },
+        {
+          "type": "video",
+          "title": "Net Ninja: Tailwind CSS Crash Course",
+          "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gNhFQgS4edpqfwyhEZTrgu"
+        }
+      ],
+      "courseTopic": null
+    },
+    "e02Cgy5PF12K43GlLU1uM": {
+      "kind": "topic",
+      "label": "CSS: позиционирование элементов",
+      "description": "Подробное объяснение моделей позиционирования в CSS: static, relative, absolute, fixed и sticky. Показаны сценарии использования каждого режима, влияние на поток документа, наложение (z-index) и хорошие практики для компоновки интерфейсов, включая сочетание с flex/grid.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: position",
+          "url": "https://doka.guide/css/position/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: position",
+          "url": "https://developer.mozilla.org/ru/docs/Web/CSS/position"
+        },
+        {
+          "type": "article",
+          "title": "web.dev: Learn CSS — Layout",
+          "url": "https://web.dev/learn/css/layout"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: CSS уроки",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "01-modul-1",
+        "topicSlug": "03-css-pozicionirovanie-elementov",
+        "title": "CSS: позиционирование элементов"
+      }
+    },
+    "rSRwSpYRjJoqTuO1AmSrZ": {
+      "kind": "topic",
+      "label": "JS: Объекты",
+      "description": "Моделирование данных через объекты: свойства, методы, шаблоны проектирования на основе объектных литералов, использование прототипного наследования и современные альтернативы (классы), сериализация и взаимодействие с API.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: Объект",
+          "url": "https://doka.guide/js/object/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Работа с объектами",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Working_with_objects"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Объекты",
+          "url": "https://learn.javascript.ru/object"
+        },
+        {
+          "type": "video",
+          "title": "Yauhen Kavalchuk: JavaScript",
+          "url": "https://www.youtube.com/@YauhenKavalchuk/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "02-modul-2",
+        "topicSlug": "03-js-obekty",
+        "title": "JS: Объекты"
+      }
+    },
+    "GssdTLSWTAGqeWeyq9CmH": {
+      "kind": "topic",
+      "label": "JS: Абстракция с помощью данных",
+      "description": "Паттерны где данные управляют поведением: таблицы маршрутизации, стратегии через объекты/мэппинги, конфигурируемые конвейеры и отказ от чрезмерной логики if/else в пользу декларативных структур.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Refactoring.Guru: Replace Conditional with Polymorphism",
+          "url": "https://refactoring.guru/ru/replace-conditional-with-polymorphism"
+        },
+        {
+          "type": "article",
+          "title": "Refactoring.Guru: Запах кода — switch",
+          "url": "https://refactoring.guru/ru/smells/switch-statements"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "03-modul-3",
+        "topicSlug": "03-js-abstrakciya-s-pomoschyu-dannyh",
+        "title": "JS: Абстракция с помощью данных"
+      }
+    },
+    "NChAW80sKcC9HAd3YJaM6": {
+      "kind": "topic",
+      "label": "CSS: Flex",
+      "description": "Flexbox — инструмент для одномерной компоновки: выравнивание по оси, распределение свободного места, порядок элементов и техники адаптивной верстки без плавающих блоков. Разберём реальные шаблоны: центрирование, карточки, навигации и responsive-правила.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: flex",
+          "url": "https://doka.guide/css/flex/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Basic concepts of flexbox",
+          "url": "https://developer.mozilla.org/ru/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox"
+        },
+        {
+          "type": "article",
+          "title": "web.dev: Learn CSS — Flexbox",
+          "url": "https://web.dev/learn/css/flexbox"
+        },
+        {
+          "type": "article",
+          "title": "CSS-Tricks: A Complete Guide to Flexbox",
+          "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: CSS уроки",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "01-modul-1",
+        "topicSlug": "04-css-flex",
+        "title": "CSS: Flex"
+      }
+    },
+    "wNCBhe38w0tY-tZYNOKjl": {
+      "kind": "topic",
+      "label": "CSS: Вёрстка на Grid",
+      "description": "CSS Grid — мощная двумерная система для сложных макетов: области, треки, автоматические и явные сетки, вложенные грида и сочетание с flex. Практики проектирования layout’ов для десктопа и адаптации под мобильные устройства.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: grid",
+          "url": "https://doka.guide/css/grid/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Basic concepts of grid layout",
+          "url": "https://developer.mozilla.org/ru/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout"
+        },
+        {
+          "type": "article",
+          "title": "web.dev: Learn CSS — Grid",
+          "url": "https://web.dev/learn/css/grid"
+        },
+        {
+          "type": "article",
+          "title": "CSS-Tricks: A Complete Guide to CSS Grid",
+          "url": "https://css-tricks.com/snippets/css/complete-guide-grid/"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: CSS уроки",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "01-modul-1",
+        "topicSlug": "05-css-verstka-na-grid",
+        "title": "CSS: Вёрстка на Grid"
+      }
+    },
+    "MEhx1Q2SADXVst-1RrA8G": {
+      "kind": "topic",
+      "label": "JS: Деревья",
+      "description": "Структуры данных дерева и их применение: DOM, AST, файловые деревья. Операции обхода (DFS/BFS), представление и модификация узлов, а также алгоритмы поиска и трансформации.",
+      "links": [
+        {
+          "type": "official",
+          "title": "MDN: Введение в DOM",
+          "url": "https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model/Introduction"
+        },
+        {
+          "type": "article",
+          "title": "JavaScript.Info: Обход DOM",
+          "url": "https://learn.javascript.ru/dom-navigation"
+        },
+        {
+          "type": "article",
+          "title": "AST Explorer (интерактивно)",
+          "url": "https://astexplorer.net/"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "03-modul-3",
+        "topicSlug": "04-js-derevya",
+        "title": "JS: Деревья"
+      }
+    },
+    "6s7P81PUmqvg2X01a3oXV": {
+      "kind": "topic",
+      "label": "JS: Автоматическое тестирование",
+      "description": "Инструменты и подходы для автоматической проверки кода: юнит-тесты (Vitest), интеграционные тесты, мокирование и стратегии покрытия для предотвращения регрессий. Как писать тестируемый код и выстраивать TDD-цикл.",
+      "links": [
+        {
+          "type": "official",
+          "title": "Vitest: Getting Started",
+          "url": "https://vitest.dev/guide/"
+        },
+        {
+          "type": "article",
+          "title": "Kent C. Dodds: Testing JavaScript",
+          "url": "https://kentcdodds.com/blog/common-mistakes-with-react-testing-library"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: тестирование JS",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "03-modul-3",
+        "topicSlug": "02-js-avtomaticheskoe-testirovanie",
+        "title": "JS: Автоматическое тестирование"
+      }
+    },
+    "Og6mayvEtGIYh_1WY2LjI": {
+      "kind": "topic",
+      "label": "JS: DOM API",
+      "description": "Работа с деревом документа: поиск элементов, манипуляция атрибутами и стилями, делегирование событий и оптимизации перерисовки (reflow/repaint). Практики для производительной работы с DOM.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: DOM",
+          "url": "https://doka.guide/js/dom/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Document Object Model",
+          "url": "https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Документ",
+          "url": "https://learn.javascript.ru/document"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: JS",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "04-modul-4",
+        "topicSlug": "03-js-dom-api",
+        "title": "JS: DOM API"
+      }
+    },
+    "xlt-qxVIH6NJ-IqPXgsVE": {
+      "kind": "topic",
+      "label": "JS: Асинхронное программирование",
+      "description": "Асинхронные паттерны в JS: колбэки, промисы, async/await, управление ошибками и параллелизм vs последовательность. Приёмы для управления конкурентными задачами и тайм-аутами.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: async/await",
+          "url": "https://doka.guide/js/async-await/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Асинхронный JavaScript",
+          "url": "https://developer.mozilla.org/ru/docs/Learn/JavaScript/Asynchronous"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Промисы и async/await",
+          "url": "https://learn.javascript.ru/async"
+        },
+        {
+          "type": "video",
+          "title": "Yauhen Kavalchuk: Promises/async",
+          "url": "https://www.youtube.com/@YauhenKavalchuk/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "04-modul-4",
+        "topicSlug": "01-js-asinhronnoe-programmirovanie",
+        "title": "JS: Асинхронное программирование"
+      }
+    },
+    "U4LAcHTHYij6LrVbpVA5Z": {
+      "kind": "topic",
+      "label": "Регулярные выражения (Regexp)",
+      "description": "Шаблоны для поиска и преобразования строк: синтаксис, группы, жадность и ленивость, флаги и примеры практического применения (валидация, парсинг логов, извлечение данных).",
+      "links": [
+        {
+          "type": "official",
+          "title": "MDN: Регулярные выражения",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Regular_expressions"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Регулярные выражения",
+          "url": "https://learn.javascript.ru/regular-expressions"
+        },
+        {
+          "type": "website",
+          "title": "Regex101 (интерактивный отладчик)",
+          "url": "https://regex101.com/"
+        },
+        {
+          "type": "website",
+          "title": "RegExr (визуализация regexp)",
+          "url": "https://regexr.com/"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "04-modul-4",
+        "topicSlug": "04-regulyarnye-vyrazheniya-regexp",
+        "title": "Регулярные выражения (Regexp)"
+      }
+    },
+    "RznH6C9Q4qlcNzpaFj7-6": {
+      "kind": "topic",
+      "label": "Event Loop",
+      "description": "Модель выполнения JavaScript: call stack, microtasks (Promise.then, queueMicrotask), macrotasks (setTimeout, setInterval, I/O), порядок их обработки и почему понимание event loop помогает писать предсказуемый асинхронный код.",
+      "links": [
+        {
+          "type": "official",
+          "title": "MDN: Цикл событий (Event loop)",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Event_loop"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Event loop",
+          "url": "https://learn.javascript.ru/event-loop"
+        },
+        {
+          "type": "video",
+          "title": "Philip Roberts: What the heck is the event loop anyway?",
+          "url": "https://www.youtube.com/watch?v=8aGhZQkoFbQ"
+        },
+        {
+          "type": "website",
+          "title": "Loupe (визуализация event loop)",
+          "url": "http://latentflip.com/loupe/"
+        }
+      ],
+      "courseTopic": null
+    },
+    "JB0a4rORx10HlZFbqWi5H": {
+      "kind": "topic",
+      "label": "Введение в интернет",
+      "description": "Базовые понятия о сетях: как пакеты доставляются между хостами, DNS, IP, порты, TLS и роль серверов и клиентов. Понимание этих основ помогает дебажить сетевые проблемы в веб‑приложениях.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: Как браузер рисует страницы",
+          "url": "https://doka.guide/tools/how-the-browser-creates-pages/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Как работает интернет",
+          "url": "https://developer.mozilla.org/ru/docs/Learn/Common_questions/How_does_the_Internet_work"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Что такое веб-сервер",
+          "url": "https://developer.mozilla.org/ru/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: Сети и веб",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": null
+    },
+    "Ej5qD0-FFKKrmc9hmbJxy": {
+      "kind": "topic",
+      "label": "Протокол HTTP",
+      "description": "HTTP — модель запрос/ответ: методы (GET, POST, PUT, DELETE), статус-коды, заголовки, куки и кэширование. Также поговорим про безопасные практики и особенности работы в браузере (CORS).",
+      "links": [
+        {
+          "type": "official",
+          "title": "MDN: HTTP",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Обзор HTTP",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP/Overview"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Методы HTTP",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP/Methods"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Коды состояния",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP/Status"
+        }
+      ],
+      "courseTopic": null
+    },
+    "oSLsq6uRXTH7XUdBdAvBD": {
+      "kind": "topic",
+      "label": "HTTP API",
+      "description": "Проектирование REST-подобных API и альтернативы (GraphQL): маршруты, версия API, соглашения по форматам данных, аутентификация и обработка ошибок для надёжного взаимодействия между сервисами.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: fetch",
+          "url": "https://doka.guide/js/fetch/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Использование Fetch API",
+          "url": "https://developer.mozilla.org/ru/docs/Web/API/Fetch_API/Using_Fetch"
+        },
+        {
+          "type": "official",
+          "title": "MDN: CORS",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP/CORS"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Fetch",
+          "url": "https://learn.javascript.ru/fetch"
+        }
+      ],
+      "courseTopic": null
+    },
+    "Whham7GqO8DCRTj4KCQJZ": {
+      "kind": "topic",
+      "label": "JS: React",
+      "description": "Основы React: компоненты, пропсы, состояние и жизненный цикл. Паттерны композиции, управление формами, ресайклинг списков и принципы оптимизации перформанса.",
+      "links": [
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "jfOW3iVpm6vD-RjpZcWur": {
+      "kind": "topic",
+      "label": "React Router",
+      "description": "Библиотека маршрутизации №1 для React: декларативные роуты, layout-routes, loaders/actions для data fetching, защищённые маршруты, динамические параметры и вложенные layout'ы. С версии 7 объединилась с Remix-моделью data routers, что делает её фактически фреймворком поверх React. На junior-проекте важно различать два режима: «library mode» (только клиентский роутинг с createBrowserRouter) и «framework mode» (с loaders/actions и SSR). Начинай с library mode и postup’енько подключай loader'ы — это убирает водопад useEffect → fetch → setState → render. Защищённые маршруты делай через layout-route с проверкой авторизации, а не через if в каждом компоненте.",
+      "links": [
+        {
+          "type": "official",
+          "title": "React Router: Installation",
+          "url": "https://reactrouter.com/start/library/installation"
+        },
+        {
+          "type": "official",
+          "title": "React Router: Data Loading (loaders)",
+          "url": "https://reactrouter.com/start/framework/data-loading"
+        },
+        {
+          "type": "article",
+          "title": "Robin Wieruch: React Router Tutorial",
+          "url": "https://www.robinwieruch.de/react-router/"
+        },
+        {
+          "type": "article",
+          "title": "Robin Wieruch: React Router Private Routes",
+          "url": "https://www.robinwieruch.de/react-router-private-routes/"
+        },
+        {
+          "type": "article",
+          "title": "TkDodo: React Router patterns",
+          "url": "https://tkdodo.eu/blog/"
+        },
+        {
+          "type": "video",
+          "title": "Cosden Solutions: React Router v7 Crash Course",
+          "url": "https://www.youtube.com/@cosdensolutions"
+        },
+        {
+          "type": "video",
+          "title": "Web Dev Simplified: React Router",
+          "url": "https://www.youtube.com/@WebDevSimplified"
+        }
+      ],
+      "courseTopic": null
+    },
+    "70BKCvRdtYDITRSx53SJK": {
+      "kind": "topic",
+      "label": "React Hook Form + Zod",
+      "description": "Современный стек работы с формами в React: React Hook Form управляет состоянием полей и валидацией без лишних перерисовок, Zod описывает типобезопасные схемы валидации, интеграция через @hookform/resolvers/zod. Подходит для всего — от логина до сложных мульти-степ форм с условной логикой. Главный приём — описывать схему один раз в Zod, а тип формы выводить через z.infer<typeof schema>: тип никогда не разойдётся с валидатором. Не пиши onChange-валидацию вручную — RHF делает это сам через resolver, а defaultValues типизируются от схемы. Для сложных полей (массивы, условные блоки) используй useFieldArray и discriminatedUnion в Zod.",
+      "links": [
+        {
+          "type": "official",
+          "title": "React Hook Form: Get Started",
+          "url": "https://react-hook-form.com/get-started"
+        },
+        {
+          "type": "official",
+          "title": "React Hook Form: Advanced Usage",
+          "url": "https://react-hook-form.com/advanced-usage"
+        },
+        {
+          "type": "official",
+          "title": "Zod Documentation",
+          "url": "https://zod.dev/"
+        },
+        {
+          "type": "article",
+          "title": "Colin McDonnell (автор Zod): Why Zod?",
+          "url": "https://colinhacks.com/essays/zod"
+        },
+        {
+          "type": "article",
+          "title": "Robin Wieruch: React Form (RHF + Zod)",
+          "url": "https://www.robinwieruch.de/react-form/"
+        },
+        {
+          "type": "official",
+          "title": "shadcn/ui: Form (RHF + Zod boilerplate)",
+          "url": "https://ui.shadcn.com/docs/components/form"
+        },
+        {
+          "type": "video",
+          "title": "Cosden Solutions: React Hook Form Tutorial",
+          "url": "https://www.youtube.com/@cosdensolutions"
+        }
+      ],
+      "courseTopic": null
+    },
+    "8EebPCngfC0CcnapUIrwN": {
+      "kind": "topic",
+      "label": "Основы Typescript",
+      "description": "Типовая надстройка над JS: базовые типы, интерфейсы, типизация параметров функций и объектов. Плюсы для раннего обнаружения ошибок и улучшения документации кода.",
+      "links": [
+        {
+          "type": "official",
+          "title": "TypeScript: Handbook",
+          "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
+        },
+        {
+          "type": "official",
+          "title": "TypeScript: 5-minute Intro",
+          "url": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"
+        },
+        {
+          "type": "article",
+          "title": "Total TypeScript: Beginner's Tutorial",
+          "url": "https://www.totaltypescript.com/tutorials/beginners-typescript"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: TypeScript",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "06-modul-6",
+        "topicSlug": "02-osnovy-typescript",
+        "title": "Основы Typescript"
+      }
+    },
+    "rdQ-6BuNuwrEyWwcHyj1P": {
+      "kind": "topic",
+      "label": "Продвинутый Typescript",
+      "description": "Углублённые темы: дженерики, условные типы, mapped types, смешивание типов и техники для создания выразительных типов, которые повышают надёжность крупного кода.",
+      "links": [
+        {
+          "type": "official",
+          "title": "TypeScript: Generics",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+        },
+        {
+          "type": "official",
+          "title": "TypeScript: Types from Types",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/types-from-types.html"
+        },
+        {
+          "type": "official",
+          "title": "TypeScript: Conditional Types",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html"
+        },
+        {
+          "type": "article",
+          "title": "Type-Level TypeScript",
+          "url": "https://type-level-typescript.com/"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "06-modul-6",
+        "topicSlug": "03-prodvinutyy-typescript",
+        "title": "Продвинутый Typescript"
+      }
+    },
+    "I-qqSyPZoyMSWeBwT7MSQ": {
+      "kind": "topic",
+      "label": "React: Redux Toolkit",
+      "description": "Современный подход к управлению состоянием в React: slices, createAsyncThunk, иммутабельность и шаблоны для упрощения редьюсеров и побочных эффектов в крупных приложениях.",
+      "links": [
+        {
+          "type": "official",
+          "title": "Redux Toolkit: Quick Start",
+          "url": "https://redux-toolkit.js.org/tutorials/quick-start"
+        },
+        {
+          "type": "official",
+          "title": "Redux Toolkit: Usage Guide",
+          "url": "https://redux-toolkit.js.org/usage/usage-guide"
+        },
+        {
+          "type": "official",
+          "title": "RTK Query: Overview",
+          "url": "https://redux-toolkit.js.org/rtk-query/overview"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: Redux Toolkit",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "02-react-redux-toolkit",
+        "title": "React: Redux Toolkit"
+      }
+    },
+    "6tj8SDdgLTsL3CwWevRQO": {
+      "kind": "topic",
+      "label": "TanStack Query",
+      "description": "Де-факто стандарт работы с серверным состоянием в React 2026: декларативные запросы через useQuery, кэширование, инвалидация, оптимистичные апдейты, infinite query, мутации с автоматическим refetch. Заменяет 80% сценариев Redux/MobX в современных приложениях. Главное — разделять серверное состояние (то, что приходит с бэка) и клиентское (UI-флаги, формы): первое отдаём Query, второе оставляем в useState/Zustand. Ключи запросов делай иерархическими массивами вроде ['todos', 'list', filters] — это даёт точечную инвалидацию через queryClient.invalidateQueries({ queryKey: ['todos'] }). Devtools подключай первым — без них дебажить кеш почти невозможно.",
+      "links": [
+        {
+          "type": "official",
+          "title": "TanStack Query: Overview",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/overview"
+        },
+        {
+          "type": "official",
+          "title": "TanStack Query: Devtools",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/devtools"
+        },
+        {
+          "type": "article",
+          "title": "TkDodo: Practical React Query",
+          "url": "https://tkdodo.eu/blog/practical-react-query"
+        },
+        {
+          "type": "article",
+          "title": "TkDodo: Effective React Query Keys",
+          "url": "https://tkdodo.eu/blog/effective-react-query-keys"
+        },
+        {
+          "type": "article",
+          "title": "TkDodo: Status Checks in React Query",
+          "url": "https://tkdodo.eu/blog/status-checks-in-react-query"
+        },
+        {
+          "type": "article",
+          "title": "ui.dev: Why React Query?",
+          "url": "https://ui.dev/why-react-query"
+        },
+        {
+          "type": "video",
+          "title": "Jack Herrington: React Query in depth",
+          "url": "https://www.youtube.com/@jherr"
+        },
+        {
+          "type": "video",
+          "title": "Cosden Solutions: TanStack Query Tutorial",
+          "url": "https://www.youtube.com/@cosdensolutions"
+        }
+      ],
+      "courseTopic": null
+    },
+    "USq5oCmn1MuLgj7sZHfVi": {
+      "kind": "topic",
+      "label": "Vue",
+      "description": "Прогрессивный JS-фреймворк: реактивная модель данных, шаблоны Single-File Components, Composition API и встроенный роутинг. Альтернатива React для тех, кто хочет более «батарейный» опыт.",
+      "links": [
+        {
+          "type": "official",
+          "title": "Vue: Introduction (RU)",
+          "url": "https://ru.vuejs.org/guide/introduction"
+        },
+        {
+          "type": "official",
+          "title": "Vue: Tutorial",
+          "url": "https://vuejs.org/tutorial/"
+        },
+        {
+          "type": "official",
+          "title": "Vue: Examples",
+          "url": "https://vuejs.org/examples/"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: Vue",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": null
+    },
+    "WiEVluWM6DLkf-p25Y-bm": {
+      "kind": "topic",
+      "label": "Vitest",
+      "description": "Быстрый юнит-фреймворк, нативно совместимый с Vite. Поддерживает TypeScript из коробки, snapshots, моки, Code Coverage и удобный watch-режим для TDD-процесса.",
+      "links": [
+        {
+          "type": "official",
+          "title": "Vitest: Getting Started",
+          "url": "https://vitest.dev/guide/"
+        },
+        {
+          "type": "official",
+          "title": "Vitest: API Reference",
+          "url": "https://vitest.dev/api/"
+        },
+        {
+          "type": "official",
+          "title": "Vitest: Mocking",
+          "url": "https://vitest.dev/guide/mocking"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: Тестирование",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": null
+    },
+    "e8jJ37N7804-gtC2B4iBO": {
+      "kind": "topic",
+      "label": "Playwright",
+      "description": "Инструмент E2E-тестирования от Microsoft: запись пользовательских сценариев, кросс-браузерные прогоны, автоматическое ожидание элементов, отладка через Playwright Inspector и интеграция в CI.",
+      "links": [
+        {
+          "type": "official",
+          "title": "Playwright: Getting Started",
+          "url": "https://playwright.dev/docs/intro"
+        },
+        {
+          "type": "official",
+          "title": "Playwright: Writing Tests",
+          "url": "https://playwright.dev/docs/writing-tests"
+        },
+        {
+          "type": "official",
+          "title": "Playwright: Best Practices",
+          "url": "https://playwright.dev/docs/best-practices"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: Тестирование/Playwright",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": null
+    },
+    "OTrcWX0qZfP6QvhR7yNuI": {
+      "kind": "topic",
+      "label": "JS: Архитектура фронтенда",
+      "description": "Подходы к организации клиентских приложений: компоненты, слои данных/представления, маршрутизация, управление состоянием (локально и глобально) и стратегии масштабирования приложения.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Patterns.dev",
+          "url": "https://www.patterns.dev/"
+        },
+        {
+          "type": "article",
+          "title": "Refactoring.Guru: Шаблоны проектирования",
+          "url": "https://refactoring.guru/ru/design-patterns"
+        },
+        {
+          "type": "article",
+          "title": "Feature-Sliced Design",
+          "url": "https://feature-sliced.design/ru/"
+        },
+        {
+          "type": "video",
+          "title": "s0urcerer: Frontend архитектура",
+          "url": "https://www.youtube.com/@s0urcerer"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "04-modul-4",
+        "topicSlug": "05-js-arhitektura-frontenda",
+        "title": "JS: Архитектура фронтенда"
+      }
+    },
+    "dE0bp9ulWcoF_1bi7kGcv": {
+      "kind": "topic",
+      "label": "JS: Введение в ООП",
+      "description": "Основы объектно-ориентированного подхода в JS: классы, инкапсуляция, композиция vs наследование, интерфейсы и когда применять OOP-подход в клиентском коде для ясной структуры.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: ООП",
+          "url": "https://doka.guide/tools/oop/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Введение в JS-объекты",
+          "url": "https://developer.mozilla.org/ru/docs/Learn/JavaScript/Objects"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Классы",
+          "url": "https://learn.javascript.ru/classes"
+        },
+        {
+          "type": "article",
+          "title": "Refactoring.Guru: Принципы ООП",
+          "url": "https://refactoring.guru/ru/design-patterns/catalog"
+        },
+        {
+          "type": "video",
+          "title": "Yauhen Kavalchuk: ООП",
+          "url": "https://www.youtube.com/@YauhenKavalchuk/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "03-modul-3",
+        "topicSlug": "05-js-vvedenie-v-oop",
+        "title": "JS: Введение в ООП"
+      }
+    },
+    "oVTUD79TSycf3DuLSE3ym": {
+      "kind": "topic",
+      "label": "Объектно-ориентированный дизайн",
+      "description": "Принципы SOLID, разделение ответственности, слабая связанность и высокая связность, проектирование интерфейсов и применение шаблонов проектирования для создания расширяемой архитектуры.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Refactoring.Guru: Шаблоны проектирования",
+          "url": "https://refactoring.guru/ru/design-patterns"
+        },
+        {
+          "type": "article",
+          "title": "Refactoring.Guru: Запахи кода",
+          "url": "https://refactoring.guru/ru/refactoring/smells"
+        },
+        {
+          "type": "article",
+          "title": "Refactoring.Guru: Каталог паттернов",
+          "url": "https://refactoring.guru/ru/design-patterns/catalog"
+        },
+        {
+          "type": "video",
+          "title": "Yauhen Kavalchuk: Архитектура",
+          "url": "https://www.youtube.com/@YauhenKavalchuk/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "03-modul-3",
+        "topicSlug": "06-obektno-orientirovannyy-dizayn",
+        "title": "Объектно-ориентированный дизайн"
+      }
+    },
+    "ZXvgJbMLBgpXI0HIlEZfw": {
+      "kind": "topic",
+      "label": "Next.js basics (App Router)",
+      "description": "Полноценный React-фреймворк: серверные и клиентские компоненты, App Router с file-based routing, Server Actions, streaming SSR, ISR, маршрутизация и метаданные. Минимум, который нужен junior-разработчику для понимания современного React-стека и продакшен-деплоя. Mental-модель такая: всё рендерится на сервере по умолчанию (RSC), ты осознанно помечаешь компонент 'use client' только там, где нужны useState/useEffect/обработчики событий. Server Actions заменяют большую часть REST-эндпоинтов для форм. Старайся не делать Client Component-обёртку для всей страницы — это сводит выгоды Next.js на нет.",
+      "links": [
+        {
+          "type": "official",
+          "title": "Next.js Documentation",
+          "url": "https://nextjs.org/docs"
+        },
+        {
+          "type": "course",
+          "title": "Next.js Learn (официальный бесплатный курс)",
+          "url": "https://nextjs.org/learn"
+        },
+        {
+          "type": "website",
+          "title": "Vercel Templates: Next.js (готовые стартеры)",
+          "url": "https://vercel.com/templates/next.js"
+        },
+        {
+          "type": "article",
+          "title": "Lee Robinson: Blog (essays про Next.js и React)",
+          "url": "https://leerob.io/blog"
+        },
+        {
+          "type": "article",
+          "title": "Vercel Blog",
+          "url": "https://vercel.com/blog"
+        },
+        {
+          "type": "video",
+          "title": "Lee Robinson (Vercel): Next.js App Router",
+          "url": "https://www.youtube.com/@leerob"
+        },
+        {
+          "type": "video",
+          "title": "Theo (t3.gg): Next.js deep dives",
+          "url": "https://www.youtube.com/@t3dotgg"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rQZvhiVxytC2aHu_DWGz-": {
+      "kind": "topic",
+      "label": "Непрерывная интеграция (CI)",
+      "description": "CI/CD & Docker — практический модуль по созданию многоступенчатого Dockerfile, настройке GitHub Actions и простому деплою на Vercel/Netlify. Цель — уметь воспроизводимо собирать и доставлять приложения.",
+      "links": [
+        {
+          "type": "official",
+          "title": "GitHub Actions: Quickstart",
+          "url": "https://docs.github.com/ru/actions/quickstart"
+        },
+        {
+          "type": "official",
+          "title": "Docker: Get Started",
+          "url": "https://docs.docker.com/get-started/"
+        },
+        {
+          "type": "official",
+          "title": "Vercel: Deploying",
+          "url": "https://vercel.com/docs/deployments/overview"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: DevOps/CI",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "03-modul-3",
+        "topicSlug": "07-nepreryvnaya-integraciya-ci",
+        "title": "Непрерывная интеграция (CI)"
+      }
+    },
+    "vRqfVHe-_nshaQZuptEiX": {
+      "kind": "topic",
+      "label": "JS: Продвинутое тестирование",
+      "description": "Тестирование интеграций, контрактов и end‑to‑end сценариев. Использование моков, стабов, тестовых баз данных и сценариев для тестирования асинхронных операций и внешних зависимостей.",
+      "links": [
+        {
+          "type": "official",
+          "title": "Playwright: Getting Started",
+          "url": "https://playwright.dev/docs/intro"
+        },
+        {
+          "type": "official",
+          "title": "Testing Library: Introduction",
+          "url": "https://testing-library.com/docs/"
+        },
+        {
+          "type": "official",
+          "title": "MSW: Mock Service Worker",
+          "url": "https://mswjs.io/docs/"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: Тестирование",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "04-modul-4",
+        "topicSlug": "02-js-prodvinutoe-testirovanie",
+        "title": "JS: Продвинутое тестирование"
+      }
+    },
+    "t9876Z8dS_KpFXAPi4xoe": {
+      "kind": "topic",
+      "label": "JS: Полиморфизм",
+      "description": "Работа с разными типами через единый интерфейс: динамическая диспетчеризация, duck-typing и способы писать расширяемый код, который поддерживает новые реализации без изменения существующей логики.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Refactoring.Guru: Паттерн Strategy",
+          "url": "https://refactoring.guru/ru/design-patterns/strategy"
+        },
+        {
+          "type": "article",
+          "title": "Refactoring.Guru: Замена условий полиморфизмом",
+          "url": "https://refactoring.guru/ru/replace-conditional-with-polymorphism"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Classes",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Classes"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "06-modul-6",
+        "topicSlug": "01-js-polimorfizm",
+        "title": "JS: Полиморфизм"
+      }
+    },
+    "KVAZWXNp6H2SpXMWSE9Zc": {
+      "kind": "topic",
+      "label": "JS: Погружаясь в классы",
+      "description": "Глубже о классах, прототипах и скрытых тонкостях наследования в JS: производительность, методы экземпляров и статические методы, тонкости безопасности и ограничения паттерна.",
+      "links": [
+        {
+          "type": "official",
+          "title": "MDN: Classes",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Classes"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Классы",
+          "url": "https://learn.javascript.ru/classes"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Прототипы",
+          "url": "https://learn.javascript.ru/prototypes"
+        }
+      ],
+      "courseTopic": null
+    },
+    "T9dBSYD3ZH9WfZWmQf4mN": {
+      "kind": "project",
+      "label": "TextMaster-CLI",
+      "description": "Дедлайн: конец недели 1. Фаза 1: CLI и JS-фундамент. Консольное приложение с набором текстовых команд: hello, upper, cut, stats, check, math, repeat и quit. Парсинг ввода в main.js, модульная структура src/commands/. Закрепляет базовый JS — работу со строками, циклами, условиями и обработку невалидных входов. Источник правды — тесты в __tests__/commands.test.js.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/6zMHNA7Z",
+      "courseTopic": null
+    },
+    "CsRO6NzhdlMXvKTJUsnXT": {
+      "kind": "project",
+      "label": "Recipe-Builder",
+      "description": "Дедлайн: конец недели 2. Фаза 1: CLI и JS-фундамент. CLI-приложение для управления списком ингредиентов: add, remove, replace, exists, list, find, stringify, unique, sort, merge и undo с историей изменений. Закрепляет иммутабельность входных массивов, чистые функции и работу с историей состояний. Источник правды — тесты в __tests__/repo.test.js.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/8I5Dxv44",
+      "courseTopic": null
+    },
+    "Uto4ex6FpBUav82tZqcW-": {
+      "kind": "project",
+      "label": "Product-Catalog",
+      "description": "Дедлайн: конец недели 3. Фаза 1: CLI и JS-фундамент. Набор чистых функций для работы с каталогом товаров: addProduct, removeProduct, updateProduct, getProduct, hasProduct, listProducts, filterByCategory, searchByName, mergeCatalogs, cloneCatalog с глубокой копией. Без UI и без DOM — фокус на работе с объектами, вложенными структурами и иммутабельности. Источник правды — тесты в __tests__/.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/zdWF3kFk",
+      "courseTopic": null
+    },
+    "qJ9RkaAsHTTrVLU5BESqt": {
+      "kind": "project",
+      "label": "Data-Processor-Data-Pipeline",
+      "description": "Дедлайн: конец недели 4. Фаза 2: Web и DOM. Конвейер обработки данных товаров на чистых функциях: композиция через pipe, фильтры filterByCategory и filterInStock, мапперы mapToNames и mapToPriceWithTax, агрегации sumPrices и groupByCategory, итоговая сборка готовых пайплайнов в processors.js. Закрепляет функциональный стиль (map/filter/reduce/pipe), чистые функции и иммутабельность.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/lzOc3xLK",
+      "courseTopic": null
+    },
+    "0IthBqe8B_TcwHr1PpD_H": {
+      "kind": "project",
+      "label": "GitHub-Repo-Viewer",
+      "description": "Дедлайн: конец недели 5. Фаза 2: Web и DOM. Веб-приложение без фреймворков для просмотра публичных репозиториев GitHub: fetchUserRepos с обработкой 404 и сетевых ошибок, sortRepos и filterRepos без мутаций, рендер карточек через DOM API (без innerHTML), состояния loading/error/empty/success. Закрепляет fetch, async/await и работу с реальным HTTP API.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/SB1iRdLJ",
+      "courseTopic": null
+    },
+    "oGBm1GfNcWNpMkR3fZRYo": {
+      "kind": "project",
+      "label": "mini-YouTube-Comments",
+      "description": "Дедлайн: конец недели 6. Фаза 2: Web и DOM. Упрощённый виджет комментариев на ванильном JS: createComment и createReply с дефолтными полями, likeComment и deleteComment с иммутабельными операциями, renderComment и renderReply через DOM API, синхронизация данных и DOM в main.js. Закрепляет DOM, делегирование событий и работу с вложенными структурами данных.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/aKropKl9",
+      "courseTopic": null
+    },
+    "OlITR86htg30B0toXde2m": {
+      "kind": "project",
+      "label": "React-Counter",
+      "description": "W7. useState, onClick, условный рендеринг. Счётчик +1/−1/Reset, не ниже 0, цвет числа. Шаблон Classroom. Lamkov React §1.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/dwVgaTsK",
+      "courseTopic": null
+    },
+    "M7bpzjZUt5fyNGTFC6XPF": {
+      "kind": "project",
+      "label": "React-Accordion",
+      "description": "W7. props, children, map, условный рендеринг. Accordion по массиву { title, content }. Lamkov §1.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/y84aAS5T",
+      "courseTopic": null
+    },
+    "Flk0VD7JievPXTRlKyEbe": {
+      "kind": "project",
+      "label": "React-Tabs",
+      "description": "W8. Tabs, активный таб, props children. Lamkov §2.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/aZP91FGP",
+      "courseTopic": null
+    },
+    "Iu8fM3AfYrs80i2VCit4K": {
+      "kind": "project",
+      "label": "React-User-Cards",
+      "description": "W8. UserCard, фильтр по профессии, поиск по имени, derived state. Lamkov §2.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/D66ROlHE",
+      "courseTopic": null
+    },
+    "4XtAdDTFUBXrBx82QuRV9": {
+      "kind": "project",
+      "label": "React-Todo",
+      "description": "W8. Тот же репозиторий, что на W10: todo в памяти (controlled input, фильтры, keys). Lamkov §2.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/SjdA3T1I",
+      "courseTopic": null
+    },
+    "AMcDRZurA-Nm2mfQ0yzvm": {
+      "kind": "project",
+      "label": "React-Timer",
+      "description": "W9. useEffect, useRef, cleanup, setInterval, секундомер, localStorage. Lamkov §3.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/DA8tFNow",
+      "courseTopic": null
+    },
+    "P9bMR4WzZAr6YIbGDNMec": {
+      "kind": "project",
+      "label": "React-Form-Validation",
+      "description": "W9. Ручная валидация формы регистрации, controlled inputs, disabled submit. Lamkov §6.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/IHIaqo-_",
+      "courseTopic": null
+    },
+    "SjeCW_Tz2pP8AKV-4BWa0": {
+      "kind": "project",
+      "label": "React-Todo",
+      "description": "W10. Тот же репозиторий, что на W8: json-server, fetch CRUD, loading/error. Lamkov §6.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/SjdA3T1I",
+      "courseTopic": null
+    },
+    "in4qKYUAK5FHrnfyii2QN": {
+      "kind": "project",
+      "label": "React-Router-App",
+      "description": "W11. React Router: страницы, Link, useParams, nested routes, 404. Lamkov §7.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/s8qFfzRx",
+      "courseTopic": null
+    },
+    "cshRf7gBul5HjXXKAasE0": {
+      "kind": "project",
+      "label": "React-Movie-App",
+      "description": "W12. Первый Vite с нуля: Router, Context (избранное, тема), OMDb API, custom hooks, memo, деплой GH Pages. README — шпаргалка Vite. Lamkov §4–8.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/0RbcOkV0",
+      "courseTopic": null
+    },
+    "cj3zrOipuIYieDKjjvBSY": {
+      "kind": "project",
+      "label": "RHF-Forms",
+      "description": "W13. React Hook Form + Zod, сравнение с ручной формой W9, useFieldArray. react-hook-form.com, zod.dev.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/eCYRCYfs",
+      "courseTopic": null
+    },
+    "Hh7OC0RBqaqTljqrIFeZu": {
+      "kind": "project",
+      "label": "TS-Playground",
+      "description": "W14. Миграция React-Todo (W8–W10) на TypeScript: props, useState<T>, события, типы API. Buildin TS.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/vYCB-Mst",
+      "courseTopic": null
+    },
+    "Ba6ZgSTdbiTK3TG-_MVNe": {
+      "kind": "project",
+      "label": "RTK-App",
+      "description": "W15. Redux Toolkit: configureStore, createSlice, createAsyncThunk, типизированные хуки. Закрепление перед Rick.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/m9Zs7Sm2",
+      "courseTopic": null
+    },
+    "KibXRLuGu1QPFdxvCVHrd": {
+      "kind": "project",
+      "label": "Rick-And-Morty-React",
+      "description": "W16. Капстон (один репозиторий). Milestone v1: Router + RTK + RHF + TS + Rick API. Milestone v2: рефактор data-fetch на TanStack Query, RTK для UI/избранного, деплой Vercel.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/NbVjVv0q",
+      "courseTopic": null
+    },
+    "react-form-feedback-2026": {
+      "kind": "topic",
+      "label": "Обратная связь (Google Form)",
+      "description": "После каждого сданного проекта W1–W16 — короткая форма (2–3 мин): темп, сложность, README, Classroom. Одна таблица на все 20 проектов программы.",
+      "links": [
+        {
+          "type": "website",
+          "title": "Google Form — feedback по проектам",
+          "url": "https://forms.gle/enhBc1wF42vnMFgL6"
+        }
+      ],
+      "courseTopic": null
+    },
+    "react-program-doc-2026": {
+      "kind": "topic",
+      "label": "Программа React W7–W16",
+      "description": "Полные ТЗ проектов: Counter → Rick. Документ в репозитории roadmap (docs/react-program-2026.md).",
+      "links": [
+        {
+          "type": "opensource",
+          "title": "react-program-2026.md",
+          "url": "https://github.com/it-ptitsa-mentor/roadmap/blob/main/docs/react-program-2026.md"
+        },
+        {
+          "type": "article",
+          "title": "Design spec W7–W16",
+          "url": "https://github.com/it-ptitsa-mentor/roadmap/blob/main/docs/superpowers/specs/2026-05-19-react-phase-w7-w16-design.md"
+        }
+      ],
+      "courseTopic": null
+    }
+  }
+}

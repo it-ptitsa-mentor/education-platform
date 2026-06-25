@@ -1,0 +1,42 @@
+---
+title: "Диспетчеризация по имени файла"
+module: "Модуль 6"
+topic: "JS: Полиморфизм"
+buildin_id: bcc17ec6-a724-41e9-8194-82e9ee66af66
+---
+
+# Диспетчеризация по имени файла
+
+Еще один интересный прием — диспетчеризация по имени файла.
+
+В некоторых системах принято иметь не один файл с разными ключами для конфигурации, а разные файлы, относящиеся к разным средам. Например:
+
+`configs/ database.development.json database.production.json database.test.json`
+
+Где-то в исходниках должен быть код, который выбирает какой файл загружать. Ниже код использует диспетчеризацию по ключу:
+
+```
+import fs from 'fs'
+
+const configFileNamesByEnv = {
+  development: 'database.development.json',
+  production: 'database.production.json',
+  test: 'database.test.json',
+}
+
+const filename = configFileNamesByEnv[env]
+const raw = fs.readFileSync(filename)
+const config = JSON.parse(raw)
+```
+
+Нетрудно заметить, что имея название среды запуска, можно составить подходящее имя файла. Так и сделаем:
+
+```
+const filename = `database.${env}.json`
+const raw = fs.readFileSync(filename)
+const config = JSON.parse(raw)
+```
+
+Код стал намного короче и больше не требует изменения при расширении.
+
+## Далее →

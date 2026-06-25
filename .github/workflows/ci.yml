@@ -57,6 +57,9 @@ jobs:
       - name: Generate static exercise bundle
         run: pnpm generate:static-exercises
 
+      - name: Generate course content (theory + model)
+        run: pnpm generate:course-content
+
       - name: Build web (server, base=/app/)
         run: pnpm --filter @ptitsa/web build
         env:

@@ -1,11 +1,10 @@
-import { Link, Outlet, useLocation } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { brandLogoUrl } from "../lib/brand-assets";
 import { ThemeToggle } from "./ThemeToggle";
 import { useTheme } from "../hooks/useTheme";
 
 export const AppShell = () => {
   const { theme, toggleTheme } = useTheme();
-  const location = useLocation();
 
   return (
     <div className="app-shell">
@@ -13,7 +12,7 @@ export const AppShell = () => {
       <div className="app-grid" aria-hidden />
 
       <header className="topbar">
-        <Link to="/" className="brand brand-link" aria-label="IT Птица — каталог">
+        <Link to="/" className="brand brand-link" aria-label="IT Птица — роадмап">
           <img
             className="brand-logo"
             src={brandLogoUrl}
@@ -27,21 +26,6 @@ export const AppShell = () => {
             <span className="brand-chip">EDU</span>
           </span>
         </Link>
-
-        <nav className="topbar-nav" aria-label="Разделы платформы">
-          <Link
-            to="/"
-            className={`topbar-nav-link${location.pathname === "/" || location.pathname.startsWith("/exercise/") ? " is-active" : ""}`}
-          >
-            Задачи
-          </Link>
-          <Link
-            to="/quizzes"
-            className={`topbar-nav-link${location.pathname.startsWith("/quiz") ? " is-active" : ""}`}
-          >
-            Квизы
-          </Link>
-        </nav>
 
         <div className="topbar-actions">
           <ThemeToggle theme={theme} onToggle={toggleTheme} />
