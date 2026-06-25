@@ -51,16 +51,27 @@ export const prevUnit = (
 export const isUnitAvailable = (lesson: Lesson, unit: LessonUnit) =>
   lessonUnits(lesson).includes(unit);
 
+/** Шаг урока для ссылки: предпочитаемый, если доступен, иначе первый в потоке. */
+export const preferredLessonUnit = (
+  lesson: Lesson,
+  prefer: LessonUnit,
+): LessonUnit => {
+  const units = lessonUnits(lesson);
+  return units.includes(prefer) ? prefer : (units[0] ?? "theory");
+};
+
 export type LessonContinueTarget = {
   type: "route";
   to: string;
   label: string;
 };
 
-const routeTarget = (to: string, label: string): LessonContinueTarget => ({
+export const LESSON_CONTINUE_LABEL = "Далее";
+
+const routeTarget = (to: string): LessonContinueTarget => ({
   type: "route",
   to,
-  label,
+  label: LESSON_CONTINUE_LABEL,
 });
 
 const nextLessonRef = (
@@ -72,14 +83,98 @@ const nextLessonRef = (
   return lessons[pos + 1] ?? null;
 };
 
+const prevLessonRef = (
+  lessons: LessonRef[],
+  current: LessonRef,
+): LessonRef | null => {
+  const pos = lessons.findIndex((l) => l.id === current.id);
+  if (pos <= 0) return null;
+  return lessons[pos - 1] ?? null;
+};
+
+export type LessonNavLink = {
+  to: string;
+  title: string;
+  hint?: string;
+};
+
+export const lastUnitOfLesson = (lesson: Lesson): LessonUnit => {
+  const units = lessonUnits(lesson);
+  return units[units.length - 1] ?? "theory";
+};
+
+/** Ссылка «назад» в футере: предыдущий шаг урока или последний шаг прошлого урока. */
+export const lessonFooterPrev = (
+  ref: LessonRef,
+  allLessons: LessonRef[],
+  activeUnit: LessonUnit,
+): LessonNavLink | null => {
+  const previousUnit = prevUnit(ref.lesson, activeUnit);
+  if (previousUnit) {
+    return {
+      to: lessonUnitPath(ref, previousUnit),
+      title: unitLabel(previousUnit),
+    };
+  }
+
+  const previousLesson = prevLessonRef(allLessons, ref);
+  if (!previousLesson) return null;
+
+  const unit = lastUnitOfLesson(previousLesson.lesson);
+  return {
+    to: lessonUnitPath(previousLesson, unit),
+    title: previousLesson.lesson.title,
+    hint: unitLabel(unit),
+  };
+};
+
+const navLinkFromContinueTarget = (
+  ref: LessonRef,
+  allLessons: LessonRef[],
+  target: LessonContinueTarget,
+): LessonNavLink => {
+  const destinationUnit = activeUnitFromPath(target.to);
+  const sameLesson =
+    target.to.startsWith(`${lessonFlowPath(ref)}/`) ||
+    target.to === lessonFlowPath(ref);
+
+  if (sameLesson && destinationUnit !== "theory") {
+    return { to: target.to, title: unitLabel(destinationUnit) };
+  }
+
+  if (sameLesson) {
+    return { to: target.to, title: unitLabel("theory") };
+  }
+
+  const nextLesson = nextLessonRef(allLessons, ref);
+  return {
+    to: target.to,
+    title: nextLesson?.lesson.title ?? "Следующий урок",
+    hint: unitLabel("theory"),
+  };
+};
+
+/** Ссылка «вперёд» в футере по текущему шагу урока. */
+export const lessonFooterNext = (
+  ref: LessonRef,
+  allLessons: LessonRef[],
+  activeUnit: LessonUnit,
+): LessonNavLink | null => {
+  const target =
+    activeUnit === "theory"
+      ? lessonTheoryContinueTarget(ref, allLessons)
+      : activeUnit === "quiz"
+        ? lessonQuizContinueTarget(ref, allLessons)
+        : lessonExerciseContinueTarget(ref, allLessons);
+
+  if (!target) return null;
+  return navLinkFromContinueTarget(ref, allLessons, target);
+};
+
+
 /** Теория следующего урока — только после квиза и практики текущего. */
-export const nextLessonTheoryTarget = (
-  next: LessonRef,
-): LessonContinueTarget =>
-  routeTarget(
-    lessonUnitPath(next, "theory"),
-    `Следующий урок: ${next.lesson.title}`,
-  );
+export const nextLessonTheoryTarget = (next: LessonRef): LessonContinueTarget =>
+  routeTarget(lessonUnitPath(next, "theory"));
 
 /** После теории: квиз → практика → теория следующего урока. */
 export const lessonTheoryContinueTarget = (
@@ -88,10 +183,10 @@ export const lessonTheoryContinueTarget = (
 ): LessonContinueTarget | null => {
   const { lesson } = ref;
   if (lesson.quiz) {
-    return routeTarget(lessonUnitPath(ref, "quiz"), "Далее к квизу");
+    return routeTarget(lessonUnitPath(ref, "quiz"));
   }
   if (lesson.exercise) {
-    return routeTarget(lessonUnitPath(ref, "exercise"), "Далее к практике");
+    return routeTarget(lessonUnitPath(ref, "exercise"));
   }
 
   const next = nextLessonRef(allLessons, ref);
@@ -109,7 +204,7 @@ export const lessonQuizContinueTarget = (
 ): LessonContinueTarget | null => {
   const { lesson } = ref;
   if (lesson.exercise) {
-    return routeTarget(lessonUnitPath(ref, "exercise"), "Далее к практике");
+    return routeTarget(lessonUnitPath(ref, "exercise"));
   }
 
   const next = nextLessonRef(allLessons, ref);

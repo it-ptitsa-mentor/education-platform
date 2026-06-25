@@ -2,12 +2,16 @@ import { describe, expect, it } from "vitest";
 import type { Lesson, LessonRef } from "../course";
 import {
   isUnitAvailable,
+  LESSON_CONTINUE_LABEL,
   lessonExerciseContinueTarget,
+  lessonFooterNext,
+  lessonFooterPrev,
   lessonQuizContinueTarget,
   lessonTheoryContinueTarget,
   lessonUnitPath,
   lessonUnits,
   nextUnit,
+  preferredLessonUnit,
   prevUnit,
   topicEntryPath,
 } from "./lesson-units";
@@ -34,6 +38,19 @@ const ref = (
 
 const allRefs = (lessons: Lesson[]): LessonRef[] =>
   lessons.map((l) => ref(l, lessons));
+
+describe("preferredLessonUnit", () => {
+  it("returns preferred unit when available", () => {
+    const lesson = baseLesson();
+    expect(preferredLessonUnit(lesson, "exercise")).toBe("exercise");
+    expect(preferredLessonUnit(lesson, "quiz")).toBe("quiz");
+  });
+
+  it("falls back to first unit when preferred is unavailable", () => {
+    const lesson = baseLesson({ quiz: null, exercise: null });
+    expect(preferredLessonUnit(lesson, "exercise")).toBe("theory");
+  });
+});
 
 describe("lessonUnits", () => {
   it("always includes theory", () => {
@@ -75,7 +92,7 @@ describe("lessonUnits", () => {
     expect(lessonTheoryContinueTarget(refs[0], refs)).toEqual({
       type: "route",
       to: "/learn/m1/t1/2/theory",
-      label: "Следующий урок: Quiz lesson",
+      label: LESSON_CONTINUE_LABEL,
     });
   });
 
@@ -85,7 +102,7 @@ describe("lessonUnits", () => {
     expect(lessonTheoryContinueTarget(refs[0], refs)).toEqual({
       type: "route",
       to: "/learn/m1/t1/3/quiz",
-      label: "Далее к квизу",
+      label: LESSON_CONTINUE_LABEL,
     });
   });
 
@@ -95,7 +112,7 @@ describe("lessonUnits", () => {
     expect(lessonQuizContinueTarget(refs[0], refs)).toEqual({
       type: "route",
       to: "/learn/m1/t1/1/exercise",
-      label: "Далее к практике",
+      label: LESSON_CONTINUE_LABEL,
     });
 
     const noEx = baseLesson({ index: 2, exercise: null, title: "Only quiz" });
@@ -104,7 +121,7 @@ describe("lessonUnits", () => {
     expect(lessonQuizContinueTarget(multi[1], multi)).toEqual({
       type: "route",
       to: "/learn/m1/t1/3/theory",
-      label: "Следующий урок: Next",
+      label: LESSON_CONTINUE_LABEL,
     });
   });
 
@@ -115,7 +132,7 @@ describe("lessonUnits", () => {
     expect(lessonExerciseContinueTarget(refs[0], refs)).toEqual({
       type: "route",
       to: "/learn/m1/t1/2/theory",
-      label: "Следующий урок: Two",
+      label: LESSON_CONTINUE_LABEL,
     });
   });
 
@@ -127,5 +144,49 @@ describe("lessonUnits", () => {
     const lesson = baseLesson({ quiz: null });
     expect(isUnitAvailable(lesson, "theory")).toBe(true);
     expect(isUnitAvailable(lesson, "quiz")).toBe(false);
+  });
+
+  it("footer prev links to previous unit in lesson", () => {
+    const lesson = baseLesson({ index: 1 });
+    const refs = allRefs([lesson]);
+    expect(lessonFooterPrev(refs[0], refs, "quiz")).toEqual({
+      to: "/learn/m1/t1/1/theory",
+      title: "Теория",
+    });
+  });
+
+  it("footer prev links to last unit of previous lesson on theory", () => {
+    const l1 = baseLesson({ index: 1, title: "First" });
+    const l2 = baseLesson({ index: 2, title: "Second" });
+    const refs = allRefs([l1, l2]);
+    expect(lessonFooterPrev(refs[1], refs, "theory")).toEqual({
+      to: "/learn/m1/t1/1/exercise",
+      title: "First",
+      hint: "Практика",
+    });
+  });
+
+  it("footer next links to next unit with readable title", () => {
+    const lesson = baseLesson({ index: 1 });
+    const refs = allRefs([lesson]);
+    expect(lessonFooterNext(refs[0], refs, "theory")).toEqual({
+      to: "/learn/m1/t1/1/quiz",
+      title: "Квиз",
+    });
+    expect(lessonFooterNext(refs[0], refs, "quiz")).toEqual({
+      to: "/learn/m1/t1/1/exercise",
+      title: "Практика",
+    });
+  });
+
+  it("footer next links to next lesson theory after exercise", () => {
+    const l1 = baseLesson({ index: 1, title: "One" });
+    const l2 = baseLesson({ index: 2, title: "Two" });
+    const refs = allRefs([l1, l2]);
+    expect(lessonFooterNext(refs[0], refs, "exercise")).toEqual({
+      to: "/learn/m1/t1/2/theory",
+      title: "Two",
+      hint: "Теория",
+    });
   });
 });

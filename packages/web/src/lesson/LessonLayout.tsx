@@ -10,7 +10,9 @@ import {
   activeUnitFromPath,
   lessonUnitPath,
 } from "../lib/lesson-units";
+import { LessonNavigatorModal } from "../components/LessonNavigatorModal";
 import { LessonContext } from "./lesson-context";
+import { LessonFooterNav } from "./LessonFooterNav";
 import { LessonStepper } from "./LessonStepper";
 
 const findTopic = (course: Course, moduleSlug: string, topicSlug: string) => {
@@ -35,6 +37,7 @@ export const LessonLayout = () => {
   const [course, setCourse] = useState<Course | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [progressVersion, setProgressVersion] = useState(0);
+  const [navigatorOpen, setNavigatorOpen] = useState(false);
 
   useEffect(() => {
     loadCourse()
@@ -113,6 +116,7 @@ export const LessonLayout = () => {
 
   const { mod, topic } = topicEntry;
   const refreshProgress = () => setProgressVersion((v) => v + 1);
+  const isExerciseFocus = activeUnit === "exercise";
 
   return (
     <LessonContext.Provider
@@ -129,47 +133,70 @@ export const LessonLayout = () => {
         refreshProgress,
       }}
     >
-      <div className="lesson-layout">
-        <main className="lesson-main">
-          <div className="lesson-main-header">
-            <Link to="/" className="lesson-nav-link lesson-nav-link--back">
-              ← Роадмап
-            </Link>
-            <div className="lesson-breadcrumb">
-              {mod.title} · {topic.title}
-            </div>
-            <h1 className="lesson-title">{current.lesson.title}</h1>
-            <LessonStepper activeUnit={activeUnit} />
+      <div
+        className={`lesson-layout${isExerciseFocus ? " lesson-layout--focus" : ""}`}
+      >
+        <main
+          className={`lesson-main${isExerciseFocus ? " lesson-main--fill" : ""}`}
+        >
+          <div
+            className={`lesson-main-header${isExerciseFocus ? " lesson-main-header--compact" : ""}`}
+          >
+            {isExerciseFocus ? (
+              <div className="lesson-main-header-row">
+                <button
+                  type="button"
+                  className="lesson-aside-toggle"
+                  onClick={() => setNavigatorOpen(true)}
+                >
+                  Темы
+                </button>
+                <h1 className="lesson-title lesson-title--compact">
+                  {current.lesson.title}
+                </h1>
+                <LessonStepper activeUnit={activeUnit} />
+              </div>
+            ) : (
+              <>
+                <div className="lesson-main-header-top">
+                  <Link to="/" className="lesson-nav-link lesson-nav-link--back">
+                    ← Роадмап
+                  </Link>
+                  <button
+                    type="button"
+                    className="lesson-aside-toggle"
+                    onClick={() => setNavigatorOpen(true)}
+                  >
+                    Темы
+                  </button>
+                </div>
+                <div className="lesson-breadcrumb">
+                  {mod.title} · {topic.title}
+                </div>
+                <h1 className="lesson-title">{current.lesson.title}</h1>
+                <LessonStepper activeUnit={activeUnit} />
+              </>
+            )}
           </div>
 
-          <div className="lesson-main-body">
+          <div
+            className={`lesson-main-body${isExerciseFocus ? " lesson-main-body--fill" : ""}`}
+          >
             <Outlet />
           </div>
 
-          {(prev || next) && (
-            <footer className="lesson-footer-nav">
-              {prev ? (
-                <Link
-                  to={lessonUnitPath(prev, "theory")}
-                  className="lesson-nav-link"
-                >
-                  ← {prev.lesson.title}
-                </Link>
-              ) : (
-                <span />
-              )}
-              {next ? (
-                <Link
-                  to={lessonUnitPath(next, "theory")}
-                  className="lesson-nav-link"
-                >
-                  {next.lesson.title} →
-                </Link>
-              ) : null}
-            </footer>
-          )}
+          {!isExerciseFocus ? <LessonFooterNav activeUnit={activeUnit} /> : null}
         </main>
       </div>
+
+      {navigatorOpen ? (
+        <LessonNavigatorModal
+          course={course}
+          currentLessonId={current.id}
+          activeUnit={activeUnit}
+          onClose={() => setNavigatorOpen(false)}
+        />
+      ) : null}
     </LessonContext.Provider>
   );
 };

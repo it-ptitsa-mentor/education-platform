@@ -44,7 +44,10 @@ export const sanitizeTheoryBody = (md: string): string =>
     // плейсхолдеры картинок из Buildin → аккуратная пометка
     .replace(/<!--\s*IMG[^>]*-->/g, "> _иллюстрация — скоро_")
     // навигация Hexlet в конце статей — дублирует наш LessonUnitNav
-    .replace(/\n##\s*Далее\s*→?\s*(\n|$)/gi, "\n")
+    .replace(
+      /\n##\s*(?:\*\*)?\s*Далее\s*(?:[→\-]\s*)?(?:\*\*)?\s*(\n|$)/gi,
+      "\n",
+    )
     .trimEnd();
 
 export const loadTheory = async (theoryPath: string): Promise<string> => {

@@ -146,11 +146,7 @@ export const ExerciseRunner = ({
 
           {runTestsButton}
         </div>
-      ) : (
-        <div className="lesson-unit-toolbar lesson-unit-toolbar--exercise">
-          {runTestsButton}
-        </div>
-      )}
+      ) : null}
 
       {error && (
         <div className="banner banner-error" role="alert">
@@ -171,6 +167,8 @@ export const ExerciseRunner = ({
           onFileChange={handleFileChange}
           result={result}
           onRunTests={() => void handleCheck()}
+          headerActions={embedded ? runTestsButton : undefined}
+          embedded={embedded}
         />
       ) : (
         !error && (

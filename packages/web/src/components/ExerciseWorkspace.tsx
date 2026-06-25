@@ -1,5 +1,5 @@
 import Editor, { type BeforeMount, type OnMount } from "@monaco-editor/react";
-import { useCallback, useEffect, useRef } from "react";
+import { type ReactNode, useCallback, useEffect, useRef } from "react";
 import ReactMarkdown from "react-markdown";
 import type { CheckResult, ExerciseDetail } from "../exercise-types";
 import { monacoThemeId, useTheme } from "../hooks/useTheme";
@@ -19,6 +19,8 @@ type ExerciseWorkspaceProps = {
   onFileChange: (filePath: string, content: string) => void;
   result: CheckResult | null;
   onRunTests: () => void;
+  headerActions?: ReactNode;
+  embedded?: boolean;
 };
 
 export const ExerciseWorkspace = ({
@@ -29,6 +31,8 @@ export const ExerciseWorkspace = ({
   onFileChange,
   result,
   onRunTests,
+  headerActions,
+  embedded = false,
 }: ExerciseWorkspaceProps) => {
   const { layout, setReadmeWidth, setOutputHeight } = usePanelLayout();
   const { theme } = useTheme();
@@ -79,20 +83,27 @@ export const ExerciseWorkspace = ({
     };
   }, [activeFile]);
 
+  const readmeColumn = embedded
+    ? "minmax(22rem, 38%)"
+    : `${layout.readmeWidth}px`;
+
   return (
     <main
-      className="workspace"
-      style={{ gridTemplateColumns: `${layout.readmeWidth}px 1px 1fr` }}
+      className={`workspace${embedded ? " exercise-workspace" : ""}`}
+      style={{ gridTemplateColumns: `${readmeColumn} 1px 1fr` }}
     >
       <aside className="readme-panel panel glass-panel">
         <div className="panel-corners" aria-hidden />
-        <div className="panel-head">
+        <div className="panel-head readme-panel-head">
           <div className="panel-title-group">
             <span className="panel-kicker">01 · BRIEF</span>
             <h2>{exercise.title}</h2>
           </div>
           <span className="chip">{exercise.language}</span>
         </div>
+        {headerActions ? (
+          <div className="readme-panel-actions">{headerActions}</div>
+        ) : null}
         <article className="readme prose">
           <ReactMarkdown components={markdownComponents}>
             {exercise.readme}
@@ -100,11 +111,15 @@ export const ExerciseWorkspace = ({
         </article>
       </aside>
 
-      <ResizeHandle
-        orientation="horizontal"
-        label="Изменить ширину панели задания"
-        onResize={(delta) => setReadmeWidth(layout.readmeWidth + delta)}
-      />
+      {!embedded ? (
+        <ResizeHandle
+          orientation="horizontal"
+          label="Изменить ширину панели задания"
+          onResize={(delta) => setReadmeWidth(layout.readmeWidth + delta)}
+        />
+      ) : (
+        <div className="resize-handle resize-handle--horizontal resize-handle--static" aria-hidden />
+      )}
 
       <section
         className="editor-stack"

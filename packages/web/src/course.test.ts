@@ -90,4 +90,13 @@ title: Test
     expect(sanitizeTheoryBody(raw)).not.toMatch(/Далее/);
     expect(sanitizeTheoryBody(raw)).toContain("Текст урока");
   });
+
+  it("strips bold Hexlet «Далее →» navigation heading", () => {
+    const raw = `Текст урока.
+
+## **Далее → **
+`;
+    expect(sanitizeTheoryBody(raw)).not.toMatch(/Далее/);
+    expect(sanitizeTheoryBody(raw)).toContain("Текст урока");
+  });
 });
