@@ -19,7 +19,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "content" / "theory"
 
 # Модули, переписанные в репозитории — не перезаписывать при импорте из Buildin.
-FROZEN_MODULES = {"01-modul-1"}
+FROZEN_MODULES = {"01-modul-1", "02-modul-2"}
 
 # ── HTTP с ретраями (REST иногда отдаёт 502/500) ──
 def _req(method, path, body=None, retries=5):

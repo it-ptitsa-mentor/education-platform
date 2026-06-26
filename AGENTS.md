@@ -102,9 +102,23 @@ BUILDIN_MCP_TOKEN=... python3 scripts/import-buildin-theory.py
 Кладёт уроки в `content/theory/<NN-модуль>/<MM-тема>/<KK-урок>.md` + `manifest.json`.
 
 **Замороженные модули (rewrite в git):** в скрипте `FROZEN_MODULES` (сейчас
-`01-modul-1`). При ре-импорте эти каталоги бэкапятся и восстанавливаются — правки
-теории М1 только в репозитории, не в Buildin. Проверка после rewrite:
-`python3 scripts/check-theory-lesson.py --module 01-modul-1 --only-rewritten`.
+`01-modul-1`, `02-modul-2`). При ре-импорте эти каталоги бэкапятся и восстанавливаются —
+правки теории только в репозитории, не в Buildin. Проверка после rewrite:
+`python3 scripts/check-theory-lesson.py --module 01-modul-1 --only-rewritten` (М1 готово),
+`--module 02-modul-2 --only-rewritten` (М2 в работе).
+
+**Волны freeze перед перепиской (план 2026-06-24):**
+
+| Волна | Модуль | Уроков | Когда добавить в `FROZEN_MODULES` |
+|-------|--------|--------|-----------------------------------|
+| 0 (эталон) | `01-modul-1` | 53 | заморожен, rewrite готов |
+| 1 | `02-modul-2` | 119 | заморожен, Phase 2 в работе |
+| 2 | `03-modul-3` | 72 | после Phase 3 |
+| 3 | `04-modul-4` + `05-modul-5` | 88+ | после Phase 4 |
+| 4 | `06-modul-6` | 88 | после Phase 5 |
+
+Гайд и трекинг: `docs/theory-writing-guide.md`, `content/theory/REWRITE_STATUS.md`,
+`scripts/theory-rewrite-inventory.py`. Промпт AI: `docs/prompts/theory-rewrite-light.md`.
 
 **Гочи Buildin REST** (`https://api.buildin.ai/v1`, заголовок `Authorization: Bearer <token>`):
 - Контент блока в `b["data"]`, НЕ в `b[type]` (как было бы в MCP).
@@ -172,6 +186,8 @@ nginx: `/app`, `/preview` — SPA-fallback (`try_files $uri $uri/ /<dir>/index.h
 ### CI/CD (`.github/workflows/ci.yml`)
 - **job `test`** на каждый PR и push в main: `pnpm test` + `pnpm test:feature`.
   Обязательный гейт (branch protection на main требует check `test`).
+- **job `theory-rewrite-check`**: `check-theory-lesson.py --module 01-modul-1 --only-rewritten`
+  + unit-тесты скрипта (запрет hexlet в переписанных уроках).
 - **job `deploy`** только при push в main после зелёных тестов:
   generate exercises + course-content → сборка (`base=/app/`, static) →
   rsync на сервер по SSH-ключу (`webfactory/ssh-agent`) → права www-data →
