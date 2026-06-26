@@ -20,7 +20,7 @@ type dynamicKeysObject = {
 }
 ```
 
-Здесь объявили объектный тип `dynamicKeysObject`, в котором ключом может служить любой тип из доступных типов данных `key: string | number | symbol`. Разберём указать такой тип для переменной:
+Здесь объявили объектный тип `dynamicKeysObject`, в котором ключом может служить любой тип из доступных типов данных `key: string | number | symbol`. Разберём, как указать такой тип для переменной:
 
 ```typescript
 const obj: dynamicKeysObject = {
