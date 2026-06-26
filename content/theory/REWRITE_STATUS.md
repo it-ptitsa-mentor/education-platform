@@ -55,26 +55,26 @@
 | `content/theory/01-modul-1/05-css-verstka-na-grid/05-pervaya-setka.md` | 01-modul-1 | 05-css-verstka-na-grid | done | | |
 | `content/theory/01-modul-1/05-css-verstka-na-grid/06-terminologiya.md` | 01-modul-1 | 05-css-verstka-na-grid | done | | |
 | `content/theory/01-modul-1/05-css-verstka-na-grid/07-rabota-s-setkoy.md` | 01-modul-1 | 05-css-verstka-na-grid | done | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/01-vvedenie.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/02-hello-world.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/03-instrukcii.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/04-arifmeticheskie-operacii.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/05-oshibki-oformleniya-sintaksisa-i-lintera.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/06-stroki.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/07-peremennye.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/08-vyrazheniya-v-opredeleniyah.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/09-imenovanie.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/10-interpolyaciya.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/11-izvlechenie-simvolov-iz-stroki.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/12-tipy-dannyh.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/13-neizmenyaemost-i-primitivnye-tipy.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/14-funkcii-i-ih-vyzov.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/15-signatura-funkcii.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/16-vyzov-funkcii-vyrazhenie.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/17-funkcii-s-peremennym-chislom-parametrov.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/18-determinirovannost.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/19-standartnaya-biblioteka.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/20-svoystva-i-metody.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
+| `content/theory/02-modul-2/01-osnovy-javascript/01-vvedenie.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/02-hello-world.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/03-instrukcii.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/04-arifmeticheskie-operacii.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/05-oshibki-oformleniya-sintaksisa-i-lintera.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/06-stroki.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/07-peremennye.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/08-vyrazheniya-v-opredeleniyah.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/09-imenovanie.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/10-interpolyaciya.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/11-izvlechenie-simvolov-iz-stroki.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/12-tipy-dannyh.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/13-neizmenyaemost-i-primitivnye-tipy.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/14-funkcii-i-ih-vyzov.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/15-signatura-funkcii.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/16-vyzov-funkcii-vyrazhenie.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/17-funkcii-s-peremennym-chislom-parametrov.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/18-determinirovannost.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/19-standartnaya-biblioteka.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/20-svoystva-i-metody.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
 | `content/theory/02-modul-2/01-osnovy-javascript/21-cepochka-vyzovov.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
 | `content/theory/02-modul-2/01-osnovy-javascript/22-opredelenie-funkciy.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
 | `content/theory/02-modul-2/01-osnovy-javascript/23-vozvrat-znacheniy.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
