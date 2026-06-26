@@ -163,17 +163,17 @@
 | `content/theory/02-modul-2/05-vvedenie-v-git/13-ignorirovanie-faylov.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
 | `content/theory/02-modul-2/05-vvedenie-v-git/14-stash.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
 | `content/theory/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
-| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/01-vvedenie.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
-| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/02-chto-takoe-js.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
-| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/03-ustanovka-javascript.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
-| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/04-npm.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
-| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/05-zavisimosti.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
-| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/06-zavisimosti-dlya-razrabotki.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
-| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/07-lock-fayl.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
-| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/08-globalnaya-ustanovka-paketov.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
-| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/09-npx.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
-| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/10-tochka-vhoda.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
-| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/11-linting.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
+| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/01-vvedenie.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
+| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/02-chto-takoe-js.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
+| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/03-ustanovka-javascript.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
+| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/04-npm.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
+| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/05-zavisimosti.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
+| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/06-zavisimosti-dlya-razrabotki.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
+| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/07-lock-fayl.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
+| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/08-globalnaya-ustanovka-paketov.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
+| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/09-npx.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
+| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/10-tochka-vhoda.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
+| `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/11-linting.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
 | `content/theory/03-modul-3/01-js-funkcii/01-filtraciya-filter.md` | 03-modul-3 | 01-js-funkcii | todo | | |
 | `content/theory/03-modul-3/01-js-funkcii/02-otobrazhenie-map.md` | 03-modul-3 | 01-js-funkcii | todo | | |
 | `content/theory/03-modul-3/01-js-funkcii/03-agregaciya-reduce.md` | 03-modul-3 | 01-js-funkcii | todo | | |
