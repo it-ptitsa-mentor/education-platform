@@ -129,25 +129,25 @@
 | `content/theory/02-modul-2/03-js-obekty/11-sozdanie-novyh-obektov-i-spread.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
 | `content/theory/02-modul-2/03-js-obekty/12-destrukturizaciya.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
 | `content/theory/02-modul-2/03-js-obekty/13-hesh-tablicy.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/01-vvedenie.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/04-navigaciya.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/06-faylovaya-struktura.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/07-chtenie-faylov.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/08-grep.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/10-potoki.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/11-payplayn.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/12-manipulirovanie-faylovoy-strukturoy.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/13-peremennye-okruzheniya.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/14-istoriya.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/16-sudo.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/17-prava-dostupa.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/18-paketnyy-menedzher.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/19-vypolnenie-programm.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/01-vvedenie.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/04-navigaciya.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/06-faylovaya-struktura.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/07-chtenie-faylov.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/08-grep.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/10-potoki.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/11-payplayn.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/12-manipulirovanie-faylovoy-strukturoy.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/13-peremennye-okruzheniya.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/14-istoriya.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/16-sudo.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/17-prava-dostupa.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/18-paketnyy-menedzher.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
+| `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/19-vypolnenie-programm.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | done | | 2026-06-24 |
 | `content/theory/02-modul-2/05-vvedenie-v-git/01-vvedenie.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
 | `content/theory/02-modul-2/05-vvedenie-v-git/02-rabochiy-process.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
 | `content/theory/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
