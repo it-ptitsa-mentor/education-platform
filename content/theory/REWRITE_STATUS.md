@@ -116,19 +116,19 @@
 | `content/theory/02-modul-2/02-js-massivy/20-rest-i-destrukturizaciya.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
 | `content/theory/02-modul-2/02-js-massivy/21-spread-i-sozdanie-novyh-massivov.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
 | `content/theory/02-modul-2/02-js-massivy/22-massivy-v-pamyati-kompyutera.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
-| `content/theory/02-modul-2/03-js-obekty/01-o-kurse.md` | 02-modul-2 | 03-js-obekty | todo | | |
-| `content/theory/02-modul-2/03-js-obekty/02-sintaksis.md` | 02-modul-2 | 03-js-obekty | todo | | |
-| `content/theory/02-modul-2/03-js-obekty/03-modifikaciya.md` | 02-modul-2 | 03-js-obekty | todo | | |
-| `content/theory/02-modul-2/03-js-obekty/04-ssylki.md` | 02-modul-2 | 03-js-obekty | todo | | |
-| `content/theory/02-modul-2/03-js-obekty/05-obekty-v-deystvii.md` | 02-modul-2 | 03-js-obekty | todo | | |
-| `content/theory/02-modul-2/03-js-obekty/06-proverka-suschestvovaniya-svoystva.md` | 02-modul-2 | 03-js-obekty | todo | | |
-| `content/theory/02-modul-2/03-js-obekty/07-obhod-svoystv-obekta.md` | 02-modul-2 | 03-js-obekty | todo | | |
-| `content/theory/02-modul-2/03-js-obekty/08-vlozhennye-obekty.md` | 02-modul-2 | 03-js-obekty | todo | | |
-| `content/theory/02-modul-2/03-js-obekty/09-sliyanie.md` | 02-modul-2 | 03-js-obekty | todo | | |
-| `content/theory/02-modul-2/03-js-obekty/10-klonirovanie-i-kopirovanie.md` | 02-modul-2 | 03-js-obekty | todo | | |
-| `content/theory/02-modul-2/03-js-obekty/11-sozdanie-novyh-obektov-i-spread.md` | 02-modul-2 | 03-js-obekty | todo | | |
-| `content/theory/02-modul-2/03-js-obekty/12-destrukturizaciya.md` | 02-modul-2 | 03-js-obekty | todo | | |
-| `content/theory/02-modul-2/03-js-obekty/13-hesh-tablicy.md` | 02-modul-2 | 03-js-obekty | todo | | |
+| `content/theory/02-modul-2/03-js-obekty/01-o-kurse.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
+| `content/theory/02-modul-2/03-js-obekty/02-sintaksis.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
+| `content/theory/02-modul-2/03-js-obekty/03-modifikaciya.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
+| `content/theory/02-modul-2/03-js-obekty/04-ssylki.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
+| `content/theory/02-modul-2/03-js-obekty/05-obekty-v-deystvii.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
+| `content/theory/02-modul-2/03-js-obekty/06-proverka-suschestvovaniya-svoystva.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
+| `content/theory/02-modul-2/03-js-obekty/07-obhod-svoystv-obekta.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
+| `content/theory/02-modul-2/03-js-obekty/08-vlozhennye-obekty.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
+| `content/theory/02-modul-2/03-js-obekty/09-sliyanie.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
+| `content/theory/02-modul-2/03-js-obekty/10-klonirovanie-i-kopirovanie.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
+| `content/theory/02-modul-2/03-js-obekty/11-sozdanie-novyh-obektov-i-spread.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
+| `content/theory/02-modul-2/03-js-obekty/12-destrukturizaciya.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
+| `content/theory/02-modul-2/03-js-obekty/13-hesh-tablicy.md` | 02-modul-2 | 03-js-obekty | done | | 2026-06-24 |
 | `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/01-vvedenie.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
 | `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
 | `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
