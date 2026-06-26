@@ -3,11 +3,14 @@ title: "Сужение типов"
 module: "Модуль 6"
 topic: "Основы Typescript"
 buildin_id: c4a97834-5998-4381-bad4-3f7e41fb0399
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Сужение типов
 
-В этом уроке мы познакомимся с сужением типов.
+Сужение типов (type narrowing) после проверок.
 
 ## Использование сужения типа
 

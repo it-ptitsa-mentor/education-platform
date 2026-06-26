@@ -3,11 +3,14 @@ title: "Операции Rest и Spread"
 module: "Модуль 6"
 topic: "Основы Typescript"
 buildin_id: b0615510-7310-4b61-ab6f-45832ef2f720
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Операции Rest и Spread
 
-В этом уроке разберем rest- и spread-операторы.
+Операторы rest и spread в TypeScript.
 
 ## Rest-оператор
 

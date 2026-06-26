@@ -3,11 +3,14 @@ title: "Механизм ExtraReducers"
 module: "Модуль 5"
 topic: "React: Redux Toolkit"
 buildin_id: a75d2562-c7b9-40d9-a606-dde5a8294734
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Механизм ExtraReducers
 
-Разделение данных по слайсам и по редьюсерам в Redux приводит к ситуациям, когда на одно действие нужно реагировать в разных частях хранилища. Например, если мы удаляем пост, то нужно удалить и комментарии к нему — а они находятся в другом слайсе.
+Когда состояние разбито на **slice**, одно **action** иногда должно обновить несколько веток store. Например, если мы удаляем пост, то нужно удалить и комментарии к нему — а они находятся в другом слайсе.
 
 В Redux такая задача решается просто — мы добавляем в `switch` реакции на нужное действие по его имени. В Redux Toolkit так уже не получится. Дело в том, что между редьюсерами и действиями есть неразрывная связь. Это цена, которую мы платим за сокращение кода.
 
@@ -52,6 +55,6 @@ builder.addCase().addCase()...
 
 - [Документация по Extra Reducers](https://redux-toolkit.js.org/api/createslice#extrareducers)
 
-- [Как увидеть state внутри reduce](https://ru.hexlet.io/qna/javascript/questions/kak-uvidet-state-vnutri-reduce)
+- [Как увидеть state внутри reduce](https://react.dev/)
 
 ## **Далее → **

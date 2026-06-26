@@ -3,13 +3,16 @@ title: "Библиотека power-assert"
 module: "Модуль 3"
 topic: "JS: Автоматическое тестирование"
 buildin_id: 90ae2864-7276-47d9-8b21-33674266dde6
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Библиотека power-assert
 
-У обычных утверждений есть мощная альтернатива: [power-assert](https://github.com/power-assert-js/power-assert). Эта библиотека добавляет магию в привычный инструмент.
+У привычных утверждений есть усиленный вариант — [power-assert](https://github.com/power-assert-js/power-assert). Библиотека «оживляет» стандартный `assert`.
 
-Вот пример проверки с использованием стандартного модуля *assert*:
+Проверка на встроенном модуле *assert*:
 
 ```
 const user = {
@@ -24,7 +27,7 @@ assert(user.name === 'Michel')
 //  assert(user.name === 'Michel')
 ```
 
-В выводе видно само утверждение и результат проверки. Но непонятно, что за объект `user` и какая у него структура. Для получения этой информации придётся включаться в отладку. Но вместо этого можно воспользоваться библиотекой *power-assert*:
+Видно выражение и результат, но не структуру `user` — придётся отлаживать вручную. С *power-assert* картина другая:
 
 ```
 import assert from 'power-assert'
@@ -40,7 +43,7 @@ const user = {
 assert(user.name === 'Michel')
 ```
 
-И посмотреть вывод:
+Вывод:
 
 ```
 AssertionError [ERR_ASSERTION]:   # test.js:10
@@ -59,9 +62,9 @@ AssertionError [ERR_ASSERTION]:   # test.js:10
   +adonna
 ```
 
-Попробуйте остановиться и внимательно изучить этот вывод. Что здесь показано? *power-assert* облегчает отладку настолько, насколько это возможно. Он показывает значение каждого объекта и результат каждой операции, входящей в выражение, переданное в функцию *assert*. Кроме того, в конце он сравнивает строки и говорит, в чём конкретно было различие между ними.
+Остановитесь и разберите вывод: *power-assert* показывает значения промежуточных частей выражения и в конце — построчное сравнение строк.
 
-Вот ещё один интересный пример из документации:
+Ещё пример из документации:
 
 ```
 import assert from 'power-assert'
@@ -86,10 +89,10 @@ assert(array.indexOf(zero) === two)
 //   => -1
 ```
 
-Впечатляет? Большинство современных фреймворков не выдаёт настолько удобный вывод, насколько это делает *power-assert*. Его можно интегрировать с чем угодно, но потребуются дополнительные инструменты, чтобы получить такое отображение - это Babel / Webpack или другие библиотеки, указанные [в документации](https://github.com/power-assert-js/power-assert#be-sure-to-transform-test-code).
+Многие фреймворки не дают такой наглядности. *power-assert* подключают к разным стекам, но для «магического» вывода нужна трансформация кода — Babel, Webpack и т.д., как в [документации](https://github.com/power-assert-js/power-assert#be-sure-to-transform-test-code).
 
 ## Дополнительные материалы
 
-- [Что такое @@ -1,6 +1,7 @@ в выводе](https://ru.hexlet.io/qna/javascript/questions/chto-takoe-1-6-1-7-v-vyvode-biblioteki-power-assert)
+- [Unified diff format (`@@ -1,6 +1,7 @@`)](https://www.gnu.org/software/diffutils/manual/html_node/Detailed-Unified.html)
 
-## **Далее → **
+## Далее →

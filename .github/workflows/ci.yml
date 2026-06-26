@@ -33,6 +33,20 @@ jobs:
       - name: Feature tests
         run: pnpm test:feature
 
+  theory-rewrite-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check rewritten theory for forbidden brands
+        run: |
+          python3 scripts/check-theory-lesson.py --module 01-modul-1 --only-rewritten
+          python3 scripts/test_check_theory_lesson.py -q
+
   # ── Деплой на сервер: только при пуше в main и зелёных тестах ──
   deploy:
     needs: test

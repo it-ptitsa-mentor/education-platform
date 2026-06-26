@@ -9,6 +9,7 @@
     "generate:static-exercises": "tsx scripts/generate-static-exercises.mts",
     "generate:static-quizzes": "tsx scripts/generate-static-quizzes.mts",
     "generate:course-content": "tsx scripts/generate-course-content.mts",
+    "watch:course-theory": "tsx scripts/watch-course-theory.mts",
     "export:roadmap-content": "tsx scripts/export-roadmap-content.mts",
     "generate:roadmap-content": "tsx scripts/generate-roadmap-content.mts",
     "import:hexlet-frontend": "tsx scripts/import-hexlet-frontend.mts",

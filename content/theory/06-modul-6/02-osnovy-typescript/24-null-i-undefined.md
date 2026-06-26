@@ -3,6 +3,9 @@ title: "Null и Undefined"
 module: "Модуль 6"
 topic: "Основы Typescript"
 buildin_id: 286ed199-bdc9-4feb-98f8-010acabf724b
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Null и Undefined

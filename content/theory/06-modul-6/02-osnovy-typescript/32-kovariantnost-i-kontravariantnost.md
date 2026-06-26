@@ -3,6 +3,9 @@ title: "Ковариантность и контравариантность"
 module: "Модуль 6"
 topic: "Основы Typescript"
 buildin_id: c4e300eb-777d-4b00-bf37-e12a0c3fd71d
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Ковариантность и контравариантность

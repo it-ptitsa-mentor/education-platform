@@ -3,6 +3,9 @@ title: "Пересечение"
 module: "Модуль 6"
 topic: "Основы Typescript"
 buildin_id: 0cc3b973-ff05-49c0-a696-56b28e53cecd
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Пересечение

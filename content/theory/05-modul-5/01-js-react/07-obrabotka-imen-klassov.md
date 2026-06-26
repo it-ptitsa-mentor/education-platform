@@ -3,6 +3,9 @@ title: "Обработка имён классов"
 module: "Модуль 5"
 topic: "JS: React"
 buildin_id: a9b50a5e-a407-47df-9b91-b0ddcf16e404
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Обработка имён классов
