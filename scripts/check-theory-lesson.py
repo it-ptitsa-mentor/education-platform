@@ -30,14 +30,21 @@ def lesson_files(module_slug: str | None) -> list[Path]:
     return sorted(base.rglob("*.md"))
 
 
+def prose_without_fenced_code(text: str) -> str:
+    """Проверяем hexlet только вне блоков кода — импорты npm в ``` оставляем."""
+    parts = re.split(r"^```.*?^```", text, flags=re.M | re.S)
+    return "\n".join(parts)
+
+
 def check_file(path: Path, *, only_rewritten: bool) -> list[str]:
     text = path.read_text(encoding="utf-8")
     if only_rewritten and not re.search(r"^source:\s*platform\s*$", text, re.M):
         return []
 
+    prose = prose_without_fenced_code(text)
     errors: list[str] = []
     for pattern, label in FORBIDDEN:
-        if pattern.search(text):
+        if pattern.search(prose):
             errors.append(f"{path.relative_to(ROOT)}: {label}")
 
     if re.search(r"^source:\s*platform\s*$", text, re.M):

@@ -279,146 +279,146 @@
 | `content/theory/04-modul-4/03-js-dom-api/07-formy.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
 | `content/theory/04-modul-4/03-js-dom-api/08-ajax.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
 | `content/theory/04-modul-4/03-js-dom-api/09-dom.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
-| `content/theory/04-modul-4/03-js-dom-api/10-konsol-razrabotchika.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/11-perehvat-i-vsplytie.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/12-polifilly.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/13-globalnyy-obekt-window.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/14-javascript-v-brauzere.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/16-sobytiya-na-praktike.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/17-bom-obekty.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/01-poisk-po-usloviyu.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | todo | | |
-| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/02-flagi.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | todo | | |
-| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/03-alternativa.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | todo | | |
-| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/04-gruppirovka-i-obratnaya-svyaz.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | todo | | |
-| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/05-zhadnost.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | todo | | |
-| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/06-vvedenie.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | todo | | |
-| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/07-prosmotr-vpered-i-nazad.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | todo | | |
-| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/08-predstavlenie-simvolov-i-metasimvol.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | todo | | |
-| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/09-simvolnye-klassy.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | todo | | |
-| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/10-kvantifikaciya.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | todo | | |
-| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/11-modifikatory.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | todo | | |
-| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/12-poziciya-vnutri-stroki.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | todo | | |
-| `content/theory/04-modul-4/05-js-arhitektura-frontenda/01-otrisovka-rendering-sostoyaniya.md` | 04-modul-4 | 05-js-arhitektura-frontenda | todo | | |
-| `content/theory/04-modul-4/05-js-arhitektura-frontenda/02-sostoyanie-form.md` | 04-modul-4 | 05-js-arhitektura-frontenda | todo | | |
-| `content/theory/04-modul-4/05-js-arhitektura-frontenda/03-kompleksnoe-sostoyanie.md` | 04-modul-4 | 05-js-arhitektura-frontenda | todo | | |
-| `content/theory/04-modul-4/05-js-arhitektura-frontenda/04-inicializaciya-prilozheniya.md` | 04-modul-4 | 05-js-arhitektura-frontenda | todo | | |
-| `content/theory/04-modul-4/05-js-arhitektura-frontenda/05-normalizaciya-dannyh.md` | 04-modul-4 | 05-js-arhitektura-frontenda | todo | | |
-| `content/theory/04-modul-4/05-js-arhitektura-frontenda/06-sostoyanie-otobrazheniya-ui-state.md` | 04-modul-4 | 05-js-arhitektura-frontenda | todo | | |
-| `content/theory/04-modul-4/05-js-arhitektura-frontenda/07-programmirovanie-s-yavno-vydelennym-sostoyaniem.md` | 04-modul-4 | 05-js-arhitektura-frontenda | todo | | |
-| `content/theory/04-modul-4/05-js-arhitektura-frontenda/08-vvedenie.md` | 04-modul-4 | 05-js-arhitektura-frontenda | todo | | |
-| `content/theory/04-modul-4/05-js-arhitektura-frontenda/09-mvc.md` | 04-modul-4 | 05-js-arhitektura-frontenda | todo | | |
-| `content/theory/04-modul-4/05-js-arhitektura-frontenda/10-sostoyanie-prilozheniya.md` | 04-modul-4 | 05-js-arhitektura-frontenda | todo | | |
-| `content/theory/04-modul-4/05-js-arhitektura-frontenda/11-organizaciya-tekstov-interfeysa.md` | 04-modul-4 | 05-js-arhitektura-frontenda | todo | | |
-| `content/theory/05-modul-5/01-js-react/01-vvedenie.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/02-komponenty.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/03-jsx.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/04-props.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/05-rabota-s-kollekciyami.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/06-razlichiya-jsx-i-html.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/07-obrabotka-imen-klassov.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/08-children.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/09-sostoyanie.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/10-sobytiya.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/11-avtomatnoe-programmirovanie.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/12-formy.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/13-neizmenyaemost.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/14-vlozhennye-komponenty.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/15-funkcionalnye-komponenty.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/16-kontekst-context-api.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/17-virtual-dom.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/18-testirovanie.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/19-asinhronnaya-obrabotka.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/20-zhiznennyy-cikl-komponenta.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/21-proizvoditelnost.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/22-refs.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/23-vvedenie-v-huki.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/24-huk-usestate.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/25-huk-useeffect.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/26-huk-usecontext.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/27-huk-useref.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/28-huki-usecallback-i-usememo.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/29-kompoziciya-komponentov.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/01-js-react/30-zaklyuchenie.md` | 05-modul-5 | 01-js-react | todo | | |
-| `content/theory/05-modul-5/02-react-redux-toolkit/01-vvedenie.md` | 05-modul-5 | 02-react-redux-toolkit | todo | | |
-| `content/theory/05-modul-5/02-react-redux-toolkit/02-redux.md` | 05-modul-5 | 02-react-redux-toolkit | todo | | |
-| `content/theory/05-modul-5/02-react-redux-toolkit/03-redyusery.md` | 05-modul-5 | 02-react-redux-toolkit | todo | | |
-| `content/theory/05-modul-5/02-react-redux-toolkit/04-midlvary.md` | 05-modul-5 | 02-react-redux-toolkit | todo | | |
-| `content/theory/05-modul-5/02-react-redux-toolkit/05-podklyuchenie-redux-toolkit-k-react.md` | 05-modul-5 | 02-react-redux-toolkit | todo | | |
-| `content/theory/05-modul-5/02-react-redux-toolkit/06-podrobnee-o-slaysah.md` | 05-modul-5 | 02-react-redux-toolkit | todo | | |
-| `content/theory/05-modul-5/02-react-redux-toolkit/07-normalizaciya-dannyh-v-redux.md` | 05-modul-5 | 02-react-redux-toolkit | todo | | |
-| `content/theory/05-modul-5/02-react-redux-toolkit/08-mehanizm-entity-adapter.md` | 05-modul-5 | 02-react-redux-toolkit | todo | | |
-| `content/theory/05-modul-5/02-react-redux-toolkit/09-mehanizm-extrareducers.md` | 05-modul-5 | 02-react-redux-toolkit | todo | | |
-| `content/theory/05-modul-5/02-react-redux-toolkit/10-asinhronnye-zaprosy.md` | 05-modul-5 | 02-react-redux-toolkit | todo | | |
-| `content/theory/05-modul-5/02-react-redux-toolkit/11-rtk-query.md` | 05-modul-5 | 02-react-redux-toolkit | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/01-null-object-pattern.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/02-dispetcherizaciya-po-klyuchu-funkcii.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/03-parametricheskiy-polimorfizm.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/04-shablony-proektirovaniya.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/05-kod-kotoryy-ubivaet-polimorfizm.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/06-inversiya-zavisimostey.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/07-pattern-strategiya.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/08-upravlenie-zavisimostyami.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/09-pattern-sostoyanie-state.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/10-obektnaya-kompoziciya.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/11-o-kurse.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/12-dispetcherizaciya-po-imeni-fayla.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/13-dispetcherizaciya-po-klyuchu-dannye.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/14-utinaya-tipizaciya.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/01-js-polimorfizm/15-pattern-fabrika.md` | 06-modul-6 | 01-js-polimorfizm | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/01-vvedenie.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/02-privet-mir.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/03-typescript.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/04-peremennye.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/05-imenovannye-funkcii.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/06-anonimnye-funkcii.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/07-massivy.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/08-obektnye-tipy.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/09-perechisleniya.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/10-psevdonimy-tipov.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/11-tip-any.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/12-sistema-moduley.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/13-funkcii-kak-parametry.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/14-opcionalnye-parametry-v-funkciyah.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/15-tip-void.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/16-vozvrat-iz-funkcii.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/17-tip-unknown.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/18-destrukturizaciya.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/19-operacii-rest-i-spread.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/20-peregruzka-funkciy.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/21-ierarhiya-tipov.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/22-neizmenyaemye-massivy.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/23-peresechenie.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/24-null-i-undefined.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/25-prisvaivanie-znacheniya.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/26-annotacii-tipov.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/27-obedineniya.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/29-kortezhi.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/31-suzhenie-tipov.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/32-kovariantnost-i-kontravariantnost.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/33-mnogomernye-massivy.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/02-osnovy-typescript/34-literaly.md` | 06-modul-6 | 02-osnovy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/01-dzheneriki-funkcii.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/02-klassy.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/03-nasledovanie.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/04-sopostavlenie-tipov.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/05-zapisi.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/06-realizaciya-interfeysov-klassami.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/07-zaschita-svoystv-i-metodov.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/08-dzheneriki-s-neskolkimi-parametrami.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/09-modifikatory-sopostavleniya-tipov.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/10-abstraktnye-klassy.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/11-dzheneriki-na-klassah.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/12-interfeysy.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/13-svoystva-parametrov.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/14-klassy-kak-tipy.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/15-staticheskie-metody-i-svoystva.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/16-dzheneriki-tipy.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/17-vvedenie-v-dzheneriki.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/18-tip-object.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/19-ispolzovanie-interfeysov.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/20-asinhronnye-funkcii.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
-| `content/theory/06-modul-6/03-prodvinutyy-typescript/21-dinamicheskie-klyuchi.md` | 06-modul-6 | 03-prodvinutyy-typescript | todo | | |
+| `content/theory/04-modul-4/03-js-dom-api/10-konsol-razrabotchika.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/11-perehvat-i-vsplytie.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/12-polifilly.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/13-globalnyy-obekt-window.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/14-javascript-v-brauzere.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/16-sobytiya-na-praktike.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/17-bom-obekty.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/01-poisk-po-usloviyu.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | done | | 2026-06-24 |
+| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/02-flagi.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | done | | 2026-06-24 |
+| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/03-alternativa.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | done | | 2026-06-24 |
+| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/04-gruppirovka-i-obratnaya-svyaz.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | done | | 2026-06-24 |
+| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/05-zhadnost.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | done | | 2026-06-24 |
+| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/06-vvedenie.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | done | | 2026-06-24 |
+| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/07-prosmotr-vpered-i-nazad.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | done | | 2026-06-24 |
+| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/08-predstavlenie-simvolov-i-metasimvol.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | done | | 2026-06-24 |
+| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/09-simvolnye-klassy.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | done | | 2026-06-24 |
+| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/10-kvantifikaciya.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | done | | 2026-06-24 |
+| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/11-modifikatory.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | done | | 2026-06-24 |
+| `content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/12-poziciya-vnutri-stroki.md` | 04-modul-4 | 04-regulyarnye-vyrazheniya-regexp | done | | 2026-06-24 |
+| `content/theory/04-modul-4/05-js-arhitektura-frontenda/01-otrisovka-rendering-sostoyaniya.md` | 04-modul-4 | 05-js-arhitektura-frontenda | done | | |
+| `content/theory/04-modul-4/05-js-arhitektura-frontenda/02-sostoyanie-form.md` | 04-modul-4 | 05-js-arhitektura-frontenda | done | | |
+| `content/theory/04-modul-4/05-js-arhitektura-frontenda/03-kompleksnoe-sostoyanie.md` | 04-modul-4 | 05-js-arhitektura-frontenda | done | | |
+| `content/theory/04-modul-4/05-js-arhitektura-frontenda/04-inicializaciya-prilozheniya.md` | 04-modul-4 | 05-js-arhitektura-frontenda | done | | |
+| `content/theory/04-modul-4/05-js-arhitektura-frontenda/05-normalizaciya-dannyh.md` | 04-modul-4 | 05-js-arhitektura-frontenda | done | | |
+| `content/theory/04-modul-4/05-js-arhitektura-frontenda/06-sostoyanie-otobrazheniya-ui-state.md` | 04-modul-4 | 05-js-arhitektura-frontenda | done | | |
+| `content/theory/04-modul-4/05-js-arhitektura-frontenda/07-programmirovanie-s-yavno-vydelennym-sostoyaniem.md` | 04-modul-4 | 05-js-arhitektura-frontenda | done | | |
+| `content/theory/04-modul-4/05-js-arhitektura-frontenda/08-vvedenie.md` | 04-modul-4 | 05-js-arhitektura-frontenda | done | | |
+| `content/theory/04-modul-4/05-js-arhitektura-frontenda/09-mvc.md` | 04-modul-4 | 05-js-arhitektura-frontenda | done | | |
+| `content/theory/04-modul-4/05-js-arhitektura-frontenda/10-sostoyanie-prilozheniya.md` | 04-modul-4 | 05-js-arhitektura-frontenda | done | | |
+| `content/theory/04-modul-4/05-js-arhitektura-frontenda/11-organizaciya-tekstov-interfeysa.md` | 04-modul-4 | 05-js-arhitektura-frontenda | done | | |
+| `content/theory/05-modul-5/01-js-react/01-vvedenie.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/02-komponenty.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/03-jsx.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/04-props.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/05-rabota-s-kollekciyami.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/06-razlichiya-jsx-i-html.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/07-obrabotka-imen-klassov.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/08-children.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/09-sostoyanie.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/10-sobytiya.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/11-avtomatnoe-programmirovanie.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/12-formy.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/13-neizmenyaemost.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/14-vlozhennye-komponenty.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/15-funkcionalnye-komponenty.md` | 05-modul-5 | 01-js-react | done | | |
+| `content/theory/05-modul-5/01-js-react/16-kontekst-context-api.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/17-virtual-dom.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/18-testirovanie.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/19-asinhronnaya-obrabotka.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/20-zhiznennyy-cikl-komponenta.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/21-proizvoditelnost.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/22-refs.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/23-vvedenie-v-huki.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/24-huk-usestate.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/25-huk-useeffect.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/26-huk-usecontext.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/27-huk-useref.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/28-huki-usecallback-i-usememo.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/29-kompoziciya-komponentov.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/01-js-react/30-zaklyuchenie.md` | 05-modul-5 | 01-js-react | done | 2026-06-24 | |
+| `content/theory/05-modul-5/02-react-redux-toolkit/01-vvedenie.md` | 05-modul-5 | 02-react-redux-toolkit | done | | 2026-06-24 |
+| `content/theory/05-modul-5/02-react-redux-toolkit/02-redux.md` | 05-modul-5 | 02-react-redux-toolkit | done | | 2026-06-24 |
+| `content/theory/05-modul-5/02-react-redux-toolkit/03-redyusery.md` | 05-modul-5 | 02-react-redux-toolkit | done | | 2026-06-24 |
+| `content/theory/05-modul-5/02-react-redux-toolkit/04-midlvary.md` | 05-modul-5 | 02-react-redux-toolkit | done | | 2026-06-24 |
+| `content/theory/05-modul-5/02-react-redux-toolkit/05-podklyuchenie-redux-toolkit-k-react.md` | 05-modul-5 | 02-react-redux-toolkit | done | | 2026-06-24 |
+| `content/theory/05-modul-5/02-react-redux-toolkit/06-podrobnee-o-slaysah.md` | 05-modul-5 | 02-react-redux-toolkit | done | | 2026-06-24 |
+| `content/theory/05-modul-5/02-react-redux-toolkit/07-normalizaciya-dannyh-v-redux.md` | 05-modul-5 | 02-react-redux-toolkit | done | | 2026-06-24 |
+| `content/theory/05-modul-5/02-react-redux-toolkit/08-mehanizm-entity-adapter.md` | 05-modul-5 | 02-react-redux-toolkit | done | | 2026-06-24 |
+| `content/theory/05-modul-5/02-react-redux-toolkit/09-mehanizm-extrareducers.md` | 05-modul-5 | 02-react-redux-toolkit | done | | 2026-06-24 |
+| `content/theory/05-modul-5/02-react-redux-toolkit/10-asinhronnye-zaprosy.md` | 05-modul-5 | 02-react-redux-toolkit | done | | 2026-06-24 |
+| `content/theory/05-modul-5/02-react-redux-toolkit/11-rtk-query.md` | 05-modul-5 | 02-react-redux-toolkit | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/01-null-object-pattern.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/02-dispetcherizaciya-po-klyuchu-funkcii.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/03-parametricheskiy-polimorfizm.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/04-shablony-proektirovaniya.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/05-kod-kotoryy-ubivaet-polimorfizm.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/06-inversiya-zavisimostey.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/07-pattern-strategiya.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/08-upravlenie-zavisimostyami.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/09-pattern-sostoyanie-state.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/10-obektnaya-kompoziciya.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/11-o-kurse.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/12-dispetcherizaciya-po-imeni-fayla.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/13-dispetcherizaciya-po-klyuchu-dannye.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/14-utinaya-tipizaciya.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/01-js-polimorfizm/15-pattern-fabrika.md` | 06-modul-6 | 01-js-polimorfizm | done | | 2026-06-24 |
+| `content/theory/06-modul-6/02-osnovy-typescript/01-vvedenie.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/02-privet-mir.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/03-typescript.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/04-peremennye.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/05-imenovannye-funkcii.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/06-anonimnye-funkcii.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/07-massivy.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/08-obektnye-tipy.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/09-perechisleniya.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/10-psevdonimy-tipov.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/11-tip-any.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/12-sistema-moduley.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/13-funkcii-kak-parametry.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/14-opcionalnye-parametry-v-funkciyah.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/15-tip-void.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/16-vozvrat-iz-funkcii.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/17-tip-unknown.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/18-destrukturizaciya.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/19-operacii-rest-i-spread.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/20-peregruzka-funkciy.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/21-ierarhiya-tipov.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/22-neizmenyaemye-massivy.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/23-peresechenie.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/24-null-i-undefined.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/25-prisvaivanie-znacheniya.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/26-annotacii-tipov.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/27-obedineniya.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/29-kortezhi.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/31-suzhenie-tipov.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/32-kovariantnost-i-kontravariantnost.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/33-mnogomernye-massivy.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/02-osnovy-typescript/34-literaly.md` | 06-modul-6 | 02-osnovy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/01-dzheneriki-funkcii.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/02-klassy.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/03-nasledovanie.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/04-sopostavlenie-tipov.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/05-zapisi.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/06-realizaciya-interfeysov-klassami.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/07-zaschita-svoystv-i-metodov.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/08-dzheneriki-s-neskolkimi-parametrami.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/09-modifikatory-sopostavleniya-tipov.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/10-abstraktnye-klassy.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/11-dzheneriki-na-klassah.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/12-interfeysy.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/13-svoystva-parametrov.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/14-klassy-kak-tipy.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/15-staticheskie-metody-i-svoystva.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/16-dzheneriki-tipy.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/17-vvedenie-v-dzheneriki.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/18-tip-object.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/19-ispolzovanie-interfeysov.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/20-asinhronnye-funkcii.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
+| `content/theory/06-modul-6/03-prodvinutyy-typescript/21-dinamicheskie-klyuchi.md` | 06-modul-6 | 03-prodvinutyy-typescript | done | | |
