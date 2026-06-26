@@ -75,25 +75,25 @@
 | `content/theory/02-modul-2/01-osnovy-javascript/18-determinirovannost.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
 | `content/theory/02-modul-2/01-osnovy-javascript/19-standartnaya-biblioteka.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
 | `content/theory/02-modul-2/01-osnovy-javascript/20-svoystva-i-metody.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/21-cepochka-vyzovov.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/22-opredelenie-funkciy.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/23-vozvrat-znacheniy.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/24-parametry-funkciy.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/25-neobyazatelnye-parametry-funkciy.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/26-uproschennyy-sintaksis-funkciy.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/27-logika.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/29-rezultat-logicheskih-operaciy.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/30-uslovnye-konstrukcii.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/31-ternarnyy-operator.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/32-konstrukciya-switch.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/33-cikl-while.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/34-agregaciya-dannyh.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/35-obhod-strok-v-cikle.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/36-usloviya-vnutri-tela-cikla.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/37-inkrement-i-dekrement.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/38-cikl-for.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
-| `content/theory/02-modul-2/01-osnovy-javascript/39-moduli.md` | 02-modul-2 | 01-osnovy-javascript | todo | | |
+| `content/theory/02-modul-2/01-osnovy-javascript/21-cepochka-vyzovov.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/22-opredelenie-funkciy.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/23-vozvrat-znacheniy.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/24-parametry-funkciy.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/25-neobyazatelnye-parametry-funkciy.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/26-uproschennyy-sintaksis-funkciy.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/27-logika.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/29-rezultat-logicheskih-operaciy.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/30-uslovnye-konstrukcii.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/31-ternarnyy-operator.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/32-konstrukciya-switch.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/33-cikl-while.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/34-agregaciya-dannyh.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/35-obhod-strok-v-cikle.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/36-usloviya-vnutri-tela-cikla.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/37-inkrement-i-dekrement.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/38-cikl-for.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
+| `content/theory/02-modul-2/01-osnovy-javascript/39-moduli.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
 | `content/theory/02-modul-2/02-js-massivy/01-o-kurse.md` | 02-modul-2 | 02-js-massivy | todo | | |
 | `content/theory/02-modul-2/02-js-massivy/02-sintaksis.md` | 02-modul-2 | 02-js-massivy | todo | | |
 | `content/theory/02-modul-2/02-js-massivy/03-modifikaciya.md` | 02-modul-2 | 02-js-massivy | todo | | |
@@ -148,21 +148,21 @@
 | `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/17-prava-dostupa.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
 | `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/18-paketnyy-menedzher.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
 | `content/theory/02-modul-2/04-osnovy-komandnoy-stroki/19-vypolnenie-programm.md` | 02-modul-2 | 04-osnovy-komandnoy-stroki | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/01-vvedenie.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/02-rabochiy-process.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/04-rabochaya-direktoriya.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/05-analiz-sdelannyh-izmeneniy.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/06-analiz-istorii-izmeneniy.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/07-otmena-izmeneniy-v-rabochey-direktorii.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/09-izmenenie-poslednego-kommita.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/10-indeks.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/11-peremeschenie-po-istorii.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/12-ponimanie-git.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/13-ignorirovanie-faylov.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/14-stash.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
-| `content/theory/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty.md` | 02-modul-2 | 05-vvedenie-v-git | todo | | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/01-vvedenie.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/02-rabochiy-process.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/04-rabochaya-direktoriya.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/05-analiz-sdelannyh-izmeneniy.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/06-analiz-istorii-izmeneniy.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/07-otmena-izmeneniy-v-rabochey-direktorii.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/09-izmenenie-poslednego-kommita.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/10-indeks.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/11-peremeschenie-po-istorii.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/12-ponimanie-git.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/13-ignorirovanie-faylov.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/14-stash.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
+| `content/theory/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty.md` | 02-modul-2 | 05-vvedenie-v-git | done | 2026-06-24 | |
 | `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/01-vvedenie.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
 | `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/02-chto-takoe-js.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |
 | `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/03-ustanovka-javascript.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | todo | | |

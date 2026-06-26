@@ -8,13 +8,13 @@
 
 | ID | Role | Topic | Lessons | Files | Status |
 |----|------|-------|---------|-------|--------|
-| **R5** | Rewriter — JS basics (1/2) | `01-osnovy-javascript` | 20 | `01`–`20` | in_progress |
-| **R6** | Rewriter — JS basics (2/2) | `01-osnovy-javascript` | 19 | `21`–`39` | in_progress |
-| **R7** | Rewriter — массивы | `02-js-massivy` | 22 | all | in_progress |
-| **R8** | Rewriter — объекты | `03-js-obekty` | 13 | all | in_progress |
-| **R9** | Rewriter — CLI | `04-osnovy-komandnoy-stroki` | 19 | all | pending |
-| **R10** | Rewriter — Git | `05-vvedenie-v-git` | 15 | all | pending |
-| **R11** | Rewriter — окружение | `06-js-nastroyka-okruzheniya` | 11 | all | pending |
+| **R5** | Rewriter — JS basics (1/2) | `01-osnovy-javascript` | 20 | `01`–`20` | blocked (usage limit) |
+| **R6** | Rewriter — JS basics (2/2) | `01-osnovy-javascript` | 19 | `21`–`39` | done |
+| **R7** | Rewriter — массивы | `02-js-massivy` | 22 | all | blocked (usage limit) |
+| **R8** | Rewriter — объекты | `03-js-obekty` | 13 | all | blocked (usage limit) |
+| **R9** | Rewriter — CLI | `04-osnovy-komandnoy-stroki` | 19 | all | blocked (usage limit) |
+| **R10** | Rewriter — Git | `05-vvedenie-v-git` | 15 | all | done |
+| **R11** | Rewriter — окружение | `06-js-nastroyka-okruzheniya` | 11 | all | blocked (usage limit) |
 | **Q** | QA (parent) | all M2 rewritten | 119 | — | after R5–R11 |
 
 ## Rewrite rules (all agents)
