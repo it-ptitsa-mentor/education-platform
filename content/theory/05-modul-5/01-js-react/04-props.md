@@ -3,6 +3,9 @@ title: "Props"
 module: "Модуль 5"
 topic: "JS: React"
 buildin_id: 2c0644ef-298d-40c8-9dc2-5aadc60d3087
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Props
@@ -11,8 +14,7 @@ buildin_id: 2c0644ef-298d-40c8-9dc2-5aadc60d3087
 
 Передавать данные в компоненты можно, и делается это с помощью пропсов (props):
 
-[https://codepen.io/hexlet/pen/YxObvW](https://codepen.io/hexlet/pen/YxObvW)
-
+Пример можно открыть в CodePen с подключённым React.
 Как видно, снаружи пропсы передаются как атрибуты в HTML, которые внутри компонента доступны из объекта `props`. Причём такая передача входных данных для вас уже должна быть не в новинку. Встроенные компоненты точно так же принимают на вход пропсы, такие как `className` и другие.
 
 ```javascript
