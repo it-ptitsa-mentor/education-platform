@@ -94,28 +94,28 @@
 | `content/theory/02-modul-2/01-osnovy-javascript/37-inkrement-i-dekrement.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
 | `content/theory/02-modul-2/01-osnovy-javascript/38-cikl-for.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
 | `content/theory/02-modul-2/01-osnovy-javascript/39-moduli.md` | 02-modul-2 | 01-osnovy-javascript | done | | 2026-06-24 |
-| `content/theory/02-modul-2/02-js-massivy/01-o-kurse.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/02-sintaksis.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/03-modifikaciya.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/04-proverka-suschestvovaniya-znacheniya.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/05-cikl-for.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/06-ssylki.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/07-agregaciya.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/08-cikl-for-of.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/09-udalenie-elementov-massiva.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/10-upravlyayuschie-instrukcii.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/11-vlozhennye-massivy.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/12-generaciya-stroki-v-cikle.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/13-obrabotka-strok-cherez-preobrazovanie-v-massiv.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/14-vlozhennye-cikly.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/15-teoriya-mnozhestv.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/16-sortirovka-massivov.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/17-stek.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/18-big-o.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/19-destrukturizaciya.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/20-rest-i-destrukturizaciya.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/21-spread-i-sozdanie-novyh-massivov.md` | 02-modul-2 | 02-js-massivy | todo | | |
-| `content/theory/02-modul-2/02-js-massivy/22-massivy-v-pamyati-kompyutera.md` | 02-modul-2 | 02-js-massivy | todo | | |
+| `content/theory/02-modul-2/02-js-massivy/01-o-kurse.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/02-sintaksis.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/03-modifikaciya.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/04-proverka-suschestvovaniya-znacheniya.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/05-cikl-for.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/06-ssylki.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/07-agregaciya.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/08-cikl-for-of.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/09-udalenie-elementov-massiva.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/10-upravlyayuschie-instrukcii.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/11-vlozhennye-massivy.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/12-generaciya-stroki-v-cikle.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/13-obrabotka-strok-cherez-preobrazovanie-v-massiv.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/14-vlozhennye-cikly.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/15-teoriya-mnozhestv.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/16-sortirovka-massivov.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/17-stek.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/18-big-o.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/19-destrukturizaciya.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/20-rest-i-destrukturizaciya.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/21-spread-i-sozdanie-novyh-massivov.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
+| `content/theory/02-modul-2/02-js-massivy/22-massivy-v-pamyati-kompyutera.md` | 02-modul-2 | 02-js-massivy | done | | 2026-06-24 |
 | `content/theory/02-modul-2/03-js-obekty/01-o-kurse.md` | 02-modul-2 | 03-js-obekty | todo | | |
 | `content/theory/02-modul-2/03-js-obekty/02-sintaksis.md` | 02-modul-2 | 03-js-obekty | todo | | |
 | `content/theory/02-modul-2/03-js-obekty/03-modifikaciya.md` | 02-modul-2 | 03-js-obekty | todo | | |
