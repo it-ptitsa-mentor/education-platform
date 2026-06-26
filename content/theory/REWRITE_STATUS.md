@@ -174,111 +174,111 @@
 | `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/09-npx.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
 | `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/10-tochka-vhoda.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
 | `content/theory/02-modul-2/06-js-nastroyka-okruzheniya/11-linting.md` | 02-modul-2 | 06-js-nastroyka-okruzheniya | done | 2026-06-24 | |
-| `content/theory/03-modul-3/01-js-funkcii/01-filtraciya-filter.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/02-otobrazhenie-map.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/03-agregaciya-reduce.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/04-abstrakciya-s-pomoschyu-funkciy.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/05-funkcii-vysshego-poryadka.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/06-razdelenie-komand-i-zaprosov.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/07-rekursiya.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/08-obekty-pervogo-klassa.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/09-operator-spread-raspakovka-argumentov.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/10-chistye-funkcii.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/11-paradigmy-programmirovaniya.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/12-oblast-vidimosti-i-zamykaniya.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/13-destrukturizaciya-parametrov.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/14-vvedenie.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/15-cepochka-operaciy.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/16-operator-rest-upakovka-argumentov.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/01-js-funkcii/17-iterativnyy-process.md` | 03-modul-3 | 01-js-funkcii | todo | | |
-| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/01-vvedenie.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | todo | | |
-| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/02-prichiny-testirovaniya.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | todo | | |
-| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/03-utverzhdeniya.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | todo | | |
-| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/04-pokrytie-koda-testami.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | todo | | |
-| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/05-biblioteka-power-assert.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | todo | | |
-| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/06-podgotovka-dannyh.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | todo | | |
-| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/07-jest.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | todo | | |
-| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/08-modulnye-testy.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | todo | | |
-| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/09-razrabotka-cherez-testirovanie.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | todo | | |
-| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/10-plohie-i-horoshie-praktiki-testirovaniya.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | todo | | |
-| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/11-fikstury.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | todo | | |
-| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/12-matchery.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | todo | | |
-| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | todo | | |
-| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/02-invarianty.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | todo | | |
-| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/03-sozdanie-abstrakcii.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | todo | | |
-| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/04-urovnevoe-proektirovanie.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | todo | | |
-| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/05-tochki-na-koordinatnoy-ploskosti.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | todo | | |
-| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/06-interfeysy.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | todo | | |
-| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/07-semantika-massivov.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | todo | | |
-| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/08-vvedenie.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | todo | | |
-| `content/theory/03-modul-3/04-js-derevya/01-vvedenie.md` | 03-modul-3 | 04-js-derevya | todo | | |
-| `content/theory/03-modul-3/04-js-derevya/02-opredeleniya.md` | 03-modul-3 | 04-js-derevya | todo | | |
-| `content/theory/03-modul-3/04-js-derevya/03-virtualnaya-faylovaya-sistema.md` | 03-modul-3 | 04-js-derevya | todo | | |
-| `content/theory/03-modul-3/04-js-derevya/04-manipulyacii-s-virtualnoy-faylovoy-sistemoy.md` | 03-modul-3 | 04-js-derevya | todo | | |
-| `content/theory/03-modul-3/04-js-derevya/05-obhod-dereva.md` | 03-modul-3 | 04-js-derevya | todo | | |
-| `content/theory/03-modul-3/04-js-derevya/06-agregaciya.md` | 03-modul-3 | 04-js-derevya | todo | | |
-| `content/theory/03-modul-3/04-js-derevya/07-agregaciya-2.md` | 03-modul-3 | 04-js-derevya | todo | | |
-| `content/theory/03-modul-3/04-js-derevya/08-akkumulyator.md` | 03-modul-3 | 04-js-derevya | todo | | |
-| `content/theory/03-modul-3/04-js-derevya/09-html-derevo.md` | 03-modul-3 | 04-js-derevya | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/01-teoriya-mesto-i-ponimanie-oop-v-programmirovanii.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/02-teoriya-inkapsulyaciya.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/03-teoriya-kontekst-this.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/04-teoriya-tostring.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/05-teoriya-klass.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/06-teoriya-isklyucheniya.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/07-teoriya-upakovka-i-raspakovka-boxing.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/08-teoriya-konstruktor.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/09-teoriya-prototipy.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/10-teoriya-osobennosti-raboty-this-so-strelochnymi-funkciyami.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/11-teoriya-svyazyvanie-bind.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/12-teoriya-staticheskie-svoystva-i-metody.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/05-js-vvedenie-v-oop/13-teoriya-o-kurse.md` | 03-modul-3 | 05-js-vvedenie-v-oop | todo | | |
-| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/01-fluent-interface.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | todo | | |
-| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/02-izmenyaemaya-konfiguraciya.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | todo | | |
-| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/03-obekty-suschnosti-obekty-znacheniya-i-vnedrennye-obekty.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | todo | | |
-| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/04-shablony-proektirovaniya.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | todo | | |
-| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/05-o-kurse.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | todo | | |
-| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/06-proksi.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | todo | | |
-| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/07-pishem-kod-pravilno.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | todo | | |
-| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/08-konfiguraciya.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | todo | | |
-| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/09-teoriya-sborschiki.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | todo | | |
-| `content/theory/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions.md` | 03-modul-3 | 07-nepreryvnaya-integraciya-ci | todo | | |
-| `content/theory/03-modul-3/07-nepreryvnaya-integraciya-ci/02-zadaniya.md` | 03-modul-3 | 07-nepreryvnaya-integraciya-ci | todo | | |
-| `content/theory/03-modul-3/07-nepreryvnaya-integraciya-ci/03-eksheny.md` | 03-modul-3 | 07-nepreryvnaya-integraciya-ci | todo | | |
-| `content/theory/03-modul-3/07-nepreryvnaya-integraciya-ci/04-vvedenie.md` | 03-modul-3 | 07-nepreryvnaya-integraciya-ci | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/01-obrabotka-oshibok.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/02-taymery.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/03-http-zaprosy.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/04-vvedenie.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/05-new-promise.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/07-uporyadochivanie-asinhronnyh-operaciy.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/08-vozvrat-v-asinhronnom-kode.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/09-obrabotka-oshibok-v-promisah.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/10-cepochka-promisov.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/11-asinhronnyy-kod.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/12-promisy-promise.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/13-async-await.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/14-promise-all.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/15-parallelnoe-vypolnenie-operaciy.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | todo | | |
-| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/01-inversiya-zavisimostey.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | todo | | |
-| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/02-moki.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | todo | | |
-| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/03-mankipatching.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | todo | | |
-| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/04-property-based-testirovanie.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | todo | | |
-| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/05-testirovanie-oshibok.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | todo | | |
-| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/06-vvedenie.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | todo | | |
-| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/07-testirovanie-koda-vzaimodeystvuyuschego-s-faylami.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | todo | | |
-| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/08-pobochnye-effekty.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | todo | | |
-| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/09-testirovanie-http-zaprosov.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/01-manipulirovanie-dom-derevom.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/02-deklarativnyy-poisk-po-dom-derevu.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/03-vvedenie-v-sobytiya.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/04-sobytiya-dokumenta.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/05-vvedenie.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/06-jquery.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/07-formy.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/08-ajax.md` | 04-modul-4 | 03-js-dom-api | todo | | |
-| `content/theory/04-modul-4/03-js-dom-api/09-dom.md` | 04-modul-4 | 03-js-dom-api | todo | | |
+| `content/theory/03-modul-3/01-js-funkcii/01-filtraciya-filter.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/02-otobrazhenie-map.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/03-agregaciya-reduce.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/04-abstrakciya-s-pomoschyu-funkciy.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/05-funkcii-vysshego-poryadka.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/06-razdelenie-komand-i-zaprosov.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/07-rekursiya.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/08-obekty-pervogo-klassa.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/09-operator-spread-raspakovka-argumentov.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/10-chistye-funkcii.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/11-paradigmy-programmirovaniya.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/12-oblast-vidimosti-i-zamykaniya.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/13-destrukturizaciya-parametrov.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/14-vvedenie.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/15-cepochka-operaciy.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/16-operator-rest-upakovka-argumentov.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/01-js-funkcii/17-iterativnyy-process.md` | 03-modul-3 | 01-js-funkcii | done | 2026-06-24 | |
+| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/01-vvedenie.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | done | 2026-06-24 | |
+| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/02-prichiny-testirovaniya.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | done | 2026-06-24 | |
+| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/03-utverzhdeniya.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | done | 2026-06-24 | |
+| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/04-pokrytie-koda-testami.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | done | 2026-06-24 | |
+| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/05-biblioteka-power-assert.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | done | 2026-06-24 | |
+| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/06-podgotovka-dannyh.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | done | 2026-06-24 | |
+| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/07-jest.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | done | 2026-06-24 | |
+| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/08-modulnye-testy.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | done | 2026-06-24 | |
+| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/09-razrabotka-cherez-testirovanie.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | done | 2026-06-24 | |
+| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/10-plohie-i-horoshie-praktiki-testirovaniya.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | done | 2026-06-24 | |
+| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/11-fikstury.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | done | 2026-06-24 | |
+| `content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/12-matchery.md` | 03-modul-3 | 02-js-avtomaticheskoe-testirovanie | done | 2026-06-24 | |
+| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | done | 2026-06-24 | |
+| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/02-invarianty.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | done | 2026-06-24 | |
+| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/03-sozdanie-abstrakcii.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | done | 2026-06-24 | |
+| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/04-urovnevoe-proektirovanie.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | done | 2026-06-24 | |
+| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/05-tochki-na-koordinatnoy-ploskosti.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | done | 2026-06-24 | |
+| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/06-interfeysy.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | done | 2026-06-24 | |
+| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/07-semantika-massivov.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | done | 2026-06-24 | |
+| `content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/08-vvedenie.md` | 03-modul-3 | 03-js-abstrakciya-s-pomoschyu-dannyh | done | 2026-06-24 | |
+| `content/theory/03-modul-3/04-js-derevya/01-vvedenie.md` | 03-modul-3 | 04-js-derevya | done | 2026-06-26 | |
+| `content/theory/03-modul-3/04-js-derevya/02-opredeleniya.md` | 03-modul-3 | 04-js-derevya | done | 2026-06-26 | |
+| `content/theory/03-modul-3/04-js-derevya/03-virtualnaya-faylovaya-sistema.md` | 03-modul-3 | 04-js-derevya | done | 2026-06-26 | |
+| `content/theory/03-modul-3/04-js-derevya/04-manipulyacii-s-virtualnoy-faylovoy-sistemoy.md` | 03-modul-3 | 04-js-derevya | done | 2026-06-26 | |
+| `content/theory/03-modul-3/04-js-derevya/05-obhod-dereva.md` | 03-modul-3 | 04-js-derevya | done | 2026-06-26 | |
+| `content/theory/03-modul-3/04-js-derevya/06-agregaciya.md` | 03-modul-3 | 04-js-derevya | done | 2026-06-26 | |
+| `content/theory/03-modul-3/04-js-derevya/07-agregaciya-2.md` | 03-modul-3 | 04-js-derevya | done | 2026-06-26 | |
+| `content/theory/03-modul-3/04-js-derevya/08-akkumulyator.md` | 03-modul-3 | 04-js-derevya | done | 2026-06-26 | |
+| `content/theory/03-modul-3/04-js-derevya/09-html-derevo.md` | 03-modul-3 | 04-js-derevya | done | 2026-06-26 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/01-teoriya-mesto-i-ponimanie-oop-v-programmirovanii.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/02-teoriya-inkapsulyaciya.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/03-teoriya-kontekst-this.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/04-teoriya-tostring.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/05-teoriya-klass.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/06-teoriya-isklyucheniya.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/07-teoriya-upakovka-i-raspakovka-boxing.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/08-teoriya-konstruktor.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/09-teoriya-prototipy.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/10-teoriya-osobennosti-raboty-this-so-strelochnymi-funkciyami.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/11-teoriya-svyazyvanie-bind.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/12-teoriya-staticheskie-svoystva-i-metody.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/05-js-vvedenie-v-oop/13-teoriya-o-kurse.md` | 03-modul-3 | 05-js-vvedenie-v-oop | done | 2026-06-24 | |
+| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/01-fluent-interface.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | done | 2026-06-24 | |
+| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/02-izmenyaemaya-konfiguraciya.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | done | 2026-06-24 | |
+| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/03-obekty-suschnosti-obekty-znacheniya-i-vnedrennye-obekty.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | done | 2026-06-24 | |
+| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/04-shablony-proektirovaniya.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | done | 2026-06-24 | |
+| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/05-o-kurse.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | done | 2026-06-24 | |
+| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/06-proksi.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | done | 2026-06-24 | |
+| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/07-pishem-kod-pravilno.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | done | 2026-06-24 | |
+| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/08-konfiguraciya.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | done | 2026-06-24 | |
+| `content/theory/03-modul-3/06-obektno-orientirovannyy-dizayn/09-teoriya-sborschiki.md` | 03-modul-3 | 06-obektno-orientirovannyy-dizayn | done | 2026-06-24 | |
+| `content/theory/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions.md` | 03-modul-3 | 07-nepreryvnaya-integraciya-ci | done | 2026-06-24 | |
+| `content/theory/03-modul-3/07-nepreryvnaya-integraciya-ci/02-zadaniya.md` | 03-modul-3 | 07-nepreryvnaya-integraciya-ci | done | 2026-06-24 | |
+| `content/theory/03-modul-3/07-nepreryvnaya-integraciya-ci/03-eksheny.md` | 03-modul-3 | 07-nepreryvnaya-integraciya-ci | done | 2026-06-24 | |
+| `content/theory/03-modul-3/07-nepreryvnaya-integraciya-ci/04-vvedenie.md` | 03-modul-3 | 07-nepreryvnaya-integraciya-ci | done | 2026-06-24 | |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/01-obrabotka-oshibok.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/02-taymery.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/03-http-zaprosy.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/04-vvedenie.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/05-new-promise.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/07-uporyadochivanie-asinhronnyh-operaciy.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/08-vozvrat-v-asinhronnom-kode.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/09-obrabotka-oshibok-v-promisah.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/10-cepochka-promisov.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/11-asinhronnyy-kod.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/12-promisy-promise.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/13-async-await.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/14-promise-all.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/15-parallelnoe-vypolnenie-operaciy.md` | 04-modul-4 | 01-js-asinhronnoe-programmirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/01-inversiya-zavisimostey.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/02-moki.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/03-mankipatching.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/04-property-based-testirovanie.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/05-testirovanie-oshibok.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/06-vvedenie.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/07-testirovanie-koda-vzaimodeystvuyuschego-s-faylami.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/08-pobochnye-effekty.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/02-js-prodvinutoe-testirovanie/09-testirovanie-http-zaprosov.md` | 04-modul-4 | 02-js-prodvinutoe-testirovanie | done | | 2026-06-24 |
+| `content/theory/04-modul-4/03-js-dom-api/01-manipulirovanie-dom-derevom.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/02-deklarativnyy-poisk-po-dom-derevu.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/03-vvedenie-v-sobytiya.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/04-sobytiya-dokumenta.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/05-vvedenie.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/06-jquery.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/07-formy.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/08-ajax.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
+| `content/theory/04-modul-4/03-js-dom-api/09-dom.md` | 04-modul-4 | 03-js-dom-api | done | 2026-06-24 | |
 | `content/theory/04-modul-4/03-js-dom-api/10-konsol-razrabotchika.md` | 04-modul-4 | 03-js-dom-api | todo | | |
 | `content/theory/04-modul-4/03-js-dom-api/11-perehvat-i-vsplytie.md` | 04-modul-4 | 03-js-dom-api | todo | | |
 | `content/theory/04-modul-4/03-js-dom-api/12-polifilly.md` | 04-modul-4 | 03-js-dom-api | todo | | |

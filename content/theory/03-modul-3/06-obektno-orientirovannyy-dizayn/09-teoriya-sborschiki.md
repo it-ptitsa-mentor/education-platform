@@ -3,6 +3,9 @@ title: "Теория: Сборщики"
 module: "Модуль 3"
 topic: "Объектно-ориентированный дизайн"
 buildin_id: c4449a02-2537-4186-b80e-e27b2df54ec6
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Теория: Сборщики
