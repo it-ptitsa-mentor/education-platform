@@ -3,11 +3,14 @@ title: "Массивы"
 module: "Модуль 6"
 topic: "Основы Typescript"
 buildin_id: 70c5e899-c6e3-46ae-a45a-448a19790d2d
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Массивы
 
-В этом уроке мы поговорим про массивы. TypeScript умеет выводить их тип, как и в случае с примитивными типами данных:
+Массивы в TypeScript, как и примитивы, получают тип по выводу:
 
 ```javascript
 const fruits = ['banana', 'mango', 'apple']

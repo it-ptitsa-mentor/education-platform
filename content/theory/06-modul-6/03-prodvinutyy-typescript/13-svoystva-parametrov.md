@@ -3,13 +3,16 @@ title: "Свойства параметров"
 module: "Модуль 6"
 topic: "Продвинутый Typescript"
 buildin_id: 79735db9-2cdf-46aa-835a-85c21c7ded3e
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Свойства параметров
 
-Заполнение свойств из параметров конструктора — это частая задача в работе с классами. Поэтому в TypeScript добавили специальный синтаксис, который позволяет делать это автоматически:
+Параметры конструктора с модификаторами (`public`, `private`, `protected`) сразу объявляют и инициализируют поля:
 
-```
+```typescript
 class SomeClass {
   constructor(public one: number, private two: string) {}
 
@@ -21,7 +24,7 @@ class SomeClass {
 
 Этот код делает то же самое, что и этот:
 
-```
+```typescript
 class SomeClass {
   public one: number
 

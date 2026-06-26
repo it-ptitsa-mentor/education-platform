@@ -3,11 +3,14 @@ title: "Возврат из функции"
 module: "Модуль 6"
 topic: "Основы Typescript"
 buildin_id: 07addbce-6354-4a1d-8c3e-17bd46cf5ac0
+source: platform
+rewritten_at: 2026-06-24
+reviewed_by:
 ---
 
 # Возврат из функции
 
-В этом уроке познакомимся с типом `never`.
+Разберём тип `never`.
 
 ## Использование типа never
 
