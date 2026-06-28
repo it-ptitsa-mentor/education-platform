@@ -12,7 +12,7 @@ export const ExercisePage = () => {
         </span>
         <span className="banner-label">ERR</span>
         Задача не указана.{" "}
-        <Link to="/" className="inline-link">
+        <Link to="/tasks" className="inline-link">
           Вернуться к каталогу
         </Link>
       </div>

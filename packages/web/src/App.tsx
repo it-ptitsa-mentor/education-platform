@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes, useParams } from "react-router-dom";
 import { AppShell } from "./components/AppShell";
 import { LessonExerciseStep } from "./lesson/LessonExerciseStep";
 import { LessonLayout } from "./lesson/LessonLayout";
@@ -8,18 +8,32 @@ import { LessonTopicRedirect } from "./lesson/LessonTopicRedirect";
 import { CourseHomePage } from "./pages/CourseHomePage";
 import { ExercisePage } from "./pages/ExercisePage";
 import { HomePage } from "./pages/HomePage";
+import { ProfessionRoadmapsPage } from "./pages/ProfessionRoadmapsPage";
 import { QuizPage } from "./pages/QuizPage";
 import { QuizzesHomePage } from "./pages/QuizzesHomePage";
 import { RoadmapNodePage } from "./pages/RoadmapNodePage";
 import { RoadmapPage } from "./pages/RoadmapPage";
 
+const LegacyRoadmapNodeRedirect = () => {
+  const { nodeId = "" } = useParams<{ nodeId: string }>();
+  return (
+    <Navigate
+      to={`/roadmaps/frontend-bootcamp/${encodeURIComponent(nodeId)}`}
+      replace
+    />
+  );
+};
+
 export const App = () => (
   <Routes>
     <Route element={<AppShell />}>
-      <Route index element={<RoadmapPage />} />
-      <Route path="roadmap" element={<RoadmapPage />} />
-      <Route path="roadmap/:nodeId" element={<RoadmapNodePage />} />
-      <Route path="learn" element={<CourseHomePage />} />
+      <Route index element={<CourseHomePage />} />
+      <Route path="professions/:professionId" element={<ProfessionRoadmapsPage />} />
+      <Route path="roadmaps" element={<Navigate to="/" replace />} />
+      <Route path="roadmaps/:roadmapId" element={<RoadmapPage />} />
+      <Route path="roadmaps/:roadmapId/:nodeId" element={<RoadmapNodePage />} />
+      <Route path="roadmap" element={<Navigate to="/roadmaps/frontend-bootcamp" replace />} />
+      <Route path="roadmap/:nodeId" element={<LegacyRoadmapNodeRedirect />} />
       <Route
         path="learn/:moduleSlug/:topicSlug"
         element={<LessonTopicRedirect />}
