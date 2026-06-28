@@ -12,7 +12,7 @@ import {
 } from "../lib/lesson-units";
 import { LessonNavigatorModal } from "../components/LessonNavigatorModal";
 import { LessonContext } from "./lesson-context";
-import { LessonFooterNav } from "./LessonFooterNav";
+import { LessonSideNav } from "./LessonSideNav";
 import { LessonStepper } from "./LessonStepper";
 
 const findTopic = (course: Course, moduleSlug: string, topicSlug: string) => {
@@ -81,6 +81,7 @@ export const LessonLayout = () => {
 
   useEffect(() => {
     window.scrollTo({ top: 0 });
+    document.querySelector(".app-main")?.scrollTo({ top: 0 });
   }, [moduleSlug, topicSlug, lessonIndex, activeUnit]);
 
   if (error) {
@@ -140,28 +141,13 @@ export const LessonLayout = () => {
           className={`lesson-main${isExerciseFocus ? " lesson-main--fill" : ""}`}
         >
           <div
-            className={`lesson-main-header${isExerciseFocus ? " lesson-main-header--compact" : ""}`}
+            className={`lesson-main-column${isExerciseFocus ? " lesson-main-column--fill" : ""}`}
           >
-            {isExerciseFocus ? (
-              <div className="lesson-main-header-row">
-                <button
-                  type="button"
-                  className="lesson-aside-toggle"
-                  onClick={() => setNavigatorOpen(true)}
-                >
-                  Темы
-                </button>
-                <h1 className="lesson-title lesson-title--compact">
-                  {current.lesson.title}
-                </h1>
-                <LessonStepper activeUnit={activeUnit} />
-              </div>
-            ) : (
-              <>
-                <div className="lesson-main-header-top">
-                  <Link to="/" className="lesson-nav-link lesson-nav-link--back">
-                    ← Роадмап
-                  </Link>
+            <div
+              className={`lesson-main-header${isExerciseFocus ? " lesson-main-header--compact" : ""}`}
+            >
+              {isExerciseFocus ? (
+                <div className="lesson-main-header-row">
                   <button
                     type="button"
                     className="lesson-aside-toggle"
@@ -169,23 +155,51 @@ export const LessonLayout = () => {
                   >
                     Темы
                   </button>
+                  <h1 className="lesson-title lesson-title--compact">
+                    {current.lesson.title}
+                  </h1>
+                  <LessonStepper activeUnit={activeUnit} />
                 </div>
-                <div className="lesson-breadcrumb">
-                  {mod.title} · {topic.title}
-                </div>
-                <h1 className="lesson-title">{current.lesson.title}</h1>
-                <LessonStepper activeUnit={activeUnit} />
-              </>
-            )}
-          </div>
+              ) : (
+                <>
+                  <div className="lesson-main-header-top">
+                    <Link
+                      to="/"
+                      className="lesson-nav-link lesson-nav-link--back"
+                    >
+                      ← Роадмап
+                    </Link>
+                    <button
+                      type="button"
+                      className="lesson-aside-toggle"
+                      onClick={() => setNavigatorOpen(true)}
+                    >
+                      Темы
+                    </button>
+                  </div>
+                  <div className="lesson-breadcrumb">
+                    {mod.title} · {topic.title}
+                  </div>
+                  <h1 className="lesson-title">{current.lesson.title}</h1>
+                  <LessonStepper activeUnit={activeUnit} />
+                </>
+              )}
+            </div>
 
-          <div
-            className={`lesson-main-body${isExerciseFocus ? " lesson-main-body--fill" : ""}`}
-          >
-            <Outlet />
-          </div>
+            <div
+              className={`lesson-main-shell${isExerciseFocus ? " lesson-main-shell--fill" : ""}`}
+            >
+              <div
+                className={`lesson-main-body${isExerciseFocus ? " lesson-main-body--fill" : ""}`}
+              >
+                <Outlet />
+              </div>
 
-          {!isExerciseFocus ? <LessonFooterNav activeUnit={activeUnit} /> : null}
+              {!isExerciseFocus ? (
+                <LessonSideNav activeUnit={activeUnit} />
+              ) : null}
+            </div>
+          </div>
         </main>
       </div>
 

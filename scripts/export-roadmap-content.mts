@@ -1,6 +1,6 @@
 /**
- * Экспорт роадмапа Frontend Bootcamp из соседнего репо roadmap → content/roadmap/.
- * SSOT: roadmap/src/topics.prod.ts + curriculum/react-phase-16w.ts
+ * Экспорт роадмапов из соседнего репо roadmap → content/roadmap/.
+ * SSOT: roadmap/src/topics.*.ts + curriculum/*-phases.ts
  *
  * Запуск: pnpm export:roadmap-content
  */
@@ -41,6 +41,18 @@ type HexletTopicRef = {
   moduleSlug: string;
   topicSlug: string;
   title: string;
+};
+
+type RoadmapExportSpec = {
+  filename: string;
+  id: string;
+  title: string;
+  subtitle: string;
+  profession: string;
+  topicsModule: string;
+  topicsExport: string;
+  phasesModule: string;
+  phasesExport: string;
 };
 
 const BUILDIN_UUID =
@@ -97,22 +109,12 @@ const resolveCourseTopic = (
   return index.byTitle.get(entry.label.trim().toLowerCase()) ?? null;
 };
 
-const main = async () => {
-  const topicsProd = await import(
-    pathToFileURL(resolve(roadmapRoot, "src/topics.prod.ts")).href
-  );
-  const curriculum = await import(
-    pathToFileURL(resolve(roadmapRoot, "src/curriculum/react-phase-16w.ts")).href
-  );
-
-  const manifest = JSON.parse(
-    readFileSync(resolve(root, "content/theory/manifest.json"), "utf8"),
-  ) as Parameters<typeof buildHexletTopicIndex>[0];
-
-  const hexletIndex = buildHexletTopicIndex(manifest);
+const buildNodes = (
+  topics: Record<string, TopicEntry | ProjectEntry>,
+  hexletIndex: ReturnType<typeof buildHexletTopicIndex>,
+): Record<string, RoadmapNode> => {
   const nodes: Record<string, RoadmapNode> = {};
-
-  for (const [id, raw] of Object.entries(topicsProd.topicsProd as Record<string, TopicEntry | ProjectEntry>)) {
+  for (const [id, raw] of Object.entries(topics)) {
     if (raw.kind === "topic") {
       nodes[id] = {
         kind: "topic",
@@ -132,25 +134,77 @@ const main = async () => {
       };
     }
   }
+  return nodes;
+};
 
-  const payload = {
+const ROADMAPS: RoadmapExportSpec[] = [
+  {
+    filename: "frontend-bootcamp.json",
     id: "frontend-bootcamp",
     title: "Frontend Bootcamp",
     subtitle: "16 недель · CLI и JS → Web/DOM → React",
     profession: "Frontend-разработчик",
-    phases: curriculum.TEST_16W_PHASES,
-  };
+    topicsModule: "src/topics.prod.ts",
+    topicsExport: "topicsProd",
+    phasesModule: "src/curriculum/react-phase-16w.ts",
+    phasesExport: "TEST_16W_PHASES",
+  },
+  {
+    filename: "react-first.json",
+    id: "react-first",
+    title: "React First",
+    subtitle: "20 недель · React с первой недели, spiral-подход",
+    profession: "Frontend-разработчик",
+    topicsModule: "src/topics.react-first.ts",
+    topicsExport: "topics",
+    phasesModule: "src/curriculum/react-first-phases.ts",
+    phasesExport: "REACT_FIRST_PHASES",
+  },
+];
 
+const main = async () => {
+  const manifest = JSON.parse(
+    readFileSync(resolve(root, "content/theory/manifest.json"), "utf8"),
+  ) as Parameters<typeof buildHexletTopicIndex>[0];
+
+  const hexletIndex = buildHexletTopicIndex(manifest);
   const outDir = resolve(root, "content", "roadmap");
   mkdirSync(outDir, { recursive: true });
-  writeFileSync(
-    resolve(outDir, "frontend-bootcamp.json"),
-    JSON.stringify({ ...payload, nodes }, null, 2),
-    "utf8",
-  );
 
-  const mapped = Object.values(nodes).filter((n) => n.courseTopic).length;
-  console.log(`✓ content/roadmap/frontend-bootcamp.json (${Object.keys(nodes).length} нод, ${mapped} с уроками на платформе)`);
+  for (const spec of ROADMAPS) {
+    const topicsMod = await import(
+      pathToFileURL(resolve(roadmapRoot, spec.topicsModule)).href
+    );
+    const phasesMod = await import(
+      pathToFileURL(resolve(roadmapRoot, spec.phasesModule)).href
+    );
+
+    const topics = topicsMod[spec.topicsExport] as Record<
+      string,
+      TopicEntry | ProjectEntry
+    >;
+    const phases = phasesMod[spec.phasesExport];
+
+    const nodes = buildNodes(topics, hexletIndex);
+    const payload = {
+      id: spec.id,
+      title: spec.title,
+      subtitle: spec.subtitle,
+      profession: spec.profession,
+      phases,
+    };
+
+    writeFileSync(
+      resolve(outDir, spec.filename),
+      JSON.stringify({ ...payload, nodes }, null, 2),
+      "utf8",
+    );
+
+    const mapped = Object.values(nodes).filter((n) => n.courseTopic).length;
+    console.log(
+      `✓ content/roadmap/${spec.filename} (${Object.keys(nodes).length} нод, ${mapped} с уроками на платформе)`,
+    );
+  }
 };
 
 main().catch((err) => {

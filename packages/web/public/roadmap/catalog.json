@@ -1,0 +1,32 @@
+{
+  "professions": [
+    {
+      "id": "frontend",
+      "title": "JS-разработчик",
+      "description": "JavaScript и веб: основы языка, DOM, React, инструменты и проекты.",
+      "roadmaps": [
+        {
+          "id": "frontend-bootcamp",
+          "title": "Frontend Bootcamp",
+          "subtitle": "16 недель · CLI и JS → Web/DOM → React",
+          "status": "active",
+          "badge": "16 нед"
+        },
+        {
+          "id": "react-first",
+          "title": "React First",
+          "subtitle": "20 недель · React с первой недели, spiral-подход",
+          "status": "active",
+          "badge": "20 нед"
+        }
+      ]
+    },
+    {
+      "id": "go",
+      "title": "Go-разработчик",
+      "description": "Бэкенд на Go: синтаксис, concurrency, HTTP API, тесты и деплой.",
+      "status": "soon",
+      "roadmaps": []
+    }
+  ]
+}

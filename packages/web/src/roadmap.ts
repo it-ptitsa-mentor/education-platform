@@ -23,13 +23,13 @@ export type RoadmapNode = {
 
 export type RoadmapWeek = {
   week: number;
-  phaseId: "p1" | "p2" | "p3";
+  phaseId: string;
   topicIds: string[];
   projectIds: string[];
 };
 
 export type RoadmapPhase = {
-  id: "p1" | "p2" | "p3";
+  id: string;
   label: string;
   weeks: RoadmapWeek[];
 };
@@ -43,17 +43,75 @@ export type Roadmap = {
   nodes: Record<string, RoadmapNode>;
 };
 
+export type RoadmapCatalogStatus = "active" | "soon";
+
+export type RoadmapCatalogEntry = {
+  id: string;
+  title: string;
+  subtitle: string;
+  status: RoadmapCatalogStatus;
+  badge?: string;
+};
+
+export type ProfessionCatalogEntry = {
+  id: string;
+  title: string;
+  description?: string;
+  status?: RoadmapCatalogStatus;
+  roadmaps: RoadmapCatalogEntry[];
+};
+
+export type RoadmapCatalog = {
+  professions: ProfessionCatalogEntry[];
+};
+
 const base = import.meta.env.BASE_URL;
-const ROADMAP_ID = "frontend-bootcamp";
 
-let cache: Roadmap | null = null;
+const roadmapCache = new Map<string, Roadmap>();
+let catalogCache: RoadmapCatalog | null = null;
 
-export const loadRoadmap = async (): Promise<Roadmap> => {
-  if (cache) return cache;
-  const res = await fetch(`${base}roadmap/${ROADMAP_ID}.json`);
+export const professionPath = (professionId: string): string =>
+  `/professions/${encodeURIComponent(professionId)}`;
+
+export const roadmapPath = (roadmapId: string): string =>
+  `/roadmaps/${encodeURIComponent(roadmapId)}`;
+
+export const roadmapNodePath = (roadmapId: string, nodeId: string): string =>
+  `/roadmaps/${encodeURIComponent(roadmapId)}/${encodeURIComponent(nodeId)}`;
+
+export const loadRoadmapCatalog = async (): Promise<RoadmapCatalog> => {
+  if (catalogCache) return catalogCache;
+  const res = await fetch(`${base}roadmap/catalog.json`);
+  if (!res.ok) throw new Error("Не удалось загрузить каталог роадмапов");
+  catalogCache = (await res.json()) as RoadmapCatalog;
+  return catalogCache;
+};
+
+export const findCatalogProfession = (
+  catalog: RoadmapCatalog,
+  professionId: string,
+): ProfessionCatalogEntry | null =>
+  catalog.professions.find((p) => p.id === professionId) ?? null;
+
+export const findCatalogRoadmap = (
+  catalog: RoadmapCatalog,
+  roadmapId: string,
+): { profession: ProfessionCatalogEntry; roadmap: RoadmapCatalogEntry } | null => {
+  for (const profession of catalog.professions) {
+    const roadmap = profession.roadmaps.find((item) => item.id === roadmapId);
+    if (roadmap) return { profession, roadmap };
+  }
+  return null;
+};
+
+export const loadRoadmap = async (roadmapId: string): Promise<Roadmap> => {
+  const cached = roadmapCache.get(roadmapId);
+  if (cached) return cached;
+  const res = await fetch(`${base}roadmap/${roadmapId}.json`);
   if (!res.ok) throw new Error("Не удалось загрузить роадмап");
-  cache = (await res.json()) as Roadmap;
-  return cache;
+  const roadmap = (await res.json()) as Roadmap;
+  roadmapCache.set(roadmapId, roadmap);
+  return roadmap;
 };
 
 export const getRoadmapNode = (roadmap: Roadmap, nodeId: string): RoadmapNode | null =>

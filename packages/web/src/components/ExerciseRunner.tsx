@@ -126,7 +126,7 @@ export const ExerciseRunner = ({
     <div className={`exercise-runner${embedded ? " exercise-runner--embedded" : ""}`}>
       {!embedded ? (
         <div className="exercise-toolbar">
-          <Link to="/" className="back-link">
+          <Link to="/tasks" className="back-link">
             <span aria-hidden>←</span>
             Каталог
           </Link>

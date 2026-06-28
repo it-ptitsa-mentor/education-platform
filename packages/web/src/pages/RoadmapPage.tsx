@@ -1,31 +1,39 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import {
   courseTopicLessonHref,
+  findCatalogRoadmap,
   isRoadmapNodeDone,
   loadRoadmap,
+  loadRoadmapCatalog,
+  professionPath,
+  roadmapNodePath,
+  roadmapPath,
   type Roadmap,
+  type RoadmapCatalogEntry,
   type RoadmapNode,
   type RoadmapPhase,
   type RoadmapWeek,
 } from "../roadmap";
 
-const roadmapNodeHref = (nodeId: string, node: RoadmapNode) => {
+const roadmapNodeHref = (roadmapId: string, nodeId: string, node: RoadmapNode) => {
   if (node.courseTopic) return courseTopicLessonHref(node.courseTopic);
   if (node.kind === "project" && node.classroomUrl) return node.classroomUrl;
-  return `/roadmap/${encodeURIComponent(nodeId)}`;
+  return roadmapNodePath(roadmapId, nodeId);
 };
 
 const NodePill = ({
+  roadmapId,
   nodeId,
   node,
   done,
 }: {
+  roadmapId: string;
   nodeId: string;
   node: RoadmapNode;
   done: boolean;
 }) => {
-  const href = roadmapNodeHref(nodeId, node);
+  const href = roadmapNodeHref(roadmapId, nodeId, node);
   const external = href.startsWith("http");
 
   const className = `roadmap-node-pill roadmap-node-pill--${node.kind}${done ? " is-done" : ""}`;
@@ -63,10 +71,12 @@ const NodePill = ({
 };
 
 const WeekBlock = ({
+  roadmapId,
   week,
   nodes,
   doneSet,
 }: {
+  roadmapId: string;
   week: RoadmapWeek;
   nodes: Roadmap["nodes"];
   doneSet: Set<string>;
@@ -84,6 +94,7 @@ const WeekBlock = ({
           return (
             <NodePill
               key={id}
+              roadmapId={roadmapId}
               nodeId={id}
               node={node}
               done={doneSet.has(id)}
@@ -96,11 +107,13 @@ const WeekBlock = ({
 };
 
 const PhaseSection = ({
+  roadmapId,
   phase,
   nodes,
   doneSet,
   defaultOpen,
 }: {
+  roadmapId: string;
   phase: RoadmapPhase;
   nodes: Roadmap["nodes"];
   doneSet: Set<string>;
@@ -131,7 +144,13 @@ const PhaseSection = ({
       {open && (
         <div className="roadmap-phase-body">
           {phase.weeks.map((w) => (
-            <WeekBlock key={w.week} week={w} nodes={nodes} doneSet={doneSet} />
+            <WeekBlock
+              key={w.week}
+              roadmapId={roadmapId}
+              week={w}
+              nodes={nodes}
+              doneSet={doneSet}
+            />
           ))}
         </div>
       )}
@@ -139,16 +158,75 @@ const PhaseSection = ({
   );
 };
 
+const RoadmapComingSoon = ({
+  entry,
+  professionTitle,
+  professionId,
+}: {
+  entry: RoadmapCatalogEntry;
+  professionTitle: string;
+  professionId: string;
+}) => (
+  <div className="home roadmap-home roadmaps-soon-page">
+    <div className="home-hero">
+      <p className="home-kicker">{professionTitle}</p>
+      <h2 className="home-title">{entry.title}</h2>
+      <p className="home-lead">{entry.subtitle}</p>
+      <p className="roadmap-lead-extra">
+        Этот трек ещё переносится на платформу. Пока доступен{" "}
+        <Link to={roadmapPath("frontend-bootcamp")}>Frontend Bootcamp</Link>.
+      </p>
+      <div className="roadmap-hero-actions">
+        <Link to={professionPath(professionId)} className="btn btn-secondary">
+          ← Роадмапы направления
+        </Link>
+        <Link to="/" className="btn btn-ghost">
+          К обучению
+        </Link>
+      </div>
+    </div>
+  </div>
+);
+
 export const RoadmapPage = () => {
+  const { roadmapId = "" } = useParams<{ roadmapId: string }>();
   const [roadmap, setRoadmap] = useState<Roadmap | null>(null);
+  const [catalogEntry, setCatalogEntry] = useState<{
+    professionId: string;
+    professionTitle: string;
+    roadmap: RoadmapCatalogEntry;
+  } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [progressVersion, setProgressVersion] = useState(0);
 
   useEffect(() => {
-    loadRoadmap()
-      .then(setRoadmap)
-      .catch((e: Error) => setError(e.message));
-  }, []);
+    if (!roadmapId) return;
+    let cancelled = false;
+
+    loadRoadmapCatalog()
+      .then((catalog) => {
+        if (cancelled) return;
+        const hit = findCatalogRoadmap(catalog, roadmapId);
+        if (hit) {
+          setCatalogEntry({
+            professionId: hit.profession.id,
+            professionTitle: hit.profession.title,
+            roadmap: hit.roadmap,
+          });
+          if (hit.roadmap.status === "soon") return;
+        }
+        return loadRoadmap(roadmapId).then((data) => {
+          if (!cancelled) setRoadmap(data);
+        });
+      })
+      .catch((e: Error) => {
+        if (!cancelled) setError(e.message);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [roadmapId]);
 
   useEffect(() => {
     const bump = () => setProgressVersion((v) => v + 1);
@@ -176,6 +254,16 @@ export const RoadmapPage = () => {
       onPlatform: ids.filter((id) => roadmap.nodes[id]?.courseTopic).length,
     };
   }, [roadmap, doneSet]);
+
+  if (catalogEntry?.roadmap.status === "soon") {
+    return (
+      <RoadmapComingSoon
+        entry={catalogEntry.roadmap}
+        professionTitle={catalogEntry.professionTitle}
+        professionId={catalogEntry.professionId}
+      />
+    );
+  }
 
   if (error)
     return (
@@ -217,8 +305,13 @@ export const RoadmapPage = () => {
             </span>
           </div>
           <div className="roadmap-hero-actions">
-            <Link to="/learn" className="btn btn-secondary">
-              Каталог курса
+            {catalogEntry && (
+              <Link to={professionPath(catalogEntry.professionId)} className="btn btn-secondary">
+                ← Роадмапы направления
+              </Link>
+            )}
+            <Link to="/" className="btn btn-ghost">
+              К обучению
             </Link>
           </div>
         </div>
@@ -228,6 +321,7 @@ export const RoadmapPage = () => {
         {roadmap.phases.map((phase, i) => (
           <PhaseSection
             key={phase.id}
+            roadmapId={roadmapId}
             phase={phase}
             nodes={roadmap.nodes}
             doneSet={doneSet}

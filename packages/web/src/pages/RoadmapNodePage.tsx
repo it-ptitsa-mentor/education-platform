@@ -3,27 +3,46 @@ import { Link, useParams } from "react-router-dom";
 import { filterRoadmapDisplayLinks } from "../lib/roadmap-course-link";
 import {
   courseTopicLessonHref,
+  findCatalogRoadmap,
   getRoadmapNode,
   isRoadmapNodeDone,
   loadRoadmap,
+  loadRoadmapCatalog,
   markRoadmapNodeDone,
+  professionPath,
+  roadmapPath,
   type Roadmap,
   type RoadmapNode,
 } from "../roadmap";
 
 export const RoadmapNodePage = () => {
-  const { nodeId: rawId } = useParams<{ nodeId: string }>();
+  const { roadmapId = "", nodeId: rawId } = useParams<{
+    roadmapId: string;
+    nodeId: string;
+  }>();
   const nodeId = rawId ? decodeURIComponent(rawId) : "";
 
   const [roadmap, setRoadmap] = useState<Roadmap | null>(null);
+  const [professionTitle, setProfessionTitle] = useState<string | null>(null);
+  const [professionId, setProfessionId] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [done, setDone] = useState(false);
 
   useEffect(() => {
-    loadRoadmap()
+    if (!roadmapId) return;
+    loadRoadmap(roadmapId)
       .then(setRoadmap)
       .catch((e: Error) => setError(e.message));
-  }, []);
+    loadRoadmapCatalog()
+      .then((catalog) => {
+        const hit = findCatalogRoadmap(catalog, roadmapId);
+        if (hit) {
+          setProfessionTitle(hit.profession.title);
+          setProfessionId(hit.profession.id);
+        }
+      })
+      .catch(() => {});
+  }, [roadmapId]);
 
   useEffect(() => {
     if (!nodeId) return;
@@ -49,12 +68,13 @@ export const RoadmapNodePage = () => {
     );
 
   const node: RoadmapNode | null = getRoadmapNode(roadmap, nodeId);
+  const roadmapHref = roadmapPath(roadmapId);
 
   if (!node)
     return (
       <div className="roadmap-node-page">
         <p className="banner banner-error">Шаг роадмапа не найден.</p>
-        <Link to="/" className="btn btn-secondary">
+        <Link to={roadmapHref} className="btn btn-secondary">
           ← К роадмапу
         </Link>
       </div>
@@ -68,7 +88,15 @@ export const RoadmapNodePage = () => {
   return (
     <article className="roadmap-node-page">
       <nav className="roadmap-node-crumb" aria-label="Навигация">
-        <Link to="/">Роадмап</Link>
+        <Link to="/">Обучение</Link>
+        {professionId && professionTitle && (
+          <>
+            <span aria-hidden> / </span>
+            <Link to={professionPath(professionId)}>{professionTitle}</Link>
+          </>
+        )}
+        <span aria-hidden> / </span>
+        <Link to={roadmapHref}>{roadmap.title}</Link>
         <span aria-hidden> / </span>
         <span>{node.label}</span>
       </nav>
@@ -114,7 +142,7 @@ export const RoadmapNodePage = () => {
             Отметить пройденным
           </button>
         )}
-        <Link to="/" className="btn btn-ghost">
+        <Link to={roadmapHref} className="btn btn-ghost">
           ← Назад к роадмапу
         </Link>
       </div>

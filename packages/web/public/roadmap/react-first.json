@@ -1,0 +1,2318 @@
+{
+  "id": "react-first",
+  "title": "React First",
+  "subtitle": "20 недель · React с первой недели, spiral-подход",
+  "profession": "Frontend-разработчик",
+  "phases": [
+    {
+      "id": "p1",
+      "label": "Этап 1: Pre-React JS — минимум для React (W1–2)",
+      "weeks": [
+        {
+          "week": 1,
+          "phaseId": "p1",
+          "topicIds": [
+            "rf-w1-ai",
+            "rf-w1-t0",
+            "rf-w1-t1",
+            "rf-w1-t2"
+          ],
+          "projectIds": [
+            "rf-proj-w1"
+          ]
+        },
+        {
+          "week": 2,
+          "phaseId": "p1",
+          "topicIds": [
+            "rf-w2-t0",
+            "rf-w2-t1",
+            "rf-w2-t2"
+          ],
+          "projectIds": [
+            "rf-proj-w2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "label": "Этап 2: React — взлёт (W3–12). Те же проекты, что test W7–12, с запасом по времени",
+      "weeks": [
+        {
+          "week": 3,
+          "phaseId": "p2",
+          "topicIds": [
+            "rf-w3-t0",
+            "rf-w3-t1"
+          ],
+          "projectIds": [
+            "rf-proj-counter"
+          ]
+        },
+        {
+          "week": 4,
+          "phaseId": "p2",
+          "topicIds": [
+            "rf-w4-t0",
+            "rf-w4-t1"
+          ],
+          "projectIds": [
+            "rf-proj-accordion"
+          ]
+        },
+        {
+          "week": 5,
+          "phaseId": "p2",
+          "topicIds": [
+            "rf-w5-t0",
+            "rf-w5-t1",
+            "rf-w5-t2"
+          ],
+          "projectIds": [
+            "rf-proj-tabs-cards"
+          ]
+        },
+        {
+          "week": 6,
+          "phaseId": "p2",
+          "topicIds": [
+            "rf-w6-t0",
+            "rf-w6-t1"
+          ],
+          "projectIds": [
+            "rf-proj-todo-local"
+          ]
+        },
+        {
+          "week": 7,
+          "phaseId": "p2",
+          "topicIds": [
+            "rf-w7-t0",
+            "rf-w7-t1"
+          ],
+          "projectIds": [
+            "rf-proj-timer"
+          ]
+        },
+        {
+          "week": 8,
+          "phaseId": "p2",
+          "topicIds": [
+            "rf-w8-t0",
+            "rf-w8-t1"
+          ],
+          "projectIds": [
+            "rf-proj-forms"
+          ]
+        },
+        {
+          "week": 9,
+          "phaseId": "p2",
+          "topicIds": [
+            "rf-w9-t0",
+            "rf-w9-t1"
+          ],
+          "projectIds": [
+            "rf-proj-todo-api"
+          ]
+        },
+        {
+          "week": 10,
+          "phaseId": "p2",
+          "topicIds": [
+            "rf-w10-t0",
+            "rf-w10-t1"
+          ],
+          "projectIds": [
+            "rf-proj-router"
+          ]
+        },
+        {
+          "week": 11,
+          "phaseId": "p2",
+          "topicIds": [
+            "rf-w11-t0",
+            "rf-w11-t1"
+          ],
+          "projectIds": [
+            "rf-proj-movie"
+          ]
+        },
+        {
+          "week": 12,
+          "phaseId": "p2",
+          "topicIds": [
+            "rf-w12-t0",
+            "rf-w12-t1"
+          ],
+          "projectIds": [
+            "rf-proj-movie-deploy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "label": "Этап 3: Обратное погружение — vanilla DOM и CLI (W13–15). «Mind-blown»",
+      "weeks": [
+        {
+          "week": 13,
+          "phaseId": "p3",
+          "topicIds": [
+            "rf-w13-t0",
+            "rf-w13-t1",
+            "rf-w13-t2"
+          ],
+          "projectIds": [
+            "rf-proj-github"
+          ]
+        },
+        {
+          "week": 14,
+          "phaseId": "p3",
+          "topicIds": [
+            "rf-w14-t0",
+            "rf-w14-t1"
+          ],
+          "projectIds": [
+            "rf-proj-youtube"
+          ]
+        },
+        {
+          "week": 15,
+          "phaseId": "p3",
+          "topicIds": [
+            "rf-w15-t0",
+            "rf-w15-t1"
+          ],
+          "projectIds": [
+            "rf-proj-cli-capstone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "label": "Этап 4: Продвинутый стек (W16–18). Без сжатия Rick",
+      "weeks": [
+        {
+          "week": 16,
+          "phaseId": "p4",
+          "topicIds": [
+            "rf-w16-t0",
+            "rf-w16-t1"
+          ],
+          "projectIds": [
+            "rf-proj-rhf"
+          ]
+        },
+        {
+          "week": 17,
+          "phaseId": "p4",
+          "topicIds": [
+            "rf-w17-t0",
+            "rf-w17-t1"
+          ],
+          "projectIds": [
+            "rf-proj-ts"
+          ]
+        },
+        {
+          "week": 18,
+          "phaseId": "p4",
+          "topicIds": [
+            "rf-w18-t0",
+            "rf-w18-t1"
+          ],
+          "projectIds": [
+            "rf-proj-rick"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "label": "Этап 5: К собесу — догоняем азы (W19–20). Самостоятельно + с ментором",
+      "weeks": [
+        {
+          "week": 19,
+          "phaseId": "p5",
+          "topicIds": [
+            "rf-w19-t0",
+            "rf-w19-t1",
+            "rf-w19-t2"
+          ],
+          "projectIds": [
+            "rf-proj-interview-1"
+          ]
+        },
+        {
+          "week": 20,
+          "phaseId": "p5",
+          "topicIds": [
+            "rf-w20-t0",
+            "rf-w20-t1",
+            "rf-w20-t2"
+          ],
+          "projectIds": [
+            "rf-proj-interview-2"
+          ]
+        }
+      ]
+    }
+  ],
+  "nodes": {
+    "rf-w1-ai": {
+      "kind": "topic",
+      "label": "Как пользоваться ИИ на курсе",
+      "description": "ИИ = тьютор, не автопилот: давай контекст, проси объяснить ошибку (не «исправь за меня»), 10–15 мин пробуй сам, потом спрашивай. Закрой чат и напиши решение руками.",
+      "links": [
+        {
+          "type": "article",
+          "title": "ИИ как преподаватель — как учиться с ChatGPT",
+          "url": "https://codelab.pro/ii-kak-prepodavatel-kak-pravilno-uchitsya-programmirovaniyu-s-pomoshhyu-chatgpt/"
+        },
+        {
+          "type": "article",
+          "title": "Как учиться программировать с ChatGPT",
+          "url": "https://nuancesprog.ru/p/17220/"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w1-t0": {
+      "kind": "topic",
+      "label": "let / const, типы данных",
+      "description": "W1. `let` и `const`, примитивы (string, number, boolean, null, undefined), базовые операторы и шаблонные строки. Без `var`. Всё в консоли или коротких скриптах — фундамент перед JSX.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Введение",
+          "url": "https://learn.javascript.ru/intro"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Первые шаги в JavaScript",
+          "url": "https://developer.mozilla.org/ru/docs/Learn/JavaScript/First_steps"
+        },
+        {
+          "type": "article",
+          "title": "web.dev: Learn JavaScript",
+          "url": "https://web.dev/learn/javascript"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: JavaScript",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Yauhen Kavalchuk: JavaScript",
+          "url": "https://www.youtube.com/@YauhenKavalchuk/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "02-modul-2",
+        "topicSlug": "01-osnovy-javascript",
+        "title": "Основы JavaScript"
+      }
+    },
+    "rf-w1-t1": {
+      "kind": "topic",
+      "label": "Стрелочные функции",
+      "description": "W1. Стрелочный синтаксис `() => {}`, неявный return, отличие от function declaration. Именно так пишут обработчики в React — привыкаем заранее.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: Функция",
+          "url": "https://doka.guide/js/function/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Функции",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Functions"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Основы функций",
+          "url": "https://learn.javascript.ru/function-basics"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Замыкания",
+          "url": "https://learn.javascript.ru/closure"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: Frontend",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "03-modul-3",
+        "topicSlug": "01-js-funkcii",
+        "title": "JS: Функции"
+      }
+    },
+    "rf-w1-t2": {
+      "kind": "topic",
+      "label": "Объекты и массивы",
+      "description": "W1. Литералы объектов, доступ к полям, массивы, push/filter на базовом уровне. Моделируем данные так же, как потом будем хранить в state.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: Объект",
+          "url": "https://doka.guide/js/object/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Работа с объектами",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Working_with_objects"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Объекты",
+          "url": "https://learn.javascript.ru/object"
+        },
+        {
+          "type": "video",
+          "title": "Yauhen Kavalchuk: JavaScript",
+          "url": "https://www.youtube.com/@YauhenKavalchuk/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "02-modul-2",
+        "topicSlug": "03-js-obekty",
+        "title": "JS: Объекты"
+      }
+    },
+    "rf-proj-w1": {
+      "kind": "topic",
+      "label": "Упражнения (консоль)",
+      "description": "W1. Короткие задачи в Node/Bun или отдельных .js-файлах — **императивный** JS без DOM и без React. Цель: выучить синтаксис до JSX, чтобы на W3 не учить одновременно `let` и `useState`. Примеры: приветствие по имени, сумма массива, фильтр чисел > N, объект «пользователь» с методом greet. Запуск: `bun run task.js` или `node task.js`. Полноценный TextMaster-CLI — позже, на W15 (reverse-фаза).",
+      "links": [
+        {
+          "type": "opensource",
+          "title": "JS-Pre-React-Exercises",
+          "url": "https://classroom.github.com/a/Iop74-TK"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w2-t0": {
+      "kind": "topic",
+      "label": "Деструктуризация, spread/rest",
+      "description": "W2. Деструктуризация объектов и массивов, `...spread` для копий и объединения. Критично для props в React и иммутабельных обновлений state.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Деструктурирующее присваивание",
+          "url": "https://learn.javascript.ru/destructuring-assignment"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Остаточные параметры и spread",
+          "url": "https://learn.javascript.ru/rest-parameters-spread-operator"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Spread syntax",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Spread_syntax"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w2-t1": {
+      "kind": "topic",
+      "label": "map, filter, reduce",
+      "description": "W2. Методы массивов без циклов for — основа рендера списков в React (`items.map(...)`). Иммутабельность: всегда новый массив, не мутируем исходный.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: Массив",
+          "url": "https://doka.guide/js/arrays/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Array",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Массивы",
+          "url": "https://learn.javascript.ru/array"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Методы массивов",
+          "url": "https://learn.javascript.ru/array-methods"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: Frontend",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "02-modul-2",
+        "topicSlug": "02-js-massivy",
+        "title": "JS: Массивы"
+      }
+    },
+    "rf-w2-t2": {
+      "kind": "topic",
+      "label": "fetch (поверхностно)",
+      "description": "W2. Первое знакомство с `fetch(url).then(r => r.json())` — без глубокого async-курса (он на W19). Достаточно понять: запрос → JSON → массив для map. DevTools Network как подсказка.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: fetch",
+          "url": "https://doka.guide/js/fetch/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Использование Fetch API",
+          "url": "https://developer.mozilla.org/ru/docs/Web/API/Fetch_API/Using_Fetch"
+        },
+        {
+          "type": "official",
+          "title": "MDN: CORS",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP/CORS"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-proj-w2": {
+      "kind": "topic",
+      "label": "Упражнения (консоль)",
+      "description": "W2. Продолжение консольных задач: деструктуризация, spread, **map/filter/reduce** на массивах объектов, поверхностный **fetch** (скрипт в Node или DevTools → Network). Императивно: «взял данные → преобразовал → вывел в console.log». Это база для React-списков (W5–6) и Todo с API (W9).",
+      "links": [
+        {
+          "type": "opensource",
+          "title": "JS-Pre-React-Exercises",
+          "url": "https://classroom.github.com/a/Iop74-TK"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w3-t0": {
+      "kind": "topic",
+      "label": "JSX, компоненты",
+      "description": "W3. Первый React: функциональный компонент, JSX, один корневой элемент, `className`. Декларативно описываем UI — «как должно выглядеть», а не «создай элемент, appendChild».",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 1: Введение в React",
+          "url": "https://youtu.be/TmgbYJgcw9c"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 2: Проект на Vite",
+          "url": "https://www.youtube.com/watch?v=TmgbYJgcw9c&list=PL0MUAHwery4omH4GyVQ-lI2R326tOdN7A&index=2"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-w3-t1": {
+      "kind": "topic",
+      "label": "useState, события",
+      "description": "W3. `useState`, обработчики onClick, ре-рендер при смене state. Контраст с W1–2: не мутируем DOM вручную — React сам обновляет экран.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 6: События: onClick, onChange, формы",
+          "url": "https://youtu.be/SHDsVFMLtAQ"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 7: useState на практике",
+          "url": "https://youtu.be/iHQ7fwXTqik"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-proj-counter": {
+      "kind": "project",
+      "label": "React-Counter",
+      "description": "W3. useState, onClick, условный рендеринг. Счётчик +1/−1/Reset, не ниже 0, цвет числа. Первый Classroom-проект spiral. Lamkov React §1.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/dwVgaTsK",
+      "courseTopic": null
+    },
+    "rf-w4-t0": {
+      "kind": "topic",
+      "label": "props, children",
+      "description": "W4. Передача данных родитель → ребёнок, `children`, деструктуризация props. Композиция вместо копипасты разметки.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 3: JSX: синтаксис, условия, списки",
+          "url": "https://youtu.be/8EXUlJ80Vec"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 5: Props и children",
+          "url": "https://youtu.be/jtC_gyCIVdU"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 6: События: onClick, onChange, формы",
+          "url": "https://youtu.be/SHDsVFMLtAQ"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-w4-t1": {
+      "kind": "topic",
+      "label": "map + key в JSX",
+      "description": "W4. Рендер списка из массива, стабильный `key`, условный рендер внутри map. Связь с map/filter с W2.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 3: JSX: синтаксис, условия, списки",
+          "url": "https://youtu.be/8EXUlJ80Vec"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-proj-accordion": {
+      "kind": "project",
+      "label": "React-Accordion",
+      "description": "W4. props, children, map, условный рендеринг. Accordion по массиву { title, content }. Lamkov §1.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/y84aAS5T",
+      "courseTopic": null
+    },
+    "rf-w5-t0": {
+      "kind": "topic",
+      "label": "controlled input",
+      "description": "W5. Input как отражение state: value + onChange. Единственный источник правды — state, не DOM.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 3: JSX: синтаксис, условия, списки",
+          "url": "https://youtu.be/8EXUlJ80Vec"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 4: Функциональные компоненты",
+          "url": "https://youtu.be/N9og2m810jE"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 5: Props и children",
+          "url": "https://youtu.be/jtC_gyCIVdU"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-w5-t1": {
+      "kind": "topic",
+      "label": "derived state",
+      "description": "W5. Вычисляемые значения из state (фильтр, поиск) без отдельного useState — reduce дублирования.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 3: JSX: синтаксис, условия, списки",
+          "url": "https://youtu.be/8EXUlJ80Vec"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 4: Функциональные компоненты",
+          "url": "https://youtu.be/N9og2m810jE"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 5: Props и children",
+          "url": "https://youtu.be/jtC_gyCIVdU"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-w5-t2": {
+      "kind": "topic",
+      "label": "immutability",
+      "description": "W5. Обновление state и массивов через spread/map/filter — никаких push/splice на данных из state.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: Массив",
+          "url": "https://doka.guide/js/arrays/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Array",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Массивы",
+          "url": "https://learn.javascript.ru/array"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Методы массивов",
+          "url": "https://learn.javascript.ru/array-methods"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: Frontend",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "02-modul-2",
+        "topicSlug": "02-js-massivy",
+        "title": "JS: Массивы"
+      }
+    },
+    "rf-proj-tabs-cards": {
+      "kind": "topic",
+      "label": "React-Tabs · User-Cards",
+      "description": "W5. Два Classroom-репо за неделю: **React-Tabs** (активный таб, props children) и **React-User-Cards** (фильтр по профессии, поиск, derived state). Lamkov §2.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 3: JSX: синтаксис, условия, списки",
+          "url": "https://youtu.be/8EXUlJ80Vec"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 4: Функциональные компоненты",
+          "url": "https://youtu.be/N9og2m810jE"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 5: Props и children",
+          "url": "https://youtu.be/jtC_gyCIVdU"
+        },
+        {
+          "type": "opensource",
+          "title": "React-Tabs",
+          "url": "https://classroom.github.com/a/aZP91FGP"
+        },
+        {
+          "type": "opensource",
+          "title": "React-User-Cards",
+          "url": "https://classroom.github.com/a/D66ROlHE"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-w6-t0": {
+      "kind": "topic",
+      "label": "Todo в памяти",
+      "description": "W6. CRUD todo-list только в React state: add, toggle, delete. Controlled input для новой задачи.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 7: useState на практике",
+          "url": "https://youtu.be/iHQ7fwXTqik"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-w6-t1": {
+      "kind": "topic",
+      "label": "фильтры, keys",
+      "description": "W6. Фильтры All/Active/Done, корректные key при удалении и toggle. Закрепление immutability.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 7: useState на практике",
+          "url": "https://youtu.be/iHQ7fwXTqik"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-proj-todo-local": {
+      "kind": "project",
+      "label": "React-Todo (W8)",
+      "description": "W6. Тот же репозиторий, что на W9: todo **в памяти** (controlled input, фильтры, keys). Без json-server. Lamkov §2.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/SjdA3T1I",
+      "courseTopic": null
+    },
+    "rf-w7-t0": {
+      "kind": "topic",
+      "label": "useEffect, cleanup",
+      "description": "W7. Побочные эффекты, массив зависимостей, return для cleanup (таймеры, подписки). Не злоупотреблять — только когда нужен «мост» к внешнему миру.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 8: useEffect и localStorage",
+          "url": "https://youtu.be/xs3ejvdIkp8"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 9: useRef и управляемые поля",
+          "url": "https://youtu.be/heBRA9LVpsA"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-w7-t1": {
+      "kind": "topic",
+      "label": "useRef, localStorage",
+      "description": "W7. ref без re-рендера, синхронизация state ↔ localStorage в useEffect.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 8: useEffect и localStorage",
+          "url": "https://youtu.be/xs3ejvdIkp8"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 9: useRef и управляемые поля",
+          "url": "https://youtu.be/heBRA9LVpsA"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-proj-timer": {
+      "kind": "project",
+      "label": "React-Timer",
+      "description": "W7. useEffect, useRef, cleanup, setInterval, секундомер, localStorage. Lamkov §3.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/DA8tFNow",
+      "courseTopic": null
+    },
+    "rf-w8-t0": {
+      "kind": "topic",
+      "label": "controlled forms",
+      "description": "W8. Несколько полей формы, один объект state или отдельные useState. Связь label ↔ input.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 6: События: onClick, onChange, формы",
+          "url": "https://youtu.be/SHDsVFMLtAQ"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 13: Формы и валидация без библиотек",
+          "url": "https://youtu.be/pofiCNm5-U4"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-w8-t1": {
+      "kind": "topic",
+      "label": "ручная валидация",
+      "description": "W8. Ошибки по полям, disabled submit, показ ошибок после blur/submit. База перед RHF на W16.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 13: Формы и валидация без библиотек",
+          "url": "https://youtu.be/pofiCNm5-U4"
+        },
+        {
+          "type": "official",
+          "title": "React Hook Form: Get Started",
+          "url": "https://react-hook-form.com/get-started"
+        },
+        {
+          "type": "official",
+          "title": "React Hook Form: Advanced Usage",
+          "url": "https://react-hook-form.com/advanced-usage"
+        },
+        {
+          "type": "official",
+          "title": "Zod Documentation",
+          "url": "https://zod.dev/"
+        },
+        {
+          "type": "article",
+          "title": "Colin McDonnell (автор Zod): Why Zod?",
+          "url": "https://colinhacks.com/essays/zod"
+        },
+        {
+          "type": "article",
+          "title": "Robin Wieruch: React Form (RHF + Zod)",
+          "url": "https://www.robinwieruch.de/react-form/"
+        },
+        {
+          "type": "official",
+          "title": "shadcn/ui: Form (RHF + Zod boilerplate)",
+          "url": "https://ui.shadcn.com/docs/components/form"
+        },
+        {
+          "type": "video",
+          "title": "Cosden Solutions: React Hook Form Tutorial",
+          "url": "https://www.youtube.com/@cosdensolutions"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-proj-forms": {
+      "kind": "project",
+      "label": "React-Form-Validation",
+      "description": "W8. Ручная валидация формы регистрации, controlled inputs, disabled submit. Lamkov §6.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/IHIaqo-_",
+      "courseTopic": null
+    },
+    "rf-w9-t0": {
+      "kind": "topic",
+      "label": "fetch, loading/error",
+      "description": "W9. useEffect + fetch, состояния loading / error / success, отображение спиннера и ошибки.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 14: API: fetch и json-server",
+          "url": "https://youtu.be/sKb3VoX9vF4"
+        },
+        {
+          "type": "article",
+          "title": "Doka: fetch",
+          "url": "https://doka.guide/js/fetch/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Использование Fetch API",
+          "url": "https://developer.mozilla.org/ru/docs/Web/API/Fetch_API/Using_Fetch"
+        },
+        {
+          "type": "official",
+          "title": "MDN: CORS",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP/CORS"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Fetch",
+          "url": "https://learn.javascript.ru/fetch"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w9-t1": {
+      "kind": "topic",
+      "label": "json-server CRUD",
+      "description": "W9. REST через json-server: GET/POST/PATCH/DELETE, синхронизация списка todo с «бэкендом».",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 14: API: fetch и json-server",
+          "url": "https://youtu.be/sKb3VoX9vF4"
+        },
+        {
+          "type": "article",
+          "title": "Doka: fetch",
+          "url": "https://doka.guide/js/fetch/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Использование Fetch API",
+          "url": "https://developer.mozilla.org/ru/docs/Web/API/Fetch_API/Using_Fetch"
+        },
+        {
+          "type": "official",
+          "title": "MDN: CORS",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP/CORS"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Fetch",
+          "url": "https://learn.javascript.ru/fetch"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-proj-todo-api": {
+      "kind": "project",
+      "label": "React-Todo (W10 — API)",
+      "description": "W9. Тот же репозиторий, что на W6: json-server, fetch CRUD, loading/error. Lamkov §6.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/SjdA3T1I",
+      "courseTopic": null
+    },
+    "rf-w10-t0": {
+      "kind": "topic",
+      "label": "React Router",
+      "description": "W10. Клиентская маршрутизация: BrowserRouter, Routes, Route, Link, nested routes.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 15: Маршрутизация без react-router",
+          "url": "https://youtu.be/VDOdieM9Np0"
+        },
+        {
+          "type": "official",
+          "title": "React Router: Installation",
+          "url": "https://reactrouter.com/start/library/installation"
+        },
+        {
+          "type": "official",
+          "title": "React Router: Data Loading (loaders)",
+          "url": "https://reactrouter.com/start/framework/data-loading"
+        },
+        {
+          "type": "article",
+          "title": "Robin Wieruch: React Router Tutorial",
+          "url": "https://www.robinwieruch.de/react-router/"
+        },
+        {
+          "type": "article",
+          "title": "Robin Wieruch: React Router Private Routes",
+          "url": "https://www.robinwieruch.de/react-router-private-routes/"
+        },
+        {
+          "type": "article",
+          "title": "TkDodo: React Router patterns",
+          "url": "https://tkdodo.eu/blog/"
+        },
+        {
+          "type": "video",
+          "title": "Cosden Solutions: React Router v7 Crash Course",
+          "url": "https://www.youtube.com/@cosdensolutions"
+        },
+        {
+          "type": "video",
+          "title": "Web Dev Simplified: React Router",
+          "url": "https://www.youtube.com/@WebDevSimplified"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w10-t1": {
+      "kind": "topic",
+      "label": "useParams, nested routes",
+      "description": "W10. Динамические сегменты `/items/:id`, layout-route, страница 404.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 15: Маршрутизация без react-router",
+          "url": "https://youtu.be/VDOdieM9Np0"
+        },
+        {
+          "type": "official",
+          "title": "React Router: Installation",
+          "url": "https://reactrouter.com/start/library/installation"
+        },
+        {
+          "type": "official",
+          "title": "React Router: Data Loading (loaders)",
+          "url": "https://reactrouter.com/start/framework/data-loading"
+        },
+        {
+          "type": "article",
+          "title": "Robin Wieruch: React Router Tutorial",
+          "url": "https://www.robinwieruch.de/react-router/"
+        },
+        {
+          "type": "article",
+          "title": "Robin Wieruch: React Router Private Routes",
+          "url": "https://www.robinwieruch.de/react-router-private-routes/"
+        },
+        {
+          "type": "article",
+          "title": "TkDodo: React Router patterns",
+          "url": "https://tkdodo.eu/blog/"
+        },
+        {
+          "type": "video",
+          "title": "Cosden Solutions: React Router v7 Crash Course",
+          "url": "https://www.youtube.com/@cosdensolutions"
+        },
+        {
+          "type": "video",
+          "title": "Web Dev Simplified: React Router",
+          "url": "https://www.youtube.com/@WebDevSimplified"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-proj-router": {
+      "kind": "project",
+      "label": "React-Router-App",
+      "description": "W10. React Router: страницы, Link, useParams, nested routes, 404. Lamkov §7.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/s8qFfzRx",
+      "courseTopic": null
+    },
+    "rf-w11-t0": {
+      "kind": "topic",
+      "label": "Context, custom hooks",
+      "description": "W11. createContext, Provider, useContext; вынос логики в `useXxx` hooks.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 10: memo, useCallback, useMemo",
+          "url": "https://youtu.be/BafPMy2H4mg"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 11: useContext",
+          "url": "https://youtu.be/ryYneS2SFso"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 12: Кастомные хуки",
+          "url": "https://youtu.be/dULZOHjEMt0"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-w11-t1": {
+      "kind": "topic",
+      "label": "memo, useCallback",
+      "description": "W11. React.memo и useCallback — когда оптимизация оправдана, когда преждевременна.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 10: memo, useCallback, useMemo",
+          "url": "https://youtu.be/BafPMy2H4mg"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 11: useContext",
+          "url": "https://youtu.be/ryYneS2SFso"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 12: Кастомные хуки",
+          "url": "https://youtu.be/dULZOHjEMt0"
+        },
+        {
+          "type": "official",
+          "title": "React: Quick Start",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "official",
+          "title": "React: Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: React",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: React",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "01-js-react",
+        "title": "JS: React"
+      }
+    },
+    "rf-proj-movie": {
+      "kind": "project",
+      "label": "React-Movie-App (Vite с нуля)",
+      "description": "W11. Первый Vite с нуля: Router, Context (избранное, тема), OMDb API, custom hooks, memo. README — шпаргалка Vite. Lamkov §4–8.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/0RbcOkV0",
+      "courseTopic": null
+    },
+    "rf-w12-t0": {
+      "kind": "topic",
+      "label": "деплой GH Pages",
+      "description": "W12. `base` в vite.config, gh-pages или GitHub Actions, проверка production-сборки.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 22: Деплой на GitHub Pages",
+          "url": "https://youtu.be/2R0DFFmxT_I"
+        },
+        {
+          "type": "official",
+          "title": "Vite: Deploying a Static Site",
+          "url": "https://vite.dev/guide/static-deploy.html"
+        },
+        {
+          "type": "official",
+          "title": "GitHub Pages: Documentation",
+          "url": "https://docs.github.com/en/pages"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w12-t1": {
+      "kind": "topic",
+      "label": "закрепление: JS vs React",
+      "description": "W12. Рефлексия spiral: что даёт декларативный React vs императивный DOM (впереди W13). Сравни Counter в React и будущий vanilla rewrite.",
+      "links": [
+        {
+          "type": "official",
+          "title": "React: Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react"
+        },
+        {
+          "type": "opensource",
+          "title": "react-first-pilot.md",
+          "url": "https://github.com/it-ptitsa-mentor/roadmap/blob/main/docs/react-first-pilot.md"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-proj-movie-deploy": {
+      "kind": "project",
+      "label": "React-Movie-App (деплой)",
+      "description": "W12. Финал Movie: деплой на GitHub Pages, полировка UI, README для портфолио. Тот же репозиторий, что W11.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/0RbcOkV0",
+      "courseTopic": null
+    },
+    "rf-w13-t0": {
+      "kind": "topic",
+      "label": "DOM: createElement",
+      "description": "W13. **Reverse-фаза:** после React вручную создаём узлы `document.createElement`, задаём textContent/className. «Mind-blown» — видишь, что React делал за тебя.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: DOM",
+          "url": "https://doka.guide/js/dom/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Document Object Model",
+          "url": "https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Документ",
+          "url": "https://learn.javascript.ru/document"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: JS",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "04-modul-4",
+        "topicSlug": "03-js-dom-api",
+        "title": "JS: DOM API"
+      }
+    },
+    "rf-w13-t1": {
+      "kind": "topic",
+      "label": "appendChild, querySelector",
+      "description": "W13. Сборка дерева, поиск элементов, замена содержимого контейнера. Без innerHTML.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: DOM",
+          "url": "https://doka.guide/js/dom/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Document Object Model",
+          "url": "https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Документ",
+          "url": "https://learn.javascript.ru/document"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: JS",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "04-modul-4",
+        "topicSlug": "03-js-dom-api",
+        "title": "JS: DOM API"
+      }
+    },
+    "rf-w13-t2": {
+      "kind": "topic",
+      "label": "state ↔ экран вручную",
+      "description": "W13. Императивная синхронизация: при каждом изменении данных — перерисовать DOM. Боль, которую React снимает.",
+      "links": [
+        {
+          "type": "official",
+          "title": "MDN: Введение в DOM",
+          "url": "https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model/Introduction"
+        },
+        {
+          "type": "article",
+          "title": "JavaScript.Info: Обход DOM",
+          "url": "https://learn.javascript.ru/dom-navigation"
+        },
+        {
+          "type": "article",
+          "title": "AST Explorer (интерактивно)",
+          "url": "https://astexplorer.net/"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "03-modul-3",
+        "topicSlug": "04-js-derevya",
+        "title": "JS: Деревья"
+      }
+    },
+    "rf-proj-github": {
+      "kind": "project",
+      "label": "GitHub-Repo-Viewer",
+      "description": "W13. Дедлайн: конец недели 13. Reverse-фаза после React. Веб-приложение без фреймворков для просмотра публичных репозиториев GitHub: fetchUserRepos с обработкой 404 и сетевых ошибок, sortRepos и filterRepos без мутаций, рендер карточек через DOM API (без innerHTML), состояния loading/error/empty/success. Закрепляет fetch, async/await и работу с реальным HTTP API.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/SB1iRdLJ",
+      "courseTopic": null
+    },
+    "rf-w14-t0": {
+      "kind": "topic",
+      "label": "делегирование событий",
+      "description": "W14. Один listener на родителе, event.target — меньше подписок при динамических списках.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: DOM",
+          "url": "https://doka.guide/js/dom/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Document Object Model",
+          "url": "https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Документ",
+          "url": "https://learn.javascript.ru/document"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: JS",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "04-modul-4",
+        "topicSlug": "03-js-dom-api",
+        "title": "JS: DOM API"
+      }
+    },
+    "rf-w14-t1": {
+      "kind": "topic",
+      "label": "иммутабельность без React",
+      "description": "W14. map/filter/spread на данных + ручной re-render. Те же паттерны, что в useState, но DOM API.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: Массив",
+          "url": "https://doka.guide/js/arrays/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Array",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Массивы",
+          "url": "https://learn.javascript.ru/array"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Методы массивов",
+          "url": "https://learn.javascript.ru/array-methods"
+        },
+        {
+          "type": "video",
+          "title": "Aleksander Lamkov: Frontend",
+          "url": "https://www.youtube.com/@AleksanderLamkov"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "02-modul-2",
+        "topicSlug": "02-js-massivy",
+        "title": "JS: Массивы"
+      }
+    },
+    "rf-proj-youtube": {
+      "kind": "project",
+      "label": "mini-YouTube-Comments",
+      "description": "W14. Дедлайн: конец недели 14. Reverse-фаза. Упрощённый виджет комментариев на ванильном JS: createComment и createReply с дефолтными полями, likeComment и deleteComment с иммутабельными операциями, renderComment и renderReply через DOM API, синхронизация данных и DOM в main.js. Закрепляет DOM, делегирование событий и работу с вложенными структурами данных.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/aKropKl9",
+      "courseTopic": null
+    },
+    "rf-w15-t0": {
+      "kind": "topic",
+      "label": "pipe, чистые функции",
+      "description": "W15. Композиция `pipe(fn, fn)`, чистые функции, data-driven логика — как в Data-Processor.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Refactoring.Guru: Replace Conditional with Polymorphism",
+          "url": "https://refactoring.guru/ru/replace-conditional-with-polymorphism"
+        },
+        {
+          "type": "article",
+          "title": "Refactoring.Guru: Запах кода — switch",
+          "url": "https://refactoring.guru/ru/smells/switch-statements"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "03-modul-3",
+        "topicSlug": "03-js-abstrakciya-s-pomoschyu-dannyh",
+        "title": "JS: Абстракция с помощью данных"
+      }
+    },
+    "rf-w15-t1": {
+      "kind": "topic",
+      "label": "vanilla rewrite Counter/Todo",
+      "description": "W15. Капстон reverse: переписать Counter или Todo **без React** — только DOM или CLI. Сравнение объёма кода с W3/W6.",
+      "links": [
+        {
+          "type": "opensource",
+          "title": "react-first-pilot.md — W15 capstone",
+          "url": "https://github.com/it-ptitsa-mentor/roadmap/blob/main/docs/react-first-pilot.md"
+        },
+        {
+          "type": "official",
+          "title": "React: Adding Interactivity (для сравнения)",
+          "url": "https://react.dev/learn/adding-interactivity"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-proj-cli-capstone": {
+      "kind": "topic",
+      "label": "Recipe · Catalog · Data-Processor + capstone",
+      "description": "W15. Три CLI-проекта из классической программы (Recipe-Builder, Product-Catalog, Data-Processor) + **vanilla capstone**: Counter/Todo без React. Закрепление императивного JS после декларативного React.",
+      "links": [
+        {
+          "type": "opensource",
+          "title": "Recipe-Builder",
+          "url": "https://classroom.github.com/a/8I5Dxv44"
+        },
+        {
+          "type": "opensource",
+          "title": "Product-Catalog",
+          "url": "https://classroom.github.com/a/zdWF3kFk"
+        },
+        {
+          "type": "opensource",
+          "title": "Data-Processor-Data-Pipeline",
+          "url": "https://classroom.github.com/a/lzOc3xLK"
+        },
+        {
+          "type": "opensource",
+          "title": "react-first-pilot.md",
+          "url": "https://github.com/it-ptitsa-mentor/roadmap/blob/main/docs/react-first-pilot.md"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w16-t0": {
+      "kind": "topic",
+      "label": "React Hook Form",
+      "description": "W16. register, handleSubmit, errors — меньше re-render, чем ручная форма W8.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 13: Формы и валидация без библиотек",
+          "url": "https://youtu.be/pofiCNm5-U4"
+        },
+        {
+          "type": "official",
+          "title": "React Hook Form: Get Started",
+          "url": "https://react-hook-form.com/get-started"
+        },
+        {
+          "type": "official",
+          "title": "React Hook Form: Advanced Usage",
+          "url": "https://react-hook-form.com/advanced-usage"
+        },
+        {
+          "type": "official",
+          "title": "Zod Documentation",
+          "url": "https://zod.dev/"
+        },
+        {
+          "type": "article",
+          "title": "Colin McDonnell (автор Zod): Why Zod?",
+          "url": "https://colinhacks.com/essays/zod"
+        },
+        {
+          "type": "article",
+          "title": "Robin Wieruch: React Form (RHF + Zod)",
+          "url": "https://www.robinwieruch.de/react-form/"
+        },
+        {
+          "type": "official",
+          "title": "shadcn/ui: Form (RHF + Zod boilerplate)",
+          "url": "https://ui.shadcn.com/docs/components/form"
+        },
+        {
+          "type": "video",
+          "title": "Cosden Solutions: React Hook Form Tutorial",
+          "url": "https://www.youtube.com/@cosdensolutions"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w16-t1": {
+      "kind": "topic",
+      "label": "Zod-схемы",
+      "description": "W16. z.object, z.infer, resolver — одна схема для валидации и типов.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 13: Формы и валидация без библиотек",
+          "url": "https://youtu.be/pofiCNm5-U4"
+        },
+        {
+          "type": "official",
+          "title": "React Hook Form: Get Started",
+          "url": "https://react-hook-form.com/get-started"
+        },
+        {
+          "type": "official",
+          "title": "React Hook Form: Advanced Usage",
+          "url": "https://react-hook-form.com/advanced-usage"
+        },
+        {
+          "type": "official",
+          "title": "Zod Documentation",
+          "url": "https://zod.dev/"
+        },
+        {
+          "type": "article",
+          "title": "Colin McDonnell (автор Zod): Why Zod?",
+          "url": "https://colinhacks.com/essays/zod"
+        },
+        {
+          "type": "article",
+          "title": "Robin Wieruch: React Form (RHF + Zod)",
+          "url": "https://www.robinwieruch.de/react-form/"
+        },
+        {
+          "type": "official",
+          "title": "shadcn/ui: Form (RHF + Zod boilerplate)",
+          "url": "https://ui.shadcn.com/docs/components/form"
+        },
+        {
+          "type": "video",
+          "title": "Cosden Solutions: React Hook Form Tutorial",
+          "url": "https://www.youtube.com/@cosdensolutions"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-proj-rhf": {
+      "kind": "project",
+      "label": "RHF-Forms",
+      "description": "W16. React Hook Form + Zod, сравнение с ручной формой W8, useFieldArray. react-hook-form.com, zod.dev.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/eCYRCYfs",
+      "courseTopic": null
+    },
+    "rf-w17-t0": {
+      "kind": "topic",
+      "label": "TypeScript в React",
+      "description": "W17. .tsx, типы props, типизация useState и событий.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 18: Архитектура и FSD",
+          "url": "https://youtu.be/KnwduChQuuo"
+        },
+        {
+          "type": "official",
+          "title": "TypeScript: Handbook",
+          "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
+        },
+        {
+          "type": "official",
+          "title": "TypeScript: 5-minute Intro",
+          "url": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"
+        },
+        {
+          "type": "article",
+          "title": "Total TypeScript: Beginner's Tutorial",
+          "url": "https://www.totaltypescript.com/tutorials/beginners-typescript"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: TypeScript",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "06-modul-6",
+        "topicSlug": "02-osnovy-typescript",
+        "title": "Основы Typescript"
+      }
+    },
+    "rf-w17-t1": {
+      "kind": "topic",
+      "label": "типы props и API",
+      "description": "W17. interface Props, типы ответа API, union для status loading|error|success.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 18: Архитектура и FSD",
+          "url": "https://youtu.be/KnwduChQuuo"
+        },
+        {
+          "type": "official",
+          "title": "TypeScript: Generics",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+        },
+        {
+          "type": "official",
+          "title": "TypeScript: Types from Types",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/types-from-types.html"
+        },
+        {
+          "type": "official",
+          "title": "TypeScript: Conditional Types",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html"
+        },
+        {
+          "type": "article",
+          "title": "Type-Level TypeScript",
+          "url": "https://type-level-typescript.com/"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "06-modul-6",
+        "topicSlug": "03-prodvinutyy-typescript",
+        "title": "Продвинутый Typescript"
+      }
+    },
+    "rf-proj-ts": {
+      "kind": "project",
+      "label": "TS-Playground",
+      "description": "W17. Миграция React-Todo (W6–W9) на TypeScript: props, useState<T>, события, типы API. Buildin TS.",
+      "links": [],
+      "classroomUrl": "https://classroom.github.com/a/vYCB-Mst",
+      "courseTopic": null
+    },
+    "rf-w18-t0": {
+      "kind": "topic",
+      "label": "Redux Toolkit",
+      "description": "W18. configureStore, createSlice, createAsyncThunk — глобальный state после Context.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 14: API: fetch и json-server",
+          "url": "https://youtu.be/sKb3VoX9vF4"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 19: useReducer и состояние без Redux",
+          "url": "https://youtu.be/B72gtyI0kPI"
+        },
+        {
+          "type": "official",
+          "title": "Redux Toolkit: Quick Start",
+          "url": "https://redux-toolkit.js.org/tutorials/quick-start"
+        },
+        {
+          "type": "official",
+          "title": "Redux Toolkit: Usage Guide",
+          "url": "https://redux-toolkit.js.org/usage/usage-guide"
+        },
+        {
+          "type": "official",
+          "title": "RTK Query: Overview",
+          "url": "https://redux-toolkit.js.org/rtk-query/overview"
+        },
+        {
+          "type": "video",
+          "title": "Ulbi TV: Redux Toolkit",
+          "url": "https://www.youtube.com/@UlbiTV/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "05-modul-5",
+        "topicSlug": "02-react-redux-toolkit",
+        "title": "React: Redux Toolkit"
+      }
+    },
+    "rf-w18-t1": {
+      "kind": "topic",
+      "label": "Rick v1 → v2 (TanStack Query)",
+      "description": "W18. Milestone v1: RTK + Rick API. v2: data-fetch на TanStack Query, RTK для UI/избранного.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 14: API: fetch и json-server",
+          "url": "https://youtu.be/sKb3VoX9vF4"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 19: useReducer и состояние без Redux",
+          "url": "https://youtu.be/B72gtyI0kPI"
+        },
+        {
+          "type": "official",
+          "title": "TanStack Query: Overview",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/overview"
+        },
+        {
+          "type": "official",
+          "title": "TanStack Query: Devtools",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/devtools"
+        },
+        {
+          "type": "article",
+          "title": "TkDodo: Practical React Query",
+          "url": "https://tkdodo.eu/blog/practical-react-query"
+        },
+        {
+          "type": "article",
+          "title": "TkDodo: Effective React Query Keys",
+          "url": "https://tkdodo.eu/blog/effective-react-query-keys"
+        },
+        {
+          "type": "article",
+          "title": "TkDodo: Status Checks in React Query",
+          "url": "https://tkdodo.eu/blog/status-checks-in-react-query"
+        },
+        {
+          "type": "article",
+          "title": "ui.dev: Why React Query?",
+          "url": "https://ui.dev/why-react-query"
+        },
+        {
+          "type": "video",
+          "title": "Jack Herrington: React Query in depth",
+          "url": "https://www.youtube.com/@jherr"
+        },
+        {
+          "type": "video",
+          "title": "Cosden Solutions: TanStack Query Tutorial",
+          "url": "https://www.youtube.com/@cosdensolutions"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-proj-rick": {
+      "kind": "topic",
+      "label": "RTK-App · Rick-And-Morty",
+      "description": "W18. **RTK-App** — закрепление Redux Toolkit. **Rick-And-Morty-React** — капстон v1/v2 с TS, RHF, Router, деплой. Rick не сжат — полные 2 milestone.",
+      "links": [
+        {
+          "type": "video",
+          "title": "Ламков, урок 14: API: fetch и json-server",
+          "url": "https://youtu.be/sKb3VoX9vF4"
+        },
+        {
+          "type": "video",
+          "title": "Ламков, урок 19: useReducer и состояние без Redux",
+          "url": "https://youtu.be/B72gtyI0kPI"
+        },
+        {
+          "type": "opensource",
+          "title": "RTK-App",
+          "url": "https://classroom.github.com/a/m9Zs7Sm2"
+        },
+        {
+          "type": "opensource",
+          "title": "Rick-And-Morty-React",
+          "url": "https://classroom.github.com/a/NbVjVv0q"
+        },
+        {
+          "type": "official",
+          "title": "Redux Toolkit: Quick Start",
+          "url": "https://redux-toolkit.js.org/tutorials/quick-start"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w19-t0": {
+      "kind": "topic",
+      "label": "JS: классы и прототипы",
+      "description": "W19. class, extends, super — для собесов и чтения чужого кода. Не основной стиль программы, но частый вопрос.",
+      "links": [
+        {
+          "type": "official",
+          "title": "MDN: Classes",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Classes"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Классы",
+          "url": "https://learn.javascript.ru/classes"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Прототипы",
+          "url": "https://learn.javascript.ru/prototypes"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w19-t1": {
+      "kind": "topic",
+      "label": "ООП (light)",
+      "description": "W19. Инкапсуляция, композиция vs наследование — light-версия для junior-собеса.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: ООП",
+          "url": "https://doka.guide/tools/oop/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Введение в JS-объекты",
+          "url": "https://developer.mozilla.org/ru/docs/Learn/JavaScript/Objects"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Классы",
+          "url": "https://learn.javascript.ru/classes"
+        },
+        {
+          "type": "article",
+          "title": "Refactoring.Guru: Принципы ООП",
+          "url": "https://refactoring.guru/ru/design-patterns/catalog"
+        },
+        {
+          "type": "video",
+          "title": "Yauhen Kavalchuk: ООП",
+          "url": "https://www.youtube.com/@YauhenKavalchuk/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "03-modul-3",
+        "topicSlug": "05-js-vvedenie-v-oop",
+        "title": "JS: Введение в ООП"
+      }
+    },
+    "rf-w19-t2": {
+      "kind": "topic",
+      "label": "Promises, async/await",
+      "description": "W19. Promise, then/catch, async/await, Promise.all — углубление после поверхностного fetch на W2/W9.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Doka: async/await",
+          "url": "https://doka.guide/js/async-await/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Асинхронный JavaScript",
+          "url": "https://developer.mozilla.org/ru/docs/Learn/JavaScript/Asynchronous"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Промисы и async/await",
+          "url": "https://learn.javascript.ru/async"
+        },
+        {
+          "type": "video",
+          "title": "Yauhen Kavalchuk: Promises/async",
+          "url": "https://www.youtube.com/@YauhenKavalchuk/playlists"
+        }
+      ],
+      "courseTopic": {
+        "moduleSlug": "04-modul-4",
+        "topicSlug": "01-js-asinhronnoe-programmirovanie",
+        "title": "JS: Асинхронное программирование"
+      }
+    },
+    "rf-proj-interview-1": {
+      "kind": "topic",
+      "label": "Подготовка к собесу",
+      "description": "W19. Самостоятельно + с ментором: задачи на классы, промисы, разбор типовых вопросов. Без нового Classroom.",
+      "links": [
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Классы",
+          "url": "https://learn.javascript.ru/classes"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Промисы",
+          "url": "https://learn.javascript.ru/promise-basics"
+        },
+        {
+          "type": "website",
+          "title": "Google Form — feedback",
+          "url": "https://forms.gle/enhBc1wF42vnMFgL6"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w20-t0": {
+      "kind": "topic",
+      "label": "Event Loop",
+      "description": "W20. Call stack, microtasks, mactasks — «что выведет console.log» на собесе.",
+      "links": [
+        {
+          "type": "official",
+          "title": "MDN: Цикл событий (Event loop)",
+          "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Event_loop"
+        },
+        {
+          "type": "article",
+          "title": "Learn JavaScript: Event loop",
+          "url": "https://learn.javascript.ru/event-loop"
+        },
+        {
+          "type": "video",
+          "title": "Philip Roberts: What the heck is the event loop anyway?",
+          "url": "https://www.youtube.com/watch?v=8aGhZQkoFbQ"
+        },
+        {
+          "type": "website",
+          "title": "Loupe (визуализация event loop)",
+          "url": "http://latentflip.com/loupe/"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w20-t1": {
+      "kind": "topic",
+      "label": "HTTP / REST",
+      "description": "W20. Методы, статус-коды, REST-ресурсы — связь с json-server и GitHub API из проектов.",
+      "links": [
+        {
+          "type": "official",
+          "title": "MDN: HTTP",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Обзор HTTP",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP/Overview"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Методы HTTP",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP/Methods"
+        },
+        {
+          "type": "official",
+          "title": "MDN: Коды состояния",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP/Status"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-w20-t2": {
+      "kind": "topic",
+      "label": "мок-собес + пробелы",
+      "description": "W20. Пробный созвон с ментором, список слабых тем, доработка портфолио (Movie, Rick).",
+      "links": [
+        {
+          "type": "website",
+          "title": "Google Form — feedback",
+          "url": "https://forms.gle/enhBc1wF42vnMFgL6"
+        },
+        {
+          "type": "opensource",
+          "title": "react-first-pilot.md",
+          "url": "https://github.com/it-ptitsa-mentor/roadmap/blob/main/docs/react-first-pilot.md"
+        }
+      ],
+      "courseTopic": null
+    },
+    "rf-proj-interview-2": {
+      "kind": "topic",
+      "label": "Подготовка к собесу",
+      "description": "W20. Event Loop + HTTP + mock interview. Закрываем gaps, которые отложили, пока шёл React-first spiral.",
+      "links": [
+        {
+          "type": "website",
+          "title": "Loupe — event loop",
+          "url": "http://latentflip.com/loupe/"
+        },
+        {
+          "type": "official",
+          "title": "MDN: HTTP",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTTP"
+        },
+        {
+          "type": "website",
+          "title": "Google Form — feedback",
+          "url": "https://forms.gle/enhBc1wF42vnMFgL6"
+        }
+      ],
+      "courseTopic": null
+    }
+  }
+}
