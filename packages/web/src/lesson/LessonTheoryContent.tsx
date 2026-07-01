@@ -21,9 +21,9 @@ export const LessonTheoryContent = ({ theoryPath }: { theoryPath: string }) => {
       aria-busy={loading}
     >
       {loading ? (
-        <p className="lesson-theory-loading" aria-hidden>
-          Загрузка теории…
-        </p>
+        <div className="lesson-theory-spinner">
+          <span className="spinner spinner-lg" aria-hidden />
+        </div>
       ) : (
         <ReactMarkdown components={markdownComponents}>{theory}</ReactMarkdown>
       )}

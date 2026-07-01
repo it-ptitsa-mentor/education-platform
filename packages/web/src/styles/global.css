@@ -2651,12 +2651,12 @@ body.is-resizing-vertical {
   color: var(--text);
 }
 .lesson-theory--loading {
-  min-height: 8rem;
+  min-height: 60vh;
 }
-.lesson-theory-loading {
-  margin: 0;
-  font-size: var(--text-sm);
-  color: var(--text-subtle);
+.lesson-theory-spinner {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
 }
 .lesson-content pre,
 .lesson-theory pre {
