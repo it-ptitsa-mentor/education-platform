@@ -138,7 +138,7 @@ export const LessonLayout = () => {
         className={[
           "lesson-layout",
           isExerciseFocus ? "lesson-layout--focus" : "",
-          isExerciseFocus && asideOpen ? "lesson-layout--aside-open" : "",
+          asideOpen ? "lesson-layout--aside-open" : "",
         ]
           .filter(Boolean)
           .join(" ")}
@@ -148,7 +148,7 @@ export const LessonLayout = () => {
           onNavigate={() => setAsideOpen(false)}
         />
 
-        {isExerciseFocus && asideOpen && (
+        {asideOpen && (
           <button
             type="button"
             className="lesson-aside-backdrop"
@@ -189,6 +189,14 @@ export const LessonLayout = () => {
                     >
                       ← Роадмап
                     </Link>
+                    <button
+                      type="button"
+                      className="lesson-aside-toggle lesson-aside-toggle--theory"
+                      onClick={() => setAsideOpen((v) => !v)}
+                      aria-expanded={asideOpen}
+                    >
+                      Уроки
+                    </button>
                   </div>
                   <div className="lesson-breadcrumb">
                     {mod.title} · {topic.title}
