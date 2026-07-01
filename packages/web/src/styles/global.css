@@ -1766,22 +1766,17 @@ body.is-resizing-vertical {
 
 /* ── Responsive ── */
 
+/* Topbar stays single-row — nav scrolls horizontally if needed */
 @media (max-width: 1100px) {
   .topbar {
-    flex-wrap: wrap;
-    height: auto;
-    padding: 0.85rem 1rem;
-    gap: 0.65rem;
+    padding: 0 1.25rem;
+    gap: 0.75rem;
   }
 
   .topbar-nav {
-    order: 3;
-    width: 100%;
-    flex: none;
-    justify-content: flex-start;
     overflow-x: auto;
-    padding-bottom: 0.1rem;
     scrollbar-width: none;
+    flex-shrink: 1;
   }
 
   .topbar-nav::-webkit-scrollbar {
@@ -1789,7 +1784,25 @@ body.is-resizing-vertical {
   }
 
   .topbar-actions {
+    flex-shrink: 0;
     margin-left: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .topbar {
+    padding: 0 1rem;
+    gap: 0.5rem;
+  }
+
+  .brand-chip {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .brand-word {
+    display: none;
   }
 }
 
@@ -2006,6 +2019,9 @@ body.is-resizing-vertical {
   display: flex;
   flex-direction: column;
   min-height: min(100%, 100dvh - var(--header-h));
+  max-width: 64rem;
+  width: 100%;
+  margin-inline: auto;
 }
 
 .roadmap-home .home-hero {
@@ -2250,7 +2266,7 @@ body.is-resizing-vertical {
 .roadmap-link-type { flex: none; font-family: var(--font-mono); font-size: 0.62rem; text-transform: uppercase; color: var(--text-subtle); }
 
 /* ════════ УРОК: дерево + центр ════════ */
-.lesson-layout { display: grid; grid-template-columns: 14rem 1fr; flex: 1 0 auto; min-height: 0; align-items: start; }
+.lesson-layout { display: grid; grid-template-columns: 14rem 1fr; flex: 1 0 auto; min-height: 0; min-width: 0; align-items: start; }
 .lesson-layout:not(.lesson-layout--focus) { overflow: visible; }
 .lesson-layout--focus { display: flex; flex-direction: column; flex: 1; min-height: 0; overflow: hidden; }
 .lesson-layout--focus .lesson-aside {
@@ -2317,6 +2333,7 @@ body.is-resizing-vertical {
 .lesson-main {
   flex: 1 0 auto;
   min-height: 0;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   padding: clamp(1.25rem, 3vw, 2rem) clamp(1.25rem, 4vw, 2.5rem);
@@ -2634,12 +2651,12 @@ body.is-resizing-vertical {
   color: var(--text);
 }
 .lesson-theory--loading {
-  min-height: 8rem;
+  min-height: 60vh;
 }
-.lesson-theory-loading {
-  margin: 0;
-  font-size: var(--text-sm);
-  color: var(--text-subtle);
+.lesson-theory-spinner {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
 }
 .lesson-content pre,
 .lesson-theory pre {
@@ -2933,12 +2950,47 @@ body.is-resizing-vertical {
 .lesson-footer-nav-title { font-weight: 600; font-size: var(--text-xs); line-height: 1.35; color: var(--text); }
 .lesson-footer-nav-hint { font-size: var(--text-2xs); color: var(--text-muted); line-height: 1.3; }
 
+/* Lesson aside toggle for theory mode: hidden on desktop, visible on mobile */
+.lesson-aside-toggle--theory {
+  display: none;
+}
+
 @media (max-width: 860px) {
   .lesson-main:not(.lesson-main--fill) {
     padding: 1.25rem 1rem 2rem;
   }
-  .lesson-layout:not(.lesson-layout--focus) { grid-template-columns: 1fr; }
-  .lesson-layout:not(.lesson-layout--focus) .lesson-aside { display: none; }
+
+  /* Theory/quiz: single-column, sidebar becomes a drawer */
+  .lesson-layout:not(.lesson-layout--focus) {
+    grid-template-columns: 1fr;
+  }
+  .lesson-layout:not(.lesson-layout--focus) .lesson-aside {
+    position: fixed;
+    left: 0;
+    top: var(--header-h);
+    bottom: 0;
+    z-index: 120;
+    width: min(17rem, 88vw);
+    transform: translateX(-100%);
+    transition: transform 0.22s var(--ease-out);
+    box-shadow: none;
+    overflow-y: auto;
+  }
+  .lesson-layout:not(.lesson-layout--focus).lesson-layout--aside-open .lesson-aside {
+    transform: translateX(0);
+    box-shadow: 12px 0 32px rgba(0, 0, 0, 0.35);
+  }
+
+  /* Show mobile toggle in theory/quiz header */
+  .lesson-aside-toggle--theory {
+    display: inline-flex;
+  }
+  .lesson-main-header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .lesson-main-header-row .lesson-title--compact { flex-basis: 100%; }
   .lesson-main-header-row .lesson-steps {
     width: 100%;
@@ -3151,4 +3203,205 @@ body.is-resizing-vertical {
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 1rem;
+}
+
+/* ══════════════════════════════════════════════════
+   MOBILE — comprehensive responsive improvements
+   ══════════════════════════════════════════════════ */
+
+/* ── Modal: bottom sheet on small screens ─────────── */
+@media (max-width: 600px) {
+  .course-modal {
+    align-items: flex-end;
+    padding: 0;
+  }
+  .course-modal-panel {
+    width: 100%;
+    max-height: 88dvh;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+    border-bottom: none;
+  }
+  .topic-lessons-modal-panel {
+    width: 100%;
+    max-height: 88dvh;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+    border-bottom: none;
+  }
+  /* Drag handle indicator */
+  .course-modal-head::before {
+    content: "";
+    position: absolute;
+    top: 0.55rem;
+    left: 50%;
+    translate: -50% 0;
+    width: 2.5rem;
+    height: 3px;
+    background: var(--border-strong);
+    border-radius: 2px;
+  }
+  .course-modal-head {
+    position: relative;
+    padding-top: 1.35rem;
+  }
+}
+
+/* ── Modal table: hide Тест/Практика columns on tiny screens ── */
+@media (max-width: 480px) {
+  .topic-lessons-th--unit,
+  .topic-lessons-td--unit {
+    display: none;
+  }
+  .topic-lessons-th--num {
+    width: 2rem;
+  }
+  .topic-lessons-th,
+  .topic-lessons-td {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+
+/* ── Touch targets ─────────────────────────────────── */
+@media (hover: none) and (pointer: coarse) {
+  /* Lesson steps (Теория / Тест / Практика) */
+  .lesson-step {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* Topic buttons in roadmap */
+  .course-topic-btn {
+    min-height: 2.75rem;
+  }
+
+  /* Lesson sidebar links */
+  .lesson-aside-lesson {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    min-height: 2.75rem;
+  }
+
+  /* Nav links in topbar */
+  .topbar-nav-link {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* Footer nav */
+  .lesson-footer-nav-link--prev,
+  .lesson-footer-nav-link--next {
+    padding-block: 1rem;
+  }
+}
+
+/* ── Home/roadmap page: mobile spacing ──────────────── */
+@media (max-width: 640px) {
+  .home-title {
+    font-size: clamp(1.75rem, 7vw, 2.2rem);
+    margin-bottom: 0.75rem;
+  }
+  .home-hero {
+    padding-top: 1.25rem;
+    margin-bottom: 1.75rem;
+  }
+  .roadmap-hero-compact {
+    padding-bottom: 1rem;
+    margin-bottom: 1.25rem;
+  }
+  .course-modules-program {
+    gap: 1.5rem;
+  }
+  .course-module-block-heading {
+    font-size: 0.92rem;
+  }
+  /* Roadmaps hub cards: single col on phones */
+  .roadmaps-card-grid {
+    grid-template-columns: 1fr;
+  }
+  /* Module block heading smaller */
+  .roadmaps-profession-title {
+    font-size: 1.1rem;
+  }
+}
+
+/* ── Theory content: images & tables ────────────────── */
+.lesson-theory img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
+}
+
+.lesson-theory table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Pre blocks already have overflow-x: auto, but ensure on mobile */
+@media (max-width: 640px) {
+  .lesson-content pre,
+  .lesson-theory pre {
+    border-radius: var(--radius-sm);
+    padding: 0.75rem 1rem;
+    font-size: 0.8rem;
+  }
+  .lesson-theory {
+    font-size: 0.95rem;
+  }
+}
+
+/* ── Lesson footer nav: stack on phones ─────────────── */
+@media (max-width: 480px) {
+  .lesson-footer-nav {
+    flex-direction: column;
+  }
+  .lesson-footer-nav-link--next {
+    margin-left: 0;
+  }
+  .lesson-footer-nav-block--disabled {
+    margin-left: 0;
+  }
+}
+
+/* ── Roadmap phase: tighter padding on mobile ────────── */
+@media (max-width: 640px) {
+  .roadmap-phase-toggle {
+    padding: 0.75rem 0.85rem;
+  }
+  .roadmap-phase-body {
+    padding: 0 0.85rem 1rem;
+  }
+}
+
+/* ── Exercise / workspace padding on tiny screens ────── */
+@media (max-width: 400px) {
+  .workspace {
+    min-height: calc(100dvh - var(--header-h));
+  }
+  .lesson-main:not(.lesson-main--fill) {
+    padding: 1rem 0.85rem 1.75rem;
+  }
+}
+
+/* ── Lesson side nav: better touch sizing ─────────────── */
+@media (max-width: 640px) {
+  .lesson-side-nav-link--prev,
+  .lesson-side-nav-link--next {
+    padding: 0.9rem 1rem;
+  }
+}
+
+/* ── Safe area insets (notch / bottom bar) ───────────── */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .app-main {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  @media (max-width: 600px) {
+    .course-modal-panel,
+    .topic-lessons-modal-panel {
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+  }
 }
