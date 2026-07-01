@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import {
   loadRoadmapCatalog,
   professionPath,
+  roadmapPath,
   type ProfessionCatalogEntry,
 } from "../roadmap";
 
 const ProfessionCard = ({ profession }: { profession: ProfessionCatalogEntry }) => {
   const soon = profession.status === "soon" && profession.roadmaps.length === 0;
-  const activeCount = profession.roadmaps.filter((r) => r.status === "active").length;
+  const activeRoadmaps = profession.roadmaps.filter((r) => r.status === "active");
 
   const inner = (
     <>
@@ -17,10 +18,10 @@ const ProfessionCard = ({ profession }: { profession: ProfessionCatalogEntry }) 
         {soon ? (
           <span className="roadmaps-card-badge">Скоро</span>
         ) : (
-          activeCount > 0 && (
+          activeRoadmaps.length > 0 && (
             <span className="roadmaps-card-badge">
-              {profession.roadmaps.length} трек
-              {profession.roadmaps.length === 1 ? "" : "а"}
+              {activeRoadmaps.length} трек
+              {activeRoadmaps.length === 1 ? "" : "а"}
             </span>
           )
         )}
@@ -36,13 +37,16 @@ const ProfessionCard = ({ profession }: { profession: ProfessionCatalogEntry }) 
     return <article className="roadmaps-card roadmaps-card--soon">{inner}</article>;
   }
 
+  // One active roadmap → link directly to it, skipping the profession intermediate page
+  const href =
+    activeRoadmaps.length === 1
+      ? roadmapPath(activeRoadmaps[0].id)
+      : professionPath(profession.id);
+
   return (
-    <Link
-      to={professionPath(profession.id)}
-      className="roadmaps-card roadmaps-card--active"
-    >
+    <Link to={href} className="roadmaps-card roadmaps-card--active">
       {inner}
-      <span className="roadmaps-card-cta">Роадмапы →</span>
+      <span className="roadmaps-card-cta">Открыть →</span>
     </Link>
   );
 };

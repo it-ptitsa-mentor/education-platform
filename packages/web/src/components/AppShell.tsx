@@ -17,7 +17,6 @@ export const AppShell = () => {
   return (
     <div className="app-shell">
       <div className="app-grain" aria-hidden />
-      <div className="app-grid" aria-hidden />
 
       <header className="topbar">
         <Link to="/" className="brand brand-link" aria-label="IT Птица — обучение">

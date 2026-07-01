@@ -20,10 +20,6 @@ export const LessonExerciseStep = () => {
     return <Navigate to={lessonUnitPath(current, "theory")} replace />;
   }
 
-  if (lesson.quiz && !isUnitDone(current.id, "quiz")) {
-    return <Navigate to={lessonUnitPath(current, "quiz")} replace />;
-  }
-
   return (
     <div className="lesson-unit lesson-unit--exercise">
       <ExerciseRunner
