@@ -159,8 +159,7 @@ export const RoadmapPage = () => {
       <div className="home-hero roadmap-hero-compact">
         <div className="roadmap-hero-main">
           <p className="home-kicker">{roadmap.profession}</p>
-          <h2 className="home-title">{roadmap.title}</h2>
-          <p className="home-lead">{roadmap.subtitle}</p>
+          <h2 className="home-title">Программа обучения</h2>
         </div>
         <div className="roadmap-hero-side">
           <div className="course-meta">
@@ -172,7 +171,6 @@ export const RoadmapPage = () => {
 
       {course ? (
         <div className="course-modules-program">
-          <h2 className="course-program-heading">Программа обучения</h2>
           {course.modules.map((mod) => (
             <ModuleBlock
               key={mod.slug}

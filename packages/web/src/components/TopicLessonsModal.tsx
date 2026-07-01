@@ -1,4 +1,5 @@
 import { useEffect, useId, useRef } from "react";
+import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import { isUnitDone, type Module, type Topic } from "../course";
 
@@ -23,15 +24,15 @@ export const TopicLessonsModal = ({
       if (e.key === "Escape") onClose();
     };
     document.addEventListener("keydown", onKey);
-    document.documentElement.classList.add("modal-open");
+    document.body.style.overflow = "hidden";
     panelRef.current?.focus();
     return () => {
       document.removeEventListener("keydown", onKey);
-      document.documentElement.classList.remove("modal-open");
+      document.body.style.overflow = "";
     };
   }, [onClose]);
 
-  return (
+  return createPortal(
     <div className="course-modal" role="presentation" onClick={onClose}>
       <div
         ref={panelRef}
@@ -114,6 +115,7 @@ export const TopicLessonsModal = ({
           </table>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };

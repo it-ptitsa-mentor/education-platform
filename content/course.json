@@ -15,87 +15,87 @@
           "lessons": [
             {
               "index": 1,
-              "title": "Emmet",
-              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/01-emmet.md",
-              "quiz": "layout-designer-basics-emmet",
-              "exercise": "layout-designer-emmet"
-            },
-            {
-              "index": 2,
-              "title": "Каскадность в CSS",
-              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/02-kaskadnost-v-css.md",
-              "quiz": "layout-designer-basics-css-cascade",
-              "exercise": "layout-designer-basics-css-cascade"
-            },
-            {
-              "index": 3,
-              "title": "Chrome DevTools",
-              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/03-chrome-devtools.md",
-              "quiz": "layout-designer-basics-devtools",
-              "exercise": null
-            },
-            {
-              "index": 4,
-              "title": "Графические редакторы",
-              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/04-graficheskie-redaktory.md",
-              "quiz": "layout-designer-basics-graphics-editor",
-              "exercise": null
-            },
-            {
-              "index": 5,
-              "title": "Основы CSS",
-              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/05-osnovy-css.md",
-              "quiz": "layout-designer-basics-css-intro",
-              "exercise": "layout-designer-basics-css-intro"
-            },
-            {
-              "index": 6,
-              "title": "Публикация в интернете",
-              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/06-publikaciya-v-internete.md",
-              "quiz": "layout-designer-basics-publication",
-              "exercise": null
-            },
-            {
-              "index": 7,
-              "title": "Блочная модель",
-              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/07-blochnaya-model.md",
-              "quiz": "layout-designer-basics-block-model",
-              "exercise": null
-            },
-            {
-              "index": 8,
-              "title": "Введение в HTML",
-              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/08-vvedenie-v-html.md",
-              "quiz": "layout-designer-basics-html-intro",
-              "exercise": null
-            },
-            {
-              "index": 9,
               "title": "Введение",
-              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/09-vvedenie.md",
+              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/01-vvedenie.md",
               "quiz": null,
               "exercise": null
             },
             {
-              "index": 10,
-              "title": "Редакторы кода",
-              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/10-redaktory-koda.md",
-              "quiz": "layout-designer-basics-code-editors",
+              "index": 2,
+              "title": "Введение в HTML",
+              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/02-vvedenie-v-html.md",
+              "quiz": "layout-designer-basics-html-intro",
               "exercise": null
             },
             {
-              "index": 11,
+              "index": 3,
+              "title": "Блочная модель",
+              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model.md",
+              "quiz": "layout-designer-basics-block-model",
+              "exercise": null
+            },
+            {
+              "index": 4,
+              "title": "Семантический HTML",
+              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html.md",
+              "quiz": "layout-designer-basics-semantic-html",
+              "exercise": "layout-designer-basics-semantic-html"
+            },
+            {
+              "index": 5,
               "title": "Базовая структура HTML документа",
-              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/11-bazovaya-struktura-html-dokumenta.md",
+              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/05-bazovaya-struktura-html-dokumenta.md",
               "quiz": "layout-designer-basics-page-structure",
               "exercise": "layout-designer-basics-page-structure"
             },
             {
+              "index": 6,
+              "title": "Основы CSS",
+              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css.md",
+              "quiz": "layout-designer-basics-css-intro",
+              "exercise": "layout-designer-basics-css-intro"
+            },
+            {
+              "index": 7,
+              "title": "Каскадность в CSS",
+              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/07-kaskadnost-v-css.md",
+              "quiz": "layout-designer-basics-css-cascade",
+              "exercise": "layout-designer-basics-css-cascade"
+            },
+            {
+              "index": 8,
+              "title": "Chrome DevTools",
+              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools.md",
+              "quiz": "layout-designer-basics-devtools",
+              "exercise": null
+            },
+            {
+              "index": 9,
+              "title": "Редакторы кода",
+              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda.md",
+              "quiz": "layout-designer-basics-code-editors",
+              "exercise": null
+            },
+            {
+              "index": 10,
+              "title": "Emmet",
+              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet.md",
+              "quiz": "layout-designer-basics-emmet",
+              "exercise": "layout-designer-emmet"
+            },
+            {
+              "index": 11,
+              "title": "Публикация в интернете",
+              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete.md",
+              "quiz": "layout-designer-basics-publication",
+              "exercise": null
+            },
+            {
               "index": 12,
-              "title": "Семантический HTML",
-              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/12-semanticheskiy-html.md",
-              "quiz": "layout-designer-basics-semantic-html",
-              "exercise": "layout-designer-basics-semantic-html"
+              "title": "Графические редакторы",
+              "theory": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory.md",
+              "quiz": "layout-designer-basics-graphics-editor",
+              "exercise": null
             }
           ]
         },
@@ -107,122 +107,122 @@
           "lessons": [
             {
               "index": 1,
-              "title": "Шрифты и работа с ними",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/01-shrifty-i-rabota-s-nimi.md",
-              "quiz": "css-content-fonts",
-              "exercise": "css-content-fonts"
-            },
-            {
-              "index": 2,
-              "title": "Формы",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/02-formy.md",
-              "quiz": "css-content-forms",
-              "exercise": "css-content-forms"
-            },
-            {
-              "index": 3,
-              "title": "Псевдоклассы",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/03-psevdoklassy.md",
-              "quiz": "css-content-pseudoclasses",
-              "exercise": "css-content-pseudoclasses"
-            },
-            {
-              "index": 4,
               "title": "Введение",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/04-vvedenie.md",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/01-vvedenie.md",
               "quiz": null,
               "exercise": null
             },
             {
-              "index": 5,
-              "title": "Таблицы",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/05-tablicy.md",
-              "quiz": "css-content-table",
-              "exercise": "css-content-table"
-            },
-            {
-              "index": 6,
-              "title": "Переполнение",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/06-perepolnenie.md",
-              "quiz": "css-content-overflow",
-              "exercise": "css-content-overflow"
-            },
-            {
-              "index": 7,
-              "title": "Списки",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/07-spiski.md",
-              "quiz": "css-content-list",
-              "exercise": "css-content-list"
-            },
-            {
-              "index": 8,
-              "title": "Селекторы",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/08-selektory.md",
-              "quiz": "css-content-selectors",
-              "exercise": "css-content-selectors"
-            },
-            {
-              "index": 9,
+              "index": 2,
               "title": "Блочная модель и CSS",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/09-blochnaya-model-i-css.md",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/02-blochnaya-model-i-css.md",
               "quiz": "css-content-box-model",
               "exercise": "css-content-box-model"
             },
             {
-              "index": 10,
-              "title": "Колонки",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/10-kolonki.md",
-              "quiz": "css-content-columns",
-              "exercise": "css-content-columns"
-            },
-            {
-              "index": 11,
-              "title": "Единицы измерения",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/11-edinicy-izmereniya.md",
-              "quiz": "css-content-units",
-              "exercise": "css-content-units"
-            },
-            {
-              "index": 12,
+              "index": 3,
               "title": "Стили текста",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/12-stili-teksta.md",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/03-stili-teksta.md",
               "quiz": "css-content-text",
               "exercise": "css-content-text"
             },
             {
-              "index": 13,
-              "title": "CSS Переменные",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/13-css-peremennye.md",
-              "quiz": "css-content-variables",
-              "exercise": "css-content-variables"
+              "index": 4,
+              "title": "Шрифты и работа с ними",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/04-shrifty-i-rabota-s-nimi.md",
+              "quiz": "css-content-fonts",
+              "exercise": "css-content-fonts"
             },
             {
-              "index": 14,
+              "index": 5,
+              "title": "Списки",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/05-spiski.md",
+              "quiz": "css-content-list",
+              "exercise": "css-content-list"
+            },
+            {
+              "index": 6,
+              "title": "Колонки",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/06-kolonki.md",
+              "quiz": "css-content-columns",
+              "exercise": "css-content-columns"
+            },
+            {
+              "index": 7,
+              "title": "Единицы измерения",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/07-edinicy-izmereniya.md",
+              "quiz": "css-content-units",
+              "exercise": "css-content-units"
+            },
+            {
+              "index": 8,
               "title": "Медиаэлементы",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/14-mediaelementy.md",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/08-mediaelementy.md",
               "quiz": "css-content-media",
               "exercise": "css-content-media"
             },
             {
-              "index": 15,
+              "index": 9,
+              "title": "Таблицы",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/09-tablicy.md",
+              "quiz": "css-content-table",
+              "exercise": "css-content-table"
+            },
+            {
+              "index": 10,
+              "title": "Формы",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/10-formy.md",
+              "quiz": "css-content-forms",
+              "exercise": "css-content-forms"
+            },
+            {
+              "index": 11,
+              "title": "Селекторы",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/11-selektory.md",
+              "quiz": "css-content-selectors",
+              "exercise": "css-content-selectors"
+            },
+            {
+              "index": 12,
+              "title": "Псевдоклассы",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/12-psevdoklassy.md",
+              "quiz": "css-content-pseudoclasses",
+              "exercise": "css-content-pseudoclasses"
+            },
+            {
+              "index": 13,
               "title": "Псевдоэлементы",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/15-psevdoelementy.md",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/13-psevdoelementy.md",
               "quiz": "css-content-pseudoelements",
               "exercise": "css-content-pseudoelements"
             },
             {
+              "index": 14,
+              "title": "Переполнение",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/14-perepolnenie.md",
+              "quiz": "css-content-overflow",
+              "exercise": "css-content-overflow"
+            },
+            {
+              "index": 15,
+              "title": "CSS Переменные",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/15-css-peremennye.md",
+              "quiz": "css-content-variables",
+              "exercise": "css-content-variables"
+            },
+            {
               "index": 16,
-              "title": "Градиенты",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/16-gradienty.md",
-              "quiz": "css-content-gradient",
-              "exercise": "css-content-gradient"
+              "title": "Фон",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/16-fon.md",
+              "quiz": "css-content-background",
+              "exercise": "css-content-background"
             },
             {
               "index": 17,
-              "title": "Фон",
-              "theory": "content/theory/01-modul-1/02-verstka-kontenta/17-fon.md",
-              "quiz": "css-content-background",
-              "exercise": "css-content-background"
+              "title": "Градиенты",
+              "theory": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+              "quiz": "css-content-gradient",
+              "exercise": "css-content-gradient"
             }
           ]
         },
@@ -234,24 +234,24 @@
           "lessons": [
             {
               "index": 1,
-              "title": "Поток документа",
-              "theory": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/01-potok-dokumenta.md",
-              "quiz": "css-positioning-flow",
+              "title": "Введение",
+              "theory": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/01-vvedenie.md",
+              "quiz": null,
               "exercise": null
             },
             {
               "index": 2,
-              "title": "Фиксированное позиционирование",
-              "theory": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/02-fiksirovannoe-pozicionirovanie.md",
-              "quiz": "css-positioning-fixed",
-              "exercise": "css-positioning-fixed"
+              "title": "Поток документа",
+              "theory": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta.md",
+              "quiz": "css-positioning-flow",
+              "exercise": null
             },
             {
               "index": 3,
-              "title": "Наложение элементов",
-              "theory": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/03-nalozhenie-elementov.md",
-              "quiz": "css-positioning-z-index",
-              "exercise": "css-positioning-z-index"
+              "title": "Относительное позиционирование",
+              "theory": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie.md",
+              "quiz": "css-positioning-relative",
+              "exercise": "css-positioning-relative"
             },
             {
               "index": 4,
@@ -269,24 +269,24 @@
             },
             {
               "index": 6,
+              "title": "Фиксированное позиционирование",
+              "theory": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/06-fiksirovannoe-pozicionirovanie.md",
+              "quiz": "css-positioning-fixed",
+              "exercise": "css-positioning-fixed"
+            },
+            {
+              "index": 7,
               "title": "Плавающие элементы",
-              "theory": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/06-plavayuschie-elementy.md",
+              "theory": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/07-plavayuschie-elementy.md",
               "quiz": "css-positioning-float",
               "exercise": "css-positioning-float"
             },
             {
-              "index": 7,
-              "title": "Введение",
-              "theory": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/07-vvedenie.md",
-              "quiz": null,
-              "exercise": null
-            },
-            {
               "index": 8,
-              "title": "Относительное позиционирование",
-              "theory": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/08-otnositelnoe-pozicionirovanie.md",
-              "quiz": "css-positioning-relative",
-              "exercise": "css-positioning-relative"
+              "title": "Наложение элементов",
+              "theory": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov.md",
+              "quiz": "css-positioning-z-index",
+              "exercise": "css-positioning-z-index"
             }
           ]
         },
@@ -298,38 +298,38 @@
           "lessons": [
             {
               "index": 1,
-              "title": "Свойства Flex-элементов. Гибкость",
-              "theory": "content/theory/01-modul-1/04-css-flex/01-svoystva-flex-elementov-gibkost.md",
-              "quiz": "css-flex-items-flexible",
-              "exercise": "css-flex-items-flexible"
+              "title": "Введение",
+              "theory": "content/theory/01-modul-1/04-css-flex/01-vvedenie.md",
+              "quiz": null,
+              "exercise": null
             },
             {
               "index": 2,
+              "title": "Что такое Flex?",
+              "theory": "content/theory/01-modul-1/04-css-flex/02-chto-takoe-flex.md",
+              "quiz": "css-flex-basics",
+              "exercise": null
+            },
+            {
+              "index": 3,
               "title": "Флекс-контейнер",
-              "theory": "content/theory/01-modul-1/04-css-flex/02-fleks-konteyner.md",
+              "theory": "content/theory/01-modul-1/04-css-flex/03-fleks-konteyner.md",
               "quiz": "css-flex-container",
               "exercise": "css-flex-container"
             },
             {
-              "index": 3,
+              "index": 4,
               "title": "Перенос элементов в контейнере",
-              "theory": "content/theory/01-modul-1/04-css-flex/03-perenos-elementov-v-konteynere.md",
+              "theory": "content/theory/01-modul-1/04-css-flex/04-perenos-elementov-v-konteynere.md",
               "quiz": "css-flex-wrap",
               "exercise": "css-flex-wrap"
             },
             {
-              "index": 4,
+              "index": 5,
               "title": "Выравнивание элементов по главной оси",
-              "theory": "content/theory/01-modul-1/04-css-flex/04-vyravnivanie-elementov-po-glavnoy-osi.md",
+              "theory": "content/theory/01-modul-1/04-css-flex/05-vyravnivanie-elementov-po-glavnoy-osi.md",
               "quiz": "css-flex-justify-content",
               "exercise": "css-flex-justify-content"
-            },
-            {
-              "index": 5,
-              "title": "Свойства Flex-элементов. Гибкость. Flex-grow",
-              "theory": "content/theory/01-modul-1/04-css-flex/05-svoystva-flex-elementov-gibkost-flex-grow.md",
-              "quiz": "css-flex-flex-grow",
-              "exercise": "css-flex-flex-grow"
             },
             {
               "index": 6,
@@ -340,24 +340,24 @@
             },
             {
               "index": 7,
-              "title": "Что такое Flex?",
-              "theory": "content/theory/01-modul-1/04-css-flex/07-chto-takoe-flex.md",
-              "quiz": "css-flex-basics",
-              "exercise": null
+              "title": "Свойства Flex-элементов. Гибкость. Flex-grow",
+              "theory": "content/theory/01-modul-1/04-css-flex/07-svoystva-flex-elementov-gibkost-flex-grow.md",
+              "quiz": "css-flex-flex-grow",
+              "exercise": "css-flex-flex-grow"
             },
             {
               "index": 8,
-              "title": "Свойства Flex-элементов. Расположение",
-              "theory": "content/theory/01-modul-1/04-css-flex/08-svoystva-flex-elementov-raspolozhenie.md",
-              "quiz": "css-flex-items-position",
-              "exercise": "css-flex-items-position"
+              "title": "Свойства Flex-элементов. Гибкость",
+              "theory": "content/theory/01-modul-1/04-css-flex/08-svoystva-flex-elementov-gibkost.md",
+              "quiz": "css-flex-items-flexible",
+              "exercise": "css-flex-items-flexible"
             },
             {
               "index": 9,
-              "title": "Введение",
-              "theory": "content/theory/01-modul-1/04-css-flex/09-vvedenie.md",
-              "quiz": null,
-              "exercise": null
+              "title": "Свойства Flex-элементов. Расположение",
+              "theory": "content/theory/01-modul-1/04-css-flex/09-svoystva-flex-elementov-raspolozhenie.md",
+              "quiz": "css-flex-items-position",
+              "exercise": "css-flex-items-position"
             }
           ]
         },
@@ -369,24 +369,24 @@
           "lessons": [
             {
               "index": 1,
-              "title": "Неявная сетка",
-              "theory": "content/theory/01-modul-1/05-css-verstka-na-grid/01-neyavnaya-setka.md",
-              "quiz": "css-grid-implicit-grid",
-              "exercise": null
-            },
-            {
-              "index": 2,
               "title": "Введение",
-              "theory": "content/theory/01-modul-1/05-css-verstka-na-grid/02-vvedenie.md",
+              "theory": "content/theory/01-modul-1/05-css-verstka-na-grid/01-vvedenie.md",
               "quiz": null,
               "exercise": null
             },
             {
-              "index": 3,
-              "title": "Позиционирование и Grid",
-              "theory": "content/theory/01-modul-1/05-css-verstka-na-grid/03-pozicionirovanie-i-grid.md",
-              "quiz": "css-grid-position-in-grid",
+              "index": 2,
+              "title": "Терминология",
+              "theory": "content/theory/01-modul-1/05-css-verstka-na-grid/02-terminologiya.md",
+              "quiz": "css-grid-terminology",
               "exercise": null
+            },
+            {
+              "index": 3,
+              "title": "Первая сетка",
+              "theory": "content/theory/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka.md",
+              "quiz": "css-grid-first-grid",
+              "exercise": "css-grid-first-grid"
             },
             {
               "index": 4,
@@ -397,24 +397,24 @@
             },
             {
               "index": 5,
-              "title": "Первая сетка",
-              "theory": "content/theory/01-modul-1/05-css-verstka-na-grid/05-pervaya-setka.md",
-              "quiz": "css-grid-first-grid",
-              "exercise": "css-grid-first-grid"
+              "title": "Работа с сеткой",
+              "theory": "content/theory/01-modul-1/05-css-verstka-na-grid/05-rabota-s-setkoy.md",
+              "quiz": "css-grid-grid-property",
+              "exercise": "css-grid-grid-property"
             },
             {
               "index": 6,
-              "title": "Терминология",
-              "theory": "content/theory/01-modul-1/05-css-verstka-na-grid/06-terminologiya.md",
-              "quiz": "css-grid-terminology",
+              "title": "Неявная сетка",
+              "theory": "content/theory/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka.md",
+              "quiz": "css-grid-implicit-grid",
               "exercise": null
             },
             {
               "index": 7,
-              "title": "Работа с сеткой",
-              "theory": "content/theory/01-modul-1/05-css-verstka-na-grid/07-rabota-s-setkoy.md",
-              "quiz": "css-grid-grid-property",
-              "exercise": "css-grid-grid-property"
+              "title": "Позиционирование и Grid",
+              "theory": "content/theory/01-modul-1/05-css-verstka-na-grid/07-pozicionirovanie-i-grid.md",
+              "quiz": "css-grid-position-in-grid",
+              "exercise": null
             }
           ]
         }
