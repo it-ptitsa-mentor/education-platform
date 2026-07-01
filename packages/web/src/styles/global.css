@@ -2019,6 +2019,9 @@ body.is-resizing-vertical {
   display: flex;
   flex-direction: column;
   min-height: min(100%, 100dvh - var(--header-h));
+  max-width: 64rem;
+  width: 100%;
+  margin-inline: auto;
 }
 
 .roadmap-home .home-hero {
@@ -2263,7 +2266,7 @@ body.is-resizing-vertical {
 .roadmap-link-type { flex: none; font-family: var(--font-mono); font-size: 0.62rem; text-transform: uppercase; color: var(--text-subtle); }
 
 /* ════════ УРОК: дерево + центр ════════ */
-.lesson-layout { display: grid; grid-template-columns: 14rem 1fr; flex: 1 0 auto; min-height: 0; align-items: start; }
+.lesson-layout { display: grid; grid-template-columns: 14rem 1fr; flex: 1 0 auto; min-height: 0; min-width: 0; align-items: start; }
 .lesson-layout:not(.lesson-layout--focus) { overflow: visible; }
 .lesson-layout--focus { display: flex; flex-direction: column; flex: 1; min-height: 0; overflow: hidden; }
 .lesson-layout--focus .lesson-aside {
@@ -2330,6 +2333,7 @@ body.is-resizing-vertical {
 .lesson-main {
   flex: 1 0 auto;
   min-height: 0;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   padding: clamp(1.25rem, 3vw, 2rem) clamp(1.25rem, 4vw, 2.5rem);
