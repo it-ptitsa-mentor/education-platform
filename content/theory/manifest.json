@@ -16,75 +16,75 @@
           "lessons": [
             {
               "index": 1,
-              "title": "Emmet",
-              "id": "1bd94592-f624-41ca-a376-280c2ccf3f83",
-              "slug": "01-emmet"
+              "title": "Введение",
+              "id": "76863b56-478c-48e5-989e-c92ef2647d8f",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "Каскадность в CSS",
-              "id": "268d8176-d740-4685-ae5c-c5ac877ba50e",
-              "slug": "02-kaskadnost-v-css"
+              "title": "Введение в HTML",
+              "id": "719aa4d4-e2bc-4ada-b405-0bb5a6b75926",
+              "slug": "02-vvedenie-v-html"
             },
             {
               "index": 3,
-              "title": "Chrome DevTools",
-              "id": "301a44f6-6c14-4396-a693-6d829688b4a1",
-              "slug": "03-chrome-devtools"
+              "title": "Блочная модель",
+              "id": "69d8d2f1-4ec6-4524-983f-07442970f9d9",
+              "slug": "03-blochnaya-model"
             },
             {
               "index": 4,
-              "title": "Графические редакторы",
-              "id": "3034cc96-2de1-471c-9873-ab7c84550958",
-              "slug": "04-graficheskie-redaktory"
+              "title": "Семантический HTML",
+              "id": "bbee68eb-98ab-4af3-b57c-ab608defb52f",
+              "slug": "04-semanticheskiy-html"
             },
             {
               "index": 5,
-              "title": "Основы CSS",
-              "id": "483c14f7-78fd-43e2-b771-4bb83ced9028",
-              "slug": "05-osnovy-css"
+              "title": "Базовая структура HTML документа",
+              "id": "b6ec68f0-48bb-4573-8723-650d48fd5cbe",
+              "slug": "05-bazovaya-struktura-html-dokumenta"
             },
             {
               "index": 6,
-              "title": "Публикация в интернете",
-              "id": "61ead5f0-7a4b-44cb-9a55-ac4f95c4a6d8",
-              "slug": "06-publikaciya-v-internete"
+              "title": "Основы CSS",
+              "id": "483c14f7-78fd-43e2-b771-4bb83ced9028",
+              "slug": "06-osnovy-css"
             },
             {
               "index": 7,
-              "title": "Блочная модель",
-              "id": "69d8d2f1-4ec6-4524-983f-07442970f9d9",
-              "slug": "07-blochnaya-model"
+              "title": "Каскадность в CSS",
+              "id": "268d8176-d740-4685-ae5c-c5ac877ba50e",
+              "slug": "07-kaskadnost-v-css"
             },
             {
               "index": 8,
-              "title": "Введение в HTML",
-              "id": "719aa4d4-e2bc-4ada-b405-0bb5a6b75926",
-              "slug": "08-vvedenie-v-html"
+              "title": "Chrome DevTools",
+              "id": "301a44f6-6c14-4396-a693-6d829688b4a1",
+              "slug": "08-chrome-devtools"
             },
             {
               "index": 9,
-              "title": "Введение",
-              "id": "76863b56-478c-48e5-989e-c92ef2647d8f",
-              "slug": "09-vvedenie"
+              "title": "Редакторы кода",
+              "id": "8edad138-a6cb-4197-a39e-d2e6849c1948",
+              "slug": "09-redaktory-koda"
             },
             {
               "index": 10,
-              "title": "Редакторы кода",
-              "id": "8edad138-a6cb-4197-a39e-d2e6849c1948",
-              "slug": "10-redaktory-koda"
+              "title": "Emmet",
+              "id": "1bd94592-f624-41ca-a376-280c2ccf3f83",
+              "slug": "10-emmet"
             },
             {
               "index": 11,
-              "title": "Базовая структура HTML документа",
-              "id": "b6ec68f0-48bb-4573-8723-650d48fd5cbe",
-              "slug": "11-bazovaya-struktura-html-dokumenta"
+              "title": "Публикация в интернете",
+              "id": "61ead5f0-7a4b-44cb-9a55-ac4f95c4a6d8",
+              "slug": "11-publikaciya-v-internete"
             },
             {
               "index": 12,
-              "title": "Семантический HTML",
-              "id": "bbee68eb-98ab-4af3-b57c-ab608defb52f",
-              "slug": "12-semanticheskiy-html"
+              "title": "Графические редакторы",
+              "id": "3034cc96-2de1-471c-9873-ab7c84550958",
+              "slug": "12-graficheskie-redaktory"
             }
           ]
         },
@@ -96,105 +96,105 @@
           "lessons": [
             {
               "index": 1,
-              "title": "Шрифты и работа с ними",
-              "id": "15f45522-9797-44e8-bf95-d1d214786aff",
-              "slug": "01-shrifty-i-rabota-s-nimi"
+              "title": "Введение",
+              "id": "30d0e87d-a2c5-40c4-9c7b-4c7c8bf346b2",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "Формы",
-              "id": "1d28acf1-c677-4998-913d-e0af761ee4f6",
-              "slug": "02-formy"
+              "title": "Блочная модель и CSS",
+              "id": "4edf6325-8322-49cc-95fb-97435114dbec",
+              "slug": "02-blochnaya-model-i-css"
             },
             {
               "index": 3,
-              "title": "Псевдоклассы",
-              "id": "1d309222-3384-46ea-8262-93123817534b",
-              "slug": "03-psevdoklassy"
+              "title": "Стили текста",
+              "id": "9adf4c7e-861c-4c61-913c-928a6c8af484",
+              "slug": "03-stili-teksta"
             },
             {
               "index": 4,
-              "title": "Введение",
-              "id": "30d0e87d-a2c5-40c4-9c7b-4c7c8bf346b2",
-              "slug": "04-vvedenie"
+              "title": "Шрифты и работа с ними",
+              "id": "15f45522-9797-44e8-bf95-d1d214786aff",
+              "slug": "04-shrifty-i-rabota-s-nimi"
             },
             {
               "index": 5,
-              "title": "Таблицы",
-              "id": "31f102d8-96fc-4107-9340-99c8bc193880",
-              "slug": "05-tablicy"
+              "title": "Списки",
+              "id": "3caaeffc-8c55-469d-b7fc-9c88e4ddab9d",
+              "slug": "05-spiski"
             },
             {
               "index": 6,
-              "title": "Переполнение",
-              "id": "3518d98c-32b8-4da2-b746-d371cef950c2",
-              "slug": "06-perepolnenie"
+              "title": "Колонки",
+              "id": "8fe5cba4-8eb4-4244-8b22-94a4571d92ea",
+              "slug": "06-kolonki"
             },
             {
               "index": 7,
-              "title": "Списки",
-              "id": "3caaeffc-8c55-469d-b7fc-9c88e4ddab9d",
-              "slug": "07-spiski"
+              "title": "Единицы измерения",
+              "id": "901ec6f5-a6cb-44ef-9a7d-c1488b8aa583",
+              "slug": "07-edinicy-izmereniya"
             },
             {
               "index": 8,
-              "title": "Селекторы",
-              "id": "40fef363-a0db-4b92-a645-3ca97eb1c34d",
-              "slug": "08-selektory"
+              "title": "Медиаэлементы",
+              "id": "bd44c826-bb74-4cfa-ab6c-988943be07f3",
+              "slug": "08-mediaelementy"
             },
             {
               "index": 9,
-              "title": "Блочная модель и CSS",
-              "id": "4edf6325-8322-49cc-95fb-97435114dbec",
-              "slug": "09-blochnaya-model-i-css"
+              "title": "Таблицы",
+              "id": "31f102d8-96fc-4107-9340-99c8bc193880",
+              "slug": "09-tablicy"
             },
             {
               "index": 10,
-              "title": "Колонки",
-              "id": "8fe5cba4-8eb4-4244-8b22-94a4571d92ea",
-              "slug": "10-kolonki"
+              "title": "Формы",
+              "id": "1d28acf1-c677-4998-913d-e0af761ee4f6",
+              "slug": "10-formy"
             },
             {
               "index": 11,
-              "title": "Единицы измерения",
-              "id": "901ec6f5-a6cb-44ef-9a7d-c1488b8aa583",
-              "slug": "11-edinicy-izmereniya"
+              "title": "Селекторы",
+              "id": "40fef363-a0db-4b92-a645-3ca97eb1c34d",
+              "slug": "11-selektory"
             },
             {
               "index": 12,
-              "title": "Стили текста",
-              "id": "9adf4c7e-861c-4c61-913c-928a6c8af484",
-              "slug": "12-stili-teksta"
+              "title": "Псевдоклассы",
+              "id": "1d309222-3384-46ea-8262-93123817534b",
+              "slug": "12-psevdoklassy"
             },
             {
               "index": 13,
-              "title": "CSS Переменные",
-              "id": "9ca683f9-cad1-4e5b-9686-7fe17f67863c",
-              "slug": "13-css-peremennye"
+              "title": "Псевдоэлементы",
+              "id": "d465fa3b-8a3d-4808-8964-aac61511772b",
+              "slug": "13-psevdoelementy"
             },
             {
               "index": 14,
-              "title": "Медиаэлементы",
-              "id": "bd44c826-bb74-4cfa-ab6c-988943be07f3",
-              "slug": "14-mediaelementy"
+              "title": "Переполнение",
+              "id": "3518d98c-32b8-4da2-b746-d371cef950c2",
+              "slug": "14-perepolnenie"
             },
             {
               "index": 15,
-              "title": "Псевдоэлементы",
-              "id": "d465fa3b-8a3d-4808-8964-aac61511772b",
-              "slug": "15-psevdoelementy"
+              "title": "CSS Переменные",
+              "id": "9ca683f9-cad1-4e5b-9686-7fe17f67863c",
+              "slug": "15-css-peremennye"
             },
             {
               "index": 16,
-              "title": "Градиенты",
-              "id": "dddde410-eeff-448b-8a39-44ecc322eacd",
-              "slug": "16-gradienty"
+              "title": "Фон",
+              "id": "e8b08450-14e3-431c-b2b1-74fbdc208793",
+              "slug": "16-fon"
             },
             {
               "index": 17,
-              "title": "Фон",
-              "id": "e8b08450-14e3-431c-b2b1-74fbdc208793",
-              "slug": "17-fon"
+              "title": "Градиенты",
+              "id": "dddde410-eeff-448b-8a39-44ecc322eacd",
+              "slug": "17-gradienty"
             }
           ]
         },
@@ -206,21 +206,21 @@
           "lessons": [
             {
               "index": 1,
-              "title": "Поток документа",
-              "id": "29e46c51-d400-4260-863a-85b5abd747ba",
-              "slug": "01-potok-dokumenta"
+              "title": "Введение",
+              "id": "9c70a5d3-c91a-4f32-9426-97f4c5dc3e13",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "Фиксированное позиционирование",
-              "id": "41fd0e32-2da1-40eb-9205-09bb70c8a617",
-              "slug": "02-fiksirovannoe-pozicionirovanie"
+              "title": "Поток документа",
+              "id": "29e46c51-d400-4260-863a-85b5abd747ba",
+              "slug": "02-potok-dokumenta"
             },
             {
               "index": 3,
-              "title": "Наложение элементов",
-              "id": "558fe306-cb4c-4ce7-b3eb-ad1cac35ac7c",
-              "slug": "03-nalozhenie-elementov"
+              "title": "Относительное позиционирование",
+              "id": "efb42065-2b29-4ce2-a2b3-f78335ca2705",
+              "slug": "03-otnositelnoe-pozicionirovanie"
             },
             {
               "index": 4,
@@ -236,21 +236,21 @@
             },
             {
               "index": 6,
-              "title": "Плавающие элементы",
-              "id": "872866aa-45b3-40f3-ad3c-077ea34180ba",
-              "slug": "06-plavayuschie-elementy"
+              "title": "Фиксированное позиционирование",
+              "id": "41fd0e32-2da1-40eb-9205-09bb70c8a617",
+              "slug": "06-fiksirovannoe-pozicionirovanie"
             },
             {
               "index": 7,
-              "title": "Введение",
-              "id": "9c70a5d3-c91a-4f32-9426-97f4c5dc3e13",
-              "slug": "07-vvedenie"
+              "title": "Плавающие элементы",
+              "id": "872866aa-45b3-40f3-ad3c-077ea34180ba",
+              "slug": "07-plavayuschie-elementy"
             },
             {
               "index": 8,
-              "title": "Относительное позиционирование",
-              "id": "efb42065-2b29-4ce2-a2b3-f78335ca2705",
-              "slug": "08-otnositelnoe-pozicionirovanie"
+              "title": "Наложение элементов",
+              "id": "558fe306-cb4c-4ce7-b3eb-ad1cac35ac7c",
+              "slug": "08-nalozhenie-elementov"
             }
           ]
         },
@@ -262,33 +262,33 @@
           "lessons": [
             {
               "index": 1,
-              "title": "Свойства Flex-элементов. Гибкость",
-              "id": "04c13731-3755-43da-a20b-11b6805a22b1",
-              "slug": "01-svoystva-flex-elementov-gibkost"
+              "title": "Введение",
+              "id": "fc0e662a-12d1-4fb3-9ad9-9fbaafe273a1",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "Флекс-контейнер",
-              "id": "4844cfc5-b969-4331-b77b-f96ec6846f7e",
-              "slug": "02-fleks-konteyner"
+              "title": "Что такое Flex?",
+              "id": "d15fedb3-040b-4759-9a1c-d732c97aafc4",
+              "slug": "02-chto-takoe-flex"
             },
             {
               "index": 3,
-              "title": "Перенос элементов в контейнере",
-              "id": "57e97e83-1b22-4de9-a6ac-98ada044ec2f",
-              "slug": "03-perenos-elementov-v-konteynere"
+              "title": "Флекс-контейнер",
+              "id": "4844cfc5-b969-4331-b77b-f96ec6846f7e",
+              "slug": "03-fleks-konteyner"
             },
             {
               "index": 4,
-              "title": "Выравнивание элементов по главной оси",
-              "id": "7da27ed0-39a9-4c8b-b510-9048d686b77c",
-              "slug": "04-vyravnivanie-elementov-po-glavnoy-osi"
+              "title": "Перенос элементов в контейнере",
+              "id": "57e97e83-1b22-4de9-a6ac-98ada044ec2f",
+              "slug": "04-perenos-elementov-v-konteynere"
             },
             {
               "index": 5,
-              "title": "Свойства Flex-элементов. Гибкость. Flex-grow",
-              "id": "84239cc1-99a0-48b8-a117-8e2de31d45a2",
-              "slug": "05-svoystva-flex-elementov-gibkost-flex-grow"
+              "title": "Выравнивание элементов по главной оси",
+              "id": "7da27ed0-39a9-4c8b-b510-9048d686b77c",
+              "slug": "05-vyravnivanie-elementov-po-glavnoy-osi"
             },
             {
               "index": 6,
@@ -298,21 +298,21 @@
             },
             {
               "index": 7,
-              "title": "Что такое Flex?",
-              "id": "d15fedb3-040b-4759-9a1c-d732c97aafc4",
-              "slug": "07-chto-takoe-flex"
+              "title": "Свойства Flex-элементов. Гибкость. Flex-grow",
+              "id": "84239cc1-99a0-48b8-a117-8e2de31d45a2",
+              "slug": "07-svoystva-flex-elementov-gibkost-flex-grow"
             },
             {
               "index": 8,
-              "title": "Свойства Flex-элементов. Расположение",
-              "id": "fa470bf5-8df9-49f2-8d85-82bcee2560da",
-              "slug": "08-svoystva-flex-elementov-raspolozhenie"
+              "title": "Свойства Flex-элементов. Гибкость",
+              "id": "04c13731-3755-43da-a20b-11b6805a22b1",
+              "slug": "08-svoystva-flex-elementov-gibkost"
             },
             {
               "index": 9,
-              "title": "Введение",
-              "id": "fc0e662a-12d1-4fb3-9ad9-9fbaafe273a1",
-              "slug": "09-vvedenie"
+              "title": "Свойства Flex-элементов. Расположение",
+              "id": "fa470bf5-8df9-49f2-8d85-82bcee2560da",
+              "slug": "09-svoystva-flex-elementov-raspolozhenie"
             }
           ]
         },
@@ -324,21 +324,21 @@
           "lessons": [
             {
               "index": 1,
-              "title": "Неявная сетка",
-              "id": "1ae6deac-96d8-4662-a6ca-5e66f2dd1dcf",
-              "slug": "01-neyavnaya-setka"
+              "title": "Введение",
+              "id": "6185055b-95c6-4abc-bc88-f71b0e4b3b37",
+              "slug": "01-vvedenie"
             },
             {
               "index": 2,
-              "title": "Введение",
-              "id": "6185055b-95c6-4abc-bc88-f71b0e4b3b37",
-              "slug": "02-vvedenie"
+              "title": "Терминология",
+              "id": "a7fce666-b279-46ef-b1c8-cdc37fedfe51",
+              "slug": "02-terminologiya"
             },
             {
               "index": 3,
-              "title": "Позиционирование и Grid",
-              "id": "63915901-9af7-41e4-84b6-648a12b8c9a7",
-              "slug": "03-pozicionirovanie-i-grid"
+              "title": "Первая сетка",
+              "id": "9a47bd0a-c191-4735-b42b-cb87a2da1026",
+              "slug": "03-pervaya-setka"
             },
             {
               "index": 4,
@@ -348,21 +348,21 @@
             },
             {
               "index": 5,
-              "title": "Первая сетка",
-              "id": "9a47bd0a-c191-4735-b42b-cb87a2da1026",
-              "slug": "05-pervaya-setka"
+              "title": "Работа с сеткой",
+              "id": "b2b36ae6-5ea2-423e-bab7-13ab93297bba",
+              "slug": "05-rabota-s-setkoy"
             },
             {
               "index": 6,
-              "title": "Терминология",
-              "id": "a7fce666-b279-46ef-b1c8-cdc37fedfe51",
-              "slug": "06-terminologiya"
+              "title": "Неявная сетка",
+              "id": "1ae6deac-96d8-4662-a6ca-5e66f2dd1dcf",
+              "slug": "06-neyavnaya-setka"
             },
             {
               "index": 7,
-              "title": "Работа с сеткой",
-              "id": "b2b36ae6-5ea2-423e-bab7-13ab93297bba",
-              "slug": "07-rabota-s-setkoy"
+              "title": "Позиционирование и Grid",
+              "id": "63915901-9af7-41e4-84b6-648a12b8c9a7",
+              "slug": "07-pozicionirovanie-i-grid"
             }
           ]
         }

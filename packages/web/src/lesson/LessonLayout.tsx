@@ -10,8 +10,8 @@ import {
   activeUnitFromPath,
   lessonUnitPath,
 } from "../lib/lesson-units";
-import { LessonNavigatorModal } from "../components/LessonNavigatorModal";
 import { LessonContext } from "./lesson-context";
+import { LessonCourseSidebar } from "./LessonCourseSidebar";
 import { LessonSideNav } from "./LessonSideNav";
 import { LessonStepper } from "./LessonStepper";
 
@@ -37,7 +37,7 @@ export const LessonLayout = () => {
   const [course, setCourse] = useState<Course | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [progressVersion, setProgressVersion] = useState(0);
-  const [navigatorOpen, setNavigatorOpen] = useState(false);
+  const [asideOpen, setAsideOpen] = useState(false);
 
   useEffect(() => {
     loadCourse()
@@ -135,8 +135,28 @@ export const LessonLayout = () => {
       }}
     >
       <div
-        className={`lesson-layout${isExerciseFocus ? " lesson-layout--focus" : ""}`}
+        className={[
+          "lesson-layout",
+          isExerciseFocus ? "lesson-layout--focus" : "",
+          isExerciseFocus && asideOpen ? "lesson-layout--aside-open" : "",
+        ]
+          .filter(Boolean)
+          .join(" ")}
       >
+        <LessonCourseSidebar
+          activeUnit={activeUnit}
+          onNavigate={() => setAsideOpen(false)}
+        />
+
+        {isExerciseFocus && asideOpen && (
+          <button
+            type="button"
+            className="lesson-aside-backdrop"
+            onClick={() => setAsideOpen(false)}
+            aria-label="Закрыть"
+          />
+        )}
+
         <main
           className={`lesson-main${isExerciseFocus ? " lesson-main--fill" : ""}`}
         >
@@ -151,9 +171,9 @@ export const LessonLayout = () => {
                   <button
                     type="button"
                     className="lesson-aside-toggle"
-                    onClick={() => setNavigatorOpen(true)}
+                    onClick={() => setAsideOpen((v) => !v)}
                   >
-                    Темы
+                    Уроки
                   </button>
                   <h1 className="lesson-title lesson-title--compact">
                     {current.lesson.title}
@@ -169,13 +189,6 @@ export const LessonLayout = () => {
                     >
                       ← Роадмап
                     </Link>
-                    <button
-                      type="button"
-                      className="lesson-aside-toggle"
-                      onClick={() => setNavigatorOpen(true)}
-                    >
-                      Темы
-                    </button>
                   </div>
                   <div className="lesson-breadcrumb">
                     {mod.title} · {topic.title}
@@ -194,23 +207,12 @@ export const LessonLayout = () => {
               >
                 <Outlet />
               </div>
-
-              {!isExerciseFocus ? (
-                <LessonSideNav activeUnit={activeUnit} />
-              ) : null}
             </div>
+
+            {!isExerciseFocus && <LessonSideNav activeUnit={activeUnit} />}
           </div>
         </main>
       </div>
-
-      {navigatorOpen ? (
-        <LessonNavigatorModal
-          course={course}
-          currentLessonId={current.id}
-          activeUnit={activeUnit}
-          onClose={() => setNavigatorOpen(false)}
-        />
-      ) : null}
     </LessonContext.Provider>
   );
 };

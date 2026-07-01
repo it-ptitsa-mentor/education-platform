@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { isUnitDone, markUnitDone } from "../course";
+import { markUnitDone } from "../course";
 import type { LessonUnit } from "../course";
 import {
   lessonFooterNext,
@@ -10,11 +10,6 @@ import { useLesson } from "./lesson-context";
 
 type LessonSideNavProps = {
   activeUnit: LessonUnit;
-};
-
-const canAdvanceFromUnit = (lessonId: string, unit: LessonUnit) => {
-  if (unit === "theory") return true;
-  return isUnitDone(lessonId, unit);
 };
 
 const SideNavLink = ({
@@ -38,11 +33,11 @@ const SideNavLink = ({
   if (disabled) {
     return (
       <div
-        className="lesson-side-nav-block lesson-side-nav-block--disabled"
+        className="lesson-footer-nav-block lesson-footer-nav-block--disabled"
         aria-disabled
       >
-        <span className="lesson-side-nav-label">{label}</span>
-        <span className="lesson-side-nav-title">{disabledHint}</span>
+        <span className="lesson-footer-nav-label">{label}</span>
+        <span className="lesson-footer-nav-title">{disabledHint}</span>
       </div>
     );
   }
@@ -52,16 +47,16 @@ const SideNavLink = ({
   return (
     <Link
       to={link.to}
-      className={`lesson-side-nav-link lesson-side-nav-link--${direction}`}
+      className={`lesson-footer-nav-link lesson-footer-nav-link--${direction}`}
       onClick={onNavigate}
     >
-      <span className="lesson-side-nav-arrow" aria-hidden>
+      <span className="lesson-footer-nav-arrow" aria-hidden>
         {arrow}
       </span>
-      <span className="lesson-side-nav-label">{label}</span>
-      <span className="lesson-side-nav-title">{link.title}</span>
+      <span className="lesson-footer-nav-label">{label}</span>
+      <span className="lesson-footer-nav-title">{link.title}</span>
       {link.hint ? (
-        <span className="lesson-side-nav-hint">{link.hint}</span>
+        <span className="lesson-footer-nav-hint">{link.hint}</span>
       ) : null}
     </Link>
   );
@@ -73,8 +68,6 @@ export const LessonSideNav = ({ activeUnit }: LessonSideNavProps) => {
 
   const prev = lessonFooterPrev(current, allLessons, activeUnit);
   const next = lessonFooterNext(current, allLessons, activeUnit);
-  const canAdvance = canAdvanceFromUnit(current.id, activeUnit);
-
   const handleNextNavigate = () => {
     if (activeUnit === "theory") {
       markUnitDone(current.id, "theory");
@@ -82,23 +75,16 @@ export const LessonSideNav = ({ activeUnit }: LessonSideNavProps) => {
     }
   };
 
-  const disabledHint =
-    activeUnit === "quiz"
-      ? "Пройдите квиз, чтобы продолжить"
-      : "Выполните задачу, чтобы продолжить";
-
   if (!prev && !next) return null;
 
   return (
-    <aside className="lesson-side-nav" aria-label="Навигация по уроку">
+    <nav className="lesson-footer-nav" aria-label="Навигация по уроку">
       <SideNavLink direction="prev" link={prev} />
       <SideNavLink
         direction="next"
-        link={canAdvance ? next : null}
-        disabled={Boolean(next && !canAdvance)}
-        disabledHint={disabledHint}
+        link={next}
         onNavigate={handleNextNavigate}
       />
-    </aside>
+    </nav>
   );
 };
