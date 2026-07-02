@@ -15,3 +15,7 @@ packages/web/src/generated
 scripts/hexlet-import/
 scripts/.test-tmp/
 packages/web/public/course
+
+# одноразовые скрипты и python-кэш
+scripts/_*
+__pycache__/

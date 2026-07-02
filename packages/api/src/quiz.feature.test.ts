@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
-import type { QuizManifest } from "@education-platform/shared";
+import type { QuizManifest } from "@ptitsa/shared";
 import { buildApp } from "./app.js";
 
 const repoRoot = path.resolve(

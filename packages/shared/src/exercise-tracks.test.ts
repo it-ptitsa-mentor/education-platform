@@ -18,51 +18,29 @@ const base = {
 describe("resolveExerciseTrack", () => {
   it("maps react courses", () => {
     expect(
-      resolveExerciseTrack({
-        ...base,
-        categoryId: "js-react",
-        categoryName: "JS: React",
-      }),
+      resolveExerciseTrack({ ...base, categoryId: "js-react" }),
     ).toBe("react");
     expect(
-      resolveExerciseTrack({
-        ...base,
-        categoryId: "js-redux-toolkit",
-        categoryName: "React: Redux Toolkit",
-      }),
+      resolveExerciseTrack({ ...base, categoryId: "js-redux-toolkit" }),
     ).toBe("react");
   });
 
   it("maps html and css courses", () => {
     expect(
-      resolveExerciseTrack({
-        ...base,
-        language: "html",
-        categoryId: "css-flex",
-        categoryName: "CSS: Flex",
-      }),
+      resolveExerciseTrack({ ...base, language: "html", categoryId: "css-flex" }),
     ).toBe("html-css");
   });
 
   it("maps plain javascript", () => {
     expect(resolveExerciseTrack(base)).toBe("javascript");
     expect(
-      resolveExerciseTrack({
-        ...base,
-        categoryId: "javascript",
-        categoryName: "JavaScript",
-      }),
+      resolveExerciseTrack({ ...base, categoryId: "javascript" }),
     ).toBe("javascript");
   });
 
   it("returns null for shell-only tracks", () => {
     expect(
-      resolveExerciseTrack({
-        ...base,
-        language: "shell",
-        categoryId: "cli-basics",
-        categoryName: "CLI",
-      }),
+      resolveExerciseTrack({ ...base, language: "shell", categoryId: "cli-basics" }),
     ).toBeNull();
   });
 });
