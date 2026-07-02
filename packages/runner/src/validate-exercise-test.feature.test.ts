@@ -33,7 +33,7 @@ describe("validateExerciseTest", () => {
   it("returns no-solution when __solution__ is absent", async () => {
     const result = await validateExerciseTest({
       exercisesRoot,
-      slug: "js-basics-arithmetics",
+      slug: "cli-basics-navigation",
     });
 
     expect(result.status).toBe("no-solution");
@@ -43,7 +43,7 @@ describe("validateExerciseTest", () => {
 describe("readSolutionFiles", () => {
   it("returns null without __solution__ dir", async () => {
     await expect(
-      readSolutionFiles(exercisesRoot, "js-basics-arithmetics"),
+      readSolutionFiles(exercisesRoot, "cli-basics-navigation"),
     ).resolves.toBeNull();
   });
 

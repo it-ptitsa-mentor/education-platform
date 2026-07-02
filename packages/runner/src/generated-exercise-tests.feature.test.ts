@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 import { readStarterFiles, runExerciseCheck } from "./run-exercise.js";
+import { readSolutionFiles } from "./validate-exercise-test.js";
 
 const repoRoot = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
@@ -42,8 +43,18 @@ describe("generated exercise tests", () => {
   });
 
   it("passes starter checks for representative generated tests", async () => {
+    // У заданий с эталоном __solution__ инвариант обратный: стартер должен
+    // ПАДАТЬ (проверяется validate-exercise-tests) — здесь смотрим только
+    // сгенерированные заглушки, которые обязаны проходить на стартере
+    const generatedOnly = [];
+    for (const slug of STARTER_SMOKE_SLUGS) {
+      if ((await readSolutionFiles(exercisesRoot, slug)) === null) {
+        generatedOnly.push(slug);
+      }
+    }
+
     const results = await Promise.all(
-      STARTER_SMOKE_SLUGS.map(async (slug) => {
+      generatedOnly.map(async (slug) => {
         const studentFiles = await readStarterFiles(exercisesRoot, slug);
         const result = await runExerciseCheck({
           exercisesRoot,

@@ -1,1 +1,2 @@
-console.log(typeof 3) // => 'number'
+const motto = 'Winter is coming';
+// Решение упражнения

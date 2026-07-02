@@ -1,7 +1,19 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 
 describe("js-basics-interpolation", () => {
-  it("loads without syntax errors", async () => {
-    await expect(import("../solution.js")).resolves.toBeDefined();
+  afterEach(() => {
+    vi.restoreAllMocks();
+    vi.resetModules();
+  });
+
+  it("выводит вопрос с интерполированным именем", async () => {
+    const lines = [];
+    vi.spyOn(console, "log").mockImplementation((...args) => {
+      lines.push(args.map(String).join(" "));
+    });
+
+    await import("../solution.js");
+
+    expect(lines).toEqual(["Do you want to eat, Arya?"]);
   });
 });

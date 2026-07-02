@@ -1,7 +1,20 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 
 describe("js-basics-symbols", () => {
-  it("loads without syntax errors", async () => {
-    await expect(import("../solution.js")).resolves.toBeDefined();
+  afterEach(() => {
+    vi.restoreAllMocks();
+    vi.resetModules();
+  });
+
+  it("выводит последний символ константы word", async () => {
+    const lines = [];
+    vi.spyOn(console, "log").mockImplementation((...args) => {
+      lines.push(args.map(String).join(" "));
+    });
+
+    await import("../solution.js");
+
+    // word = 'Winterfell' → последний символ 'l'
+    expect(lines).toEqual(["l"]);
   });
 });
