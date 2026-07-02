@@ -67,8 +67,14 @@ SPA знает свой префикс из `import.meta.env.BASE_URL` (react-ro
 pnpm install --frozen-lockfile
 
 # тесты (ОБЯЗАТЕЛЬНЫ перед PR — это CI-гейт)
-pnpm test            # unit (54)
-pnpm test:feature    # feature (13)
+pnpm test            # unit
+pnpm test:feature    # feature
+
+# тесты заданий: валидация эталонов + отчёт exercises/TESTS_STATUS.md
+# (CI-гейт exercise-tests-check: эталоны валидны, отчёт закоммичен свежим)
+pnpm validate:exercise-tests                 # всё: классификация + Vitest-прогоны
+pnpm validate:exercise-tests --report-only   # быстро, без Vitest
+pnpm validate:exercise-tests --slug <slug>   # одно задание
 
 # генерация контента перед сборкой
 pnpm generate:static-exercises   # exercises → src/generated/exercises-data.ts
@@ -84,6 +90,18 @@ pnpm dev
 
 Скриншот-проверка вёрстки headless-хромом: **рендерит layout не уже ~500px**
 (минимум окна), поэтому мобайл <390 честно не снять — проверяй на 500px.
+
+### Тесты заданий и эталонные решения
+
+Файлы задания на диске (`solution.js` и т.п.) — это **стартеры**, не решения.
+Эталон кладётся в `exercises/{slug}/__solution__/<путь studentFile>` — раннер
+исключает его из рабочей директории ученика, в статик-бандл он не попадает.
+Валидация (`pnpm validate:exercise-tests`): тест обязан **пройти на эталоне**
+и **упасть на стартере** (status `validated`; `starter-passes` — слабый тест
+или «наберите код»-задание). Статус по всем темам: `exercises/TESTS_STATUS.md`
+(генерируется, руками не править). Классификатор тестов:
+`packages/shared/src/exercise-test-classify.ts`; план доводки тестов — задачи
+«Тесты заданий — Фаза 0/1/2» в Todoist.
 
 ---
 
