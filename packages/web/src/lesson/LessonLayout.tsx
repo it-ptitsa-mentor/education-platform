@@ -92,11 +92,20 @@ export const LessonLayout = () => {
     );
   }
 
-  if (!course || !topicEntry) {
+  if (!course) {
     return (
       <div className="loading">
         <span className="spinner spinner-lg" aria-hidden />
         <span className="loading-text">ЗАГРУЗКА</span>
+      </div>
+    );
+  }
+
+  if (!topicEntry) {
+    return (
+      <div className="banner banner-error home-banner">
+        <span className="banner-label">404</span> Тема не найдена.{" "}
+        <Link to="/">Вернуться к роадмапу</Link>
       </div>
     );
   }
