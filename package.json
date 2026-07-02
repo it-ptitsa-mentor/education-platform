@@ -16,6 +16,7 @@
     "import:hexlet-quizzes": "tsx scripts/import-hexlet-quizzes.mts",
     "generate:js-tests": "tsx scripts/generate-exercise-tests.mts",
     "generate:exercise-tests": "tsx scripts/generate-exercise-tests.mts",
+    "validate:exercise-tests": "tsx scripts/validate-exercise-tests.mts",
     "dev": "pnpm --parallel -r dev",
     "dev:api": "pnpm --filter @ptitsa/api dev",
     "dev:web": "pnpm --filter @ptitsa/web dev",

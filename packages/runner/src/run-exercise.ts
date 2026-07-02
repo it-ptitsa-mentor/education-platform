@@ -46,7 +46,8 @@ export const runExerciseCheck = async ({
       recursive: true,
       filter: (source) =>
         !source.endsWith(EXERCISE_MANIFEST) &&
-        !source.endsWith("vitest.config.js"),
+        !source.endsWith("vitest.config.js") &&
+        !source.includes("__solution__"),
     });
 
     await Promise.all(

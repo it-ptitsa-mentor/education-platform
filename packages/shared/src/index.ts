@@ -35,3 +35,11 @@ export {
   extractCodeFromReadme,
   starterForFile,
 } from "./exercise-starter-from-readme.js";
+export {
+  classifyExerciseTest,
+  type ExerciseTestClass,
+} from "./exercise-test-classify.js";
+export {
+  resolveExerciseTestKind,
+  type ExerciseTestKind,
+} from "./exercise-test-generator.js";

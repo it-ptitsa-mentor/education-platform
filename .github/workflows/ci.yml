@@ -47,6 +47,28 @@ jobs:
           python3 scripts/check-theory-lesson.py --module 01-modul-1 --only-rewritten
           python3 scripts/test_check_theory_lesson.py -q
 
+  # ── Тесты заданий: эталоны валидны, TESTS_STATUS.md актуален ──
+  exercise-tests-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Validate exercise tests against reference solutions
+        run: pnpm validate:exercise-tests
+
+      - name: TESTS_STATUS.md is up to date
+        run: git diff --exit-code exercises/TESTS_STATUS.md
+
   # ── Деплой на сервер: только при пуше в main и зелёных тестах ──
   deploy:
     needs: test
