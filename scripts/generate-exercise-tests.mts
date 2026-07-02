@@ -1,4 +1,4 @@
-import { readdir, rm, writeFile } from "node:fs/promises";
+import { access, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadExerciseManifest } from "../packages/shared/src/exercise-manifest.ts";
@@ -33,6 +33,16 @@ const main = async () => {
     placeholdersRemoved += 1;
 
     if (shouldSkipGeneratedTest(manifest)) {
+      skipped += 1;
+      continue;
+    }
+
+    // Задание с эталоном __solution__ ведётся руками (AGENTS.md «Тесты
+    // заданий»): его тест написан вручную, генератором не перетирать
+    const hasSolution = await access(path.join(exerciseDir, "__solution__"))
+      .then(() => true)
+      .catch(() => false);
+    if (hasSolution) {
       skipped += 1;
       continue;
     }
