@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 
 describe("js-basics-errors", () => {
-  it("loads without syntax errors", async () => {
-    await expect(import("../solution.js")).resolves.toBeDefined();
+  it("код содержит синтаксическую ошибку", async () => {
+    // Задание — сломать код: модуль не должен импортироваться
+    await expect(import("../solution.js")).rejects.toThrow();
   });
 });

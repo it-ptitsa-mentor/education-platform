@@ -1,7 +1,20 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 
 describe("js-basics-naming", () => {
-  it("loads without syntax errors", async () => {
-    await expect(import("../solution.js")).resolves.toBeDefined();
+  afterEach(() => {
+    vi.restoreAllMocks();
+    vi.resetModules();
+  });
+
+  it("выводит количество комнат короля", async () => {
+    const lines = [];
+    vi.spyOn(console, "log").mockImplementation((...args) => {
+      lines.push(args.map(String).join(" "));
+    });
+
+    await import("../solution.js");
+
+    // Проверяется только результат на экране; именование — на совести ученика
+    expect(lines).toEqual(["King Balon the 6th has 102 rooms."]);
   });
 });

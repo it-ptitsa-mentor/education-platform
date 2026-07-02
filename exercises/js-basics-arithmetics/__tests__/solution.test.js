@@ -1,7 +1,20 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 
 describe("js-basics-arithmetics", () => {
-  it("loads without syntax errors", async () => {
-    await expect(import("../solution.js")).resolves.toBeDefined();
+  afterEach(() => {
+    vi.restoreAllMocks();
+    vi.resetModules();
+  });
+
+  it("выводит значения четырёх выражений по одному на строку", async () => {
+    const lines = [];
+    vi.spyOn(console, "log").mockImplementation((...args) => {
+      lines.push(args.map(String).join(" "));
+    });
+
+    await import("../solution.js");
+
+    // 3^5, -8/-4, 100%3 и их сумма
+    expect(lines).toEqual(["243", "2", "1", "246"]);
   });
 });

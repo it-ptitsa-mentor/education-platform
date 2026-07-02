@@ -1,3 +1,2 @@
-Math.abs(-3) // 3
-Math.abs(3) // 3
-Math.abs(0) // 0
+const fruitsCount = -18;
+// Решение упражнения

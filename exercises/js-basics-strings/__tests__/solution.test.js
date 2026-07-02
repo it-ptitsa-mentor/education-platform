@@ -1,7 +1,21 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 
 describe("js-basics-strings", () => {
-  it("loads without syntax errors", async () => {
-    await expect(import("../solution.js")).resolves.toBeDefined();
+  afterEach(() => {
+    vi.restoreAllMocks();
+    vi.resetModules();
+  });
+
+  it("выводит диалог одним console.log с переводом строки и литеральным \\n", async () => {
+    const calls = [];
+    vi.spyOn(console, "log").mockImplementation((...args) => {
+      calls.push(args.map(String).join(" "));
+    });
+
+    await import("../solution.js");
+
+    expect(calls).toEqual([
+      '- Did Joffrey agree?\n- He did. He also said "I love using \\n".',
+    ]);
   });
 });
