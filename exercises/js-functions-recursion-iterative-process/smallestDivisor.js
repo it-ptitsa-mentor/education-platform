@@ -1,2 +1,5 @@
-smallestDivisor(15); // 3
-smallestDivisor(17); // 17
+const smallestDivisor = (num) => {
+  // Реализуйте тело функции, используя итеративный процесс
+};
+
+export default smallestDivisor;
