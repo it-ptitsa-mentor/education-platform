@@ -1,5 +1,3 @@
-// Идея функции взята из lodash
-// https://lodash.com/docs#get
-get({ hello: 'world' }, 'hello'); // world
-get({ hello: 'world' }, 'hello', 'kitty'); // 'world'
-get({}, 'hello', 'kitty'); // 'kitty'
+// Напишите тесты для функции get() из файла ../functions.js.
+// Тесты — обычный скрипт: проверка через if и выброс исключения при провале
+// import get from '../functions.js'

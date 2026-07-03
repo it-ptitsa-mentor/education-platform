@@ -1,5 +1,3 @@
-gt(3, 1); // true
-
-gt(3, 3); // false
-
-gt(1, 3); // false
+// Напишите тесты для функции gt() из файла ../gt.js.
+// Используйте test() и expect() из vitest:
+// import { expect, test } from 'vitest'

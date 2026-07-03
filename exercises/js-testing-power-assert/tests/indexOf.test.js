@@ -1,3 +1,4 @@
-indexOf([1, 2, 1, 2], 2); // 1
-indexOf([1, 2, 1, 2], 2, 2); // 3
-indexOf([2, 'one', 'cat', false], 8); // -1
+// Напишите тесты для функции indexOf() из файла ../functions.js.
+// Используйте модуль node:assert
+// import assert from 'node:assert'
+// import indexOf from '../functions.js'

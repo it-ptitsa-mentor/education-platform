@@ -1,5 +1,4 @@
-take([], 2); // []
-take([1, 2, 3]); // [1]
-take([1, 2, 3], 2); // [1, 2]
-take([4, 3], 9); // [4, 3]
-take([4, 3], -1); // []
+// Напишите тесты для функции take() из файла ../functions.js.
+// Используйте модуль node:assert
+// import assert from 'node:assert'
+// import take from '../functions.js'

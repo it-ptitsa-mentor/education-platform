@@ -1,4 +1,4 @@
-// Поддерживаются yml/json/csv
-const html1 = toHtmlList('/path/to/yaml/file');
-const html2 = toHtmlList('/path/to/json/file');
-const html3 = toHtmlList('/path/to/csv/file');
+// Протестируйте функцию toHtmlList() из файла ../toHtmlList.js
+// на фикстурах из каталога ../__fixtures__ (list.yml, list.json, list.csv).
+// Ожидаемый результат лежит в ../__fixtures__/result.html
+// import { expect, test } from 'vitest'
