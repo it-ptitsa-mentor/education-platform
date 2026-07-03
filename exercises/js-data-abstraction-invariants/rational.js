@@ -1,11 +1,10 @@
-const rat1 = makeRational(3, 9)
-getNumer(rat1) // 1
-getDenom(rat1) // 3
+// Вспомогательные функции (уже реализованы)
 
-const rat2 = makeRational(10, 3)
+// Наибольший общий делитель двух чисел
+export const getGcd = (a, b) => (b === 0 ? Math.abs(a) : getGcd(b, a % b));
 
-const rat3 = add(rat1, rat2)
-ratToString(rat3) // '11/3'
+// Строковое представление дроби (используется для отладки)
+export const ratToString = (rat) => `${getNumer(rat)}/${getDenom(rat)}`;
 
-const rat4 = sub(rat1, rat2)
-ratToString(rat4) // '-3/1'
+// Реализуйте и экспортируйте функции makeRational(numer, denom),
+// getNumer(rat), getDenom(rat), add(rat1, rat2) и sub(rat1, rat2)
