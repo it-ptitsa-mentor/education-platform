@@ -1,0 +1,5 @@
+{
+  "host": "localhost",
+  "username": "dev",
+  "port": 5432
+}

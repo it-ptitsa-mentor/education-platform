@@ -1,4 +1,3 @@
-// Внутри async функции
-// Выполнение GET запроса по указанному адресу
-const response = await axios.get('https://hexlet.io/lessons?page=2')
-// response содержит http-ответ
+// Реализуйте консольную утилиту: она берёт город из process.argv[2],
+// вызывает WeatherService и печатает строку вида
+// Temperature in <город>: <температура>C

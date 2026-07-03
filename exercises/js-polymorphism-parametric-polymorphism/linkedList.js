@@ -1,5 +1,2 @@
-import Node from './Node';
-import reverse from './linkedList';
-
-const numbers = new Node(1, new Node(2, new Node(3))); // (1, 2, 3)
-const reversedNumbers = reverse(numbers); // (3, 2, 1)
+// Реализуйте функцию reverse() и экспортируйте её по умолчанию.
+// Реализация узла списка находится в файле Node.js
