@@ -1,7 +1,3 @@
-const object = { a: [{ b: { c: 3 } }] };
-
-set(object, 'a[0].b.c', 4);
-console.log(object.a[0].b.c); // => 4
-
-set(object, ['x', '0', 'y', 'z'], 5);
-console.log(object.x[0].y.z); // => 5
+// Напишите тесты для функции set() из файла ../set.js.
+// Используйте хук beforeEach для подготовки исходного объекта.
+// import { beforeEach, expect, test } from 'vitest'

@@ -1,1 +1,2 @@
-_.without([2, 1, 2, 3], 1, 2); // [3]
+// Напишите тесты для функции without() из файла ../without.js.
+// import { expect, test } from 'vitest'
