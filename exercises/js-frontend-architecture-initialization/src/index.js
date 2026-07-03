@@ -1,8 +1,2 @@
-{
-  language: {
-    lng: 'en',
-  },
-  data: {
-    clicksCount: 0,
-  },
-}
+// Создайте два счётчика: запустите app() для контейнеров
+// .container-1 и .container-2
