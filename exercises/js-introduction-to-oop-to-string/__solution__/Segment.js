@@ -1,4 +1,3 @@
-// Конструктор из прошлого задания (уже реализован)
 function Segment(beginPoint, endPoint) {
   this.beginPoint = beginPoint;
   this.endPoint = endPoint;
@@ -12,6 +11,8 @@ Segment.prototype.getEndPoint = function getEndPoint() {
   return this.endPoint;
 };
 
-// Реализуйте метод toString()
+Segment.prototype.toString = function toString() {
+  return `[${this.beginPoint.toString()}, ${this.endPoint.toString()}]`;
+};
 
 export default Segment;

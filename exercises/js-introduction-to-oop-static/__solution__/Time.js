@@ -1,6 +1,9 @@
-// Класс Time (уже реализован).
-// Добавьте в него статический метод fromString()
 class Time {
+  static fromString(string) {
+    const [hours, minutes] = string.split(':').map(Number);
+    return new Time(hours, minutes);
+  }
+
   constructor(hours, minutes) {
     this.hours = hours;
     this.minutes = minutes;
