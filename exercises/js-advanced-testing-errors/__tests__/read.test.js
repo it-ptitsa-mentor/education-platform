@@ -1,2 +1,3 @@
-read('/undefined') // boom!
-read('/etc') // boom!
+// Напишите негативные тесты для функции read() из файла ../read.js:
+// файл не найден; путь ведёт к директории.
+// import { expect, test } from 'vitest'
