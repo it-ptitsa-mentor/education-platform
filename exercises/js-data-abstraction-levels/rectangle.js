@@ -1,20 +1,8 @@
-// Создание прямоугольника:
-// p - левая верхняя точка
-// 4 - ширина
-// 5 - высота
-//
-// p    4
-// -----------
-// |         |
-// |         | 5
-// |         |
-// -----------
+// Функции для работы с точками (уже реализованы)
+export const makeDecartPoint = (x, y) => ({ x, y });
+export const getX = (point) => point.x;
+export const getY = (point) => point.y;
 
-p = makeDecartPoint(0, 1)
-rectangle = makeRectangle(p, 4, 5)
-
-containsOrigin(rectangle) // false
-getWidth(rectangle) // 4
-
-rectangle2 = makeRectangle(makeDecartPoint(-4, 3), 5, 4)
-containsOrigin(rectangle2) // true
+// Реализуйте и экспортируйте функции makeRectangle(point, width, height),
+// containsOrigin(rectangle), getStartPoint(rectangle),
+// getWidth(rectangle) и getHeight(rectangle)

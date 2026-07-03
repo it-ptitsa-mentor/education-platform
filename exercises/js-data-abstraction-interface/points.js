@@ -1,9 +1,8 @@
-const x = 4
-const y = 8
+// Конструктор точки (уже реализован).
+// Точка хранит данные в полярной системе координат
+export const makePoint = (x, y) => ({
+  angle: Math.atan2(y, x),
+  radius: Math.sqrt((x ** 2) + (y ** 2)),
+});
 
-// point хранит в себе данные в полярной системе координат
-const point = makePoint(x, y)
-
-// Здесь происходит преобразование из полярной в декартову
-getX(point) // 4
-getY(point) // 8
+// Реализуйте и экспортируйте функции getX(point) и getY(point)

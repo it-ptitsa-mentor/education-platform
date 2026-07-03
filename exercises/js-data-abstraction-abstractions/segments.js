@@ -1,7 +1,7 @@
-const beginPoint = makeDecartPoint(3, 2)
-const endPoint = makeDecartPoint(0, 0)
-segment = makeSegment(beginPoint, endPoint)
+// Функции для работы с точками (уже реализованы)
+export const makeDecartPoint = (x, y) => ({ x, y });
+export const getX = (point) => point.x;
+export const getY = (point) => point.y;
 
-getMidpointOfSegment(segment) // (1.5, 1)
-getBeginPoint(segment) // (3, 2)
-getEndPoint(segment) // (0, 0)
+// Реализуйте и экспортируйте функции makeSegment(),
+// getMidpointOfSegment(), getBeginPoint() и getEndPoint()
