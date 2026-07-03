@@ -1,4 +1,3 @@
-// Конструктор из прошлого задания (уже реализован)
 function Point(x, y) {
   this.x = x;
   this.y = y;
@@ -11,7 +10,5 @@ Point.prototype.getX = function getX() {
 Point.prototype.getY = function getY() {
   return this.y;
 };
-
-// Реализуйте метод toString()
 
 export default Point;

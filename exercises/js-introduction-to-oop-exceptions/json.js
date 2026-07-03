@@ -1,5 +1,4 @@
-const json = '{ "key": "value" }';
-parseJson(json); // { key: 'value' }
+// Класс ошибки (уже реализован)
+export class ParseError extends Error {}
 
-const incorrectJson = '{ key": "value" }';
-parseJson(incorrectJson); // => ParseError: Invalid JSON string
+// Реализуйте и экспортируйте функцию parseJson()
