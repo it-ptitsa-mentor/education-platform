@@ -1,3 +1,4 @@
-const validator = new PasswordValidator({ containNumbers: false });
-validator.validate('qwertyui'); // {}
-validator.validate('qwerty'); // { minLength: 'too small' }
+// Реализуйте класс PasswordValidator и экспортируйте его по умолчанию.
+// Опции: minLength (по умолчанию 8), containNumbers (по умолчанию true).
+// Тексты ошибок: minLength — 'too small',
+// containNumbers — 'should contain at least one number'

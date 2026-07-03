@@ -1,7 +1,4 @@
-import getInvalidBooks from './index.js';
+// Список допустимых жанров (уже определён)
+export const genres = ['classic', 'detective', 'fantasy', 'science fiction'];
 
-const books = [
-  { name: 'book', author: 'author' },
-  { author: 'author 2' },
-];
-const invalidBooks = getInvalidBooks(books); // [{ author: 'author 2' }]
+// Реализуйте функцию getInvalidBooks() и экспортируйте её по умолчанию
