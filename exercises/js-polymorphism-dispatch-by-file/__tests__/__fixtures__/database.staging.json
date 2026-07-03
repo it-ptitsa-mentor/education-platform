@@ -1,0 +1,5 @@
+{
+  "extend": "development",
+  "host": "staging.server",
+  "password": "admin"
+}

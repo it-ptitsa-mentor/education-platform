@@ -1,4 +1,4 @@
-// Внутри async функции
-// Выполнение GET запроса по указанному адресу
-const response = await axios.get('https://hexlet.io/lessons?page=2')
-// response содержит http-ответ
+// Реализуйте класс WeatherService и экспортируйте его по умолчанию.
+// Конструктор принимает http-клиент (инъекция зависимости).
+// Метод getWeather(city) делает GET-запрос клиентом на
+// http://localhost:8080/api/v2/cities/<city> и возвращает данные ответа
