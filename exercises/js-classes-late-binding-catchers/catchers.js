@@ -1,20 +1,20 @@
-import runCode from './runCode.js'
-import { appErrorCatcher } from './catchers.js'
-import AppNetworkError from './errors/AppNetworkError.js'
-import NetworkError from './errors/NetworkError.js'
+// Допишите реализацию функций-кетчеров.
+// Классы ошибок находятся в каталоге errors
 
-const successAction = () => 'Hello, Hexlet!'
-const failedAction = () => {
-  throw new AppNetworkError('Hexlet is unavailable!')
-}
-const errorHandler = err => `"Hello, Hexlet" failed with error: "${err.message}"`
-const catcher1 = appErrorCatcher(errorHandler, AppNetworkError)
+export const anyErrorCatcher = (errorHandler, errorInstance) => (error) => {
+  // Верните результат errorHandler(error), если ошибка наследуется
+  // от errorInstance, иначе выбросьте её заново
+  throw error;
+};
 
-runCode(successAction, catcher1) // 'Hello, Hexlet!';
+export const appErrorCatcher = (errorHandler, errorInstance) => (error) => {
+  // Верните результат errorHandler(error), если ошибка наследуется
+  // от errorInstance И является ошибкой приложения, иначе выбросьте её заново
+  throw error;
+};
 
-// Выброшена ошибка AppNetworkError, но перенаправлена в errorHandler
-runCode(failedAction, catcher1) // '"Hello, Hexlet" failed with error: "Hexlet is unavailable!"';
-
-const catcher2 = appErrorCatcher(errorHandler, NetworkError)
-// Выброшена ошибка AppNetworkError, но она не соответствует NetworkError
-runCode(failedAction, catcher2) // Error: 'Hexlet is unavailable!'
+export const customErrorCatcher = (errorHandler, errorInstance) => (error) => {
+  // Верните результат errorHandler(error), если у ошибки есть свойство
+  // isCustomError: true и errorInstance не задан, иначе выбросьте её заново
+  throw error;
+};

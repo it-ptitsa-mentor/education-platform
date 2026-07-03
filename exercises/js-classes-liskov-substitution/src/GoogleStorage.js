@@ -1,6 +1,2 @@
-import GoogleStorage from './GoogleStorage.js'
-
-const storage = new GoogleStorage()
-storage.set('one', 'two')
-storage.get('one') // 'two'
-storage.count() // Error
+// Реализуйте класс GoogleStorage и экспортируйте его по умолчанию.
+// Метод count() должен бросать исключение Error
