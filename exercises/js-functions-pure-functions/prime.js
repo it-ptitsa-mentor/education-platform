@@ -1,2 +1,3 @@
-sayPrimeOrNot(5); // 'yes'
-sayPrimeOrNot(4); // 'no'
+// Реализуйте функцию isPrime() и функцию sayPrimeOrNot(),
+// которая печатает 'yes', если число простое, и 'no', если нет.
+// Экспортируйте sayPrimeOrNot() по умолчанию
