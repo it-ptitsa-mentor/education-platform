@@ -1,9 +1,1 @@
-import { move } from './file.js'
-
-move('/opt/myfile', '/tmp/newfile', (error) => {
-  if (error) {
-    console.log('oops')
-    return
-  }
-  console.log('yes!')
-})
+// Реализуйте и экспортируйте функцию move(src, dest, callback)

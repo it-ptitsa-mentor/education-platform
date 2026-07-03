@@ -1,5 +1,1 @@
-import { reverse } from './file.js'
-
-reverse('file.txt')
-// two
-// one
+// Реализуйте и экспортируйте асинхронную функцию reverse(filepath)

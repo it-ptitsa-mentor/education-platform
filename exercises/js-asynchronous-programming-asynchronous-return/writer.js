@@ -1,5 +1,2 @@
-import write from './writer.js'
-
-write('./myfile', 'data', () => {
-  console.log('success')
-})
+// Реализуйте функцию write(filepath, data, callback)
+// и экспортируйте её по умолчанию

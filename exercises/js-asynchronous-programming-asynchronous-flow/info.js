@@ -1,3 +1,1 @@
-import { compareFileSizes } from './info.js'
-
-compareFileSizes('filepath1', 'filepath2', (_err, result) => console.log(result))
+// Реализуйте и экспортируйте функцию compareFileSizes(filepath1, filepath2, callback)
