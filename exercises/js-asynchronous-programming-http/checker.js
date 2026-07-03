@@ -1,10 +1,3 @@
-import getBadLinks from '../checker.js'
-
-const url = 'https://privet.hexlet'
-const links = await getBadLinks(url)
-console.log(links)
-// Гипотетический пример:
-// [
-//   'https://privet.hexlet/somepage',
-//   'https://privet.hexlet/another/page',
-// ]
+// Реализуйте функцию getBadLinks(url) и экспортируйте её по умолчанию.
+// Для извлечения ссылок используйте функцию extractLinks(content)
+// из файла extractLinks.js

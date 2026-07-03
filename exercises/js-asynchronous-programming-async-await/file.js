@@ -1,3 +1,1 @@
-import { exchange } from './file.js'
-
-exchange('/myfile1', '/myfile2')
+// Реализуйте и экспортируйте асинхронную функцию exchange(filepath1, filepath2)
