@@ -14,7 +14,9 @@ const repoRoot = path.resolve(
 );
 const exercisesRoot = path.join(repoRoot, "exercises");
 
-const VITEST_FILE = /\.test\.(js|ts)$/;
+// Раннер подхватывает любой js/jsx/ts/tsx в __tests__ (см. vitest.exercise.config.ts);
+// у части оригинальных тестов Hexlet имя без ".test." (например, test.jsx).
+const VITEST_FILE = /\.(js|jsx|ts|tsx)$/;
 
 const listExerciseSlugs = async () => {
   const entries = await readdir(exercisesRoot, { withFileTypes: true });
