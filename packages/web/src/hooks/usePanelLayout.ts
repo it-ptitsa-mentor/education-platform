@@ -14,7 +14,7 @@ export const DEFAULT_PANEL_LAYOUT: PanelLayout = {
 };
 
 const README_MIN = 320;
-const README_MAX = 560;
+const README_MAX = 760;
 /** Saved widths below this were too narrow on lesson exercise pages. */
 const LEGACY_NARROW_README = 360;
 
@@ -35,7 +35,7 @@ export const normalizePanelLayout = (
     outputHeight: clamp(
       partial.outputHeight ?? DEFAULT_PANEL_LAYOUT.outputHeight,
       96,
-      420,
+      480,
     ),
   };
 };
@@ -81,7 +81,7 @@ export const usePanelLayout = () => {
     (outputHeight: number) => {
       persist((current) => ({
         ...current,
-        outputHeight: clamp(outputHeight, 96, 420),
+        outputHeight: clamp(outputHeight, 96, 480),
       }));
     },
     [persist],

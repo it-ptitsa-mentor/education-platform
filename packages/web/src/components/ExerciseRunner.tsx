@@ -13,6 +13,50 @@ import { formatRunTestsHotkey } from "../lib/exercise-hotkeys";
 const primaryFile = (exercise: Pick<ExerciseDetail, "filesToOpen">) =>
   exercise.filesToOpen[0] ?? "solution.js";
 
+// ── черновики кода в localStorage (per-slug), переживают refresh ──
+
+const draftKey = (slug: string) => `ptitsa.trainer.draft.v1:${slug}`;
+
+const readDraft = (slug: string): Record<string, string> | null => {
+  try {
+    const raw = localStorage.getItem(draftKey(slug));
+    return raw ? (JSON.parse(raw) as Record<string, string>) : null;
+  } catch {
+    return null;
+  }
+};
+
+const writeDraft = (slug: string, files: Record<string, string>) => {
+  try {
+    localStorage.setItem(draftKey(slug), JSON.stringify(files));
+  } catch {
+    // квота/приватный режим — черновик просто не сохранится
+  }
+};
+
+const clearDraft = (slug: string) => {
+  try {
+    localStorage.removeItem(draftKey(slug));
+  } catch {
+    // ignore
+  }
+};
+
+/** Наложить черновик на стартер: берём только файлы, которые есть в задании. */
+const mergeDraft = (
+  starter: Record<string, string>,
+  draft: Record<string, string> | null,
+): Record<string, string> => {
+  if (!draft) return starter;
+  const merged = { ...starter };
+  for (const [file, content] of Object.entries(draft)) {
+    if (file in merged && typeof content === "string") {
+      merged[file] = content;
+    }
+  }
+  return merged;
+};
+
 type ExerciseRunnerProps = {
   slug: string;
   embedded?: boolean;
@@ -39,7 +83,7 @@ export const ExerciseRunner = ({
     setPassedNotified(false);
     const detail = await fetchExercise(nextSlug);
     setExercise(detail);
-    setFiles(detail.files);
+    setFiles(mergeDraft(detail.files, readDraft(nextSlug)));
     setActiveFile(primaryFile(detail));
   }, []);
 
@@ -55,9 +99,23 @@ export const ExerciseRunner = ({
     }
   }, [onPassed, passedNotified, result]);
 
-  const handleFileChange = useCallback((filePath: string, content: string) => {
-    setFiles((current) => ({ ...current, [filePath]: content }));
-  }, []);
+  const handleFileChange = useCallback(
+    (filePath: string, content: string) => {
+      setFiles((current) => {
+        const next = { ...current, [filePath]: content };
+        writeDraft(slug, next);
+        return next;
+      });
+    },
+    [slug],
+  );
+
+  const handleResetFiles = useCallback(() => {
+    if (!exercise) return;
+    clearDraft(slug);
+    setFiles(exercise.files);
+    setResult(null);
+  }, [exercise, slug]);
 
   const handleCheck = useCallback(async () => {
     if (!exercise || checking) return;
@@ -167,6 +225,7 @@ export const ExerciseRunner = ({
           onFileChange={handleFileChange}
           result={result}
           onRunTests={() => void handleCheck()}
+          onResetFiles={handleResetFiles}
           headerActions={embedded ? runTestsButton : undefined}
           embedded={embedded}
         />
