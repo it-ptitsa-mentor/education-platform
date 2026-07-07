@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "react": "*",
+    "classnames": "*",
+    "react-dom": "*",
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "@testing-library/user-event": "*",
+    "@testing-library/react": "*"
+  },
+  "scripts": {
+    "test": "FORCE_COLOR=1 vitest run --config=/exercise_internal/vite.config.js"
+  }
+}

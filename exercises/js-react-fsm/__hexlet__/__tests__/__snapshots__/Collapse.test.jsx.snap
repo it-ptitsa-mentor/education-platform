@@ -1,0 +1,136 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Collapse 1`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      <a
+        aria-expanded="false"
+        class="btn btn-primary"
+        data-bs-toggle="collapse"
+        href="#"
+        role="button"
+      >
+        Link with href
+      </a>
+    </p>
+    <div
+      class="collapse"
+    >
+      <div
+        class="card card-body"
+      >
+        hi
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Collapse 2`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      <a
+        aria-expanded="true"
+        class="btn btn-primary"
+        data-bs-toggle="collapse"
+        href="#"
+        role="button"
+      >
+        Link with href
+      </a>
+    </p>
+    <div
+      class="collapse show"
+    >
+      <div
+        class="card card-body"
+      >
+        hi
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Collapse 3`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      <a
+        aria-expanded="false"
+        class="btn btn-primary"
+        data-bs-toggle="collapse"
+        href="#"
+        role="button"
+      >
+        Link with href
+      </a>
+    </p>
+    <div
+      class="collapse"
+    >
+      <div
+        class="card card-body"
+      >
+        hi
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Collapse 4`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      <a
+        aria-expanded="true"
+        class="btn btn-primary"
+        data-bs-toggle="collapse"
+        href="#"
+        role="button"
+      >
+        Link with href
+      </a>
+    </p>
+    <div
+      class="collapse show"
+    >
+      <div
+        class="card card-body"
+      >
+        hi
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Collapse2 1`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      <a
+        aria-expanded="true"
+        class="btn btn-primary"
+        data-bs-toggle="collapse"
+        href="#"
+        role="button"
+      >
+        Link with href
+      </a>
+    </p>
+    <div
+      class="collapse show"
+    >
+      <div
+        class="card card-body"
+      >
+        i am grut
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

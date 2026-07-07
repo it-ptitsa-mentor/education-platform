@@ -58,7 +58,7 @@ const readTestFiles = async (slug: string): Promise<Record<string, string>> => {
     const names = await readdir(testsDir);
     const entries = await Promise.all(
       names
-        .filter((name) => /\.test\.(js|ts)$/.test(name))
+        .filter((name) => /\.(js|jsx|ts|tsx)$/.test(name))
         .map(async (name) => [
           name,
           await readFile(path.join(testsDir, name), "utf8"),

@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "lodash": "*",
+    "country-list": "*",
+    "axios": "*",
+    "vitest": "*"
+  },
+  "devDependencies": {
+    "@testing-library/user-event": "*",
+    "msw": "*",
+    "@testing-library/react": "*",
+    "@testing-library/jest-dom": "*"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

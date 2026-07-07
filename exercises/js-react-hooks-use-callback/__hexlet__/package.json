@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "js-polyfills": "*",
+    "react": "*",
+    "classnames": "*",
+    "react-dom": "*",
+    "lodash": "*",
+    "i18next": "*",
+    "react-i18next": "*",
+    "@playwright/test": "*"
+  },
+  "scripts": {
+    "test": "playwright test"
+  }
+}

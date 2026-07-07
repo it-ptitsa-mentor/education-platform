@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "@vitest": "*",
+    "@testing-library/react": "*",
+    "@testing-library/jest-dom": "*"
+  },
+  "scripts": {
+    "test": "FORCE_COLOR=1 vitest run --config=/exercise_internal/vite.config.js"
+  }
+}

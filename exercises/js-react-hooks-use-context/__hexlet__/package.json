@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "js-polyfills": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-bootstrap": "*",
+    "lodash": "*",
+    "@testing-library/react": "*",
+    "@testing-library/dom": "*",
+    "@testing-library/jest-dom": "*",
+    "@testing-library/user-event": "*"
+  },
+  "scripts": {
+    "test": "FORCE_COLOR=1 vitest run --config=/exercise_internal/vite.config.js"
+
+  }
+}

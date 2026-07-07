@@ -1,0 +1,889 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Carousel 1`] = `
+<DocumentFragment>
+  <div
+    class="carousel slide"
+    data-bs-ride="carousel"
+    id="carousel"
+  >
+    <div
+      class="carousel-inner"
+    >
+      <div
+        class="carousel-item active"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/first.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/second.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/third.jpeg"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-prev-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-next-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel 2`] = `
+<DocumentFragment>
+  <div
+    class="carousel slide"
+    data-bs-ride="carousel"
+    id="carousel"
+  >
+    <div
+      class="carousel-inner"
+    >
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/first.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item active"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/second.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/third.jpeg"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-prev-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-next-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel 2 1`] = `
+<DocumentFragment>
+  <div
+    class="carousel slide"
+    data-bs-ride="carousel"
+    id="carousel"
+  >
+    <div
+      class="carousel-inner"
+    >
+      <div
+        class="carousel-item active"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/1.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/2.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/3.jpeg"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-prev-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-next-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel 2 2`] = `
+<DocumentFragment>
+  <div
+    class="carousel slide"
+    data-bs-ride="carousel"
+    id="carousel"
+  >
+    <div
+      class="carousel-inner"
+    >
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/1.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item active"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/2.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/3.jpeg"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-prev-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-next-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel 2 3`] = `
+<DocumentFragment>
+  <div
+    class="carousel slide"
+    data-bs-ride="carousel"
+    id="carousel"
+  >
+    <div
+      class="carousel-inner"
+    >
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/1.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/2.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item active"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/3.jpeg"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-prev-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-next-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel 2 4`] = `
+<DocumentFragment>
+  <div
+    class="carousel slide"
+    data-bs-ride="carousel"
+    id="carousel"
+  >
+    <div
+      class="carousel-inner"
+    >
+      <div
+        class="carousel-item active"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/1.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/2.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/3.jpeg"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-prev-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-next-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel 3`] = `
+<DocumentFragment>
+  <div
+    class="carousel slide"
+    data-bs-ride="carousel"
+    id="carousel"
+  >
+    <div
+      class="carousel-inner"
+    >
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/first.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/second.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item active"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/third.jpeg"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-prev-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-next-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel 4`] = `
+<DocumentFragment>
+  <div
+    class="carousel slide"
+    data-bs-ride="carousel"
+    id="carousel"
+  >
+    <div
+      class="carousel-inner"
+    >
+      <div
+        class="carousel-item active"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/first.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/second.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/third.jpeg"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-prev-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-next-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel 5`] = `
+<DocumentFragment>
+  <div
+    class="carousel slide"
+    data-bs-ride="carousel"
+    id="carousel"
+  >
+    <div
+      class="carousel-inner"
+    >
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/first.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/second.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item active"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/third.jpeg"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-prev-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-next-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel 6`] = `
+<DocumentFragment>
+  <div
+    class="carousel slide"
+    data-bs-ride="carousel"
+    id="carousel"
+  >
+    <div
+      class="carousel-inner"
+    >
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/first.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item active"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/second.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/third.jpeg"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-prev-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-next-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel 7`] = `
+<DocumentFragment>
+  <div
+    class="carousel slide"
+    data-bs-ride="carousel"
+    id="carousel"
+  >
+    <div
+      class="carousel-inner"
+    >
+      <div
+        class="carousel-item active"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/first.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/second.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/third.jpeg"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-prev-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-next-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Carousel 8`] = `
+<DocumentFragment>
+  <div
+    class="carousel slide"
+    data-bs-ride="carousel"
+    id="carousel"
+  >
+    <div
+      class="carousel-inner"
+    >
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/first.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/second.jpeg"
+        />
+      </div>
+      <div
+        class="carousel-item active"
+      >
+        <img
+          alt=""
+          class="d-block w-100"
+          src="/images/third.jpeg"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-slide="prev"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-prev-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="carousel-control-next"
+      data-bs-slide="next"
+      data-bs-target="#carousel"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="carousel-control-next-icon"
+      />
+      <span
+        class="visually-hidden"
+      >
+        Next
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;

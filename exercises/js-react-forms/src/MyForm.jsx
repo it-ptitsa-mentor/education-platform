@@ -1,4 +1,7 @@
-// Компонент упражнения
-export default function App() {
-  return null;
-}
+// @ts-check
+
+import React from 'react'
+
+// BEGIN (write your solution here)
+
+// END

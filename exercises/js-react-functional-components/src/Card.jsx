@@ -1,6 +1,6 @@
-<Card>
-  <Card.Body>
-    <Card.Title>Title</Card.Title>
-    <Card.Text>Text</Card.Text>
-  </Card.Body>
-</Card>
+// @ts-check
+import React from 'react'
+
+// BEGIN (write your solution here)
+
+// END

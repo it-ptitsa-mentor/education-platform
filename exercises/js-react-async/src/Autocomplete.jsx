@@ -1,2 +1,8 @@
-const res = await axios.get('/countries', { params: { term: 'al' } });
-console.log(res.data); // => ["Albania","Algeria"]
+// @ts-check
+
+import React, { useState } from 'react'
+import axios from 'axios'
+
+// BEGIN (write your solution here)
+
+// END

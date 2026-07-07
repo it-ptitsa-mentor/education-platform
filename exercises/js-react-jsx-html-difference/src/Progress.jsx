@@ -1,1 +1,6 @@
-<Progress percentage={40} />;
+// @ts-check
+import React from 'react'
+
+// BEGIN (write your solution here)
+
+// END

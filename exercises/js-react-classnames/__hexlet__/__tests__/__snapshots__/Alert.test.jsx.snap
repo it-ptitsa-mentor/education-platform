@@ -1,0 +1,23 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Alert 1 1`] = `
+<DocumentFragment>
+  <div
+    class="alert alert-danger"
+    role="alert"
+  >
+    text 1
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert 2 1`] = `
+<DocumentFragment>
+  <div
+    class="alert alert-dark"
+    role="alert"
+  >
+    text 2
+  </div>
+</DocumentFragment>
+`;

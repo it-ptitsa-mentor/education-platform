@@ -1,8 +1,12 @@
-const mask = IMask(element, {
-  mask: '+{7}(000)000-00-00',
-});
+// @ts-check
 
-mask.on('accept', () => {
-  const value = mask.value;
-  // код, который будет вызван при каждом изменении значения
-});
+import IMask from 'imask'
+import React, { useEffect, useRef } from 'react'
+
+const MaskedInput = (props) => {
+  // BEGIN (write your solution here)
+
+  // END
+}
+
+export default MaskedInput

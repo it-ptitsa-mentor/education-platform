@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "js-polyfills": "*",
+    "react": "*",
+    "classnames": "*",
+    "react-dom": "*",
+    "lodash": "*",
+    "@testing-library/react": "*",
+    "@testing-library/dom": "*",
+    "@testing-library/jest-dom": "*",
+    "@testing-library/user-event": "*"
+  },
+  "scripts": {
+    "test": "jest --colors"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "transform": {
+      "\\.[jt]sx?$": "esbuild-jest"
+    }
+  }
+}

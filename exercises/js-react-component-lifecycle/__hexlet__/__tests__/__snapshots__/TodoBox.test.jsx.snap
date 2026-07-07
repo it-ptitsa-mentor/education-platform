@@ -1,0 +1,239 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TodoBox 2: finish и activate переключения 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mb-3"
+    >
+      <form
+        class="todo-form mx-3"
+      >
+        <div
+          class="d-flex col-md-3"
+        >
+          <input
+            class="form-control me-3"
+            placeholder="I am going..."
+            required=""
+            type="text"
+            value=""
+          />
+          <button
+            class="btn btn-primary"
+            type="submit"
+          >
+            add
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      class="todo-active-tasks"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-1"
+        >
+          1
+        </div>
+        <div
+          class="col"
+        >
+          <a
+            class="todo-task"
+            href="#"
+          >
+            task 1
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="todo-finished-tasks"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-1"
+        >
+          2
+        </div>
+        <div
+          class="col"
+        >
+          <s>
+            <a
+              class="todo-task"
+              href="#"
+            >
+              task 2
+            </a>
+          </s>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TodoBox 2: finish и activate переключения 2`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mb-3"
+    >
+      <form
+        class="todo-form mx-3"
+      >
+        <div
+          class="d-flex col-md-3"
+        >
+          <input
+            class="form-control me-3"
+            placeholder="I am going..."
+            required=""
+            type="text"
+            value=""
+          />
+          <button
+            class="btn btn-primary"
+            type="submit"
+          >
+            add
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      class="todo-finished-tasks"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-1"
+        >
+          2
+        </div>
+        <div
+          class="col"
+        >
+          <s>
+            <a
+              class="todo-task"
+              href="#"
+            >
+              task 2
+            </a>
+          </s>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-1"
+        >
+          1
+        </div>
+        <div
+          class="col"
+        >
+          <s>
+            <a
+              class="todo-task"
+              href="#"
+            >
+              task 1
+            </a>
+          </s>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TodoBox 2: finish и activate переключения 3`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mb-3"
+    >
+      <form
+        class="todo-form mx-3"
+      >
+        <div
+          class="d-flex col-md-3"
+        >
+          <input
+            class="form-control me-3"
+            placeholder="I am going..."
+            required=""
+            type="text"
+            value=""
+          />
+          <button
+            class="btn btn-primary"
+            type="submit"
+          >
+            add
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      class="todo-active-tasks"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-1"
+        >
+          2
+        </div>
+        <div
+          class="col"
+        >
+          <a
+            class="todo-task"
+            href="#"
+          >
+            task 2
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="todo-finished-tasks"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-1"
+        >
+          1
+        </div>
+        <div
+          class="col"
+        >
+          <s>
+            <a
+              class="todo-task"
+              href="#"
+            >
+              task 1
+            </a>
+          </s>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

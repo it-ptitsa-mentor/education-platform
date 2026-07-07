@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bootstrap": "*",
+    "react": "*",
+    "react-dom": "*",
+    "lodash": "*",
+    "whatwg-fetch": "*"
+  },
+  "devDependencies": {
+    "vitest": "*",
+    "@testing-library/react": "*"
+  },
+  "scripts": {
+    "test": "FORCE_COLOR=1 vitest run --config /exercise_internal/vite.config.js"
+  }
+}

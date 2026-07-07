@@ -1,4 +1,5 @@
-// Компонент упражнения
-export default function App() {
-  return null;
-}
+// @ts-check
+
+// BEGIN (write your solution here)
+
+// END

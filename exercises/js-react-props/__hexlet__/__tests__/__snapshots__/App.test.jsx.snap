@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`With props 1 1`] = `null`;
+
+exports[`With props 2 1`] = `null`;
+
+exports[`Without props 1 1`] = `null`;
+
+exports[`Without props 2 1`] = `null`;

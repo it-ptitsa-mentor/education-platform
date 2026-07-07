@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "react": "*",
+    "react-test-renderer": "*",
+    "react-dom": "*"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
