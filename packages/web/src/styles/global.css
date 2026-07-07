@@ -2492,6 +2492,9 @@ body.is-resizing-vertical {
   min-height: min(70vh, 42rem);
 }
 .lesson-main--fill {
+  /* База даёт flex: 1 0 auto — с shrink:0 панель растёт до высоты контента
+     и уводит редактор/вывод за вьюпорт. В fill-режиме обязаны сжиматься. */
+  flex: 1 1 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
