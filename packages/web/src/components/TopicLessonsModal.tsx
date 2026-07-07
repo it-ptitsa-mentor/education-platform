@@ -94,18 +94,34 @@ export const TopicLessonsModal = ({
                     </td>
                     <td className="topic-lessons-td topic-lessons-td--unit">
                       {quizDone !== null && (
-                        <span
-                          className={`topic-lessons-dot${quizDone ? " is-done" : ""}`}
-                          title={quizDone ? "пройдено" : "есть тест"}
-                        />
+                        <Link
+                          to={`/learn/${mod.slug}/${topic.slug}/${lesson.index}/quiz`}
+                          className="topic-lessons-dot-link"
+                          onClick={onClose}
+                          title={quizDone ? "Тест пройден — открыть" : "Открыть тест"}
+                          aria-label={`${lesson.title}: ${quizDone ? "тест пройден — открыть" : "открыть тест"}`}
+                        >
+                          <span
+                            className={`topic-lessons-dot${quizDone ? " is-done" : ""}`}
+                            aria-hidden
+                          />
+                        </Link>
                       )}
                     </td>
                     <td className="topic-lessons-td topic-lessons-td--unit">
                       {exDone !== null && (
-                        <span
-                          className={`topic-lessons-dot${exDone ? " is-done" : ""}`}
-                          title={exDone ? "пройдено" : "есть практика"}
-                        />
+                        <Link
+                          to={`/learn/${mod.slug}/${topic.slug}/${lesson.index}/exercise`}
+                          className="topic-lessons-dot-link"
+                          onClick={onClose}
+                          title={exDone ? "Практика пройдена — открыть" : "Открыть практику"}
+                          aria-label={`${lesson.title}: ${exDone ? "практика пройдена — открыть" : "открыть практику"}`}
+                        >
+                          <span
+                            className={`topic-lessons-dot${exDone ? " is-done" : ""}`}
+                            aria-hidden
+                          />
+                        </Link>
                       )}
                     </td>
                   </tr>

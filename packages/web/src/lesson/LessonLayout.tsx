@@ -184,10 +184,10 @@ export const LessonLayout = () => {
                   >
                     Уроки
                   </button>
+                  <LessonStepper activeUnit={activeUnit} />
                   <h1 className="lesson-title lesson-title--compact">
                     {current.lesson.title}
                   </h1>
-                  <LessonStepper activeUnit={activeUnit} />
                 </div>
               ) : (
                 <>

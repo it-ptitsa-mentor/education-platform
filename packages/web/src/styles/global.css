@@ -130,6 +130,7 @@ body {
   background: var(--bg-base);
   color: var(--text);
   font-family: var(--font-ui);
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   transition:
     background-color 0.35s var(--ease-out),
@@ -207,6 +208,42 @@ body.is-resizing-vertical {
 }
 .app-main:has(.lesson-main--fill) {
   overflow: hidden;
+}
+
+/* ── Скроллбары: главный контейнер без полосы, внутренние — тонкие ── */
+
+.app-main,
+.home {
+  scrollbar-width: none;
+}
+
+.app-main::-webkit-scrollbar,
+.home::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--border-strong) 70%, transparent)
+    transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--border-strong) 70%, transparent);
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--border-strong);
 }
 
 .brand-link {
@@ -1507,11 +1544,18 @@ body.is-resizing-vertical {
   padding: 1.1rem 1.15rem 1.5rem;
   overflow-y: auto;
   overflow-x: hidden;
+  overscroll-behavior: contain;
   line-height: 1.75;
   color: var(--text-muted);
   font-size: var(--text-base);
   flex: 1;
   min-height: 0;
+}
+
+/* Бриф обязан скроллиться при любой высоте: не даём панели растягивать грид */
+.readme-panel {
+  min-height: 0;
+  max-height: 100%;
 }
 
 .prose h2,
@@ -2131,6 +2175,25 @@ body.is-resizing-vertical {
   vertical-align: middle;
 }
 .topic-lessons-dot.is-done { border-color: var(--accent); background: var(--accent); }
+.topic-lessons-dot-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  transition: background 0.12s;
+}
+.topic-lessons-dot-link:hover,
+.topic-lessons-dot-link:focus-visible {
+  background: var(--accent-dim);
+}
+.topic-lessons-dot-link:hover .topic-lessons-dot,
+.topic-lessons-dot-link:focus-visible .topic-lessons-dot {
+  border-color: var(--accent);
+  transform: scale(1.25);
+}
+.topic-lessons-dot-link .topic-lessons-dot { transition: transform 0.12s, border-color 0.12s; }
 
 .roadmap-phase { border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--surface); overflow: hidden; }
 .roadmap-phase-toggle {
@@ -2631,6 +2694,23 @@ body.is-resizing-vertical {
   flex-shrink: 0;
   margin-left: auto;
 }
+.editor-reset-btn {
+  font-family: var(--font-dot);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.55rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-subtle);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.editor-reset-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
 .exercise-runner--embedded .readme-panel-actions .check-btn {
   height: 2.35rem;
   padding: 0 0.85rem;
@@ -2911,39 +2991,39 @@ body.is-resizing-vertical {
   color: inherit;
   transition: color 0.15s, opacity 0.15s;
 }
-.lesson-footer-nav-link--prev {
-  padding: 0.5rem 0.85rem;
+.lesson-footer-nav-link--prev,
+.lesson-footer-nav-link--next {
+  padding: 0.6rem 0.9rem;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
-  color: var(--text-muted);
   background: var(--surface-raised);
-  flex: 1 1 auto;
+  flex: 0 1 20rem;
   min-width: 0;
 }
+.lesson-footer-nav-link--prev { color: var(--text-muted); }
 .lesson-footer-nav-link--prev:hover { border-color: var(--accent); color: var(--accent); }
 .lesson-footer-nav-link--next {
-  padding: 0.75rem 0.85rem;
-  border-radius: var(--radius-sm);
-  background: var(--accent);
-  color: var(--on-accent);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.12);
-  flex: 2 1 auto;
-  min-width: 0;
   margin-left: auto;
+  text-align: right;
+  align-items: flex-end;
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
 }
-.lesson-footer-nav-link--next:hover { filter: brightness(1.06); }
-.lesson-footer-nav-link--next .lesson-footer-nav-label,
-.lesson-footer-nav-link--next .lesson-footer-nav-title { color: inherit; }
-.lesson-footer-nav-link--next .lesson-footer-nav-hint { color: color-mix(in srgb, var(--on-accent) 72%, transparent); }
+.lesson-footer-nav-link--next .lesson-footer-nav-title { color: var(--accent); }
+.lesson-footer-nav-link--next:hover {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
 .lesson-footer-nav-block--disabled {
-  padding: 0.75rem 0.85rem;
+  padding: 0.6rem 0.9rem;
   border-radius: var(--radius-sm);
   border: 1px dashed var(--border);
   opacity: 0.55;
   cursor: not-allowed;
-  flex: 2 1 auto;
+  flex: 0 1 20rem;
   min-width: 0;
   margin-left: auto;
+  text-align: right;
+  align-items: flex-end;
 }
 .lesson-footer-nav-label { font-size: var(--text-2xs); letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-subtle); }
 .lesson-footer-nav-arrow { font-size: 0.9rem; line-height: 1; margin-bottom: 0.1rem; }

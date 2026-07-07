@@ -19,6 +19,7 @@ type ExerciseWorkspaceProps = {
   onFileChange: (filePath: string, content: string) => void;
   result: CheckResult | null;
   onRunTests: () => void;
+  onResetFiles?: () => void;
   headerActions?: ReactNode;
   embedded?: boolean;
 };
@@ -31,6 +32,7 @@ export const ExerciseWorkspace = ({
   onFileChange,
   result,
   onRunTests,
+  onResetFiles,
   headerActions,
   embedded = false,
 }: ExerciseWorkspaceProps) => {
@@ -83,9 +85,7 @@ export const ExerciseWorkspace = ({
     };
   }, [activeFile]);
 
-  const readmeColumn = embedded
-    ? "minmax(22rem, 38%)"
-    : `${layout.readmeWidth}px`;
+  const readmeColumn = `${layout.readmeWidth}px`;
 
   return (
     <main
@@ -111,15 +111,11 @@ export const ExerciseWorkspace = ({
         </article>
       </aside>
 
-      {!embedded ? (
-        <ResizeHandle
-          orientation="horizontal"
-          label="Изменить ширину панели задания"
-          onResize={(delta) => setReadmeWidth(layout.readmeWidth + delta)}
-        />
-      ) : (
-        <div className="resize-handle resize-handle--horizontal resize-handle--static" aria-hidden />
-      )}
+      <ResizeHandle
+        orientation="horizontal"
+        label="Изменить ширину панели задания"
+        onResize={(delta) => setReadmeWidth(layout.readmeWidth + delta)}
+      />
 
       <section
         className="editor-stack"
@@ -143,7 +139,19 @@ export const ExerciseWorkspace = ({
                 </button>
               ))}
             </div>
-            <span className="panel-kicker panel-kicker--inline">02 · EDITOR</span>
+            <div className="panel-head-trail">
+              {onResetFiles ? (
+                <button
+                  type="button"
+                  className="editor-reset-btn"
+                  onClick={onResetFiles}
+                  title="Сбросить код к начальному состоянию"
+                >
+                  ↺ Сброс
+                </button>
+              ) : null}
+              <span className="panel-kicker panel-kicker--inline">02 · EDITOR</span>
+            </div>
           </div>
 
           <div className="editor-surface">
