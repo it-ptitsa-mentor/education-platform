@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-test-renderer": "*"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

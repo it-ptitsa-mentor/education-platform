@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "lodash": "*",
+    "@testing-library/react": "*",
+    "@testing-library/dom": "*",
+    "@testing-library/jest-dom": "*",
+    "@testing-library/user-event": "*"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "transform": {
+      "\\.[jt]sx?$": "esbuild-jest"
+    }
+  }
+}

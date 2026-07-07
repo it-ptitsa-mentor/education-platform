@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "esbuild-toolkit": "*",
+    "axios": "*",
+    "immutability-helper": "*",
+    "@babel/polyfill": "*",
+    "msw": "*",
+    "@testing-library/react": "*",
+    "@testing-library/dom": "*",
+    "@testing-library/jest-dom": "*",
+    "@testing-library/user-event": "*"
+  },
+  "scripts": {
+    "test": "vitest run --config=/exercise_internal/vite.config.js"
+  }
+}

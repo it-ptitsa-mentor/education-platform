@@ -1,4 +1,6 @@
-// Компонент упражнения
-export default function App() {
-  return null;
-}
+import uniqueId from 'lodash/uniqueId'
+import React from 'react'
+
+// BEGIN (write your solution here)
+
+// END

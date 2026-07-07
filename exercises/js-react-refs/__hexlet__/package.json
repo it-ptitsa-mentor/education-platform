@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "bootstrap": "*",
+    "react": "*",
+    "react-dom": "*",
+    "imask": "*",
+    "@vitejs/plugin-react": "*"
+  },
+  "devDependencies": {
+    "@testing-library/react": "*",
+    "@testing-library/dom": "*",
+    "@testing-library/jest-dom": "*",
+    "@testing-library/user-event": "*",
+    "happy-dom": "*"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

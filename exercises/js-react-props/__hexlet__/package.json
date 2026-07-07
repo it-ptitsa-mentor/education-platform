@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "bootstrap": "*",
+    "react": "*",
+    "react-dom": "*",
+    "lodash": "*",
+    "react-test-renderer": "*"
+  },
+  "scripts": {
+    "test": "FORCE_COLOR=1 vitest run --config=/exercise_internal/vite.config.js"
+
+  }
+}

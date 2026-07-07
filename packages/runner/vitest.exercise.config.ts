@@ -1,4 +1,5 @@
 import { createRequire } from "node:module";
+import path from "node:path";
 import { defineConfig } from "vitest/config";
 
 const require = createRequire(import.meta.url);
@@ -9,6 +10,9 @@ const require = createRequire(import.meta.url);
  * code and tests, since bare imports do not resolve from the temp dir.
  */
 export default defineConfig({
+  // Original Hexlet React tests rely on the automatic JSX runtime
+  // (no `import React` in test files).
+  esbuild: { jsx: "automatic" },
   resolve: {
     alias: {
       "@testing-library/dom": require.resolve("@testing-library/dom"),
@@ -22,20 +26,35 @@ export default defineConfig({
         .replace(/\.js$/, ".mjs"),
       "@testing-library/user-event": require.resolve("@testing-library/user-event"),
       axios: require.resolve("axios"),
+      classnames: require.resolve("classnames"),
       "es-toolkit": require.resolve("es-toolkit"),
       "escape-goat": require.resolve("escape-goat"),
       i18next: require.resolve("i18next"),
       jquery: require.resolve("jquery"),
-      lodash: require.resolve("lodash"),
+      "immutability-helper": require.resolve("immutability-helper"),
+      // Directory alias so subpath imports (lodash/uniqueId) resolve too.
+      lodash: path.dirname(require.resolve("lodash")),
       "msw/node": require.resolve("msw/node"),
       msw: require.resolve("msw"),
+      imask: require.resolve("imask"),
+      "react-i18next": require.resolve("react-i18next"),
+      "react/jsx-runtime": require.resolve("react/jsx-runtime"),
+      "react/jsx-dev-runtime": require.resolve("react/jsx-dev-runtime"),
+      "react-dom/client": require.resolve("react-dom/client"),
+      "react-dom/test-utils": require.resolve("react-dom/test-utils"),
+      "react-bootstrap": require.resolve("react-bootstrap"),
+      "react-dom": require.resolve("react-dom"),
+      "react-test-renderer": require.resolve("react-test-renderer"),
+      react: require.resolve("react"),
+      "@testing-library/react": require.resolve("@testing-library/react"),
+      "whatwg-fetch": require.resolve("whatwg-fetch"),
       yup: require.resolve("yup"),
     },
   },
   test: {
     environment: "node",
     globals: true,
-    include: ["**/__tests__/**/*.{js,ts}"],
+    include: ["**/__tests__/**/*.{js,jsx,ts,tsx}"],
     setupFiles: [require.resolve("./vitest.exercise.setup.ts")],
   },
 });

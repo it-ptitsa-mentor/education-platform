@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "react": "*",
+    "classnames": "*",
+    "react-dom": "*",
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "vitest": "*",
+    "@testing-library/react": "*"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

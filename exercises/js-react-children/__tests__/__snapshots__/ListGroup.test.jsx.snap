@@ -1,0 +1,60 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ListGroup 1 1`] = `
+<DocumentFragment>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <p>
+        one
+      </p>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <p>
+        two
+      </p>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`ListGroup 2 1`] = `
+<DocumentFragment>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="google"
+      >
+        google
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="yandex"
+      >
+        yandex
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="mail"
+      >
+        mail
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

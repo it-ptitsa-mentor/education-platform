@@ -1,2 +1,8 @@
-const text = 'collapse me';
-<Collapse text={text} opened={false} />;
+// @ts-check
+
+import cn from 'classnames'
+import React from 'react'
+
+// BEGIN (write your solution here)
+
+// END

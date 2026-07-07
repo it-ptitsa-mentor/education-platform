@@ -1,0 +1,533 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="btn-group font-monospace"
+      role="group"
+    >
+      <button
+        class="btn btn-outline-success"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn btn-outline-danger"
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      class="list-group mt-3"
+    >
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        1
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`
+
+exports[`Component 2`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="btn-group font-monospace"
+      role="group"
+    >
+      <button
+        class="btn btn-outline-success"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn btn-outline-danger"
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      class="list-group mt-3"
+    >
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        1
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`
+
+exports[`Component 3`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="btn-group font-monospace"
+      role="group"
+    >
+      <button
+        class="btn btn-outline-success"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn btn-outline-danger"
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      class="list-group mt-3"
+    >
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        1
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`
+
+exports[`Component 4`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="btn-group font-monospace"
+      role="group"
+    >
+      <button
+        class="btn btn-outline-success"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn btn-outline-danger"
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      class="list-group mt-3"
+    >
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        1
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`
+
+exports[`Component 5`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="btn-group font-monospace"
+      role="group"
+    >
+      <button
+        class="btn btn-outline-success"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn btn-outline-danger"
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      class="list-group mt-3"
+    >
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        1
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`
+
+exports[`Component 6`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="btn-group font-monospace"
+      role="group"
+    >
+      <button
+        class="btn btn-outline-success"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn btn-outline-danger"
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      class="list-group mt-3"
+    >
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        1
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`
+
+exports[`Component 7`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="btn-group font-monospace"
+      role="group"
+    >
+      <button
+        class="btn btn-outline-success"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn btn-outline-danger"
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      class="list-group mt-3"
+    >
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        1
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        1
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`
+
+exports[`Component 8`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="btn-group font-monospace"
+      role="group"
+    >
+      <button
+        class="btn btn-outline-success"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn btn-outline-danger"
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      class="list-group mt-3"
+    >
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        1
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        1
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`
+
+exports[`Component 9`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="btn-group font-monospace"
+      role="group"
+    >
+      <button
+        class="btn btn-outline-success"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn btn-outline-danger"
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      class="list-group mt-3"
+    >
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        3
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`
+
+exports[`Component 10`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="btn-group font-monospace"
+      role="group"
+    >
+      <button
+        class="btn btn-outline-success"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn btn-outline-danger"
+        type="button"
+      >
+        -
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`
+
+exports[`Component 11`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="btn-group font-monospace"
+      role="group"
+    >
+      <button
+        class="btn btn-outline-success"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn btn-outline-danger"
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      class="list-group mt-3"
+    >
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        0
+      </button>
+      <button
+        class="list-group-item list-group-item-action"
+        type="button"
+      >
+        1
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`

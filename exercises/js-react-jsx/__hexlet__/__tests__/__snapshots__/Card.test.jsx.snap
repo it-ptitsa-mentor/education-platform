@@ -1,0 +1,83 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`getCard snapshots > Card 1: title and text 1`] = `
+"[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"card"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"card-body"[39m
+    [36m>[39m
+      [36m<h4[39m
+        [33mclass[39m=[32m"card-title"[39m
+      [36m>[39m
+        [0mtitle 1[0m
+      [36m</h4>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m"card-text"[39m
+      [36m>[39m
+        [0mtext 1[0m
+      [36m</p>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m"
+`;
+
+exports[`getCard snapshots > Card 2: different title and text 1`] = `
+"[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"card"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"card-body"[39m
+    [36m>[39m
+      [36m<h4[39m
+        [33mclass[39m=[32m"card-title"[39m
+      [36m>[39m
+        [0mtitle 2[0m
+      [36m</h4>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m"card-text"[39m
+      [36m>[39m
+        [0mtext 2[0m
+      [36m</p>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m"
+`;
+
+exports[`getCard snapshots > Card 4: only title 1`] = `
+"[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"card"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"card-body"[39m
+    [36m>[39m
+      [36m<h4[39m
+        [33mclass[39m=[32m"card-title"[39m
+      [36m>[39m
+        [0mtitle 1[0m
+      [36m</h4>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m"
+`;
+
+exports[`getCard snapshots > Card 5: only text 1`] = `
+"[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"card"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"card-body"[39m
+    [36m>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m"card-text"[39m
+      [36m>[39m
+        [0mtext 1[0m
+      [36m</p>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m"
+`;

@@ -1,0 +1,30 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Alert 1 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+  >
+    <div
+      class="card-body"
+    >
+      <h4
+        class="card-title"
+      >
+        Card title
+      </h4>
+      <p
+        class="card-text"
+      >
+        Some quick example text to build on the card
+      </p>
+      <button
+        class="btn btn-primary"
+        type="button"
+      >
+        Go somewhere
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

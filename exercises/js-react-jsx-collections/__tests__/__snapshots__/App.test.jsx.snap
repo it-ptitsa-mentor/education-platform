@@ -1,0 +1,54 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Definitions 1 1`] = `
+<DocumentFragment>
+  <dl>
+    <dt>
+      one
+    </dt>
+    <dd>
+      two
+    </dd>
+    <dt>
+      another term
+    </dt>
+    <dd>
+      another description
+    </dd>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`Definitions 2 1`] = `
+<DocumentFragment>
+  <dl>
+    <dt>
+      one
+    </dt>
+    <dd>
+      two
+    </dd>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`Definitions 3 1`] = `
+<DocumentFragment>
+  <dl>
+    <dt>
+      another term
+    </dt>
+    <dd>
+      another description
+    </dd>
+    <dt>
+      one
+    </dt>
+    <dd>
+      two
+    </dd>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`Definitions 4 1`] = `<DocumentFragment />`;

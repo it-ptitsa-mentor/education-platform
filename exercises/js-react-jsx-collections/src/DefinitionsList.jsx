@@ -1,6 +1,5 @@
-const definitions = [
-  { dt: 'one', dd: 'two', id: 1 },
-  { dt: 'another term', dd: 'another description', id: 2 },
-];
+import React from 'react'
 
-<DefinitionsList data={definitions} />;
+// BEGIN (write your solution here)
+
+// END
