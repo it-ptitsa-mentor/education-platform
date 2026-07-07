@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "vitest run --config=/exercise_internal/vite.config.cjs"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "*"
+  }
+}

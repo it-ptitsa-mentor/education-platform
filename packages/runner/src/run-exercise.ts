@@ -47,7 +47,8 @@ export const runExerciseCheck = async ({
       filter: (source) =>
         !source.endsWith(EXERCISE_MANIFEST) &&
         !source.endsWith("vitest.config.js") &&
-        !source.includes("__solution__"),
+        !source.includes("__solution__") &&
+        !source.includes("__hexlet__"),
     });
 
     await Promise.all(
@@ -70,7 +71,9 @@ export const runExerciseCheck = async ({
         process.execPath,
         [vitestCli, "run", "--config", vitestConfig, "--root", workDir],
         {
-          cwd: repoRoot,
+          // Run from the exercise's temp dir so tests that read fixtures via a
+          // cwd-relative path (path.join('index.html')) resolve correctly.
+          cwd: workDir,
           timeout: timeoutMs,
           env: { ...process.env, NODE_ENV: "test" },
           maxBuffer: 4 * 1024 * 1024,
