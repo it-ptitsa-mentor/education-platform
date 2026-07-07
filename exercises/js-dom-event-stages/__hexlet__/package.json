@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "vitest run --config=/exercise_internal/vite.config.cjs"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "*",
+    "@testing-library/jest-dom": "*",
+    "@testing-library/user-event": "*"
+  }
+}

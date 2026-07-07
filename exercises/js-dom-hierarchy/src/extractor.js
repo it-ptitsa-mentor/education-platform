@@ -1,7 +1,3 @@
-import extractData from './extractor.js';
+// BEGIN (write your solution here)
 
-const data = extractData(document.documentElement);
-console.log(data);
-// [
-//   'First paragraph'
-// ]
+// END
