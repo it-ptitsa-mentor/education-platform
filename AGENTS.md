@@ -100,8 +100,10 @@ pnpm dev
 и **упасть на стартере** (status `validated`; `starter-passes` — слабый тест
 или «наберите код»-задание). Статус по всем темам: `exercises/TESTS_STATUS.md`
 (генерируется, руками не править). Классификатор тестов:
-`packages/shared/src/exercise-test-classify.ts`; план доводки тестов — задачи
-«Тесты заданий — Фаза 0/1/2» в Todoist.
+`packages/shared/src/exercise-test-classify.ts`. Карта фаз/волн и продуктовые
+решения — **`docs/PHASES.md`**; runbook импорта оригинальных тестов Hexlet —
+`docs/prompts/exercise-tests-hexlet-import.md`; задачи — в Todoist
+(«IT Птица · Роадмап и программа», ID в PHASES.md).
 
 ---
 
@@ -229,6 +231,8 @@ nginx: `/app`, `/preview` — SPA-fallback (`try_files $uri $uri/ /<dir>/index.h
 Задачи ведутся в **Todoist**, проект «IT Птица · Роадмап и программа»
 (канбан Backlog/Ready/In progress/Review/Done; метки `infra`/`curriculum`,
 `for-claude`/`by-claude`). Берём по приоритету `[P0] → [P1] → [P2]`.
+Статус фаз тестов и ID задач/секций — `docs/PHASES.md`. Инструкция для
+telegram-агента — `docs/prompts/telegram-agent-skill.md`.
 
 **Сделано:** витрина `/courses`; редизайн тренажёра в бренд; CI/CD (тесты-гейт +
 авто-деплой + TG); импорт теории из Buildin (6/6 модулей, 420 уроков); модель
