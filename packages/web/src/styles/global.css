@@ -59,6 +59,7 @@
   --check-btn-fg: var(--on-accent);
   --check-btn-hotkey-bg: rgba(20, 17, 10, 0.14);
   --check-btn-hotkey-border: rgba(20, 17, 10, 0.25);
+  --check-btn-hotkey-fg: var(--on-accent);
   --check-btn-hover-bg: var(--gold-soft, #f0c98a);
   --check-btn-hover-border: var(--gold-soft, #f0c98a);
   --check-btn-hover-fg: var(--on-accent);
@@ -107,6 +108,7 @@
   --check-btn-fg: var(--on-accent);
   --check-btn-hotkey-bg: rgba(0, 0, 0, 0.12);
   --check-btn-hotkey-border: rgba(0, 0, 0, 0.2);
+  --check-btn-hotkey-fg: var(--on-accent);
   --check-btn-hover-bg: transparent;
   --check-btn-hover-border: var(--accent);
   --check-btn-hover-fg: var(--accent);
@@ -546,7 +548,7 @@ body.is-resizing-vertical {
   padding: 0 0.4rem;
   border: 1px solid var(--check-btn-hotkey-border);
   background: var(--check-btn-hotkey-bg);
-  color: var(--text-muted);
+  color: var(--check-btn-hotkey-fg);
   font-family: var(--font-dot);
   font-size: var(--text-2xs);
   font-weight: 500;
@@ -561,7 +563,7 @@ body.is-resizing-vertical {
 }
 
 .check-btn:hover:not(:disabled) .check-btn-hotkey {
-  color: var(--text-muted);
+  color: var(--check-btn-hotkey-fg);
   border-color: var(--border-strong);
 }
 
