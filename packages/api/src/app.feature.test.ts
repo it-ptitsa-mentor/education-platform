@@ -97,17 +97,50 @@ console.log(pet);
   });
 
   it("checks all submitted files in a multi-file exercise", async () => {
-    const detailResponse = await app.inject({
-      method: "GET",
-      url: "/api/exercises/js-redux-toolkit-slices",
-    });
-
-    const { files } = detailResponse.json() as { files: Record<string, string> };
+    // Use correct solution implementations (starters intentionally fail behavioral tests).
+    const solutionFiles: Record<string, string> = {
+      "src/components/App.jsx": [
+        "import { useEffect } from 'react';",
+        "import { useDispatch } from 'react-redux';",
+        "import commentsSlice from '../slices/commentsSlice.js';",
+        "export default function App() {",
+        "  const dispatch = useDispatch();",
+        "  useEffect(() => { dispatch(commentsSlice.actions.addComments([])); }, [dispatch]);",
+        "  return null;",
+        "}",
+      ].join("\n"),
+      "src/components/Comment.jsx": [
+        "import { useSelector } from 'react-redux';",
+        "export default function Comment({ id }) {",
+        "  const comment = useSelector((s) => s.comments.items.find((c) => c.id === id));",
+        "  const author = useSelector((s) => s.users?.items?.find((u) => u.id === comment?.author));",
+        "  if (!comment) return null;",
+        "  return <div>{comment.text}</div>;",
+        "}",
+      ].join("\n"),
+      "src/slices/commentsSlice.js": [
+        "import { createSlice } from '@reduxjs/toolkit';",
+        "const commentsSlice = createSlice({",
+        "  name: 'comments', initialState: { items: [] },",
+        "  reducers: { addComments: (state, action) => { state.items = action.payload; } },",
+        "});",
+        "export default commentsSlice;",
+      ].join("\n"),
+      "src/slices/index.js": [
+        "import { configureStore } from '@reduxjs/toolkit';",
+        "import usersSlice from './usersSlice.js';",
+        "import postsSlice from './postsSlice.js';",
+        "import commentsSlice from './commentsSlice.js';",
+        "export default configureStore({",
+        "  reducer: { users: usersSlice.reducer, posts: postsSlice.reducer, comments: commentsSlice.reducer },",
+        "});",
+      ].join("\n"),
+    };
 
     const passResponse = await app.inject({
       method: "POST",
       url: "/api/exercises/js-redux-toolkit-slices/check",
-      payload: { files },
+      payload: { files: solutionFiles },
     });
 
     expect(passResponse.statusCode).toBe(200);
@@ -118,7 +151,7 @@ console.log(pet);
       url: "/api/exercises/js-redux-toolkit-slices/check",
       payload: {
         files: {
-          ...files,
+          ...solutionFiles,
           "src/components/Comment.jsx": "export default 1;",
         },
       },
