@@ -19,3 +19,4 @@ packages/web/public/course
 # одноразовые скрипты и python-кэш
 scripts/_*
 __pycache__/
+screenshots/
