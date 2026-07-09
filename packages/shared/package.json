@@ -13,6 +13,7 @@
     "./quiz-manifest-types": "./src/quiz-manifest-types.ts"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit"
   }
 }
