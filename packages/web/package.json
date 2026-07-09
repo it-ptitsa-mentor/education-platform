@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "pnpm -w generate:static-exercises && pnpm -w generate:static-quizzes && tsc -b && vite build",
+    "typecheck": "tsc --noEmit",
     "preview": "vite preview"
   },
   "dependencies": {
