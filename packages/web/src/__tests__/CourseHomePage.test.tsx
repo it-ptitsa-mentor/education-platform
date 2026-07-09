@@ -5,7 +5,6 @@ import { CourseHomePage } from "../pages/CourseHomePage";
 import type { RoadmapCatalog } from "../roadmap";
 
 // Мокаем модуль roadmap, чтобы не делать реальные fetch-запросы
-// и не зависеть от модульного кеша
 vi.mock("../roadmap", async (importOriginal) => {
   const actual = await importOriginal<typeof import("../roadmap")>();
   return {
@@ -14,22 +13,38 @@ vi.mock("../roadmap", async (importOriginal) => {
   };
 });
 
+// Мокаем getCurrentTrack — единственную точку трека
+vi.mock("../track", async (importOriginal) => {
+  const actual = await importOriginal<typeof import("../track")>();
+  return {
+    ...actual,
+    getCurrentTrack: vi.fn().mockReturnValue("frontend"),
+  };
+});
+
 import { loadRoadmapCatalog } from "../roadmap";
+import { getCurrentTrack } from "../track";
 
 const mockCatalog: RoadmapCatalog = {
   professions: [
     {
-      id: "js",
-      title: "JavaScript-разработчик",
-      description: "Frontend и Node.js",
+      id: "frontend",
+      title: "JS-разработчик",
+      description: "JavaScript и веб: основы языка, DOM, React.",
       roadmaps: [
-        { id: "js-frontend", title: "Frontend-разработчик", subtitle: "React", status: "active" },
+        {
+          id: "frontend-bootcamp",
+          title: "Frontend Bootcamp",
+          subtitle: "16 нед · JS → React",
+          status: "active",
+          badge: "16 нед",
+        },
       ],
     },
     {
       id: "go",
       title: "Go-разработчик",
-      description: "Backend на Go",
+      description: "Бэкенд на Go.",
       status: "soon",
       roadmaps: [],
     },
@@ -45,42 +60,40 @@ const renderPage = () =>
 
 beforeEach(() => {
   vi.mocked(loadRoadmapCatalog).mockResolvedValue(mockCatalog);
+  vi.mocked(getCurrentTrack).mockReturnValue("frontend");
 });
 
 afterEach(() => {
   vi.clearAllMocks();
 });
 
-describe("CourseHomePage", () => {
+describe("CourseHomePage — трек frontend (по умолчанию)", () => {
   it("показывает спиннер загрузки до получения данных", () => {
-    // Возвращаем Promise, который никогда не resolves во время проверки
     vi.mocked(loadRoadmapCatalog).mockReturnValue(new Promise(() => {}));
     renderPage();
     expect(screen.getByText("ЗАГРУЗКА")).toBeInTheDocument();
   });
 
-  it("рендерит профессии после загрузки", async () => {
+  it("рендерит только профессию текущего трека", async () => {
     renderPage();
     await waitFor(() => {
-      expect(screen.getByText("JavaScript-разработчик")).toBeInTheDocument();
+      expect(screen.getByText("JS-разработчик")).toBeInTheDocument();
     });
-    expect(screen.getByText("Go-разработчик")).toBeInTheDocument();
-    expect(screen.getByText("Frontend и Node.js")).toBeInTheDocument();
+    // Go-профессия не должна отображаться
+    expect(screen.queryByText("Go-разработчик")).not.toBeInTheDocument();
   });
 
-  it("рендерит профессию со статусом «soon» без ссылки", async () => {
+  it("показывает описание текущей профессии", async () => {
     renderPage();
     await waitFor(() => {
-      expect(screen.getByText("Go-разработчик")).toBeInTheDocument();
+      expect(screen.getByText(/JavaScript и веб/)).toBeInTheDocument();
     });
-    const soonCard = document.querySelector(".roadmaps-card--soon");
-    expect(soonCard).toBeInTheDocument();
   });
 
-  it("рендерит активные профессии как ссылки", async () => {
+  it("рендерит роадмап активной профессии как ссылку", async () => {
     renderPage();
     await waitFor(() => {
-      expect(screen.getByText("JavaScript-разработчик")).toBeInTheDocument();
+      expect(screen.getByText("Frontend Bootcamp")).toBeInTheDocument();
     });
     const activeCard = document.querySelector(".roadmaps-card--active");
     expect(activeCard).toBeInTheDocument();
@@ -93,5 +106,40 @@ describe("CourseHomePage", () => {
       expect(screen.getByRole("alert")).toBeInTheDocument();
     });
     expect(screen.getByText(/Сеть недоступна/)).toBeInTheDocument();
+  });
+});
+
+describe("CourseHomePage — трек go", () => {
+  it("показывает только Go-профессию, без frontend-карточек", async () => {
+    vi.mocked(getCurrentTrack).mockReturnValue("go");
+    renderPage();
+    await waitFor(() => {
+      expect(screen.getByText("Go-разработчик")).toBeInTheDocument();
+    });
+    expect(screen.queryByText("JS-разработчик")).not.toBeInTheDocument();
+    expect(screen.queryByText("Frontend Bootcamp")).not.toBeInTheDocument();
+  });
+
+  it("показывает сообщение о разработке программы, если роадмапов нет", async () => {
+    vi.mocked(getCurrentTrack).mockReturnValue("go");
+    renderPage();
+    await waitFor(() => {
+      expect(screen.getByText(/Программа в разработке/)).toBeInTheDocument();
+    });
+  });
+});
+
+describe("CourseHomePage — неизвестный трек", () => {
+  it("показывает заглушку если профессия не найдена", async () => {
+    // Форсируем трек, которого нет в каталоге
+    vi.mocked(getCurrentTrack).mockReturnValue("go");
+    vi.mocked(loadRoadmapCatalog).mockResolvedValue({
+      professions: [{ id: "frontend", title: "Frontend", roadmaps: [] }],
+    });
+    renderPage();
+    await waitFor(() => {
+      expect(screen.getByText(/Программа в разработке/)).toBeInTheDocument();
+    });
+    expect(screen.queryByText("Frontend")).not.toBeInTheDocument();
   });
 });

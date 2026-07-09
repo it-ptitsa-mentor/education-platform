@@ -3,6 +3,7 @@
   "title": "React First",
   "subtitle": "20 недель · React с первой недели, spiral-подход",
   "profession": "Frontend-разработчик",
+  "track": "frontend",
   "phases": [
     {
       "id": "p1",

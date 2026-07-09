@@ -1,5 +1,7 @@
 /** Модель роадмапа + загрузчик JSON (SSOT: content/roadmap/). */
 
+import type { ProfessionTrack } from "./track";
+
 export type RoadmapLink = {
   type: string;
   title: string;
@@ -39,6 +41,8 @@ export type Roadmap = {
   title: string;
   subtitle: string;
   profession: string;
+  /** Трек профессии, к которому относится роадмап. */
+  track?: ProfessionTrack;
   phases: RoadmapPhase[];
   nodes: Record<string, RoadmapNode>;
 };
