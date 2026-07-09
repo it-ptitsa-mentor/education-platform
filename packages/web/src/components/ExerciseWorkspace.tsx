@@ -477,7 +477,14 @@ export const ExerciseWorkspace = ({
                 {result
                   ? [result.stdout, result.stderr].filter(Boolean).join("\n") ||
                     "All tests passed — no output."
-                  : `Press RUN TESTS or ${formatRunTestsHotkey()} to execute.`}
+                  : (
+                    <>
+                      {"Нажмите «Запустить», чтобы проверить решение"}
+                      <span className="output-log-hotkey-hint">
+                        {" "}или {formatRunTestsHotkey()}
+                      </span>
+                    </>
+                  )}
               </pre>
             </>
           )}
