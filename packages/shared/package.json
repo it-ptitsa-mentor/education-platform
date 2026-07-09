@@ -6,6 +6,7 @@
   "exports": {
     ".": "./src/index.ts",
     "./exercise-checks": "./src/exercise-checks/index.ts",
+    "./exercise-checks/html-css-structural-check": "./src/exercise-checks/html-css-structural-check.ts",
     "./exercise-categories": "./src/exercise-categories.ts",
     "./exercise-tracks": "./src/exercise-tracks.ts",
     "./quiz-check": "./src/quiz-check.ts",
