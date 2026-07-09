@@ -128,6 +128,25 @@ mv /tmp/hx-bak exercises/<slug>/__hexlet__
 - **Subpath-импорты** (`lodash/uniqueId`): алиас должен указывать на КАТАЛОГ пакета
   (`path.dirname(require.resolve("lodash"))`), а не на entry-файл.
 
+## Особые случаи из курса js-redux-toolkit (Фаза 1.5, PR #40)
+
+- **jsdom-локейшн обязан быть `http://localhost/`** — задано глобально через
+  `test.environmentOptions.jsdom.url` в конфиге раннера. Vitest-дефолт
+  `localhost:3000` уводит относительные запросы (`/api/data`) мимо nock/msw.
+- **RTK Query + undici**: jsdom подменяет `AbortController`, а `fetch`/`Request`
+  остаются undici — undici отвергает «чужой» AbortSignal
+  (`Expected signal to be an instance of AbortSignal`). Решено шимом в
+  `vitest.exercise.setup.ts`: обёртка над `globalThis.Request` выбрасывает
+  `signal` из init. Abort в тестах заданий не нужен.
+- **Сабпат-импорты ESM-пакетов** (`es-toolkit/compat`, `react-bootstrap/Spinner`):
+  нужен отдельный alias-ключ ПЕРЕД базовым (`"es-toolkit/compat"` до
+  `"es-toolkit"`), иначе базовый alias (файл) съедает сабпат.
+- **Решённые стартеры**: `split-solved-starters.py` с выводом «2 chars»
+  ПЕРЕЗАПИСЫВАЕТ существующий `__solution__` мусором — после запуска
+  восстановить такие эталоны из git и написать заново.
+- **Снапшот-тест без готового `.snap`** (js-redux-toolkit-integration):
+  контейнер снапшот не отдал — генерировать из эталона по процедуре выше.
+
 ## Особые случаи из курса js-dom (эталоны как образец)
 
 - Сетевые задания (`js-dom-ajax`) — тест мокает HTTP через **msw** (`msw/node` setupServer).
