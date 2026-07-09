@@ -1,0 +1,35 @@
+/* Двухколоночный макет с Flex-контейнерами */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header .nav {
+  order: 2;
+  margin-left: auto;
+}
+
+.header .logo {
+  order: 1;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.content {
+  flex: 1;
+}

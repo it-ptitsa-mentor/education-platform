@@ -1,0 +1,26 @@
+/* Стили упражнения */
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.mr-1 {
+  margin-right: 1em;
+}

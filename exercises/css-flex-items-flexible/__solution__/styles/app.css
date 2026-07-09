@@ -1,0 +1,30 @@
+/* Вертикальные блоки с flex-shrink */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.flex-item {
+  flex: 1;
+  flex-basis: 200px;
+}
+
+.no-shrink {
+  flex-shrink: 0;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-green {
+  background-color: green;
+}

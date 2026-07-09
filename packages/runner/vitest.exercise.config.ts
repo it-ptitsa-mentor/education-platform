@@ -1,6 +1,9 @@
 import { createRequire } from "node:module";
+import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { defineConfig } from "vitest/config";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const require = createRequire(import.meta.url);
 
@@ -15,6 +18,12 @@ export default defineConfig({
   esbuild: { jsx: "automatic" },
   resolve: {
     alias: {
+      // Workspace package: expose to exercise tests running in temp dirs.
+      "@ptitsa/shared/exercise-checks/html-css-structural-check": path.resolve(
+        __dirname,
+        "../../packages/shared/src/exercise-checks/html-css-structural-check.ts",
+      ),
+      "@ptitsa/shared": path.resolve(__dirname, "../../packages/shared/src/index.ts"),
       "@testing-library/dom": require.resolve("@testing-library/dom"),
       // Point at the ESM build; require.resolve would pick the CJS entry,
       // which cannot `require('vitest')` under vite.
