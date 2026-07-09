@@ -3,6 +3,7 @@ import { isLessonComplete } from "../course";
 import type { LessonUnit } from "../course";
 import { lessonUnitPath, preferredLessonUnit } from "../lib/lesson-units";
 import { useLesson } from "./lesson-context";
+import { LessonSideNav } from "./LessonSideNav";
 
 type Props = {
   activeUnit: LessonUnit;
@@ -55,6 +56,9 @@ export const LessonCourseSidebar = ({ activeUnit, onNavigate }: Props) => {
           );
         })}
       </ul>
+      <div className="lesson-aside-nav">
+        <LessonSideNav activeUnit={activeUnit} onNavigate={onNavigate} />
+      </div>
     </aside>
   );
 };

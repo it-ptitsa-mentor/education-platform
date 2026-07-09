@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen, fireEvent, within } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { describe, expect, it, vi } from "vitest";
 import { LessonCourseSidebar } from "../LessonCourseSidebar";
@@ -93,20 +93,24 @@ describe("LessonCourseSidebar", () => {
 
   it("рендерит все уроки из темы", () => {
     renderSidebar();
-    expect(screen.getByText("Введение в HTML")).toBeInTheDocument();
-    expect(screen.getByText("Основные теги")).toBeInTheDocument();
+    // Scope to the lessons list to avoid matching nav link titles
+    const lessonsList = screen.getByRole("list");
+    expect(within(lessonsList).getByText("Введение в HTML")).toBeInTheDocument();
+    expect(within(lessonsList).getByText("Основные теги")).toBeInTheDocument();
   });
 
   it("помечает текущий урок как активный", () => {
     renderSidebar(lessonRef1.id);
-    const activeLink = screen.getByRole("link", { name: /Введение в HTML/ });
+    const lessonsList = screen.getByRole("list");
+    const activeLink = within(lessonsList).getByRole("link", { name: /Введение в HTML/ });
     expect(activeLink).toHaveClass("is-active");
     expect(activeLink).toHaveAttribute("aria-current", "page");
   });
 
   it("не помечает другие уроки как активные", () => {
     renderSidebar(lessonRef1.id);
-    const inactiveLink = screen.getByRole("link", { name: /Основные теги/ });
+    const lessonsList = screen.getByRole("list");
+    const inactiveLink = within(lessonsList).getByRole("link", { name: /Основные теги/ });
     expect(inactiveLink).not.toHaveClass("is-active");
     expect(inactiveLink).not.toHaveAttribute("aria-current");
   });
@@ -114,7 +118,8 @@ describe("LessonCourseSidebar", () => {
   it("вызывает onNavigate при клике на урок", () => {
     const onNavigate = vi.fn();
     renderSidebar(lessonRef1.id, onNavigate);
-    fireEvent.click(screen.getByRole("link", { name: /Основные теги/ }));
+    const lessonsList = screen.getByRole("list");
+    fireEvent.click(within(lessonsList).getByRole("link", { name: /Основные теги/ }));
     expect(onNavigate).toHaveBeenCalledOnce();
   });
 
