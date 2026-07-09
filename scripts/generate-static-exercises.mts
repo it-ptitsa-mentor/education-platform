@@ -1,7 +1,8 @@
-import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { toCategorizedExerciseSummary } from "../packages/shared/src/exercise-categories.ts";
+import { classifyExerciseTest } from "../packages/shared/src/exercise-test-classify.ts";
 import { loadExerciseManifest } from "../packages/shared/src/exercise-manifest.ts";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -21,6 +22,52 @@ const readStarterFiles = async (slug: string, filesToOpen: string[]) => {
   return Object.fromEntries(entries);
 };
 
+/** Read test files from __tests__/ directory (for classification). */
+const readTestFiles = async (slug: string): Promise<Record<string, string>> => {
+  const testsDir = path.join(exercisesRoot, slug, "__tests__");
+  try {
+    const entries = await readdir(testsDir);
+    const pairs = await Promise.all(
+      entries
+        .filter((f) => f.endsWith(".ts") || f.endsWith(".js"))
+        .map(async (f) => [f, await readFile(path.join(testsDir, f), "utf8")] as const),
+    );
+    return Object.fromEntries(pairs);
+  } catch {
+    return {};
+  }
+};
+
+/** Read solution files from __solution__/ directory if it exists. */
+const readSolutionFiles = async (
+  slug: string,
+  studentFiles: string[],
+): Promise<Record<string, string> | null> => {
+  const solutionDir = path.join(exercisesRoot, slug, "__solution__");
+  try {
+    await stat(solutionDir);
+  } catch {
+    return null; // no __solution__/ directory
+  }
+
+  try {
+    const pairs = await Promise.all(
+      studentFiles.map(async (filePath) => {
+        const full = path.join(solutionDir, filePath);
+        try {
+          return [filePath, await readFile(full, "utf8")] as const;
+        } catch {
+          return null;
+        }
+      }),
+    );
+    const entries = pairs.filter((p): p is [string, string] => p !== null);
+    return entries.length > 0 ? Object.fromEntries(entries) : null;
+  } catch {
+    return null;
+  }
+};
+
 const entries = await readdir(exercisesRoot, { withFileTypes: true });
 const loaded = await Promise.all(
   entries
@@ -30,9 +77,16 @@ const loaded = await Promise.all(
         path.join(exercisesRoot, entry.name, "exercise.json"),
       );
       const files = await readStarterFiles(manifest.slug, manifest.filesToOpen);
+      const testFiles = await readTestFiles(manifest.slug);
+      const testClass = classifyExerciseTest(manifest, testFiles);
+      const solutionFiles =
+        testClass === "stub"
+          ? await readSolutionFiles(manifest.slug, manifest.studentFiles)
+          : null;
 
       return {
         manifest,
+        testClass,
         exercise: {
           slug: manifest.slug,
           title: manifest.title,
@@ -40,6 +94,8 @@ const loaded = await Promise.all(
           filesToOpen: manifest.filesToOpen,
           studentFiles: manifest.studentFiles,
           readme: manifest.readme,
+          testClass,
+          solutionFiles: solutionFiles ?? undefined,
           files,
         },
       };
@@ -47,7 +103,9 @@ const loaded = await Promise.all(
 );
 
 const exercises = loaded.map(({ exercise }) => exercise);
-const summaries = loaded.map(({ manifest }) => toCategorizedExerciseSummary(manifest));
+const summaries = loaded.map(({ manifest, testClass }) =>
+  toCategorizedExerciseSummary(manifest, testClass),
+);
 
 await mkdir(outputDir, { recursive: true });
 await writeFile(

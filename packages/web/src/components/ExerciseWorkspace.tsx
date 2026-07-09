@@ -11,6 +11,12 @@ import { registerEditorHotkeys } from "../lib/monaco-shortcuts";
 import { usePanelLayout } from "../hooks/usePanelLayout";
 import { ResizeHandle } from "./ResizeHandle";
 
+/** Prefix used to identify solution-file tabs (invisible to the user). */
+const SOL_PREFIX = "__sol__/";
+
+const isSolutionTab = (file: string) => file.startsWith(SOL_PREFIX);
+const solutionKey = (file: string) => `${SOL_PREFIX}${file}`;
+
 type ExerciseWorkspaceProps = {
   exercise: ExerciseDetail;
   files: Record<string, string>;
@@ -18,10 +24,16 @@ type ExerciseWorkspaceProps = {
   onActiveFileChange: (filePath: string) => void;
   onFileChange: (filePath: string, content: string) => void;
   result: CheckResult | null;
-  onRunTests: () => void;
+  onRunTests?: () => void;
   onResetFiles?: () => void;
   headerActions?: ReactNode;
   embedded?: boolean;
+  /** Stub exercises show self-check UI instead of RUN TESTS. */
+  isStub?: boolean;
+  selfCheckDone?: boolean;
+  onSelfCheckDone?: () => void;
+  /** Solution files to display after «Я справился» — null until revealed. */
+  solutionFiles?: Record<string, string>;
 };
 
 export const ExerciseWorkspace = ({
@@ -35,28 +47,40 @@ export const ExerciseWorkspace = ({
   onResetFiles,
   headerActions,
   embedded = false,
+  isStub = false,
+  selfCheckDone = false,
+  onSelfCheckDone,
+  solutionFiles,
 }: ExerciseWorkspaceProps) => {
   const { layout, setReadmeWidth, setOutputHeight } = usePanelLayout();
   const { theme } = useTheme();
   const editorRef = useRef<Parameters<OnMount>[0] | null>(null);
   const monacoRef = useRef<Parameters<OnMount>[1] | null>(null);
   const jsxCleanupRef = useRef<(() => void) | null>(null);
+
+  const inSolutionView = isSolutionTab(activeFile);
+  const starterFile = inSolutionView ? activeFile.slice(SOL_PREFIX.length) : activeFile;
   const editorPath = `${exercise.slug}/${activeFile}`;
-  const editorValue = files[activeFile] ?? "";
+  const editorValue = inSolutionView
+    ? (solutionFiles?.[starterFile] ?? "")
+    : (files[activeFile] ?? "");
 
   const selectFile = useCallback(
     (nextFile: string) => {
       if (nextFile === activeFile) return;
 
-      const editor = editorRef.current;
-      const model = editor?.getModel();
-      if (model) {
-        onFileChange(activeFile, model.getValue());
+      // Persist current starter-file content before switching
+      if (!inSolutionView) {
+        const editor = editorRef.current;
+        const model = editor?.getModel();
+        if (model) {
+          onFileChange(activeFile, model.getValue());
+        }
       }
 
       onActiveFileChange(nextFile);
     },
-    [activeFile, onActiveFileChange, onFileChange],
+    [activeFile, inSolutionView, onActiveFileChange, onFileChange],
   );
 
   const handleBeforeMount: BeforeMount = (monaco) => {
@@ -66,7 +90,9 @@ export const ExerciseWorkspace = ({
   const handleEditorMount: OnMount = (editor, monaco) => {
     editorRef.current = editor;
     monacoRef.current = monaco;
-    registerEditorHotkeys({ editor, monaco, onRunTests });
+    if (onRunTests) {
+      registerEditorHotkeys({ editor, monaco, onRunTests });
+    }
     jsxCleanupRef.current?.();
     jsxCleanupRef.current = bindJsxSyntaxHighlight(monaco, editor, activeFile);
   };
@@ -125,6 +151,7 @@ export const ExerciseWorkspace = ({
           <div className="panel-corners" aria-hidden />
           <div className="panel-head editor-head">
             <div className="tabs" role="tablist" aria-label="Файлы задачи">
+              {/* Starter file tabs */}
               {exercise.filesToOpen.map((file) => (
                 <button
                   key={file}
@@ -138,6 +165,22 @@ export const ExerciseWorkspace = ({
                   {file}
                 </button>
               ))}
+              {/* Solution tabs — revealed only after «Я справился» */}
+              {solutionFiles &&
+                Object.keys(solutionFiles).map((file) => (
+                  <button
+                    key={solutionKey(file)}
+                    type="button"
+                    role="tab"
+                    aria-selected={activeFile === solutionKey(file)}
+                    className={`tab tab--solution${activeFile === solutionKey(file) ? " active" : ""}`}
+                    onClick={() => selectFile(solutionKey(file))}
+                  >
+                    <span className="tab-dot" aria-hidden />
+                    <span className="tab-solution-label">{file}</span>
+                    <span className="tab-solution-badge">эталон</span>
+                  </button>
+                ))}
             </div>
             <div className="panel-head-trail">
               {onResetFiles ? (
@@ -163,7 +206,12 @@ export const ExerciseWorkspace = ({
               value={editorValue}
               beforeMount={handleBeforeMount}
               onMount={handleEditorMount}
-              onChange={(value) => onFileChange(activeFile, value ?? "")}
+              onChange={(value) => {
+                // Never write back when viewing a read-only solution tab
+                if (!inSolutionView) {
+                  onFileChange(activeFile, value ?? "");
+                }
+              }}
               options={{
                 fontFamily: "'IBM Plex Mono', monospace",
                 fontSize: 14,
@@ -181,6 +229,7 @@ export const ExerciseWorkspace = ({
                 bracketPairColorization: { enabled: true },
                 overviewRulerBorder: false,
                 hideCursorInOverviewRuler: true,
+                readOnly: inSolutionView,
               }}
             />
           </div>
@@ -194,28 +243,91 @@ export const ExerciseWorkspace = ({
 
         <div className="output-panel panel glass-panel">
           <div className="panel-corners" aria-hidden />
-          <div className="panel-head">
-            <div className="panel-title-group">
-              <span className="panel-kicker">03 · OUTPUT</span>
-              <h3>Test Runner</h3>
-            </div>
-            {result && (
-              <span
-                className={`status-pill ${result.passed ? "pass" : "fail"}`}
+          {isStub ? (
+            /* ── Self-check output panel ── */
+            <>
+              <div className="panel-head">
+                <div className="panel-title-group">
+                  <span className="panel-kicker">03 · OUTPUT</span>
+                  <h3>Самопроверка</h3>
+                </div>
+                {selfCheckDone && (
+                  <span className="status-pill pass">
+                    <span className="status-dot" aria-hidden />
+                    ВЫПОЛНЕНО
+                  </span>
+                )}
+              </div>
+              <div className="self-check-output-body">
+                {selfCheckDone ? (
+                  <p className="self-check-msg self-check-msg--done">
+                    ✓ Ты отметил задание как выполненное.
+                    {solutionFiles
+                      ? " Вкладки с эталонным решением открыты в редакторе."
+                      : ""}
+                  </p>
+                ) : (
+                  <>
+                    <p className="self-check-msg">
+                      Это задание без автопроверки — реши задачу по условию,
+                      затем нажми «Я справился».
+                    </p>
+                    <button
+                      type="button"
+                      className="check-btn self-check-btn"
+                      onClick={onSelfCheckDone}
+                    >
+                      <span className="check-btn-icon" aria-hidden>
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                          <circle
+                            cx="7"
+                            cy="7"
+                            r="5.5"
+                            stroke="currentColor"
+                            strokeWidth="1.5"
+                          />
+                          <path
+                            d="M4.5 7L6.5 9L9.5 5"
+                            stroke="currentColor"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <span className="check-btn-label">Я СПРАВИЛСЯ</span>
+                    </button>
+                  </>
+                )}
+              </div>
+            </>
+          ) : (
+            /* ── Normal test output ── */
+            <>
+              <div className="panel-head">
+                <div className="panel-title-group">
+                  <span className="panel-kicker">03 · OUTPUT</span>
+                  <h3>Test Runner</h3>
+                </div>
+                {result && (
+                  <span
+                    className={`status-pill ${result.passed ? "pass" : "fail"}`}
+                  >
+                    <span className="status-dot" aria-hidden />
+                    {result.passed ? "PASS" : "FAIL"}
+                  </span>
+                )}
+              </div>
+              <pre
+                className={`output-log ${result ? (result.passed ? "is-pass" : "is-fail") : ""}`}
               >
-                <span className="status-dot" aria-hidden />
-                {result.passed ? "PASS" : "FAIL"}
-              </span>
-            )}
-          </div>
-          <pre
-            className={`output-log ${result ? (result.passed ? "is-pass" : "is-fail") : ""}`}
-          >
-            {result
-              ? [result.stdout, result.stderr].filter(Boolean).join("\n") ||
-                "All tests passed — no output."
-              : `Press RUN TESTS or ${formatRunTestsHotkey()} to execute.`}
-          </pre>
+                {result
+                  ? [result.stdout, result.stderr].filter(Boolean).join("\n") ||
+                    "All tests passed — no output."
+                  : `Press RUN TESTS or ${formatRunTestsHotkey()} to execute.`}
+              </pre>
+            </>
+          )}
         </div>
       </section>
     </main>

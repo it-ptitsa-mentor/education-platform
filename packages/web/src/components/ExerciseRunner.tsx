@@ -57,6 +57,26 @@ const mergeDraft = (
   return merged;
 };
 
+// ── Self-check progress in localStorage ──
+
+const selfCheckKey = (slug: string) => `ptitsa.trainer.selfcheck.v1:${slug}`;
+
+const readSelfCheck = (slug: string): boolean => {
+  try {
+    return localStorage.getItem(selfCheckKey(slug)) === "done";
+  } catch {
+    return false;
+  }
+};
+
+const writeSelfCheck = (slug: string) => {
+  try {
+    localStorage.setItem(selfCheckKey(slug), "done");
+  } catch {
+    // ignore
+  }
+};
+
 type ExerciseRunnerProps = {
   slug: string;
   embedded?: boolean;
@@ -75,12 +95,19 @@ export const ExerciseRunner = ({
   const [result, setResult] = useState<CheckResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [passedNotified, setPassedNotified] = useState(false);
+  const [selfCheckDone, setSelfCheckDone] = useState(false);
+  const [showSolution, setShowSolution] = useState(false);
+
+  const isStub = (exercise?.testClass ?? "missing") === "stub";
 
   const loadExercise = useCallback(async (nextSlug: string) => {
     setError(null);
     setResult(null);
     setExercise(null);
     setPassedNotified(false);
+    setShowSolution(false);
+    const done = readSelfCheck(nextSlug);
+    setSelfCheckDone(done);
     const detail = await fetchExercise(nextSlug);
     setExercise(detail);
     setFiles(mergeDraft(detail.files, readDraft(nextSlug)));
@@ -118,7 +145,7 @@ export const ExerciseRunner = ({
   }, [exercise, slug]);
 
   const handleCheck = useCallback(async () => {
-    if (!exercise || checking) return;
+    if (!exercise || checking || isStub) return;
     setChecking(true);
     setError(null);
     try {
@@ -129,10 +156,18 @@ export const ExerciseRunner = ({
     } finally {
       setChecking(false);
     }
-  }, [checking, exercise, files, slug]);
+  }, [checking, exercise, files, isStub, slug]);
 
+  const handleSelfCheckDone = useCallback(() => {
+    writeSelfCheck(slug);
+    setSelfCheckDone(true);
+    setShowSolution(true);
+    onPassed?.();
+  }, [onPassed, slug]);
+
+  // Hotkeys only for non-stub exercises
   useExerciseHotkeys({
-    enabled: Boolean(exercise) && !checking,
+    enabled: Boolean(exercise) && !checking && !isStub,
     onRunTests: () => {
       void handleCheck();
     },
@@ -150,6 +185,46 @@ export const ExerciseRunner = ({
     );
   }
 
+  // ── Self-check button (for stub exercises) ──
+  const selfCheckButton = (
+    <button
+      type="button"
+      className={`check-btn self-check-btn${selfCheckDone ? " self-check-btn--done" : ""}`}
+      onClick={handleSelfCheckDone}
+      disabled={!exercise}
+      title="Отметить задание как выполненное"
+    >
+      <span className="check-btn-icon" aria-hidden>
+        {selfCheckDone ? (
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path
+              d="M3 7.5L6 10.5L11 4"
+              stroke="currentColor"
+              strokeWidth="1.75"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        ) : (
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <circle cx="7" cy="7" r="5.5" stroke="currentColor" strokeWidth="1.5" />
+            <path
+              d="M4.5 7L6.5 9L9.5 5"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        )}
+      </span>
+      <span className="check-btn-label">
+        {selfCheckDone ? "ВЫПОЛНЕНО" : "Я СПРАВИЛСЯ"}
+      </span>
+    </button>
+  );
+
+  // ── Normal RUN TESTS button ──
   const runTestsButton = (
     <button
       type="button"
@@ -180,6 +255,8 @@ export const ExerciseRunner = ({
     </button>
   );
 
+  const actionButton = isStub ? selfCheckButton : runTestsButton;
+
   return (
     <div className={`exercise-runner${embedded ? " exercise-runner--embedded" : ""}`}>
       {!embedded ? (
@@ -202,7 +279,13 @@ export const ExerciseRunner = ({
             )}
           </div>
 
-          {runTestsButton}
+          {isStub && (
+            <span className="no-autocheck-badge" title="Это задание проверяется самостоятельно">
+              без автопроверки
+            </span>
+          )}
+
+          {actionButton}
         </div>
       ) : null}
 
@@ -223,11 +306,15 @@ export const ExerciseRunner = ({
           activeFile={activeFile}
           onActiveFileChange={setActiveFile}
           onFileChange={handleFileChange}
-          result={result}
-          onRunTests={() => void handleCheck()}
+          result={isStub ? null : result}
+          onRunTests={isStub ? undefined : () => void handleCheck()}
           onResetFiles={handleResetFiles}
-          headerActions={embedded ? runTestsButton : undefined}
+          headerActions={embedded ? actionButton : undefined}
           embedded={embedded}
+          isStub={isStub}
+          selfCheckDone={selfCheckDone}
+          onSelfCheckDone={handleSelfCheckDone}
+          solutionFiles={showSolution ? exercise.solutionFiles : undefined}
         />
       ) : (
         !error && (

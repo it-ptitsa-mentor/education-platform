@@ -47,6 +47,7 @@ describe("groupExercisesByCategory", () => {
         language: "javascript",
         categoryId: "js-basics",
         categoryName: "Основы JavaScript",
+        testClass: "custom",
       },
       {
         slug: "a",
@@ -54,6 +55,7 @@ describe("groupExercisesByCategory", () => {
         language: "javascript",
         categoryId: "js-basics",
         categoryName: "Основы JavaScript",
+        testClass: "custom",
       },
       {
         slug: "css",
@@ -61,6 +63,7 @@ describe("groupExercisesByCategory", () => {
         language: "html",
         categoryId: "css-flex",
         categoryName: "CSS: Flex",
+        testClass: "stub",
       },
     ]);
 

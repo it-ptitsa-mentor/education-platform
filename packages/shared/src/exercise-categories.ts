@@ -1,4 +1,5 @@
 import type { ExerciseLanguage, ExerciseManifest } from "./exercise-manifest-types.js";
+import type { ExerciseTestClass } from "./exercise-test-classify.js";
 
 export type ExerciseCategoryMeta = {
   categoryId: string;
@@ -33,15 +34,19 @@ export type CategorizedExerciseSummary = {
   language: ExerciseLanguage;
   categoryId: string;
   categoryName: string;
+  /** Present when the caller can classify the exercise (build-time / static API). */
+  testClass?: ExerciseTestClass;
 };
 
 export const toCategorizedExerciseSummary = (
   manifest: Pick<ExerciseManifest, "slug" | "title" | "language" | "hexlet">,
+  testClass: ExerciseTestClass = "missing",
 ): CategorizedExerciseSummary => ({
   slug: manifest.slug,
   title: manifest.title,
   language: manifest.language,
   ...resolveExerciseCategory(manifest),
+  testClass,
 });
 
 export type ExerciseCategoryGroup = {
