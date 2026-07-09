@@ -2847,6 +2847,8 @@ body.is-resizing-vertical {
   text-transform: uppercase;
   color: var(--text-subtle);
 }
+/* Standalone exercise runner — flex column to fill exercise-page */
+.exercise-runner { display: flex; flex-direction: column; flex: 1; min-height: 0; }
 .exercise-runner--embedded { flex: 1; min-height: 0; display: flex; flex-direction: column; overflow: hidden; width: 100%; }
 .exercise-runner--embedded .exercise-workspace,
 .exercise-runner--embedded .workspace {
@@ -3679,5 +3681,315 @@ body.is-resizing-vertical {
     .topic-lessons-modal-panel {
       padding-bottom: env(safe-area-inset-bottom);
     }
+  }
+}
+
+/* ══════════════════════════════════════════════════════════
+   MOBILE EXERCISE WORKSPACE — Tab UX + Fixed Action Bar
+   ≤768px: Условие / Код / Вывод tabs, 56px bottom bar
+   ══════════════════════════════════════════════════════════ */
+
+/* ── Segment control (hidden on desktop) ─────────────── */
+.workspace-mobile-tabs {
+  display: none;
+}
+
+/* ── Mobile fixed bottom bar (hidden on desktop) ──────── */
+.workspace-mobile-bar {
+  display: none;
+}
+
+/* ── Output dot indicator on Вывод tab ───────────────── */
+.workspace-output-dot {
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  margin-left: 0.35rem;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.workspace-output-dot--pass {
+  background: var(--pass);
+}
+
+.workspace-output-dot--fail {
+  background: var(--fail);
+}
+
+/* ── Resize handles: hide grip on pure-touch devices ────
+   Only show interactive handles on devices that support hover
+   (i.e. desktop pointer). On touch-only, they're useless. ── */
+@media (hover: none) {
+  .resize-handle {
+    display: none;
+  }
+}
+
+/* ── Quiz options: min 44px touch target ──────────────── */
+.quiz-option {
+  min-height: 44px;
+}
+
+/* ══════════════════════════════════════════════════════════
+   MOBILE WORKSPACE: ≤768px — full tab-based layout
+   ══════════════════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+  /* ── Override 900px stacked grid with tab-based flex ── */
+  .workspace {
+    /* Force flex column, override the grid from 900px breakpoint */
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: unset !important;
+    grid-template-rows: unset !important;
+    /* Let flex parent (exercise-page, lesson-main--fill) control height */
+    flex: 1 !important;
+    min-height: 0 !important;
+    height: auto !important;
+    /* Bottom padding = fixed bar height + safe area (bar is portal, but still pad content) */
+    padding-bottom: calc(56px + env(safe-area-inset-bottom, 0px));
+    overflow: hidden;
+    /* CRITICAL: Disable animation to prevent transform from creating a
+       new containing block that breaks position:fixed in .workspace-mobile-bar.
+       The fade-up animation applies transform and blocks fixed descendants. */
+    animation: none !important;
+    opacity: 1 !important;
+  }
+
+  /* Embedded workspace fills its container */
+  .exercise-runner--embedded .workspace {
+    flex: 1 !important;
+    min-height: 0 !important;
+  }
+
+  /* ── Mobile segment tab control ── */
+  .workspace-mobile-tabs {
+    display: flex;
+    flex-shrink: 0;
+    gap: 0;
+    padding: 0 0.75rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--panel-head-bg);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .workspace-mobile-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    flex: 1;
+    justify-content: center;
+    padding: 0.7rem 0.5rem;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    color: var(--text-muted);
+    font-family: var(--font-ui);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 160ms ease, border-color 160ms ease;
+    white-space: nowrap;
+    /* Min 44px touch target */
+    min-height: 44px;
+  }
+
+  .workspace-mobile-tab.is-active {
+    color: var(--text);
+    border-bottom-color: var(--accent);
+  }
+
+  .workspace-mobile-tab:hover:not(.is-active) {
+    color: var(--text);
+  }
+
+  /* ── Panel visibility based on data-mobile-tab ── */
+
+  /* Default: hide everything, then show only active panel */
+  .workspace > .readme-panel {
+    display: none;
+    flex: 1;
+    min-height: 0;
+    border-right: 0;
+    border-bottom: none;
+  }
+
+  .workspace > .resize-handle--horizontal {
+    display: none !important;
+  }
+
+  .workspace > .editor-stack {
+    display: none;
+    flex: 1;
+    min-height: 0;
+    /* Reset grid rows — on mobile code tab fills all height */
+    grid-template-rows: 1fr 0 0 !important;
+  }
+
+  /* Brief tab */
+  .workspace[data-mobile-tab="brief"] > .readme-panel {
+    display: flex;
+  }
+
+  /* Code tab */
+  .workspace[data-mobile-tab="code"] > .editor-stack {
+    display: grid;
+    grid-template-rows: 1fr 0 0 !important;
+  }
+
+  .workspace[data-mobile-tab="code"] .output-panel {
+    display: none;
+  }
+
+  .workspace[data-mobile-tab="code"] .resize-handle--vertical {
+    display: none !important;
+  }
+
+  .workspace[data-mobile-tab="code"] .editor-panel {
+    display: flex;
+    /* Editor fills remaining flex space — parent is flex:1 column */
+    flex: 1;
+    min-height: 0;
+  }
+
+  /* Output tab */
+  .workspace[data-mobile-tab="output"] > .editor-stack {
+    display: grid;
+    grid-template-rows: 0 0 1fr !important;
+  }
+
+  .workspace[data-mobile-tab="output"] .editor-panel {
+    display: none;
+  }
+
+  .workspace[data-mobile-tab="output"] .resize-handle--vertical {
+    display: none !important;
+  }
+
+  .workspace[data-mobile-tab="output"] .output-panel {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+    border-top: none;
+  }
+
+  /* ── Header actions (inside brief panel): hide on mobile since
+     we have the bottom action bar ── */
+  .workspace .readme-panel-actions {
+    display: none;
+  }
+
+  /* ── Fixed bottom action bar ── */
+  .workspace-mobile-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    height: calc(56px + env(safe-area-inset-bottom, 0px));
+    padding: 0 1rem env(safe-area-inset-bottom, 0px);
+    background: var(--panel-head-bg);
+    border-top: 1px solid var(--border);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  /* ── Mobile nav buttons (prev/next) ── */
+  .workspace-mobile-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex-shrink: 0;
+  }
+
+  .workspace-mobile-nav-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* 44×44 tap target */
+    width: 44px;
+    height: 44px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--surface-raised);
+    color: var(--text-muted);
+    text-decoration: none;
+    cursor: pointer;
+    transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+    flex-shrink: 0;
+  }
+
+  .workspace-mobile-nav-btn:hover {
+    border-color: var(--border-strong);
+    color: var(--text);
+    background: var(--surface-hover);
+  }
+
+  .workspace-mobile-nav-btn--disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  /* ── Mobile action button (run / self-check) ── */
+  .workspace-mobile-action {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .workspace-mobile-run-btn {
+    /* Override check-btn sizing for mobile bar */
+    height: 44px !important;
+    padding: 0 1.25rem !important;
+    font-size: var(--text-sm) !important;
+  }
+
+  /* ── Standalone exercise toolbar: hide on mobile (bar replaces it) ── */
+  .exercise-toolbar .check-btn {
+    display: none;
+  }
+
+  /* ── Readme panel: scrollable with padding for bar ── */
+  .workspace .readme {
+    padding-bottom: 0.5rem;
+  }
+
+  /* ── Output log: scrollable ── */
+  .workspace .output-log,
+  .workspace .self-check-output-body {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* ── Horizontal scroll prevention ── */
+  .workspace,
+  .workspace * {
+    max-width: 100%;
+  }
+
+  /* ── Exercise toolbar (standalone): compact layout ── */
+  .exercise-toolbar {
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  /* ── Panel kicker: hide decorative labels on tiny screens ── */
+  .workspace .panel-kicker:not(.panel-kicker--inline) {
+    display: none;
+  }
+
+  /* ── Resize handles: always hidden in tab mode ── */
+  .workspace .resize-handle {
+    display: none !important;
   }
 }

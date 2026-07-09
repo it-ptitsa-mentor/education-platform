@@ -3,7 +3,7 @@ import { Navigate } from "react-router-dom";
 import { isUnitDone, markUnitDone } from "../course";
 import { ExercisePassModal } from "../components/ExercisePassModal";
 import { ExerciseRunner } from "../components/ExerciseRunner";
-import { lessonFooterNext, lessonUnitPath } from "../lib/lesson-units";
+import { lessonFooterNext, lessonFooterPrev, lessonUnitPath } from "../lib/lesson-units";
 import { useLesson } from "./lesson-context";
 
 export const LessonExerciseStep = () => {
@@ -12,6 +12,7 @@ export const LessonExerciseStep = () => {
   void progressVersion;
 
   const continueLink = lessonFooterNext(current, allLessons, "exercise");
+  const prevLink = lessonFooterPrev(current, allLessons, "exercise");
   const [showPassModal, setShowPassModal] = useState(
     () => isUnitDone(current.id, "exercise") && Boolean(continueLink),
   );
@@ -25,6 +26,8 @@ export const LessonExerciseStep = () => {
       <ExerciseRunner
         slug={lesson.exercise}
         embedded
+        mobilePrevHref={prevLink?.to ?? null}
+        mobileNextHref={continueLink?.to ?? null}
         onPassed={() => {
           markUnitDone(current.id, "exercise");
           refreshProgress();

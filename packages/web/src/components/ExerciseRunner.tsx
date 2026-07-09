@@ -81,12 +81,17 @@ type ExerciseRunnerProps = {
   slug: string;
   embedded?: boolean;
   onPassed?: () => void;
+  /** Mobile bottom-bar navigation hrefs (passed through to ExerciseWorkspace). */
+  mobilePrevHref?: string | null;
+  mobileNextHref?: string | null;
 };
 
 export const ExerciseRunner = ({
   slug,
   embedded = false,
   onPassed,
+  mobilePrevHref,
+  mobileNextHref,
 }: ExerciseRunnerProps) => {
   const [exercise, setExercise] = useState<ExerciseDetail | null>(null);
   const [files, setFiles] = useState<Record<string, string>>({});
@@ -315,6 +320,9 @@ export const ExerciseRunner = ({
           selfCheckDone={selfCheckDone}
           onSelfCheckDone={handleSelfCheckDone}
           solutionFiles={showSolution ? exercise.solutionFiles : undefined}
+          checking={checking}
+          mobilePrevHref={mobilePrevHref}
+          mobileNextHref={mobileNextHref}
         />
       ) : (
         !error && (
