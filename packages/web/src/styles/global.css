@@ -3129,6 +3129,38 @@ body.is-resizing-vertical {
 .lesson-footer-nav-title { font-weight: 600; font-size: var(--text-xs); line-height: 1.35; color: var(--text); }
 .lesson-footer-nav-hint { font-size: var(--text-2xs); color: var(--text-muted); line-height: 1.3; }
 
+/* === Sidebar prev/next nav (desktop: visible in aside; mobile: hidden — footer nav used instead) === */
+.lesson-aside-nav {
+  position: sticky;
+  bottom: 0;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+}
+/* In exercise mode sidebar is always a drawer — hide nav there */
+.lesson-layout--focus .lesson-aside-nav { display: none; }
+
+.lesson-aside-nav .lesson-footer-nav {
+  flex-direction: column;
+  border-top: none;
+  padding: 0;
+  margin-top: 0;
+  gap: 0.5rem;
+}
+.lesson-aside-nav .lesson-footer-nav-link--prev,
+.lesson-aside-nav .lesson-footer-nav-link--next,
+.lesson-aside-nav .lesson-footer-nav-block--disabled {
+  flex: none;
+  width: 100%;
+  margin-left: 0;
+  text-align: left;
+  align-items: flex-start;
+}
+
+/* Footer nav in main content: hidden on desktop (sidebar handles it), shown on mobile */
+.lesson-footer-nav-mobile-only { display: none; }
+
 /* Lesson aside toggle for theory mode: hidden on desktop, visible on mobile */
 .lesson-aside-toggle--theory {
   display: none;
@@ -3181,6 +3213,10 @@ body.is-resizing-vertical {
   }
   .lesson-main-header-row .lesson-steps::-webkit-scrollbar { display: none; }
   .lesson-main-header-row .lesson-step { flex-shrink: 0; }
+
+  /* On mobile sidebar is a drawer: hide sidebar nav, show footer nav instead */
+  .lesson-aside-nav { display: none; }
+  .lesson-footer-nav-mobile-only { display: block; }
 }
 
 @media (max-width: 480px) {

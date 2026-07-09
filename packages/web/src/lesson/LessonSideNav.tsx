@@ -10,6 +10,7 @@ import { useLesson } from "./lesson-context";
 
 type LessonSideNavProps = {
   activeUnit: LessonUnit;
+  onNavigate?: () => void;
 };
 
 const SideNavLink = ({
@@ -62,7 +63,7 @@ const SideNavLink = ({
   );
 };
 
-export const LessonSideNav = ({ activeUnit }: LessonSideNavProps) => {
+export const LessonSideNav = ({ activeUnit, onNavigate }: LessonSideNavProps) => {
   const { current, allLessons, progressVersion, refreshProgress } = useLesson();
   void progressVersion;
 
@@ -73,13 +74,14 @@ export const LessonSideNav = ({ activeUnit }: LessonSideNavProps) => {
       markUnitDone(current.id, "theory");
       refreshProgress();
     }
+    onNavigate?.();
   };
 
   if (!prev && !next) return null;
 
   return (
     <nav className="lesson-footer-nav" aria-label="Навигация по уроку">
-      <SideNavLink direction="prev" link={prev} />
+      <SideNavLink direction="prev" link={prev} onNavigate={onNavigate} />
       <SideNavLink
         direction="next"
         link={next}

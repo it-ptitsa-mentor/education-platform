@@ -226,7 +226,11 @@ export const LessonLayout = () => {
               </div>
             </div>
 
-            {!isExerciseFocus && <LessonSideNav activeUnit={activeUnit} />}
+            {!isExerciseFocus && (
+              <div className="lesson-footer-nav-mobile-only">
+                <LessonSideNav activeUnit={activeUnit} />
+              </div>
+            )}
           </div>
         </main>
       </div>
