@@ -51,6 +51,8 @@ export const ResizeHandle = ({
           document.body.classList.add("is-resizing-vertical");
         }
       }}
-    />
+    >
+      <span className="resize-grip" aria-hidden />
+    </button>
   );
 };
