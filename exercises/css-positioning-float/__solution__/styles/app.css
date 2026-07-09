@@ -1,0 +1,25 @@
+/* Трёхколоночный макет с float */
+.left-column {
+  float: left;
+  width: 200px;
+}
+
+.right-column {
+  float: right;
+  width: 200px;
+}
+
+.center-column {
+  float: left;
+  width: calc(100% - 400px);
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  clear: both;
+}

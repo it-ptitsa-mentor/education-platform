@@ -1,0 +1,16 @@
+/* Три сетки: header, main, footer */
+
+.grid-header {
+  display: grid;
+  grid-template-columns: max-content 1fr 200px;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 150px);
+}

@@ -1,0 +1,13 @@
+/* Оформление цитаты */
+.quote {
+  color: #404040;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.quote-author {
+  font-weight: normal;
+  font-size: 16px;
+  text-align: right;
+}

@@ -1,0 +1,17 @@
+/* Смешивание цветов через z-index и позиционирование */
+.circle-red {
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: red;
+  opacity: 0.7;
+}
+
+.circle-blue {
+  position: absolute;
+  z-index: 2;
+  border-radius: 50%;
+  background-color: blue;
+  opacity: 0.7;
+  left: 50px;
+}

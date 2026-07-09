@@ -1,0 +1,30 @@
+/* Сетка редактора HexletCodeEditor: 6 колонок */
+
+.editor {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: max-content 1fr;
+  grid-template-areas:
+    "toolbar toolbar toolbar toolbar toolbar toolbar"
+    "sidebar editor editor editor output output";
+}
+
+.editor-toolbar {
+  grid-area: toolbar;
+  grid-column: 1 / -1;
+}
+
+.editor-sidebar {
+  grid-area: sidebar;
+  grid-column: 1 / 2;
+}
+
+.editor-code {
+  grid-area: editor;
+  grid-column: 2 / 5;
+}
+
+.editor-output {
+  grid-area: output;
+  grid-column: 5 / 7;
+}

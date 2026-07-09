@@ -1,0 +1,18 @@
+/* Карточка с описанием при наведении: relative + absolute */
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+.card:hover .card-description {
+  display: block;
+}
