@@ -1,0 +1,371 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Work 1 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+  >
+    <div
+      class="card-header"
+    >
+      Создать пост
+    </div>
+    <div
+      class="card-body"
+    >
+      <div
+        class="m-3"
+      >
+        <form
+          class=""
+        >
+          <div
+            class="row"
+          >
+            <label
+              class="form-label"
+              for="body"
+            >
+              Текст
+            </label>
+            <textarea
+              class="form-control"
+              id="body"
+              name="body"
+              rows="3"
+            />
+          </div>
+          <div
+            class="row"
+          >
+            <label
+              class="form-label col-form-label col-sm-2"
+              for="postAuthor"
+            >
+              Автор поста
+            </label>
+            <select
+              class="form-control"
+              id="postAuthor"
+              name="author"
+            >
+              <option
+                value=""
+              />
+              <option
+                value="user1"
+              >
+                User 1
+              </option>
+              <option
+                value="user2"
+              >
+                User 2
+              </option>
+              <option
+                value="user3"
+              >
+                User 3
+              </option>
+            </select>
+          </div>
+          <div
+            class="mt-3 row"
+          >
+            <button
+              class="btn btn-primary"
+              type="submit"
+            >
+              Создать пост
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mt-5"
+  >
+    <div
+      class="mt-3"
+    >
+      <div
+        class="card mb-5"
+      >
+        <div
+          class="card-header"
+        >
+          Первый пост - User 1
+        </div>
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            User 2
+          </h5>
+          <p
+            class="card-text"
+          >
+            Первый комментарий
+          </p>
+          <h5
+            class="card-title"
+          >
+            User 3
+          </h5>
+          <p
+            class="card-text"
+          >
+            Второй комментарий
+          </p>
+          <h5
+            class="card-title"
+          >
+            User 1
+          </h5>
+          <p
+            class="card-text"
+          >
+            Комментарий к 3 посту
+          </p>
+          <hr />
+          <div
+            class="m-3"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="row"
+              >
+                <label
+                  class="form-label"
+                  for="text"
+                >
+                  Комментарий
+                </label>
+                <textarea
+                  class="form-control"
+                  id="text"
+                  name="text"
+                  rows="3"
+                />
+              </div>
+              <div
+                class="row"
+              >
+                <label
+                  class="form-label col-form-label col-sm-2"
+                  for="author"
+                >
+                  Автор комментария
+                </label>
+                <select
+                  class="form-control"
+                  id="author"
+                  name="author"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="user1"
+                  >
+                    User 1
+                  </option>
+                  <option
+                    value="user2"
+                  >
+                    User 2
+                  </option>
+                  <option
+                    value="user3"
+                  >
+                    User 3
+                  </option>
+                </select>
+              </div>
+              <div
+                class="mt-3 row"
+              >
+                <button
+                  class="btn btn-primary"
+                  type="submit"
+                >
+                  Создать комментарий
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card mb-5"
+      >
+        <div
+          class="card-header"
+        >
+          Второй пост - User 2
+        </div>
+        <div
+          class="card-body"
+        >
+          <hr />
+          <div
+            class="m-3"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="row"
+              >
+                <label
+                  class="form-label"
+                  for="text"
+                >
+                  Комментарий
+                </label>
+                <textarea
+                  class="form-control"
+                  id="text"
+                  name="text"
+                  rows="3"
+                />
+              </div>
+              <div
+                class="row"
+              >
+                <label
+                  class="form-label col-form-label col-sm-2"
+                  for="author"
+                >
+                  Автор комментария
+                </label>
+                <select
+                  class="form-control"
+                  id="author"
+                  name="author"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="user1"
+                  >
+                    User 1
+                  </option>
+                  <option
+                    value="user2"
+                  >
+                    User 2
+                  </option>
+                  <option
+                    value="user3"
+                  >
+                    User 3
+                  </option>
+                </select>
+              </div>
+              <div
+                class="mt-3 row"
+              >
+                <button
+                  class="btn btn-primary"
+                  type="submit"
+                >
+                  Создать комментарий
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card mb-5"
+      >
+        <div
+          class="card-header"
+        >
+          Третий пост - User 1
+        </div>
+        <div
+          class="card-body"
+        >
+          <hr />
+          <div
+            class="m-3"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="row"
+              >
+                <label
+                  class="form-label"
+                  for="text"
+                >
+                  Комментарий
+                </label>
+                <textarea
+                  class="form-control"
+                  id="text"
+                  name="text"
+                  rows="3"
+                />
+              </div>
+              <div
+                class="row"
+              >
+                <label
+                  class="form-label col-form-label col-sm-2"
+                  for="author"
+                >
+                  Автор комментария
+                </label>
+                <select
+                  class="form-control"
+                  id="author"
+                  name="author"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="user1"
+                  >
+                    User 1
+                  </option>
+                  <option
+                    value="user2"
+                  >
+                    User 2
+                  </option>
+                  <option
+                    value="user3"
+                  >
+                    User 3
+                  </option>
+                </select>
+              </div>
+              <div
+                class="mt-3 row"
+              >
+                <button
+                  class="btn btn-primary"
+                  type="submit"
+                >
+                  Создать комментарий
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

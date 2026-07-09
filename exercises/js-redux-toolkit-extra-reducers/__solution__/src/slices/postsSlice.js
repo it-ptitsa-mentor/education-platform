@@ -1,24 +1,34 @@
-import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';
-import usersSlice from './usersSlice.js';
+// @ts-check
 
-const postsAdapter = createEntityAdapter();
+import { createSlice, createEntityAdapter } from "@reduxjs/toolkit"
+import { actions as usersActions } from "./usersSlice.js"
+
+const postsAdapter = createEntityAdapter()
+
+const initialState = postsAdapter.getInitialState()
 
 const postsSlice = createSlice({
-  name: 'posts',
-  initialState: postsAdapter.getInitialState(),
+  name: "posts",
+  initialState,
   reducers: {
-    addManyPosts: postsAdapter.addMany,
-    removePost: postsAdapter.removeOne,
+    addPosts: postsAdapter.addMany,
+    addPost: postsAdapter.addOne,
+    updatePost: postsAdapter.updateOne,
+    // При удалении поста передается весь пост
+    removePost: (state, { payload }) => postsAdapter.removeOne(state, payload.id),
   },
+  // BEGIN (write your solution here)
   extraReducers: (builder) => {
-    builder.addCase(usersSlice.actions.removeUser, (state, action) => {
-      const userId = action.payload;
-      const remaining = Object.values(state.entities).filter(
-        (post) => post.author !== userId,
-      );
-      postsAdapter.setAll(state, remaining);
-    });
+    builder.addCase(usersActions.removeUser, (state, { payload: userId }) => {
+      const idsToRemove = Object.values(state.entities)
+        .filter(post => post.author === userId)
+        .map(post => post.id)
+      postsAdapter.removeMany(state, idsToRemove)
+    })
   },
-});
+  // END
+})
 
-export default postsSlice;
+export const { actions } = postsSlice
+export const selectors = postsAdapter.getSelectors(state => state.posts)
+export default postsSlice.reducer

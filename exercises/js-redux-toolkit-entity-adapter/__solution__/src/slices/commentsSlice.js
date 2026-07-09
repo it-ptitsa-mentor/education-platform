@@ -1,16 +1,20 @@
-import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';
+// @ts-check
 
-const commentsAdapter = createEntityAdapter();
+import { createSlice, createEntityAdapter } from "@reduxjs/toolkit"
+
+// BEGIN (write your solution here)
+const commentsAdapter = createEntityAdapter()
 
 const commentsSlice = createSlice({
-  name: 'comments',
+  name: "comments",
   initialState: commentsAdapter.getInitialState(),
   reducers: {
-    addOneComment: commentsAdapter.addOne,
-    addManyComments: commentsAdapter.addMany,
+    addComment: commentsAdapter.addOne,
+    addComments: commentsAdapter.addMany,
   },
-});
+})
 
-export const commentsSelectors = commentsAdapter.getSelectors((state) => state.comments);
-
-export default commentsSlice;
+export const { actions } = commentsSlice
+export const selectors = commentsAdapter.getSelectors(state => state.comments)
+export default commentsSlice.reducer
+// END

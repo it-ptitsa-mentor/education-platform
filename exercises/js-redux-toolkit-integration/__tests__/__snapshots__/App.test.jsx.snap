@@ -1,0 +1,211 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Store 1`] = `
+<DocumentFragment>
+  <div
+    class="col-5"
+  >
+    <form
+      action=""
+      class="form-inline"
+    >
+      <div
+        class="form-group mx-sm-3"
+      >
+        <input
+          data-testid="input"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <input
+        class="btn btn-primary btn-sm"
+        data-testid="submit"
+        type="submit"
+        value="Add"
+      />
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Store 2`] = `
+<DocumentFragment>
+  <div
+    class="col-5"
+  >
+    <form
+      action=""
+      class="form-inline"
+    >
+      <div
+        class="form-group mx-sm-3"
+      >
+        <input
+          data-testid="input"
+          required=""
+          type="text"
+          value="na-na"
+        />
+      </div>
+      <input
+        class="btn btn-primary btn-sm"
+        data-testid="submit"
+        type="submit"
+        value="Add"
+      />
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Store 3`] = `
+<DocumentFragment>
+  <div
+    class="col-5"
+  >
+    <form
+      action=""
+      class="form-inline"
+    >
+      <div
+        class="form-group mx-sm-3"
+      >
+        <input
+          data-testid="input"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <input
+        class="btn btn-primary btn-sm"
+        data-testid="submit"
+        type="submit"
+        value="Add"
+      />
+    </form>
+    <div
+      class="mt-3"
+    >
+      <ul
+        class="list-group"
+      >
+        <li
+          class="list-group-item d-flex"
+        >
+          <span
+            class="mr-auto"
+          >
+            na-na
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Store 4`] = `
+<DocumentFragment>
+  <div
+    class="col-5"
+  >
+    <form
+      action=""
+      class="form-inline"
+    >
+      <div
+        class="form-group mx-sm-3"
+      >
+        <input
+          data-testid="input"
+          required=""
+          type="text"
+          value="another task"
+        />
+      </div>
+      <input
+        class="btn btn-primary btn-sm"
+        data-testid="submit"
+        type="submit"
+        value="Add"
+      />
+    </form>
+    <div
+      class="mt-3"
+    >
+      <ul
+        class="list-group"
+      >
+        <li
+          class="list-group-item d-flex"
+        >
+          <span
+            class="mr-auto"
+          >
+            na-na
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Store 5`] = `
+<DocumentFragment>
+  <div
+    class="col-5"
+  >
+    <form
+      action=""
+      class="form-inline"
+    >
+      <div
+        class="form-group mx-sm-3"
+      >
+        <input
+          data-testid="input"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <input
+        class="btn btn-primary btn-sm"
+        data-testid="submit"
+        type="submit"
+        value="Add"
+      />
+    </form>
+    <div
+      class="mt-3"
+    >
+      <ul
+        class="list-group"
+      >
+        <li
+          class="list-group-item d-flex"
+        >
+          <span
+            class="mr-auto"
+          >
+            na-na
+          </span>
+        </li>
+        <li
+          class="list-group-item d-flex"
+        >
+          <span
+            class="mr-auto"
+          >
+            another task
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

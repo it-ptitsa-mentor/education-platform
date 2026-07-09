@@ -1,15 +1,25 @@
-import { createStore } from 'redux';
-import omit from 'lodash/omit.js';
+// @ts-check
 
+import { createStore } from 'redux'
+import { omit } from 'es-toolkit/compat';
+
+// BEGIN (write your solution here)
 const reducer = (state = {}, action) => {
   switch (action.type) {
-    case 'ADD_TASK':
-      return { ...state, [action.payload.id]: action.payload };
-    case 'REMOVE_TASK':
-      return omit(state, action.payload);
+    case 'TASK_ADD': {
+      const { task } = action.payload
+      return { ...state, [task.id]: task }
+    }
+    case 'TASK_REMOVE': {
+      const { id } = action.payload
+      return omit(state, [id])
+    }
     default:
-      return state;
+      return state
   }
-};
+}
 
-export default (initialState) => createStore(reducer, initialState);
+const generateStore = (initialState = {}) => createStore(reducer, initialState)
+
+export default generateStore
+// END

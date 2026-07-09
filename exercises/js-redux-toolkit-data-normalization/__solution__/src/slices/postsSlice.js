@@ -1,15 +1,25 @@
-import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';
+// @ts-check
 
-const postsAdapter = createEntityAdapter();
+import { createSlice } from "@reduxjs/toolkit"
+
+const initialState = {
+  ids: [],
+  entities: {},
+}
 
 const postsSlice = createSlice({
-  name: 'posts',
-  initialState: postsAdapter.getInitialState(),
+  name: "posts",
+  initialState,
   reducers: {
-    addManyPosts: postsAdapter.addMany,
+    setPosts(state, { payload }) {
+      // BEGIN (write your solution here)
+      const { entities, ids } = payload
+      state.entities = entities
+      state.ids = ids
+      // END
+    },
   },
-});
+})
 
-export const postsSelectors = postsAdapter.getSelectors((state) => state.posts);
-
-export default postsSlice;
+export const { actions } = postsSlice
+export default postsSlice.reducer

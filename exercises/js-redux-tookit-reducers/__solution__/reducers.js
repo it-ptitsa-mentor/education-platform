@@ -1,27 +1,47 @@
-import { combineReducers } from 'redux';
-import omitBy from 'lodash/omitBy.js';
-import omit from 'lodash/omit.js';
+// @ts-check
 
-const tasksReducer = (state = {}, action) => {
+import { combineReducers } from 'redux'
+import { omitBy,omit } from 'es-toolkit/compat';
+
+const comments = (state = {}, action) => {
+  // BEGIN (write your solution here)
   switch (action.type) {
-    case 'ADD_TASK':
-      return { ...state, [action.payload.id]: action.payload };
-    case 'REMOVE_TASK':
-      return omit(state, action.payload);
+    case 'TASK_COMMENT_ADD': {
+      const { comment } = action.payload
+      return { ...state, [comment.id]: comment }
+    }
+    case 'TASK_COMMENT_REMOVE': {
+      const { id } = action.payload
+      return omit(state, [id])
+    }
+    case 'TASK_REMOVE': {
+      const { id } = action.payload
+      return omitBy(state, (comment) => comment.taskId === id)
+    }
     default:
-      return state;
+      return state
   }
-};
+  // END
+}
 
-const commentsReducer = (state = {}, action) => {
+const tasks = (state = {}, action) => {
+  // BEGIN (write your solution here)
   switch (action.type) {
-    case 'ADD_COMMENT':
-      return { ...state, [action.payload.id]: action.payload };
-    case 'REMOVE_TASK':
-      return omitBy(state, (comment) => comment.taskId === action.payload);
+    case 'TASK_ADD': {
+      const { task } = action.payload
+      return { ...state, [task.id]: task }
+    }
+    case 'TASK_REMOVE': {
+      const { id } = action.payload
+      return omit(state, [id])
+    }
     default:
-      return state;
+      return state
   }
-};
+  // END
+}
 
-export default combineReducers({ tasks: tasksReducer, comments: commentsReducer });
+export default combineReducers({
+  comments,
+  tasks,
+})
