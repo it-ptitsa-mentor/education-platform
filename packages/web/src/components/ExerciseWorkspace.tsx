@@ -90,7 +90,7 @@ export const ExerciseWorkspace = ({
   return (
     <main
       className={`workspace${embedded ? " exercise-workspace" : ""}`}
-      style={{ gridTemplateColumns: `${readmeColumn} 1px 1fr` }}
+      style={{ gridTemplateColumns: `${readmeColumn} 8px 1fr` }}
     >
       <aside className="readme-panel panel glass-panel">
         <div className="panel-corners" aria-hidden />
@@ -119,7 +119,7 @@ export const ExerciseWorkspace = ({
 
       <section
         className="editor-stack"
-        style={{ gridTemplateRows: `1fr 1px ${layout.outputHeight}px` }}
+        style={{ gridTemplateRows: `1fr 8px ${layout.outputHeight}px` }}
       >
         <div className="editor-panel panel glass-panel">
           <div className="panel-corners" aria-hidden />

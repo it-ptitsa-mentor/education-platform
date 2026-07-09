@@ -1777,32 +1777,113 @@ body.is-resizing-vertical {
   position: relative;
   z-index: 5;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.resize-handle--horizontal {
-  width: 1px;
-  cursor: col-resize;
+/* Thin visible line in the center of the handle slot */
+.resize-handle::before {
+  content: "";
+  position: absolute;
   background: var(--border);
-  transition: background 140ms ease;
+  transition: background 200ms ease;
+}
+
+/* Grip dots in the middle of the handle */
+.resize-grip {
+  position: relative;
+  z-index: 1;
+  border-radius: 3px;
+  background: var(--border-strong);
+  /* Three-dot pattern via box-shadow */
+  transition: background 200ms ease, box-shadow 200ms ease;
+}
+
+/* ── Horizontal handle (vertical divider: col-resize) ── */
+
+.resize-handle--horizontal {
+  width: 8px;
+  align-self: stretch;
+  cursor: col-resize;
+}
+
+.resize-handle--horizontal::before {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  transform: translateX(-50%);
+}
+
+.resize-handle--horizontal .resize-grip {
+  width: 4px;
+  height: 4px;
+  /* dots above and below */
+  box-shadow:
+    0 -9px 0 var(--border-strong),
+    0  9px 0 var(--border-strong);
 }
 
 .resize-handle--horizontal:hover,
 .resize-handle--horizontal:focus-visible {
-  background: var(--accent);
   outline: none;
 }
 
+.resize-handle--horizontal:hover::before,
+.resize-handle--horizontal:focus-visible::before {
+  background: var(--accent);
+}
+
+.resize-handle--horizontal:hover .resize-grip,
+.resize-handle--horizontal:focus-visible .resize-grip {
+  background: var(--accent);
+  box-shadow:
+    0 -9px 0 var(--accent),
+    0  9px 0 var(--accent);
+}
+
+/* ── Vertical handle (horizontal divider: row-resize) ── */
+
 .resize-handle--vertical {
-  height: 1px;
+  height: 8px;
+  align-self: auto;
   cursor: row-resize;
-  background: var(--border);
-  transition: background 140ms ease;
+}
+
+.resize-handle--vertical::before {
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  transform: translateY(-50%);
+}
+
+.resize-handle--vertical .resize-grip {
+  width: 4px;
+  height: 4px;
+  /* dots to the left and right */
+  box-shadow:
+    -9px 0 0 var(--border-strong),
+     9px 0 0 var(--border-strong);
 }
 
 .resize-handle--vertical:hover,
 .resize-handle--vertical:focus-visible {
-  background: var(--accent);
   outline: none;
+}
+
+.resize-handle--vertical:hover::before,
+.resize-handle--vertical:focus-visible::before {
+  background: var(--accent);
+}
+
+.resize-handle--vertical:hover .resize-grip,
+.resize-handle--vertical:focus-visible .resize-grip {
+  background: var(--accent);
+  box-shadow:
+    -9px 0 0 var(--accent),
+     9px 0 0 var(--accent);
 }
 
 .resize-handle--static {
@@ -1905,7 +1986,7 @@ body.is-resizing-vertical {
 
   .workspace {
     grid-template-columns: 1fr !important;
-    grid-template-rows: minmax(180px, 28vh) 1px 1fr;
+    grid-template-rows: minmax(180px, 28vh) 8px 1fr;
     height: auto;
     min-height: calc(100vh - 6rem);
   }
@@ -1915,10 +1996,36 @@ body.is-resizing-vertical {
     border-bottom: 1px solid var(--border);
   }
 
+  /* On mobile the horizontal handle becomes row-resize */
   .resize-handle--horizontal {
     width: 100%;
-    height: 1px;
+    height: 8px;
     cursor: row-resize;
+    /* Swap ::before to horizontal line */
+  }
+
+  .resize-handle--horizontal::before {
+    top: 50%;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 1px;
+    transform: translateY(-50%);
+  }
+
+  /* Swap grip dots to horizontal orientation */
+  .resize-handle--horizontal .resize-grip {
+    box-shadow:
+      -9px 0 0 var(--border-strong),
+       9px 0 0 var(--border-strong);
+  }
+
+  .resize-handle--horizontal:hover .resize-grip,
+  .resize-handle--horizontal:focus-visible .resize-grip {
+    box-shadow:
+      -9px 0 0 var(--accent),
+       9px 0 0 var(--accent);
   }
 
   .editor-stack {
@@ -1927,7 +2034,7 @@ body.is-resizing-vertical {
 
   .exercise-runner--embedded .workspace {
     grid-template-columns: 1fr !important;
-    grid-template-rows: clamp(10rem, 34%, 16rem) 1px minmax(0, 1fr);
+    grid-template-rows: clamp(10rem, 34%, 16rem) 8px minmax(0, 1fr);
     height: 100%;
     min-height: 0;
     flex: 1;
