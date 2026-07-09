@@ -1,5 +1,6 @@
 import Editor, { type BeforeMount, type OnMount } from "@monaco-editor/react";
-import { type ReactNode, useCallback, useEffect, useRef } from "react";
+import { type ReactNode, useCallback, useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import type { CheckResult, ExerciseDetail } from "../exercise-types";
 import { monacoThemeId, useTheme } from "../hooks/useTheme";
@@ -16,6 +17,9 @@ const SOL_PREFIX = "__sol__/";
 
 const isSolutionTab = (file: string) => file.startsWith(SOL_PREFIX);
 const solutionKey = (file: string) => `${SOL_PREFIX}${file}`;
+
+/** Mobile workspace tab */
+type MobileTab = "brief" | "code" | "output";
 
 type ExerciseWorkspaceProps = {
   exercise: ExerciseDetail;
@@ -34,6 +38,12 @@ type ExerciseWorkspaceProps = {
   onSelfCheckDone?: () => void;
   /** Solution files to display after «Я справился» — null until revealed. */
   solutionFiles?: Record<string, string>;
+  /** Whether tests are currently running (for mobile action button spinner). */
+  checking?: boolean;
+  /** Mobile fixed-bar nav: URL of previous lesson/unit. */
+  mobilePrevHref?: string | null;
+  /** Mobile fixed-bar nav: URL of next lesson/unit. */
+  mobileNextHref?: string | null;
 };
 
 export const ExerciseWorkspace = ({
@@ -51,12 +61,35 @@ export const ExerciseWorkspace = ({
   selfCheckDone = false,
   onSelfCheckDone,
   solutionFiles,
+  checking = false,
+  mobilePrevHref,
+  mobileNextHref,
 }: ExerciseWorkspaceProps) => {
   const { layout, setReadmeWidth, setOutputHeight } = usePanelLayout();
   const { theme } = useTheme();
   const editorRef = useRef<Parameters<OnMount>[0] | null>(null);
   const monacoRef = useRef<Parameters<OnMount>[1] | null>(null);
   const jsxCleanupRef = useRef<(() => void) | null>(null);
+
+  // ── Mobile tab state ──
+  const [mobileTab, setMobileTab] = useState<MobileTab>("brief");
+
+  // Reset to brief when exercise changes
+  useEffect(() => {
+    setMobileTab("brief");
+  }, [exercise.slug]);
+
+  // Auto-switch to output tab when test result arrives
+  const prevResultRef = useRef<CheckResult | null>(null);
+  useEffect(() => {
+    if (result !== null && result !== prevResultRef.current) {
+      prevResultRef.current = result;
+      setMobileTab("output");
+    }
+    if (result === null) {
+      prevResultRef.current = null;
+    }
+  }, [result]);
 
   const inSolutionView = isSolutionTab(activeFile);
   const starterFile = inSolutionView ? activeFile.slice(SOL_PREFIX.length) : activeFile;
@@ -111,13 +144,130 @@ export const ExerciseWorkspace = ({
     };
   }, [activeFile]);
 
+  // Force Monaco relayout when code tab becomes visible on mobile
+  useEffect(() => {
+    if (mobileTab === "code") {
+      const editor = editorRef.current;
+      // Small delay to let CSS apply before measuring
+      const timer = setTimeout(() => {
+        editor?.layout();
+      }, 50);
+      return () => clearTimeout(timer);
+    }
+  }, [mobileTab]);
+
   const readmeColumn = `${layout.readmeWidth}px`;
+
+  // ── Mobile action button (shown in fixed bottom bar) ──
+  const mobileActionButton = isStub ? (
+    <button
+      type="button"
+      className={`check-btn self-check-btn workspace-mobile-run-btn${selfCheckDone ? " self-check-btn--done" : ""}`}
+      onClick={onSelfCheckDone}
+      disabled={checking}
+      aria-label="Отметить задание как выполненное"
+    >
+      <span className="check-btn-icon" aria-hidden>
+        {selfCheckDone ? (
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path
+              d="M3 7.5L6 10.5L11 4"
+              stroke="currentColor"
+              strokeWidth="1.75"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        ) : (
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <circle cx="7" cy="7" r="5.5" stroke="currentColor" strokeWidth="1.5" />
+            <path
+              d="M4.5 7L6.5 9L9.5 5"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        )}
+      </span>
+      <span className="check-btn-label">{selfCheckDone ? "ВЫПОЛНЕНО" : "Я СПРАВИЛСЯ"}</span>
+    </button>
+  ) : (
+    <button
+      type="button"
+      className="check-btn workspace-mobile-run-btn"
+      onClick={onRunTests ? () => onRunTests() : undefined}
+      disabled={checking || !onRunTests}
+      aria-label={`Запустить тесты (${formatRunTestsHotkey()})`}
+    >
+      <span className="check-btn-icon" aria-hidden>
+        {checking ? (
+          <span className="spinner" />
+        ) : (
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path
+              d="M3 7.5L6 10.5L11 4"
+              stroke="currentColor"
+              strokeWidth="1.75"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        )}
+      </span>
+      <span className="check-btn-label">{checking ? "RUNNING" : "ЗАПУСТИТЬ"}</span>
+    </button>
+  );
 
   return (
     <main
       className={`workspace${embedded ? " exercise-workspace" : ""}`}
       style={{ gridTemplateColumns: `${readmeColumn} 8px 1fr` }}
+      data-mobile-tab={mobileTab}
     >
+      {/* ── Mobile: segment tab control ── */}
+      <nav
+        className="workspace-mobile-tabs"
+        role="tablist"
+        aria-label="Переключение секций тренажёра"
+      >
+        <button
+          type="button"
+          role="tab"
+          aria-selected={mobileTab === "brief"}
+          className={`workspace-mobile-tab${mobileTab === "brief" ? " is-active" : ""}`}
+          onClick={() => setMobileTab("brief")}
+        >
+          Условие
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={mobileTab === "code"}
+          className={`workspace-mobile-tab${mobileTab === "code" ? " is-active" : ""}`}
+          onClick={() => setMobileTab("code")}
+        >
+          Код
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={mobileTab === "output"}
+          className={`workspace-mobile-tab${mobileTab === "output" ? " is-active" : ""}`}
+          onClick={() => setMobileTab("output")}
+        >
+          Вывод
+          {result && (
+            <span
+              className={`workspace-output-dot workspace-output-dot--${result.passed ? "pass" : "fail"}`}
+              aria-hidden
+            />
+          )}
+        </button>
+      </nav>
+
+      {/* ── Brief / README panel ── */}
       <aside className="readme-panel panel glass-panel">
         <div className="panel-corners" aria-hidden />
         <div className="panel-head readme-panel-head">
@@ -137,12 +287,14 @@ export const ExerciseWorkspace = ({
         </article>
       </aside>
 
+      {/* ── Horizontal resize handle (desktop only via CSS) ── */}
       <ResizeHandle
         orientation="horizontal"
         label="Изменить ширину панели задания"
         onResize={(delta) => setReadmeWidth(layout.readmeWidth + delta)}
       />
 
+      {/* ── Editor + Output stack ── */}
       <section
         className="editor-stack"
         style={{ gridTemplateRows: `1fr 8px ${layout.outputHeight}px` }}
@@ -235,6 +387,7 @@ export const ExerciseWorkspace = ({
           </div>
         </div>
 
+        {/* Vertical resize handle (desktop only via CSS) */}
         <ResizeHandle
           orientation="vertical"
           label="Изменить высоту панели вывода"
@@ -330,6 +483,84 @@ export const ExerciseWorkspace = ({
           )}
         </div>
       </section>
+
+      {/* ── Mobile: fixed bottom action bar ── */}
+      <div className="workspace-mobile-bar" aria-label="Действия тренажёра">
+        {/* Left: prev/next lesson navigation */}
+        <div className="workspace-mobile-nav">
+          {mobilePrevHref ? (
+            <Link
+              to={mobilePrevHref}
+              className="workspace-mobile-nav-btn"
+              aria-label="Предыдущий урок"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden>
+                <path
+                  d="M12 5L7 10L12 15"
+                  stroke="currentColor"
+                  strokeWidth="1.75"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </Link>
+          ) : (
+            <span
+              className="workspace-mobile-nav-btn workspace-mobile-nav-btn--disabled"
+              aria-disabled="true"
+              aria-label="Нет предыдущего урока"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden>
+                <path
+                  d="M12 5L7 10L12 15"
+                  stroke="currentColor"
+                  strokeWidth="1.75"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </span>
+          )}
+          {mobileNextHref ? (
+            <Link
+              to={mobileNextHref}
+              className="workspace-mobile-nav-btn"
+              aria-label="Следующий урок"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden>
+                <path
+                  d="M8 5L13 10L8 15"
+                  stroke="currentColor"
+                  strokeWidth="1.75"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </Link>
+          ) : (
+            <span
+              className="workspace-mobile-nav-btn workspace-mobile-nav-btn--disabled"
+              aria-disabled="true"
+              aria-label="Нет следующего урока"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden>
+                <path
+                  d="M8 5L13 10L8 15"
+                  stroke="currentColor"
+                  strokeWidth="1.75"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </span>
+          )}
+        </div>
+
+        {/* Right: main action button */}
+        <div className="workspace-mobile-action">
+          {mobileActionButton}
+        </div>
+      </div>
     </main>
   );
 };
