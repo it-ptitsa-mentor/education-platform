@@ -3,6 +3,7 @@
   "title": "Frontend Bootcamp",
   "subtitle": "16 недель · CLI и JS → Web/DOM → React",
   "profession": "Frontend-разработчик",
+  "track": "frontend",
   "phases": [
     {
       "id": "p1",

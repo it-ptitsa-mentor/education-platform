@@ -5,30 +5,20 @@ import {
   professionPath,
   roadmapPath,
   type ProfessionCatalogEntry,
+  type RoadmapCatalogEntry,
 } from "../roadmap";
+import { getCurrentTrack } from "../track";
 
-const ProfessionCard = ({ profession }: { profession: ProfessionCatalogEntry }) => {
-  const soon = profession.status === "soon" && profession.roadmaps.length === 0;
-  const activeRoadmaps = profession.roadmaps.filter((r) => r.status === "active");
+const RoadmapCard = ({ roadmap }: { roadmap: RoadmapCatalogEntry }) => {
+  const soon = roadmap.status === "soon";
 
   const inner = (
     <>
       <div className="roadmaps-card-head">
-        <h3 className="roadmaps-card-title">{profession.title}</h3>
-        {soon ? (
-          <span className="roadmaps-card-badge">Скоро</span>
-        ) : (
-          activeRoadmaps.length > 0 && (
-            <span className="roadmaps-card-badge">
-              {activeRoadmaps.length} трек
-              {activeRoadmaps.length === 1 ? "" : "а"}
-            </span>
-          )
-        )}
+        <h3 className="roadmaps-card-title">{roadmap.title}</h3>
+        {roadmap.badge && <span className="roadmaps-card-badge">{roadmap.badge}</span>}
       </div>
-      {profession.description && (
-        <p className="roadmaps-card-sub">{profession.description}</p>
-      )}
+      <p className="roadmaps-card-sub">{roadmap.subtitle}</p>
       {soon && <span className="roadmaps-card-soon">Скоро на платформе</span>}
     </>
   );
@@ -37,17 +27,62 @@ const ProfessionCard = ({ profession }: { profession: ProfessionCatalogEntry }) 
     return <article className="roadmaps-card roadmaps-card--soon">{inner}</article>;
   }
 
-  // One active roadmap → link directly to it, skipping the profession intermediate page
-  const href =
-    activeRoadmaps.length === 1
-      ? roadmapPath(activeRoadmaps[0].id)
-      : professionPath(profession.id);
+  return (
+    <Link to={roadmapPath(roadmap.id)} className="roadmaps-card roadmaps-card--active">
+      {inner}
+      <span className="roadmaps-card-cta">Открыть роадмап →</span>
+    </Link>
+  );
+};
+
+const ProfessionContent = ({ profession }: { profession: ProfessionCatalogEntry }) => {
+  if (profession.roadmaps.length === 0) {
+    return (
+      <div className="home course-home roadmaps-home">
+        <div className="home-hero">
+          <p className="home-kicker">Обучение</p>
+          <h2 className="home-title">{profession.title}</h2>
+          {profession.description && (
+            <p className="home-lead">{profession.description}</p>
+          )}
+        </div>
+        <div className="roadmaps-empty-profession">
+          <p>Программа в разработке. Следите за обновлениями.</p>
+        </div>
+      </div>
+    );
+  }
+
+  const activeRoadmaps = profession.roadmaps.filter((r) => r.status === "active");
 
   return (
-    <Link to={href} className="roadmaps-card roadmaps-card--active">
-      {inner}
-      <span className="roadmaps-card-cta">Открыть →</span>
-    </Link>
+    <div className="home course-home roadmaps-home">
+      <div className="home-hero">
+        <p className="home-kicker">Обучение</p>
+        <h2 className="home-title">{profession.title}</h2>
+        {profession.description && (
+          <p className="home-lead">{profession.description}</p>
+        )}
+        {activeRoadmaps.length > 1 && (
+          <p className="roadmap-lead-extra">
+            Выберите трек — внутри недели, темы и проекты. В каждом уроке: теория, квиз и
+            практика.
+          </p>
+        )}
+        {activeRoadmaps.length > 1 && (
+          <div className="roadmaps-hero-actions">
+            <Link to={professionPath(profession.id)} className="btn btn-secondary">
+              Все треки →
+            </Link>
+          </div>
+        )}
+      </div>
+      <div className="roadmaps-card-grid">
+        {profession.roadmaps.map((roadmap) => (
+          <RoadmapCard key={roadmap.id} roadmap={roadmap} />
+        ))}
+      </div>
+    </div>
   );
 };
 
@@ -78,22 +113,23 @@ export const CourseHomePage = () => {
     );
   }
 
-  return (
-    <div className="home course-home roadmaps-home">
-      <div className="home-hero">
-        <p className="home-kicker">Обучение</p>
-        <h2 className="home-title">Выберите направление</h2>
-        <p className="home-lead">
-          JS или Go — дальше роадмап с модулями и уроками. В каждом уроке: теория, квиз и
-          практика.
-        </p>
-      </div>
+  // Показываем ТОЛЬКО программу текущего трека — без UI-выбора профессии.
+  // Источник трека: getCurrentTrack() (сейчас: URL ?track= / localStorage,
+  // позже — профиль из ЛК; менять только в track.ts).
+  const track = getCurrentTrack();
+  const currentProfession = professions.find((p) => p.id === track) ?? null;
 
-      <div className="roadmaps-card-grid">
-        {professions.map((profession) => (
-          <ProfessionCard key={profession.id} profession={profession} />
-        ))}
+  if (!currentProfession) {
+    return (
+      <div className="home course-home roadmaps-home">
+        <div className="home-hero">
+          <p className="home-kicker">Обучение</p>
+          <h2 className="home-title">Программа в разработке</h2>
+          <p className="home-lead">Для вашего трека программа появится скоро.</p>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
+
+  return <ProfessionContent profession={currentProfession} />;
 };
