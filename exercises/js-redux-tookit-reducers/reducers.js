@@ -1,11 +1,21 @@
-{
-  comments: {
-    1: { id: 1, taskId: 1, body: 'comment 1' },
-    2: { id: 2, taskId: 1, body: 'comment 2' },
-    5: { id: 5, taskId: 2, body: 'another comment' },
-  },
-  tasks: {
-    1: { id: 1, name: 'first task' },
-    2: { id: 2, name: 'second task' },
-  },
+// @ts-check
+
+import { combineReducers } from 'redux'
+import { omitBy,omit } from 'es-toolkit/compat';
+
+const comments = (state = {}, action) => {
+  // BEGIN (write your solution here)
+
+  // END
 }
+
+const tasks = (state = {}, action) => {
+  // BEGIN (write your solution here)
+  
+  // END
+}
+
+export default combineReducers({
+  comments,
+  tasks,
+})

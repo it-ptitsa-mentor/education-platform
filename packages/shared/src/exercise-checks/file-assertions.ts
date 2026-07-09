@@ -7,7 +7,13 @@ export const assertNonEmpty = (content: string, filePath: string): string | null
 };
 
 export const assertJsxComponent = (source: string, filePath: string): string | null => {
-  if (!/export\s+(default\s+)?(?:function|class|const)/.test(source)) {
+  // Accept `export default App`, `export default connect(...)(Foo)`,
+  // `export default () => ...` alongside function/class/const forms;
+  // literals like `export default 1` still fail.
+  const exportsComponent =
+    /export\s+default\s+(?:function|class|[A-Za-z_$(])/.test(source) ||
+    /export\s+(?:function|class|const)/.test(source);
+  if (!exportsComponent) {
     return `${filePath} must export a component`;
   }
 

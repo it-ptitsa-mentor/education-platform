@@ -27,6 +27,7 @@ export default defineConfig({
       "@testing-library/user-event": require.resolve("@testing-library/user-event"),
       axios: require.resolve("axios"),
       classnames: require.resolve("classnames"),
+      "es-toolkit/compat": require.resolve("es-toolkit/compat"),
       "es-toolkit": require.resolve("es-toolkit"),
       "escape-goat": require.resolve("escape-goat"),
       i18next: require.resolve("i18next"),
@@ -36,12 +37,15 @@ export default defineConfig({
       lodash: path.dirname(require.resolve("lodash")),
       "msw/node": require.resolve("msw/node"),
       msw: require.resolve("msw"),
+      nock: require.resolve("nock"),
+      "redux-actions": require.resolve("redux-actions"),
       imask: require.resolve("imask"),
       "react-i18next": require.resolve("react-i18next"),
       "react/jsx-runtime": require.resolve("react/jsx-runtime"),
       "react/jsx-dev-runtime": require.resolve("react/jsx-dev-runtime"),
       "react-dom/client": require.resolve("react-dom/client"),
       "react-dom/test-utils": require.resolve("react-dom/test-utils"),
+      "react-bootstrap/Spinner": require.resolve("react-bootstrap/Spinner"),
       "react-bootstrap": require.resolve("react-bootstrap"),
       "react-dom": require.resolve("react-dom"),
       "react-test-renderer": require.resolve("react-test-renderer"),
@@ -58,6 +62,9 @@ export default defineConfig({
   },
   test: {
     environment: "node",
+    // Hexlet tests mock HTTP on http://localhost (port 80); the vitest jsdom
+    // default of localhost:3000 would bypass nock/msw interceptors.
+    environmentOptions: { jsdom: { url: "http://localhost/" } },
     globals: true,
     include: ["**/__tests__/**/*.{js,jsx,ts,tsx}"],
     setupFiles: [require.resolve("./vitest.exercise.setup.ts")],

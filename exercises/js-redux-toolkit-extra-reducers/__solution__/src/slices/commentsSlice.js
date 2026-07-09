@@ -1,33 +1,36 @@
-import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';
-import usersSlice from './usersSlice.js';
-import postsSlice from './postsSlice.js';
+// @ts-check
 
-const commentsAdapter = createEntityAdapter();
+import { createSlice, createEntityAdapter } from "@reduxjs/toolkit"
+import { actions as usersActions } from "./usersSlice.js"
+import { actions as postsActions } from "./postsSlice.js"
+
+const commentsAdapter = createEntityAdapter()
+
+const initialState = commentsAdapter.getInitialState()
 
 const commentsSlice = createSlice({
-  name: 'comments',
-  initialState: commentsAdapter.getInitialState(),
+  name: "comments",
+  initialState,
   reducers: {
-    addManyComments: commentsAdapter.addMany,
-    addOneComment: commentsAdapter.addOne,
+    addComments: commentsAdapter.addMany,
+    addComment: commentsAdapter.addOne,
   },
+  // BEGIN (write your solution here)
   extraReducers: (builder) => {
-    builder.addCase(usersSlice.actions.removeUser, (state, action) => {
-      const userId = action.payload;
-      const remaining = Object.values(state.entities).filter(
-        (comment) => comment.author !== userId,
-      );
-      commentsAdapter.setAll(state, remaining);
-    });
-    builder.addCase(postsSlice.actions.removePost, (state, action) => {
-      const post = action.payload;
-      const postId = typeof post === 'object' ? post.id : post;
-      const remaining = Object.values(state.entities).filter(
-        (comment) => comment.postId !== postId,
-      );
-      commentsAdapter.setAll(state, remaining);
-    });
+    builder
+      .addCase(postsActions.removePost, (state, { payload: post }) => {
+        commentsAdapter.removeMany(state, post.comments)
+      })
+      .addCase(usersActions.removeUser, (state, { payload: userId }) => {
+        const idsToRemove = Object.values(state.entities)
+          .filter(comment => comment.author === userId)
+          .map(comment => comment.id)
+        commentsAdapter.removeMany(state, idsToRemove)
+      })
   },
-});
+  // END
+})
 
-export default commentsSlice;
+export const { actions } = commentsSlice
+export const selectors = commentsAdapter.getSelectors(state => state.comments)
+export default commentsSlice.reducer

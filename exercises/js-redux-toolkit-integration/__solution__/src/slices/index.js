@@ -1,8 +1,12 @@
-import { configureStore } from '@reduxjs/toolkit';
-import tasksSlice from './tasksSlice.js';
+// @ts-check
+
+import { configureStore } from '@reduxjs/toolkit'
+import tasksReducer from './tasksSlice.js'
 
 export default configureStore({
   reducer: {
-    tasksStore: tasksSlice.reducer,
+    // BEGIN (write your solution here)
+    tasksStore: tasksReducer,
+    // END
   },
-});
+})

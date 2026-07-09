@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "es-toolkit": "*",
+    "redux": "*",
+    "@reduxjs/toolkit": "*"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

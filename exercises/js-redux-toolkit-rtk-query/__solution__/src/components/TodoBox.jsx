@@ -1,41 +1,72 @@
-import { useState } from 'react';
+// @ts-check
+import Spinner from "./Spinner.jsx"
+import TodoForm from "./TodoForm.jsx"
+// BEGIN (write your solution here)
 import {
   useGetTasksQuery,
-  useCreateTaskMutation,
-  useDeleteTaskMutation,
-} from '../services/tasksApi.js';
+  useAddTaskMutation,
+  useRemoveTaskMutation,
+} from "../services/tasksApi.js"
+// END
 
-export default function TodoBox() {
-  const [text, setText] = useState('');
-  const { data: tasks = [] } = useGetTasksQuery();
-  const [createTask] = useCreateTaskMutation();
-  const [deleteTask] = useDeleteTaskMutation();
+const TodoBox = () => {
+  // BEGIN (write your solution here)
+  const {
+    data: tasks = [],
+    isLoading,
+    refetch,
+  } = useGetTasksQuery()
+  const [addTask] = useAddTaskMutation()
+  const [removeTask] = useRemoveTaskMutation()
+  // END
 
-  const handleAdd = async (e) => {
-    e.preventDefault();
-    if (!text.trim()) return;
-    await createTask({ text });
-    setText('');
-  };
+  const handleDeleteTask = (event, id) => {
+    event.preventDefault()
+    // BEGIN (write your solution here)
+    removeTask(id)
+    refetch()
+    // END
+  }
 
-  const handleRemove = (id) => {
-    deleteTask(id);
-  };
+  const handleSubmitForm = (event, newTaskText) => {
+    event.preventDefault()
+    // BEGIN (write your solution here)
+    addTask({ text: newTaskText })
+    refetch()
+    // END
+  }
+
+  const renderTodo = () => (
+    <TodoForm
+      submitHandler={handleSubmitForm}
+    />
+  )
+
+  // BEGIN (write your solution here)
+  if (isLoading) {
+    return <Spinner />
+  }
+  // END
 
   return (
     <div>
-      <form onSubmit={handleAdd}>
-        <input value={text} onChange={(e) => setText(e.target.value)} />
-        <button type="submit">Add</button>
-      </form>
-      <ul>
-        {tasks.map((task) => (
-          <li key={task.id}>
-            {task.text}
-            <button onClick={() => handleRemove(task.id)}>Delete</button>
-          </li>
+      <div className="mb-3">
+        {renderTodo()}
+      </div>
+      <div>
+        {tasks.map((task, index) => (
+          <div key={task.id} className="row">
+            <div className="col-1">
+              {index + 1}
+            </div>
+            <div className="col">
+              <a href="" className="todo-task" onClick={event => handleDeleteTask(event, task.id)}>{task.text}</a>
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
-  );
+  )
 }
+
+export default TodoBox

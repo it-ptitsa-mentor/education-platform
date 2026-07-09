@@ -1,3 +1,4 @@
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
@@ -92,50 +93,34 @@ console.log(pet);
       "src/slices/index.js",
     ]);
     expect(Object.keys(body.files).sort()).toEqual(body.filesToOpen.slice().sort());
-    expect(body.files["src/components/App.jsx"]).toContain("function App");
-    expect(body.files["src/components/Comment.jsx"]).toContain("function Comment");
+    expect(body.files["src/components/App.jsx"]).toContain("const App");
+    expect(body.files["src/components/Comment.jsx"]).toContain("const Comment");
   });
 
   it("checks all submitted files in a multi-file exercise", async () => {
-    // Use correct solution implementations (starters intentionally fail behavioral tests).
-    const solutionFiles: Record<string, string> = {
-      "src/components/App.jsx": [
-        "import { useEffect } from 'react';",
-        "import { useDispatch } from 'react-redux';",
-        "import commentsSlice from '../slices/commentsSlice.js';",
-        "export default function App() {",
-        "  const dispatch = useDispatch();",
-        "  useEffect(() => { dispatch(commentsSlice.actions.addComments([])); }, [dispatch]);",
-        "  return null;",
-        "}",
-      ].join("\n"),
-      "src/components/Comment.jsx": [
-        "import { useSelector } from 'react-redux';",
-        "export default function Comment({ id }) {",
-        "  const comment = useSelector((s) => s.comments.items.find((c) => c.id === id));",
-        "  const author = useSelector((s) => s.users?.items?.find((u) => u.id === comment?.author));",
-        "  if (!comment) return null;",
-        "  return <div>{comment.text}</div>;",
-        "}",
-      ].join("\n"),
-      "src/slices/commentsSlice.js": [
-        "import { createSlice } from '@reduxjs/toolkit';",
-        "const commentsSlice = createSlice({",
-        "  name: 'comments', initialState: { items: [] },",
-        "  reducers: { addComments: (state, action) => { state.items = action.payload; } },",
-        "});",
-        "export default commentsSlice;",
-      ].join("\n"),
-      "src/slices/index.js": [
-        "import { configureStore } from '@reduxjs/toolkit';",
-        "import usersSlice from './usersSlice.js';",
-        "import postsSlice from './postsSlice.js';",
-        "import commentsSlice from './commentsSlice.js';",
-        "export default configureStore({",
-        "  reducer: { users: usersSlice.reducer, posts: postsSlice.reducer, comments: commentsSlice.reducer },",
-        "});",
-      ].join("\n"),
-    };
+    // Starters intentionally fail behavioral tests; submit the reference
+    // solutions from __solution__/ so the test survives contract changes
+    // (e.g. retrofits onto original Hexlet tests).
+    const solutionRoot = path.join(
+      repoRoot,
+      "exercises",
+      "js-redux-toolkit-slices",
+      "__solution__",
+    );
+    const solutionPaths = [
+      "src/components/App.jsx",
+      "src/components/Comment.jsx",
+      "src/slices/commentsSlice.js",
+      "src/slices/index.js",
+    ];
+    const solutionFiles: Record<string, string> = Object.fromEntries(
+      await Promise.all(
+        solutionPaths.map(async (filePath) => [
+          filePath,
+          await readFile(path.join(solutionRoot, filePath), "utf8"),
+        ]),
+      ),
+    );
 
     const passResponse = await app.inject({
       method: "POST",

@@ -1,15 +1,20 @@
-import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';
+// @ts-check
 
-const usersAdapter = createEntityAdapter();
+import { createSlice, createEntityAdapter } from "@reduxjs/toolkit"
+
+// BEGIN (write your solution here)
+const usersAdapter = createEntityAdapter()
 
 const usersSlice = createSlice({
-  name: 'users',
+  name: "users",
   initialState: usersAdapter.getInitialState(),
   reducers: {
-    addManyUsers: usersAdapter.addMany,
+    addUser: usersAdapter.addOne,
+    addUsers: usersAdapter.addMany,
   },
-});
+})
 
-export const usersSelectors = usersAdapter.getSelectors((state) => state.users);
-
-export default usersSlice;
+export const { actions } = usersSlice
+export const selectors = usersAdapter.getSelectors(state => state.users)
+export default usersSlice.reducer
+// END

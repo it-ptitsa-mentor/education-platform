@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "redux": "*",
+    "es-toolkit": "*"
+  },
+  "scripts": {
+    "test": "jest --colors"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "es-toolkit": "*",
+    "redux": "*",
+    "react": "*",
+    "react-redux": "*",
+    "redux-actions": "*",
+    "react-dom": "*",
+    "reselect": "*",
+    "@testing-library/user-event": "*",
+    "@testing-library/react": "*",
+    "@reduxjs/toolkit": "*"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

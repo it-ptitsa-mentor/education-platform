@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "redux": "*",
+    "react": "*",
+    "react-redux": "*",
+    "redux-actions": "*",
+    "react-dom": "*",
+    "reselect": "*",
+    "@reduxjs/toolkit": "*",
+    "axios": "*",
+    "msw": "*"
+  },
+  "devDependencies": {
+    "nock": "*",
+    "@testing-library/dom": "*",
+    "@testing-library/jest-dom": "*",
+    "@testing-library/react": "*"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}
