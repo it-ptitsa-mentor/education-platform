@@ -1,0 +1,35 @@
+[Unit]
+Description=IT Птица — Education Platform API (Fastify + Vitest runner)
+Documentation=https://github.com/it-ptitsa-mentor/education-platform
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/education-platform
+
+# tsx из локальных node_modules (устанавливается через pnpm install)
+ExecStart=/opt/education-platform/node_modules/.bin/tsx packages/api/src/server.ts
+
+# Environment
+Environment=NODE_ENV=production
+Environment=PORT=4100
+Environment=HOST=127.0.0.1
+Environment=SERVE_WEB=false
+
+# Restart policy
+Restart=always
+RestartSec=5
+
+# Logging (journalctl -u education-platform-api)
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=education-platform-api
+
+# Security hardening
+NoNewPrivileges=yes
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target
