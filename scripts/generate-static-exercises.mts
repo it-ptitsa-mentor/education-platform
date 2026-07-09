@@ -95,7 +95,7 @@ const loaded = await Promise.all(
           studentFiles: manifest.studentFiles,
           readme: manifest.readme,
           testClass,
-          solutionFiles: solutionFiles ?? undefined,
+          solutionFiles: solutionFiles,
           files,
         },
       };
