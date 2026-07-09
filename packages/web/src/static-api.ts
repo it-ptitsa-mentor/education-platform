@@ -5,6 +5,7 @@ import {
   type ExerciseManifest,
 } from "@ptitsa/shared/exercise-checks";
 import type { ExerciseLanguage, ExerciseTestClass } from "@ptitsa/shared";
+import { isPristineStarter } from "./lib/pristine-starter";
 import type { CheckResult, ExerciseDetail, ExerciseSummary } from "./exercise-types";
 import type { QuizCheckResult, QuizDetail, QuizSummary } from "./quiz-types";
 import {
@@ -77,33 +78,6 @@ export const staticFetchExercise = async (slug: string): Promise<ExerciseDetail>
   };
 };
 
-// Collapse whitespace so cosmetic edits (trailing newline, reindent) still
-// count as "unchanged" — used only to reject a pristine starter submission.
-const normalizeSource = (source: string): string =>
-  source.replace(/\s+/g, " ").trim();
-
-// The static (browser) checker runs weak per-kind heuristics, not the real
-// __tests__ — so an untouched starter can slip through as "passed". Until the
-// server-side vitest runner is live (Backend API), refuse a submission that is
-// byte-for-byte the starter, so students can't complete a task without editing.
-const isPristineStarter = (
-  exercise: StaticExercise,
-  files: Record<string, string>,
-): boolean => {
-  const starters = exercise.files;
-  const targets = exercise.studentFiles.length > 0
-    ? exercise.studentFiles
-    : Object.keys(starters);
-  if (targets.length === 0) {
-    return false;
-  }
-  return targets.every(
-    (filePath) =>
-      normalizeSource(files[filePath] ?? "") ===
-      normalizeSource(starters[filePath] ?? ""),
-  );
-};
-
 export const staticCheckExercise = async (
   slug: string,
   files: Record<string, string>,
@@ -113,7 +87,7 @@ export const staticCheckExercise = async (
     throw new Error("Exercise not found");
   }
 
-  if (isPristineStarter(exercise, files)) {
+  if (isPristineStarter(exercise.files, files, exercise.studentFiles)) {
     return {
       passed: false,
       exitCode: 1,
