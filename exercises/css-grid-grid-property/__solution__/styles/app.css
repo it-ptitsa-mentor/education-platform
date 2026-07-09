@@ -1,0 +1,46 @@
+/* Двухколоночный шаблон сайта: 8-колоночная основная сетка */
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 20px;
+}
+
+.header {
+  grid-column: span 8;
+}
+
+.carousel {
+  grid-column: span 8;
+}
+
+.sidebar {
+  grid-column: span 2;
+}
+
+.content {
+  grid-column: span 6;
+}
+
+/* 12-колоночная сетка для карточек товара */
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+.col-6 {
+  grid-column: span 6;
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+.col-12 {
+  grid-column: span 12;
+}
