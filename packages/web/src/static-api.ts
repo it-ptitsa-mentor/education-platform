@@ -49,6 +49,8 @@ export const staticFetchExercise = async (slug: string): Promise<ExerciseDetail>
     language: exercise.language,
     filesToOpen: [...exercise.filesToOpen],
     readme: exercise.readme,
+    testClass: exercise.testClass,
+    solutionFiles: exercise.solutionFiles ? { ...exercise.solutionFiles } : undefined,
     files: { ...exercise.files },
   };
 };
