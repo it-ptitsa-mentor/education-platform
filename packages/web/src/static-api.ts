@@ -4,6 +4,8 @@ import {
   runBrowserExerciseCheck,
   type ExerciseManifest,
 } from "@ptitsa/shared/exercise-checks";
+import type { ExerciseLanguage, ExerciseTestClass } from "@ptitsa/shared";
+import { isPristineStarter } from "./lib/pristine-starter";
 import type { CheckResult, ExerciseDetail, ExerciseSummary } from "./exercise-types";
 import type { QuizCheckResult, QuizDetail, QuizSummary } from "./quiz-types";
 import {
@@ -14,15 +16,34 @@ import quizDetails from "./generated/quiz-details.json";
 import quizManifests from "./generated/quiz-manifests.json";
 import quizSummaries from "./generated/quiz-summaries.json";
 
+// The generated `staticExercises` is typed as a union of narrow literal
+// object shapes (each exercise inferred `as const`), so optional fields like
+// `testClass`/`solutionFiles` are absent from some members and even keyed
+// access to `files` is rejected. Read entries through this stable shape.
+type StaticExercise = {
+  slug: string;
+  title: string;
+  language: ExerciseLanguage;
+  filesToOpen: readonly string[];
+  studentFiles: readonly string[];
+  readme: string;
+  testClass?: ExerciseTestClass;
+  solutionFiles?: Record<string, string> | null;
+  files: Record<string, string>;
+};
+
 const staticQuizSummaries = quizSummaries as QuizSummary[];
 const staticQuizzes = quizDetails as QuizDetail[];
 const staticQuizManifests = quizManifests as QuizManifest[];
 
-const exerciseBySlug = new Map<string, (typeof staticExercises)[number]>(
-  staticExercises.map((exercise) => [exercise.slug, exercise]),
+const exerciseBySlug = new Map<string, StaticExercise>(
+  (staticExercises as readonly unknown[] as StaticExercise[]).map((exercise) => [
+    exercise.slug,
+    exercise,
+  ]),
 );
 
-const toManifest = (exercise: (typeof staticExercises)[number]): ExerciseManifest => ({
+const toManifest = (exercise: StaticExercise): ExerciseManifest => ({
   slug: exercise.slug,
   title: exercise.title,
   language: exercise.language,
@@ -50,7 +71,9 @@ export const staticFetchExercise = async (slug: string): Promise<ExerciseDetail>
     filesToOpen: [...exercise.filesToOpen],
     readme: exercise.readme,
     testClass: exercise.testClass,
-    solutionFiles: exercise.solutionFiles ? { ...exercise.solutionFiles } : undefined,
+    solutionFiles: exercise.solutionFiles
+      ? { ...exercise.solutionFiles }
+      : undefined,
     files: { ...exercise.files },
   };
 };
@@ -62,6 +85,16 @@ export const staticCheckExercise = async (
   const exercise = exerciseBySlug.get(slug);
   if (!exercise) {
     throw new Error("Exercise not found");
+  }
+
+  if (isPristineStarter(exercise.files, files, exercise.studentFiles)) {
+    return {
+      passed: false,
+      exitCode: 1,
+      stdout: "",
+      stderr:
+        "Стартовый код не изменён — впишите решение в редакторе и запустите снова.",
+    };
   }
 
   const result = await runBrowserExerciseCheck(toManifest(exercise), files);
