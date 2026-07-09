@@ -1735,6 +1735,19 @@ body.is-resizing-vertical {
   color: var(--fail);
 }
 
+/* Desktop-only hotkey hint inside the output-log placeholder.
+   Hidden on mobile (no physical keyboard / touch-only devices).
+   Shown only where hover media is available — i.e. real pointer devices. */
+.output-log-hotkey-hint {
+  display: none;
+}
+
+@media (hover: hover) and (min-width: 769px) {
+  .output-log-hotkey-hint {
+    display: inline;
+  }
+}
+
 .status-pill {
   display: inline-flex;
   align-items: center;
@@ -3856,10 +3869,11 @@ body.is-resizing-vertical {
     min-height: 0;
   }
 
-  /* Output tab */
+  /* Output tab — use flex (not grid) so that items with display:none don't
+     cause output-panel to auto-place in row 1 (height 0) of the grid. */
   .workspace[data-mobile-tab="output"] > .editor-stack {
-    display: grid;
-    grid-template-rows: 0 0 1fr !important;
+    display: flex;
+    flex-direction: column;
   }
 
   .workspace[data-mobile-tab="output"] .editor-panel {
