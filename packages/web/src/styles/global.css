@@ -2028,6 +2028,11 @@ body.is-resizing-vertical {
   .brand-word {
     display: none;
   }
+  /* Logo-only: ensure minimum touch target size */
+  .brand.brand-link {
+    min-width: 2.75rem;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 900px) {
@@ -3060,128 +3065,11 @@ body.is-resizing-vertical {
 .lesson-nav-link:hover { color: var(--accent); }
 .lesson-nav-link--next { text-align: right; margin-left: auto; max-width: 45%; }
 
-.lesson-side-nav {
-  flex: 0 0 11rem;
-  width: 11rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  padding-top: 0.25rem;
-  padding-left: clamp(1.25rem, 2.5vw, 1.75rem);
-  position: sticky;
-  top: 1rem;
-  align-self: flex-start;
-}
-.lesson-side-nav-link,
-.lesson-side-nav-block {
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-  text-decoration: none;
-  color: inherit;
-  transition: color 0.15s, opacity 0.15s;
-}
-.lesson-side-nav-link--prev {
-  padding: 0.35rem 0;
-  color: var(--text-muted);
-}
-.lesson-side-nav-link--prev:hover {
-  color: var(--accent);
-}
-.lesson-side-nav-link--prev .lesson-side-nav-arrow {
-  color: var(--text-subtle);
-}
-.lesson-side-nav-link--prev:hover .lesson-side-nav-arrow {
-  color: var(--accent);
-}
-.lesson-side-nav-link--next {
-  padding: 0.75rem 0.85rem;
-  border-radius: var(--radius-sm);
-  background: var(--accent);
-  color: var(--on-accent);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.12);
-}
-.lesson-side-nav-link--next:hover {
-  filter: brightness(1.06);
-}
-.lesson-side-nav-link--next .lesson-side-nav-label,
-.lesson-side-nav-link--next .lesson-side-nav-title {
-  color: inherit;
-}
-.lesson-side-nav-link--next .lesson-side-nav-hint {
-  color: color-mix(in srgb, var(--on-accent) 72%, transparent);
-}
-.lesson-side-nav-block--disabled {
-  padding: 0.75rem 0.85rem;
-  border-radius: var(--radius-sm);
-  border: 1px dashed var(--border);
-  opacity: 0.55;
-  cursor: not-allowed;
-}
-.lesson-side-nav-label {
-  font-size: var(--text-2xs);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--text-subtle);
-}
-.lesson-side-nav-arrow {
-  font-size: 1rem;
-  line-height: 1;
-  margin-bottom: 0.15rem;
-}
-.lesson-side-nav-title {
-  font-weight: 600;
-  font-size: var(--text-xs);
-  line-height: 1.35;
-  color: var(--text);
-}
-.lesson-side-nav-hint {
-  font-size: var(--text-2xs);
-  color: var(--text-muted);
-  line-height: 1.3;
-}
 
 @media (max-width: 900px) {
   .lesson-main-shell:not(.lesson-main-shell--fill) {
     flex-direction: column;
     gap: 0;
-  }
-  .lesson-side-nav {
-    flex: 0 0 auto;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    gap: 0.65rem;
-    border-top: 1px solid var(--border);
-    padding: 1rem 0 0.25rem;
-    padding-left: 0;
-    margin-top: 0.75rem;
-    position: static;
-  }
-  .lesson-side-nav-link--prev,
-  .lesson-side-nav-link--next,
-  .lesson-side-nav-block--disabled {
-    flex: 1 1 calc(50% - 0.35rem);
-    min-width: min(100%, 10rem);
-  }
-  .lesson-side-nav-link--next {
-    margin-left: auto;
-  }
-}
-
-@media (max-width: 520px) {
-  .lesson-side-nav {
-    flex-direction: column;
-  }
-  .lesson-side-nav-link--prev,
-  .lesson-side-nav-link--next,
-  .lesson-side-nav-block--disabled {
-    flex: 1 1 auto;
-    width: 100%;
-  }
-  .lesson-side-nav-link--next {
-    margin-left: 0;
   }
 }
 
@@ -3552,9 +3440,11 @@ body.is-resizing-vertical {
   }
 }
 
-/* ── Touch targets ─────────────────────────────────── */
-@media (hover: none) and (pointer: coarse) {
-  /* Lesson steps (Теория / Тест / Практика) */
+/* ── Touch targets ≥44px (2.75rem) ──────────────────── */
+/* Applied at ≤768px breakpoint (mobile audit widths 360/414/768)
+   AND on real touch devices (hover:none). */
+@media (max-width: 768px) {
+  /* Lesson steps (Теория / Квиз / Практика) */
   .lesson-step {
     min-height: 2.75rem;
     display: inline-flex;
@@ -3566,11 +3456,12 @@ body.is-resizing-vertical {
     min-height: 2.75rem;
   }
 
-  /* Lesson sidebar links */
+  /* Lesson sidebar links in drawer */
   .lesson-aside-lesson {
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     min-height: 2.75rem;
+    align-items: center;
   }
 
   /* Nav links in topbar */
@@ -3580,10 +3471,65 @@ body.is-resizing-vertical {
     align-items: center;
   }
 
-  /* Footer nav */
+  /* Aside toggle "Уроки" */
+  .lesson-aside-toggle {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* Brand logo link */
+  .brand.brand-link {
+    min-height: 2.75rem;
+  }
+
+  /* Theme toggle */
+  .theme-toggle {
+    min-height: 2.75rem;
+  }
+
+  /* Footer nav links */
   .lesson-footer-nav-link--prev,
   .lesson-footer-nav-link--next {
-    padding-block: 1rem;
+    min-height: 2.75rem;
+  }
+}
+
+/* Also apply on touch devices regardless of screen size */
+@media (hover: none) and (pointer: coarse) {
+  .lesson-step {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  .course-topic-btn {
+    min-height: 2.75rem;
+  }
+  .lesson-aside-lesson {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    min-height: 2.75rem;
+    align-items: center;
+  }
+  .topbar-nav-link {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  .lesson-aside-toggle {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  .brand.brand-link {
+    min-height: 2.75rem;
+  }
+  .theme-toggle {
+    min-height: 2.75rem;
+  }
+  .lesson-footer-nav-link--prev,
+  .lesson-footer-nav-link--next {
+    min-height: 2.75rem;
   }
 }
 
@@ -3648,11 +3594,23 @@ body.is-resizing-vertical {
   .lesson-footer-nav {
     flex-direction: column;
   }
+  /* flex-basis:20rem applies to HEIGHT in column mode → makes each button 320px.
+     Reset to auto so buttons shrink-wrap to their content. */
+  .lesson-footer-nav-link--prev,
+  .lesson-footer-nav-link--next,
+  .lesson-footer-nav-block--disabled {
+    flex: 0 0 auto;
+    width: 100%;
+  }
   .lesson-footer-nav-link--next {
     margin-left: 0;
+    text-align: left;
+    align-items: flex-start;
   }
   .lesson-footer-nav-block--disabled {
     margin-left: 0;
+    text-align: left;
+    align-items: flex-start;
   }
 }
 
@@ -3676,13 +3634,6 @@ body.is-resizing-vertical {
   }
 }
 
-/* ── Lesson side nav: better touch sizing ─────────────── */
-@media (max-width: 640px) {
-  .lesson-side-nav-link--prev,
-  .lesson-side-nav-link--next {
-    padding: 0.9rem 1rem;
-  }
-}
 
 /* ── Safe area insets (notch / bottom bar) ───────────── */
 @supports (padding-bottom: env(safe-area-inset-bottom)) {
