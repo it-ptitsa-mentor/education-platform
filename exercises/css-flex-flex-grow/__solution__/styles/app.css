@@ -1,0 +1,22 @@
+/* Трёхколоночный макет с flex-grow */
+.wrapper {
+  display: flex;
+}
+
+.left-aside {
+  width: 200px;
+  background-color: #d32f2f;
+  min-height: 50vh;
+}
+
+.content-side {
+  flex-grow: 1;
+  background-color: #388e3c;
+  min-height: 50vh;
+}
+
+.right-aside {
+  width: 350px;
+  background-color: #1976d2;
+  min-height: 50vh;
+}
