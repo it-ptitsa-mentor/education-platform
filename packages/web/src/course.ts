@@ -41,8 +41,11 @@ export const loadCourse = async (): Promise<Course> => {
 export const sanitizeTheoryBody = (md: string): string =>
   md
     .replace(/^---\n[\s\S]*?\n---\n+/, "")
-    // плейсхолдеры картинок из Buildin → аккуратная пометка
-    .replace(/<!--\s*IMG[^>]*-->/g, "> _иллюстрация — скоро_")
+    // плейсхолдеры картинок из Buildin → аккуратная пометка (пустые строки
+    // до/после обязательны — иначе markdown не распознаёт blockquote и
+    // склеивает плейсхолдер со следующим абзацем; лишние пустые строки
+    // markdown схлопнёт сам)
+    .replace(/<!--\s*IMG[^>]*-->/g, "\n\n> _иллюстрация — скоро_\n\n")
     // навигация Hexlet в конце статей — дублирует наш LessonUnitNav
     .replace(
       /\n##\s*(?:\*\*)?\s*Далее\s*(?:[→\-]\s*)?(?:\*\*)?\s*(\n|$)/gi,
