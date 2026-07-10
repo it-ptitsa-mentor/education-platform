@@ -1,8 +1,10 @@
-interface Course {
-  name: string;
-  lessons: string[];
+// @ts-check
+
+type Course = {
+  name: string
+  lessons: string[]
 }
 
-export const isComplete = (course: Course): boolean => {
-  return course.lessons.length >= 4;
-};
+const isComplete = (course: Course): boolean => course.lessons.length >= 4
+
+export default isComplete

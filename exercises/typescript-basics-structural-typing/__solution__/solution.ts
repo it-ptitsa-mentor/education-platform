@@ -1,23 +1,28 @@
-export enum LoadingStatus {
-  Loading = 'loading',
-  Error = 'error',
-  Success = 'success',
+// @ts-check
+
+enum LoadingStatus {
+  Loading,
+  Success,
+  Error,
 }
 
-export type DataState =
+type DataState =
   | { status: LoadingStatus.Loading }
+  | { status: LoadingStatus.Success; data: number }
   | { status: LoadingStatus.Error; error: Error }
-  | { status: LoadingStatus.Success; data: number };
 
-export const handleData = (state: DataState): string => {
+const handleData = (state: DataState): string => {
   switch (state.status) {
     case LoadingStatus.Loading:
-      return 'loading...';
-    case LoadingStatus.Error:
-      return state.error.message;
+      return 'loading...'
     case LoadingStatus.Success:
-      return String(state.data);
+      return String(state.data)
+    case LoadingStatus.Error:
+      return state.error.message
     default:
-      return 'unknown';
+      return String((state as { status: unknown }).status)
   }
-};
+}
+
+export { DataState, LoadingStatus }
+export default handleData

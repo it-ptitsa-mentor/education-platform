@@ -12,5 +12,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "type-assertions": "^1.1.0"
   }
 }

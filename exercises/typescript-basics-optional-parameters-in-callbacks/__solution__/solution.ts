@@ -1,6 +1,8 @@
-export const map = <T, R>(
-  arr: T[],
-  fn: (item: T, index?: number) => R
-): R[] => {
-  return arr.map(fn);
-};
+// @ts-check
+
+const map = <T, U>(
+  items: T[],
+  callback: (item: T, index: number) => U,
+): U[] => items.map((item, index) => callback(item, index))
+
+export default map

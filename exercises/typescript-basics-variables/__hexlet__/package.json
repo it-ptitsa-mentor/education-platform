@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "jest --colors"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  },
+  "dependencies": {
+    "@jest/globals": "*",
+    "type-assertions": "*"
+  }
+}

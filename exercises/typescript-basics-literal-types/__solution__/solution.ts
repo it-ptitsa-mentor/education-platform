@@ -1,19 +1,24 @@
-type Direction = 'left' | 'right';
-type Cell = 'turtle' | null;
+type Turtle = 'turtle' | null
 
-export const startGame = () => {
-  const state: Cell[] = ['turtle', null, null, null, null];
-  let position = 0;
+type Game = {
+  makeTurn: (direction: 'left' | 'right') => void
+  state: Array<Turtle>
+}
 
-  const makeTurn = (direction: Direction): void => {
-    const next = direction === 'right' ? position + 1 : position - 1;
-    if (next < 0 || next >= state.length) {
-      throw new Error(`Cannot move ${direction}`);
+const startGame = (): Game => {
+  const state: Array<Turtle> = ['turtle', null, null, null, null]
+
+  const makeTurn = (direction: 'left' | 'right'): void => {
+    const index = state.findIndex((cell) => cell === 'turtle')
+    const nextIndex = direction === 'right' ? index + 1 : index - 1
+    if (nextIndex < 0 || nextIndex >= state.length) {
+      throw new Error('Out of bounds')
     }
-    state[position] = null;
-    position = next;
-    state[position] = 'turtle';
-  };
+    state[index] = null
+    state[nextIndex] = 'turtle'
+  }
 
-  return { makeTurn, state };
-};
+  return { makeTurn, state }
+}
+
+export default startGame

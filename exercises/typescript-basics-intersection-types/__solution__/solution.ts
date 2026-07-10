@@ -1,18 +1,20 @@
 enum Permission {
-  READ = 'READ',
-  WRITE = 'WRITE',
+  READ,
+  WRITE,
+  DELETE,
 }
 
-interface User {
-  login: string;
+type User = {
+  login: string
 }
 
-interface AdminPermission {
-  permission: Permission;
+type AdminPermission = {
+  permission: Permission
 }
 
-export type Admin = AdminPermission & User;
+type Admin = User & AdminPermission
 
-export const addAdmin = (user: User): Admin => {
-  return { ...user, permission: Permission.READ };
-};
+const addAdmin = (user: User): Admin => ({ ...user, permission: Permission.READ })
+
+export { User, Admin, Permission }
+export default addAdmin

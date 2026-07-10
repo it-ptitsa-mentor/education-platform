@@ -1,5 +1,10 @@
-export const filterAnagrams = (word: string, candidates: string[]): string[] => {
-  const sorted = (s: string) => s.toLowerCase().split('').sort().join('');
-  const target = sorted(word);
-  return candidates.filter((c) => sorted(c) === target);
-};
+// @ts-check
+
+const normalize = (word: string): string => word.split('').sort().join('')
+
+const filterAnagrams = (word: string, candidates: string[]): string[] => {
+  const key = normalize(word)
+  return candidates.filter((candidate) => normalize(candidate) === key)
+}
+
+export default filterAnagrams

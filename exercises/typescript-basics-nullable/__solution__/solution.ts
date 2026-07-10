@@ -1,6 +1,5 @@
-export const formatPrice = (value?: number | null): string => {
-  if (value === null || value === undefined) {
-    return '$0.00';
-  }
-  return '$' + value.toFixed(2);
-};
+// @ts-check
+
+const formatPrice = (price?: number | null): string => `$${(price ?? 0).toFixed(2)}`
+
+export default formatPrice

@@ -1,3 +1,8 @@
-export const filter = <T>(arr: T[], fn: (item: T) => boolean): T[] => {
-  return arr.filter(fn);
-};
+// @ts-check
+
+const filter = (
+  numbers: number[],
+  predicate: (n: number) => boolean,
+): number[] => numbers.filter((n) => predicate(n))
+
+export default filter

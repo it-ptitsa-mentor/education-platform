@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "vite": "*",
+    "vitest": "*"
+  },
+  "devDependencies": {
+    "type-assertions": "^1.1.0"
+  }
+}

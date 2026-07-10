@@ -1,20 +1,23 @@
-interface User {
-  id: number;
-  name: string;
-  age: number;
+// @ts-check
+type User = {
+  id: number
+  name: string
+  age: number
 }
 
-interface Data {
-  users: User[];
-  friends: [number, number][];
+type Friends = [number, number]
+
+export type UserResponse = {
+  users: User[]
+  friends: Friends[]
 }
 
-export const getUserFriends = (json: string, userId: number): User[] => {
-  const data: Data = JSON.parse(json);
-  const user = data.users.find((u) => u.id === userId);
-  if (!user) return [];
-  const friendIds = data.friends
-    .filter(([a, b]) => a === userId || b === userId)
-    .map(([a, b]) => (a === userId ? b : a));
-  return data.users.filter((u) => friendIds.includes(u.id));
-};
+const getUserFriends = (json: string, userId: number): User[] => {
+  const { users, friends }: UserResponse = JSON.parse(json)
+  const friendIds = friends
+    .filter((pair) => pair.includes(userId))
+    .map((pair) => (pair[0] === userId ? pair[1] : pair[0]))
+  return users.filter((user) => friendIds.includes(user.id))
+}
+
+export default getUserFriends
