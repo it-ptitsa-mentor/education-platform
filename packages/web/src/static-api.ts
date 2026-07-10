@@ -29,6 +29,10 @@ type StaticExercise = {
   readme: string;
   testClass?: ExerciseTestClass;
   solutionFiles?: Record<string, string> | null;
+  /** Pilot: HTML class names required in student's markup (from solution). */
+  expectedClasses?: readonly string[];
+  /** Pilot: CSS selectors required in student's CSS (delta solution–starter). */
+  expectedSelectors?: readonly string[];
   files: Record<string, string>;
 };
 
@@ -50,6 +54,12 @@ const toManifest = (exercise: StaticExercise): ExerciseManifest => ({
   filesToOpen: [...exercise.filesToOpen],
   studentFiles: [...exercise.studentFiles],
   readme: exercise.readme,
+  ...(exercise.expectedClasses !== undefined && {
+    expectedClasses: [...exercise.expectedClasses],
+  }),
+  ...(exercise.expectedSelectors !== undefined && {
+    expectedSelectors: [...exercise.expectedSelectors],
+  }),
 });
 
 export const staticFetchExercises = async (): Promise<{
