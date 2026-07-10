@@ -1,8 +1,12 @@
-export const forEach = <T>(
-  arr: T[],
-  fn: (item: T) => void
+// @ts-check
+
+const forEach = <T>(
+  items: T[],
+  callback: (item: T, index: number) => void,
 ): void => {
-  for (const item of arr) {
-    fn(item);
-  }
-};
+  items.forEach((item, index) => {
+    callback(item, index)
+  })
+}
+
+export default forEach

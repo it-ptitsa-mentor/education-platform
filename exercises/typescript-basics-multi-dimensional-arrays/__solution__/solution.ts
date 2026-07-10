@@ -1,5 +1,6 @@
-type Cell = 'x' | 'o' | null;
+// @ts-check
 
-export const getField = (size: number): Cell[][] => {
-  return Array.from({ length: size }, () => Array(size).fill(null));
-};
+const getField = (size: number): (null[])[] =>
+  Array.from({ length: size }, () => Array.from({ length: size }, () => null))
+
+export default getField

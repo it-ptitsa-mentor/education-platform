@@ -1,20 +1,24 @@
-interface FieldConfig<T> {
-  value: T;
-  validator: (value: T) => boolean;
-}
-
-interface Form {
-  name: FieldConfig<string>;
-  age: FieldConfig<number>;
-}
-
-export const form: Form = {
-  name: {
-    value: 'John',
-    validator: (v) => v.length > 0,
-  },
+// @ts-check
+type Form = {
   age: {
-    value: -5,
-    validator: (v) => v > 0,
+    value: number
+    validator: (val: number) => boolean
+  }
+  name: {
+    value: string
+    validator: (val: string) => boolean
+  }
+}
+
+const form: Form = {
+  age: {
+    value: 42,
+    validator: (val: number) => val < 18,
   },
-};
+  name: {
+    value: 'Hexlet',
+    validator: (val: string) => val.length > 0,
+  },
+}
+
+export default form

@@ -1,5 +1,9 @@
-export type Point = [number, number, number];
+// @ts-check
 
-export const isTheSamePoint = (p1: Point, p2: Point): boolean => {
-  return p1[0] === p2[0] && p1[1] === p2[1] && p1[2] === p2[2];
-};
+type Point = [number, number, number]
+
+const isTheSamePoint = (a: Point, b: Point): boolean =>
+  a.every((value, index) => value === b[index])
+
+export type { Point }
+export default isTheSamePoint

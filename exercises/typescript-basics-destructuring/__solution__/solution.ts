@@ -1,8 +1,9 @@
-interface Course {
-  lessons: string[];
-  [key: string]: unknown;
+// @ts-check
+
+type Course = {
+  lessons: unknown[]
 }
 
-export const lessonsCount = ({ lessons }: Course): number => {
-  return lessons.length;
-};
+const lessonsCount = ({ lessons }: Course): number => lessons.length
+
+export default lessonsCount

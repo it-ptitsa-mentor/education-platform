@@ -1,4 +1,8 @@
-export const lastIndex = (str: string, char: string): number | null => {
-  const idx = str.lastIndexOf(char);
-  return idx === -1 ? null : idx;
-};
+// @ts-check
+
+const lastIndex = (str: string, char: string): number | null => {
+  const index = str.lastIndexOf(char)
+  return index === -1 ? null : index
+}
+
+export default lastIndex

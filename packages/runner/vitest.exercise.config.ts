@@ -65,6 +65,7 @@ export default defineConfig({
       "@reduxjs/toolkit": require.resolve("@reduxjs/toolkit"),
       "react-redux": require.resolve("react-redux"),
       redux: require.resolve("redux"),
+      "type-assertions": require.resolve("type-assertions"),
       "whatwg-fetch": require.resolve("whatwg-fetch"),
       yup: require.resolve("yup"),
     },

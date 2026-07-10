@@ -1,13 +1,14 @@
-export enum ModalStatus {
-  Opened = 'Opened',
-  Closed = 'Closed',
+// @ts-check
+
+enum ModalStatus {
+  Opened,
+  Closed,
 }
 
-interface Modal {
-  text: string;
-  status: ModalStatus;
-}
+const buildModal = (
+  text: string,
+  status: ModalStatus,
+): { text: string; status: ModalStatus } => ({ text, status })
 
-export const buildModal = (text: string, status: ModalStatus): Modal => {
-  return { text, status };
-};
+export { ModalStatus }
+export default buildModal

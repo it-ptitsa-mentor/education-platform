@@ -128,6 +128,10 @@ importers:
       '@ptitsa/shared':
         specifier: workspace:*
         version: link:../shared
+    devDependencies:
+      type-assertions:
+        specifier: ^1.1.0
+        version: 1.1.0
 
   packages/shared: {}
 
@@ -2398,6 +2402,9 @@ packages:
     resolution: {integrity: sha512-X8EX+XV4QR5xCsrgxaED954zTDfY8KqlDtskKEL0cHhyS/P8b4IFOvGDQpsC9Q1XnLq915wEfwwY/zzskCtmhg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
+
+  type-assertions@1.1.0:
+    resolution: {integrity: sha512-LJ5h6n63vxS8fSdfTPqIc6IrbCo9X3g6Se+wSikCGsqaAI3ajN0iputclNG07wdWfBoQZIrpASjBQo5BeVNrAg==}
 
   type-fest@2.19.0:
     resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
@@ -4850,6 +4857,8 @@ snapshots:
       esbuild: 0.28.0
     optionalDependencies:
       fsevents: 2.3.3
+
+  type-assertions@1.1.0: {}
 
   type-fest@2.19.0: {}
 

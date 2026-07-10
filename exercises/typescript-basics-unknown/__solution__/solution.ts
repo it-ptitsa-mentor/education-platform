@@ -1,3 +1,6 @@
-export const isPlainObject = (value: unknown): boolean => {
-  return typeof value === 'object' && value !== null && !Array.isArray(value);
-};
+// @ts-check
+
+const isPlainObject = (value: unknown): boolean =>
+  typeof value === 'object' && value !== null && !Array.isArray(value)
+
+export default isPlainObject
