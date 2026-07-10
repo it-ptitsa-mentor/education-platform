@@ -4,6 +4,48 @@ import { fileURLToPath } from "node:url";
 import { toCategorizedExerciseSummary } from "../packages/shared/src/exercise-categories.ts";
 import { classifyExerciseTest } from "../packages/shared/src/exercise-test-classify.ts";
 import { loadExerciseManifest } from "../packages/shared/src/exercise-manifest.ts";
+import { resolveExerciseTestKind } from "../packages/shared/src/exercise-test-generator.ts";
+
+/**
+ * ПИЛОТ (Фаза 2+): упражнения, для которых вычисляем expectedClasses / expectedSelectors.
+ * Остальные — без изменений. После подтверждения пилота Ильёй раскатать на всё.
+ */
+const PILOT_SLUGS = new Set([
+  "css-flex-align-items",
+  "css-flex-container",
+  "css-flex-justify-content",
+  "css-flex-flex-grow",
+]);
+
+/** Extract all top-level CSS selectors from a CSS string. */
+const extractCssSelectors = (css: string): string[] => {
+  const noComments = css.replace(/\/\*[\s\S]*?\*\//g, "");
+  const selectors: string[] = [];
+  const blockRe = /([^{}]+)\{[^{}]*\}/g;
+  let m: RegExpExecArray | null;
+  while ((m = blockRe.exec(noComments)) !== null) {
+    const selectorPart = m[1].trim();
+    if (!selectorPart || selectorPart.startsWith("@")) continue;
+    for (const sel of selectorPart.split(",")) {
+      const trimmed = sel.trim().replace(/\s+/g, " ");
+      if (trimmed) selectors.push(trimmed);
+    }
+  }
+  return [...new Set(selectors)];
+};
+
+/** Extract all class names from HTML class="..." attributes. */
+const extractHtmlClasses = (html: string): string[] => {
+  const classes = new Set<string>();
+  const classRe = /class="([^"]+)"/g;
+  let m: RegExpExecArray | null;
+  while ((m = classRe.exec(html)) !== null) {
+    for (const cls of m[1].split(/\s+/)) {
+      if (cls) classes.add(cls);
+    }
+  }
+  return [...classes];
+};
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const exercisesRoot = path.join(repoRoot, "exercises");
@@ -68,6 +110,64 @@ const readSolutionFiles = async (
   }
 };
 
+/**
+ * For pilot exercises: compute expectedClasses (from solution HTML) and
+ * expectedSelectors (delta: solution selectors minus starter selectors).
+ */
+const computeStructuralHints = async (
+  slug: string,
+  manifest: Awaited<ReturnType<typeof loadExerciseManifest>>,
+  starterFiles: Record<string, string>,
+): Promise<{ expectedClasses?: string[]; expectedSelectors?: string[] }> => {
+  if (!PILOT_SLUGS.has(slug)) return {};
+
+  const kind = resolveExerciseTestKind(manifest);
+  if (kind !== "html-content" && kind !== "css-content") return {};
+
+  const solutionFiles = await readSolutionFiles(slug, manifest.studentFiles);
+  if (!solutionFiles) return {};
+
+  let expectedClasses: string[] | undefined;
+  let expectedSelectors: string[] | undefined;
+
+  // Extract class names from solution HTML (present in HTML but not necessarily in starter)
+  const htmlFiles = manifest.studentFiles.filter((f) => f.endsWith(".html"));
+  if (htmlFiles.length > 0) {
+    const solutionHtml = solutionFiles[htmlFiles[0]];
+    const starterHtml = starterFiles[htmlFiles[0]] ?? "";
+    if (solutionHtml) {
+      const solutionClasses = extractHtmlClasses(solutionHtml);
+      const starterClasses = new Set(extractHtmlClasses(starterHtml));
+      // Only require classes that are added in the solution (not present in the starter)
+      const delta = solutionClasses.filter((cls) => !starterClasses.has(cls));
+      if (delta.length > 0) expectedClasses = delta;
+    }
+  }
+
+  // Extract CSS selectors from solution CSS, compute delta vs starter
+  const cssFiles = manifest.studentFiles.filter((f) => f.endsWith(".css"));
+  if (cssFiles.length > 0) {
+    const allSolutionSelectors: string[] = [];
+    const allStarterSelectors = new Set<string>();
+    for (const cssFile of cssFiles) {
+      const solutionCss = solutionFiles[cssFile];
+      const starterCss = starterFiles[cssFile] ?? "";
+      if (solutionCss) {
+        allSolutionSelectors.push(...extractCssSelectors(solutionCss));
+      }
+      for (const sel of extractCssSelectors(starterCss)) {
+        allStarterSelectors.add(sel);
+      }
+    }
+    const delta = [...new Set(allSolutionSelectors)].filter(
+      (sel) => !allStarterSelectors.has(sel),
+    );
+    if (delta.length > 0) expectedSelectors = delta;
+  }
+
+  return { expectedClasses, expectedSelectors };
+};
+
 const entries = await readdir(exercisesRoot, { withFileTypes: true });
 const loaded = await Promise.all(
   entries
@@ -84,6 +184,12 @@ const loaded = await Promise.all(
           ? await readSolutionFiles(manifest.slug, manifest.studentFiles)
           : null;
 
+      const structuralHints = await computeStructuralHints(
+        manifest.slug,
+        manifest,
+        files,
+      );
+
       return {
         manifest,
         testClass,
@@ -96,6 +202,12 @@ const loaded = await Promise.all(
           readme: manifest.readme,
           testClass,
           solutionFiles: solutionFiles,
+          ...(structuralHints.expectedClasses !== undefined && {
+            expectedClasses: structuralHints.expectedClasses,
+          }),
+          ...(structuralHints.expectedSelectors !== undefined && {
+            expectedSelectors: structuralHints.expectedSelectors,
+          }),
           files,
         },
       };

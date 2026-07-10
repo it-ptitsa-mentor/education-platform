@@ -7,6 +7,16 @@ export type ExerciseManifest = {
   filesToOpen: string[];
   studentFiles: string[];
   readme: string;
+  /**
+   * HTML class names that must appear in the student's HTML files.
+   * Extracted from the solution HTML at generation time (pilot: select exercises).
+   */
+  expectedClasses?: string[];
+  /**
+   * CSS selectors that must appear in the student's CSS files.
+   * Computed as delta: solution selectors minus starter selectors.
+   */
+  expectedSelectors?: string[];
   hexlet?: {
     courseSlug: string;
     courseName: string;

@@ -12,6 +12,8 @@ import {
   assertHtmlMarkup,
   assertJsxComponent,
   assertNonEmpty,
+  assertRequiredClasses,
+  assertRequiredSelectors,
   collectAssertionErrors,
 } from "./file-assertions.js";
 import { checkImportedPlaceholder } from "./imported-placeholder.js";
@@ -112,9 +114,16 @@ export const runBrowserExerciseCheck = async (
 
   if (kind === "css-content") {
     return outcomeFromAssertionErrors(
-      manifest.studentFiles.map((filePath) =>
-        assertCssRules(studentFiles[filePath] ?? "", filePath),
-      ),
+      manifest.studentFiles.flatMap((filePath) => {
+        const content = studentFiles[filePath] ?? "";
+        const baseCheck = assertCssRules(content, filePath);
+        if (baseCheck !== null) return [baseCheck];
+        // Structural check: verify required selectors when manifest provides them.
+        if (manifest.expectedSelectors && manifest.expectedSelectors.length > 0) {
+          return assertRequiredSelectors(content, manifest.expectedSelectors);
+        }
+        return [null];
+      }),
     );
   }
 
@@ -123,10 +132,22 @@ export const runBrowserExerciseCheck = async (
       manifest.studentFiles.flatMap((filePath) => {
         const content = studentFiles[filePath] ?? "";
         if (filePath.endsWith(".html")) {
-          return assertHtmlMarkup(content, filePath);
+          const baseCheck = assertHtmlMarkup(content, filePath);
+          if (baseCheck !== null) return [baseCheck];
+          // Structural check: verify required class names when manifest provides them.
+          if (manifest.expectedClasses && manifest.expectedClasses.length > 0) {
+            return assertRequiredClasses(content, manifest.expectedClasses);
+          }
+          return [null];
         }
         if (filePath.endsWith(".css")) {
-          return assertNonEmpty(content, filePath);
+          const baseCheck = assertNonEmpty(content, filePath);
+          if (baseCheck !== null) return [baseCheck];
+          // Structural check: verify required selectors when manifest provides them.
+          if (manifest.expectedSelectors && manifest.expectedSelectors.length > 0) {
+            return assertRequiredSelectors(content, manifest.expectedSelectors);
+          }
+          return [null];
         }
         return null;
       }),
