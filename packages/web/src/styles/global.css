@@ -2588,7 +2588,8 @@ body.is-resizing-vertical {
 }
 .lesson-aside { border-right: 1px solid var(--border); padding: 1.25rem 1rem 1rem; overflow-y: auto; background: var(--surface); }
 /* Desktop non-focus: flex-column so lessons list scrolls inside, nav always visible at bottom */
-.lesson-layout:not(.lesson-layout--focus) .lesson-aside { position: sticky; top: var(--header-h); height: calc(100dvh - var(--header-h)); display: flex; flex-direction: column; overflow: hidden; }
+/* Fix: sticky-контекст .app-main начинается на y=60 под .topbar, top:0 = 60px от окна */
+.lesson-layout:not(.lesson-layout--focus) .lesson-aside { position: sticky; top: 0; height: calc(100dvh - var(--header-h)); display: flex; flex-direction: column; overflow: hidden; }
 .lesson-aside-back { display: inline-block; margin-bottom: 1rem; font-size: 0.82rem; color: var(--accent); text-decoration: none; }
 .lesson-aside-module { margin: 0 0 0.75rem; font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-subtle); }
 .lesson-aside-topics { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.35rem; }
