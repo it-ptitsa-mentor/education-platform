@@ -1,0 +1,14 @@
+/* Решение: компонент «Оповещения» с прокруткой и многоточием */
+
+.notifications {
+  height: 300px;
+  overflow-y: scroll;
+  overflow: auto;
+}
+
+.notification-item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+}

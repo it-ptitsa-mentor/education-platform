@@ -1,0 +1,19 @@
+/* Решение: повторяющийся паттерн с градиентом */
+
+:root {
+  --transparent: transparent;
+  --purple: purple;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background: repeating-linear-gradient(
+    45deg,
+    var(--transparent),
+    var(--transparent) 100px,
+    var(--purple) 100px,
+    var(--purple) 200px
+  );
+}

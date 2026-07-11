@@ -13,6 +13,7 @@ import {
   assertJsxComponent,
   assertNonEmpty,
   assertRequiredClasses,
+  assertRequiredDeclarations,
   assertRequiredSelectors,
   collectAssertionErrors,
 } from "./file-assertions.js";
@@ -116,12 +117,31 @@ export const runBrowserExerciseCheck = async (
     return outcomeFromAssertionErrors(
       manifest.studentFiles.flatMap((filePath) => {
         const content = studentFiles[filePath] ?? "";
-        const baseCheck = assertCssRules(content, filePath);
-        if (baseCheck !== null) return [baseCheck];
-        // Structural check: verify required selectors when manifest provides them.
-        if (manifest.expectedSelectors && manifest.expectedSelectors.length > 0) {
-          return assertRequiredSelectors(content, manifest.expectedSelectors);
+
+        // HTML files: check markup validity, not CSS rules.
+        if (filePath.endsWith(".html")) {
+          return assertHtmlMarkup(content, filePath);
         }
+
+        // CSS files: base check + structural hints when available.
+        if (filePath.endsWith(".css")) {
+          const baseCheck = assertCssRules(content, filePath);
+          if (baseCheck !== null) return [baseCheck];
+
+          // Prefer expectedDeclarations (property-level delta) over selector delta.
+          // This catches cases where selectors exist but required properties are missing.
+          if (manifest.expectedDeclarations && manifest.expectedDeclarations.length > 0) {
+            return assertRequiredDeclarations(content, manifest.expectedDeclarations, filePath);
+          }
+
+          // Fall back to selector check for backward compatibility with older exercises.
+          if (manifest.expectedSelectors && manifest.expectedSelectors.length > 0) {
+            return assertRequiredSelectors(content, manifest.expectedSelectors);
+          }
+
+          return [null];
+        }
+
         return [null];
       }),
     );
@@ -141,9 +161,13 @@ export const runBrowserExerciseCheck = async (
           return [null];
         }
         if (filePath.endsWith(".css")) {
-          const baseCheck = assertNonEmpty(content, filePath);
+          const baseCheck = assertCssRules(content, filePath);
           if (baseCheck !== null) return [baseCheck];
-          // Structural check: verify required selectors when manifest provides them.
+          // Prefer expectedDeclarations (property-level delta) over selector delta.
+          if (manifest.expectedDeclarations && manifest.expectedDeclarations.length > 0) {
+            return assertRequiredDeclarations(content, manifest.expectedDeclarations, filePath);
+          }
+          // Fall back to selector check for backward compatibility with older exercises.
           if (manifest.expectedSelectors && manifest.expectedSelectors.length > 0) {
             return assertRequiredSelectors(content, manifest.expectedSelectors);
           }

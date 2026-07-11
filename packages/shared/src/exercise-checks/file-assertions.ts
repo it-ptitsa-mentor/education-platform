@@ -78,6 +78,35 @@ export const assertRequiredSelectors = (
   });
 };
 
+/**
+ * Assert that every required CSS property name appears in the student's CSS.
+ * Supports both regular properties (e.g. "font-family") and custom properties
+ * (e.g. "--primary-color").
+ * Returns one error string per missing property.
+ */
+export const assertRequiredDeclarations = (
+  css: string,
+  requiredProperties: string[],
+  filePath: string,
+): Array<string | null> => {
+  return requiredProperties.map((property) => {
+    let pattern: RegExp;
+    if (property.startsWith("--")) {
+      // Custom CSS property: --custom-name: value
+      const escaped = property.replace(/[-]/g, "[-]");
+      pattern = new RegExp(`${escaped}\\s*:`, "m");
+    } else {
+      // Regular CSS property: uses word-boundary-like check to avoid
+      // matching "background" when looking for "background-image"
+      const escaped = property.replace(/[-]/g, "[-]");
+      pattern = new RegExp(`(?:^|[{;,\\s])${escaped}\\s*:`, "mi");
+    }
+    return pattern.test(css)
+      ? null
+      : `${filePath}: в CSS не задано свойство «${property}»`;
+  });
+};
+
 export const collectAssertionErrors = (
   checks: Array<string | null>,
 ): string[] => checks.filter((message): message is string => message !== null);

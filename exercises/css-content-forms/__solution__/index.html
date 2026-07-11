@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Формы</title>
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Обратная связь</h1>
+      <div class="form-input mb-2">
+        <label class="sr-only" for="name">Ваше имя</label>
+        <input type="text" id="name" placeholder="Ваше имя" />
+      </div>
+      <div class="form-input mb-2">
+        <label class="sr-only" for="email">Ваш Email</label>
+        <input type="email" id="email" placeholder="Ваш Email" />
+      </div>
+      <div class="form-input mb-2">
+        <label class="sr-only" for="message">Ваше сообщение</label>
+        <textarea id="message" placeholder="Ваше сообщение"></textarea>
+      </div>
+      <div class="small mb-1">
+        <input type="checkbox" id="agree" />
+        <label for="agree">Принять условия сервиса</label>
+      </div>
+      <button type="submit">Отправить</button>
+    </form>
+  </body>
+</html>

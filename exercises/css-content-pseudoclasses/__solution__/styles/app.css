@@ -1,0 +1,10 @@
+/* Решение: шахматная доска с псевдоклассами :nth-child */
+
+.board-row:nth-child(odd) .board-cell:nth-child(even),
+.board-row:nth-child(even) .board-cell:nth-child(odd) {
+  background-color: #f1d9b5;
+}
+
+.cell:nth-child(odd) {
+  background-color: #f1d9b5;
+}

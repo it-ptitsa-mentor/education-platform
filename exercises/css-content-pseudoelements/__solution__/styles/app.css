@@ -1,0 +1,20 @@
+/* Решение: стилизация карточек профилей с псевдоэлементами */
+
+.user-name::before {
+  content: "👤";
+  margin-right: 5px;
+}
+
+.user-name::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #ccc;
+  margin-top: 5px;
+}
+
+.profile-description::first-letter {
+  color: #6936f4;
+  font-size: 1.5em;
+  font-weight: bold;
+}

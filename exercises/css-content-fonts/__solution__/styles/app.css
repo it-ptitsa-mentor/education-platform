@@ -1,0 +1,62 @@
+/* Решение: настройка текстовых стилей для портала «Artist Magazine» */
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../assets/fonts/Cormorant-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../assets/fonts/Cormorant-Bold.ttf");
+  font-weight: bold;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+.logo {
+  color: #333;
+  font-size: 30px;
+  line-height: normal;
+  font-family: "Cormorant", serif;
+}
+
+nav a {
+  color: #616161;
+  font-weight: bold;
+}
+
+.interview {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: serif;
+}
+
+.interview-header {
+  font-size: 50px;
+  line-height: 1.2;
+  font-family: "Cormorant", serif;
+  font-weight: bold;
+}
+
+.interview-description {
+  color: #686868;
+  font-family: sans-serif;
+}
+
+.interview-footer {
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: right;
+}
+
+.interview-text {
+  font-size: 20px;
+  line-height: 1.75;
+  text-align: justify;
+}

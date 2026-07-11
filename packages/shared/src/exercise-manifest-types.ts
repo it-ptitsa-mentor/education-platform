@@ -17,6 +17,14 @@ export type ExerciseManifest = {
    * Computed as delta: solution selectors minus starter selectors.
    */
   expectedSelectors?: string[];
+  /**
+   * CSS property names that must appear in the student's CSS files.
+   * Computed as delta: solution property names minus starter property names.
+   * More specific than expectedSelectors: verifies that required declarations
+   * (e.g. font-family, background-image) are actually present, not just selector names.
+   * May include custom properties (e.g. "--primary-color").
+   */
+  expectedDeclarations?: string[];
   hexlet?: {
     courseSlug: string;
     courseName: string;
