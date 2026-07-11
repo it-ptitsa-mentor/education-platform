@@ -6,17 +6,6 @@ import { classifyExerciseTest } from "../packages/shared/src/exercise-test-class
 import { loadExerciseManifest } from "../packages/shared/src/exercise-manifest.ts";
 import { resolveExerciseTestKind } from "../packages/shared/src/exercise-test-generator.ts";
 
-/**
- * ПИЛОТ (Фаза 2+): упражнения, для которых вычисляем expectedClasses / expectedSelectors.
- * Остальные — без изменений. После подтверждения пилота Ильёй раскатать на всё.
- */
-const PILOT_SLUGS = new Set([
-  "css-flex-align-items",
-  "css-flex-container",
-  "css-flex-justify-content",
-  "css-flex-flex-grow",
-]);
-
 /** Extract all top-level CSS selectors from a CSS string. */
 const extractCssSelectors = (css: string): string[] => {
   const noComments = css.replace(/\/\*[\s\S]*?\*\//g, "");
@@ -111,20 +100,18 @@ const readSolutionFiles = async (
 };
 
 /**
- * For pilot exercises: compute expectedClasses (from solution HTML) and
- * expectedSelectors (delta: solution selectors minus starter selectors).
+ * Фаза 2 (полная раскатка): для всех html/css-content заданий с __solution__/
+ * вычисляем expectedClasses (delta HTML-классов) и expectedSelectors (delta CSS-селекторов).
+ * Если solution не найден или delta пуста — возвращаем {}.
  */
 const computeStructuralHints = async (
-  slug: string,
   manifest: Awaited<ReturnType<typeof loadExerciseManifest>>,
   starterFiles: Record<string, string>,
 ): Promise<{ expectedClasses?: string[]; expectedSelectors?: string[] }> => {
-  if (!PILOT_SLUGS.has(slug)) return {};
-
   const kind = resolveExerciseTestKind(manifest);
   if (kind !== "html-content" && kind !== "css-content") return {};
 
-  const solutionFiles = await readSolutionFiles(slug, manifest.studentFiles);
+  const solutionFiles = await readSolutionFiles(manifest.slug, manifest.studentFiles);
   if (!solutionFiles) return {};
 
   let expectedClasses: string[] | undefined;
@@ -184,11 +171,7 @@ const loaded = await Promise.all(
           ? await readSolutionFiles(manifest.slug, manifest.studentFiles)
           : null;
 
-      const structuralHints = await computeStructuralHints(
-        manifest.slug,
-        manifest,
-        files,
-      );
+      const structuralHints = await computeStructuralHints(manifest, files);
 
       return {
         manifest,
