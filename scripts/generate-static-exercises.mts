@@ -6,6 +6,24 @@ import { classifyExerciseTest } from "../packages/shared/src/exercise-test-class
 import { loadExerciseManifest } from "../packages/shared/src/exercise-manifest.ts";
 import { resolveExerciseTestKind } from "../packages/shared/src/exercise-test-generator.ts";
 
+/**
+ * Extract all CSS property names (including custom properties) from a CSS string.
+ * Scans declarations inside { } blocks, e.g. "font-size: 16px" → "font-size",
+ * "--primary-color: #333" → "--primary-color".
+ */
+const extractCssPropertyNames = (css: string): string[] => {
+  const noComments = css.replace(/\/\*[\s\S]*?\*\//g, "");
+  const names = new Set<string>();
+  // Match declarations like: "property-name: value" or "--custom-prop: value"
+  // Look for transitions between ; or { and a property name
+  const declRe = /(?:^|[{;])\s*(--[\w-]+|[a-zA-Z][\w-]*)\s*:/gm;
+  let m: RegExpExecArray | null;
+  while ((m = declRe.exec(noComments)) !== null) {
+    names.add(m[1]);
+  }
+  return [...names];
+};
+
 /** Extract all top-level CSS selectors from a CSS string. */
 const extractCssSelectors = (css: string): string[] => {
   const noComments = css.replace(/\/\*[\s\S]*?\*\//g, "");
@@ -101,13 +119,18 @@ const readSolutionFiles = async (
 
 /**
  * Фаза 2 (полная раскатка): для всех html/css-content заданий с __solution__/
- * вычисляем expectedClasses (delta HTML-классов) и expectedSelectors (delta CSS-селекторов).
+ * вычисляем expectedClasses (delta HTML-классов), expectedSelectors (delta CSS-селекторов)
+ * и expectedDeclarations (delta CSS-свойств).
  * Если solution не найден или delta пуста — возвращаем {}.
  */
 const computeStructuralHints = async (
   manifest: Awaited<ReturnType<typeof loadExerciseManifest>>,
   starterFiles: Record<string, string>,
-): Promise<{ expectedClasses?: string[]; expectedSelectors?: string[] }> => {
+): Promise<{
+  expectedClasses?: string[];
+  expectedSelectors?: string[];
+  expectedDeclarations?: string[];
+}> => {
   const kind = resolveExerciseTestKind(manifest);
   if (kind !== "html-content" && kind !== "css-content") return {};
 
@@ -116,6 +139,7 @@ const computeStructuralHints = async (
 
   let expectedClasses: string[] | undefined;
   let expectedSelectors: string[] | undefined;
+  let expectedDeclarations: string[] | undefined;
 
   // Extract class names from solution HTML (present in HTML but not necessarily in starter)
   const htmlFiles = manifest.studentFiles.filter((f) => f.endsWith(".html"));
@@ -131,28 +155,41 @@ const computeStructuralHints = async (
     }
   }
 
-  // Extract CSS selectors from solution CSS, compute delta vs starter
+  // Extract CSS selectors and property names from solution CSS, compute delta vs starter
   const cssFiles = manifest.studentFiles.filter((f) => f.endsWith(".css"));
   if (cssFiles.length > 0) {
     const allSolutionSelectors: string[] = [];
     const allStarterSelectors = new Set<string>();
+    const allSolutionProperties: string[] = [];
+    const allStarterProperties = new Set<string>();
+
     for (const cssFile of cssFiles) {
       const solutionCss = solutionFiles[cssFile];
       const starterCss = starterFiles[cssFile] ?? "";
       if (solutionCss) {
         allSolutionSelectors.push(...extractCssSelectors(solutionCss));
+        allSolutionProperties.push(...extractCssPropertyNames(solutionCss));
       }
       for (const sel of extractCssSelectors(starterCss)) {
         allStarterSelectors.add(sel);
       }
+      for (const prop of extractCssPropertyNames(starterCss)) {
+        allStarterProperties.add(prop);
+      }
     }
-    const delta = [...new Set(allSolutionSelectors)].filter(
+
+    const selectorDelta = [...new Set(allSolutionSelectors)].filter(
       (sel) => !allStarterSelectors.has(sel),
     );
-    if (delta.length > 0) expectedSelectors = delta;
+    if (selectorDelta.length > 0) expectedSelectors = selectorDelta;
+
+    const propDelta = [...new Set(allSolutionProperties)].filter(
+      (prop) => !allStarterProperties.has(prop),
+    );
+    if (propDelta.length > 0) expectedDeclarations = propDelta;
   }
 
-  return { expectedClasses, expectedSelectors };
+  return { expectedClasses, expectedSelectors, expectedDeclarations };
 };
 
 const entries = await readdir(exercisesRoot, { withFileTypes: true });
@@ -190,6 +227,9 @@ const loaded = await Promise.all(
           }),
           ...(structuralHints.expectedSelectors !== undefined && {
             expectedSelectors: structuralHints.expectedSelectors,
+          }),
+          ...(structuralHints.expectedDeclarations !== undefined && {
+            expectedDeclarations: structuralHints.expectedDeclarations,
           }),
           files,
         },
