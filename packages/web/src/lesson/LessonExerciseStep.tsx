@@ -7,15 +7,13 @@ import { lessonFooterNext, lessonFooterPrev, lessonUnitPath } from "../lib/lesso
 import { useLesson } from "./lesson-context";
 
 export const LessonExerciseStep = () => {
-  const { current, allLessons, refreshProgress, progressVersion } = useLesson();
+  const { current, allLessons, refreshProgress } = useLesson();
   const { lesson } = current;
-  void progressVersion;
 
   const continueLink = lessonFooterNext(current, allLessons, "exercise");
   const prevLink = lessonFooterPrev(current, allLessons, "exercise");
-  const [showPassModal, setShowPassModal] = useState(
-    () => isUnitDone(current.id, "exercise") && Boolean(continueLink),
-  );
+  const alreadyDone = isUnitDone(current.id, "exercise");
+  const [showPassModal, setShowPassModal] = useState(false);
 
   if (!lesson.exercise) {
     return <Navigate to={lessonUnitPath(current, "theory")} replace />;
@@ -23,6 +21,12 @@ export const LessonExerciseStep = () => {
 
   return (
     <div className="lesson-unit lesson-unit--exercise">
+      {alreadyDone && (
+        <div className="exercise-done-banner" role="status">
+          <span className="exercise-done-banner__icon" aria-hidden>✓</span>
+          Задание уже выполнено — можно решить заново
+        </div>
+      )}
       <ExerciseRunner
         slug={lesson.exercise}
         embedded

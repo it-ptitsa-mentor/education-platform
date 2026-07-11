@@ -2848,7 +2848,26 @@ body.is-resizing-vertical {
   width: 100%;
   padding: 0;
 }
-.lesson-unit--exercise { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 0.35rem; }
+.lesson-unit--exercise { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 0; }
+
+/* ── Exercise "already done" banner ── */
+.exercise-done-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--pass);
+  background: var(--pass-dim);
+  border-bottom: 1px solid color-mix(in srgb, var(--pass) 20%, transparent);
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+.exercise-done-banner__icon {
+  font-size: 0.8rem;
+  line-height: 1;
+}
 .lesson-unit--quiz {
   max-width: 52rem;
   display: flex;
