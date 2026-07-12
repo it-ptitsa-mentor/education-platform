@@ -2966,8 +2966,15 @@ body.is-resizing-vertical {
 }
 
 .lesson-theory {
-  max-width: none;
+  /* Typographic measure: ~65–70 ch per line for comfortable reading.
+     On mobile (≤640px) the viewport is narrower than 70ch, so max-width
+     has no effect and the text fills the full available width naturally.
+     margin-inline: auto centres the column when the parent is wider.
+     PR #56 fix (max-width:100% on .lesson-main-body) is unaffected — that
+     fix lives on the flex item above, not here. */
+  max-width: 70ch;
   width: 100%;
+  margin-inline: auto;
   font-size: 1rem;
   line-height: 1.7;
   color: var(--text);
