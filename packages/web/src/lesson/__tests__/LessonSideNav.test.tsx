@@ -86,16 +86,22 @@ describe("LessonSideNav", () => {
     expect(screen.getByText("Урок второй")).toBeInTheDocument();
   });
 
-  it("рендерит ссылку «Назад» для последнего урока", () => {
-    renderNav(ref3);
-    expect(screen.getByRole("link", { name: /Назад/i })).toBeInTheDocument();
-    expect(screen.getByText("Урок второй")).toBeInTheDocument();
+  it("НЕ рендерит кнопку «Назад» — навигация только вперёд", () => {
+    renderNav(ref2);
+    expect(screen.queryByRole("link", { name: /Назад/i })).not.toBeInTheDocument();
+    expect(screen.queryByText(/назад/i)).not.toBeInTheDocument();
   });
 
-  it("рендерит обе ссылки для среднего урока", () => {
+  it("рендерит только «Далее» для среднего урока (без «Назад»)", () => {
     renderNav(ref2);
-    expect(screen.getByRole("link", { name: /Назад/i })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /Далее/i })).toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: /Назад/i })).not.toBeInTheDocument();
+  });
+
+  it("не рендерит nav для последнего урока (нет «Далее»)", () => {
+    const { container } = renderNav(ref3);
+    // Нет следующего урока — навигация не отображается
+    expect(container.querySelector("nav")).not.toBeInTheDocument();
   });
 
   it("возвращает null, когда нет предыдущего и следующего", () => {
