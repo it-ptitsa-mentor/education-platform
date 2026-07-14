@@ -2978,9 +2978,12 @@ body.is-resizing-vertical {
      header's left edge (breadcrumb / title / tabs) and the first paragraph
      of text share the same vertical line. No double-centring.
      PR #56 fix (max-width:100% on .lesson-main-body) is unaffected — that
-     fix lives on the flex item above, not here. */
+     fix lives on the flex item above, not here.
+     min-width: 0 prevents the article from overflowing its flex/grid cell
+     (belt-and-suspenders alongside minmax(0,1fr) in .lesson-theory-with-toc). */
   max-width: 70ch;
   width: 100%;
+  min-width: 0;
   margin-inline: 0;
   font-size: 1rem;
   line-height: 1.7;
@@ -3065,10 +3068,14 @@ body.is-resizing-vertical {
 .lesson-theory table { width: 100%; border-collapse: collapse; margin: 0 0 1.2rem; font-size: 0.92rem; }
 .lesson-theory th, .lesson-theory td { border: 1px solid var(--border); padding: 0.5rem 0.7rem; text-align: left; }
 
-/* === Theory TOC sidebar (H2 anchors, right of theory column) === */
+/* === Theory TOC sidebar (H2 anchors, right column) === */
 .lesson-theory-with-toc {
   display: grid;
-  grid-template-columns: 1fr 12rem;
+  /* minmax(0, 1fr) prevents the auto-minimum from expanding the theory track
+     to max-width:70ch (~770px), which caused TOC overflow at viewport ≤1366px.
+     The 0 floor lets the track shrink below its content's max-width, allocating
+     only the free space after the fixed 12rem TOC and gap. */
+  grid-template-columns: minmax(0, 1fr) 12rem;
   gap: 1.5rem;
   align-items: start;
 }
