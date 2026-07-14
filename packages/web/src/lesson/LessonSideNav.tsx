@@ -3,7 +3,6 @@ import { markUnitDone } from "../course";
 import type { LessonUnit } from "../course";
 import {
   lessonFooterNext,
-  lessonFooterPrev,
   type LessonNavLink,
 } from "../lib/lesson-units";
 import { useLesson } from "./lesson-context";
@@ -67,7 +66,6 @@ export const LessonSideNav = ({ activeUnit, onNavigate }: LessonSideNavProps) =>
   const { current, allLessons, progressVersion, refreshProgress } = useLesson();
   void progressVersion;
 
-  const prev = lessonFooterPrev(current, allLessons, activeUnit);
   const next = lessonFooterNext(current, allLessons, activeUnit);
   const handleNextNavigate = () => {
     if (activeUnit === "theory") {
@@ -77,11 +75,10 @@ export const LessonSideNav = ({ activeUnit, onNavigate }: LessonSideNavProps) =>
     onNavigate?.();
   };
 
-  if (!prev && !next) return null;
+  if (!next) return null;
 
   return (
     <nav className="lesson-footer-nav" aria-label="Навигация по уроку">
-      <SideNavLink direction="prev" link={prev} onNavigate={onNavigate} />
       <SideNavLink
         direction="next"
         link={next}

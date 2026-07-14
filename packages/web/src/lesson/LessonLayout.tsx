@@ -13,7 +13,6 @@ import {
 import { LessonContext } from "./lesson-context";
 import { LessonCourseSidebar } from "./LessonCourseSidebar";
 import { LessonSideNav } from "./LessonSideNav";
-import { LessonStepper } from "./LessonStepper";
 
 const findTopic = (course: Course, moduleSlug: string, topicSlug: string) => {
   const mod = course.modules.find((m) => m.slug === moduleSlug);
@@ -184,7 +183,6 @@ export const LessonLayout = () => {
                   >
                     Уроки
                   </button>
-                  <LessonStepper activeUnit={activeUnit} />
                   <h1 className="lesson-title lesson-title--compact">
                     {current.lesson.title}
                   </h1>
@@ -211,7 +209,6 @@ export const LessonLayout = () => {
                     {mod.title} · {topic.title}
                   </div>
                   <h1 className="lesson-title">{current.lesson.title}</h1>
-                  <LessonStepper activeUnit={activeUnit} />
                 </>
               )}
             </div>

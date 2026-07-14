@@ -3065,6 +3065,64 @@ body.is-resizing-vertical {
 .lesson-theory table { width: 100%; border-collapse: collapse; margin: 0 0 1.2rem; font-size: 0.92rem; }
 .lesson-theory th, .lesson-theory td { border: 1px solid var(--border); padding: 0.5rem 0.7rem; text-align: left; }
 
+/* === Theory TOC sidebar (H2 anchors, right of theory column) === */
+.lesson-theory-with-toc {
+  display: grid;
+  grid-template-columns: 1fr 12rem;
+  gap: 1.5rem;
+  align-items: start;
+}
+.lesson-theory-toc {
+  position: sticky;
+  top: 1.5rem;
+  max-height: calc(100dvh - var(--header-h) - 2rem);
+  overflow-y: auto;
+  padding: 0.65rem 0 1rem;
+  border-left: 1px solid var(--border);
+  padding-left: 0.85rem;
+}
+.lesson-theory-toc-title {
+  margin: 0 0 0.55rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-subtle);
+}
+.lesson-theory-toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.lesson-theory-toc-item { margin: 0; }
+.lesson-theory-toc-link {
+  display: block;
+  font-size: 0.79rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 0.22rem 0.3rem;
+  border-radius: 4px;
+  transition: color 0.12s, background 0.12s;
+}
+.lesson-theory-toc-link:hover {
+  color: var(--accent);
+  background: var(--accent-dim);
+}
+
+@media (max-width: 860px) {
+  .lesson-theory-with-toc {
+    grid-template-columns: 1fr;
+  }
+  .lesson-theory-toc {
+    display: none;
+  }
+}
+/* ======================================================= */
+
 .lesson-actions {
   display: flex;
   flex-direction: column;

@@ -1,18 +1,12 @@
-import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
-import { loadTheory } from "../course";
 import { markdownComponents } from "../lib/markdown-components";
 
-export const LessonTheoryContent = ({ theoryPath }: { theoryPath: string }) => {
-  const [theory, setTheory] = useState<string | null>(null);
+type LessonTheoryContentProps = {
+  /** Markdown-текст теории или null (загрузка ещё не завершена). */
+  theory: string | null;
+};
 
-  useEffect(() => {
-    setTheory(null);
-    loadTheory(theoryPath)
-      .then(setTheory)
-      .catch(() => setTheory("_Не удалось загрузить теорию._"));
-  }, [theoryPath]);
-
+export const LessonTheoryContent = ({ theory }: LessonTheoryContentProps) => {
   const loading = theory === null;
 
   return (
