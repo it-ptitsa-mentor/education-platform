@@ -4182,3 +4182,57 @@ body.is-resizing-vertical {
     display: none !important;
   }
 }
+
+/* ── Экран входа тренажёра (AuthGate) ── */
+.auth-screen {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: var(--bg-base);
+}
+.auth-card {
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  background: var(--surface-raised);
+  border: 1px solid rgba(232, 180, 90, 0.18);
+  border-radius: 16px;
+  padding: 40px 32px;
+}
+.auth-logo {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #fff;
+  object-fit: cover;
+  margin: 0 auto 20px;
+}
+.auth-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--text);
+  margin: 0 0 12px;
+}
+.auth-body {
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+  line-height: 1.55;
+}
+.auth-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 11px 22px;
+  border: none;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #1a1206;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  cursor: pointer;
+  text-decoration: none;
+}
+.auth-btn:hover {
+  background: var(--gold-soft, #f0c98a);
+}

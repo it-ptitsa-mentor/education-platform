@@ -3,6 +3,7 @@ import { readdir } from "node:fs/promises";
 import path from "node:path";
 import Fastify, { type FastifyInstance } from "fastify";
 import { runExerciseCheck, readStarterFiles } from "@ptitsa/runner";
+import { readCookie, type Resolver } from "./auth.js";
 import {
   checkQuizAnswers,
   loadExerciseManifest,
@@ -15,14 +16,54 @@ import {
 export type AppOptions = {
   exercisesRoot: string;
   quizzesRoot?: string;
+  /** Резолвер доступа (единый вход через кабинет). Не задан — гейт выключен (dev/тесты). */
+  auth?: Resolver;
 };
 
-export const buildApp = ({ exercisesRoot, quizzesRoot }: AppOptions): FastifyInstance => {
+// Публичные ручки — без гейта. Всё остальное под /api/exercises*, /api/quizzes* — за логином.
+const isPublic = (url: string): boolean => {
+  const path = url.split("?")[0];
+  return path === "/api/health" || path === "/api/me";
+};
+
+export const buildApp = ({ exercisesRoot, quizzesRoot, auth }: AppOptions): FastifyInstance => {
   const app = Fastify({ logger: false });
 
   app.register(cors, { origin: true });
 
+  // Гейт: читаем куку кабинета, резолвим доступ к education.
+  // 401 — нет сессии (SPA покажет вход); 403 — нет доступа (SPA: запросить доступ);
+  // 503 — кабинет недоступен. Публичные ручки пропускаем. auth не задан — гейт off.
+  if (auth) {
+    app.addHook("preHandler", async (request, reply) => {
+      if (isPublic(request.url)) return;
+      const token = readCookie(request.headers.cookie);
+      if (!token) return reply.status(401).send({ error: "unauthenticated" });
+      try {
+        const info = await auth.resolve(token);
+        if (!info) return reply.status(401).send({ error: "unauthenticated" });
+        if (!info.allowed) return reply.status(403).send({ error: "no_access" });
+      } catch {
+        return reply.status(503).send({ error: "auth_unavailable" });
+      }
+    });
+  }
+
   app.get("/api/health", async () => ({ ok: true }));
+
+  // Кто я + есть ли доступ к тренажёру (для экрана входа в SPA).
+  app.get("/api/me", async (request, reply) => {
+    if (!auth) return { user: null, allowed: true }; // гейт off — всё открыто
+    const token = readCookie(request.headers.cookie);
+    if (!token) return reply.status(401).send({ error: "unauthenticated" });
+    try {
+      const info = await auth.resolve(token);
+      if (!info) return reply.status(401).send({ error: "unauthenticated" });
+      return { user: info.user, allowed: info.allowed };
+    } catch {
+      return reply.status(503).send({ error: "auth_unavailable" });
+    }
+  });
 
   app.get("/api/exercises", async () => {
     const entries = await readdir(exercisesRoot, { withFileTypes: true });

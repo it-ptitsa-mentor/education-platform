@@ -139,6 +139,8 @@ jobs:
               git reset --hard origin/main -q
               pnpm install --frozen-lockfile
               chown -R www-data:www-data /opt/education-platform
+              cp deploy/education-platform-api.service /etc/systemd/system/education-platform-api.service
+              systemctl daemon-reload
               systemctl restart education-platform-api
               sleep 3
               curl -sf http://127.0.0.1:4100/api/health
