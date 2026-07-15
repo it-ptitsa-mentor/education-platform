@@ -96,11 +96,13 @@ jobs:
       - name: Generate course content (theory + model)
         run: pnpm generate:course-content
 
-      - name: Build web (server, base=/app/)
+      - name: Build web (server, base=/app/, live API)
         run: pnpm --filter @ptitsa/web build
         env:
           VITE_BASE_PATH: /app/
-          VITE_STATIC_API: "true"
+          # реальный бэкенд за nginx /api (same-origin) — серверная проверка кода
+          # через vitest-runner вместо браузерных эвристик
+          VITE_STATIC_API: "false"
 
       - name: Setup SSH agent
         uses: webfactory/ssh-agent@v0.9.0
@@ -123,6 +125,21 @@ jobs:
               chown -R www-data:www-data /var/www/education.it-ptitsa-mentor.ru/app
               find /var/www/education.it-ptitsa-mentor.ru/app -type d -exec chmod 755 {} \;
               find /var/www/education.it-ptitsa-mentor.ru/app -type f -exec chmod 644 {} \;
+            '
+
+      - name: Deploy API service (/opt/education-platform)
+        run: |
+          ssh -o UserKnownHostsFile="$HOME/.ssh/known_hosts" \
+            "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" '
+              set -e
+              cd /opt/education-platform
+              git fetch origin main -q
+              git reset --hard origin/main -q
+              pnpm install --frozen-lockfile
+              chown -R www-data:www-data /opt/education-platform
+              systemctl restart education-platform-api
+              sleep 3
+              curl -sf http://127.0.0.1:4100/api/health
             '
 
       # ── Уведомление в TG-группу ботом @it_ptitsa_bot ──
