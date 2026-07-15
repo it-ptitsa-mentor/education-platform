@@ -17,6 +17,9 @@ Environment=NODE_ENV=production
 Environment=PORT=4100
 Environment=HOST=127.0.0.1
 Environment=SERVE_WEB=false
+# Секреты единого входа (не в репо): CABINET_RESOLVE_URL, CABINET_INTERNAL_TOKEN.
+# '-' — файл опционален (без него гейт education выключен, dev-режим).
+EnvironmentFile=-/etc/education-platform-api.env
 
 # Restart policy
 Restart=always
