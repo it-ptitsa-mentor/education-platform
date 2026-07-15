@@ -133,6 +133,8 @@ jobs:
             "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" '
               set -e
               cd /opt/education-platform
+              git config --global --get-all safe.directory | grep -qx /opt/education-platform \
+                || git config --global --add safe.directory /opt/education-platform
               git fetch origin main -q
               git reset --hard origin/main -q
               pnpm install --frozen-lockfile
