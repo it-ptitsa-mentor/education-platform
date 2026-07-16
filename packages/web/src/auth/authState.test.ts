@@ -27,3 +27,18 @@ describe("authStateFromResponse", () => {
     expect(authStateFromResponse(0, null)).toEqual({ kind: "unavailable" });
   });
 });
+
+import { buildLoginUrl } from "./authState";
+
+describe("buildLoginUrl", () => {
+  it("ведёт на /login кабинета с next обратно в тренажёр", () => {
+    const url = buildLoginUrl("https://education.it-ptitsa-mentor.ru/app/tasks");
+    expect(url).toContain("/login?next=");
+    expect(decodeURIComponent(url.split("next=")[1])).toBe(
+      "https://education.it-ptitsa-mentor.ru/app/tasks",
+    );
+  });
+  it("без текущего адреса — просто /login", () => {
+    expect(buildLoginUrl(null)).toMatch(/\/login$/);
+  });
+});
