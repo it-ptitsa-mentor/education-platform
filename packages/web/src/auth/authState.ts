@@ -17,8 +17,17 @@ export const CABINET_URL =
   (import.meta.env.VITE_CABINET_URL as string | undefined)?.replace(/\/$/, "") ??
   "https://cabinet.it-ptitsa-mentor.ru";
 
-/** Ссылка на кабинет для входа/запроса доступа. */
-export const cabinetLoginUrl = (): string => CABINET_URL;
+/**
+ * Ссылка на вход в кабинет с возвратом обратно в тренажёр (единый вход).
+ * Кабинет после логина вернёт на этот URL (валидирует, что это наш поддомен).
+ */
+export const buildLoginUrl = (currentHref: string | null): string => {
+  const base = `${CABINET_URL}/login`;
+  return currentHref ? `${base}?next=${encodeURIComponent(currentHref)}` : base;
+};
+
+export const cabinetLoginUrl = (): string =>
+  buildLoginUrl(typeof window === "undefined" ? null : window.location.href);
 
 /** Раскладывает ответ /api/me в состояние гейта. Чистая. */
 export const authStateFromResponse = (
