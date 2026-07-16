@@ -154,7 +154,9 @@ export const RoadmapNodePage = () => {
             {displayLinks.map((link) => (
               <li key={link.url}>
                 <a href={link.url} target="_blank" rel="noreferrer">
-                  <span className="roadmap-link-type">{link.type}</span>
+                  <span className={`roadmap-link-type roadmap-link-type--${link.type}`}>
+                    {link.type}
+                  </span>
                   {link.title}
                 </a>
               </li>

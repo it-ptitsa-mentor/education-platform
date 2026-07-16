@@ -2537,7 +2537,9 @@ body.is-resizing-vertical {
 .roadmap-node-links ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.45rem; }
 .roadmap-node-links a { display: flex; align-items: baseline; gap: 0.65rem; padding: 0.65rem 0.75rem; border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); text-decoration: none; transition: border-color 0.15s, background 0.15s; }
 .roadmap-node-links a:hover { border-color: var(--accent); background: var(--accent-dim); }
-.roadmap-link-type { flex: none; font-family: var(--font-mono); font-size: 0.62rem; text-transform: uppercase; color: var(--text-subtle); }
+.roadmap-link-type { flex: none; font-family: var(--font-mono); font-size: 0.62rem; text-transform: uppercase; color: var(--text-subtle); letter-spacing: 0.04em; }
+/* Наши собственные материалы (шпаргалки IT Птицы) — брендовый акцент, чтобы выделялись среди внешних ссылок. */
+.roadmap-link-type--cheatsheet { color: var(--accent); font-weight: 700; }
 
 /* ════════ УРОК: дерево + центр ════════ */
 .lesson-layout { display: grid; grid-template-columns: 14rem 1fr; flex: 1 0 auto; min-height: 0; min-width: 0; align-items: start; }
