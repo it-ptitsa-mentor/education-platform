@@ -1,6 +1,7 @@
-import { useEffect, useId, useRef, useState } from "react";
+import { useId, useState } from "react";
 import { Link } from "react-router-dom";
 import { isLessonComplete, type Course, type LessonUnit } from "../course";
+import { useModalController } from "../hooks/useModalController";
 import { lessonUnitPath, preferredLessonUnit } from "../lib/lesson-units";
 
 type LessonNavigatorModalProps = {
@@ -20,24 +21,11 @@ export const LessonNavigatorModal = ({
   onClose,
 }: LessonNavigatorModalProps) => {
   const titleId = useId();
-  const panelRef = useRef<HTMLDivElement>(null);
+  const panelRef = useModalController<HTMLDivElement>({ onClose });
   const [expandedKey, setExpandedKey] = useState<string | null>(() => {
     const [moduleSlug, topicSlug] = currentLessonId.split("/");
     return moduleSlug && topicSlug ? topicKey(moduleSlug, topicSlug) : null;
   });
-
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose();
-    };
-    document.addEventListener("keydown", onKey);
-    document.body.style.overflow = "hidden";
-    panelRef.current?.focus();
-    return () => {
-      document.removeEventListener("keydown", onKey);
-      document.body.style.overflow = "";
-    };
-  }, [onClose]);
 
   return (
     <div className="course-modal" role="presentation" onClick={onClose}>

@@ -1,5 +1,6 @@
-import { useEffect, useId, useRef } from "react";
-import { Link } from "react-router-dom";
+import { useCallback, useId } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { useModalController } from "../hooks/useModalController";
 import type { LessonNavLink } from "../lib/lesson-units";
 
 type ExercisePassModalProps = {
@@ -12,20 +13,17 @@ export const ExercisePassModal = ({
   onClose,
 }: ExercisePassModalProps) => {
   const titleId = useId();
-  const panelRef = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate();
 
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose();
-    };
-    document.addEventListener("keydown", onKey);
-    document.body.style.overflow = "hidden";
-    panelRef.current?.focus();
-    return () => {
-      document.removeEventListener("keydown", onKey);
-      document.body.style.overflow = "";
-    };
-  }, [onClose]);
+  const goNext = useCallback(() => {
+    onClose();
+    navigate(continueLink.to);
+  }, [continueLink.to, navigate, onClose]);
+
+  const panelRef = useModalController<HTMLDivElement>({
+    onClose,
+    onEnter: goNext,
+  });
 
   return (
     <div className="course-modal" role="presentation" onClick={onClose}>
