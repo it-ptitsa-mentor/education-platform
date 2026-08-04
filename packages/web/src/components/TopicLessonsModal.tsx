@@ -1,7 +1,8 @@
-import { useEffect, useId, useRef } from "react";
+import { useId } from "react";
 import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import { isUnitDone, type Module, type Topic } from "../course";
+import { useModalController } from "../hooks/useModalController";
 
 type TopicLessonsModalProps = {
   module: Module;
@@ -17,20 +18,7 @@ export const TopicLessonsModal = ({
   onClose,
 }: TopicLessonsModalProps) => {
   const titleId = useId();
-  const panelRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose();
-    };
-    document.addEventListener("keydown", onKey);
-    document.body.style.overflow = "hidden";
-    panelRef.current?.focus();
-    return () => {
-      document.removeEventListener("keydown", onKey);
-      document.body.style.overflow = "";
-    };
-  }, [onClose]);
+  const panelRef = useModalController<HTMLDivElement>({ onClose });
 
   return createPortal(
     <div className="course-modal" role="presentation" onClick={onClose}>
