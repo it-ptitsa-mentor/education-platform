@@ -75,7 +75,17 @@ const mockRoadmap: Roadmap = {
   subtitle: "React + TypeScript",
   profession: "JavaScript-разработчик",
   phases: [],
-  nodes: {},
+  nodes: {
+    "project-1": {
+      kind: "project",
+      label: "HTML-Landing",
+      description: "Дедлайн: конец недели 1. Верстка лендинга по макету.",
+      links: [],
+      classroomUrl: "https://classroom.github.com/a/test123",
+      moduleSlug: "html",
+      courseTopic: null,
+    },
+  },
 };
 
 const mockCatalog: RoadmapCatalog = {
@@ -156,6 +166,36 @@ describe("RoadmapPage", () => {
       expect(screen.getByRole("alert")).toBeInTheDocument();
     });
     expect(screen.getByText(/Ошибка сети/)).toBeInTheDocument();
+  });
+
+  it("показывает карточку проекта в конце модуля со ссылкой на Classroom", async () => {
+    renderPage();
+    await waitFor(() => {
+      expect(screen.getByText("Введение")).toBeInTheDocument();
+    });
+
+    expect(screen.getByText("Проект модуля")).toBeInTheDocument();
+    expect(screen.getByText("HTML-Landing")).toBeInTheDocument();
+
+    const classroomLink = screen.getByRole("link", { name: /Открыть в Classroom/i });
+    expect(classroomLink).toHaveAttribute(
+      "href",
+      "https://classroom.github.com/a/test123",
+    );
+    expect(classroomLink).toHaveAttribute("target", "_blank");
+
+    // Карточка проекта идёт ПОСЛЕ тем модуля в DOM-порядке.
+    const moduleBlock = classroomLink.closest(".course-module-block");
+    expect(moduleBlock).not.toBeNull();
+    const topicButtons = moduleBlock!.querySelectorAll(".course-topic-btn");
+    const projectsBlock = moduleBlock!.querySelector(".course-module-projects");
+    expect(topicButtons.length).toBeGreaterThan(0);
+    expect(projectsBlock).not.toBeNull();
+    const topicsGrid = moduleBlock!.querySelector(".course-module-topics-grid")!;
+    expect(
+      topicsGrid.compareDocumentPosition(projectsBlock!) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
   });
 
   it("показывает «Скоро» для роадмапа со статусом soon", async () => {

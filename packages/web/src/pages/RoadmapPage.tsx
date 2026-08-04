@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import {
   isLessonComplete,
   loadCourse,
@@ -12,8 +12,11 @@ import {
   findCatalogRoadmap,
   loadRoadmap,
   loadRoadmapCatalog,
+  projectsForModule,
+  roadmapNodePath,
   type Roadmap,
   type RoadmapCatalogEntry,
+  type RoadmapModuleProject,
 } from "../roadmap";
 
 type TopicSelection = { module: Module; topic: Topic };
@@ -39,30 +42,109 @@ const TopicDot = ({
   return <span className="course-topic-dot" />;
 };
 
+/** Первое предложение описания проекта — краткая подпись на карточке. */
+const projectSummary = (description: string): string => {
+  const firstPara = description.split(/\n\n+/)[0] ?? description;
+  const firstSentence = firstPara.match(/^.*?[.!?](?=\s|$)/);
+  return (firstSentence?.[0] ?? firstPara).trim();
+};
+
+const ProjectCard = ({
+  roadmapId,
+  project,
+}: {
+  roadmapId: string;
+  project: RoadmapModuleProject;
+}) => (
+  <article className="course-project-card">
+    <Link
+      to={roadmapNodePath(roadmapId, project.id)}
+      className="course-project-card-body"
+    >
+      <span className="course-project-card-kind">Проект</span>
+      <h4 className="course-project-card-title">{project.node.label}</h4>
+      {project.node.description && (
+        <p className="course-project-card-desc">
+          {projectSummary(project.node.description)}
+        </p>
+      )}
+    </Link>
+    {project.node.classroomUrl ? (
+      <a
+        href={project.node.classroomUrl}
+        target="_blank"
+        rel="noreferrer"
+        className="course-project-card-classroom"
+      >
+        Открыть в Classroom →
+      </a>
+    ) : (
+      <span
+        className="course-project-card-classroom is-placeholder"
+        aria-disabled="true"
+      >
+        Classroom скоро
+      </span>
+    )}
+  </article>
+);
+
+const ModuleProjects = ({
+  roadmapId,
+  projects,
+}: {
+  roadmapId: string;
+  projects: RoadmapModuleProject[];
+}) => {
+  if (!projects.length) return null;
+  return (
+    <div className="course-module-projects">
+      <h4 className="course-module-projects-heading">
+        {projects.length > 1 ? "Проекты модуля" : "Проект модуля"}
+      </h4>
+      <div className="course-module-projects-grid">
+        {projects.map((project) => (
+          <ProjectCard key={project.id} roadmapId={roadmapId} project={project} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
 const ModuleBlock = ({
   mod,
+  roadmap,
+  roadmapId,
   onTopicClick,
 }: {
   mod: Module;
+  roadmap: Roadmap | null;
+  roadmapId: string;
   onTopicClick: (sel: TopicSelection) => void;
-}) => (
-  <section className="course-module-block">
-    <h3 className="course-module-block-heading">Темы модуля #{mod.index}</h3>
-    <div className="course-module-topics-grid">
-      {mod.topics.map((topic) => (
-        <button
-          key={topic.slug}
-          type="button"
-          className="course-topic-btn"
-          onClick={() => onTopicClick({ module: mod, topic })}
-        >
-          <span className="course-topic-btn-name">{topic.title}</span>
-          <TopicDot topic={topic} moduleSlug={mod.slug} />
-        </button>
-      ))}
-    </div>
-  </section>
-);
+}) => {
+  const projects = roadmap ? projectsForModule(roadmap, mod.slug) : [];
+
+  return (
+    <section className="course-module-block">
+      <h3 className="course-module-block-heading">Темы модуля #{mod.index}</h3>
+      <div className="course-module-topics-grid">
+        {mod.topics.map((topic) => (
+          <button
+            key={topic.slug}
+            type="button"
+            className="course-topic-btn"
+            onClick={() => onTopicClick({ module: mod, topic })}
+          >
+            <span className="course-topic-btn-name">{topic.title}</span>
+            <TopicDot topic={topic} moduleSlug={mod.slug} />
+          </button>
+        ))}
+      </div>
+      {/* Проекты модуля — в конце, после списка уроков/тем модуля. */}
+      <ModuleProjects roadmapId={roadmapId} projects={projects} />
+    </section>
+  );
+};
 
 const RoadmapComingSoon = ({
   entry,
@@ -175,6 +257,8 @@ export const RoadmapPage = () => {
             <ModuleBlock
               key={mod.slug}
               mod={mod}
+              roadmap={roadmap}
+              roadmapId={roadmapId}
               onTopicClick={setSelected}
             />
           ))}
