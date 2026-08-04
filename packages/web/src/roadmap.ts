@@ -20,6 +20,8 @@ export type RoadmapNode = {
   description: string;
   links: RoadmapLink[];
   classroomUrl?: string;
+  /** Только для kind: "project" — курс-модуль (course.json), в конец которого встраивается карточка проекта. */
+  moduleSlug?: string | null;
   courseTopic: RoadmapCourseTopic | null;
 };
 
@@ -120,6 +122,20 @@ export const loadRoadmap = async (roadmapId: string): Promise<Roadmap> => {
 
 export const getRoadmapNode = (roadmap: Roadmap, nodeId: string): RoadmapNode | null =>
   roadmap.nodes[nodeId] ?? null;
+
+export type RoadmapModuleProject = { id: string; node: RoadmapNode };
+
+/**
+ * Проекты роадмапа, привязанные к курс-модулю (по RoadmapNode.moduleSlug),
+ * в порядке появления в roadmap.nodes — для показа карточек в конце модуля.
+ */
+export const projectsForModule = (
+  roadmap: Roadmap,
+  moduleSlug: string,
+): RoadmapModuleProject[] =>
+  Object.entries(roadmap.nodes)
+    .filter(([, node]) => node.kind === "project" && node.moduleSlug === moduleSlug)
+    .map(([id, node]) => ({ id, node }));
 
 /** Первый урок темы, шаг «Теория» (как theory_unit на Hexlet). */
 export const courseTopicLessonHref = (topic: RoadmapCourseTopic): string =>

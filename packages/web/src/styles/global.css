@@ -2357,8 +2357,45 @@ body.is-resizing-vertical {
 .course-topic-dot.is-partial { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 40%, transparent); }
 .course-topic-dot.is-full { border-color: var(--accent); background: var(--accent); }
 
+/* ── Проекты модуля (в конце, после тем) ────────────────── */
+.course-module-projects { margin-top: 0.4rem; padding-top: 0.85rem; border-top: 1px dashed var(--border); }
+.course-module-projects-heading { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-subtle); margin: 0 0 0.6rem; }
+.course-module-projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.6rem; }
+.course-project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--border));
+  border-radius: var(--radius-sm);
+  background: var(--accent-dim);
+  min-width: 0;
+}
+.course-project-card-body { display: flex; flex-direction: column; gap: 0.3rem; min-width: 0; color: inherit; text-decoration: none; }
+.course-project-card-kind { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--gold-soft, var(--accent)); }
+.course-project-card-title { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 0.95rem; line-height: 1.3; color: var(--text); }
+.course-project-card-desc { margin: 0; font-size: 0.8rem; line-height: 1.4; color: var(--text-muted); overflow-wrap: anywhere; }
+.course-project-card-classroom {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  background: var(--surface-raised);
+  transition: border-color 0.15s, background 0.15s;
+}
+.course-project-card-classroom:hover { border-color: var(--accent); background: var(--accent-dim); }
+.course-project-card-classroom.is-placeholder { color: var(--text-subtle); cursor: default; }
+
 @media (max-width: 640px) {
   .course-module-topics-grid { grid-template-columns: 1fr; }
+  .course-module-projects-grid { grid-template-columns: 1fr; }
 }
 
 /* ── Topic lessons modal table ──────────────────────────── */

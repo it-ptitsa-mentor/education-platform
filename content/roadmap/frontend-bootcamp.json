@@ -1619,6 +1619,7 @@
       "description": "Дедлайн: конец недели 1. Фаза 1: CLI и JS-фундамент. Консольное приложение с набором текстовых команд: hello, upper, cut, stats, check, math, repeat и quit. Парсинг ввода в main.js, модульная структура src/commands/. Закрепляет базовый JS — работу со строками, циклами, условиями и обработку невалидных входов. Источник правды — тесты в __tests__/commands.test.js.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/6zMHNA7Z",
+      "moduleSlug": "02-modul-2",
       "courseTopic": null
     },
     "CsRO6NzhdlMXvKTJUsnXT": {
@@ -1627,6 +1628,7 @@
       "description": "Дедлайн: конец недели 2. Фаза 1: CLI и JS-фундамент. CLI-приложение для управления списком ингредиентов: add, remove, replace, exists, list, find, stringify, unique, sort, merge и undo с историей изменений. Закрепляет иммутабельность входных массивов, чистые функции и работу с историей состояний. Источник правды — тесты в __tests__/repo.test.js.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/8I5Dxv44",
+      "moduleSlug": "02-modul-2",
       "courseTopic": null
     },
     "Uto4ex6FpBUav82tZqcW-": {
@@ -1635,6 +1637,7 @@
       "description": "Дедлайн: конец недели 3. Фаза 1: CLI и JS-фундамент. Набор чистых функций для работы с каталогом товаров: addProduct, removeProduct, updateProduct, getProduct, hasProduct, listProducts, filterByCategory, searchByName, mergeCatalogs, cloneCatalog с глубокой копией. Без UI и без DOM — фокус на работе с объектами, вложенными структурами и иммутабельности. Источник правды — тесты в __tests__/.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/zdWF3kFk",
+      "moduleSlug": "03-modul-3",
       "courseTopic": null
     },
     "qJ9RkaAsHTTrVLU5BESqt": {
@@ -1643,6 +1646,7 @@
       "description": "Дедлайн: конец недели 4. Фаза 2: Web и DOM. Конвейер обработки данных товаров на чистых функциях: композиция через pipe, фильтры filterByCategory и filterInStock, мапперы mapToNames и mapToPriceWithTax, агрегации sumPrices и groupByCategory, итоговая сборка готовых пайплайнов в processors.js. Закрепляет функциональный стиль (map/filter/reduce/pipe), чистые функции и иммутабельность.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/lzOc3xLK",
+      "moduleSlug": "03-modul-3",
       "courseTopic": null
     },
     "0IthBqe8B_TcwHr1PpD_H": {
@@ -1651,6 +1655,7 @@
       "description": "Дедлайн: конец недели 5. Фаза 2: Web и DOM. Веб-приложение без фреймворков для просмотра публичных репозиториев GitHub: fetchUserRepos с обработкой 404 и сетевых ошибок, sortRepos и filterRepos без мутаций, рендер карточек через DOM API (без innerHTML), состояния loading/error/empty/success. Закрепляет fetch, async/await и работу с реальным HTTP API.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/SB1iRdLJ",
+      "moduleSlug": "04-modul-4",
       "courseTopic": null
     },
     "oGBm1GfNcWNpMkR3fZRYo": {
@@ -1659,6 +1664,7 @@
       "description": "Дедлайн: конец недели 6. Фаза 2: Web и DOM. Упрощённый виджет комментариев на ванильном JS: createComment и createReply с дефолтными полями, likeComment и deleteComment с иммутабельными операциями, renderComment и renderReply через DOM API, синхронизация данных и DOM в main.js. Закрепляет DOM, делегирование событий и работу с вложенными структурами данных.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/aKropKl9",
+      "moduleSlug": "04-modul-4",
       "courseTopic": null
     },
     "OlITR86htg30B0toXde2m": {
@@ -1667,6 +1673,7 @@
       "description": "W7. useState, onClick, условный рендеринг. Счётчик +1/−1/Reset, не ниже 0, цвет числа. Шаблон Classroom. Lamkov React §1.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/dwVgaTsK",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "M7bpzjZUt5fyNGTFC6XPF": {
@@ -1675,6 +1682,7 @@
       "description": "W7. props, children, map, условный рендеринг. Accordion по массиву { title, content }. Lamkov §1.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/y84aAS5T",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "Flk0VD7JievPXTRlKyEbe": {
@@ -1683,6 +1691,7 @@
       "description": "W8. Tabs, активный таб, props children. Lamkov §2.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/aZP91FGP",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "Iu8fM3AfYrs80i2VCit4K": {
@@ -1691,6 +1700,7 @@
       "description": "W8. UserCard, фильтр по профессии, поиск по имени, derived state. Lamkov §2.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/D66ROlHE",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "4XtAdDTFUBXrBx82QuRV9": {
@@ -1699,6 +1709,7 @@
       "description": "W8. Тот же репозиторий, что на W10: todo в памяти (controlled input, фильтры, keys). Lamkov §2.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/SjdA3T1I",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "AMcDRZurA-Nm2mfQ0yzvm": {
@@ -1707,6 +1718,7 @@
       "description": "W9. useEffect, useRef, cleanup, setInterval, секундомер, localStorage. Lamkov §3.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/DA8tFNow",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "P9bMR4WzZAr6YIbGDNMec": {
@@ -1715,6 +1727,7 @@
       "description": "W9. Ручная валидация формы регистрации, controlled inputs, disabled submit. Lamkov §6.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/IHIaqo-_",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "SjeCW_Tz2pP8AKV-4BWa0": {
@@ -1723,6 +1736,7 @@
       "description": "W10. Тот же репозиторий, что на W8: json-server, fetch CRUD, loading/error. Lamkov §6.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/SjdA3T1I",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "in4qKYUAK5FHrnfyii2QN": {
@@ -1731,6 +1745,7 @@
       "description": "W11. React Router: страницы, Link, useParams, nested routes, 404. Lamkov §7.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/s8qFfzRx",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "cshRf7gBul5HjXXKAasE0": {
@@ -1739,6 +1754,7 @@
       "description": "W12. Первый Vite с нуля: Router, Context (избранное, тема), OMDb API, custom hooks, memo, деплой GH Pages. README — шпаргалка Vite. Lamkov §4–8.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/0RbcOkV0",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "cj3zrOipuIYieDKjjvBSY": {
@@ -1747,6 +1763,7 @@
       "description": "W13. React Hook Form + Zod, сравнение с ручной формой W9, useFieldArray. react-hook-form.com, zod.dev.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/eCYRCYfs",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "Hh7OC0RBqaqTljqrIFeZu": {
@@ -1755,6 +1772,7 @@
       "description": "W14. Миграция React-Todo (W8–W10) на TypeScript: props, useState<T>, события, типы API. Buildin TS.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/vYCB-Mst",
+      "moduleSlug": "06-modul-6",
       "courseTopic": null
     },
     "Ba6ZgSTdbiTK3TG-_MVNe": {
@@ -1763,6 +1781,7 @@
       "description": "W15. Redux Toolkit: configureStore, createSlice, createAsyncThunk, типизированные хуки. Закрепление перед Rick.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/m9Zs7Sm2",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "KibXRLuGu1QPFdxvCVHrd": {
@@ -1771,6 +1790,7 @@
       "description": "W16. Капстон (один репозиторий). Milestone v1: Router + RTK + RHF + TS + Rick API. Milestone v2: рефактор data-fetch на TanStack Query, RTK для UI/избранного, деплой Vercel.",
       "links": [],
       "classroomUrl": "https://classroom.github.com/a/NbVjVv0q",
+      "moduleSlug": "05-modul-5",
       "courseTopic": null
     },
     "react-form-feedback-2026": {
