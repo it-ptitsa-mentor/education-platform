@@ -8,6 +8,7 @@ import {
   type Topic,
 } from "../course";
 import { TopicLessonsModal } from "../components/TopicLessonsModal";
+import { rememberLessonOrigin } from "../lib/lesson-origin";
 import {
   findCatalogRoadmap,
   loadRoadmap,
@@ -175,7 +176,11 @@ export const RoadmapPage = () => {
             <ModuleBlock
               key={mod.slug}
               mod={mod}
-              onTopicClick={setSelected}
+              onTopicClick={(sel) => {
+                // Запоминаем курс входа, чтобы выход из урока вёл сюда.
+                rememberLessonOrigin({ roadmapId });
+                setSelected(sel);
+              }}
             />
           ))}
         </div>

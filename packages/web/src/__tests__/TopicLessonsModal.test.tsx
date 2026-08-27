@@ -44,6 +44,8 @@ const renderModal = (onClose = vi.fn()) =>
 afterEach(() => {
   // Ensure scroll lock is cleared between tests
   document.body.style.overflow = "";
+  document.documentElement.style.overflow = "";
+  document.body.classList.remove("modal-open");
 });
 
 describe("TopicLessonsModal", () => {
@@ -85,6 +87,47 @@ describe("TopicLessonsModal", () => {
     expect(document.body.style.overflow).toBe("hidden");
     unmount();
     expect(document.body.style.overflow).toBe("");
+  });
+
+  it("вешает modal-open на body — блокирует реальный скролл-контейнер .app-main, снимает при размонтировании", () => {
+    // .app-main — фактический скролл-контейнер страницы (overflow-y: auto),
+    // html/body сами по себе не скроллятся (.app-shell{overflow:hidden}).
+    // Без класса modal-open фон продолжал бы скроллиться под модалкой.
+    const onClose = vi.fn();
+    const { unmount } = renderModal(onClose);
+    expect(document.body.classList.contains("modal-open")).toBe(true);
+    unmount();
+    expect(document.body.classList.contains("modal-open")).toBe(false);
+  });
+
+  it("не снимает блокировку, пока открыта ещё одна модалка (счётчик, без залипания)", () => {
+    const onClose1 = vi.fn();
+    const onClose2 = vi.fn();
+    const first = renderModal(onClose1);
+    const second = renderModal(onClose2);
+
+    expect(document.body.classList.contains("modal-open")).toBe(true);
+
+    first.unmount();
+    // первая модалка закрылась — вторая всё ещё открыта, фон должен
+    // оставаться заблокированным
+    expect(document.body.classList.contains("modal-open")).toBe(true);
+    expect(document.body.style.overflow).toBe("hidden");
+
+    second.unmount();
+    // закрылась последняя — блокировка снята
+    expect(document.body.classList.contains("modal-open")).toBe(false);
+    expect(document.body.style.overflow).toBe("");
+  });
+
+  it("не восстанавливает скролл раньше времени при быстром перемонтировании (Strict Mode-подобный сценарий)", () => {
+    const onClose = vi.fn();
+    const { unmount: unmountA } = renderModal(onClose);
+    const { unmount: unmountB } = renderModal(onClose);
+    unmountA();
+    expect(document.body.classList.contains("modal-open")).toBe(true);
+    unmountB();
+    expect(document.body.classList.contains("modal-open")).toBe(false);
   });
 
   it("вызывает onClose при нажатии кнопки закрытия", () => {

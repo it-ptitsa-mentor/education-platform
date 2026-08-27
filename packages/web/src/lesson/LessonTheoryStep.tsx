@@ -1,6 +1,7 @@
-import { useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useMemo, useState } from "react";
 import { loadTheory } from "../course";
 import { extractH2Headings } from "../lib/theory-headings";
+import { LessonEndNav } from "./LessonEndNav";
 import { LessonTheoryContent } from "./LessonTheoryContent";
 import { LessonTheoryToc } from "./LessonTheoryToc";
 import { useLesson } from "./lesson-context";
@@ -24,9 +25,12 @@ export const LessonTheoryStep = () => {
   const hasToc = headings.length >= 2;
 
   return (
-    <div className={hasToc ? "lesson-theory-with-toc" : undefined}>
-      <LessonTheoryContent theory={theory} />
-      {hasToc && <LessonTheoryToc headings={headings} />}
-    </div>
+    <Fragment>
+      <div className={hasToc ? "lesson-theory-with-toc" : undefined}>
+        <LessonTheoryContent theory={theory} />
+        {hasToc && <LessonTheoryToc headings={headings} />}
+      </div>
+      {theory !== null && <LessonEndNav />}
+    </Fragment>
   );
 };

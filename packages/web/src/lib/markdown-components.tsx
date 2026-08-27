@@ -5,6 +5,22 @@ import { headingToId } from "./theory-headings";
 const isHexletHref = (href?: string) =>
   Boolean(href && /hexlet\.io/i.test(href));
 
+/**
+ * Резолвит относительный src картинки из readme (например, "assets/final.png")
+ * от корня приложения (с учётом BASE_URL), а не от текущего вложенного роута
+ * (/exercise/:slug), где он иначе 404-ится. Абсолютные и протокольные URL не трогаем.
+ */
+const resolveReadmeImageSrc = (src?: string): string | undefined => {
+  if (!src) return src;
+  if (/^([a-z][a-z0-9+.-]*:)?\/\//i.test(src) || src.startsWith("data:")) {
+    return src;
+  }
+  const base = import.meta.env.BASE_URL;
+  const normalizedBase = base.endsWith("/") ? base : `${base}/`;
+  const relative = src.replace(/^\.?\//, "");
+  return `${normalizedBase}${relative}`;
+};
+
 /** Рекурсивно извлечь текст из React-узлов (для генерации id на H2). */
 const childrenToText = (children: ReactNode): string => {
   if (children === null || children === undefined) return "";
@@ -41,4 +57,6 @@ export const markdownComponents: Components = {
       </h2>
     );
   },
+
+  img: ({ src, ...rest }) => <img src={resolveReadmeImageSrc(src)} {...rest} />,
 };

@@ -10,9 +10,15 @@ import {
   activeUnitFromPath,
   lessonUnitPath,
 } from "../lib/lesson-units";
+import { readLessonOrigin } from "../lib/lesson-origin";
+import {
+  loadRoadmap,
+  roadmapNodePath,
+  roadmapPath,
+  type Roadmap,
+} from "../roadmap";
 import { LessonContext } from "./lesson-context";
 import { LessonCourseSidebar } from "./LessonCourseSidebar";
-import { LessonSideNav } from "./LessonSideNav";
 
 const findTopic = (course: Course, moduleSlug: string, topicSlug: string) => {
   const mod = course.modules.find((m) => m.slug === moduleSlug);
@@ -37,12 +43,46 @@ export const LessonLayout = () => {
   const [error, setError] = useState<string | null>(null);
   const [progressVersion, setProgressVersion] = useState(0);
   const [asideOpen, setAsideOpen] = useState(false);
+  const [originRoadmap, setOriginRoadmap] = useState<Roadmap | null>(null);
 
   useEffect(() => {
     loadCourse()
       .then(setCourse)
       .catch((e: Error) => setError(e.message));
   }, []);
+
+  // Точка входа в уроки: нужна, чтобы выход вёл к своему курсу, а не ко
+  // всем программам. Одна тема может встречаться в нескольких роадмапах,
+  // поэтому по slug'ам курс не восстановить — читаем запомненный origin.
+  const origin = useMemo(
+    () => readLessonOrigin(location.search),
+    [location.search],
+  );
+
+  useEffect(() => {
+    if (!origin) {
+      setOriginRoadmap(null);
+      return;
+    }
+    let alive = true;
+    loadRoadmap(origin.roadmapId)
+      .then((r) => alive && setOriginRoadmap(r))
+      .catch(() => alive && setOriginRoadmap(null));
+    return () => {
+      alive = false;
+    };
+  }, [origin]);
+
+  /** Куда ведёт «← Назад» из урока: свой курс, если он известен. */
+  const exitTarget = useMemo(() => {
+    if (!origin) return { to: "/", label: "Роадмап" };
+    const label = originRoadmap?.title ?? "Курс";
+    // Узел темы точнее курса — возвращаем ровно туда, откуда пришли.
+    if (origin.nodeId && originRoadmap?.nodes[origin.nodeId]) {
+      return { to: roadmapNodePath(origin.roadmapId, origin.nodeId), label };
+    }
+    return { to: roadmapPath(origin.roadmapId), label };
+  }, [origin, originRoadmap]);
 
   const allLessons = useMemo(
     () => (course ? flattenLessons(course) : []),
@@ -151,10 +191,7 @@ export const LessonLayout = () => {
           .filter(Boolean)
           .join(" ")}
       >
-        <LessonCourseSidebar
-          activeUnit={activeUnit}
-          onNavigate={() => setAsideOpen(false)}
-        />
+        <LessonCourseSidebar />
 
         {asideOpen && (
           <button
@@ -191,10 +228,10 @@ export const LessonLayout = () => {
                 <>
                   <div className="lesson-main-header-top">
                     <Link
-                      to="/"
+                      to={exitTarget.to}
                       className="lesson-nav-link lesson-nav-link--back"
                     >
-                      ← Роадмап
+                      ← {exitTarget.label}
                     </Link>
                     <button
                       type="button"
@@ -222,12 +259,6 @@ export const LessonLayout = () => {
                 <Outlet />
               </div>
             </div>
-
-            {!isExerciseFocus && (
-              <div className="lesson-footer-nav-mobile-only">
-                <LessonSideNav activeUnit={activeUnit} />
-              </div>
-            )}
           </div>
         </main>
       </div>
