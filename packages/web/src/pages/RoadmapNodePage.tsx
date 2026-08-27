@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { filterRoadmapDisplayLinks } from "../lib/roadmap-course-link";
+import { rememberLessonOrigin } from "../lib/lesson-origin";
 import {
   courseTopicLessonHref,
   findCatalogRoadmap,
@@ -119,7 +120,11 @@ export const RoadmapNodePage = () => {
 
       <div className="roadmap-node-actions">
         {lessonHref && (
-          <Link to={lessonHref} className="btn btn-primary">
+          <Link
+            to={lessonHref}
+            className="btn btn-primary"
+            onClick={() => rememberLessonOrigin({ roadmapId, nodeId })}
+          >
             К урокам на платформе
           </Link>
         )}
