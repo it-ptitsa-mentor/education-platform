@@ -19,7 +19,6 @@ import {
 } from "../roadmap";
 import { LessonContext } from "./lesson-context";
 import { LessonCourseSidebar } from "./LessonCourseSidebar";
-import { LessonSideNav } from "./LessonSideNav";
 
 const findTopic = (course: Course, moduleSlug: string, topicSlug: string) => {
   const mod = course.modules.find((m) => m.slug === moduleSlug);
@@ -192,10 +191,7 @@ export const LessonLayout = () => {
           .filter(Boolean)
           .join(" ")}
       >
-        <LessonCourseSidebar
-          activeUnit={activeUnit}
-          onNavigate={() => setAsideOpen(false)}
-        />
+        <LessonCourseSidebar />
 
         {asideOpen && (
           <button
@@ -263,12 +259,6 @@ export const LessonLayout = () => {
                 <Outlet />
               </div>
             </div>
-
-            {!isExerciseFocus && (
-              <div className="lesson-footer-nav-mobile-only">
-                <LessonSideNav activeUnit={activeUnit} />
-              </div>
-            )}
           </div>
         </main>
       </div>

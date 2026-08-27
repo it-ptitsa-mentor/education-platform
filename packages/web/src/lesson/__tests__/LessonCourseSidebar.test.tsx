@@ -75,11 +75,11 @@ const makeCtx = (currentId: string): LessonContextValue => {
   };
 };
 
-const renderSidebar = (currentId = lessonRef1.id, onNavigate?: () => void) =>
+const renderSidebar = (currentId = lessonRef1.id) =>
   render(
     <MemoryRouter>
       <LessonContext.Provider value={makeCtx(currentId)}>
-        <LessonCourseSidebar activeUnit="theory" onNavigate={onNavigate} />
+        <LessonCourseSidebar />
       </LessonContext.Provider>
     </MemoryRouter>
   );

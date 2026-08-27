@@ -1,15 +1,8 @@
 import { useState } from "react";
-import type { LessonUnit } from "../course";
 import { TopicLessonsModal } from "../components/TopicLessonsModal";
 import { useLesson } from "./lesson-context";
-import { LessonSideNav } from "./LessonSideNav";
 
-type Props = {
-  activeUnit: LessonUnit;
-  onNavigate?: () => void;
-};
-
-export const LessonCourseSidebar = ({ activeUnit, onNavigate }: Props) => {
+export const LessonCourseSidebar = () => {
   const { module, topic, current, progressVersion } = useLesson();
   void progressVersion;
   const [navigatorOpen, setNavigatorOpen] = useState(false);
@@ -26,9 +19,6 @@ export const LessonCourseSidebar = ({ activeUnit, onNavigate }: Props) => {
       >
         <span aria-hidden="true">☰</span> Навигация по теме
       </button>
-      <div className="lesson-aside-nav">
-        <LessonSideNav activeUnit={activeUnit} onNavigate={onNavigate} />
-      </div>
 
       {navigatorOpen && (
         <TopicLessonsModal

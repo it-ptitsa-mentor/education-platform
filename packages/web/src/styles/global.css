@@ -3173,6 +3173,108 @@ body.is-resizing-vertical {
 }
 /* ======================================================= */
 
+/* === Lesson end nav: mark-done + prev/next cards (below theory) === */
+.lesson-end-nav {
+  max-width: 70ch;
+  margin-top: 2.5rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.lesson-end-nav-complete {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.lesson-end-nav-complete-btn {
+  height: 2.85rem;
+  padding: 0 1.4rem;
+  font-size: var(--text-sm);
+  background: var(--accent);
+  color: var(--on-accent);
+  border-color: var(--accent);
+}
+.lesson-end-nav-complete-btn:hover {
+  background: color-mix(in srgb, var(--accent) 92%, white);
+  border-color: var(--accent);
+}
+.lesson-end-nav-complete-btn.is-done {
+  background: var(--pass-dim);
+  color: var(--pass);
+  border-color: color-mix(in srgb, var(--pass) 45%, var(--border));
+}
+.lesson-end-nav-complete-hint {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+  max-width: 32rem;
+}
+.lesson-end-nav-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.lesson-end-nav-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--surface-raised);
+  text-decoration: none;
+  color: inherit;
+  min-width: 0;
+  transition: border-color 0.15s, background 0.15s, transform 0.15s;
+}
+.lesson-end-nav-card:hover {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+  transform: translateY(-2px);
+}
+.lesson-end-nav-card-label {
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-subtle);
+}
+.lesson-end-nav-card-title {
+  font-weight: 700;
+  font-size: var(--text-md);
+  line-height: 1.35;
+  color: var(--text);
+}
+.lesson-end-nav-card--next {
+  grid-column: 2;
+  text-align: right;
+}
+.lesson-end-nav-card--next .lesson-end-nav-card-label { color: var(--accent); }
+.lesson-end-nav-card--next .lesson-end-nav-card-title { color: var(--accent); }
+/* Single card present: let it span the full row instead of leaving a gap. */
+.lesson-end-nav-cards:has(.lesson-end-nav-card--prev:only-child) .lesson-end-nav-card--prev,
+.lesson-end-nav-cards:has(.lesson-end-nav-card--next:only-child) .lesson-end-nav-card--next {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 640px) {
+  .lesson-end-nav-cards {
+    grid-template-columns: 1fr;
+  }
+  .lesson-end-nav-card--next {
+    grid-column: 1;
+    text-align: left;
+  }
+  .lesson-end-nav-cards:has(.lesson-end-nav-card--prev:only-child) .lesson-end-nav-card--prev,
+  .lesson-end-nav-cards:has(.lesson-end-nav-card--next:only-child) .lesson-end-nav-card--next {
+    grid-column: 1;
+  }
+}
+
 .lesson-actions {
   display: flex;
   flex-direction: column;
@@ -3237,115 +3339,6 @@ body.is-resizing-vertical {
   }
 }
 
-.lesson-footer-nav {
-  display: flex;
-  align-items: stretch;
-  gap: 0.75rem;
-  border-top: 1px solid var(--border);
-  padding: 1.25rem 0 0.5rem;
-  margin-top: 2rem;
-}
-.lesson-footer-nav-link,
-.lesson-footer-nav-block {
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-  text-decoration: none;
-  color: inherit;
-  transition: color 0.15s, opacity 0.15s;
-}
-.lesson-footer-nav-link--prev,
-.lesson-footer-nav-link--next {
-  padding: 0.6rem 0.9rem;
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border);
-  background: var(--surface-raised);
-  flex: 0 1 20rem;
-  min-width: 0;
-}
-.lesson-footer-nav-link--prev { color: var(--text-muted); }
-.lesson-footer-nav-link--prev:hover { border-color: var(--accent); color: var(--accent); }
-.lesson-footer-nav-link--next {
-  margin-left: auto;
-  text-align: right;
-  align-items: flex-end;
-  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
-}
-.lesson-footer-nav-link--next .lesson-footer-nav-title { color: var(--accent); }
-.lesson-footer-nav-link--next:hover {
-  border-color: var(--accent);
-  background: var(--accent-dim);
-}
-.lesson-footer-nav-block--disabled {
-  padding: 0.6rem 0.9rem;
-  border-radius: var(--radius-sm);
-  border: 1px dashed var(--border);
-  opacity: 0.55;
-  cursor: not-allowed;
-  flex: 0 1 20rem;
-  min-width: 0;
-  margin-left: auto;
-  text-align: right;
-  align-items: flex-end;
-}
-.lesson-footer-nav-label { font-size: var(--text-2xs); letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-subtle); }
-.lesson-footer-nav-arrow { font-size: 0.9rem; line-height: 1; margin-bottom: 0.1rem; }
-.lesson-footer-nav-title { font-weight: 600; font-size: var(--text-xs); line-height: 1.35; color: var(--text); }
-.lesson-footer-nav-hint { font-size: var(--text-2xs); color: var(--text-muted); line-height: 1.3; }
-
-/* === Sidebar prev/next nav (desktop: visible in aside; mobile: hidden — footer nav used instead) === */
-.lesson-aside-nav {
-  /* flex: 0 0 auto — always pinned to bottom of the flex-column aside; never shrinks */
-  flex: 0 0 auto;
-  margin-top: 0.5rem;
-  padding: 0.6rem 0 0.25rem;
-  border-top: 1px solid var(--border);
-  background: var(--surface);
-}
-/* In exercise mode sidebar is always a drawer — hide nav there */
-.lesson-layout--focus .lesson-aside-nav { display: none; }
-
-.lesson-aside-nav .lesson-footer-nav {
-  flex-direction: column;
-  border-top: none;
-  padding: 0;
-  margin-top: 0;
-  gap: 0.25rem;
-}
-/* Compact single-row buttons in sidebar */
-.lesson-aside-nav .lesson-footer-nav-link--prev,
-.lesson-aside-nav .lesson-footer-nav-link--next,
-.lesson-aside-nav .lesson-footer-nav-block--disabled {
-  flex: none;
-  width: 100%;
-  margin-left: 0;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.35rem;
-  padding: 0.35rem 0.5rem;
-  min-height: 2.1rem;
-  text-align: left;
-}
-/* Arrow at the end for next in sidebar */
-.lesson-aside-nav .lesson-footer-nav-link--next { align-items: center; }
-.lesson-aside-nav .lesson-footer-nav-link--next .lesson-footer-nav-title { order: 1; color: var(--accent); }
-.lesson-aside-nav .lesson-footer-nav-link--next .lesson-footer-nav-arrow { order: 2; }
-/* Hide label and hint in sidebar — only arrow + title */
-.lesson-aside-nav .lesson-footer-nav-label { display: none; }
-.lesson-aside-nav .lesson-footer-nav-hint { display: none; }
-/* Title: clamp to one line with ellipsis */
-.lesson-aside-nav .lesson-footer-nav-title {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  flex: 1 1 0;
-  min-width: 0;
-  font-size: var(--text-xs);
-}
-
-/* Footer nav in main content: hidden on desktop (sidebar handles it), shown on mobile */
-.lesson-footer-nav-mobile-only { display: none; }
-
 /* Lesson aside toggle for theory mode: hidden on desktop, visible on mobile */
 .lesson-aside-toggle--theory {
   display: none;
@@ -3399,53 +3392,6 @@ body.is-resizing-vertical {
   .lesson-main-header-row .lesson-steps::-webkit-scrollbar { display: none; }
   .lesson-main-header-row .lesson-step { flex-shrink: 0; }
 
-  /* On mobile sidebar is a drawer: hide sidebar nav, show footer nav instead */
-  .lesson-aside-nav { display: none; }
-  .lesson-footer-nav-mobile-only { display: block; }
-
-  /* Compact mobile footer nav buttons */
-  .lesson-footer-nav-mobile-only .lesson-footer-nav {
-    margin-top: 1rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.5rem;
-    gap: 0.5rem;
-  }
-  .lesson-footer-nav-mobile-only .lesson-footer-nav-link--prev,
-  .lesson-footer-nav-mobile-only .lesson-footer-nav-link--next,
-  .lesson-footer-nav-mobile-only .lesson-footer-nav-block--disabled {
-    flex-direction: row;
-    align-items: center;
-    gap: 0.4rem;
-    padding: 0.55rem 0.75rem;
-    min-height: 2.75rem; /* ≥44px tap target */
-    flex: 1 1 0;
-    margin-left: 0;
-  }
-  /* Next button: arrow at the end */
-  .lesson-footer-nav-mobile-only .lesson-footer-nav-link--next,
-  .lesson-footer-nav-mobile-only .lesson-footer-nav-block--disabled {
-    text-align: left;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .lesson-footer-nav-mobile-only .lesson-footer-nav-link--next .lesson-footer-nav-title { order: 1; }
-  .lesson-footer-nav-mobile-only .lesson-footer-nav-link--next .lesson-footer-nav-arrow { order: 2; }
-  /* Hide label and hint in mobile nav */
-  .lesson-footer-nav-mobile-only .lesson-footer-nav-label { display: none; }
-  .lesson-footer-nav-mobile-only .lesson-footer-nav-hint { display: none; }
-  /* Title: truncate long names */
-  .lesson-footer-nav-mobile-only .lesson-footer-nav-title {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    flex: 1 1 0;
-    min-width: 0;
-  }
-  /* Arrow: fixed size, no shrink */
-  .lesson-footer-nav-mobile-only .lesson-footer-nav-arrow {
-    flex-shrink: 0;
-    margin-bottom: 0;
-  }
 }
 
 @media (max-width: 480px) {
@@ -3749,12 +3695,6 @@ body.is-resizing-vertical {
   .theme-toggle {
     min-height: 2.75rem;
   }
-
-  /* Footer nav links */
-  .lesson-footer-nav-link--prev,
-  .lesson-footer-nav-link--next {
-    min-height: 2.75rem;
-  }
 }
 
 /* Also apply on touch devices regardless of screen size */
@@ -3784,10 +3724,6 @@ body.is-resizing-vertical {
     min-height: 2.75rem;
   }
   .theme-toggle {
-    min-height: 2.75rem;
-  }
-  .lesson-footer-nav-link--prev,
-  .lesson-footer-nav-link--next {
     min-height: 2.75rem;
   }
 }
@@ -3845,31 +3781,6 @@ body.is-resizing-vertical {
   }
   .lesson-theory {
     font-size: 0.95rem;
-  }
-}
-
-/* ── Lesson footer nav: stack on phones ─────────────── */
-@media (max-width: 480px) {
-  .lesson-footer-nav {
-    flex-direction: column;
-  }
-  /* flex-basis:20rem applies to HEIGHT in column mode → makes each button 320px.
-     Reset to auto so buttons shrink-wrap to their content. */
-  .lesson-footer-nav-link--prev,
-  .lesson-footer-nav-link--next,
-  .lesson-footer-nav-block--disabled {
-    flex: 0 0 auto;
-    width: 100%;
-  }
-  .lesson-footer-nav-link--next {
-    margin-left: 0;
-    text-align: left;
-    align-items: flex-start;
-  }
-  .lesson-footer-nav-block--disabled {
-    margin-left: 0;
-    text-align: left;
-    align-items: flex-start;
   }
 }
 
