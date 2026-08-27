@@ -2623,14 +2623,25 @@ body.is-resizing-vertical {
 .lesson-aside-topic-btn:hover { background: var(--accent-dim); color: var(--text); border-color: var(--border); }
 .lesson-aside-topic-btn.is-current { background: var(--accent-dim); color: var(--text); border-color: color-mix(in srgb, var(--accent) 40%, var(--border)); box-shadow: inset 2px 0 0 var(--accent); }
 .lesson-aside-topic-label { font-size: 0.8rem; font-weight: 600; color: var(--text); margin: 0 0 0.6rem; padding-bottom: 0.45rem; border-bottom: 1px solid var(--border); line-height: 1.35; }
-.lesson-aside-lessons { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.05rem; flex: 0 1 auto; min-height: 0; overflow-y: auto; }
-.lesson-aside-lesson { display: flex; align-items: baseline; gap: 0.45rem; padding: 0.42rem 0.55rem; border-radius: var(--radius-sm); text-decoration: none; color: var(--text-muted); font-size: 0.82rem; line-height: 1.35; transition: background 0.12s, color 0.12s, border-color 0.12s; border: 1px solid transparent; }
-.lesson-aside-lesson:hover { background: var(--accent-dim); color: var(--text); border-color: var(--border); }
-.lesson-aside-lesson.is-active { background: var(--accent-dim); color: var(--text); border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); box-shadow: inset 2px 0 0 var(--accent); }
-.lesson-aside-lesson-num { font-family: var(--font-mono); font-size: 0.66rem; color: var(--text-subtle); flex-shrink: 0; line-height: inherit; }
-.lesson-aside-lesson.is-active .lesson-aside-lesson-num { color: var(--accent); }
-.lesson-aside-lesson-title { flex: 1; min-width: 0; }
-.lesson-aside-lesson-check { font-size: 0.68rem; color: var(--accent); flex-shrink: 0; line-height: inherit; }
+.lesson-aside-topic-nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-raised);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.lesson-aside-topic-nav-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
 
 .lesson-main {
   flex: 1 0 auto;
@@ -3391,8 +3402,6 @@ body.is-resizing-vertical {
   /* On mobile sidebar is a drawer: hide sidebar nav, show footer nav instead */
   .lesson-aside-nav { display: none; }
   .lesson-footer-nav-mobile-only { display: block; }
-  /* Reset lessons-list flex so the mobile drawer container scrolls as a whole (not the list internally) */
-  .lesson-aside-lessons { flex: none; min-height: unset; overflow-y: visible; }
 
   /* Compact mobile footer nav buttons */
   .lesson-footer-nav-mobile-only .lesson-footer-nav {
@@ -3712,12 +3721,9 @@ body.is-resizing-vertical {
     min-height: 2.75rem;
   }
 
-  /* Lesson sidebar links in drawer */
-  .lesson-aside-lesson {
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
+  /* Topic navigation button in sidebar/drawer */
+  .lesson-aside-topic-nav-btn {
     min-height: 2.75rem;
-    align-items: center;
   }
 
   /* Nav links in topbar */
@@ -3761,11 +3767,8 @@ body.is-resizing-vertical {
   .course-topic-btn {
     min-height: 2.75rem;
   }
-  .lesson-aside-lesson {
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
+  .lesson-aside-topic-nav-btn {
     min-height: 2.75rem;
-    align-items: center;
   }
   .topbar-nav-link {
     min-height: 2.75rem;

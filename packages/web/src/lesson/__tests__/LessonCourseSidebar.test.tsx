@@ -91,42 +91,44 @@ describe("LessonCourseSidebar", () => {
     expect(screen.getByText("Введение")).toBeInTheDocument();
   });
 
-  it("рендерит все уроки из темы", () => {
+  it("рендерит компактную кнопку «Навигация по теме» вместо постоянного списка уроков", () => {
     renderSidebar();
-    // Scope to the lessons list to avoid matching nav link titles
-    const lessonsList = screen.getByRole("list");
-    expect(within(lessonsList).getByText("Введение в HTML")).toBeInTheDocument();
-    expect(within(lessonsList).getByText("Основные теги")).toBeInTheDocument();
+    expect(
+      screen.getByRole("button", { name: /Навигация по теме/i })
+    ).toBeInTheDocument();
+    // Постоянного списка уроков (<ul> со всеми уроками темы) в сайдбаре больше нет
+    expect(screen.queryByRole("list")).not.toBeInTheDocument();
+    expect(document.querySelector(".lesson-aside-lessons")).not.toBeInTheDocument();
   });
 
-  it("помечает текущий урок как активный", () => {
-    renderSidebar(lessonRef1.id);
-    const lessonsList = screen.getByRole("list");
-    const activeLink = within(lessonsList).getByRole("link", { name: /Введение в HTML/ });
-    expect(activeLink).toHaveClass("is-active");
-    expect(activeLink).toHaveAttribute("aria-current", "page");
-  });
-
-  it("не помечает другие уроки как активные", () => {
-    renderSidebar(lessonRef1.id);
-    const lessonsList = screen.getByRole("list");
-    const inactiveLink = within(lessonsList).getByRole("link", { name: /Основные теги/ });
-    expect(inactiveLink).not.toHaveClass("is-active");
-    expect(inactiveLink).not.toHaveAttribute("aria-current");
-  });
-
-  it("вызывает onNavigate при клике на урок", () => {
-    const onNavigate = vi.fn();
-    renderSidebar(lessonRef1.id, onNavigate);
-    const lessonsList = screen.getByRole("list");
-    fireEvent.click(within(lessonsList).getByRole("link", { name: /Основные теги/ }));
-    expect(onNavigate).toHaveBeenCalledOnce();
-  });
-
-  it("рендерит ссылки с правильными номерами уроков", () => {
+  it("открывает TopicLessonsModal при клике на кнопку", () => {
     renderSidebar();
-    // Первый урок имеет номер "01", второй — "02"
-    expect(screen.getByText("01")).toBeInTheDocument();
-    expect(screen.getByText("02")).toBeInTheDocument();
+    expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: /Навигация по теме/i }));
+
+    const dialog = screen.getByRole("dialog");
+    expect(dialog).toBeInTheDocument();
+    // В модалке — список уроков темы
+    expect(within(dialog).getByText("Введение в HTML")).toBeInTheDocument();
+    expect(within(dialog).getByText("Основные теги")).toBeInTheDocument();
+  });
+
+  it("закрывает модалку по клику на кнопку закрытия", () => {
+    renderSidebar();
+    fireEvent.click(screen.getByRole("button", { name: /Навигация по теме/i }));
+    expect(screen.getByRole("dialog")).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: "Закрыть" }));
+    expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+  });
+
+  it("выделяет активный урок внутри модалки", () => {
+    renderSidebar(lessonRef1.id);
+    fireEvent.click(screen.getByRole("button", { name: /Навигация по теме/i }));
+
+    const activeRow = document.querySelector(".topic-lessons-row.is-active");
+    expect(activeRow).toBeInTheDocument();
+    expect(activeRow).toHaveTextContent("Введение в HTML");
   });
 });
