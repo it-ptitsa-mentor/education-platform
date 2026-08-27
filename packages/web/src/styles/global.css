@@ -195,7 +195,16 @@ body.is-resizing-vertical {
   z-index: 0;
 }
 
-.modal-open .app-main { overflow: hidden; }
+/* .app-main — верхний скролл-контейнер лейаута, но конкретные страницы
+   (роадмап через .home, урок через .lesson-aside/.lesson-main--fill и т.д.)
+   держат собственный вложенный overflow-y:auto контейнер. overflow:hidden
+   на .app-main одного клипует их снаружи, но не останавливает скролл-событие
+   внутри вложенного контейнера — поэтому блокируем оба уровня явно. */
+.modal-open .app-main,
+.modal-open .app-main .home {
+  overflow: hidden;
+  touch-action: none;
+}
 
 .app-main {
   position: relative;
@@ -2180,7 +2189,10 @@ body.is-resizing-vertical {
 .course-module-count { margin-left: auto; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); }
 
 
-.course-modal { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 1.25rem; background: rgba(8, 8, 10, 0.72); backdrop-filter: blur(4px); }
+/* touch-action: none — на iOS Safari overflow:hidden на body/html само по
+   себе не всегда блокирует touchmove фона под фикс-позиционированным
+   оверлеем; явный touch-action убирает скролл-жест с самого оверлея. */
+.course-modal { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 1.25rem; background: rgba(8, 8, 10, 0.72); backdrop-filter: blur(4px); touch-action: none; }
 /* Единый базовый отступ содержимого модалок — используется в head, теле
    и вложенных списках/таблицах, чтобы контент не «прыгал» по горизонтали. */
 .course-modal-panel {

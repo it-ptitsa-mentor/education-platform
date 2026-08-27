@@ -18,11 +18,40 @@ const isInteractiveTarget = (target: EventTarget | null): boolean => {
   );
 };
 
+// Реальный скролл страницы происходит не в html/body (те и так свёрнуты
+// в .app-shell{overflow:hidden}), а во внутреннем контейнере .app-main
+// (overflow-y: auto). Поэтому одного html/body overflow:hidden недостаточно —
+// фон под модалкой продолжает скроллиться. Блокируем через общий счётчик
+// открытых модалок (document.body.dataset), чтобы несколько модалок подряд
+// или наложенных друг на друга (см. LessonNavigatorModal, открытая поверх
+// TopicLessonsModal) не «залипали» в заблокированном состоянии — разблокируем
+// только когда закрылась последняя.
+let lockCount = 0;
+
+const lockBodyScroll = () => {
+  lockCount += 1;
+  if (lockCount > 1) return;
+  document.body.classList.add("modal-open");
+  document.documentElement.style.overflow = "hidden";
+  document.body.style.overflow = "hidden";
+};
+
+const unlockBodyScroll = () => {
+  lockCount = Math.max(0, lockCount - 1);
+  if (lockCount > 0) return;
+  document.body.classList.remove("modal-open");
+  document.documentElement.style.overflow = "";
+  document.body.style.overflow = "";
+};
+
 /**
  * Общее поведение модалок курса: Esc закрывает, Enter выполняет основное
  * действие (если задано и фокус не перехвачен), фон блокируется на один
- * скролл (html + body — не только body, чтобы не оставался «двойной» скролл
- * позади модалки), автофокус на панели при открытии.
+ * скролл (класс modal-open останавливает скролл .app-main — реального
+ * скролл-контейнера страницы, — плюс html/body на случай других лейаутов),
+ * автофокус на панели при открытии. Блокировка снимается и при закрытии,
+ * и при размонтировании; счётчик не даёт «залипнуть», если открыты сразу
+ * несколько модалок.
  */
 export const useModalController = <T extends HTMLElement>({
   onClose,
@@ -43,19 +72,12 @@ export const useModalController = <T extends HTMLElement>({
     };
     document.addEventListener("keydown", onKeyDown);
 
-    const html = document.documentElement.style;
-    const body = document.body.style;
-    const prevHtmlOverflow = html.overflow;
-    const prevBodyOverflow = body.overflow;
-    html.overflow = "hidden";
-    body.overflow = "hidden";
-
+    lockBodyScroll();
     panelRef.current?.focus();
 
     return () => {
       document.removeEventListener("keydown", onKeyDown);
-      html.overflow = prevHtmlOverflow;
-      body.overflow = prevBodyOverflow;
+      unlockBodyScroll();
     };
   }, [onClose, onEnter]);
 
