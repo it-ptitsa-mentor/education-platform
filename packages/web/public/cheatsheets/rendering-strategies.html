@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Шпаргалка IT Птицы: разница между CSR, SSR, SSG, ISR + RSC и Streaming SSR. Для подготовки к собесу.">
+<title>Стратегии рендеринга — шпаргалка</title>
+</head>
+<body>
+<style>
+  :root {
+    --paper: #ffffff;
+    --bg: #f5f7fa;
+    --ink: #161b24;
+    --muted: #5a6373;
+    --faint: #8b94a3;
+    --hair: #e2e6ec;
+    --chip: #eef1f6;
+    --shadow: 0 1px 2px rgba(20,27,36,.06), 0 8px 24px rgba(20,27,36,.05);
+
+    --ssg: #3f6fb0;
+    --isr: #17968a;
+    --ssr: #cf7822;
+    --csr: #7d5bb0;
+    --rsc: #4a5bb8;
+
+    --ssg-soft: #eaf1f9;
+    --isr-soft: #e4f4f2;
+    --ssr-soft: #f8efe2;
+    --csr-soft: #f1ecf8;
+    --rsc-soft: #ebedf9;
+
+    --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #161a21;
+      --bg: #0e1116;
+      --ink: #e9ebf0;
+      --muted: #9aa3b2;
+      --faint: #6b7482;
+      --hair: #262b35;
+      --chip: #1e232c;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.28);
+
+      --ssg: #74a6e0;
+      --isr: #3fc6b6;
+      --ssr: #e6a05a;
+      --csr: #ac8ddc;
+      --rsc: #8593e8;
+
+      --ssg-soft: #1a2836;
+      --isr-soft: #14302e;
+      --ssr-soft: #322313;
+      --csr-soft: #271f36;
+      --rsc-soft: #1f2440;
+    }
+  }
+  :root[data-theme="light"] {
+    --paper: #ffffff; --bg: #f5f7fa; --ink: #161b24; --muted: #5a6373; --faint: #8b94a3;
+    --hair: #e2e6ec; --chip: #eef1f6; --shadow: 0 1px 2px rgba(20,27,36,.06), 0 8px 24px rgba(20,27,36,.05);
+    --ssg: #3f6fb0; --isr: #17968a; --ssr: #cf7822; --csr: #7d5bb0; --rsc: #4a5bb8;
+    --ssg-soft: #eaf1f9; --isr-soft: #e4f4f2; --ssr-soft: #f8efe2; --csr-soft: #f1ecf8; --rsc-soft: #ebedf9;
+  }
+  :root[data-theme="dark"] {
+    --paper: #161a21; --bg: #0e1116; --ink: #e9ebf0; --muted: #9aa3b2; --faint: #6b7482;
+    --hair: #262b35; --chip: #1e232c; --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.28);
+    --ssg: #74a6e0; --isr: #3fc6b6; --ssr: #e6a05a; --csr: #ac8ddc; --rsc: #8593e8;
+    --ssg-soft: #1a2836; --isr-soft: #14302e; --ssr-soft: #322313; --csr-soft: #271f36; --rsc-soft: #1f2440;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: clamp(28px, 5vw, 64px) clamp(18px, 4vw, 40px) 72px;
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin: 0 0 14px;
+  }
+  h1 {
+    font-size: clamp(30px, 5.5vw, 48px);
+    line-height: 1.04;
+    letter-spacing: -.02em;
+    font-weight: 800;
+    margin: 0 0 16px;
+    text-wrap: balance;
+  }
+  .lede {
+    max-width: 62ch;
+    font-size: clamp(15px, 1.9vw, 18px);
+    color: var(--muted);
+    margin: 0;
+  }
+  .lede b { color: var(--ink); font-weight: 650; }
+
+  h2 {
+    font-size: 13px;
+    font-family: var(--mono);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--faint);
+    font-weight: 600;
+    margin: 0 0 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  h2::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--hair);
+  }
+  section { margin-top: clamp(40px, 6vw, 60px); }
+
+  /* ── ось времени ── */
+  .axis {
+    background: var(--paper);
+    border: 1px solid var(--hair);
+    border-radius: 16px;
+    padding: 28px clamp(18px, 3vw, 32px) 24px;
+    box-shadow: var(--shadow);
+  }
+  .axis-ends {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin-bottom: 10px;
+  }
+  .track {
+    position: relative;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, var(--ssg), var(--isr), var(--ssr), var(--csr));
+    margin: 20px 6px 26px;
+  }
+  .nodes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .node { text-align: center; position: relative; }
+  .node::before {
+    content: "";
+    position: absolute;
+    top: -33px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--dot);
+    border: 3px solid var(--paper);
+    box-shadow: 0 0 0 1px var(--dot);
+  }
+  .node .abbr {
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--dot);
+    letter-spacing: .02em;
+  }
+  .node .when {
+    font-size: 12.5px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  /* ── таблица ── */
+  .table-scroll {
+    overflow-x: auto;
+    border: 1px solid var(--hair);
+    border-radius: 16px;
+    background: var(--paper);
+    box-shadow: var(--shadow);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 780px;
+    font-size: 14px;
+  }
+  thead th {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: var(--faint);
+    font-weight: 600;
+    text-align: left;
+    padding: 15px 16px;
+    border-bottom: 1px solid var(--hair);
+    white-space: nowrap;
+    background: var(--paper);
+  }
+  tbody td {
+    padding: 15px 16px;
+    border-bottom: 1px solid var(--hair);
+    vertical-align: top;
+    color: var(--muted);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  .stratcell {
+    position: sticky;
+    left: 0;
+    background: var(--paper);
+    border-right: 1px solid var(--hair);
+    min-width: 158px;
+  }
+  .stratcell::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 12px; bottom: 12px;
+    width: 3px;
+    border-radius: 0 2px 2px 0;
+    background: var(--c);
+  }
+  .stratcell .abbr {
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--c);
+    letter-spacing: .01em;
+  }
+  .stratcell .full {
+    display: block;
+    font-size: 12px;
+    color: var(--faint);
+    margin-top: 1px;
+    font-weight: 400;
+  }
+  .seo { font-weight: 600; font-family: var(--mono); font-size: 12.5px; }
+  .seo.good { color: var(--isr); }
+  .seo.weak { color: var(--ssr); }
+  td b { color: var(--ink); font-weight: 620; }
+
+  /* ── бонус-карточки ── */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: var(--paper);
+    border: 1px solid var(--hair);
+    border-radius: 14px;
+    padding: 22px 22px 20px;
+    box-shadow: var(--shadow);
+    border-top: 3px solid var(--c);
+  }
+  .card .tag {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--c);
+    letter-spacing: .04em;
+  }
+  .card h3 {
+    font-size: 16px;
+    margin: 4px 0 10px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .card p { margin: 0; font-size: 14px; color: var(--muted); }
+  .card p + p { margin-top: 10px; }
+  .card .warn {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 12.5px;
+    color: var(--ink);
+    background: var(--chip);
+    border-radius: 7px;
+    padding: 6px 10px;
+  }
+
+  /* ── как выбирать ── */
+  .choose {
+    background: var(--paper);
+    border: 1px solid var(--hair);
+    border-radius: 16px;
+    padding: clamp(22px, 3vw, 30px);
+    box-shadow: var(--shadow);
+  }
+  .rule {
+    font-size: clamp(15px, 2vw, 17px);
+    margin: 0 0 22px;
+    color: var(--ink);
+    max-width: 68ch;
+  }
+  .rule b { color: var(--ssr); font-weight: 700; }
+  .rule i { color: var(--ssg); font-style: normal; font-weight: 700; }
+  .picks {
+    display: grid;
+    gap: 0;
+    border-top: 1px solid var(--hair);
+  }
+  .pick {
+    display: grid;
+    grid-template-columns: 68px 1fr;
+    gap: 16px;
+    align-items: baseline;
+    padding: 13px 0;
+    border-bottom: 1px solid var(--hair);
+  }
+  .pick .k {
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--c);
+  }
+  .pick .v { font-size: 14.5px; color: var(--muted); }
+  .pick .v b { color: var(--ink); font-weight: 620; }
+  .note {
+    margin: 20px 0 0;
+    font-size: 13.5px;
+    color: var(--muted);
+    padding-left: 14px;
+    border-left: 2px solid var(--hair);
+  }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--hair);
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: .05em;
+    color: var(--faint);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Frontend · подготовка к собесу</p>
+    <h1>Стратегии рендеринга</h1>
+    <p class="lede">Вся разница сводится к двум вопросам: <b>где</b> собирается HTML — на сервере или в браузере — и <b>когда</b> он собирается: при сборке проекта, на каждый запрос или уже в браузере.</p>
+  </header>
+
+  <section>
+    <h2>Ось «когда собирается HTML»</h2>
+    <div class="axis">
+      <div class="axis-ends">
+        <span>← заранее, для всех</span>
+        <span>в момент для каждого →</span>
+      </div>
+      <div class="track"></div>
+      <div class="nodes">
+        <div class="node" style="--dot:var(--ssg)">
+          <span class="abbr">SSG</span>
+          <div class="when">при сборке</div>
+        </div>
+        <div class="node" style="--dot:var(--isr)">
+          <span class="abbr">ISR</span>
+          <div class="when">сборка + таймер</div>
+        </div>
+        <div class="node" style="--dot:var(--ssr)">
+          <span class="abbr">SSR</span>
+          <div class="when">на каждый запрос</div>
+        </div>
+        <div class="node" style="--dot:var(--csr)">
+          <span class="abbr">CSR</span>
+          <div class="when">в браузере</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Сравнение</h2>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th class="stratcell">Стратегия</th>
+            <th>Где рендерится</th>
+            <th>Когда</th>
+            <th>Свежесть данных</th>
+            <th>SEO</th>
+            <th>Нужен сервер</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="--c:var(--ssg)">
+            <td class="stratcell"><span class="abbr">SSG</span><span class="full">Static Site Generation</span></td>
+            <td>Сервер, <b>заранее</b></td>
+            <td>При сборке (build)</td>
+            <td>Заморожена до пересборки</td>
+            <td><span class="seo good">отличное</span></td>
+            <td>Нет — раздача с CDN</td>
+          </tr>
+          <tr style="--c:var(--isr)">
+            <td class="stratcell"><span class="abbr">ISR</span><span class="full">Incremental Static Regeneration</span></td>
+            <td>Сервер, <b>фоном</b></td>
+            <td>Сборка + ре-валидация по таймеру</td>
+            <td>Обновляется раз в N секунд</td>
+            <td><span class="seo good">отличное</span></td>
+            <td>Да (инфра Next)</td>
+          </tr>
+          <tr style="--c:var(--ssr)">
+            <td class="stratcell"><span class="abbr">SSR</span><span class="full">Server-Side Rendering</span></td>
+            <td>Сервер</td>
+            <td><b>На каждый запрос</b></td>
+            <td>Всегда свежая</td>
+            <td><span class="seo good">отличное</span></td>
+            <td>Да — живой Node</td>
+          </tr>
+          <tr style="--c:var(--csr)">
+            <td class="stratcell"><span class="abbr">CSR</span><span class="full">Client-Side Rendering</span></td>
+            <td><b>Браузер</b></td>
+            <td>В рантайме, после загрузки JS</td>
+            <td>Любая — клиент грузит сам</td>
+            <td><span class="seo weak">слабое</span></td>
+            <td>Нет — отдаётся статика</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">После SSR/SSG сервер прислал готовый HTML, но кнопки ещё «мёртвые» — браузер навешивает обработчики поверх разметки. Этот шаг называется <b style="color:var(--ink)">гидрация</b> (hydration).</p>
+  </section>
+
+  <section>
+    <h2>Что ещё спросят рядом</h2>
+    <div class="cards">
+      <div class="card" style="--c:var(--rsc)">
+        <span class="tag">RSC</span>
+        <h3>React Server Components</h3>
+        <p>Компоненты, которые выполняются <b>только на сервере</b> и вообще не попадают в JS-бандл браузера. Можно ходить в БД и держать секреты прямо внутри.</p>
+        <span class="warn">Не путать с SSR: SSR рендерит HTML, но всё равно шлёт JS компонентов для гидрации. RSC — не шлёт совсем.</span>
+      </div>
+      <div class="card" style="--c:var(--rsc)">
+        <span class="tag">STREAMING SSR</span>
+        <h3>Потоковый SSR</h3>
+        <p>Сервер отдаёт HTML не целиком, а <b>кусками по мере готовности</b> через <code style="font-family:var(--mono);font-size:.9em">&lt;Suspense&gt;</code>.</p>
+        <p>Быстрые части экрана показываются сразу, медленные (ждущие тяжёлый запрос) дорисовываются потоком — вся страница больше не ждёт самый долгий запрос.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Как выбирать</h2>
+    <div class="choose">
+      <p class="rule">Чем данные более <i>общие и стабильные</i> — тем левее к SSG. Чем более <b>персональные и живые</b> — тем правее к SSR / CSR.</p>
+      <div class="picks">
+        <div class="pick" style="--c:var(--ssg)">
+          <span class="k">SSG</span>
+          <span class="v"><b>Один контент для всех, меняется редко.</b> Блог, лендинг, документация.</span>
+        </div>
+        <div class="pick" style="--c:var(--isr)">
+          <span class="k">ISR</span>
+          <span class="v"><b>Один для всех, но обновляется периодически.</b> Каталог товаров, цены раз в час.</span>
+        </div>
+        <div class="pick" style="--c:var(--ssr)">
+          <span class="k">SSR</span>
+          <span class="v"><b>У каждого своё / меняется на каждый запрос.</b> Лента, профиль, корзина.</span>
+        </div>
+        <div class="pick" style="--c:var(--csr)">
+          <span class="k">CSR</span>
+          <span class="v"><b>Насыщенный интерактив после загрузки, SEO не важно.</b> Админки, дашборды за логином.</span>
+        </div>
+      </div>
+      <p class="note">Это не «или-или» на весь сайт: Next / Nuxt позволяют выбирать стратегию <b style="color:var(--ink)">на каждую страницу</b>. Лендинг — SSG, каталог — ISR, личный кабинет — CSR/SSR.</p>
+    </div>
+  </section>
+
+  <footer>
+    <span>Шпаргалка · IT Птица</span>
+    <span>где + когда собирается HTML</span>
+  </footer>
+</div>
+
+</body>
+</html>

@@ -3,6 +3,7 @@
   "title": "Frontend Bootcamp",
   "subtitle": "16 недель · CLI и JS → Web/DOM → React",
   "profession": "Frontend-разработчик",
+  "track": "frontend",
   "phases": [
     {
       "id": "p1",
@@ -1460,6 +1461,11 @@
       "label": "Next.js basics (App Router)",
       "description": "Полноценный React-фреймворк: серверные и клиентские компоненты, App Router с file-based routing, Server Actions, streaming SSR, ISR, маршрутизация и метаданные. Минимум, который нужен junior-разработчику для понимания современного React-стека и продакшен-деплоя. Mental-модель такая: всё рендерится на сервере по умолчанию (RSC), ты осознанно помечаешь компонент 'use client' только там, где нужны useState/useEffect/обработчики событий. Server Actions заменяют большую часть REST-эндпоинтов для форм. Старайся не делать Client Component-обёртку для всей страницы — это сводит выгоды Next.js на нет.",
       "links": [
+        {
+          "type": "cheatsheet",
+          "title": "Шпаргалка IT Птицы: CSR / SSR / SSG / ISR (+ RSC, Streaming)",
+          "url": "https://education.it-ptitsa-mentor.ru/app/cheatsheets/rendering-strategies.html"
+        },
         {
           "type": "official",
           "title": "Next.js Documentation",
