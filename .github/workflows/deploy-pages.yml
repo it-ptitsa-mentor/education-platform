@@ -30,8 +30,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Generate course content
+        run: pnpm generate:course-content
+
       - name: Generate static exercise bundle
         run: pnpm generate:static-exercises
+
+      - name: Generate static quiz bundle
+        run: pnpm generate:static-quizzes
 
       - name: Build web for GitHub Pages
         run: pnpm --filter @ptitsa/web build

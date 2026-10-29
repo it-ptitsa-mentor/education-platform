@@ -121,6 +121,7 @@ export const LessonLayout = () => {
   useEffect(() => {
     window.scrollTo({ top: 0 });
     document.querySelector(".app-main")?.scrollTo({ top: 0 });
+    setAsideOpen(false);
   }, [moduleSlug, topicSlug, lessonIndex, activeUnit]);
 
   if (error) {
