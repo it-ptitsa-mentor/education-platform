@@ -84,6 +84,13 @@ type ExerciseRunnerProps = {
   /** Mobile bottom-bar navigation hrefs (passed through to ExerciseWorkspace). */
   mobilePrevHref?: string | null;
   mobileNextHref?: string | null;
+  /**
+   * Куда ведёт «Далее» после PASS (или «Я справился» у заданий без
+   * автопроверки). Кнопка-ссылка встаёт рядом с RUN TESTS; без href её нет.
+   */
+  continueHref?: string | null;
+  /** Название следующего шага: «Далее: {continueLabel} →». */
+  continueLabel?: string;
 };
 
 export const ExerciseRunner = ({
@@ -92,6 +99,8 @@ export const ExerciseRunner = ({
   onPassed,
   mobilePrevHref,
   mobileNextHref,
+  continueHref,
+  continueLabel,
 }: ExerciseRunnerProps) => {
   const [exercise, setExercise] = useState<ExerciseDetail | null>(null);
   const [files, setFiles] = useState<Record<string, string>>({});
@@ -262,10 +271,36 @@ export const ExerciseRunner = ({
 
   const actionButton = isStub ? selfCheckButton : runTestsButton;
 
+  // ── «Далее» после PASS: inline-ссылка, не модалка ──
+  const exercisePassed = isStub ? selfCheckDone : Boolean(result?.passed);
+  const continueText = continueLabel ? `Далее: ${continueLabel} →` : "Далее →";
+  const continueButton =
+    continueHref && exercisePassed ? (
+      // title — полный текст, если на узком экране подпись обрезана многоточием
+      <Link
+        to={continueHref}
+        className="btn btn-primary exercise-continue-btn"
+        title={continueText}
+      >
+        <span className="exercise-continue-btn-label">{continueText}</span>
+      </Link>
+    ) : null;
+
+  const embeddedActions = continueButton ? (
+    <>
+      {actionButton}
+      {continueButton}
+    </>
+  ) : (
+    actionButton
+  );
+
   return (
     <div className={`exercise-runner${embedded ? " exercise-runner--embedded" : ""}`}>
       {!embedded ? (
-        <div className="exercise-toolbar">
+        <div
+          className={`exercise-toolbar${continueButton ? " exercise-toolbar--continue" : ""}`}
+        >
           <Link to="/tasks" className="back-link">
             <span aria-hidden>←</span>
             Каталог
@@ -291,6 +326,7 @@ export const ExerciseRunner = ({
           )}
 
           {actionButton}
+          {continueButton}
         </div>
       ) : null}
 
@@ -314,7 +350,7 @@ export const ExerciseRunner = ({
           result={isStub ? null : result}
           onRunTests={isStub ? undefined : () => void handleCheck()}
           onResetFiles={handleResetFiles}
-          headerActions={embedded ? actionButton : undefined}
+          headerActions={embedded ? embeddedActions : undefined}
           embedded={embedded}
           isStub={isStub}
           selfCheckDone={selfCheckDone}

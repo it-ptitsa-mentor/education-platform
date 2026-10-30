@@ -1366,6 +1366,21 @@ body.is-resizing-vertical {
   text-overflow: ellipsis;
 }
 
+/* «Далее» после PASS на standalone-странице упражнения: рядом с RUN TESTS */
+.exercise-toolbar .exercise-continue-btn {
+  flex-shrink: 1;
+  min-width: 0;
+  max-width: 45%;
+  padding: 0.55rem 1.1rem;
+}
+
+.exercise-continue-btn-label {
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .exercise-toolbar-name--muted {
   font-family: var(--font-mono);
   font-size: 0.62rem;
@@ -4048,6 +4063,23 @@ body.is-resizing-vertical {
     flex-wrap: nowrap;
     gap: 0.5rem;
     padding: 0.5rem 0.75rem;
+  }
+
+  /* «Далее» после PASS: отдельной строкой во всю ширину под заголовком */
+  .exercise-toolbar--continue {
+    flex-wrap: wrap;
+  }
+
+  .exercise-toolbar--continue .exercise-toolbar-title {
+    order: 0;
+    width: auto;
+  }
+
+  .exercise-toolbar--continue .exercise-continue-btn {
+    order: 4;
+    width: 100%;
+    max-width: 100%;
+    min-height: 44px;
   }
 
   /* ── Panel kicker: hide decorative labels on tiny screens ── */
