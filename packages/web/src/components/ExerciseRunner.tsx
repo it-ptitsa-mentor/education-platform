@@ -283,9 +283,14 @@ export const ExerciseRunner = ({
       to={continueHref}
       className={`btn ${continueVariant} exercise-continue-btn`}
       title={continueText}
+      aria-label={embedded ? continueText : undefined}
       data-passed={exercisePassed ? "true" : "false"}
     >
-      <span className="exercise-continue-btn-label">{continueText}</span>
+      {/* В уроке «Далее» стоит в шапке BRIEF рядом с RUN TESTS — места мало,
+          поэтому коротко; полное название в title и aria-label. */}
+      <span className="exercise-continue-btn-label">
+        {embedded ? "Далее →" : continueText}
+      </span>
     </Link>
   ) : null;
 
@@ -365,7 +370,7 @@ export const ExerciseRunner = ({
           onResetFiles={handleResetFiles}
           headerActions={embedded ? embeddedActions : undefined}
           briefActions={embedded ? undefined : actionButton}
-          mobileExtra={embedded ? undefined : mobileContinueButton}
+          mobileExtra={mobileContinueButton}
           embedded={embedded}
           isStub={isStub}
           selfCheckDone={selfCheckDone}
