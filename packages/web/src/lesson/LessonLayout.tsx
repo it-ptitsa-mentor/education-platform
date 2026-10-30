@@ -2,12 +2,14 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, Navigate, Outlet, useLocation, useParams } from "react-router-dom";
 import {
   flattenLessons,
+  isUnitDone,
   loadCourse,
   type Course,
   type LessonRef,
 } from "../course";
 import {
   activeUnitFromPath,
+  lessonFooterNext,
   lessonUnitPath,
 } from "../lib/lesson-units";
 import { readLessonOrigin } from "../lib/lesson-origin";
@@ -26,6 +28,24 @@ const findTopic = (course: Course, moduleSlug: string, topicSlug: string) => {
   if (!mod || !topic) return null;
   return { mod, topic };
 };
+
+/** Бургер вместо слова «Уроки»: сразу видно, что это меню. */
+const AsideToggleIcon = () => (
+  <svg
+    className="lesson-aside-toggle-icon"
+    width="18"
+    height="18"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    aria-hidden="true"
+    focusable="false"
+  >
+    <path d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+);
 
 const findLessonRef = (
   topicLessons: LessonRef[],
@@ -167,6 +187,12 @@ export const LessonLayout = () => {
   const { mod, topic } = topicEntry;
   const refreshProgress = () => setProgressVersion((v) => v + 1);
   const isExerciseFocus = activeUnit === "exercise";
+  // Прогресс читается из localStorage на каждом рендере: refreshProgress()
+  // после onPassed перерисует layout, и «Далее» появится без перезагрузки.
+  const quizContinue =
+    activeUnit === "quiz" && isUnitDone(current.id, "quiz")
+      ? lessonFooterNext(current, allLessons, "quiz")
+      : null;
 
   return (
     <LessonContext.Provider
@@ -218,8 +244,11 @@ export const LessonLayout = () => {
                     type="button"
                     className="lesson-aside-toggle"
                     onClick={() => setAsideOpen((v) => !v)}
+                    aria-expanded={asideOpen}
+                    aria-label="Уроки"
+                    title="Уроки"
                   >
-                    Уроки
+                    <AsideToggleIcon />
                   </button>
                   <h1 className="lesson-title lesson-title--compact">
                     {current.lesson.title}
@@ -239,14 +268,26 @@ export const LessonLayout = () => {
                       className="lesson-aside-toggle lesson-aside-toggle--theory"
                       onClick={() => setAsideOpen((v) => !v)}
                       aria-expanded={asideOpen}
+                      aria-label="Уроки"
+                      title="Уроки"
                     >
-                      Уроки
+                      <AsideToggleIcon />
                     </button>
                   </div>
                   <div className="lesson-breadcrumb">
                     {mod.title} · {topic.title}
                   </div>
-                  <h1 className="lesson-title">{current.lesson.title}</h1>
+                  <div className="lesson-title-row">
+                    <h1 className="lesson-title">{current.lesson.title}</h1>
+                    {quizContinue && (
+                      <Link
+                        to={quizContinue.to}
+                        className="btn btn-primary lesson-quiz-continue"
+                      >
+                        Далее: {quizContinue.title} →
+                      </Link>
+                    )}
+                  </div>
                 </>
               )}
             </div>

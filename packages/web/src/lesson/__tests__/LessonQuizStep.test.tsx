@@ -58,18 +58,10 @@ const renderStep = (current: LessonRef) => {
   );
 };
 
-const nextHref = () =>
-  screen.getByRole("link", { name: /Далее/ }).getAttribute("href");
-
-describe("LessonQuizStep — «Далее» после квиза", () => {
+describe("LessonQuizStep", () => {
   beforeEach(() => {
     markUnitDone.mockClear();
     refreshProgress.mockClear();
-  });
-
-  it("до прохождения кнопки «Далее» нет", () => {
-    renderStep(refs[0]);
-    expect(screen.queryByRole("link", { name: /Далее/ })).not.toBeInTheDocument();
   });
 
   it("onPassed отмечает квиз пройденным и обновляет прогресс", () => {
@@ -79,42 +71,9 @@ describe("LessonQuizStep — «Далее» после квиза", () => {
     expect(refreshProgress).toHaveBeenCalledTimes(1);
   });
 
-  it("урок с практикой: «Далее» ведёт на практику этого урока", () => {
+  it("«Далее» в теле квиза не рендерится — она переехала в хедер LessonLayout", () => {
     renderStep(refs[0]);
     fireEvent.click(screen.getByText("пройти квиз"));
-    expect(nextHref()).toBe("/learn/html/intro/1/exercise");
-  });
-
-  it("урок без практики: «Далее» ведёт на теорию следующего урока", () => {
-    renderStep(refs[1]);
-    fireEvent.click(screen.getByText("пройти квиз"));
-    expect(nextHref()).toBe("/learn/html/intro/3/theory");
-    expect(screen.getByRole("link", { name: /Последний/ })).toBeInTheDocument();
-  });
-
-  it("последний урок без практики: «Далее» не рендерится", () => {
-    renderStep(refs[2]);
-    fireEvent.click(screen.getByText("пройти квиз"));
-    expect(screen.queryByRole("link", { name: /Далее/ })).not.toBeInTheDocument();
-  });
-
-  it("смена урока сбрасывает «пройдено»: на квизе следующего урока «Далее» снова скрыт", () => {
-    const { rerender } = renderStep(refs[0]);
-    fireEvent.click(screen.getByText("пройти квиз"));
-    expect(nextHref()).toBe("/learn/html/intro/1/exercise");
-
-    rerender(
-      <MemoryRouter>
-        <LessonContext.Provider
-          value={{
-            course, module: mod, topic, current: refs[1], topicLessons: refs, allLessons: refs,
-            prev: null, next: null, progressVersion: 0, refreshProgress,
-          }}
-        >
-          <LessonQuizStep />
-        </LessonContext.Provider>
-      </MemoryRouter>,
-    );
     expect(screen.queryByRole("link", { name: /Далее/ })).not.toBeInTheDocument();
   });
 });
