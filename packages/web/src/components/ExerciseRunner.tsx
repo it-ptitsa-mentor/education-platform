@@ -84,6 +84,13 @@ type ExerciseRunnerProps = {
   /** Mobile bottom-bar navigation hrefs (passed through to ExerciseWorkspace). */
   mobilePrevHref?: string | null;
   mobileNextHref?: string | null;
+  /**
+   * Куда ведёт «Далее» (standalone-страница). Кнопка видна всегда: до PASS —
+   * secondary, после PASS / «Я справился» — primary. Без href кнопки нет.
+   */
+  continueHref?: string | null;
+  /** Название следующего шага: «Далее: {continueLabel} →». */
+  continueLabel?: string;
 };
 
 export const ExerciseRunner = ({
@@ -92,6 +99,8 @@ export const ExerciseRunner = ({
   onPassed,
   mobilePrevHref,
   mobileNextHref,
+  continueHref,
+  continueLabel,
 }: ExerciseRunnerProps) => {
   const [exercise, setExercise] = useState<ExerciseDetail | null>(null);
   const [files, setFiles] = useState<Record<string, string>>({});
@@ -262,6 +271,51 @@ export const ExerciseRunner = ({
 
   const actionButton = isStub ? selfCheckButton : runTestsButton;
 
+  // ── «Далее»: видна всегда, если есть следующий шаг ──
+  // До PASS — серая (secondary), но кликабельная: студент может пропустить
+  // задание. После PASS (или «Я справился» без автопроверки) — золотая.
+  const exercisePassed = isStub ? selfCheckDone : Boolean(result?.passed);
+  const continueText = continueLabel ? `Далее: ${continueLabel} →` : "Далее →";
+  const continueVariant = exercisePassed ? "btn-primary" : "btn-secondary";
+  const continueButton = continueHref ? (
+    // title — полный текст, если на узком экране подпись обрезана многоточием
+    <Link
+      to={continueHref}
+      className={`btn ${continueVariant} exercise-continue-btn`}
+      title={continueText}
+      aria-label={embedded ? continueText : undefined}
+      data-passed={exercisePassed ? "true" : "false"}
+    >
+      {/* В уроке «Далее» стоит в шапке BRIEF рядом с RUN TESTS — места мало,
+          поэтому коротко; полное название в title и aria-label. */}
+      <span className="exercise-continue-btn-label">
+        {embedded ? "Далее →" : continueText}
+      </span>
+    </Link>
+  ) : null;
+
+  // Мобилка: компактная «Далее →» в нижнем фикс-баре, полный текст в aria-label.
+  const mobileContinueButton = continueHref ? (
+    <Link
+      to={continueHref}
+      className={`btn ${continueVariant} workspace-mobile-continue-btn`}
+      aria-label={continueText}
+      title={continueText}
+      data-passed={exercisePassed ? "true" : "false"}
+    >
+      Далее →
+    </Link>
+  ) : null;
+
+  const embeddedActions = continueButton ? (
+    <>
+      {actionButton}
+      {continueButton}
+    </>
+  ) : (
+    actionButton
+  );
+
   return (
     <div className={`exercise-runner${embedded ? " exercise-runner--embedded" : ""}`}>
       {!embedded ? (
@@ -290,7 +344,7 @@ export const ExerciseRunner = ({
             </span>
           )}
 
-          {actionButton}
+          {continueButton}
         </div>
       ) : null}
 
@@ -314,7 +368,9 @@ export const ExerciseRunner = ({
           result={isStub ? null : result}
           onRunTests={isStub ? undefined : () => void handleCheck()}
           onResetFiles={handleResetFiles}
-          headerActions={embedded ? actionButton : undefined}
+          headerActions={embedded ? embeddedActions : undefined}
+          briefActions={embedded ? undefined : actionButton}
+          mobileExtra={mobileContinueButton}
           embedded={embedded}
           isStub={isStub}
           selfCheckDone={selfCheckDone}

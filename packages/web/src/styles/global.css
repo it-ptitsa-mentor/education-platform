@@ -1366,6 +1366,23 @@ body.is-resizing-vertical {
   text-overflow: ellipsis;
 }
 
+/* «Далее» на standalone-странице упражнения: справа в тулбаре. До PASS —
+   btn-secondary (серая, но кликабельная), после PASS — btn-primary. */
+.exercise-toolbar .exercise-continue-btn {
+  margin-left: auto;
+  flex-shrink: 1;
+  min-width: 0;
+  max-width: 45%;
+  padding: 0.55rem 1.1rem;
+}
+
+.exercise-continue-btn-label {
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .exercise-toolbar-name--muted {
   font-family: var(--font-mono);
   font-size: 0.62rem;
@@ -2754,59 +2771,6 @@ body.is-resizing-vertical {
   gap: 0.75rem;
   padding-bottom: 0.35rem;
 }
-/* max-height ограничен (как у остальных модалок курса) — если контент не
-   влезает, скроллится только .exercise-pass-modal-body (один скролл, шапка
-   и фон за модалкой остаются неподвижными). */
-.exercise-pass-modal-panel { width: min(24rem, 100%); max-height: min(76vh, 26rem); }
-.exercise-pass-modal-body {
-  display: flex;
-  flex-direction: column;
-  gap: 0.85rem;
-  padding: var(--modal-pad-y) var(--modal-pad-x) calc(var(--modal-pad-y) + 0.15rem);
-  overflow-y: auto;
-  min-height: 0;
-  flex: 1;
-}
-.exercise-pass-modal-text {
-  margin: 0;
-  font-size: 0.92rem;
-  line-height: 1.5;
-  color: var(--text-muted);
-}
-.exercise-pass-modal-cta {
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-  padding: 0.75rem 0.9rem;
-  border-radius: var(--radius-md);
-  border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--border-strong));
-  background: color-mix(in srgb, var(--accent) 14%, var(--surface-raised));
-  color: var(--text);
-  text-decoration: none;
-  transition: border-color 0.15s, background 0.15s, transform 0.15s;
-}
-.exercise-pass-modal-cta:hover {
-  border-color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 22%, var(--surface-raised));
-  transform: translateY(-1px);
-}
-.exercise-pass-modal-cta-kicker {
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--accent);
-}
-.exercise-pass-modal-cta-title {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.25;
-}
-.exercise-pass-modal-cta-hint {
-  font-size: 0.78rem;
-  color: var(--text-muted);
-}
 .lesson-main-shell {
   display: flex;
   flex-direction: row;
@@ -2929,6 +2893,13 @@ body.is-resizing-vertical {
   flex: 1;
   justify-content: center;
 }
+/* Standalone: RUN TESTS / «Я справился» слева над панелью BRIEF */
+.readme-panel-actions--top {
+  padding: 0.65rem 0.85rem;
+}
+.readme-panel-actions--top .check-btn {
+  flex: 0 0 auto;
+}
 .panel-head-trail {
   display: flex;
   align-items: center;
@@ -2957,6 +2928,21 @@ body.is-resizing-vertical {
   height: 2.35rem;
   padding: 0 0.85rem;
   font-size: 0.7rem;
+}
+/* Урок: «Далее» в шапке BRIEF рядом с RUN TESTS — та же высота и типографика,
+   ширина по содержимому («Далее →»), RUN TESTS забирает остальное. */
+.exercise-runner--embedded .readme-panel-actions .exercise-continue-btn {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  height: 2.35rem;
+  padding: 0 0.85rem;
+  font: 600 0.7rem/1 var(--font-display);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.exercise-runner--embedded .readme-panel-actions .exercise-continue-btn:hover {
+  transform: none;
 }
 .exercise-runner--embedded .readme-panel-head .panel-title-group h2 {
   font-size: var(--text-sm);
@@ -3357,9 +3343,6 @@ body.is-resizing-vertical {
   }
   .course-modal {
     padding: 0.85rem;
-  }
-  .exercise-pass-modal-body {
-    padding: var(--modal-pad-y) var(--modal-pad-x);
   }
 }
 
@@ -4049,6 +4032,68 @@ body.is-resizing-vertical {
     gap: 0.5rem;
     padding: 0.5rem 0.75rem;
   }
+
+  /* «Далее» на мобилке живёт в нижнем фикс-баре, из тулбара убираем */
+  .exercise-toolbar .exercise-continue-btn {
+    display: none;
+  }
+
+  .workspace-mobile-extra {
+    flex: 0 0 auto;
+    display: flex;
+  }
+
+  /* Тот же размер и типографика, что у RUN TESTS (.workspace-mobile-run-btn):
+     высота 44px, шрифт/межбуквенный/регистр как у .check-btn */
+  .workspace-mobile-continue-btn {
+    box-sizing: border-box;
+    height: 44px;
+    padding: 0 0.75rem;
+    font: 600 var(--text-sm)/1 var(--font-display);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .workspace-mobile-continue-btn:hover {
+    transform: none;
+  }
+
+  /* С «Далее» в баре три группы — ужимаем зазоры, чтобы влезть в 360px */
+  .workspace-mobile-bar:has(.workspace-mobile-extra) {
+    gap: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .workspace-mobile-bar:has(.workspace-mobile-extra) .workspace-mobile-action {
+    min-width: 0;
+  }
+
+  .workspace-mobile-bar:has(.workspace-mobile-extra) .workspace-mobile-run-btn {
+    padding: 0 0.75rem !important;
+  }
+
+  /* Галочка не влезает рядом с «Далее» и сплющивается в точку — прячем её,
+     спиннер во время прогона оставляем. */
+  .workspace-mobile-bar:has(.workspace-mobile-extra)
+    .workspace-mobile-run-btn
+    .check-btn-icon:not(:has(.spinner)) {
+    display: none;
+  }
+}
+
+/* <400px: «ЗАПУСТИТЬ»/«Я СПРАВИЛСЯ» рядом с «ДАЛЕЕ →» не влезают —
+   обе кнопки бара чуть мельче, но по-прежнему одного размера */
+@media (max-width: 399px) {
+  .workspace-mobile-bar:has(.workspace-mobile-extra) .workspace-mobile-run-btn,
+  .workspace-mobile-continue-btn {
+    font-size: 0.72rem !important;
+    padding: 0 0.6rem !important;
+  }
+}
+
+@media (max-width: 374px) {
 
   /* ── Panel kicker: hide decorative labels on tiny screens ── */
   .workspace .panel-kicker:not(.panel-kicker--inline) {
