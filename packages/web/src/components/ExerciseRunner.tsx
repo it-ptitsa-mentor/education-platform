@@ -85,8 +85,8 @@ type ExerciseRunnerProps = {
   mobilePrevHref?: string | null;
   mobileNextHref?: string | null;
   /**
-   * Куда ведёт «Далее» после PASS (или «Я справился» у заданий без
-   * автопроверки). Кнопка-ссылка встаёт рядом с RUN TESTS; без href её нет.
+   * Куда ведёт «Далее» (standalone-страница). Кнопка видна всегда: до PASS —
+   * secondary, после PASS / «Я справился» — primary. Без href кнопки нет.
    */
   continueHref?: string | null;
   /** Название следующего шага: «Далее: {continueLabel} →». */
@@ -271,20 +271,36 @@ export const ExerciseRunner = ({
 
   const actionButton = isStub ? selfCheckButton : runTestsButton;
 
-  // ── «Далее» после PASS: inline-ссылка, не модалка ──
+  // ── «Далее»: видна всегда, если есть следующий шаг ──
+  // До PASS — серая (secondary), но кликабельная: студент может пропустить
+  // задание. После PASS (или «Я справился» без автопроверки) — золотая.
   const exercisePassed = isStub ? selfCheckDone : Boolean(result?.passed);
   const continueText = continueLabel ? `Далее: ${continueLabel} →` : "Далее →";
-  const continueButton =
-    continueHref && exercisePassed ? (
-      // title — полный текст, если на узком экране подпись обрезана многоточием
-      <Link
-        to={continueHref}
-        className="btn btn-primary exercise-continue-btn"
-        title={continueText}
-      >
-        <span className="exercise-continue-btn-label">{continueText}</span>
-      </Link>
-    ) : null;
+  const continueVariant = exercisePassed ? "btn-primary" : "btn-secondary";
+  const continueButton = continueHref ? (
+    // title — полный текст, если на узком экране подпись обрезана многоточием
+    <Link
+      to={continueHref}
+      className={`btn ${continueVariant} exercise-continue-btn`}
+      title={continueText}
+      data-passed={exercisePassed ? "true" : "false"}
+    >
+      <span className="exercise-continue-btn-label">{continueText}</span>
+    </Link>
+  ) : null;
+
+  // Мобилка: компактная «Далее →» в нижнем фикс-баре, полный текст в aria-label.
+  const mobileContinueButton = continueHref ? (
+    <Link
+      to={continueHref}
+      className={`btn ${continueVariant} workspace-mobile-continue-btn`}
+      aria-label={continueText}
+      title={continueText}
+      data-passed={exercisePassed ? "true" : "false"}
+    >
+      Далее →
+    </Link>
+  ) : null;
 
   const embeddedActions = continueButton ? (
     <>
@@ -298,9 +314,7 @@ export const ExerciseRunner = ({
   return (
     <div className={`exercise-runner${embedded ? " exercise-runner--embedded" : ""}`}>
       {!embedded ? (
-        <div
-          className={`exercise-toolbar${continueButton ? " exercise-toolbar--continue" : ""}`}
-        >
+        <div className="exercise-toolbar">
           <Link to="/tasks" className="back-link">
             <span aria-hidden>←</span>
             Каталог
@@ -325,7 +339,6 @@ export const ExerciseRunner = ({
             </span>
           )}
 
-          {actionButton}
           {continueButton}
         </div>
       ) : null}
@@ -351,6 +364,8 @@ export const ExerciseRunner = ({
           onRunTests={isStub ? undefined : () => void handleCheck()}
           onResetFiles={handleResetFiles}
           headerActions={embedded ? embeddedActions : undefined}
+          briefActions={embedded ? undefined : actionButton}
+          mobileExtra={embedded ? undefined : mobileContinueButton}
           embedded={embedded}
           isStub={isStub}
           selfCheckDone={selfCheckDone}

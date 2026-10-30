@@ -89,7 +89,12 @@ const runTests = async () => {
   await screen.findByRole("button", { name: /RUN TESTS/ });
 };
 
-describe("ExercisePage — «Далее» после PASS", () => {
+const toolbarContinue = () =>
+  document.querySelector<HTMLAnchorElement>(".exercise-toolbar .exercise-continue-btn");
+const mobileContinue = () =>
+  document.querySelector<HTMLAnchorElement>(".workspace-mobile-bar .workspace-mobile-continue-btn");
+
+describe("ExercisePage — «Далее» и раскладка кнопок", () => {
   beforeEach(() => {
     localStorage.clear();
     api.fetchExercise.mockReset();
@@ -99,30 +104,62 @@ describe("ExercisePage — «Далее» после PASS", () => {
     api.fetchExercise.mockImplementation(async (slug: string) => exercise(slug));
   });
 
-  it("до запуска тестов кнопки нет", async () => {
+  it("RUN TESTS стоит над панелью BRIEF, а не в шапке", async () => {
     renderPage("ex-first");
-    await screen.findByRole("button", { name: /RUN TESTS/ });
-    expect(screen.queryByRole("link", { name: /Далее/ })).toBeNull();
+    const run = await screen.findByRole("button", { name: /RUN TESTS/ });
+    expect(run.closest(".exercise-toolbar")).toBeNull();
+    const actions = run.closest(".readme-panel-actions--top");
+    expect(actions).not.toBeNull();
+    // блок действий идёт раньше заголовка BRIEF и условия
+    const panel = actions!.closest(".readme-panel")!;
+    expect(panel.firstElementChild?.nextElementSibling).toBe(actions);
   });
 
-  it("после PASS показывает ссылку на следующий урок рядом с RUN TESTS", async () => {
+  it("до PASS «Далее» уже видна: серая, но ведёт на следующий урок", async () => {
+    renderPage("ex-first");
+    await screen.findByRole("button", { name: /RUN TESTS/ });
+    const link = await vi.waitFor(() => {
+      const el = toolbarContinue();
+      expect(el).not.toBeNull();
+      return el!;
+    });
+    expect(link.textContent).toBe("Далее: Блочная модель →");
+    expect(link.getAttribute("href")).toBe("/learn/m/t/2/theory");
+    expect(link.className).toContain("btn-secondary");
+    expect(link.className).not.toContain("btn-primary");
+  });
+
+  it("после PASS «Далее» становится primary", async () => {
     api.checkExercise.mockResolvedValue(checkResult(true));
     renderPage("ex-first");
     await runTests();
 
-    const link = await screen.findByRole("link", { name: "Далее: Блочная модель →" });
-    expect(link.getAttribute("href")).toBe("/learn/m/t/2/theory");
-    expect(link.className).toContain("btn-primary");
-    expect(link.closest(".exercise-toolbar")).not.toBeNull();
+    await vi.waitFor(() => expect(toolbarContinue()?.className).toContain("btn-primary"));
+    expect(toolbarContinue()!.getAttribute("href")).toBe("/learn/m/t/2/theory");
+    expect(mobileContinue()!.className).toContain("btn-primary");
     expect(document.querySelector(".modal, [role='dialog']")).toBeNull();
   });
 
-  it("после FAIL кнопки нет", async () => {
+  it("после FAIL «Далее» остаётся secondary", async () => {
     api.checkExercise.mockResolvedValue(checkResult(false));
     renderPage("ex-first");
     await runTests();
     await vi.waitFor(() => expect(api.checkExercise).toHaveBeenCalledTimes(1));
-    expect(screen.queryByRole("link", { name: /Далее/ })).toBeNull();
+    expect(toolbarContinue()!.className).toContain("btn-secondary");
+    expect(mobileContinue()!.className).toContain("btn-secondary");
+  });
+
+  it("мобилка: компактная «Далее →» в нижнем фикс-баре, полный текст в aria-label", async () => {
+    renderPage("ex-first");
+    await screen.findByRole("button", { name: /RUN TESTS/ });
+    const link = await vi.waitFor(() => {
+      const el = mobileContinue();
+      expect(el).not.toBeNull();
+      return el!;
+    });
+    expect(link.textContent).toBe("Далее →");
+    expect(link.getAttribute("aria-label")).toBe("Далее: Блочная модель →");
+    expect(link.getAttribute("href")).toBe("/learn/m/t/2/theory");
   });
 
   it("у последнего урока следующего шага нет — кнопки нет и после PASS", async () => {
@@ -150,14 +187,16 @@ describe("ExercisePage — «Далее» после PASS", () => {
     expect(screen.queryByRole("link", { name: /Далее/ })).toBeNull();
   });
 
-  it("задание без автопроверки: кнопка появляется после «Я справился»", async () => {
+  it("задание без автопроверки: «Я справился» над BRIEF, «Далее» золотеет после клика", async () => {
     api.fetchExercise.mockImplementation(async (slug: string) => exercise(slug, "stub"));
     renderPage("ex-first");
-    // «Я справился» есть и в тулбаре, и в панели вывода — жмём тулбарную.
+    // «Я справился» есть и над BRIEF, и в панели вывода — жмём верхнюю.
     const [selfCheck] = await screen.findAllByRole("button", { name: /Я СПРАВИЛСЯ/ });
+    expect(selfCheck!.closest(".readme-panel-actions--top")).not.toBeNull();
+    await vi.waitFor(() => expect(toolbarContinue()?.className).toContain("btn-secondary"));
     fireEvent.click(selfCheck!);
 
-    const link = await screen.findByRole("link", { name: "Далее: Блочная модель →" });
-    expect(link.getAttribute("href")).toBe("/learn/m/t/2/theory");
+    await vi.waitFor(() => expect(toolbarContinue()?.className).toContain("btn-primary"));
+    expect(toolbarContinue()!.getAttribute("href")).toBe("/learn/m/t/2/theory");
   });
 });

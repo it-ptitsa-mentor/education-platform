@@ -44,6 +44,13 @@ type ExerciseWorkspaceProps = {
   mobilePrevHref?: string | null;
   /** Mobile fixed-bar nav: URL of next lesson/unit. */
   mobileNextHref?: string | null;
+  /**
+   * Действия над панелью BRIEF (десктоп). Standalone-страница кладёт сюда
+   * RUN TESTS / «Я справился». На мобилке скрыто — там нижний фикс-бар.
+   */
+  briefActions?: ReactNode;
+  /** Компактная кнопка в нижнем фикс-баре мобилки (напр. «Далее»). */
+  mobileExtra?: ReactNode;
 };
 
 export const ExerciseWorkspace = ({
@@ -64,6 +71,8 @@ export const ExerciseWorkspace = ({
   checking = false,
   mobilePrevHref,
   mobileNextHref,
+  briefActions,
+  mobileExtra,
 }: ExerciseWorkspaceProps) => {
   const { layout, setReadmeWidth, setOutputHeight } = usePanelLayout();
   const { theme } = useTheme();
@@ -278,6 +287,11 @@ export const ExerciseWorkspace = ({
       {/* ── Brief / README panel ── */}
       <aside className="readme-panel panel glass-panel">
         <div className="panel-corners" aria-hidden />
+        {briefActions ? (
+          <div className="readme-panel-actions readme-panel-actions--top">
+            {briefActions}
+          </div>
+        ) : null}
         <div className="panel-head readme-panel-head">
           <div className="panel-title-group">
             <span className="panel-kicker">01 · BRIEF</span>
@@ -570,6 +584,8 @@ export const ExerciseWorkspace = ({
             </span>
           )}
         </div>
+
+        {mobileExtra ? <div className="workspace-mobile-extra">{mobileExtra}</div> : null}
 
         {/* Right: main action button */}
         <div className="workspace-mobile-action">

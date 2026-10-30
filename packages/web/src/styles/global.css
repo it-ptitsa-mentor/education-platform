@@ -1366,8 +1366,10 @@ body.is-resizing-vertical {
   text-overflow: ellipsis;
 }
 
-/* «Далее» после PASS на standalone-странице упражнения: рядом с RUN TESTS */
+/* «Далее» на standalone-странице упражнения: справа в тулбаре. До PASS —
+   btn-secondary (серая, но кликабельная), после PASS — btn-primary. */
 .exercise-toolbar .exercise-continue-btn {
+  margin-left: auto;
   flex-shrink: 1;
   min-width: 0;
   max-width: 45%;
@@ -2944,6 +2946,13 @@ body.is-resizing-vertical {
   flex: 1;
   justify-content: center;
 }
+/* Standalone: RUN TESTS / «Я справился» слева над панелью BRIEF */
+.readme-panel-actions--top {
+  padding: 0.65rem 0.85rem;
+}
+.readme-panel-actions--top .check-btn {
+  flex: 0 0 auto;
+}
 .panel-head-trail {
   display: flex;
   align-items: center;
@@ -4065,21 +4074,56 @@ body.is-resizing-vertical {
     padding: 0.5rem 0.75rem;
   }
 
-  /* «Далее» после PASS: отдельной строкой во всю ширину под заголовком */
-  .exercise-toolbar--continue {
-    flex-wrap: wrap;
+  /* «Далее» на мобилке живёт в нижнем фикс-баре, из тулбара убираем */
+  .exercise-toolbar .exercise-continue-btn {
+    display: none;
   }
 
-  .exercise-toolbar--continue .exercise-toolbar-title {
-    order: 0;
-    width: auto;
+  .workspace-mobile-extra {
+    flex: 0 0 auto;
+    display: flex;
   }
 
-  .exercise-toolbar--continue .exercise-continue-btn {
-    order: 4;
-    width: 100%;
-    max-width: 100%;
-    min-height: 44px;
+  .workspace-mobile-continue-btn {
+    height: 36px;
+    padding: 0 0.6rem;
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .workspace-mobile-continue-btn:hover {
+    transform: none;
+  }
+
+  /* С «Далее» в баре три группы — ужимаем зазоры, чтобы влезть в 360px */
+  .workspace-mobile-bar:has(.workspace-mobile-extra) {
+    gap: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .workspace-mobile-bar:has(.workspace-mobile-extra) .workspace-mobile-action {
+    min-width: 0;
+  }
+
+  .workspace-mobile-bar:has(.workspace-mobile-extra) .workspace-mobile-run-btn {
+    padding: 0 0.75rem !important;
+  }
+
+  /* Галочка не влезает рядом с «Далее» и сплющивается в точку — прячем её,
+     спиннер во время прогона оставляем. */
+  .workspace-mobile-bar:has(.workspace-mobile-extra)
+    .workspace-mobile-run-btn
+    .check-btn-icon:not(:has(.spinner)) {
+    display: none;
+  }
+}
+
+/* ≤374px: «Я СПРАВИЛСЯ» рядом с «Далее» не влезает — чуть мельче шрифт */
+@media (max-width: 374px) {
+  .workspace-mobile-bar:has(.workspace-mobile-extra) .workspace-mobile-run-btn {
+    font-size: 0.72rem !important;
+    padding: 0 0.6rem !important;
   }
 
   /* ── Panel kicker: hide decorative labels on tiny screens ── */
