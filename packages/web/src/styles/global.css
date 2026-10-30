@@ -3182,12 +3182,10 @@ body.is-resizing-vertical {
 /* Узкий сайдбар (14rem): карточки в колонку, «Следующий» под «Предыдущим». */
 .lesson-aside-step-nav { margin-top: 1rem; }
 .lesson-aside-step-nav .lesson-end-nav-cards { grid-template-columns: 1fr; gap: 0.6rem; }
-.lesson-aside-step-nav .lesson-end-nav-card { padding: 0.75rem 0.85rem; gap: 0.25rem; }
-/* Одна высота у «Предыдущий»/«Следующий», даже если hint (тип шага) есть только у одной.
-   min-height — нижняя планка; 1fr-строки тянут обе карточки до самой высокой
-   (3 строки «метка + название + шаг» выше 5rem, длинное название — ещё выше). */
+.lesson-aside-step-nav .lesson-end-nav-card { padding: 0.5rem 0.75rem; gap: 0.25rem; }
+/* Одна высота у «Предыдущий»/«Следующий», даже если hint (тип шага) есть только у одной:
+   1fr-строки тянут обе карточки до высоты самой высокой. */
 .lesson-aside-step-nav .lesson-end-nav-cards { grid-auto-rows: 1fr; }
-.lesson-aside-step-nav .lesson-end-nav-card { min-height: 5rem; }
 .lesson-aside-step-nav .lesson-end-nav-card--next { grid-column: 1; text-align: left; }
 .lesson-aside-step-nav .lesson-end-nav-card-title { font-size: var(--text-sm); }
 .lesson-aside-step-nav .lesson-end-nav-card:hover { transform: none; }
