@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import { MemoryRouter } from "react-router-dom";
+import { MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { TopicLessonsModal } from "../components/TopicLessonsModal";
 import type { Module, Topic } from "../course";
@@ -151,5 +151,44 @@ describe("TopicLessonsModal", () => {
     );
     const activeRow = document.querySelector(".topic-lessons-row.is-active");
     expect(activeRow).toBeInTheDocument();
+  });
+
+  describe("кликабельная строка", () => {
+    const LocationProbe = () => {
+      const { pathname } = useLocation();
+      return <div data-testid="location">{pathname}</div>;
+    };
+
+    const renderRouted = (onClose = vi.fn()) =>
+      render(
+        <MemoryRouter initialEntries={["/start"]}>
+          <Routes>
+            <Route
+              path="*"
+              element={
+                <>
+                  <TopicLessonsModal module={mockModule} topic={mockTopic} onClose={onClose} />
+                  <LocationProbe />
+                </>
+              }
+            />
+          </Routes>
+        </MemoryRouter>,
+      );
+
+    it("клик по ячейке строки (не по ссылке) ведёт на теорию урока и закрывает модалку", () => {
+      const onClose = vi.fn();
+      renderRouted(onClose);
+      const row = screen.getByText("Второй урок").closest("tr")!;
+      fireEvent.click(row.querySelector(".topic-lessons-td--num")!);
+      expect(screen.getByTestId("location")).toHaveTextContent("/learn/html-basics/tags/2/theory");
+      expect(onClose).toHaveBeenCalled();
+    });
+
+    it("клик по точке «Тест» ведёт на квиз, строка не перебивает переход на теорию", () => {
+      renderRouted();
+      fireEvent.click(screen.getByLabelText(/Второй урок: открыть тест/));
+      expect(screen.getByTestId("location")).toHaveTextContent("/learn/html-basics/tags/2/quiz");
+    });
   });
 });

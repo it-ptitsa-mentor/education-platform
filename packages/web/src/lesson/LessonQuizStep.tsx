@@ -19,6 +19,7 @@ export const LessonQuizStep = () => {
         embedded
         onPassed={() => {
           markUnitDone(current.id, "quiz");
+          // «Далее» рисует хедер LessonLayout по isUnitDone — refreshProgress его перерисует.
           refreshProgress();
         }}
       />

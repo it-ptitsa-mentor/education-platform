@@ -1,18 +1,10 @@
-import { Link, Outlet, useLocation } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { brandLogoUrl } from "../lib/brand-assets";
 import { ThemeToggle } from "./ThemeToggle";
 import { useTheme } from "../hooks/useTheme";
 
-const isLearningRoute = (pathname: string) =>
-  pathname === "/" ||
-  pathname.startsWith("/professions/") ||
-  pathname.startsWith("/roadmaps/") ||
-  pathname.startsWith("/learn/");
-
 export const AppShell = () => {
   const { theme, toggleTheme } = useTheme();
-  const { pathname } = useLocation();
-  const learningActive = isLearningRoute(pathname);
 
   return (
     <div className="app-shell">
@@ -33,16 +25,6 @@ export const AppShell = () => {
             <span className="brand-chip">EDU</span>
           </span>
         </Link>
-
-        <nav className="topbar-nav" aria-label="Разделы платформы">
-          <Link
-            to="/"
-            className={`topbar-nav-link${learningActive ? " is-active" : ""}`}
-            aria-current={learningActive ? "page" : undefined}
-          >
-            Обучение
-          </Link>
-        </nav>
 
         <div className="topbar-actions">
           <ThemeToggle theme={theme} onToggle={toggleTheme} />

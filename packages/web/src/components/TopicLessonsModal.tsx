@@ -1,6 +1,6 @@
 import { useId } from "react";
 import { createPortal } from "react-dom";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { isUnitDone, type Module, type Topic } from "../course";
 import { useModalController } from "../hooks/useModalController";
 
@@ -18,6 +18,7 @@ export const TopicLessonsModal = ({
   onClose,
 }: TopicLessonsModalProps) => {
   const titleId = useId();
+  const navigate = useNavigate();
   const panelRef = useModalController<HTMLDivElement>({ onClose });
 
   return createPortal(
@@ -67,6 +68,14 @@ export const TopicLessonsModal = ({
                   <tr
                     key={lesson.index}
                     className={`topic-lessons-row${isActive ? " is-active" : ""}`}
+                    onClick={(event) => {
+                      // Клик по ссылке внутри строки (название, точки «Тест»/«Практика»)
+                      // уже обработан самой ссылкой — не перебиваем её переходом на теорию.
+                      if ((event.target as HTMLElement).closest("a")) return;
+                      navigate(`/learn/${mod.slug}/${topic.slug}/${lesson.index}/theory`);
+                      onClose();
+                    }}
+                    style={{ cursor: "pointer" }}
                   >
                     <td className="topic-lessons-td topic-lessons-td--num">
                       {lesson.index}

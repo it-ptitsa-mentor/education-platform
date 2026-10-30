@@ -68,6 +68,10 @@ export const ExerciseWorkspace = ({
   const { layout, setReadmeWidth, setOutputHeight } = usePanelLayout();
   const { theme } = useTheme();
   const editorRef = useRef<Parameters<OnMount>[0] | null>(null);
+  // Monaco action is registered once on mount — read the latest callback via ref,
+  // otherwise Ctrl+Enter would run tests against stale `files`.
+  const onRunTestsRef = useRef(onRunTests);
+  onRunTestsRef.current = onRunTests;
   const monacoRef = useRef<Parameters<OnMount>[1] | null>(null);
   const jsxCleanupRef = useRef<(() => void) | null>(null);
 
@@ -124,7 +128,11 @@ export const ExerciseWorkspace = ({
     editorRef.current = editor;
     monacoRef.current = monaco;
     if (onRunTests) {
-      registerEditorHotkeys({ editor, monaco, onRunTests });
+      registerEditorHotkeys({
+        editor,
+        monaco,
+        onRunTests: () => onRunTestsRef.current?.(),
+      });
     }
     jsxCleanupRef.current?.();
     jsxCleanupRef.current = bindJsxSyntaxHighlight(monaco, editor, activeFile);
