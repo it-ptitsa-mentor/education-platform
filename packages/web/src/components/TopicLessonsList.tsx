@@ -41,6 +41,7 @@ export const TopicLessonsList = ({ module: mod, topic, activeLessonId, onNavigat
                       <Link
                         to={`/learn/${mod.slug}/${topic.slug}/${lesson.index}/theory`}
                         className="topic-lessons-link"
+                        title={lesson.title}
                         onClick={onNavigate}
                       >
                         {lesson.title}

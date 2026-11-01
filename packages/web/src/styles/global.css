@@ -4169,6 +4169,16 @@ body.is-resizing-vertical {
 .lesson-aside-lessons .topic-lessons-th--unit { width: 3.7rem; }
 .lesson-aside-lessons .is-active .topic-lessons-link { color: var(--accent); }
 @media (min-width: 901px) {
-  .lesson-layout:not(.lesson-layout--focus) { grid-template-columns: 21rem minmax(0, 1fr); }
+  .lesson-layout:not(.lesson-layout--focus) { grid-template-columns: 240px minmax(0, 1fr); }
 }
 .lesson-aside-lessons .topic-lessons-th--unit { width: 3.4rem; }
+
+/* Compact lesson navigation; keep the shared topic list unchanged elsewhere. */
+.lesson-aside-lessons .topic-lessons-table thead,
+.lesson-aside-lessons .topic-lessons-td--num { display: none; }
+.lesson-aside-lessons .topic-lessons-td { overflow-wrap: normal; }
+.lesson-aside-lessons .topic-lessons-td--unit { width: 20px; padding-inline: 0; }
+.lesson-aside-lessons .topic-lessons-dot-link { width: 20px; min-width: 0; }
+.lesson-aside-lessons .topic-lessons-link { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lesson-aside-step-links { flex-direction: column; }
+.lesson-aside-step-links .btn { width: 100%; box-sizing: border-box; text-align: center; }
