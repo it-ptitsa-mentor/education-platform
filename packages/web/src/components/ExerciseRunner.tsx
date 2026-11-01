@@ -278,26 +278,15 @@ export const ExerciseRunner = ({
   const continueText = continueLabel ? `Далее: ${continueLabel} →` : "Далее →";
   const continueVariant = exercisePassed ? "btn-primary" : "btn-secondary";
   const continueButton = continueHref ? (
-    embedded ? (
-      <Link
-        to={continueHref}
-        className={`btn ${continueVariant} exercise-continue-btn`}
-        title={continueText}
-        aria-label={continueText}
-        data-passed={exercisePassed ? "true" : "false"}
-      >
-        <span className="exercise-continue-btn-label">Далее →</span>
-      </Link>
-    ) : (
-      <Link
-        to={continueHref}
-        className="inline-link exercise-continue-btn"
-        title={continueText}
-        data-passed={exercisePassed ? "true" : "false"}
-      >
-        Далее →
-      </Link>
-    )
+    <Link
+      to={continueHref}
+      className={`btn ${continueVariant} exercise-continue-btn`}
+      title={continueText}
+      aria-label={continueText}
+      data-passed={exercisePassed ? "true" : "false"}
+    >
+      <span className="exercise-continue-btn-label">Далее →</span>
+    </Link>
   ) : null;
 
   // Мобилка: компактная «Далее →» в нижнем фикс-баре, полный текст в aria-label.
