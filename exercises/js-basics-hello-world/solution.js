@@ -1,1 +1,1 @@
-console.log('Hello, World!')
+// Напишите ваш код здесь

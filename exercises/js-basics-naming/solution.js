@@ -1,2 +1,1 @@
-const king = 'King Balon the 6th'
-console.log(king + ' has ' + (6 * 17) + ' rooms.')
+// Объявите переменную king и выведите нужную фразу через console.log
