@@ -33,6 +33,7 @@ type StaticExercise = {
   expectedClasses?: readonly string[];
   /** Pilot: CSS selectors required in student's CSS (delta solution–starter). */
   expectedSelectors?: readonly string[];
+  referenceFiles?: Record<string, string>;
   files: Record<string, string>;
 };
 
@@ -84,6 +85,7 @@ export const staticFetchExercise = async (slug: string): Promise<ExerciseDetail>
     solutionFiles: exercise.solutionFiles
       ? { ...exercise.solutionFiles }
       : undefined,
+    referenceFiles: { ...exercise.referenceFiles },
     files: { ...exercise.files },
   };
 };

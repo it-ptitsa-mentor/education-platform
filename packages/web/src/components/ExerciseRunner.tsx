@@ -355,6 +355,7 @@ export const ExerciseRunner = ({
         <ExerciseWorkspace
           exercise={exercise}
           files={files}
+          referenceFiles={exercise.referenceFiles}
           activeFile={activeFile}
           onActiveFileChange={setActiveFile}
           onFileChange={handleFileChange}

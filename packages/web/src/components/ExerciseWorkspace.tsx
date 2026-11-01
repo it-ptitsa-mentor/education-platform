@@ -24,6 +24,7 @@ type MobileTab = "brief" | "code" | "output";
 type ExerciseWorkspaceProps = {
   exercise: ExerciseDetail;
   files: Record<string, string>;
+  referenceFiles?: Record<string, string>;
   activeFile: string;
   onActiveFileChange: (filePath: string) => void;
   onFileChange: (filePath: string, content: string) => void;
@@ -56,6 +57,7 @@ type ExerciseWorkspaceProps = {
 export const ExerciseWorkspace = ({
   exercise,
   files,
+  referenceFiles = {},
   activeFile,
   onActiveFileChange,
   onFileChange,
@@ -105,18 +107,20 @@ export const ExerciseWorkspace = ({
   }, [result]);
 
   const inSolutionView = isSolutionTab(activeFile);
+  const inReferenceView = !inSolutionView && Object.hasOwn(referenceFiles, activeFile);
+  const readOnly = inSolutionView || inReferenceView;
   const starterFile = inSolutionView ? activeFile.slice(SOL_PREFIX.length) : activeFile;
   const editorPath = `${exercise.slug}/${activeFile}`;
   const editorValue = inSolutionView
     ? (solutionFiles?.[starterFile] ?? "")
-    : (files[activeFile] ?? "");
+    : (inReferenceView ? referenceFiles[activeFile] : files[activeFile]) ?? "";
 
   const selectFile = useCallback(
     (nextFile: string) => {
       if (nextFile === activeFile) return;
 
       // Persist current starter-file content before switching
-      if (!inSolutionView) {
+      if (!readOnly) {
         const editor = editorRef.current;
         const model = editor?.getModel();
         if (model) {
@@ -126,7 +130,7 @@ export const ExerciseWorkspace = ({
 
       onActiveFileChange(nextFile);
     },
-    [activeFile, inSolutionView, onActiveFileChange, onFileChange],
+    [activeFile, readOnly, onActiveFileChange, onFileChange],
   );
 
   const handleBeforeMount: BeforeMount = (monaco) => {
@@ -172,6 +176,12 @@ export const ExerciseWorkspace = ({
       return () => clearTimeout(timer);
     }
   }, [mobileTab]);
+
+  const visibleFiles = [...new Set([
+    ...exercise.filesToOpen,
+    ...Object.keys(files),
+    ...Object.keys(referenceFiles),
+  ])];
 
   const readmeColumn = `${layout.readmeWidth}px`;
 
@@ -325,8 +335,8 @@ export const ExerciseWorkspace = ({
           <div className="panel-corners" aria-hidden />
           <div className="panel-head editor-head">
             <div className="tabs" role="tablist" aria-label="Файлы задачи">
-              {/* Starter file tabs */}
-              {exercise.filesToOpen.map((file) => (
+              {/* Student and supporting file tabs */}
+              {visibleFiles.map((file) => (
                 <button
                   key={file}
                   type="button"
@@ -336,7 +346,10 @@ export const ExerciseWorkspace = ({
                   onClick={() => selectFile(file)}
                 >
                   <span className="tab-dot" aria-hidden />
-                  {file}
+                  {file}{" "}
+                  {Object.hasOwn(referenceFiles, file) && (
+                    <span className="tab-solution-badge">read-only</span>
+                  )}
                 </button>
               ))}
               {/* Solution tabs — revealed only after «Я справился» */}
@@ -381,8 +394,12 @@ export const ExerciseWorkspace = ({
               beforeMount={handleBeforeMount}
               onMount={handleEditorMount}
               onChange={(value) => {
-                // Never write back when viewing a read-only solution tab
-                if (!inSolutionView) {
+                // Read-only sources never enter student drafts or test submissions.
+                const model = editorRef.current?.getModel();
+                // Monaco may fire onChange while swapping models, before the
+                // React wrapper updates its callback. Ignore the old tab's callback.
+                if (model && model.uri.path !== `/${editorPath}`) return;
+                if (!readOnly) {
                   onFileChange(activeFile, value ?? "");
                 }
               }}
@@ -403,7 +420,7 @@ export const ExerciseWorkspace = ({
                 bracketPairColorization: { enabled: true },
                 overviewRulerBorder: false,
                 hideCursorInOverviewRuler: true,
-                readOnly: inSolutionView,
+                readOnly,
               }}
             />
           </div>

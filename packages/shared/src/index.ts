@@ -43,3 +43,5 @@ export {
   resolveExerciseTestKind,
   type ExerciseTestKind,
 } from "./exercise-test-generator.js";
+
+export { readReferenceFiles } from "./exercise-reference-files.js";

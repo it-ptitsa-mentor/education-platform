@@ -54,6 +54,17 @@ describe("exercise API", () => {
     expect(body.files["solution.js"]).toContain("console.log");
   });
 
+  it("returns supporting files without exposing tests, copies or answers", async () => {
+    const response = await app.inject({ method: "GET", url: "/api/exercises/js-redux-toolkit-redux" });
+    expect(response.statusCode).toBe(200);
+    const body = response.json();
+    expect(Object.keys(body.referenceFiles)).toEqual(["actions.js"]);
+    expect(body.referenceFiles["actions.js"]).toBe(await readFile(path.join(repoRoot, "exercises/js-redux-toolkit-redux/actions.js"), "utf8"));
+    expect(Object.keys(body.files)).toEqual(["store.js"]);
+    const simple = await app.inject({ method: "GET", url: "/api/exercises/js-basics-hello-world" });
+    expect(simple.json().referenceFiles).toEqual({});
+  });
+
   it("checks student solution against vitest", async () => {
     const response = await app.inject({
       method: "POST",

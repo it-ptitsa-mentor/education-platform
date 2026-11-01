@@ -1,3 +1,4 @@
+import { readReferenceFiles } from "../packages/shared/src/exercise-reference-files.ts";
 import { mkdir, readdir, readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -231,6 +232,10 @@ const loaded = await Promise.all(
           ...(structuralHints.expectedDeclarations !== undefined && {
             expectedDeclarations: structuralHints.expectedDeclarations,
           }),
+          referenceFiles: await readReferenceFiles(
+            path.join(exercisesRoot, entry.name),
+            manifest.studentFiles,
+          ),
           files,
         },
       };

@@ -5,6 +5,7 @@ import Fastify, { type FastifyInstance } from "fastify";
 import { runExerciseCheck, readStarterFiles } from "@ptitsa/runner";
 import { readCookie, type Resolver } from "./auth.js";
 import {
+  readReferenceFiles,
   checkQuizAnswers,
   loadExerciseManifest,
   loadQuizManifest,
@@ -104,6 +105,10 @@ export const buildApp = ({ exercisesRoot, quizzesRoot, auth }: AppOptions): Fast
           language: manifest.language,
           filesToOpen: manifest.filesToOpen,
           readme: manifest.readme,
+          referenceFiles: await readReferenceFiles(
+            path.join(exercisesRoot, slug),
+            manifest.studentFiles,
+          ),
           files,
         };
       } catch {

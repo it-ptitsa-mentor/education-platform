@@ -20,6 +20,7 @@ export type ExerciseDetail = {
   testClass?: ExerciseTestClass;
   /** Solution files — revealed only after "Я справился" for stub exercises. */
   solutionFiles?: Record<string, string>;
+  referenceFiles?: Record<string, string>;
   files: Record<string, string>;
 };
 
