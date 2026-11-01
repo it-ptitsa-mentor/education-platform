@@ -115,7 +115,7 @@ describe("ExercisePage — «Далее» и раскладка кнопок", (
     expect(panel.firstElementChild?.nextElementSibling).toBe(actions);
   });
 
-  it("до PASS «Далее» уже видна: серая, но ведёт на следующий урок", async () => {
+  it("до PASS «Далее» уже видна: ведёт на следующий урок", async () => {
     renderPage("ex-first");
     await screen.findByRole("button", { name: /RUN TESTS/ });
     const link = await vi.waitFor(() => {
@@ -123,29 +123,31 @@ describe("ExercisePage — «Далее» и раскладка кнопок", (
       expect(el).not.toBeNull();
       return el!;
     });
-    expect(link.textContent).toBe("Далее: Блочная модель →");
+    expect(link.textContent).toBe("Далее →");
     expect(link.getAttribute("href")).toBe("/learn/m/t/2/theory");
-    expect(link.className).toContain("btn-secondary");
-    expect(link.className).not.toContain("btn-primary");
+    expect(link.className).toContain("inline-link");
+    expect(link.getAttribute("data-passed")).toBe("false");
   });
 
-  it("после PASS «Далее» становится primary", async () => {
+  it("после PASS «Далее» data-passed=true", async () => {
     api.checkExercise.mockResolvedValue(checkResult(true));
     renderPage("ex-first");
     await runTests();
 
-    await vi.waitFor(() => expect(toolbarContinue()?.className).toContain("btn-primary"));
+    await vi.waitFor(() =>
+      expect(toolbarContinue()?.getAttribute("data-passed")).toBe("true"),
+    );
     expect(toolbarContinue()!.getAttribute("href")).toBe("/learn/m/t/2/theory");
     expect(mobileContinue()!.className).toContain("btn-primary");
     expect(document.querySelector(".modal, [role='dialog']")).toBeNull();
   });
 
-  it("после FAIL «Далее» остаётся secondary", async () => {
+  it("после FAIL «Далее» data-passed=false", async () => {
     api.checkExercise.mockResolvedValue(checkResult(false));
     renderPage("ex-first");
     await runTests();
     await vi.waitFor(() => expect(api.checkExercise).toHaveBeenCalledTimes(1));
-    expect(toolbarContinue()!.className).toContain("btn-secondary");
+    expect(toolbarContinue()!.getAttribute("data-passed")).toBe("false");
     expect(mobileContinue()!.className).toContain("btn-secondary");
   });
 
@@ -193,10 +195,14 @@ describe("ExercisePage — «Далее» и раскладка кнопок", (
     // «Я справился» есть и над BRIEF, и в панели вывода — жмём верхнюю.
     const [selfCheck] = await screen.findAllByRole("button", { name: /Я СПРАВИЛСЯ/ });
     expect(selfCheck!.closest(".readme-panel-actions--top")).not.toBeNull();
-    await vi.waitFor(() => expect(toolbarContinue()?.className).toContain("btn-secondary"));
+    await vi.waitFor(() =>
+      expect(toolbarContinue()?.getAttribute("data-passed")).toBe("false"),
+    );
     fireEvent.click(selfCheck!);
 
-    await vi.waitFor(() => expect(toolbarContinue()?.className).toContain("btn-primary"));
+    await vi.waitFor(() =>
+      expect(toolbarContinue()?.getAttribute("data-passed")).toBe("true"),
+    );
     expect(toolbarContinue()!.getAttribute("href")).toBe("/learn/m/t/2/theory");
   });
 });
