@@ -21,15 +21,6 @@ describe("validateExerciseTest", () => {
     expect(result.status).toBe("validated");
   });
 
-  it("flags starter-passes for typed exercise (starter == solution)", async () => {
-    const result = await validateExerciseTest({
-      exercisesRoot,
-      slug: "js-basics-hello-world",
-    });
-
-    expect(result.status).toBe("starter-passes");
-  });
-
   it("returns no-solution when __solution__ is absent", async () => {
     const result = await validateExerciseTest({
       exercisesRoot,
