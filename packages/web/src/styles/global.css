@@ -4159,3 +4159,15 @@ body.is-resizing-vertical {
 .auth-btn:hover {
   background: var(--gold-soft, #f0c98a);
 }
+
+.lesson-aside-lessons { max-height: 55vh; overflow-y: auto; min-width: 0; }
+.lesson-aside-lessons .topic-lessons-table { width: 100%; table-layout: fixed; }
+.lesson-aside-lessons .topic-lessons-th,
+.lesson-aside-lessons .topic-lessons-td { padding: 0.5rem 0.2rem; font-size: 0.72rem; overflow-wrap: anywhere; }
+.lesson-aside-lessons .topic-lessons-th--num { width: 1.4rem; }
+.lesson-aside-lessons .topic-lessons-th--unit { width: 3.7rem; }
+.lesson-aside-lessons .is-active .topic-lessons-link { color: var(--accent); }
+@media (min-width: 901px) {
+  .lesson-layout:not(.lesson-layout--focus) { grid-template-columns: 21rem minmax(0, 1fr); }
+}
+.lesson-aside-lessons .topic-lessons-th--unit { width: 3.4rem; }

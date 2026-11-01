@@ -1,6 +1,5 @@
-import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { TopicLessonsModal } from "../components/TopicLessonsModal";
+import { TopicLessonsList } from "../components/TopicLessonsList";
 import {
   activeUnitFromPath,
   lessonFooterNext,
@@ -31,7 +30,6 @@ export const LessonCourseSidebar = () => {
   const { module, topic, current, allLessons, progressVersion } = useLesson();
   void progressVersion;
   const { pathname } = useLocation();
-  const [navigatorOpen, setNavigatorOpen] = useState(false);
 
   // Шаг назад / вперёд по цепочке theory → quiz → exercise → следующий урок.
   const activeUnit = activeUnitFromPath(pathname);
@@ -42,14 +40,9 @@ export const LessonCourseSidebar = () => {
     <aside className="lesson-aside" aria-label="Уроки темы">
       <p className="lesson-aside-module">{module.title}</p>
       <p className="lesson-aside-topic-label">{topic.title}</p>
-      <button
-        type="button"
-        className="lesson-aside-topic-nav-btn"
-        onClick={() => setNavigatorOpen(true)}
-        aria-haspopup="dialog"
-      >
-        <span aria-hidden="true">☰</span> Навигация по теме
-      </button>
+      <nav className="lesson-aside-lessons" aria-label="Список уроков темы">
+        <TopicLessonsList module={module} topic={topic} activeLessonId={current.id} />
+      </nav>
 
       {(prevLink || nextLink) && (
         <nav className="lesson-aside-step-nav" aria-label="Навигация по уроку">
@@ -60,14 +53,7 @@ export const LessonCourseSidebar = () => {
         </nav>
       )}
 
-      {navigatorOpen && (
-        <TopicLessonsModal
-          module={module}
-          topic={topic}
-          activeLessonId={current.id}
-          onClose={() => setNavigatorOpen(false)}
-        />
-      )}
+
     </aside>
   );
 };

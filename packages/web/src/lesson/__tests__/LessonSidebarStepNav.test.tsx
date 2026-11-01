@@ -90,10 +90,10 @@ const hrefOf = (label: string) =>
   screen.getByText(label).closest("a")?.getAttribute("href");
 
 describe("LessonCourseSidebar — карточки ← → по шагам урока", () => {
-  it("карточки живут в сайдбаре рядом с кнопкой «Навигация по теме»", () => {
+  it("карточки живут в сайдбаре рядом со списком уроков", () => {
     renderNav(ref2, ref1, ref3);
     const aside = screen.getByRole("complementary");
-    expect(within(aside).getByRole("button", { name: /Навигация по теме/i })).toBeInTheDocument();
+    expect(within(aside).getByRole("navigation", { name: "Список уроков темы" })).toBeInTheDocument();
     expect(within(aside).getByRole("navigation", { name: "Навигация по уроку" })).toBeInTheDocument();
   });
 
@@ -105,7 +105,7 @@ describe("LessonCourseSidebar — карточки ← → по шагам ур�
   it("теория урока с квизом: «Следующий» ведёт на квиз этого урока, а не на следующий урок", () => {
     renderNav(ref2, ref1, ref3);
     expect(hrefOf("Следующий →")).toBe("/learn/html/intro/2/quiz");
-    expect(screen.queryByText("Урок третий")).not.toBeInTheDocument();
+    expect(within(screen.getByRole("navigation", { name: "Навигация по уроку" })).queryByText("Урок третий")).not.toBeInTheDocument();
   });
 
   it("квиз: «Следующий» ведёт на практику, «Предыдущий» — на теорию этого урока", () => {
@@ -117,20 +117,20 @@ describe("LessonCourseSidebar — карточки ← → по шагам ур�
   it("практика: «Следующий» ведёт на теорию следующего урока, «Предыдущий» — на квиз", () => {
     renderNav(ref2, ref1, ref3, "exercise");
     expect(hrefOf("Следующий →")).toBe("/learn/html/intro/3/theory");
-    expect(screen.getByText("Урок третий")).toBeInTheDocument();
+    expect(within(screen.getByRole("navigation", { name: "Навигация по уроку" })).getByText("Урок третий")).toBeInTheDocument();
     expect(hrefOf("← Предыдущий")).toBe("/learn/html/intro/2/quiz");
   });
 
   it("урок без квиза и практики: «Следующий» ведёт на теорию следующего урока с его названием", () => {
     renderNav(ref1, null, ref2);
     expect(hrefOf("Следующий →")).toBe("/learn/html/intro/2/theory");
-    expect(screen.getByText("Урок второй")).toBeInTheDocument();
+    expect(within(screen.getByRole("navigation", { name: "Навигация по уроку" })).getByText("Урок второй")).toBeInTheDocument();
   });
 
   it("«Предыдущий» ведёт на последний шаг прошлого урока (практику, если она есть)", () => {
     renderNav(ref3, ref2, null);
     expect(hrefOf("← Предыдущий")).toBe("/learn/html/intro/2/exercise");
-    expect(screen.getByText("Урок второй")).toBeInTheDocument();
+    expect(within(screen.getByRole("navigation", { name: "Навигация по уроку" })).getByText("Урок второй")).toBeInTheDocument();
   });
 
   it("не рендерит карточку «Предыдущий» для первого урока", () => {

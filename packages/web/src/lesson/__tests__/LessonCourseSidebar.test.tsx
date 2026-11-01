@@ -1,4 +1,4 @@
-import { render, screen, fireEvent, within } from "@testing-library/react";
+import { render, screen, within } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { describe, expect, it, vi } from "vitest";
 import { LessonCourseSidebar } from "../LessonCourseSidebar";
@@ -91,44 +91,14 @@ describe("LessonCourseSidebar", () => {
     expect(screen.getByText("Введение")).toBeInTheDocument();
   });
 
-  it("рендерит компактную кнопку «Навигация по теме» вместо постоянного списка уроков", () => {
+  it("показывает уроки и колонки прогресса без модалки", () => {
     renderSidebar();
-    expect(
-      screen.getByRole("button", { name: /Навигация по теме/i })
-    ).toBeInTheDocument();
-    // Постоянного списка уроков (<ul> со всеми уроками темы) в сайдбаре больше нет
-    expect(screen.queryByRole("list")).not.toBeInTheDocument();
-    expect(document.querySelector(".lesson-aside-lessons")).not.toBeInTheDocument();
-  });
-
-  it("открывает TopicLessonsModal при клике на кнопку", () => {
-    renderSidebar();
+    const list = screen.getByRole("navigation", { name: "Список уроков темы" });
+    expect(within(list).getByRole("link", { name: "Основные теги" })).toHaveAttribute("href", "/learn/html/intro/2/theory");
+    expect(within(list).getByText("Тест")).toBeInTheDocument();
+    expect(within(list).getByText("Практика")).toBeInTheDocument();
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
-
-    fireEvent.click(screen.getByRole("button", { name: /Навигация по теме/i }));
-
-    const dialog = screen.getByRole("dialog");
-    expect(dialog).toBeInTheDocument();
-    // В модалке — список уроков темы
-    expect(within(dialog).getByText("Введение в HTML")).toBeInTheDocument();
-    expect(within(dialog).getByText("Основные теги")).toBeInTheDocument();
-  });
-
-  it("закрывает модалку по клику на кнопку закрытия", () => {
-    renderSidebar();
-    fireEvent.click(screen.getByRole("button", { name: /Навигация по теме/i }));
-    expect(screen.getByRole("dialog")).toBeInTheDocument();
-
-    fireEvent.click(screen.getByRole("button", { name: "Закрыть" }));
-    expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
-  });
-
-  it("выделяет активный урок внутри модалки", () => {
-    renderSidebar(lessonRef1.id);
-    fireEvent.click(screen.getByRole("button", { name: /Навигация по теме/i }));
-
-    const activeRow = document.querySelector(".topic-lessons-row.is-active");
-    expect(activeRow).toBeInTheDocument();
-    expect(activeRow).toHaveTextContent("Введение в HTML");
+    expect(screen.queryByRole("button", { name: /Навигация по теме/i })).not.toBeInTheDocument();
+    expect(list.querySelector(".is-active")).toHaveTextContent("Введение в HTML");
   });
 });
