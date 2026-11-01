@@ -343,8 +343,6 @@ export const ExerciseRunner = ({
               без автопроверки
             </span>
           )}
-
-          {continueButton}
         </div>
       ) : null}
 
@@ -369,7 +367,7 @@ export const ExerciseRunner = ({
           onRunTests={isStub ? undefined : () => void handleCheck()}
           onResetFiles={handleResetFiles}
           headerActions={embedded ? embeddedActions : undefined}
-          briefActions={embedded ? undefined : actionButton}
+          briefActions={embedded ? undefined : <>{actionButton}{continueButton}</>}
           mobileExtra={mobileContinueButton}
           embedded={embedded}
           isStub={isStub}

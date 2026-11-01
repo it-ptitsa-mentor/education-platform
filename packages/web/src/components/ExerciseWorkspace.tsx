@@ -375,7 +375,7 @@ export const ExerciseWorkspace = ({
             <Editor
               height="100%"
               path={editorPath}
-              language={editorLanguageForFile(activeFile)}
+              language={editorLanguageForFile(activeFile, exercise.language)}
               theme={monacoThemeId(theme)}
               value={editorValue}
               beforeMount={handleBeforeMount}

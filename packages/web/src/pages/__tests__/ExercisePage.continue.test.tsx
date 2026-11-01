@@ -90,7 +90,7 @@ const runTests = async () => {
 };
 
 const toolbarContinue = () =>
-  document.querySelector<HTMLAnchorElement>(".exercise-toolbar .exercise-continue-btn");
+  document.querySelector<HTMLAnchorElement>(".readme-panel-actions .exercise-continue-btn");
 const mobileContinue = () =>
   document.querySelector<HTMLAnchorElement>(".workspace-mobile-bar .workspace-mobile-continue-btn");
 
