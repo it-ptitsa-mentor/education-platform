@@ -8,21 +8,17 @@ import {
 } from "../lib/lesson-units";
 import { useLesson } from "./lesson-context";
 
-type NavCardProps = {
+type StepLinkProps = {
   direction: "prev" | "next";
   link: LessonNavLink;
 };
 
-const NavCard = ({ direction, link }: NavCardProps) => (
+const StepLink = ({ direction, link }: StepLinkProps) => (
   <Link
     to={link.to}
-    className={`lesson-end-nav-card lesson-end-nav-card--${direction}`}
+    className="btn btn-secondary"
   >
-    <span className="lesson-end-nav-card-label">
-      {direction === "prev" ? "← Предыдущий" : "Следующий →"}
-    </span>
-    <span className="lesson-end-nav-card-title">{link.title}</span>
-    {link.hint && <span className="lesson-end-nav-card-hint">{link.hint}</span>}
+    {direction === "prev" ? "← Назад" : "Далее →"}
   </Link>
 );
 
@@ -46,9 +42,9 @@ export const LessonCourseSidebar = () => {
 
       {(prevLink || nextLink) && (
         <nav className="lesson-aside-step-nav" aria-label="Навигация по уроку">
-          <div className="lesson-end-nav-cards">
-            {prevLink && <NavCard direction="prev" link={prevLink} />}
-            {nextLink && <NavCard direction="next" link={nextLink} />}
+          <div className="lesson-aside-step-links">
+            {prevLink && <StepLink direction="prev" link={prevLink} />}
+            {nextLink && <StepLink direction="next" link={nextLink} />}
           </div>
         </nav>
       )}
