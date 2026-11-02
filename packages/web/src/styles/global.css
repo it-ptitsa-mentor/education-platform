@@ -4166,15 +4166,14 @@ body.is-resizing-vertical {
 
 .lesson-aside-lessons { flex: 1; min-height: 0; overflow-y: auto; scroll-behavior: smooth; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
 .topic-lessons-list { list-style: none; margin: 0; padding: 0; }
-.topic-lessons-item { border-bottom: 1px solid var(--border-subtle, var(--border)); }
+.topic-lessons-item { display: flex; flex-direction: column; border-bottom: 1px solid var(--border-subtle, var(--border)); }
 .topic-lessons-item:last-child { border-bottom: none; }
 .topic-lessons-item:hover { background: var(--accent-dim); }
 .topic-lessons-item.is-active { background: color-mix(in srgb, var(--accent) 10%, transparent); }
-.topic-lessons-row { display: flex; align-items: center; }
-.topic-lessons-link { flex: 1; min-width: 0; padding: 8px 6px 8px 12px; font-size: 13px; line-height: 1.35; color: var(--text); text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.topic-lessons-link { padding: 8px 12px 4px; font-size: 13px; line-height: 1.35; color: var(--text); text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .topic-lessons-link:hover { color: var(--accent); }
 .topic-lessons-item.is-active .topic-lessons-link { color: var(--accent); font-weight: 500; }
-.topic-lessons-indicators { display: flex; gap: 4px; flex-shrink: 0; padding-right: 8px; align-items: center; }
+.topic-lessons-indicators { display: flex; gap: 4px; padding: 0 12px 7px; align-items: center; }
 .tl-unit { display: flex; align-items: center; justify-content: center; width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid var(--text-subtle); font-size: 8px; font-family: var(--font-mono); font-weight: 700; color: var(--text-subtle); text-decoration: none; flex-shrink: 0; transition: border-color 0.15s, color 0.15s, background 0.15s; }
 .tl-unit:hover { border-color: var(--accent); color: var(--accent); }
 .tl-unit--done { border-color: var(--accent); color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }

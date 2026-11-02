@@ -11,38 +11,36 @@ export const TopicLessonsList = ({ module: mod, topic, activeLessonId, onNavigat
         const exDone = lesson.exercise != null ? isUnitDone(id, "exercise") : null;
         return (
           <li key={lesson.index} className={`topic-lessons-item${isActive ? " is-active" : ""}`}>
-            <div className="topic-lessons-row">
-              <Link
-                to={`/learn/${mod.slug}/${topic.slug}/${lesson.index}/theory`}
-                className="topic-lessons-link"
-                title={lesson.title}
-                onClick={onNavigate}
-              >
-                {lesson.title}
-              </Link>
-              {(quizDone !== null || exDone !== null) && (
-                <div className="topic-lessons-indicators">
-                  {quizDone !== null && (
-                    <Link
-                      to={`/learn/${mod.slug}/${topic.slug}/${lesson.index}/quiz`}
-                      className={`tl-unit${quizDone ? " tl-unit--done" : ""}`}
-                      onClick={onNavigate}
-                      title={quizDone ? "Тест пройден" : "Открыть тест"}
-                      aria-label={`${lesson.title}: ${quizDone ? "тест пройден" : "открыть тест"}`}
-                    >Т</Link>
-                  )}
-                  {exDone !== null && (
-                    <Link
-                      to={`/learn/${mod.slug}/${topic.slug}/${lesson.index}/exercise`}
-                      className={`tl-unit${exDone ? " tl-unit--done" : ""}`}
-                      onClick={onNavigate}
-                      title={exDone ? "Практика пройдена" : "Открыть практику"}
-                      aria-label={`${lesson.title}: ${exDone ? "практика пройдена" : "открыть практику"}`}
-                    >П</Link>
-                  )}
-                </div>
-              )}
-            </div>
+            <Link
+              to={`/learn/${mod.slug}/${topic.slug}/${lesson.index}/theory`}
+              className="topic-lessons-link"
+              title={lesson.title}
+              onClick={onNavigate}
+            >
+              {lesson.title}
+            </Link>
+            {(quizDone !== null || exDone !== null) && (
+              <div className="topic-lessons-indicators">
+                {quizDone !== null && (
+                  <Link
+                    to={`/learn/${mod.slug}/${topic.slug}/${lesson.index}/quiz`}
+                    className={`tl-unit${quizDone ? " tl-unit--done" : ""}`}
+                    onClick={onNavigate}
+                    title={quizDone ? "Тест пройден" : "Открыть тест"}
+                    aria-label={`${lesson.title}: ${quizDone ? "тест пройден" : "открыть тест"}`}
+                  >Т</Link>
+                )}
+                {exDone !== null && (
+                  <Link
+                    to={`/learn/${mod.slug}/${topic.slug}/${lesson.index}/exercise`}
+                    className={`tl-unit${exDone ? " tl-unit--done" : ""}`}
+                    onClick={onNavigate}
+                    title={exDone ? "Практика пройдена" : "Открыть практику"}
+                    aria-label={`${lesson.title}: ${exDone ? "практика пройдена" : "открыть практику"}`}
+                  >П</Link>
+                )}
+              </div>
+            )}
           </li>
         );
       })}
