@@ -4161,7 +4161,7 @@ body.is-resizing-vertical {
   background: var(--gold-soft, #f0c98a);
 }
 
-.lesson-aside-lessons { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+.lesson-aside-lessons { flex: 1; min-height: 0; overflow-y: auto; scroll-behavior: smooth; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
 .topic-lessons-list { list-style: none; margin: 0; padding: 0; }
 .topic-lessons-item { border-bottom: 1px solid var(--border-subtle, var(--border)); }
 .topic-lessons-item:last-child { border-bottom: none; }
