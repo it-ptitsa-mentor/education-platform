@@ -11,7 +11,7 @@ export const AppShell = () => {
       <div className="app-grain" aria-hidden />
 
       <header className="topbar">
-        <Link to="/" className="brand brand-link" aria-label="IT Птица — обучение">
+        <Link to="/roadmaps/frontend-bootcamp" className="brand brand-link" aria-label="IT Птица — обучение">
           <img
             className="brand-logo"
             src={brandLogoUrl}

@@ -5,7 +5,6 @@ import { LessonLayout } from "./lesson/LessonLayout";
 import { LessonQuizStep } from "./lesson/LessonQuizStep";
 import { LessonTheoryStep } from "./lesson/LessonTheoryStep";
 import { LessonTopicRedirect } from "./lesson/LessonTopicRedirect";
-import { CourseHomePage } from "./pages/CourseHomePage";
 import { ExercisePage } from "./pages/ExercisePage";
 import { HomePage } from "./pages/HomePage";
 import { ProfessionRoadmapsPage } from "./pages/ProfessionRoadmapsPage";
@@ -27,7 +26,7 @@ const LegacyRoadmapNodeRedirect = () => {
 export const App = () => (
   <Routes>
     <Route element={<AppShell />}>
-      <Route index element={<CourseHomePage />} />
+      <Route index element={<Navigate to="/roadmaps/frontend-bootcamp" replace />} />
       <Route path="professions/:professionId" element={<ProfessionRoadmapsPage />} />
       <Route path="roadmaps" element={<Navigate to="/" replace />} />
       <Route path="roadmaps/:roadmapId" element={<RoadmapPage />} />

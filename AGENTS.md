@@ -171,7 +171,7 @@ python3 scripts/build-course-model.py   # content/theory + exercises + quizzes �
 
 ## 5. UI приложения (`packages/web/src`)
 
-- `App.tsx` — роуты: `/` = курс, `/learn/:m/:t/:i/{theory|quiz|exercise}` = урок
+- `App.tsx` — роуты: `/` → `/roadmaps/frontend-bootcamp`, `/learn/:m/:t/:i/{theory|quiz|exercise}` = урок
   (вложенные шаги), `/tasks`, `/quizzes`, `/exercise/:slug`, `/quiz/:slug`.
 - `course.ts` — модель курса, ленивые загрузчики, прогресс по шагам
   (`readLessonUnits` / `markUnitDone` / `isLessonComplete`).
