@@ -28,7 +28,7 @@ export const TopicLessonsList = ({ module: mod, topic, activeLessonId, onNavigat
                     onClick={onNavigate}
                     title={quizDone ? "Тест пройден" : "Открыть тест"}
                     aria-label={`${lesson.title}: ${quizDone ? "тест пройден" : "открыть тест"}`}
-                  >Т</Link>
+                  >тест</Link>
                 )}
                 {exDone !== null && (
                   <Link
@@ -37,7 +37,7 @@ export const TopicLessonsList = ({ module: mod, topic, activeLessonId, onNavigat
                     onClick={onNavigate}
                     title={exDone ? "Практика пройдена" : "Открыть практику"}
                     aria-label={`${lesson.title}: ${exDone ? "практика пройдена" : "открыть практику"}`}
-                  >П</Link>
+                  >практика</Link>
                 )}
               </div>
             )}
