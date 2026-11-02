@@ -11,13 +11,6 @@
           "subtitle": "16 недель · CLI и JS → Web/DOM → React",
           "status": "active",
           "badge": "16 нед"
-        },
-        {
-          "id": "react-first",
-          "title": "React First",
-          "subtitle": "20 недель · React с первой недели, spiral-подход",
-          "status": "soon",
-          "badge": "Скоро"
         }
       ]
     },
