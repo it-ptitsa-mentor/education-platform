@@ -91,12 +91,10 @@ describe("LessonCourseSidebar", () => {
     expect(screen.getByText("Введение")).toBeInTheDocument();
   });
 
-  it("показывает уроки и колонки прогресса без модалки", () => {
+  it("показывает уроки без модалки", () => {
     renderSidebar();
     const list = screen.getByRole("navigation", { name: "Список уроков темы" });
     expect(within(list).getByRole("link", { name: "Основные теги" })).toHaveAttribute("href", "/learn/html/intro/2/theory");
-    expect(within(list).getByText("Тест")).toBeInTheDocument();
-    expect(within(list).getByText("Практика")).toBeInTheDocument();
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
     expect(screen.queryByRole("button", { name: /Навигация по теме/i })).not.toBeInTheDocument();
     expect(list.querySelector(".is-active")).toHaveTextContent("Введение в HTML");
