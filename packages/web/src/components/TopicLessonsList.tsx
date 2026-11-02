@@ -25,20 +25,20 @@ export const TopicLessonsList = ({ module: mod, topic, activeLessonId, onNavigat
                   {quizDone !== null && (
                     <Link
                       to={`/learn/${mod.slug}/${topic.slug}/${lesson.index}/quiz`}
-                      className={`tl-dot${quizDone ? " tl-dot--done" : ""}`}
+                      className={`tl-unit${quizDone ? " tl-unit--done" : ""}`}
                       onClick={onNavigate}
                       title={quizDone ? "Тест пройден" : "Открыть тест"}
                       aria-label={`${lesson.title}: ${quizDone ? "тест пройден" : "открыть тест"}`}
-                    />
+                    >Т</Link>
                   )}
                   {exDone !== null && (
                     <Link
                       to={`/learn/${mod.slug}/${topic.slug}/${lesson.index}/exercise`}
-                      className={`tl-dot${exDone ? " tl-dot--done" : ""}`}
+                      className={`tl-unit${exDone ? " tl-unit--done" : ""}`}
                       onClick={onNavigate}
                       title={exDone ? "Практика пройдена" : "Открыть практику"}
                       aria-label={`${lesson.title}: ${exDone ? "практика пройдена" : "открыть практику"}`}
-                    />
+                    >П</Link>
                   )}
                 </div>
               )}
