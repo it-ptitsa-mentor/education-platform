@@ -23,14 +23,8 @@ const StepLink = ({ direction, link }: StepLinkProps) => (
 );
 
 export const LessonCourseSidebar = () => {
-  const { module, topic, current, allLessons, progressVersion } = useLesson();
+  const { module, topic, current, progressVersion } = useLesson();
   void progressVersion;
-  const { pathname } = useLocation();
-
-  // Шаг назад / вперёд по цепочке theory → quiz → exercise → следующий урок.
-  const activeUnit = activeUnitFromPath(pathname);
-  const prevLink = lessonFooterPrev(current, allLessons, activeUnit);
-  const nextLink = lessonFooterNext(current, allLessons, activeUnit);
 
   return (
     <aside className="lesson-aside" aria-label="Уроки темы">
@@ -40,16 +34,26 @@ export const LessonCourseSidebar = () => {
         <TopicLessonsList module={module} topic={topic} activeLessonId={current.id} />
       </nav>
 
-      {(prevLink || nextLink) && (
-        <nav className="lesson-aside-step-nav" aria-label="Навигация по уроку">
-          <div className="lesson-aside-step-links">
-            {prevLink && <StepLink direction="prev" link={prevLink} />}
-            {nextLink && <StepLink direction="next" link={nextLink} />}
-          </div>
-        </nav>
-      )}
-
-
+      <LessonStepNavigation />
     </aside>
+  );
+};
+
+export const LessonStepNavigation = ({ mobile = false }: { mobile?: boolean }) => {
+  const { current, allLessons } = useLesson();
+  const { pathname } = useLocation();
+  // Шаг назад / вперёд по цепочке theory → quiz → exercise → следующий урок.
+  const activeUnit = activeUnitFromPath(pathname);
+  const prevLink = lessonFooterPrev(current, allLessons, activeUnit);
+  const nextLink = lessonFooterNext(current, allLessons, activeUnit);
+
+  if (!prevLink && !nextLink) return null;
+  return (
+    <nav className={mobile ? "lesson-mobile-step-nav" : "lesson-aside-step-nav"} aria-label="Навигация по уроку">
+      <div className="lesson-aside-step-links">
+        {prevLink && <StepLink direction="prev" link={prevLink} />}
+        {nextLink && <StepLink direction="next" link={nextLink} />}
+      </div>
+    </nav>
   );
 };

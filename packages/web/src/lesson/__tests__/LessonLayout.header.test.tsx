@@ -35,7 +35,7 @@ vi.mock("../../course", async (importOriginal) => ({
   ...(await importOriginal<typeof import("../../course")>()),
   loadCourse: () => Promise.resolve(course),
 }));
-vi.mock("../LessonCourseSidebar", () => ({ LessonCourseSidebar: () => null }));
+vi.mock("../LessonCourseSidebar", () => ({ LessonCourseSidebar: () => null, LessonStepNavigation: () => null }));
 
 // Шаг-заглушка: «проходит» квиз так же, как LessonQuizStep.
 const QuizStub = () => {

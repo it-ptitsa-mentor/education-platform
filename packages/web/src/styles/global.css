@@ -4182,3 +4182,42 @@ body.is-resizing-vertical {
 }
 .lesson-aside-step-links { flex-direction: column; }
 .lesson-aside-step-links .btn { width: 100%; box-sizing: border-box; text-align: center; }
+
+/* Lesson navigation stays available when the sidebar is closed. */
+.lesson-mobile-step-nav { display: none; }
+@media (max-width: 768px) {
+  .lesson-layout:not(.lesson-layout--focus) {
+    padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px));
+  }
+  .lesson-mobile-step-nav {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    padding: 8px 12px calc(8px + env(safe-area-inset-bottom, 0px));
+    background: var(--panel-head-bg);
+    border-top: 1px solid var(--border);
+  }
+  .lesson-mobile-step-nav .lesson-aside-step-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  .lesson-mobile-step-nav .btn { flex: 1; width: auto; min-height: 44px; }
+  .lesson-aside-step-nav { display: none; }
+  .exercise-runner--embedded .readme-panel-actions .exercise-continue-btn {
+    display: none;
+  }
+  .quiz-page, .quiz-runner, .quiz-stack, .quiz-card, .quiz-card-head,
+  .quiz-options, .quiz-option, .quiz-option-text { min-width: 0; max-width: 100%; }
+  .quiz-stack, .quiz-options { grid-template-columns: minmax(0, 1fr); }
+  .quiz-card { padding: 12px; }
+  .quiz-card-prompt, .quiz-option-text { overflow-wrap: anywhere; }
+  .quiz-option-text { flex: 1; }
+  .quiz-option input { flex-shrink: 0; }
+  .quiz-card-meta, .quiz-toolbar-actions { flex-wrap: wrap; }
+  .quiz-card pre { max-width: 100%; overflow-x: auto; }
+}

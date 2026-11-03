@@ -20,7 +20,7 @@ import {
   type Roadmap,
 } from "../roadmap";
 import { LessonContext } from "./lesson-context";
-import { LessonCourseSidebar } from "./LessonCourseSidebar";
+import { LessonCourseSidebar, LessonStepNavigation } from "./LessonCourseSidebar";
 
 const findTopic = (course: Course, moduleSlug: string, topicSlug: string) => {
   const mod = course.modules.find((m) => m.slug === moduleSlug);
@@ -219,6 +219,7 @@ export const LessonLayout = () => {
           .join(" ")}
       >
         <LessonCourseSidebar />
+        {!isExerciseFocus && <LessonStepNavigation mobile />}
 
         {asideOpen && (
           <button

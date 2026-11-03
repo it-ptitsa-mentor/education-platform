@@ -130,7 +130,7 @@ describe("LessonExerciseStep — «Далее» как на standalone, без �
     expect(link.getAttribute("aria-label")).toBe("Далее: Блочная модель →");
     expect(link.getAttribute("href")).toBe("/learn/m/t/2/theory");
     expect(link.className).toContain("btn-secondary");
-    expect(mobileContinue()!.className).toContain("btn-secondary");
+    expect(mobileContinue()).toBeNull();
   });
 
   it("после PASS: «Далее» золотая, модалки нет, прогресс записан", async () => {
@@ -139,8 +139,7 @@ describe("LessonExerciseStep — «Далее» как на standalone, без �
     await runTests();
 
     await vi.waitFor(() => expect(headerContinue()!.className).toContain("btn-primary"));
-    expect(mobileContinue()!.className).toContain("btn-primary");
-    expect(mobileContinue()!.getAttribute("href")).toBe("/learn/m/t/2/theory");
+    expect(mobileContinue()).toBeNull();
     expect(dialog()).toBeNull();
     expect(isUnitDone(current.id, "exercise")).toBe(true);
     expect(refreshProgress).toHaveBeenCalledTimes(1);
