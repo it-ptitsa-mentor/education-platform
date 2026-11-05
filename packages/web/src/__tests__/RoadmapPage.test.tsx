@@ -1,6 +1,7 @@
-import { render, screen, waitFor, fireEvent } from "@testing-library/react";
+import { render, screen, waitFor, fireEvent, within } from "@testing-library/react";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import bootcamp from "../../../../content/roadmap/frontend-bootcamp.json";
 import { RoadmapPage } from "../pages/RoadmapPage";
 import type { Course } from "../course";
 import type { Roadmap, RoadmapCatalog } from "../roadmap";
@@ -110,6 +111,36 @@ afterEach(() => {
 });
 
 describe("RoadmapPage", () => {
+  it("показывает проекты W1–W6 под модулями и 14 React-проектов после них", async () => {
+    vi.mocked(loadRoadmap).mockResolvedValue(bootcamp as Roadmap);
+    vi.mocked(loadCourse).mockResolvedValue({
+      ...mockCourse,
+      modules: Array.from({ length: 6 }, (_, i) => ({
+        ...mockCourse.modules[0], index: i + 1, slug: `module-${i + 1}`,
+      })),
+    });
+    const { container } = renderPage();
+    await screen.findByRole("heading", { name: "Проекты React-фазы" });
+    const modules = container.querySelectorAll(".course-module-block");
+    expect(modules).toHaveLength(6);
+    modules.forEach((mod, i) => {
+      const week = bootcamp.phases.flatMap((phase) => phase.weeks).find((w) => w.week === i + 1)!;
+      const project = (bootcamp as Roadmap).nodes[week.projectIds[0]];
+      expect(within(mod as HTMLElement).getByText(project.label)).toBeInTheDocument();
+      expect(within(mod as HTMLElement).getByRole("link", { name: "Открыть задание →" }))
+        .toHaveAttribute("href", project.classroomUrl);
+    });
+    const react = screen.getByRole("region", { name: "Проекты React-фазы" });
+    const links = within(react).getAllByRole("link", { name: "Открыть задание →" });
+    expect(links).toHaveLength(14);
+    links.forEach((link) => {
+      expect(link).toHaveAttribute("target", "_blank");
+      expect(link.getAttribute("rel")).toContain("noopener");
+    });
+    expect(within(react).getByText("Проект W16")).toBeInTheDocument();
+    expect(within(react).queryByText("Проект W6")).not.toBeInTheDocument();
+  });
+
   it("показывает спиннер загрузки до получения данных", () => {
     vi.mocked(loadRoadmapCatalog).mockReturnValue(new Promise(() => {}));
     renderPage();

@@ -4221,3 +4221,57 @@ body.is-resizing-vertical {
   .quiz-card-meta, .quiz-toolbar-actions { flex-wrap: wrap; }
   .quiz-card pre { max-width: 100%; overflow-x: auto; }
 }
+
+/* Учебные проекты: продолжение модулей и React-фазы. */
+.roadmap-projects-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+.project-card {
+  flex: 1 1 260px;
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-left: 2px solid var(--accent);
+  border-radius: var(--radius-sm);
+  background: var(--surface-raised);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.project-card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 12px;
+}
+.project-card-label {
+  color: var(--accent);
+  font: 500 0.72rem var(--font-mono);
+  white-space: nowrap;
+}
+.project-card-name {
+  margin: 0;
+  color: var(--text);
+  font: 600 0.9rem var(--font-ui);
+  overflow-wrap: anywhere;
+}
+.project-card-desc {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.project-card-link {
+  margin-top: auto;
+  color: var(--accent);
+  font-size: 0.82rem;
+  text-underline-offset: 4px;
+}
+.project-card-link:hover { text-decoration: underline; }
+.project-card-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.roadmap-react-projects { margin-top: 32px; }

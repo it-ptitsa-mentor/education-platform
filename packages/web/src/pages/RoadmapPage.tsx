@@ -14,8 +14,35 @@ import {
   loadRoadmap,
   loadRoadmapCatalog,
   type Roadmap,
+  type RoadmapNode,
   type RoadmapCatalogEntry,
 } from "../roadmap";
+
+const weekProjects = (roadmap: Roadmap, week: number): RoadmapNode[] =>
+  roadmap.phases.flatMap((phase) => phase.weeks)
+    .filter((item) => item.week === week)
+    .flatMap((item) => item.projectIds)
+    .map((id) => roadmap.nodes[id])
+    .filter((node): node is RoadmapNode => node?.kind === "project");
+
+const ProjectCards = ({ projects, week }: { projects: RoadmapNode[]; week: number }) => (
+  <div className="roadmap-projects-row">
+    {projects.map((project, index) => (
+      <div className="project-card" key={`${week}-${index}`}>
+        <div className="project-card-header">
+          <span className="project-card-label">Проект W{week}</span>
+          <h4 className="project-card-name">{project.label}</h4>
+        </div>
+        <p className="project-card-desc">{project.description}</p>
+        {project.classroomUrl && (
+          <a href={project.classroomUrl} target="_blank" rel="noopener noreferrer" className="project-card-link">
+            Открыть задание →
+          </a>
+        )}
+      </div>
+    ))}
+  </div>
+);
 
 type TopicSelection = { module: Module; topic: Topic };
 
@@ -42,9 +69,11 @@ const TopicDot = ({
 
 const ModuleBlock = ({
   mod,
+  projects,
   onTopicClick,
 }: {
   mod: Module;
+  projects: RoadmapNode[];
   onTopicClick: (sel: TopicSelection) => void;
 }) => (
   <section className="course-module-block">
@@ -62,6 +91,7 @@ const ModuleBlock = ({
         </button>
       ))}
     </div>
+    {projects.length > 0 && <ProjectCards projects={projects} week={mod.index} />}
   </section>
 );
 
@@ -176,6 +206,7 @@ export const RoadmapPage = () => {
             <ModuleBlock
               key={mod.slug}
               mod={mod}
+              projects={weekProjects(roadmap, mod.index)}
               onTopicClick={(sel) => {
                 // Запоминаем курс входа, чтобы выход из урока вёл сюда.
                 rememberLessonOrigin({ roadmapId });
@@ -188,6 +219,18 @@ export const RoadmapPage = () => {
         <div className="loading">
           <span className="spinner" aria-hidden />
         </div>
+      )}
+
+      {roadmap.phases.some((phase) => phase.weeks.some((week) =>
+        week.week >= 7 && week.week <= 16 && weekProjects(roadmap, week.week).length > 0,
+      )) && (
+        <section className="roadmap-react-projects" aria-labelledby="react-projects-heading">
+          <h3 id="react-projects-heading" className="course-module-block-heading">Проекты React-фазы</h3>
+          {Array.from({ length: 10 }, (_, index) => index + 7).map((week) => {
+            const projects = weekProjects(roadmap, week);
+            return projects.length > 0 ? <ProjectCards key={week} projects={projects} week={week} /> : null;
+          })}
+        </section>
       )}
 
       {selected && (
