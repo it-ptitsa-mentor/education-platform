@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="196" viewBox="0 0 640 196" role="img" aria-labelledby="title">
+  <title id="title">Строчные элементы</title>
+  <rect width="640" height="196" rx="16" fill="#191b22"/>
+  <g font-family="system-ui, sans-serif" font-size="26" fill="#f7f1e5">
+    <text x="32" y="47" font-size="32" font-weight="650">Строчные элементы</text>
+    <rect x="32" y="72" width="134" height="54" rx="8" fill="#2f3544" stroke="#a8bbd9" stroke-width="2"/>
+    <text x="99" y="108" text-anchor="middle">Один</text>
+    <rect x="178" y="72" width="100" height="54" rx="8" fill="#2f3544" stroke="#a8bbd9" stroke-width="2"/>
+    <text x="228" y="108" text-anchor="middle">И</text>
+    <rect x="290" y="72" width="167" height="54" rx="8" fill="#2f3544" stroke="#a8bbd9" stroke-width="2"/>
+    <text x="373.5" y="108" text-anchor="middle">другой</text>
+    <text x="32" y="167">Элементы идут в строку, пока есть место</text>
+  </g>
+</svg>

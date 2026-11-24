@@ -4,12 +4,12 @@
     "alt": "Введение в HTML — иллюстрация 1"
   },
   "44963e14-792e-40e4-8924-da290c1612f9": {
-    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/1.png",
-    "alt": "Блочная модель — иллюстрация 1"
+    "path": "assets/document-flow/blocks.svg",
+    "alt": "Блочные элементы"
   },
   "93edd17e-5050-4774-9393-e7047c355999": {
-    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/2.png",
-    "alt": "Блочная модель — иллюстрация 2"
+    "path": "assets/document-flow/inline.svg",
+    "alt": "Строчные элементы"
   },
   "4337f681-a938-4371-9f2d-c652348969c1": {
     "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/3.png",
@@ -244,16 +244,16 @@
     "alt": "Градиенты — иллюстрация 12"
   },
   "15f3eb12-d23c-424d-a9b6-2d6cd456304b": {
-    "path": "assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/1.png",
-    "alt": "Поток документа — иллюстрация 1"
+    "path": "assets/document-flow/blocks.svg",
+    "alt": "Блочные элементы"
   },
   "38078c92-4123-4f7d-9c7d-0235e323d5c7": {
-    "path": "assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/2.png",
-    "alt": "Поток документа — иллюстрация 2"
+    "path": "assets/document-flow/inline.svg",
+    "alt": "Строчные элементы"
   },
   "79225735-464d-459e-8017-5376dd08c285": {
-    "path": "assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/3.png",
-    "alt": "Поток документа — иллюстрация 3"
+    "path": "assets/document-flow/page.svg",
+    "alt": "Поток на странице"
   },
   "4113eed0-04ed-4c0a-811e-7fb78f0fd01a": {
     "path": "assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/1.png",

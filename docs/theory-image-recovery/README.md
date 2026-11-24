@@ -17,3 +17,7 @@ The lesson index and 235 original marker contexts are in inventory-before.json. 
 content/theory-images.json maps stable Buildin block IDs to local assets and alt text. import-buildin-theory.py emits those image links during reimport and preserves content/theory/assets even if FROZEN_MODULES is empty. The registry lives outside the directory replaced by the importer. M1/M2 text remains protected by FROZEN_MODULES; M3–M6 source text still belongs to Buildin. To replace a mapped illustration, update the asset/registry in Git; do not insert expiring CDN links into Markdown.
 
 CI runs filesystem integration tests for reimport preservation, mapped emission, missing assets and every registered image. Course content generation copies images into the web build. Screenshots and browser verification are recorded separately after preview deployment.
+
+## Document flow diagrams
+
+The Buildin illustrations for «Поток документа» and the first two illustrations in «Блочная модель» had low contrast on the dark lesson background. Five references now use three SVGs in content/theory/assets/document-flow. The Markdown and Buildin image registry point to the same replacements. The registry keeps the replacements in place on reimport.
