@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "js-frontend-architecture-processes",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-processes",
+    "title": "Программирование с явно выделенным состоянием",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-processes/example.gif",
+        "w": 780,
+        "h": 400,
+        "width": 780
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nПрограммирование с явно выделенным состоянием\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nПРОГРАММИРОВАНИЕ С ЯВНО ВЫДЕЛЕННЫМ СОСТОЯНИЕМ\nJAVASCRIPT\n\nЭта задача не сложная а"
+  },
+  {
+    "slug": "js-frontend-architecture-rendering",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-rendering",
+    "title": "Отрисовка (рендеринг) состояния",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-rendering/example.gif",
+        "w": 780,
+        "h": 400,
+        "width": 780
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nОтрисовка (рендеринг) состояния\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nОТРИСОВКА (РЕНДЕРИНГ) СОСТОЯНИЯ\nJAVASCRIPT\nSRC/APPLICATION.JS\n\nРеализуйте и экспортируйте функц"
+  },
+  {
+    "slug": "js-react-hooks-use-context",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-hooks-use-context",
+    "title": "Хук useContext",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-hooks-use-context/example.gif",
+        "w": 780,
+        "h": 400,
+        "width": 780
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nХук useContext\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nХУК USECONTEXT\nJAVASCRIPT\n\nВ этом уроке нужно доработать функционал изменения темы.\n\nSRC/APP.JSX\n\nОзнакомьтесь с"
+  },
+  {
+    "slug": "js-frontend-architecture-processes",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-processes",
+    "title": "Программирование с явно выделенным состоянием",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-processes/example.gif",
+        "w": 780,
+        "h": 400,
+        "width": 343.1875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nПрограммирование с явно выделенным состоянием\nУсловие\nКод\nВывод\n01 · BRIEF\nПРОГРАММИРОВАНИЕ С ЯВНО ВЫДЕЛЕННЫМ СОСТОЯНИЕМ\nJAVASCRIPT\n\nЭта задача не сложная алгоритмически, но доволь"
+  },
+  {
+    "slug": "js-frontend-architecture-rendering",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-rendering",
+    "title": "Отрисовка (рендеринг) состояния",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-rendering/example.gif",
+        "w": 780,
+        "h": 400,
+        "width": 343.1875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nОтрисовка (рендеринг) состояния\nУсловие\nКод\nВывод\n01 · BRIEF\nОТРИСОВКА (РЕНДЕРИНГ) СОСТОЯНИЯ\nJAVASCRIPT\nSRC/APPLICATION.JS\n\nРеализуйте и экспортируйте функцию по умолчанию, которая"
+  },
+  {
+    "slug": "js-react-hooks-use-context",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-hooks-use-context",
+    "title": "Хук useContext",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-hooks-use-context/example.gif",
+        "w": 780,
+        "h": 400,
+        "width": 343.1875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nХук useContext\nУсловие\nКод\nВывод\n01 · BRIEF\nХУК USECONTEXT\nJAVASCRIPT\n\nВ этом уроке нужно доработать функционал изменения темы.\n\nSRC/APP.JSX\n\nОзнакомьтесь со списком тем. Каждая те"
+  }
+]

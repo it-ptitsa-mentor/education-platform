@@ -1,0 +1,521 @@
+[
+  {
+    "slug": "css-content-background",
+    "title": "Фон",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/background/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Эталон задаёт карточку 300×200 и центрирование. Геометрию восстановить можно; точный фон без оригинала нельзя."
+  },
+  {
+    "slug": "css-content-box-model",
+    "title": "Блочная модель и CSS",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/box-model/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Эталон HTML+CSS описывает карточку полностью. Нужен оригинал фото либо явно согласованная замена."
+  },
+  {
+    "slug": "css-content-columns",
+    "title": "Колонки",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/columns/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "HTML+CSS эталона есть, но текст статьи сокращён относительно условия; превью после сверки полного текста."
+  },
+  {
+    "slug": "css-content-fonts",
+    "title": "Шрифты и работа с ними",
+    "reference": "./assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/fonts/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Только CSS эталона; сначала вернуть HTML и шрифты, иначе снимок не воспроизводит исходный портал."
+  },
+  {
+    "slug": "css-content-forms",
+    "title": "Формы",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/forms/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "HTML+CSS эталона есть; форма восстанавливается. Вспомогательные классы находятся только в эталоне, их надо вернуть в стартер отдельно."
+  },
+  {
+    "slug": "css-content-gradient",
+    "title": "Градиенты",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/gradient/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "CSS эталона достаточен для нового превью с технической HTML-обёрткой; purple задан только в эталоне, обещанных переменных в стартере нет."
+  },
+  {
+    "slug": "css-content-list",
+    "title": "Списки",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/list/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Полный HTML эталона есть; можно снять новое превью без внешних картинок."
+  },
+  {
+    "slug": "css-content-media",
+    "title": "Медиаэлементы",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/media/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Эталон содержит только участников и video; нет обещанной статьи и CSS. Нужны assets/magnus.jpg, nepomniachtchi.jpg, poster.jpg, magnus-after-mistake.mp4; снимок их не заменяет."
+  },
+  {
+    "slug": "css-content-overflow",
+    "title": "Переполнение",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/overflow/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "CSS эталона задаёт 300px и ellipsis, но без DOM снимок недостоверен. Нужен шаблон, затем состояния до/после прокрутки."
+  },
+  {
+    "slug": "css-content-pseudoclasses",
+    "title": "Псевдоклассы",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/pseudoclasses/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Только CSS эталона, одновременно селекторы board-row/board-cell и cell. Нужна разметка для выбора правильной схемы чередования."
+  },
+  {
+    "slug": "css-content-pseudoelements",
+    "title": "Псевдоэлементы",
+    "reference": "assets/example.jpg",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/pseudoelements/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "CSS эталона есть; сначала восстановить DOM с user-name/profile-description, затем новый JPG."
+  },
+  {
+    "slug": "css-content-selectors",
+    "title": "Селекторы",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/selectors/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "CSS эталона есть, HTML отсутствует. Нельзя объявить точный исходный макет восстановленным."
+  },
+  {
+    "slug": "css-content-table",
+    "title": "Таблицы",
+    "reference": "/assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/table/exercise_unit",
+    "priority": "P0",
+    "status": "pending",
+    "notes": "Эталон неполный: лишь одна строка из 7 дел, нет rowspan/colspan и готового CSS. Нужен оригинал или восстановление полного расписания по интервалам с явным решением по сетке/цветам."
+  },
+  {
+    "slug": "css-content-text",
+    "title": "Стили текста",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/text/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "HTML+CSS эталона есть, но второй параграф сокращён; перед снимком привести текст к условию."
+  },
+  {
+    "slug": "css-content-units",
+    "title": "Единицы измерения",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/units/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Только CSS эталона; сначала найти HTML и базовые стили. Эталон сбрасывает padding списка целиком, хотя условие сохраняет боковые отступы."
+  },
+  {
+    "slug": "css-content-variables",
+    "title": "CSS Переменные",
+    "reference": "./assets/Variables-White-theme-1-linux.jpg",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/variables/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Переменные в эталоне есть, но из применения только фон/цвет body; нет шаблона с primary/secondary. Два новых JPG возможны после возврата шаблона, не подмена одним файлом."
+  },
+  {
+    "slug": "css-content-variables",
+    "title": "CSS Переменные",
+    "reference": "./assets/Variables-Dark-theme-1-linux.jpg",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/variables/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Переменные в эталоне есть, но из применения только фон/цвет body; нет шаблона с primary/secondary. Два новых JPG возможны после возврата шаблона, не подмена одним файлом."
+  },
+  {
+    "slug": "css-flex-align-items",
+    "title": "Выравнивание элементов по поперечной оси",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-flex/lessons/align-items/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "HTML+CSS эталона есть; геометрия воспроизводится, иконку надо найти или согласовать замену."
+  },
+  {
+    "slug": "css-flex-container",
+    "title": "Флекс-контейнер",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-flex/lessons/container/exercise_unit",
+    "priority": "P0",
+    "status": "pending",
+    "notes": "CSS эталона предлагает logo перед nav, но DOM и исходный дизайн отсутствуют. Сначала оригинал макета/шаблон; слепой рендер невозможен."
+  },
+  {
+    "slug": "css-flex-items-flexible",
+    "title": "Свойства Flex-элементов. Гибкость",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-flex/lessons/items-flexible/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "CSS эталона и фрагмент HTML в условии позволяют новый учебный образец; проверить минимум две высоты, чтобы показать shrink/grow."
+  },
+  {
+    "slug": "css-flex-justify-content",
+    "title": "Выравнивание элементов по главной оси",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-flex/lessons/justify-content/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "CSS эталона задаёт контейнер, но содержимое/базовый дизайн неизвестны; нужны шаблон и состояния короткой/длинной страницы."
+  },
+  {
+    "slug": "css-grid-element-position",
+    "title": "Расположение элементов в сетке",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-grid/lessons/element-position/exercise_unit",
+    "priority": "P0",
+    "status": "pending",
+    "notes": "CSS эталона задаёт toolbar на всю ширину и доли 1/3/2, но нет DOM/внутренних компонентов. Итог и схему можно воссоздать после возврата шаблона; grid.png рисуется отдельно с линиями сетки."
+  },
+  {
+    "slug": "css-grid-element-position",
+    "title": "Расположение элементов в сетке",
+    "reference": "assets/grid.png",
+    "source": "https://ru.hexlet.io/courses/css-grid/lessons/element-position/exercise_unit",
+    "priority": "P0",
+    "status": "pending",
+    "notes": "CSS эталона задаёт toolbar на всю ширину и доли 1/3/2, но нет DOM/внутренних компонентов. Итог и схему можно воссоздать после возврата шаблона; grid.png рисуется отдельно с линиями сетки."
+  },
+  {
+    "slug": "css-grid-first-grid",
+    "title": "Первая сетка",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-grid/lessons/first-grid/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "CSS эталона задаёт сетки; новый пример возможен после возврата HTML и базовых стилей. Число элементов footer не определено без шаблона."
+  },
+  {
+    "slug": "css-grid-grid-property",
+    "title": "Работа с сеткой",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-grid/lessons/grid-property/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "CSS эталона есть (8/12 колонок), но без DOM/стилей карточек точного превью нет; сначала шаблон."
+  },
+  {
+    "slug": "css-positioning-absolute",
+    "title": "Абсолютное позиционирование",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-positioning/lessons/absolute/exercise_unit",
+    "priority": "P0",
+    "status": "pending",
+    "notes": "Эталон ставит все три в top:0/left:0, использует --square-size вместо обещанной --side; HTML/переменных нет. По нему целевое расположение восстановить нельзя."
+  },
+  {
+    "slug": "css-positioning-float",
+    "title": "Плавающие элементы",
+    "reference": "assets/float.png",
+    "source": "https://ru.hexlet.io/courses/css-positioning/lessons/float/exercise_unit",
+    "priority": "P0",
+    "status": "pending",
+    "notes": "Эталон использует float:right для right-column вопреки подсказке про одинаковые float; нет DOM. Нужны оригинал/шаблон и сверка порядка, снимок CSS недостаточен."
+  },
+  {
+    "slug": "css-positioning-relative",
+    "title": "Относительное позиционирование",
+    "reference": "./assets/final.png",
+    "source": "https://ru.hexlet.io/courses/css-positioning/lessons/relative/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Эталон сдвигает на -5/-5 вместо -15/-10 и задаёт position только на hover; исходные transition/координаты отсутствуют. Сначала согласовать эталон с ТЗ."
+  },
+  {
+    "slug": "css-positioning-relative-and-absolute",
+    "title": "Относительное и абсолютное позиционирование",
+    "reference": "assets/absolute_and_relative.png",
+    "source": "https://ru.hexlet.io/courses/css-positioning/lessons/relative-and-absolute/exercise_unit",
+    "priority": "P0",
+    "status": "pending",
+    "notes": "Эталон растягивает overlay left:0/right:0 внутри overflow:hidden, вместо понятного расположения справа. Нужен оригинал или уточнение дизайна; не снимать как достоверный результат."
+  },
+  {
+    "slug": "js-dom-element-manipulating",
+    "title": "Управление узлами DOM",
+    "reference": "./assets/final.png",
+    "source": "https://ru.hexlet.io/courses/js-dom/lessons/element-manipulating/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Есть реальный index.html с CSS и эталон normalize.js; можно снять результат после вызова функции, без внешних картинок."
+  },
+  {
+    "slug": "js-dom-events",
+    "title": "Введение в события",
+    "reference": "./assets/result.png",
+    "source": "https://ru.hexlet.io/courses/js-dom/lessons/events/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон и HTML/фикстура есть. Новый PNG после двух кликов; подключение Bootstrap фиксировать отдельно."
+  },
+  {
+    "slug": "js-dom-events-in-action",
+    "title": "События на практике",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-dom/lessons/events-in-action/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон и HTML/фикстура есть. GIF переключения обеих групп; проверить, что первая не сбрасывается при работе со второй."
+  },
+  {
+    "slug": "js-frontend-architecture-complex-state",
+    "title": "Комплексное состояние",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/complex-state/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон есть; для съёмки нужны детерминированные ответы GET/POST routes.tasksPath(), не действующий продовый API."
+  },
+  {
+    "slug": "js-frontend-architecture-forms",
+    "title": "Состояние форм",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/forms/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Эталон+public/index.html есть; записать ввод невалидных/валидных значений и отправку через мок POST /users. Факультатив touched не реализован — не выдавать его за обязательное поведение."
+  },
+  {
+    "slug": "js-frontend-architecture-i18n",
+    "title": "Организация текстов интерфейса",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/i18n/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон приложения и локалей есть; GIF 0/1/2 клика, русский/английский, сброс."
+  },
+  {
+    "slug": "js-frontend-architecture-initialization",
+    "title": "Инициализация приложения",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/initialization/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон инициализации есть, локали в стартере; GIF с разными языками/числами в двух контейнерах."
+  },
+  {
+    "slug": "js-frontend-architecture-mvc",
+    "title": "MVC",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/mvc/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон+index.html есть; GIF переключения с проверкой независимости нескольких групп."
+  },
+  {
+    "slug": "js-frontend-architecture-processes",
+    "title": "Программирование с явно выделенным состоянием",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/processes/exercise_unit",
+    "priority": "P1",
+    "status": "reconstructed",
+    "notes": "Эталон+index.html есть; GIF заполнение, повторное открытие, очистка, независимость name/email. Это хороший кандидат новой записи без API.",
+    "path": "exercise-assets/js-frontend-architecture-processes/example.gif",
+    "method": "Browser screenshots of reference implementation, Bootstrap 5.3.3, 1 second per state; not historical pixel match."
+  },
+  {
+    "slug": "js-frontend-architecture-rendering",
+    "title": "Отрисовка (рендеринг) состояния",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/rendering/exercise_unit",
+    "priority": "P1",
+    "status": "reconstructed",
+    "notes": "Эталон+форма+данные в src/index.js есть; GIF всех товаров, комбинации фильтров и пустой выдачи, без API.",
+    "path": "exercise-assets/js-frontend-architecture-rendering/example.gif",
+    "method": "Browser screenshots of reference implementation, Bootstrap 5.3.3, 1 second per state; not historical pixel match."
+  },
+  {
+    "slug": "js-frontend-architecture-shape-of-state",
+    "title": "Нормализация данных",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/shape-of-state/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Эталон+public/index.html есть, однако эталон не запрещает дубликаты названий списков вопреки ТЗ. Сначала устранить расхождение/ограничить и явно описать сценарий записи."
+  },
+  {
+    "slug": "js-frontend-architecture-state",
+    "title": "Состояние приложения",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/state/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон+index.html есть; GIF ввод двух чисел, plus, сброс, возврат фокуса."
+  },
+  {
+    "slug": "js-frontend-architecture-ui-state",
+    "title": "Состояние отображения (UI State)",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/ui-state/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон+данные+index.html есть; GIF открыть первую, заменить второй, повторным кликом удалить."
+  },
+  {
+    "slug": "js-react-async",
+    "title": "Асинхронная обработка",
+    "reference": "assets/autocomplete.gif",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/async/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Эталон+точка входа есть; GIF через мок /countries, фиксированные Albania/Algeria и пустой запрос. Приватный сервер не нужен."
+  },
+  {
+    "slug": "js-react-component-lifecycle",
+    "title": "Жизненный цикл компонента",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/component-lifecycle/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Эталон есть, нужен мок GET/POST/PATCH /api/tasks. finished не переворачивается, в отличие от требования newest-first; сначала сверить порядок."
+  },
+  {
+    "slug": "js-react-context",
+    "title": "Контекст (Context API)",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/context/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Есть эталоны App/Home/Profile/ThemeSwitcher, CSS и контекст. Новый GIF всех тем с сохранением выбранной темы между вкладками возможен."
+  },
+  {
+    "slug": "js-react-events",
+    "title": "События",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/events/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Эталон и entrypoint есть; нужны исходные фото или согласованные различимые замены. GIF next/prev через границу и повторяющийся путь."
+  },
+  {
+    "slug": "js-react-forms",
+    "title": "Формы",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/forms/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Эталон есть, но использует неопределённый JSX-компонент motion без импорта (runtime ReferenceError). Сначала вернуть рабочий эталон, затем GIF."
+  },
+  {
+    "slug": "js-react-fsm",
+    "title": "Автоматное программирование",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/fsm/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон+entrypoint есть; GIF opened=false, открыть/закрыть, отдельно default opened=true."
+  },
+  {
+    "slug": "js-react-hooks-use-context",
+    "title": "Хук useContext",
+    "reference": "./assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/use-context/exercise_unit",
+    "priority": "P1",
+    "status": "reconstructed",
+    "notes": "Есть все эталоны, контекст и CSS; отдельный GIF именно функционального варианта, не копия class Context без сравнения.",
+    "path": "exercise-assets/js-react-hooks-use-context/example.gif",
+    "method": "Browser screenshots of reference implementation, Bootstrap 5.3.3, 1 second per state; not historical pixel match."
+  },
+  {
+    "slug": "js-react-hooks-use-effect",
+    "title": "Хук useEffect",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/use-effect/exercise_unit",
+    "priority": "P1",
+    "status": "pending",
+    "notes": "Эталон Products, Product, utils и products.json есть; записать загрузку, плюс/минус и сумму с фиксированными данными."
+  },
+  {
+    "slug": "js-react-immutability",
+    "title": "Неизменяемость",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/immutability/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон есть; GIF +,+,-,+ и удаление верхней/всех записей."
+  },
+  {
+    "slug": "js-react-jsx-html-difference",
+    "title": "Различия jsx и html",
+    "reference": "./assets/result.png",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/jsx-html-difference/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон и entrypoint есть; PNG с percentage=40 и фиксированным Bootstrap."
+  },
+  {
+    "slug": "js-react-nested-components",
+    "title": "Вложенные компоненты",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/nested-components/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталоны Item/TodoBox есть; GIF двух заметок и удаления, проверить порядок newest-first."
+  },
+  {
+    "slug": "js-react-props",
+    "title": "Props",
+    "reference": "./assets/final.png",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/props/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон годится только с переданными props: default title/text не реализованы. Снимок переданных props возможен; отсутствие defaults отметить отдельно."
+  },
+  {
+    "slug": "js-react-virtual-dom",
+    "title": "Virtual Dom",
+    "reference": "assets/example.gif",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/virtual-dom/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Эталон Modal и пример Component есть; GIF открытия и закрытия крестиком/Cancel."
+  },
+  {
+    "slug": "layout-designer-basics-css-cascade",
+    "title": "Каскадность в CSS",
+    "reference": "./assets/final.png",
+    "source": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/css-cascade/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Полный HTML+CSS эталона есть; можно снять новое превью без внешних ресурсов."
+  },
+  {
+    "slug": "layout-designer-basics-css-intro",
+    "title": "Основы CSS",
+    "reference": "assets/final.png",
+    "source": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/css-intro/exercise_unit",
+    "priority": "P2",
+    "status": "pending",
+    "notes": "Только CSS эталона; сначала найти исходный текст/HTML. Иначе можно сделать лишь новый пример, не восстановить исходный снимок."
+  }
+]
