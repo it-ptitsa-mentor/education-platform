@@ -1,30 +1,92 @@
-/* Сетка редактора HexletCodeEditor: 6 колонок */
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
 
-.editor {
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("../assets/fonts/JetBrainsMono-Regular.ttf");
+}
+
+.code-editor {
+  /* BEGIN (write your solution here) */
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: max-content 1fr;
-  grid-template-areas:
-    "toolbar toolbar toolbar toolbar toolbar toolbar"
-    "sidebar editor editor editor output output";
+  grid-template-rows: max-content 1fr max-content;
+  /* END */
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  color: #fff;
+  font: 18px/1.5 JetBrainsMono, monospace;
+
+  background: #33235a;
 }
 
-.editor-toolbar {
-  grid-area: toolbar;
+.code-editor pre {
+  font-family: JetBrainsMono, monospace;
+}
+
+.editor-header {
+  --font-size: 10px;
+  --line-height: 1.5;
+
+  /* BEGIN (write your solution here) */
   grid-column: 1 / -1;
+  /* END */
+  height: calc(var(--font-size) * var(--line-height));
+  padding: 5px 0;
+
+  color: #fff;
+  font: var(--font-size) / var(--line-height) sans-serif;
+  text-align: center;
+
+  background: #241a3d;
 }
 
-.editor-sidebar {
-  grid-area: sidebar;
-  grid-column: 1 / 2;
+.editor-tree {
+  /* BEGIN (write your solution here) */
+  grid-column: 1 / 3;
+  grid-row: 2 / -1;
+  /* END */
+  border-right: 3px solid #00ffc0;
 }
 
-.editor-code {
-  grid-area: editor;
-  grid-column: 2 / 5;
+.editor-main {
+  /* BEGIN (write your solution here) */
+  grid-column: 3 / -1;
+  /* END */
+  padding: 30px;
+
+  background: #241a3d;
+  border-bottom: 3px solid #00ffc0;
 }
 
-.editor-output {
-  grid-area: output;
-  grid-column: 5 / 7;
+.editor-footer {
+  /* BEGIN (write your solution here) */
+  grid-column: 3 / -1;
+  /* END */
+  padding: 30px;
+}
+
+.code-selector {
+  color: #03a9f4;
+}
+
+.code-rule {
+  color: #ffcb6b;
+}
+
+.code-value {
+  color: #ff5370;
+}
+
+.dir {
+  color: #4caf50;
+}
+
+.git {
+  color: #03a9f4;
+}
+
+.git-branch {
+  color: #f44336;
 }

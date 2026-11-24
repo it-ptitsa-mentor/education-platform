@@ -1,1 +1,91 @@
-/* Стили упражнения */
+/* BEGIN (write your solution here) */
+
+/* END */
+
+body {
+  width: 790px;
+  margin: 0 auto;
+  padding: 50px 0 100px;
+
+  /* BEGIN (write your solution here) */
+
+/* END */
+
+  background-color: #ebebeb;
+}
+
+figure {
+  margin: 50px 0 0;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  margin-bottom: 30px;
+
+  /* BEGIN (write your solution here) */
+
+/* END */
+  letter-spacing: 15px;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.nav>* {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.nav a {
+  /* BEGIN (write your solution here) */
+
+/* END */
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+
+  text-decoration: none;
+}
+
+.interview {
+  /* BEGIN (write your solution here) */
+
+/* END */
+}
+
+.interview-header {
+  /* BEGIN (write your solution here) */
+
+/* END */
+}
+
+.interview-description {
+  /* BEGIN (write your solution here) */
+
+/* END */
+}
+
+.interview-footer {
+  /* BEGIN (write your solution here) */
+
+/* END */
+}
+
+.interview-text {
+  /* BEGIN (write your solution here) */
+
+/* END */
+}

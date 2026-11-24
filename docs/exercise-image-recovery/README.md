@@ -1,13 +1,36 @@
-# Exercise image recovery
+# Восстановление изображений упражнений
 
-Inventory covers all 57 original references in 55 exercises. Each row retains its original exercise-specific path; identically named images are independent.
+Инвентарь: 57 исходных ссылок в 55 упражнениях. Восстановлены 54 ссылки в 52 упражнениях: 25 найденных изображений из публичного учебного зеркала и 29 новых превью по условию/эталонам. Три оставшиеся ссылки описаны в blockers.md.
 
-All 55 upstream condition URLs were checked on 2026-11-24: they redirect to `web/sessions/new` without an authenticated Hexlet session. See original-search.json. No originals were available in the previously audited local Git/workspace/server copies.
+## Источники
 
-## Batch 1
+Все 55 исходных страниц Hexlet сейчас требуют входа: original-search.json. Первоначальный локальный аудит не обнаружил бинарных оригиналов в Git/рабочих копиях/бэкапе. Последующий поиск по уникальному имени magnus-after-mistake.mp4 нашёл:
 
-Three distinct animated GIFs recorded from reference implementations: processes, rendering, use-context. Exact states and assertions are in batch-1-scenarios.json. Original solutions and starter files are unchanged. Capture uses Bootstrap 5.3.3 (presentation only), not a claim of pixel identity with the historical GIFs.
+- https://github.com/alkselsv-edu/css-content-tasks/tree/1a17080380f2cf6f6958ff80c29dd33c4e985349
+- https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e
 
-Assets are committed in `packages/web/public/exercise-assets/<slug>/example.gif`; Vite copies them to the same path under the deployment base. Each readme explicitly names its exercise namespace. Preview was checked at 1440 and 390 px; see preview-verification.json and screenshots.
+Второй содержит соответствующие условия, учебные макеты, HTML/CSS и snapshot-тесты для основных CSS-тем. Привязка сделана по тексту условий/классам/данным, а не только имени файла. original-provenance.json содержит точные пути и SHA-256 неизменённых PNG. Эти копии не называются официальным архивом Hexlet.
 
-Recording sources are retained under recording/. Run build.mjs with the repository dependencies installed and Bootstrap 5.3.3 CSS saved as `/tmp/exercise-recording/bootstrap.min.css`, serve `/tmp/exercise-recording` at 127.0.0.1:8767, and run record.mjs with a headless Chrome CDP endpoint in CDP_PORT (default 9337). Frames are converted with ffmpeg palettegen/paletteuse at 1 fps, looping. The renderer works outside the repository, overlays __solution__ on starters and does not publish source solutions.
+## Файлы и упаковка
+
+Каждая ссылка теперь имеет namespace `exercise-assets/<slug>/<filename>`; файлы в packages/web/public, Vite копирует их под /preview/ и /app/. Совпадающие имена проверены независимо. CSV/inventory сохраняет исходный путь каждого из 57 вхождений.
+
+Возвращены предоставляемые HTML-шаблоны и базовые стили из совпавших материалов. BEGIN/END области решения удалены из редактируемых стартеров и сохранены только в __solution__; предоставляемые файлы доступны как read-only. Тесты и эталоны не публикуются через referenceFiles. Бинарные изображения/шрифты/видео исключены из текстовых вкладок редактора.
+
+Дополнительные изображения, видео и Cormorant скопированы только при фактическом использовании шаблоном. Для редактора добавлен недостающий JetBrains Mono (Google Fonts, OFL, статический 400 из variable font). Простая SVG-галочка для кнопки воспроизведена кодом: зеркало ссылалось на отсутствующий check-icon.svg. Пути шрифтов адаптированы к styles/app.css.
+
+## Новые превью
+
+Записаны отдельные GIF по реальным эталонам JS/React. Проверки переходов и результаты — batch-1-scenarios.json и batch-2-scenarios.json. HTTP-запросы в съёмочном стенде имеют фиксированные ответы; эти моки в платформу не добавлены. Bootstrap 5.3.3 использовался только для оформления записи. Для JS React Forms уточнена ошибка старого статического разбора: строчный <motion> является custom HTML element и не вызывает ReferenceError; рабочий эталон записан без изменения.
+
+Для градиента, псевдоэлементов и двух тем CSS-переменных сделаны новые примеры: разметка и декоративный текст соответствуют селекторам/условию, историческое пиксельное совпадение не заявляется. Светлая и тёмная темы — отдельные JPEG.
+
+## Проверки
+
+Unit, feature, typecheck, сборка; эталоны проверяются раннером (эталон проходит, стартер падает). Все восстановленные изображения проверяются на настоящих страницах упражнений при 1440 и 390 px, включая naturalWidth/height и горизонтальное переполнение. preview-verification.json и app-verification.json — результаты браузера, выбранные скриншоты до/после — docs/screenshots/exercise-images/; полный комплект кадров проверки хранится в рабочем каталоге. Итоговая сверка по всем 57 ссылкам сохраняется отдельно, с MIME, SHA-256 и состоянием оставшихся блокеров.
+
+## Репродукция GIF
+
+recording/ содержит исходники съёмки. build.mjs и build-more.mjs собирают эталоны во временный каталог /tmp/exercise-recording; CSS Bootstrap 5.3.3 должен быть сохранён там как bootstrap.min.css. HTTP-сервер: 127.0.0.1:8767. record.mjs и record-more.mjs используют Chrome CDP (CDP_PORT, по умолчанию 9337). Конвертация кадров: ffmpeg palettegen/paletteuse, 1 fps, бесконечный цикл. Источники решений не включаются в публикуемые GIF.
+
+Базовые скриншоты «до» сняты с отдельной чистой копии origin/main (36495c9) в статическом режиме, а не имитацией поломанных запросов. Дополнительно проверяется ширина картинки относительно родительского параграфа: изображения больших размеров раньше обрезались по краю desktop-панели; добавлено max-width:100% с сохранением пропорций.

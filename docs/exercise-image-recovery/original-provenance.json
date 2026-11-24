@@ -1,0 +1,177 @@
+[
+  {
+    "slug": "layout-designer-basics-css-intro",
+    "path": "exercise-assets/layout-designer-basics-css-intro/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "01-layout-designer-basics-tasks/tasks/assets/3.png",
+    "source_sha256": "45520bc5fa3db1771bc898e0b0218400f7e3c1a3d54bf4fd201fef822c499947"
+  },
+  {
+    "slug": "layout-designer-basics-css-cascade",
+    "path": "exercise-assets/layout-designer-basics-css-cascade/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "01-layout-designer-basics-tasks/tasks/assets/4.png",
+    "source_sha256": "c570f7f47a9165788bbd1ed3667799ead5b7d8c0cf8b3bb2fa2c62737a950497"
+  },
+  {
+    "slug": "css-content-text",
+    "path": "exercise-assets/css-content-text/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "02-css-content-tasks/tasks/assets/1.png",
+    "source_sha256": "1aa283e965e1ddd641e5600a610aebfba747267a9f3d6ad60d52f3226755c7a7"
+  },
+  {
+    "slug": "css-content-fonts",
+    "path": "exercise-assets/css-content-fonts/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "02-css-content-tasks/tasks/assets/2.png",
+    "source_sha256": "4549f9e5a25f4336585762beeccedb80dd6ed32841ae13c251bac3dcd1717a71"
+  },
+  {
+    "slug": "css-content-list",
+    "path": "exercise-assets/css-content-list/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "02-css-content-tasks/tasks/assets/3.png",
+    "source_sha256": "181bf54ef43affc8d55bf3130ebd4a6e8b306da7961527512a0713ef4984d48c"
+  },
+  {
+    "slug": "css-content-columns",
+    "path": "exercise-assets/css-content-columns/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "02-css-content-tasks/tasks/assets/4.png",
+    "source_sha256": "04397f916e4cbe56e2532226b39fd976f690a59faae72e8ca8c9f3be75875572"
+  },
+  {
+    "slug": "css-content-units",
+    "path": "exercise-assets/css-content-units/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "02-css-content-tasks/tasks/assets/5.png",
+    "source_sha256": "6bf11ea260b599462dca152eb8177f813058fb29183270e9e7c5f93f580ef366"
+  },
+  {
+    "slug": "css-content-media",
+    "path": "exercise-assets/css-content-media/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "02-css-content-tasks/tasks/assets/6.png",
+    "source_sha256": "68c970a3de5da3181837b4360aaedd162e2660003865331b5d9aa59ab603b1a0"
+  },
+  {
+    "slug": "css-content-table",
+    "path": "exercise-assets/css-content-table/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "02-css-content-tasks/tasks/assets/7.png",
+    "source_sha256": "cc72c71caead2f062835395ed9e77d1786914cca06fc2a4dccb23d2a63c7a1c3"
+  },
+  {
+    "slug": "css-content-forms",
+    "path": "exercise-assets/css-content-forms/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "02-css-content-tasks/tasks/assets/8.png",
+    "source_sha256": "cb77b03728fdc5fa618fabf1eee771f1e6973e5fcc287de784d4c5db33dbe7ef"
+  },
+  {
+    "slug": "css-content-selectors",
+    "path": "exercise-assets/css-content-selectors/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "02-css-content-tasks/tasks/assets/9.png",
+    "source_sha256": "363cc81729c728d24a5281d363bc3386af1bf80c8fbdc3bc01ad59b23565a56d"
+  },
+  {
+    "slug": "css-content-pseudoclasses",
+    "path": "exercise-assets/css-content-pseudoclasses/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "02-css-content-tasks/tasks/assets/10.png",
+    "source_sha256": "a1a9748b38712cbc4851b17326133dc5d994b00de30c9647895ef2807a119ae0"
+  },
+  {
+    "slug": "css-content-overflow",
+    "path": "exercise-assets/css-content-overflow/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "02-css-content-tasks/tasks/assets/11.png",
+    "source_sha256": "ed8f3a52957559f833f9ef67cebb9d8ca2cc3e2199a3aee2d0af00b2605e2cf9"
+  },
+  {
+    "slug": "css-positioning-relative",
+    "path": "exercise-assets/css-positioning-relative/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "03-css-positioning-tasks/tasks/assets/1.png",
+    "source_sha256": "f815c056e129a20db03da4f592d2f2f930369ccaae197e383a123641871d59fd"
+  },
+  {
+    "slug": "css-positioning-absolute",
+    "path": "exercise-assets/css-positioning-absolute/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "03-css-positioning-tasks/tasks/assets/2.png",
+    "source_sha256": "c79aa3c14ed401b03619c95a51f2f1141482e00cedda0c679af91bf61e222358"
+  },
+  {
+    "slug": "css-positioning-relative-and-absolute",
+    "path": "exercise-assets/css-positioning-relative-and-absolute/absolute_and_relative.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "03-css-positioning-tasks/tasks/assets/3.png",
+    "source_sha256": "f3ee9189da965eda271946c0eacc92a043480f5d07b102933ae65076884b4e05"
+  },
+  {
+    "slug": "css-positioning-float",
+    "path": "exercise-assets/css-positioning-float/float.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "03-css-positioning-tasks/tasks/assets/5.png",
+    "source_sha256": "8885a97b430be0a63a9483ca8f37cb454dfe06114e7f800e248af6d9a9b5697b"
+  },
+  {
+    "slug": "css-flex-container",
+    "path": "exercise-assets/css-flex-container/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "04-css-flex-tasks/tasks/assets/1.png",
+    "source_sha256": "74fa9e4ec25bae2978164dcfe1a17b02df59d0a5ea1e8ac4fc4d1767bb463aae"
+  },
+  {
+    "slug": "css-flex-justify-content",
+    "path": "exercise-assets/css-flex-justify-content/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "04-css-flex-tasks/tasks/assets/3.png",
+    "source_sha256": "288a460f31839b417887e8d33ab8ad3bb84784e1a94e33eb6538f84e42f4462c"
+  },
+  {
+    "slug": "css-flex-align-items",
+    "path": "exercise-assets/css-flex-align-items/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "04-css-flex-tasks/tasks/assets/4.png",
+    "source_sha256": "9f9539d2fbf634af0559adbde8eefd5ab5d058b3e923ffed799a74a701da662a"
+  },
+  {
+    "slug": "css-flex-items-flexible",
+    "path": "exercise-assets/css-flex-items-flexible/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "04-css-flex-tasks/tasks/assets/6.png",
+    "source_sha256": "fd0f382307df1e7405680bfb1a71cc2c55a5f3d0ffc5c8ea0c3f68de68440a11"
+  },
+  {
+    "slug": "css-grid-first-grid",
+    "path": "exercise-assets/css-grid-first-grid/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "06-css-grid-tasks/tasks/assets/1.png",
+    "source_sha256": "3702e031819102452e53474d2d641a4ddf7e02ed479c33c0257f1eeb96dcb627"
+  },
+  {
+    "slug": "css-grid-element-position",
+    "path": "exercise-assets/css-grid-element-position/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "06-css-grid-tasks/tasks/assets/2.png",
+    "source_sha256": "fd9e358c2efd0280fceef06a818dee17bd0c8b241bc41671639fd5f0f4e1584f"
+  },
+  {
+    "slug": "css-grid-element-position",
+    "path": "exercise-assets/css-grid-element-position/grid.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "06-css-grid-tasks/tasks/assets/3.png",
+    "source_sha256": "1d3139c56ddd4eeb5a211dc53a4c6aa9e45a9ae48961deef2d6c97f5d87e0ce9"
+  },
+  {
+    "slug": "css-grid-grid-property",
+    "path": "exercise-assets/css-grid-grid-property/final.png",
+    "source_repository": "https://github.com/glaurungh/tstu-introductory-practice/tree/be35c861129b54156636ecbe3bd5c3451100778e",
+    "source_image": "06-css-grid-tasks/tasks/assets/4.png",
+    "source_sha256": "2f54871eadc7968d7aecc4fec35134d888452b00f93d0a3340aed9ee0da70940"
+  }
+]

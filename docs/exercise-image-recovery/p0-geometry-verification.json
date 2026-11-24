@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "css-content-table",
+    "passed": true,
+    "assertion": "document.querySelector('thead tr').children.length===7 && document.querySelector('tbody tr td').colSpan===3 && document.querySelectorAll('[rowspan]').length>=4"
+  },
+  {
+    "slug": "css-flex-container",
+    "passed": true,
+    "assertion": "document.querySelector('header nav').getBoundingClientRect().left < document.querySelector('header .name').getBoundingClientRect().left && getComputedStyle(document.querySelector('main')).display==='flex'"
+  },
+  {
+    "slug": "css-grid-element-position",
+    "passed": true,
+    "assertion": "getComputedStyle(document.querySelector('.code-editor')).gridTemplateColumns.split(' ').length===6 && document.querySelector('.editor-header').getBoundingClientRect().width===innerWidth"
+  },
+  {
+    "slug": "css-positioning-absolute",
+    "passed": true,
+    "assertion": "(()=>{const r=document.querySelector('.square-red').getBoundingClientRect(),g=document.querySelector('.square-green').getBoundingClientRect(),b=document.querySelector('.square-blue').getBoundingClientRect();return r.x===0&&r.y===0&&g.x===200&&g.y===200&&b.x===400&&b.y===0})()"
+  },
+  {
+    "slug": "css-positioning-float",
+    "passed": true,
+    "assertion": "[...document.querySelectorAll('.left-aside,main,.right-aside')].every(e=>getComputedStyle(e).float==='left') && getComputedStyle(document.querySelector('footer')).clear==='both'"
+  },
+  {
+    "slug": "css-positioning-relative-and-absolute",
+    "passed": true,
+    "assertion": "(()=>{const c=document.querySelector('.books-card').getBoundingClientRect(),d=document.querySelector('.book-description').getBoundingClientRect();return Math.abs(d.height-c.height)<1&&Math.abs(d.right-c.right)<1&&d.width===c.width/2})()"
+  }
+]

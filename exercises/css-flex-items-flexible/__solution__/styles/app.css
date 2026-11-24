@@ -1,30 +1,40 @@
-/* Вертикальные блоки с flex-shrink */
-.flex-container {
-  display: flex;
-  flex-direction: column;
+body {
+  margin: 0;
+}
+
+.bg-gray {
+  background: #bdbdbd;
+}
+
+.bg-orange {
+  background: #ffcc80;
+}
+
+.bg-green {
+  background: #66bb6a;
 }
 
 .h-100vh {
   height: 100vh;
 }
 
+.flex-container {
+  /* BEGIN (write your solution here) */
+  display: flex;
+  flex-direction: column;
+  /* END */
+}
+
 .flex-item {
-  flex: 1;
+  /* BEGIN (write your solution here) */
+  flex-grow: 1;
+  flex-shrink: 1;
   flex-basis: 200px;
+  /* END */
 }
 
 .no-shrink {
+  /* BEGIN (write your solution here) */
   flex-shrink: 0;
-}
-
-.bg-gray {
-  background-color: gray;
-}
-
-.bg-orange {
-  background-color: orange;
-}
-
-.bg-green {
-  background-color: green;
+  /* END */
 }

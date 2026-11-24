@@ -1,1 +1,60 @@
-/* Стили упражнения */
+html {
+  /* BEGIN (write your solution here) */
+
+/* END */
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* BEGIN (write your solution here) */
+
+/* END */
+}
+
+h1,
+h2,
+h3 {
+  /* BEGIN (write your solution here) */
+
+/* END */
+}
+
+ul {
+  /* BEGIN (write your solution here) */
+
+/* END */
+}
+
+/* BEGIN (write your solution here) */
+
+/* END */
+
+.btn {
+  display: block;
+  padding: 1em 0;
+
+  color: white;
+
+  /* BEGIN (write your solution here) */
+
+/* END */
+
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-blue {
+  background-color: #097dea;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(138 148 167 / 24%);
+}
