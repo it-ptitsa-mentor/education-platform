@@ -2563,17 +2563,6 @@
     "image_mime": true
   },
   {
-    "lesson": "content/theory/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya.md",
-    "path": "content/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/3.png",
-    "url": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/3.png",
-    "status": 200,
-    "mime": "image/png",
-    "bytes": 68,
-    "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20",
-    "matches": true,
-    "image_mime": true
-  },
-  {
     "lesson": "content/theory/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva.md",
     "path": "content/theory/assets/restored/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva/1.png",
     "url": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva/1.png",

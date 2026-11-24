@@ -1,6 +1,6 @@
 # Восстановленные уроки
 
-235 иллюстраций в 131 уроке. IMG-плейсхолдеров после партии: 0.
+234 иллюстрации в 131 уроке. IMG-плейсхолдеров после партии: 0.
 
 - **Введение в HTML** (Основы современной верстки), 1 илл.: [preview](https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/2/theory), [прод](https://education.it-ptitsa-mentor.ru/app/learn/01-modul-1/01-osnovy-sovremennoy-verstki/2/theory).
 - **Блочная модель** (Основы современной верстки), 3 илл.: [preview](https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/3/theory), [прод](https://education.it-ptitsa-mentor.ru/app/learn/01-modul-1/01-osnovy-sovremennoy-verstki/3/theory).
@@ -131,5 +131,5 @@
 - **Иерархия типов** (Основы Typescript), 1 илл.: [preview](https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/21/theory), [прод](https://education.it-ptitsa-mentor.ru/app/learn/06-modul-6/02-osnovy-typescript/21/theory).
 - **Пересечение** (Основы Typescript), 1 илл.: [preview](https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/23/theory), [прод](https://education.it-ptitsa-mentor.ru/app/learn/06-modul-6/02-osnovy-typescript/23/theory).
 - **Объединения** (Основы Typescript), 1 илл.: [preview](https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/27/theory), [прод](https://education.it-ptitsa-mentor.ru/app/learn/06-modul-6/02-osnovy-typescript/27/theory).
-- **Структурная типизация** (Основы Typescript), 3 илл.: [preview](https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/28/theory), [прод](https://education.it-ptitsa-mentor.ru/app/learn/06-modul-6/02-osnovy-typescript/28/theory).
+- **Структурная типизация** (Основы Typescript), 2 илл.: [preview](https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/28/theory), [прод](https://education.it-ptitsa-mentor.ru/app/learn/06-modul-6/02-osnovy-typescript/28/theory).
 - **Типы как множества** (Основы Typescript), 1 илл.: [preview](https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/30/theory), [прод](https://education.it-ptitsa-mentor.ru/app/learn/06-modul-6/02-osnovy-typescript/30/theory).

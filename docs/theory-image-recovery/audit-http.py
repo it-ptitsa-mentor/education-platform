@@ -10,7 +10,7 @@ import urllib.request
 ROOT = Path(__file__).resolve().parents[2]
 BASE = sys.argv[1].rstrip('/')
 OUTPUT = Path(sys.argv[2])
-rows = json.loads((ROOT / 'docs/theory-image-recovery/recovery.json').read_text())
+rows = [r for r in json.loads((ROOT / 'docs/theory-image-recovery/recovery.json').read_text()) if 'path' in r]
 for p in (ROOT / 'content/theory/assets/it-ptitsa').glob('*.png'):
     rows.append({'path': str(p.relative_to(ROOT)), 'lesson': 'supplied pilot'})
 

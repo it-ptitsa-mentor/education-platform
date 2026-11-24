@@ -112,6 +112,8 @@ def registered_image(block_id, caption):
     entry = registry.get(block_id)
     if entry is None:
         return None
+    if entry.get("skip"):
+        return ""
     path = pathlib.PurePosixPath(entry["path"])
     if path.is_absolute() or ".." in path.parts or path.parts[0] != "assets":
         raise ValueError(f"Invalid theory image path: {path}")
@@ -165,7 +167,8 @@ def blocks_to_md(block_id, depth=0):
             lines.append("---")
         elif t in ("image", "file"):
             cap = rich(data.get("caption", []))
-            lines.append(registered_image(b["id"], cap) or f"<!-- IMG{': ' + cap if cap else ''} (из Buildin, перезалить отдельно) -->")
+            image = registered_image(b["id"], cap)
+            lines.append(image if image is not None else f"<!-- IMG{': ' + cap if cap else ''} (из Buildin, перезалить отдельно) -->")
         elif t == "table":
             if b.get("has_children"):
                 lines += table_to_md(b["id"])

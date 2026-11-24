@@ -904,8 +904,8 @@
     "alt": "Структурная типизация — иллюстрация 2"
   },
   "da785025-1c4c-46e2-9d92-838dbe7e946f": {
-    "path": "assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/3.png",
-    "alt": "Структурная типизация — иллюстрация 3"
+    "skip": true,
+    "reason": "Transparent 1x1 tracking pixel, not instructional content"
   },
   "e2994657-cf23-429a-a9df-1ef9d8061700": {
     "path": "assets/restored/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva/1.png",

@@ -2106,11 +2106,11 @@
   {
     "lesson": "content/theory/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya.md",
     "ordinal": 2,
-    "status": "original",
-    "path": "content/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/3.png",
+    "status": "removed-tracking-pixel",
     "source_block": "da785025-1c4c-46e2-9d92-838dbe7e946f",
     "source_url": "https://cdn.buildin.ai/s3/4a95b7dc-9646-489f-9532-f7a860732635/pixel",
-    "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+    "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20",
+    "reason": "Source is a transparent 1×1 tracking pixel named pixel, not a course illustration."
   },
   {
     "lesson": "content/theory/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva.md",

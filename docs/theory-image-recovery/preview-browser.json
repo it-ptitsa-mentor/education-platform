@@ -2813,7 +2813,7 @@
   {
     "url": "https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/28/theory",
     "width": 1440,
-    "expected": 3,
+    "expected": 2,
     "missing": [],
     "title": "Структурная типизация",
     "images": [
@@ -2827,12 +2827,6 @@
         "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/2.png",
         "ok": true,
         "width": 744.765625,
-        "parent": 744.796875
-      },
-      {
-        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/3.png",
-        "ok": true,
-        "width": 1,
         "parent": 744.796875
       }
     ],
@@ -5670,7 +5664,7 @@
   {
     "url": "https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/28/theory",
     "width": 390,
-    "expected": 3,
+    "expected": 2,
     "missing": [],
     "title": "Структурная типизация",
     "images": [
@@ -5684,12 +5678,6 @@
         "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/2.png",
         "ok": true,
         "width": 362.78125,
-        "parent": 362.8125
-      },
-      {
-        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/3.png",
-        "ok": true,
-        "width": 1,
         "parent": 362.8125
       }
     ],
