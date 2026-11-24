@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "css-content-background",
+    "path": "exercises/css-content-background/assets/bg.jpg",
+    "publicPath": "packages/web/public/exercise-assets/css-content-background/assets/bg.jpg",
+    "author": "Andrew Ridley",
+    "source": "https://unsplash.com/photos/Kt5hRENuotI",
+    "download": "https://picsum.photos/id/1018/900/600",
+    "license": "https://unsplash.com/license",
+    "sha256": "783eca745d5437ae41d3e8acb5151da4205c5563f16a35f2bee215a57aaff2e6",
+    "replacement": true
+  },
+  {
+    "slug": "css-content-box-model",
+    "path": "exercises/css-content-box-model/assets/profile.jpg",
+    "publicPath": "packages/web/public/exercise-assets/css-content-box-model/assets/profile.jpg",
+    "author": "Matthew Wiebe",
+    "source": "https://unsplash.com/photos/tBtuxtLvAZs",
+    "download": "https://picsum.photos/id/1005/400/400",
+    "license": "https://unsplash.com/license",
+    "sha256": "af7157776238cfe2f34bddfa6348e582a6455a48e1dfc2e7f9cbaaf19bc31d9d",
+    "replacement": true
+  },
+  {
+    "slug": "js-react-events",
+    "path": "exercises/js-react-events/public/images/first.jpeg",
+    "publicPath": "packages/web/public/exercise-assets/js-react-events/images/first.jpeg",
+    "author": "Paul Jarvis",
+    "source": "https://unsplash.com/photos/6J--NXulQCs",
+    "download": "https://picsum.photos/id/10/900/500",
+    "license": "https://unsplash.com/license",
+    "sha256": "0d4714f78f036faeb88de349fa8a7813b2fae3133bb25af3d4ec4bea67efd106",
+    "replacement": true
+  },
+  {
+    "slug": "js-react-events",
+    "path": "exercises/js-react-events/public/images/second.jpeg",
+    "publicPath": "packages/web/public/exercise-assets/js-react-events/images/second.jpeg",
+    "author": "Paul Jarvis",
+    "source": "https://unsplash.com/photos/Cm7oKel-X2Q",
+    "download": "https://picsum.photos/id/11/900/500",
+    "license": "https://unsplash.com/license",
+    "sha256": "1428788952abc3bcd35774f26168b98bc7acc0cd5d8a360b0e81aa6db69669aa",
+    "replacement": true
+  },
+  {
+    "slug": "js-react-events",
+    "path": "exercises/js-react-events/public/images/third.jpeg",
+    "publicPath": "packages/web/public/exercise-assets/js-react-events/images/third.jpeg",
+    "author": "Paul Jarvis",
+    "source": "https://unsplash.com/photos/I_9ILwtsl_k",
+    "download": "https://picsum.photos/id/12/900/500",
+    "license": "https://unsplash.com/license",
+    "sha256": "815cc5dc7310bf30ab36e4d67b5ebfc8d98ade0d127acc1e06e1d27b971f12de",
+    "replacement": true
+  }
+]

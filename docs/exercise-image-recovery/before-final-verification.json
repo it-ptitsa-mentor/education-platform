@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "css-content-background",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-background",
+    "title": "Фон",
+    "images": [],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nФон\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nФОН\nHTML\n\nСоздайте визитную карточку с фоновым изображением и номером телефона в центре.\n\nINDEX.HTML\n\nДобавьте код для стру"
+  },
+  {
+    "slug": "css-content-box-model",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-box-model",
+    "title": "Блочная модель и CSS",
+    "images": [],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nБлочная модель и CSS\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nБЛОЧНАЯ МОДЕЛЬ И CSS\nHTML\n\nСоздайте карточку профиля с изображением, заголовком и текстом, используя прави"
+  },
+  {
+    "slug": "js-react-events",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-events",
+    "title": "События",
+    "images": [],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nСобытия\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nСОБЫТИЯ\nJAVASCRIPT\nsrc/Carousel.jsx\n\nРеализуйте компонент, эмулирующий работу слайдера. Компонент принимает на вход сво"
+  },
+  {
+    "slug": "css-content-background",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-background",
+    "title": "Фон",
+    "images": [],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nФон\nУсловие\nКод\nВывод\n01 · BRIEF\nФОН\nHTML\n\nСоздайте визитную карточку с фоновым изображением и номером телефона в центре.\n\nINDEX.HTML\n\nДобавьте код для структуры карточки:\n\nКонтейн"
+  },
+  {
+    "slug": "css-content-box-model",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-box-model",
+    "title": "Блочная модель и CSS",
+    "images": [],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nБлочная модель и CSS\nУсловие\nКод\nВывод\n01 · BRIEF\nБЛОЧНАЯ МОДЕЛЬ И CSS\nHTML\n\nСоздайте карточку профиля с изображением, заголовком и текстом, используя правила блочной модели для ст"
+  },
+  {
+    "slug": "js-react-events",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-events",
+    "title": "События",
+    "images": [],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nСобытия\nУсловие\nКод\nВывод\n01 · BRIEF\nСОБЫТИЯ\nJAVASCRIPT\nsrc/Carousel.jsx\n\nРеализуйте компонент, эмулирующий работу слайдера. Компонент принимает на вход свойство images, в котором "
+  }
+]
