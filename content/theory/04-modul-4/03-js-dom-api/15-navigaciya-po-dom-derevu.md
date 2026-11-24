@@ -49,7 +49,7 @@ html.lastChild // <body>...</body>
 html.childNodes[1] // #text
 ```
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Навигация по DOM-дереву — иллюстрация 1](course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/1.png)
 `<head>` и `<body>` всегда есть в документе — для них на `document` вынесены сокращения:
 
 ```
@@ -67,7 +67,7 @@ document.body === document.body.childNodes[2].parentNode // true
 
 Движение возможно вверх-вниз и «вбок» между соседями:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Навигация по DOM-дереву — иллюстрация 2](course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/2.png)
 ## childNodes
 
 `childNodes` возвращает **дочерние узлы** — потомков первого уровня.
@@ -106,7 +106,7 @@ console.log(filteredTags) // => ['HEAD', 'BODY']
 
 Типы узлов выстроены в иерархию: подтипы наследуют поля родителя и добавляют свои:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Навигация по DOM-дереву — иллюстрация 3](course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/3.png)
 ```
 // Самый простой способ посмотреть тип
 document.body.toString() // "[object HTMLBodyElement]"
@@ -151,14 +151,14 @@ const html = `
 
 **Потомки** — все вложенные узлы на любой глубине.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Навигация по DOM-дереву — иллюстрация 4](course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/4.png)
 Каждый дочерний узел — потомок, но не каждый потомок — дочерний: `<span>` внутри вложенного `div` — потомок `parent-div`, но не его прямой ребёнок.
 
 ## Элементы
 
 На практике чаще нужны именно **элементы**, а не текстовые узлы. Для них есть параллельный набор свойств:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Навигация по DOM-дереву — иллюстрация 5](course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/5.png)
 Они возвращают `Element` и пропускают `Text`/`Comment` — в отличие от `childNodes`:
 
 ```

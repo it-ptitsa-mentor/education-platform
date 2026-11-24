@@ -35,9 +35,9 @@ reviewed_by:
 
 *Emmet* разворачивает эту запись в HTML выше. Обычно достаточно нажать `Tab` после строки или вызвать команду развёртывания в редакторе.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
-<!-- IMG (из Buildin, перезалить отдельно) -->
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Emmet — иллюстрация 1](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/1.png)
+![Emmet — иллюстрация 2](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/2.png)
+![Emmet — иллюстрация 3](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/3.jpg)
 
 189 символов вместо 877 — заметная экономия. На больших блоках разница только растёт: одной строкой *Emmet* иногда собирают целую страницу. Инструмент снимает рутину с разметки. Разберём строку с начала:
 
@@ -78,7 +78,7 @@ reviewed_by:
 
 Конструкция `*3` — умножение: повторить элемент три раза.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Emmet: три элемента списка](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/4.svg)
 ---
 
 `table>tr*3>td*3`

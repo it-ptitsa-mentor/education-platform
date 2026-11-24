@@ -62,7 +62,7 @@ const index = Math.abs(hash) % 1000 // по модулю
 console.log(index) // => 338
 ```
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Хеш-таблицы — иллюстрация 1](course/theory/assets/restored/02-modul-2/03-js-obekty/13-hesh-tablicy/1.jpg)
 ### За кулисами
 
 Рассмотрим добавление значения в ассоциативный массив (в JavaScript — тип Object). Программист пишет:

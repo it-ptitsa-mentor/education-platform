@@ -16,14 +16,14 @@ reviewed_by:
 
 В уроке — основы *Chrome DevTools* в *Google Chrome*. Логика похожа в Firefox, Safari и Edge; переключаться между браузерами обычно несложно.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Chrome DevTools — иллюстрация 1](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/1.jpg)
 Открыть панель:
 
 1. Правый клик по странице → *Просмотреть код элемента* (*Inspect* в английской версии).
 
 1. Горячие клавиши: `Ctrl + Shift + I` или `F12` (Windows/Linux), `Cmd + Opt + I` (macOS).
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Chrome DevTools — иллюстрация 2](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/2.png)
 По умолчанию откроется вкладка *Elements* — главная для старта. Кратко про другие:
 
 - *Elements* — дерево HTML и стили (разберём подробнее).
@@ -40,7 +40,7 @@ reviewed_by:
 
 Условно две зоны: **HTML** и **CSS**.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Chrome DevTools — иллюстрация 3](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/3.png)
 Откройте инспектор на этой странице и раскройте дерево. Вложенность видна по отступам; при выборе узла внизу показывается цепочка предков с классами, например:
 
 `html body.min-vh-100 div.mb-n5 div.row.no-gutters div.col-sm.overflow-hidden div.my-4`
@@ -63,7 +63,7 @@ reviewed_by:
 
 Правый клик по узлу в дереве — меню действий.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Chrome DevTools — иллюстрация 4](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/4.png)
 Основное:
 
 - *Add Attribute* — добавить атрибут.
@@ -78,7 +78,7 @@ reviewed_by:
 
 Вторая зона — **CSS**.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Chrome DevTools — иллюстрация 5](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/5.png)
 На старте важны вкладки:
 
 - *Styles* — просмотр, правка и добавление правил для выбранного элемента.
@@ -87,7 +87,7 @@ reviewed_by:
 
 ### Вкладка Styles
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Chrome DevTools — иллюстрация 6](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/6.png)
 Вверху — правила, которые напрямую относятся к элементу (например `margin-bottom`, `margin-top`, `box-sizing`, `display`), с указанием селектора и файла со строкой — если CSS не собран в одну минифицированную строку.
 
 Ниже блок *Inherited from ...* (*Наследованные стили от ...*) — что пришло от предков; для текущего элемента подсвечены релевантные свойства.
@@ -96,7 +96,7 @@ reviewed_by:
 
 ### Вкладка Computed
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Chrome DevTools — иллюстрация 7](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/7.png)
 Сверху — схема блочной модели: `width`, `height`, `border`, `margin`, `padding` и итоговый размер.
 
 Ниже — сводка каскада: какое свойство откуда взялось; по клику видны файл, строка и селектор.

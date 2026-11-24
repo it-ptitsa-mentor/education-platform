@@ -1,0 +1,2124 @@
+[
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/02-vvedenie-v-html.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/02-vvedenie-v-html/1.png",
+    "source_block": "ac6d7d46-21df-4bc8-aa5d-aa24a4573e46",
+    "source_url": "https://cdn.buildin.ai/s3/333d4e27-9e70-4335-bc2f-7c9c7d85b4df/html-tag.png",
+    "sha256": "3524f7b9fe2929f41e9688844a50d83c1304746e120aedc0c36e3d056749778a"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/1.png",
+    "source_block": "44963e14-792e-40e4-8924-da290c1612f9",
+    "source_url": "https://cdn.buildin.ai/s3/98fe3602-0367-4bf1-ac04-73d8025a8313/blocks-element.png",
+    "sha256": "2c6c063b057dd31188ee3807e53554c4909d34bd50b8da05487daa5bc51ed025"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/2.png",
+    "source_block": "93edd17e-5050-4774-9393-e7047c355999",
+    "source_url": "https://cdn.buildin.ai/s3/fd257c41-170e-4206-944f-4f521b0aac29/inline-element.png",
+    "sha256": "98bb36feb1da7d82e1f1406247897a146e7e5ec837bf0cd81d525dce6cc3953a"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/3.png",
+    "source_block": "4337f681-a938-4371-9f2d-c652348969c1",
+    "source_url": "https://cdn.buildin.ai/s3/84d21e0c-1379-4b57-bc84-97956f676d79/block-model.png",
+    "sha256": "311d98f41e76c73f81255ece8402fa5250066828f6b5620c6c113a7251facd5d"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/1.png",
+    "source_block": "86afdff7-7e86-4832-8866-ce0757d0eee9",
+    "source_url": "https://cdn.buildin.ai/s3/c706b7bc-124e-4a39-aa4d-af3277def11b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2026-02-24%2B%25D0%25B2%2B21.09.32.png",
+    "sha256": "83fa64d80d4b7472d04ffcd5cc7142f7d94ae708bca8951cf2ddc48bb0826b6a"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/2.png",
+    "source_block": "b6b35bbb-f193-48ca-82fe-69fd6447ab4c",
+    "source_url": "https://cdn.buildin.ai/s3/e9fed51d-4499-4570-9b65-438bd1d67d59/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2026-02-24%2B%25D0%25B2%2B21.11.46.png",
+    "sha256": "d072b82480748ef8a63d6a42b61d3ebac55030932b3d3c63c986237e5d22aba9"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/3.png",
+    "source_block": "d9f98122-5cbf-4164-9d7d-a3c5dcadf932",
+    "source_url": "https://cdn.buildin.ai/s3/c1894829-83e6-4887-a36d-1eeaed84b9fa/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2026-02-24%2B%25D0%25B2%2B21.13.16.png",
+    "sha256": "004df41e78287289f22eaefc42533d647aea9af30eb09f99d9dc3ecc8e40b937"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/4.png",
+    "source_block": "41b8d3f3-10c3-4b90-a0c1-62e6591efe76",
+    "source_url": "https://cdn.buildin.ai/s3/06f8eb18-d8b6-4d6a-adf5-6c5de13ebec9/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2026-02-24%2B%25D0%25B2%2B21.14.15.png",
+    "sha256": "a5853d23d01691a6c1f1856e1a732e05e63dbc65c62bd873f1aecf3990c34c96"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html.md",
+    "ordinal": 4,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/5.png",
+    "source_block": "40ab702d-c980-48ff-80c2-c18738fb6837",
+    "source_url": "https://cdn.buildin.ai/s3/978b6fa9-a34c-4a4c-9cd0-a608df690682/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2026-02-24%2B%25D0%25B2%2B21.15.09.png",
+    "sha256": "f0f48533773def87c29367bed88251ab7cf0a032481959e7081bd484a4cfa5e1"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html.md",
+    "ordinal": 5,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/6.png",
+    "source_block": "b938baab-44f7-4def-98dc-4ef78edb8d04",
+    "source_url": "https://cdn.buildin.ai/s3/e01145b0-b485-4156-8853-782cd395da68/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2026-02-24%2B%25D0%25B2%2B21.16.08.png",
+    "sha256": "d4e3630324296f83085820b20573a7195c59f10718b2e7313ac0f4f8f7a56af2"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/05-bazovaya-struktura-html-dokumenta.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/05-bazovaya-struktura-html-dokumenta/1.png",
+    "source_block": "23a9e043-32ba-4f75-b5c4-0dc5b2fc9bf0",
+    "source_url": "https://cdn.buildin.ai/s3/bd286d06-fed4-4b6a-a541-598e13ff5492/body.png",
+    "sha256": "e41a92580afeaa635cda23bb22712d98954608e79cbcc48f48de6dc3b968a610"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/1.png",
+    "source_block": "e7a3471a-a67c-4a42-ac06-15c61460fa5e",
+    "source_url": "https://cdn.buildin.ai/s3/885d4b52-01ec-4fcb-af17-9945f53a2042/css.png",
+    "sha256": "d93041a988226e3835ae43e11be92ea8a25d753f0f320500bfd3522945f78bce"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/2.png",
+    "source_block": "024c8409-1c86-4c2c-b6cd-eca237d76f45",
+    "source_url": "https://cdn.buildin.ai/s3/020fd8fe-c3a8-49e7-b536-68bd9bf8ec7b/selector.png",
+    "sha256": "644e981f5c3745b29d45aa9438f79aaead443f362c5e703eafd94215095b6d64"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/3.png",
+    "source_block": "d09f0f5b-2ede-4e01-88c2-7d6b9e0127b0",
+    "source_url": "https://cdn.buildin.ai/s3/0feaad2a-409c-44e3-82af-9845b57a630c/descendart_combinator.png",
+    "sha256": "e93e7b697edcf5f2d2e19565f4b22e6c313dddb563723e51d5d8d866c181170f"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/4.png",
+    "source_block": "6420ee63-c720-45af-a143-52ab2cdf8d64",
+    "source_url": "https://cdn.buildin.ai/s3/08f8371f-f100-4d08-b558-7df9d24158fc/child_combinator.png",
+    "sha256": "2b13844cf7abc92c96be59687913f8392fe5aab05cf42e44bf55e61ef7a6b4a3"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/07-kaskadnost-v-css.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/07-kaskadnost-v-css/1.jpg",
+    "source_block": "699b0262-4ad7-44a8-a029-fff17dd4cd29",
+    "source_url": "https://cdn.buildin.ai/s3/aa124d9c-0b87-46df-a763-569364d37663/pic-2.jpg",
+    "sha256": "66df37614b5fb47c5fe7e3ddbb452fdf1140d62b6b732e71f00dd234a6609d19"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/07-kaskadnost-v-css.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/07-kaskadnost-v-css/2.jpg",
+    "source_block": "d12df48d-2282-47a7-84c1-937709865e7a",
+    "source_url": "https://cdn.buildin.ai/s3/6edba1e6-4a03-4f11-8e62-f1fc61281996/pic-1.jpg",
+    "sha256": "ea89f3272c9fae8695d57d2f6e24688940386690bcdf107fcb2bf5fb26c897c2"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/1.jpg",
+    "source_block": "0b4621fe-4182-437b-ac09-2d23afe2ab46",
+    "source_url": "https://cdn.buildin.ai/s3/1eede5c1-37a4-4963-b510-27e0b1638696/pic-1.jpg",
+    "sha256": "bb35c34ff68a785a8c15b772ceec84b92f0512de1de77b34162ef859fd6c6564"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/2.png",
+    "source_block": "053be00e-0da8-4a95-b307-8dddfbf1f772",
+    "source_url": "https://cdn.buildin.ai/s3/fb20497a-196a-4708-9b68-389068d2ebfa/devtools.png",
+    "sha256": "52df01a09d9e2e66521f99f50600421c64d76cd886067c1f147d395166ceac44"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/3.png",
+    "source_block": "792c29a3-8755-4788-9f1e-2e86c90847ca",
+    "source_url": "https://cdn.buildin.ai/s3/bc19c2f4-22e3-4b04-a624-bfd38428c069/devtools_html.png",
+    "sha256": "1caa6829e6e7410edfbd592e7eafac87b2cffc4ffc18542af24bd5febf6c99e3"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/4.png",
+    "source_block": "93d7358b-0865-4b8c-b69d-583ee0ddfb61",
+    "source_url": "https://cdn.buildin.ai/s3/ad276b87-3630-4f32-a447-a1059860a2ff/html_menu.png",
+    "sha256": "d18763f9d7d6ccb4aeb6defb5af8205b5fc895c3d3ba857ca3be9b36f73b002c"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools.md",
+    "ordinal": 4,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/5.png",
+    "source_block": "03c515ea-ee63-4b00-ae5f-b2ed39af0219",
+    "source_url": "https://cdn.buildin.ai/s3/c0ebd638-2b80-491a-a3e5-3f6ece98780e/devtools_css.png",
+    "sha256": "8c8b2fe44b5641bd36b80bd0f6537f439bce3fea409b7b0003b28f0dc41376cb"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools.md",
+    "ordinal": 5,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/6.png",
+    "source_block": "807c35c6-f977-4da0-b4bf-aa948292c5bf",
+    "source_url": "https://cdn.buildin.ai/s3/95b2b6c5-53d2-43e9-bd41-efcb7606ab72/devtools_styles_1.png",
+    "sha256": "b43fcd550844af0460b4991fad62e67d79c33ba877e387adf038a14866014938"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools.md",
+    "ordinal": 6,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/7.png",
+    "source_block": "4b8e5acb-140a-4281-b3ff-ccfd3b975e20",
+    "source_url": "https://cdn.buildin.ai/s3/091fa23f-8026-4961-97ad-078b3bd294f2/devtools_computed.png",
+    "sha256": "36a5bf0a99b32e8d7f6ff02abb8e856a12bb667f21ad4713cfa6ccac03a84c21"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/1.jpg",
+    "source_block": "46cbad45-3637-4f4c-8436-bf6b6b7a6254",
+    "source_url": "https://cdn.buildin.ai/s3/53dc9e31-4db1-407d-94b9-53217142347c/pic-1.jpg",
+    "sha256": "a5bf2db29c7764ae518f1d38e8ba55fc537980cd2d4b431722a95c87eaa1e887"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/2.png",
+    "source_block": "7188c38f-d7d2-43ca-9640-0c1d88c2d0ad",
+    "source_url": "https://cdn.buildin.ai/s3/93bc8aec-cada-401c-b302-fedb7a984953/vscode_html.png",
+    "sha256": "105a0a992c2467ad5f3790d2f88c051878125039cc327ed4bfcfabaa1864945e"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/3.png",
+    "source_block": "aff9ad28-fda8-4b93-9066-a93b7994247f",
+    "source_url": "https://cdn.buildin.ai/s3/97a1e9b8-9172-481a-9de5-3cfb480b2bfc/vscode_html2.png",
+    "sha256": "431dcde07b8d14f778779006c0b1def1a19b849516095b8df9233934d7c8c767"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/4.png",
+    "source_block": "a5ce2a45-46be-4000-9ed1-2065f7005603",
+    "source_url": "https://cdn.buildin.ai/s3/3c38047f-10a7-4e48-8256-7b8d2ffe5ad2/vscode_emmet.png",
+    "sha256": "73c0a0c2ff30dab4a92fa625f57dfb58c6f48b9d32b19b760e8033f52be7614b"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda.md",
+    "ordinal": 4,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/5.png",
+    "source_block": "3a6aa693-f660-4d92-b8fb-362c65bccb64",
+    "source_url": "https://cdn.buildin.ai/s3/63e033f8-c56b-4745-b9e4-a1dfe2de734e/vscode_css.png",
+    "sha256": "60c90728fb03ce26653d80d8b3500675e0af48c2d3ae7c65339f13758fc2d38d"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/1.png",
+    "source_block": "8a21d100-abb4-44da-b540-02a5a55146fe",
+    "source_url": "https://cdn.buildin.ai/s3/f1d1a454-6ac4-4efb-81e0-128d27a3f2c4/emmet_1.png",
+    "sha256": "aca0f9e7e408a8b5872bd3268d39d96042a9bf3fa33903f650cbb7d0fa59d516"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/2.png",
+    "source_block": "48028210-08da-47ee-b8e3-25273f255a24",
+    "source_url": "https://cdn.buildin.ai/s3/d5c6ed41-2bee-4b92-b66b-f07db7d5ea4a/emmet_2.png",
+    "sha256": "9ca97c361d58b5c4ac6509d4af4ea12550f91c6e4ad6bc5e6ef8418cc8255454"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/3.jpg",
+    "source_block": "d3d32c47-ad7c-41cc-b516-97d36f65a308",
+    "source_url": "https://cdn.buildin.ai/s3/acaec597-e902-4de5-8d2b-26775f4e077a/pic-1.jpg",
+    "sha256": "a68e37be30931ebc199aebce891b263e01463bbf7a6341e24ba985afba3bcc04"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet.md",
+    "ordinal": 3,
+    "status": "recreated-diagram",
+    "source_block": "0ce2b267-00be-46ea-8e0a-ec8ae4c79a03",
+    "source_url": "https://cdn2.buildin.ai/s3/0c319ab1-a86f-4faf-a119-bcc36421f7a7/pic-2.jpg",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/4.svg",
+    "sha256": "66a594f7a6a48b691d3ad0d386aa5907e8a18024ad924b7a7302baf0e4dbbd33",
+    "reason": "Source CDN returns an error; recreated from adjacent lesson text and examples."
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/1.png",
+    "source_block": "0c44ce66-8c60-4712-a269-36ec3370f36b",
+    "source_url": "https://cdn.buildin.ai/s3/cc3f098c-7dcd-4f4b-b142-018be8e35bf9/browser.png",
+    "sha256": "a869397dbe7a086eb8e3b69017904bd181d202a8e31619ffa680823ff2f4bce5"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/2.png",
+    "source_block": "187e344d-9ac0-4256-9391-b96ccee20e79",
+    "source_url": "https://cdn.buildin.ai/s3/4023fa38-a7a0-43bd-bf87-49684c0d580d/github1.png",
+    "sha256": "68804e1f3a4bcd991a673c86029c03a465656c40532367c16804444449f34a6a"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/3.png",
+    "source_block": "e2d46b63-366f-4caa-bcb2-1a0b715d1f16",
+    "source_url": "https://cdn.buildin.ai/s3/a844c897-90b8-414f-974a-08e49124a245/github2.png",
+    "sha256": "148b51c43986e247c6e2f4544e5cd71b5d84ca2107183ae9a88673bb9e8204e5"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/4.png",
+    "source_block": "ea68fd29-4a28-42a3-8ec6-70b69bda67dc",
+    "source_url": "https://cdn.buildin.ai/s3/060c0de8-f3f7-435a-9e86-9ccf8a642679/github3.png",
+    "sha256": "0e43ce9ed93cb61b39a17c60c979d1944e56c9a6c9884d0f90dc56e2ebc05a1b"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/1.png",
+    "source_block": "20115403-0850-4c2f-a260-ccd6de64cf8e",
+    "source_url": "https://cdn.buildin.ai/s3/925da5ef-4793-4f45-b80c-35debf11a00f/figma-view.png",
+    "sha256": "c6c6acb4e167461d04eabff265360104cd8a43bbe19478a3072d2539d578d40c"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/2.png",
+    "source_block": "8571cab5-d10d-4ab3-b66e-96ad0bdb0ab2",
+    "source_url": "https://cdn.buildin.ai/s3/8d6e0d80-1528-4632-a7fa-2ea04017f892/figma-header.png",
+    "sha256": "215889163a80a61b1730b18414a8130d45d889a61a95ce055110ee25e4a8bcd8"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/3.png",
+    "source_block": "b935a1bb-2509-4e36-ada7-224989a40c88",
+    "source_url": "https://cdn.buildin.ai/s3/a82b3249-dc43-4aba-86dc-f6d879a96006/figma-layers.png",
+    "sha256": "fc6129758a87b315c85206e492765a6ff00500f558193ec9e298c623314d3456"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/4.png",
+    "source_block": "4a89d8bd-c2f8-41db-9444-2cd187a68c43",
+    "source_url": "https://cdn.buildin.ai/s3/9c5d6fbf-bf3c-44e2-821d-8323a5160649/figma-inspect.png",
+    "sha256": "a002be33798040735eb05df3965420495139ad0bf4dcf9b43f03328c5d903ed4"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory.md",
+    "ordinal": 4,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/5.png",
+    "source_block": "5326ab2f-6f52-41b1-8cc3-9a5621993509",
+    "source_url": "https://cdn.buildin.ai/s3/98659afb-b78d-4adf-9669-d1b4c2067d55/figma-main.png",
+    "sha256": "197561816ca43e380601d9d403ef0c0bc4c0de28ae1801cfaf9bf7be9c533170"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/01-vvedenie.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/01-vvedenie/1.jpg",
+    "source_block": "3f353202-0fe1-4ac9-af07-e2144ef73e5f",
+    "source_url": "https://cdn.buildin.ai/s3/e4b489b5-8dd7-44b8-adf6-9085b048804c/error_1.jpg",
+    "sha256": "4c39cbfd79f6ac062007cfe76a25692df5a06f9425a4e45e901e7ab20712c814"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/01-vvedenie.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/01-vvedenie/2.jpg",
+    "source_block": "edecfe22-f114-4027-b5b9-fc60f8003182",
+    "source_url": "https://cdn.buildin.ai/s3/b7021872-8e24-4545-94e6-18c450b3545a/error_2.jpg",
+    "sha256": "6778e4c16375a925bd1d661b1c066c34fcf8833d59043159f9d14c8090e9d64a"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/01-vvedenie.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/01-vvedenie/3.jpg",
+    "source_block": "353e73b0-7ad6-415b-a320-ae6ecdbeefaa",
+    "source_url": "https://cdn.buildin.ai/s3/fb667b46-6c4d-432a-8b07-42ae339984dc/diff.jpg",
+    "sha256": "852043269380c0677c8b306e733e780236d10f06d60c2a69bc4e2ffc0cb907a7"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/02-blochnaya-model-i-css.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/02-blochnaya-model-i-css/1.png",
+    "source_block": "1b3bfcd5-6ab2-4065-9d35-d633ae2be623",
+    "source_url": "https://cdn.buildin.ai/s3/6081ea10-ea7f-4ceb-acd0-60bdf56c50cb/block-model.png",
+    "sha256": "311d98f41e76c73f81255ece8402fa5250066828f6b5620c6c113a7251facd5d"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/03-stili-teksta.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/03-stili-teksta/1.jpg",
+    "source_block": "873364be-bb67-42b9-b69d-6e124e0920a7",
+    "source_url": "https://cdn.buildin.ai/s3/06d88dd7-2cfd-4780-9e89-ca9db5dff5df/contrastratio.jpg",
+    "sha256": "643895122fa0b33780a47a0a3372d56a00bead7b5f07b97d7cebaa1fafa2ba33"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/06-kolonki.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/06-kolonki/1.png",
+    "source_block": "22e4370d-deb4-4f8c-a6e3-4a5e7249d03a",
+    "source_url": "https://cdn.buildin.ai/s3/ba94d4cc-3dfe-4018-9995-b012e3062ccf/example.png",
+    "sha256": "82cdff0303de68df59c49f93c34a65b2c06f5021f1e77d56164e335303694729"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/09-tablicy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/09-tablicy/1.jpg",
+    "source_block": "57b73ca0-857e-450f-b785-3152e429c5c2",
+    "source_url": "https://cdn.buildin.ai/s3/4b8ce93f-8284-4720-9b97-a450398ea136/table-row-col-span.jpg",
+    "sha256": "79cd721f9fc21cafdb22e63fd883c79126d2de1b7bee9ba6c6e8cd2bb84b75c2"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/10-formy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/10-formy/1.gif",
+    "source_block": "7a2a6e15-4bb6-40c5-961f-521e291aa025",
+    "source_url": "https://cdn.buildin.ai/s3/1a544d3a-d043-48ff-be59-496650dcc4c8/resize-textarea.gif",
+    "sha256": "1cd546702f82c10fff8f47ed2c2c6e1e8bd82d11b32d8799cd31ffe336522b68"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/1.png",
+    "source_block": "cffc8dc8-f64a-4387-b140-ba67b99e7636",
+    "source_url": "https://cdn.buildin.ai/s3/1376ef81-3210-4c9a-b3bb-fe1eb13fd924/yellow.png",
+    "sha256": "491c317ceabce92e8f16ef3d99666bd880672322511331a507246904d8ecd13f"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/2.png",
+    "source_block": "ba718259-9f92-48fb-bb28-5c0deb83463a",
+    "source_url": "https://cdn.buildin.ai/s3/5ebcf29a-8742-402c-a441-1869fbaf637e/card_gradient.png",
+    "sha256": "72ab8351b88468899f3fa750b7c3bb73dd6ff0fc4f1a768367fe0287c1c349f9"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/3.png",
+    "source_block": "feecef9d-ef6e-4201-83d9-4de9df13f21e",
+    "source_url": "https://cdn.buildin.ai/s3/2932e111-ae4f-4d72-9284-5b325d532791/ugly_gradient.png",
+    "sha256": "61c823993c28a741b3bcc5c1600a0a652e631404aa78196c1381085294d0fa3c"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/4.png",
+    "source_block": "9615b89f-a7f8-4947-8b2a-1bf2bf7f11a2",
+    "source_url": "https://cdn.buildin.ai/s3/2d412bcf-ad47-4b2e-8f51-fd23be6cb901/deg_examples.png",
+    "sha256": "5b7062c74648cb5f5fb376b437aa5c87103f97194d2fe8a4b5e900474dfacd56"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+    "ordinal": 4,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/5.png",
+    "source_block": "7792e742-09aa-43a8-a5c1-32f01253aaac",
+    "source_url": "https://cdn.buildin.ai/s3/6d2f6ff7-439a-4ced-8db1-68877c0f6bc8/block_with_gradient.png",
+    "sha256": "86658bc37ffcbb760396a6cba3f1f6af14f42ec41b76b756574619c1064b2b24"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+    "ordinal": 5,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/6.png",
+    "source_block": "2d5ca1f5-43ba-4ea1-b6c0-e928f6ed3264",
+    "source_url": "https://cdn.buildin.ai/s3/621881a7-da69-4ecc-9362-edf383d89010/card_gradient.png",
+    "sha256": "72ab8351b88468899f3fa750b7c3bb73dd6ff0fc4f1a768367fe0287c1c349f9"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+    "ordinal": 6,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/7.png",
+    "source_block": "4d10bfc3-c905-4380-9174-c507ccbd115c",
+    "source_url": "https://cdn.buildin.ai/s3/ada9932c-a8b7-47a1-bb1f-35f3d44ccf05/gradient-repeating.png",
+    "sha256": "7e77ca0e6798d68c83e284783775cb358995e515d80a9a55e29ce93a7bb96562"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+    "ordinal": 7,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/8.png",
+    "source_block": "f653be19-60e2-421d-91b6-b050d8bd2296",
+    "source_url": "https://cdn.buildin.ai/s3/ad06e5fe-21ab-451d-9eeb-0b92163b5e53/color-circle.png",
+    "sha256": "5255a5959894303988046f20259db5dd1d7d28ff9cf6ceee2980fdc2c36bb281"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+    "ordinal": 8,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/9.jpg",
+    "source_block": "1db66e55-d2c3-4e93-ad69-f69ed353b736",
+    "source_url": "https://cdn.buildin.ai/s3/84318dbc-711d-4979-8180-36fbde544665/complimentary.jpg",
+    "sha256": "8af4c49a7b8eef6ab47c620c9b387b8f46f437a794954d0b9a32fed0b8b8b69a"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+    "ordinal": 9,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/10.jpg",
+    "source_block": "ac84a32a-d17d-4a71-bd98-7ffe38162851",
+    "source_url": "https://cdn.buildin.ai/s3/559c01d7-d262-4585-a89c-634388ae8902/triad.jpg",
+    "sha256": "6c40bba51d1999c8320647d8d1d2c2d4feb2dc0e0baa38263a741522e022f1a4"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+    "ordinal": 10,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/11.jpg",
+    "source_block": "72634a79-05ea-4683-b6c1-b3645fd2c31b",
+    "source_url": "https://cdn.buildin.ai/s3/fc69a8c7-9289-49a9-bdb8-bd5d0ab81c68/triad-contrast.jpg",
+    "sha256": "fbc06de762fd53edba24dda922681f102aea3abcd06c1ce1cf27f53f61886872"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/02-verstka-kontenta/17-gradienty.md",
+    "ordinal": 11,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/12.jpg",
+    "source_block": "f577c3bd-6e1d-4fdb-af1e-f6e8baa3c552",
+    "source_url": "https://cdn.buildin.ai/s3/33473754-352d-4633-a15a-39952d9b7619/triad-analog.jpg",
+    "sha256": "dc0d00ced241bab9648008b5310c8b4e363a5d000637a3dc2aab1c2f7b4b29b4"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/1.png",
+    "source_block": "15f3eb12-d23c-424d-a9b6-2d6cd456304b",
+    "source_url": "https://cdn.buildin.ai/s3/893fe437-ee57-4c89-9570-bf23861c7ba3/blocks.png",
+    "sha256": "96158cbd4a940019bc6a8cc5ae8acc62a541a83867eaf70c15d5d980ae804500"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/2.png",
+    "source_block": "38078c92-4123-4f7d-9c7d-0235e323d5c7",
+    "source_url": "https://cdn.buildin.ai/s3/7492da32-ae34-4939-a94d-e008ef821d26/inline.png",
+    "sha256": "54410a73cfa2cf1799ac1e204e50b73791e4adc815ebc1446ad3fdabea40675d"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/3.png",
+    "source_block": "79225735-464d-459e-8017-5376dd08c285",
+    "source_url": "https://cdn.buildin.ai/s3/219a9f84-826c-472c-8fbc-d4523d62906e/site.png",
+    "sha256": "38f622e7f86f39443291dcc1803c87ce6169efb94dd2f68c442585e1fe31fe95"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/1.png",
+    "source_block": "4113eed0-04ed-4c0a-811e-7fb78f0fd01a",
+    "source_url": "https://cdn.buildin.ai/s3/0af8e1ff-094e-47f9-a1ee-0f305c165e72/position_relative_1.png",
+    "sha256": "4f8abe0d87e3767bab7c176ca4cf024e9fa16bbc6a0841f9626d185197538f49"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/2.png",
+    "source_block": "4472e8f0-a2f9-44bc-b20d-9cfc1a5bd40d",
+    "source_url": "https://cdn.buildin.ai/s3/80e090ea-2bcf-4d99-b62d-bc823f9716c5/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2026-02-24%2B%25D0%25B2%2B22.43.56.png",
+    "sha256": "af660ea8f5a338f16681e8234a2449e40fff7f700630c73dc14c55fbaeea6187"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/3.png",
+    "source_block": "a227e2eb-b4d1-4e81-90b1-6f3eb6c5cc41",
+    "source_url": "https://cdn.buildin.ai/s3/1e2eafad-46a8-4ebd-9d30-3a871c1b53c0/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2026-02-24%2B%25D0%25B2%2B22.44.38.png",
+    "sha256": "9a72f9e0896a3c9872591e055e33b94d66ef9573315daecdb0a56c69092949c9"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov.md",
+    "ordinal": 0,
+    "status": "recreated-diagram",
+    "source_block": "abb9121a-3a88-452d-99f7-c0d22f8a6d68",
+    "source_url": "https://cdn2.buildin.ai/s3/02684019-3713-4662-a543-04fb841c98b3/xyz.png",
+    "path": "content/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov/1.svg",
+    "sha256": "5ef565340b04817db88f1496af0597b03e7960d79ea2408e26bc86dec279a569",
+    "reason": "Source CDN returns an error; recreated from adjacent lesson text and examples."
+  },
+  {
+    "lesson": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov.md",
+    "ordinal": 1,
+    "status": "recreated-diagram",
+    "source_block": "c5304dd7-803f-4c7d-b128-64fa4f8e5392",
+    "source_url": "https://cdn2.buildin.ai/s3/2d090a1f-eacd-4162-aa7c-58cb11f2927f/z-index1.gif",
+    "path": "content/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov/2.svg",
+    "sha256": "6fb17c8afd8eb69518d36ca6d2b4c11852baf58edf85ebe1cbb421216fcf93c5",
+    "reason": "Source CDN returns an error; recreated from adjacent lesson text and examples."
+  },
+  {
+    "lesson": "content/theory/01-modul-1/04-css-flex/05-vyravnivanie-elementov-po-glavnoy-osi.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/04-css-flex/05-vyravnivanie-elementov-po-glavnoy-osi/1.png",
+    "source_block": "28ea4950-a6ae-45bb-9ce0-0b8c027a1c13",
+    "source_url": "https://cdn.buildin.ai/s3/8fc4dd38-426c-4b67-b824-46c03289330b/cards-listing.png",
+    "sha256": "bde9b2c1141e71fb1303a9001d70a6920b4706fa29a1f5dee3a49e1c71752159"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/04-css-flex/06-vyravnivanie-elementov-po-poperechnoy-osi.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/04-css-flex/06-vyravnivanie-elementov-po-poperechnoy-osi/1.png",
+    "source_block": "747df9b8-43fc-45a2-a2a5-717214423c31",
+    "source_url": "https://cdn.buildin.ai/s3/6201080c-d551-4c37-9e03-78e173094b97/baseline.png",
+    "sha256": "78207ca3d6ad6df86b7763d6400f971b2815159547cd1efcd036419d49382196"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/02-terminologiya.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/1.jpg",
+    "source_block": "0d2a1052-3590-414e-ae6a-4b94fadb25c8",
+    "source_url": "https://cdn.buildin.ai/s3/c91fa35e-c12c-4d74-b42a-6aa881466cd8/Grid-1.jpg",
+    "sha256": "ca3f7151df8f17076b485fd7f1ad57f5e7f16986b359808f93660ad959b1f5b5"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/02-terminologiya.md",
+    "ordinal": 1,
+    "status": "recreated-diagram",
+    "source_block": "a77c405e-6f78-4182-899c-1d20c913009a",
+    "source_url": "https://cdn2.buildin.ai/s3/78e5f475-1c38-4dab-9513-efbd1903bf1a/Grid-3.jpg",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/2.svg",
+    "sha256": "66ff358a3d368db6c105d11e68c880a08cc4765104aa259b0e1b450090c6db6d",
+    "reason": "Source CDN returns an error; recreated from adjacent lesson text and examples."
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/02-terminologiya.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/3.jpg",
+    "source_block": "6212760a-bb64-477f-8b3e-1e4d0f3818fe",
+    "source_url": "https://cdn.buildin.ai/s3/de256f7c-3ec3-4c18-8d1f-41b626c67022/Grid-4.jpg",
+    "sha256": "11a7836a3a8511660ffa3ff42a5601acb5153e19b40fbcb507f466bb59c7ed66"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/02-terminologiya.md",
+    "ordinal": 3,
+    "status": "recreated-diagram",
+    "source_block": "a9ed68b1-c2fb-460b-8d14-51dbcc10df0b",
+    "source_url": "https://cdn2.buildin.ai/s3/766e9334-9019-4a7b-87f8-33bf264f12e8/Grid-5.jpg",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/4.svg",
+    "sha256": "cb030516522c9de16b3a20446e63869efdd43892354a351730c5a97e1b3bd797",
+    "reason": "Source CDN returns an error; recreated from adjacent lesson text and examples."
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/1.png",
+    "source_block": "b6c930cf-195c-4573-a032-ec2c20571139",
+    "source_url": "https://cdn.buildin.ai/s3/50ae03f1-e43e-4e32-94ce-7379f2038e7c/grid_1.png",
+    "sha256": "7e55a3b814658aa3d6fda0f19e5d644afec99c4d0e57289bd84109629b9a07a7"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/2.png",
+    "source_block": "0cf4f349-7e2e-4e10-921d-4fa912b9c860",
+    "source_url": "https://cdn.buildin.ai/s3/268a1d5b-95b8-468e-ae74-5dd0e4e1fcc8/grid_2.png",
+    "sha256": "4ac0718a29f25cd1050e5f59a0c246e12cf56c6401e733de144188ebd71fa896"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/3.png",
+    "source_block": "95570476-4ef3-4368-903f-a95cca25faaa",
+    "source_url": "https://cdn.buildin.ai/s3/bb3fdad9-e643-4aea-ac0a-c621d9fa0ec2/grid_3.png",
+    "sha256": "47269695f2a59c4883d1c3c7c0266985dc41a1307e1e60bf8b11da9d33a99edb"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/04-raspolozhenie-elementov-v-setke.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/04-raspolozhenie-elementov-v-setke/1.jpg",
+    "source_block": "0fea6b60-31d0-4421-95f3-274aa39978a5",
+    "source_url": "https://cdn.buildin.ai/s3/eb43e94e-736d-4f40-87b6-73a529e783fa/Grid-line.jpg",
+    "sha256": "d68d7b1dc774169b61245d53633f7472dc0c5b430ae0d542fdbdddd9548e593a"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/05-rabota-s-setkoy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/05-rabota-s-setkoy/1.png",
+    "source_block": "ae0a2017-742b-48e2-a6d6-78c232699eb2",
+    "source_url": "https://cdn.buildin.ai/s3/dc379de9-9481-4974-9216-ac3fd2e88cf7/grid-gap-1.png",
+    "sha256": "af425564c90c432ad23cbaf621306e68c6969f53e26021f4cbd620efbb93a15e"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/1.png",
+    "source_block": "b33f54b9-a687-4d8e-b0ad-cad3faff85ed",
+    "source_url": "https://cdn.buildin.ai/s3/6ce0d6f7-c37b-4bd1-a767-61500231ed1b/implicit-grid-1.png",
+    "sha256": "c2aea1ec1214946930712290ddbe695ace1ded46be313c14e1815cc7dea286d4"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka.md",
+    "ordinal": 1,
+    "status": "recreated-diagram",
+    "source_block": "10fc1039-cf83-49bc-944e-fd56e38b04d7",
+    "source_url": "https://cdn2.buildin.ai/s3/e5b2ceb3-6ede-4524-86ea-322b57559b6d/implicit-grid-2.png",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/2.svg",
+    "sha256": "e1d4f8672b00e35a32614481b7b727fe97534b467fff3e668bd9541f57104653",
+    "reason": "Source CDN returns an error; recreated from adjacent lesson text and examples."
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/3.png",
+    "source_block": "e1b47b41-b1f0-4c6a-8ae4-aa9bd9a6c94a",
+    "source_url": "https://cdn.buildin.ai/s3/3dcee215-ec41-47f8-9e48-e72248f884bd/implicit-grid-3.png",
+    "sha256": "1093103c32a47e440bee87dbbb70e0ccfaf57fd38fee60827a09a670d34a3aad"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/4.png",
+    "source_block": "841768c2-df2a-4f6b-8e13-dca74e851951",
+    "source_url": "https://cdn.buildin.ai/s3/ad29b4e0-94a8-4eb1-bf8a-36c3c9352184/implicit-grid-4.png",
+    "sha256": "3b8e4c4d3f502b2658c26913d4fb10f37814dd3c7e7a2ef9793ee74c01409aba"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka.md",
+    "ordinal": 4,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/5.png",
+    "source_block": "ba9ab8b4-532c-4b16-a0c6-ef764d1de6ac",
+    "source_url": "https://cdn.buildin.ai/s3/7f3eaeb0-fd1f-4e3b-a24c-7920d3c06405/implicit-grid-5.png",
+    "sha256": "880ef7c8a4a24cc3c689102225af828825f69bcfa60bca331eecdb072332715c"
+  },
+  {
+    "lesson": "content/theory/01-modul-1/05-css-verstka-na-grid/07-pozicionirovanie-i-grid.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/07-pozicionirovanie-i-grid/1.png",
+    "source_block": "c07d1339-fda4-4378-88bc-98d95eb60ab9",
+    "source_url": "https://cdn.buildin.ai/s3/a31d6513-8170-402d-a697-4911a05f6c25/grid_1.png",
+    "sha256": "6148d2e15ae6e98aebe6e87ff74e6268e4ddb088e821feb26dc48674f8e02b66"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/03-instrukcii.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/03-instrukcii/1.png",
+    "source_block": "bf679555-a225-479c-b648-e8c1b6a3f2ba",
+    "source_url": "https://cdn.buildin.ai/s3/75edae5a-306f-409b-8ca3-ad6e119a48c5/eyJpZCI6ImU4YjMzZjJiZWU5NDBiYzA5YTJhZWVkMWI2MTEwMWY5LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "93919d343b6a57f09435bd96de31b33f385aec4e12d36d71386ea7b8f5333d7e"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/04-arifmeticheskie-operacii.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/04-arifmeticheskie-operacii/1.png",
+    "source_block": "40772c1b-b813-475a-aa78-a043e4302651",
+    "source_url": "https://cdn.buildin.ai/s3/12c9f6c4-5f43-4e64-b818-643eb13e025a/eyJpZCI6IjhiMTM4ZjE4MTc2YmY0MzkxNzdkN2NiY2MzMzljMTViLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "a183561c3cc83250359db6015b466b286b1fcfa6b8beb552d0c4c271cec97f03"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/05-oshibki-oformleniya-sintaksisa-i-lintera.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/05-oshibki-oformleniya-sintaksisa-i-lintera/1.png",
+    "source_block": "f290a00a-8307-4897-b4b9-dd150dc5c3ca",
+    "source_url": "https://cdn.buildin.ai/s3/e8dec993-ec51-4860-a37d-6d38994f7ef4/image_processing20251219-18-ipbojz.png",
+    "sha256": "3878b2a5e46dd4b2f0f93a4034a2f8890a27476ab29e78e2d952c07dc7c6f7e5"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/07-peremennye.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/07-peremennye/1.png",
+    "source_block": "49891686-2e0a-4c94-9567-ce4dbf5bf32e",
+    "source_url": "https://cdn.buildin.ai/s3/fe1a5cc8-b9cb-4af3-a052-78bdc49609ab/eyJpZCI6ImQyMzFlMzExMjg4ZGQyYWQ3NTBkN2QyZmY4NmQ0MjMwLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "3dbce20d8258cb588309d88e58f227673db3b9ec1508e4d504d6526b74ee937d"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/09-imenovanie.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/09-imenovanie/1.png",
+    "source_block": "d79e177e-2196-438c-bb3f-002b7abc6461",
+    "source_url": "https://cdn.buildin.ai/s3/b19891a2-cfab-4dc7-81d8-c3b4e960f6ca/image_processing20251219-18-e5rqvm.png",
+    "sha256": "6a349e31ec032803be2e1ea87b1dc6c1140dada9c94621e7ebf829e5c1695c2a"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/12-tipy-dannyh.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/12-tipy-dannyh/1.png",
+    "source_block": "c3074c95-1110-44b4-b8e3-41ceb5f31714",
+    "source_url": "https://cdn.buildin.ai/s3/a6596c37-8915-489e-9b03-8b74e54f61a7/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B18.10.20.png",
+    "sha256": "1f120b603b159de21846336e3990c1427748dbb3459298cc67d8b2c96bf8c549"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/14-funkcii-i-ih-vyzov.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/14-funkcii-i-ih-vyzov/1.png",
+    "source_block": "c5e60ff3-3cfd-490d-9686-4d3b6e98b5dc",
+    "source_url": "https://cdn.buildin.ai/s3/7f797ad3-9da8-4e87-b332-624738a74cab/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B18.18.16.png",
+    "sha256": "51f1433d055db385bc06078f388c59c5f84ed5886398f17df250f041feb0ed89"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/18-determinirovannost.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/18-determinirovannost/1.png",
+    "source_block": "721b46d7-8473-40ee-9951-aeee73110a98",
+    "source_url": "https://cdn.buildin.ai/s3/4ca02194-b662-4d80-bbe7-df356f040e80/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B18.37.43.png",
+    "sha256": "6144cae7ccef16e39a126c003f2251803b8bf1b2666ceaf21e3dd342e2504889"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/19-standartnaya-biblioteka.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/19-standartnaya-biblioteka/1.png",
+    "source_block": "dc5454c7-4e81-4527-9bf4-58e236c9f352",
+    "source_url": "https://cdn.buildin.ai/s3/0243e06a-d45e-4f53-a511-1e6ecf555947/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B18.36.17.png",
+    "sha256": "01d17666ecdd644a2a0283e3a6385c2d2a17b83f6dfb0809930675adf22bfec2"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/20-svoystva-i-metody.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/20-svoystva-i-metody/1.png",
+    "source_block": "1b126991-1cc6-464c-ab30-28f13065fab9",
+    "source_url": "https://cdn.buildin.ai/s3/8bf1a38a-acb5-4284-888c-96b7c4a48dd2/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B18.43.40.png",
+    "sha256": "6bf2b262b6c6f422a73891fd0b256a46fcadc161d4ec844bf22709a689ce1deb"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/21-cepochka-vyzovov.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/21-cepochka-vyzovov/1.png",
+    "source_block": "04ffb15c-cf85-41c9-8f20-91b625aaf570",
+    "source_url": "https://cdn.buildin.ai/s3/93445b61-d31b-4042-9d2a-8e9dc5ab0e5b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B18.53.21.png",
+    "sha256": "eb49287ce45090a403074c455954135a2ac53caafb86a5505fa925215d321fc4"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/22-opredelenie-funkciy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/22-opredelenie-funkciy/1.png",
+    "source_block": "e54ee13a-f08e-494b-9c7f-45359ae66293",
+    "source_url": "https://cdn.buildin.ai/s3/8b04f8cf-8f08-4f40-b744-4a493591b4db/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B19.05.18.png",
+    "sha256": "f7551ad969748c8dea6cd57d3b51c6be5be8c0c8e27244fcc34e254781f278e3"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/23-vozvrat-znacheniy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/23-vozvrat-znacheniy/1.png",
+    "source_block": "28cf20d1-5235-4992-8cd7-d16e023ade7a",
+    "source_url": "https://cdn.buildin.ai/s3/812e644c-1b15-4bee-9abb-f0539ea5c954/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B19.03.24.png",
+    "sha256": "921917d1f0fecdbaf7c01b5b6c9d3efc62aff48e34ad12281b02a6d11b3842ae"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/24-parametry-funkciy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/24-parametry-funkciy/1.png",
+    "source_block": "b77bdc9e-cfb1-41ef-9827-57f512384cdc",
+    "source_url": "https://cdn.buildin.ai/s3/9102d994-5b97-452f-82f4-2b11098b020f/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B19.08.00.png",
+    "sha256": "012cb1e3b055ab7a2c84b3b1e6289af26e1ebfd96272c3ef472e6619dfd87389"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/25-neobyazatelnye-parametry-funkciy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/25-neobyazatelnye-parametry-funkciy/1.png",
+    "source_block": "3c07cd1a-0de4-4a33-be13-8758f7e88a5b",
+    "source_url": "https://cdn.buildin.ai/s3/d691ff2b-a962-4d98-bb2b-6b8e1fa73e70/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B19.12.22.png",
+    "sha256": "cb8e5be5cc4f92e6571bbc67665fbecda0dbe41dc2fae0c72b278e6979fc81f6"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/27-logika.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/27-logika/1.png",
+    "source_block": "632f6e25-d37f-4ea5-a7e8-6260fda05416",
+    "source_url": "https://cdn.buildin.ai/s3/b8b0a26f-b0e9-4937-af8e-72dc96bad733/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B19.15.38.png",
+    "sha256": "87098ce0689c62ca43720ebda1be5d426af1a18b07f0057eb4af2acf9ca82ce4"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory/1.png",
+    "source_block": "84636e22-38ff-4b63-abc4-eb000a09b0fc",
+    "source_url": "https://cdn.buildin.ai/s3/c9dd6cd4-f447-4d03-898f-056f2b39f7d6/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B19.20.53.png",
+    "sha256": "243477a6afc9edf3e62c0b2d2824bb3c201075fca594fca06550c14139f8d98f"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory/2.png",
+    "source_block": "cb9cb099-5551-4f29-93ee-354ecce661a1",
+    "source_url": "https://cdn.buildin.ai/s3/19d4864d-3128-496c-83ca-2d2d36c8eba8/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B19.21.53.png",
+    "sha256": "f8869133532e215e644274e85a30eb15ce0d20c96cca41c1f9b6e78f609a706c"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/30-uslovnye-konstrukcii.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/30-uslovnye-konstrukcii/1.png",
+    "source_block": "11a6599e-7db1-43ec-8ecf-a1ed27fbcf13",
+    "source_url": "https://cdn.buildin.ai/s3/b0e6911c-96fb-45c3-8f48-7a4511142e63/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B19.32.07.png",
+    "sha256": "fba294b29d659d9c2f118eee989a4a5ca6022346191e9b7c467a08af5b2970c3"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/31-ternarnyy-operator.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/31-ternarnyy-operator/1.png",
+    "source_block": "606fbf47-41bd-4795-ae2a-5c1c779852fc",
+    "source_url": "https://cdn.buildin.ai/s3/8df6d486-7dfb-4ef0-91fb-bbee3494447c/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B19.53.29.png",
+    "sha256": "4d83a385195fe20ff4358a033a86efa4a3186c92611317bc5f7a21ec77e49c3d"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/32-konstrukciya-switch.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/32-konstrukciya-switch/1.png",
+    "source_block": "8d0424be-0531-4c37-bb29-434bb541ae7d",
+    "source_url": "https://cdn.buildin.ai/s3/d544de4b-7ecd-43ec-84f1-924540515086/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B19.57.02.png",
+    "sha256": "4efee25cc90161a3e1a0b47808b38ba7ba74cdfee2abc19b2a3440941e773b26"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/33-cikl-while.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/33-cikl-while/1.png",
+    "source_block": "4aaf9b3d-9a70-4984-80c7-7c75398762ef",
+    "source_url": "https://cdn.buildin.ai/s3/4d61b358-f46a-4ec8-98ac-05a0e43b8fe1/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B19.58.42.png",
+    "sha256": "25e8b248b6bf9a21ce707af5aab18d904edbc3d94e1e0ae2c58e6a1fc346f4f7"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/34-agregaciya-dannyh.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/34-agregaciya-dannyh/1.png",
+    "source_block": "e09db03e-49d8-47b6-b409-cbcc94e7b0d1",
+    "source_url": "https://cdn.buildin.ai/s3/55853697-38ba-41ac-88c5-19e895eb26e9/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B20.01.04.png",
+    "sha256": "5e08bbe9d6cb60e05fefc43c024262f030816cfa1b17a37171ee270ed1c414b8"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/36-usloviya-vnutri-tela-cikla.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/36-usloviya-vnutri-tela-cikla/1.png",
+    "source_block": "71412dc5-0288-4db1-ac8b-2ed9c9991e51",
+    "source_url": "https://cdn.buildin.ai/s3/5027e462-0b6c-459e-b9d8-909b0d8a6e77/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B20.07.02.png",
+    "sha256": "616dcff7a6c419e7925be6eb8d33207876f2c0076dc10e87883899af6f7d0996"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/01-osnovy-javascript/39-moduli.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/01-osnovy-javascript/39-moduli/1.png",
+    "source_block": "762e1c05-5797-42a3-b62a-b48667ee1963",
+    "source_url": "https://cdn.buildin.ai/s3/54580021-a745-4e98-9464-905bea092a0d/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-23%2B%25D0%25B2%2B20.13.10.png",
+    "sha256": "1fdc9740cdab23cca97adf47a70980087118655aad4948ef511f843bd676035d"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/02-js-massivy/15-teoriya-mnozhestv.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/02-js-massivy/15-teoriya-mnozhestv/1.jpg",
+    "source_block": "8196e883-c2f9-442b-afb1-ce05b0fb6543",
+    "source_url": "https://cdn.buildin.ai/s3/cfa18c3a-bc5a-4c2b-9e75-2589b1f5b055/eyJpZCI6ImM3YzQwODFhNjc3NThiNTY0N2IwMTVkODk5NDI0YzU4LmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "239959919e1a46c96ca734ef247c705cf1fbf27cc1c12ad22e5ba618a6cd3dbf"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/02-js-massivy/17-stek.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/02-js-massivy/17-stek/1.png",
+    "source_block": "6e24a667-835e-4f9c-bb0d-045ba310b3e0",
+    "source_url": "https://cdn.buildin.ai/s3/788175dd-ce1f-4c2d-9b7e-26d9e41ed20c/image.png",
+    "sha256": "cf6d3a5b1beb0c6f461bcfb4f4da543cf64f35f6d5b79b6f486da4a461def811"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/02-js-massivy/17-stek.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/02-js-massivy/17-stek/2.png",
+    "source_block": "fcdc7d8f-3e55-4a69-bc09-73f82d1648a7",
+    "source_url": "https://cdn.buildin.ai/s3/7564b123-2b3e-48be-b7d5-954b694c253d/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-24%2B%25D0%25B2%2B13.28.49.png",
+    "sha256": "5e4cce65c5b2d02e03afa8617ef511d160eb578ebc0ae2c80c490da63230b020"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/02-js-massivy/18-big-o.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/02-js-massivy/18-big-o/1.png",
+    "source_block": "9e8ab1d9-f1dc-4820-8cf3-465606d57fcc",
+    "source_url": "https://cdn.buildin.ai/s3/51f29eaf-2e0f-461a-839c-a966dd748f6c/eyJpZCI6IjJhODFiNWQ1M2MzODlhOTliNWIxNGMxMmI4YjgwZmViLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "9d754331de0a97a624b7138fca70b341f3cf59e5425a1f31fd90bbbe638991dd"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/02-js-massivy/18-big-o.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/02-js-massivy/18-big-o/2.png",
+    "source_block": "61a9b9f4-69a0-42b5-a70b-3b31a975e5a9",
+    "source_url": "https://cdn.buildin.ai/s3/7460386f-5984-4ab9-898e-a31049592873/eyJpZCI6IjZjMWI1ZTMwYTNhNWMyODBhNzM4YjhjYjhkNGM1Y2EyLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "485285dd9a2b93bd9bc54e641fe3014713516b8cce95b1fe257e1c445532b9a8"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/02-js-massivy/22-massivy-v-pamyati-kompyutera.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/02-js-massivy/22-massivy-v-pamyati-kompyutera/1.png",
+    "source_block": "de224786-d2c1-4034-a26b-9e0e792ba521",
+    "source_url": "https://cdn.buildin.ai/s3/3a1ae002-49a7-4ae1-a32a-2df32d8746ad/eyJpZCI6Ijg5OWZmMGY3OTAzZTIzNmUxYzRjNDM2MWNmMGMzMzM4LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "1f096d072937e8887669b7b5941862f2a666b79346841939d2dbb1b5ecd1f040"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/03-js-obekty/01-o-kurse.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/03-js-obekty/01-o-kurse/1.png",
+    "source_block": "31e13e82-aa0d-4c59-8518-81b1f229f0e2",
+    "source_url": "https://cdn.buildin.ai/s3/e3a27fab-7a6f-4108-b12a-e75d01791bd9/eyJpZCI6IjVkYzYzNzQ2YWNiOTdmOTlmOGE2MTA0OGU0NGE1MDI1LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "62d3f9ac48016125ba8b2d99e485469a380b5c68762d47de84b9ee38de820870"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/03-js-obekty/04-ssylki.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/03-js-obekty/04-ssylki/1.png",
+    "source_block": "26401fd0-f485-45f7-9ce8-862cc142b5d2",
+    "source_url": "https://cdn.buildin.ai/s3/2763222e-d081-489a-b217-b44689179625/IMG_8973.PNG",
+    "sha256": "e657c88cd68c80616c1b78546e5961bb565ce1f6fdc3b609ef3a9ff0b8619fdc"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/03-js-obekty/04-ssylki.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/03-js-obekty/04-ssylki/2.png",
+    "source_block": "cfbdf73d-465c-4715-8be9-7e5a34bd23bd",
+    "source_url": "https://cdn.buildin.ai/s3/e73ee0c0-6521-4a06-9dcc-a28cced0c4e3/eyJpZCI6ImI3OTU4YWZmOTUyNGE2ZmIxYmM2Y2YxYzZhZTM1YTAwLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "fb34cc32f6fb5c78d361cc151984b1d811dd84598ff1c70b822ff4d26ee3b0a5"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/03-js-obekty/13-hesh-tablicy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/03-js-obekty/13-hesh-tablicy/1.jpg",
+    "source_block": "18131231-6ff9-41a6-851f-ae52a7a4e74e",
+    "source_url": "https://cdn.buildin.ai/s3/bbc44a0e-e9e7-4bf1-bdd8-041c7a1a324f/eyJpZCI6IjJlMmY0MzRkZjFlODVkYjIzYjZlMmY0MDk0YjcwYjMxLmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "0053dcc97b96a7635d2cece085be68811733a33b5bde73dda809ae26d840994e"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/01-vvedenie.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/01-vvedenie/1.png",
+    "source_block": "9018c7a8-9759-42ab-b23f-8bcca920858d",
+    "source_url": "https://cdn.buildin.ai/s3/4bd82c27-c6c0-4499-acbc-eac93c4e3f17/eyJpZCI6IjZlOTJlYjM3Yzk3MDJjMDE0OWY2YzhhMTQxYzg5YWZkLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "22299dd004b95de6c6fd6df651dba1040f1c58ef06e5cb4221e4fde1ab88e2dd"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/1.jpg",
+    "source_block": "8831b6c6-8043-4c04-b6e7-f7a3cbc23cf8",
+    "source_url": "https://cdn.buildin.ai/s3/c1325121-ab00-43ba-9c89-abb59574ebf3/eyJpZCI6ImI2MzhhMzE1NzQ3MWRlOWNmMDUxZmY2ZmZiMTkzMWEzLmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "06ef8cf3a166a55ec937e28254a5f49787d2c68c7f3cbaa513694a1ca1e3a2b0"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/2.jpg",
+    "source_block": "ec238e9f-c397-4b59-bc43-3b484cd5b77e",
+    "source_url": "https://cdn.buildin.ai/s3/6a0237f9-2365-4deb-b5a6-6edb713dd667/eyJpZCI6IjE4YjVlYWI1MDI0ZTQ3MDk1MTQ5MjJjMGQzMzZhZjZhLmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "bb606ed6c12abf529b060c0578eb193d73761157d4bf6a25eb6a689f7ca2c7b7"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/3.png",
+    "source_block": "60b7cb34-3602-4e12-91c1-de0707681fd6",
+    "source_url": "https://cdn.buildin.ai/s3/8d375f7e-7162-4e55-a604-37cd47413982/eyJpZCI6IjM5NDFmYmExNzMyYmQ1ZWM1NGI2ZTc1OTc3NDZjZjBiLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "3b91bd1f7c8bec1feea9a974f9e9be11b92bcf68267cbd8125fd500ca51c9a4d"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/4.png",
+    "source_block": "8e9bb98c-440c-4ee3-bc43-ee74cde5fd3b",
+    "source_url": "https://cdn.buildin.ai/s3/a8c98e45-6496-4f94-8843-4f957b2c61ed/eyJpZCI6ImJlZjc4NzNlZDk2MDdkZmI3OTk1Yjc4N2ZkMDlkMTk1LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "f0cffe2fbbf24e9d568ac733fd4e3d6e0729eb23f471ba5f67305746457ae77e"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/1.png",
+    "source_block": "22367398-3604-425c-9d5d-b1f6c2eb4025",
+    "source_url": "https://cdn.buildin.ai/s3/93edabf5-6a4d-4e5b-933f-e1bdecc241e2/eyJpZCI6IjQ1NTAyZjhlOThhODAwNDAwNmUxNDA0ZmIzMTM4ODFmLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "dc3b3e74ef5666dff18d13de8a8135b893766ec1bd8b78764294b140d9ee0d2b"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/2.png",
+    "source_block": "025a0574-5bbc-4ad2-a906-d29e2ae5a742",
+    "source_url": "https://cdn.buildin.ai/s3/85d8b3e0-31b0-4eb6-875b-671f09f3bb4b/eyJpZCI6IjhhMGJhOTM4ODE3MzUxMTA2ZDYxMjkzNTE5YmYyMjVmLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "5ebda8b92db937f48580a7d9c32573e8fac3ed34b602d1b497b296fcddad4357"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/3.png",
+    "source_block": "cddab558-9967-4d1a-aea4-894c840b5286",
+    "source_url": "https://cdn.buildin.ai/s3/9018c688-f4cf-428f-8c45-02664ba7dc3f/eyJpZCI6IjViNGRlNTgwMzU4MmFmNzA2MzhhOWNmODhjYjRjYjI4LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "f42326583c278ffef4fb7e929b474ba695626a33e5a80da9ec1596d064b9d071"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/4.png",
+    "source_block": "c1968b28-f29c-482d-a933-2857ca640feb",
+    "source_url": "https://cdn.buildin.ai/s3/0f2870ca-c563-4b9b-b097-3ac27e23b730/eyJpZCI6ImE4OWQ4ZmVkN2RjMmM4MTU0NDVkMDc2MTNjYzUwN2VlLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "98705e820b11fb17d2f0b326abab7068a4f20214b912234450615bc49d6f0865"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki/1.png",
+    "source_block": "7fb953ef-95df-4bd4-b0c0-145b1269054c",
+    "source_url": "https://cdn.buildin.ai/s3/7631c5ab-d637-4172-9b90-5ad699cec5a6/eyJpZCI6ImE4NzE4NmZiZDkzZmIwMGUwZmYzZmEwOTk2OTIxYTlmLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "195ffd0446e6f177c146257843da00f30356fecde1b5b92e552dadaa3b532376"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki/2.png",
+    "source_block": "17a580d1-f4b3-42e9-97f9-ed550de0a929",
+    "source_url": "https://cdn.buildin.ai/s3/17f5721f-6b16-4ce2-9e88-26fb43c23210/eyJpZCI6ImNjYzJkNzgyNTU1MmJhODM4NmI3NGNlMDFiZGYwZDM5LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "971852b30960d05b1dd3d93238d53b718327620d8493af911afa8aff83a0985a"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/06-faylovaya-struktura.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/06-faylovaya-struktura/1.png",
+    "source_block": "1a6cdd8d-3cfe-40ce-af20-dc2a1bd9e941",
+    "source_url": "https://cdn.buildin.ai/s3/4ab6cf33-4c1a-4c19-a33d-af4389ed18f4/eyJpZCI6IjM0MWU2OTUxNGZiODM4ZWRkZWQ5NzE5YTY4ZDFlYWQ4LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "107c6f2fb08bb56617cbdec28852eef0c6027c8f04d47ae49dce5dd04f1832c7"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/1.png",
+    "source_block": "a4455473-7b73-4dc3-bc1e-fa8c1f5b5cda",
+    "source_url": "https://cdn.buildin.ai/s3/44652ca4-fa89-4e27-a1c2-0490a18c7115/eyJpZCI6ImRhNzM0MTZiODdjMWRhNmY4ZGU5N2YzYzQxYTdmMDE2LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "9c835d2e2a1b65604fa6a17db1c97538fea96cb9ba2bdc0c25a480ef0682269c"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/2.png",
+    "source_block": "6a5a1396-d881-4dc1-ba48-56826d6af8f9",
+    "source_url": "https://cdn.buildin.ai/s3/dc291a03-181d-4969-8cbd-5255c0f19f63/eyJpZCI6IjBhYmY3OWVhMWUxNjllNzAzZjkyOWMwMzQ3OTQyMmNhLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "00b8346f26bbeea4d51320ea58757fb4953ef5ddd2f5c1281792c9a02ddc0a13"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/3.png",
+    "source_block": "378a8fa4-274a-445e-bd5e-299128953684",
+    "source_url": "https://cdn.buildin.ai/s3/fab4f6ef-9891-4d84-a7a6-b73989939c4f/eyJpZCI6ImM0ZDk0NzAzZDJlZjczNTU2MzQ0ODE2N2E2ZTBiMmE4LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "a287bb7268832ddbf919a8900f73a93499ed07130223fa8e23ed2465b74aa320"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/4.jpg",
+    "source_block": "de1921da-f74b-48df-9c35-b6801d37e6e4",
+    "source_url": "https://cdn.buildin.ai/s3/e58186e7-9734-404c-844b-ac6393473ef8/eyJpZCI6ImQyMTViNDRjMTNmMDQzZjE0NGZiZDEyMjExOTdiZjE4LmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "28a1317ade3a25195fda1fe31f2153a074f21d8b7de0f111395aeb78dc173cab"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/10-potoki.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/10-potoki/1.png",
+    "source_block": "631e52f8-9d89-402b-b94c-f4d77a86d03c",
+    "source_url": "https://cdn.buildin.ai/s3/b7dfcf8c-881f-4904-a1fb-46f52f3ddb7a/eyJpZCI6IjBlMGVlOTAwMTY3MjhkM2ZkZjhkZTc1NGQzZjA5OWY2LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "41accca0e2ba7f08ab5730ea97c21165e1baeec9550bcf19a37709790c176f60"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/11-payplayn.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/11-payplayn/1.png",
+    "source_block": "9e507a61-467d-400a-ae18-3dc3bae313e6",
+    "source_url": "https://cdn.buildin.ai/s3/ef25be5b-f877-4f2b-ac9a-c94f156cefba/eyJpZCI6ImU1OTRjYzM2ZWQyOGVhZmE1NTJmYzdhYzc2ODE1YzBjLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "28fb4fb895d18a6f3ee61363735622fd38f7f484568688b84991c209eba0c168"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/14-istoriya.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/14-istoriya/1.jpg",
+    "source_block": "5315735b-d3e7-4f53-9477-9d39c658fa59",
+    "source_url": "https://cdn.buildin.ai/s3/b03ada2f-d1cc-4aa6-91f2-cccabedab37b/eyJpZCI6ImMzOWQ3ZTdjMGMxYzM1OGVjZDFhYWU3ODMxZjUzMDBjLmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "6bcaeab955764d2679f575dcb0c93e97e97351f6eab6cd997ec6cfea05c6a504"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy/1.png",
+    "source_block": "91332dc1-76e6-4ef2-b449-19844261b6fe",
+    "source_url": "https://cdn.buildin.ai/s3/c42ddc89-4ef1-400c-a082-8aab31879d5a/eyJpZCI6IjZkN2U3ODM2YzBmNmM3ZmFkZTI3OTFiYTU4YTNjOWQxLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "15ccf88c552065061bd674dc622d97ff7e290998360f37a76bfde6d10aed5e25"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy/2.png",
+    "source_block": "aae7ecea-a9b1-4f15-ba26-9dc8cca42025",
+    "source_url": "https://cdn.buildin.ai/s3/f59d11b9-ac29-431a-ad70-b722d6ff4df8/eyJpZCI6IjE1YmY5NzFhZTYyZGQxZWNiN2RlMjUxYzQ1NzU3MzhhLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "73bd22ecd31708a5baa0d5c0150ba7110c67a6b6608ca57de8014583ea199211"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/04-osnovy-komandnoy-stroki/17-prava-dostupa.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/17-prava-dostupa/1.png",
+    "source_block": "4f01e098-ee65-4393-8bcd-cbdaf2d93b03",
+    "source_url": "https://cdn.buildin.ai/s3/8dce287b-d2c4-4245-af87-189fb7937298/eyJpZCI6Ijk2Mzc3OWQzMzZhZjVhNGNhM2UxY2JiY2Q1OTgwOGNhLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "2c8900261cde0e7ec8feb06d2192ee57cf9a2d327022b001289320baad45377a"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/05-vvedenie-v-git/01-vvedenie.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/05-vvedenie-v-git/01-vvedenie/1.jpg",
+    "source_block": "9b68434d-35c7-4c47-86cc-2b1b19497006",
+    "source_url": "https://cdn.buildin.ai/s3/23d5ffa2-9ddb-4eab-8e26-114cdecacc8d/eyJpZCI6IjhiMDllNjY4MGEzNmExZmRhN2NjNWY1Y2NkMzQyYTU3LmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "4d3bc17d91d573c08df1e62a2ea259d44d4c498b8e5c8305e2112fd37ca51dfd"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/05-vvedenie-v-git/02-rabochiy-process.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/05-vvedenie-v-git/02-rabochiy-process/1.jpg",
+    "source_block": "bfbca2aa-daed-48a1-850b-1ece4f3c54d7",
+    "source_url": "https://cdn.buildin.ai/s3/bca64670-0c0b-4b6c-b788-fb910a876f1d/eyJpZCI6ImRlZWM1Yjc5NzlkNjYyZWZmMTdjOGM2ZjA0ZDVjOGVhLmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "275b5645c9848640c69b59159b7b187f87a3e91e2d28a5c8b43a343d79d4fe90"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github/1.png",
+    "source_block": "e635db51-b849-4e5a-899c-10fd4cd3a124",
+    "source_url": "https://cdn.buildin.ai/s3/149df36a-d7f9-488a-84ee-38f0d2ae6fcc/eyJpZCI6ImY0YzY0ZmExY2M0OWM1NjgxZWUwYjg2YTI2NGUxYTRhLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "44242e8cd755fef3ee554a67a71b8d5adcb2d4c8c5c33d1cc951c8558e02c100"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github/2.jpg",
+    "source_block": "0fdff3c0-9785-47a1-82eb-e1c899ded88b",
+    "source_url": "https://cdn.buildin.ai/s3/1d16406b-fa03-44c8-b54c-5f235954c1fc/eyJpZCI6ImRmOWEwMzc3ODg2MjAzMDM2ZmUwODM2ZjAyYTE3ZDExLmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "5b9ee73d4eb02aa8b8ee1614fbde37f62738b34ab6c3bd613af6bb1b02d150fc"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/05-vvedenie-v-git/05-analiz-sdelannyh-izmeneniy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/05-vvedenie-v-git/05-analiz-sdelannyh-izmeneniy/1.jpg",
+    "source_block": "da541df7-38d1-4766-8741-12ddc9bdc343",
+    "source_url": "https://cdn.buildin.ai/s3/b86d1370-6491-4b6d-8dfa-77590cffc5fe/eyJpZCI6IjRlZDgxZWZkNDBjZjIyMzI4Mjc1M2QwMGI4NDJhM2E0LmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "39845edbbc8cf0971f35307ceaeee952303633a3fbaa089b09a1976c25800e8d"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov/1.svg",
+    "source_block": "5a7d0ad5-94b5-4aad-8e38-42fda7a5d244",
+    "source_url": "https://cdn.buildin.ai/s3/621d475c-d7fd-4c9c-bee6-b00a69de3d62/eyJpZCI6ImI2NjMyYmUyOTg2NGM1Nzk2MWJjNzQ2MDlmZWMxZWNjLnN2ZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "9f6b5c7872e9322b14930f13f05ef4063b6cd2ae95db49a5bb0081acfbb77565"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov/2.svg",
+    "source_block": "85c4015e-857d-40d0-96c9-3e398baf358d",
+    "source_url": "https://cdn.buildin.ai/s3/7261fe03-106d-4105-90cc-0b792b7fda44/eyJpZCI6IjQ0MWZjYTIxM2JiMTIxOWI5ZjM2YWY2ZTI5ZWIzZDVhLnN2ZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "e1db5031466100a9d80eb20988734eceea79b052462059acacfcc67dd0c1c482"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov/3.svg",
+    "source_block": "d45d8046-d475-47b8-86e0-a5f283bea4f6",
+    "source_url": "https://cdn.buildin.ai/s3/b4576753-f416-4df9-b69d-3ac5aa93d3c1/eyJpZCI6ImRhNzg5NGNhM2M0NjFkYmFhZGE5MjBhMTYyMjQ5YmI4LnN2ZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "4c7675bdb0d336d57f031c3ceb2498d56ed34a6db4406f47d0e840fa2b0adb72"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/05-vvedenie-v-git/12-ponimanie-git.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/05-vvedenie-v-git/12-ponimanie-git/1.jpg",
+    "source_block": "205f3dfc-c6db-4bf5-970a-18dbdb1d0a41",
+    "source_url": "https://cdn.buildin.ai/s3/bddd2267-f127-45a1-8cbd-e35dab5bb4c4/eyJpZCI6IjFjMjBkMzI3Mzg0ZWM3OGQ1ODRkZDZjYzU2ZmJjNmEwLmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "3b1ce5cc27c6b3ada2a67c87e25f6abdec75bed5f46920f4608be0161ef7f0b6"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/05-vvedenie-v-git/14-stash.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/05-vvedenie-v-git/14-stash/1.jpg",
+    "source_block": "ef9f3459-5d01-4367-a4b8-f866bd6a95b8",
+    "source_url": "https://cdn.buildin.ai/s3/a5f871a9-75f6-4631-a634-441d3ad148c1/eyJpZCI6IjVhYmQ4MTlkYmEzNDQwMThlYzJkYmJjY2FkZTRkMGFlLmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "4b72582762dc311edba167c996b170a7572a2a1358a653132632335648b90f6b"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty/1.png",
+    "source_block": "5747d7fd-f091-4b7b-b2ff-eb45b17d2b1d",
+    "source_url": "https://cdn.buildin.ai/s3/6135091c-4b0a-4004-843e-1235f9229030/eyJpZCI6ImM1ZjM2YjMwOTBjYTNiNzVkZGNjODdmYjU5ZWUyNjY2LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "51c0d4e8ef3128780c91d6ac5a7b87a41d5a7ebd793df3e42b42aba1964162d6"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty/2.png",
+    "source_block": "25eff322-f5c1-4f2a-9692-dc1981fe8dd8",
+    "source_url": "https://cdn.buildin.ai/s3/0298f5af-6ee7-4593-9ff5-07d8d9461319/eyJpZCI6IjRlZGZhNjg0NzRlNmFkNDhkMzkyYWQxNTU1NmExYmM1LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "9f6fd8a0cd69a0831dd809f01c33f03740340aecdc98725d4c4b862a50d2b565"
+  },
+  {
+    "lesson": "content/theory/02-modul-2/06-js-nastroyka-okruzheniya/07-lock-fayl.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/02-modul-2/06-js-nastroyka-okruzheniya/07-lock-fayl/1.jpg",
+    "source_block": "dadf8664-6013-4eb5-aae0-211bcbdd83bf",
+    "source_url": "https://cdn.buildin.ai/s3/38d5ef3e-c86a-4763-946b-7e97de3d2373/eyJpZCI6Ijk5MTNhYmFlNzQ0MTgzYmRhOTg1YzY2NDM3ZDBkNjZiLmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "614a2342e2d1194f6939b7283259f8e300ad3d1750f43ecca38fa2f3f40c1b44"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/01-js-funkcii/01-filtraciya-filter.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/01-js-funkcii/01-filtraciya-filter/1.png",
+    "source_block": "54b7ff48-6aea-46bb-a9ac-52fe1a21691d",
+    "source_url": "https://cdn.buildin.ai/s3/d59946b9-4fd9-4101-bed0-4d6fc8b8445f/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-25%2B%25D0%25B2%2B16.48.24.png",
+    "sha256": "f0dad4a58ca30903e81673274a2109508067079c279d138dc27366d95a368fba"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/01-js-funkcii/02-otobrazhenie-map.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/01-js-funkcii/02-otobrazhenie-map/1.png",
+    "source_block": "d6b43379-8d7a-46e8-b1dd-2f0cc595c62e",
+    "source_url": "https://cdn.buildin.ai/s3/43ba5788-22a8-4743-b110-095fec3f79e2/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-25%2B%25D0%25B2%2B16.45.33.png",
+    "sha256": "5abd92718fc9f9db9d7952bb8e1e54bc7797a5125f63d98428981f157902542b"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/01-js-funkcii/03-agregaciya-reduce.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/01-js-funkcii/03-agregaciya-reduce/1.png",
+    "source_block": "778c86d9-c9e1-4241-9b7c-ff06c2a37af9",
+    "source_url": "https://cdn.buildin.ai/s3/8d807a71-724c-45ff-b453-b86396087120/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-25%2B%25D0%25B2%2B16.51.30.png",
+    "sha256": "4b6f2d74baae3b599fb9c5cb3addcb22532d7a24b64adc8f9b976f54093b23d3"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/01-js-funkcii/04-abstrakciya-s-pomoschyu-funkciy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/01-js-funkcii/04-abstrakciya-s-pomoschyu-funkciy/1.png",
+    "source_block": "7bde5444-bcaf-46f8-9f03-41c15aa66266",
+    "source_url": "https://cdn.buildin.ai/s3/98a38369-30ad-466a-9354-f704727bff19/eyJpZCI6IjU2NTllMDg1NjY3MmUzMThiMjVlY2Y3MzRkN2Y5MDI0LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "e9f6a0ebfe2183d73d4383bd57ee7c04030c17b9595624f0d32be64860bc358c"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/01-js-funkcii/04-abstrakciya-s-pomoschyu-funkciy.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/01-js-funkcii/04-abstrakciya-s-pomoschyu-funkciy/2.png",
+    "source_block": "e9c9b191-6677-46d1-b8dd-5f151a9a1081",
+    "source_url": "https://cdn.buildin.ai/s3/ff5ad323-41c3-41d9-9cdc-6ce80ca2da45/eyJpZCI6IjIxZTlkNWIwZTY1OWY5NzNlYjYzOGFjZjkzY2ZmNmQzLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "78a748a584751e72d0224fb9f629765028f90b38e4bd9e6f7b730cbd23af610c"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/01-js-funkcii/10-chistye-funkcii.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/01-js-funkcii/10-chistye-funkcii/1.jpg",
+    "source_block": "381ff039-315b-4d06-b92a-4d56a3da58ad",
+    "source_url": "https://cdn.buildin.ai/s3/799a24d5-d9b1-4893-ad73-c0a03f02205e/eyJpZCI6Ijc1YWVmMDFhNjQyYmJiZjgzMWZiZDM0ODYxNjU3OGQ4LmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "4dc8e316eb8743b655399b8720076bd91d2156d4d1b7d7fc6a374dc2d14a8816"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/01-js-funkcii/11-paradigmy-programmirovaniya.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/01-js-funkcii/11-paradigmy-programmirovaniya/1.png",
+    "source_block": "ab0426c5-4caf-42a2-82b4-dc598ea602f6",
+    "source_url": "https://cdn.buildin.ai/s3/1d4d9a06-32e0-47f1-bb89-6c68a107f1df/eyJpZCI6ImM3NTFkYTk0NjhmYmViNjFjMWY4Y2MyMmUxNTVmYTFkLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "a3d9106f15f54f6e7373bb895b468b02f29c644648fa8a511f1070bb6078297d"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/01-js-funkcii/12-oblast-vidimosti-i-zamykaniya.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/01-js-funkcii/12-oblast-vidimosti-i-zamykaniya/1.png",
+    "source_block": "71d95359-74b3-4e08-a0f2-beec11ec745f",
+    "source_url": "https://cdn.buildin.ai/s3/e43c923d-7d8a-4517-a481-44b812293102/eyJpZCI6ImNlMzI1ZDNjMjc4OGRiMzRkNTRhNjJhNTUxMmM3YTY3LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "da543c99fca293965fa8adf36864f5f3e3a51e0b6f849a77f6148bb6bcd11a5e"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/01-js-funkcii/15-cepochka-operaciy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/01-js-funkcii/15-cepochka-operaciy/1.png",
+    "source_block": "79fdc038-56c2-415e-89ac-df392714a4aa",
+    "source_url": "https://cdn.buildin.ai/s3/be52cd74-3e64-403c-8409-a68a3a371cf6/eyJpZCI6IjQ0OTBkNjc2M2E5OTUxMjRkYzdiZWYzZGU5MWRhMzU2LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "4b357d2db2c13ed5a29deb2bef11faa4433e0919c6698b88da4c50895f390cdd"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/01-js-funkcii/15-cepochka-operaciy.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/01-js-funkcii/15-cepochka-operaciy/2.jpg",
+    "source_block": "15cecbde-4b8e-402d-9a21-af1d982af52b",
+    "source_url": "https://cdn.buildin.ai/s3/6981b5bb-9af2-4e80-b9e8-e5c12f3da1a5/eyJpZCI6IjY4YTYzZDY5Yjg0NjYzZjY3Njg4YzVkMDUwZDI5ZGNlLmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "9d09d4249fb9eb44b6bed83f01cdb972e9e12d468acd7d795489629b39acbada"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/02-js-avtomaticheskoe-testirovanie/09-razrabotka-cherez-testirovanie.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/02-js-avtomaticheskoe-testirovanie/09-razrabotka-cherez-testirovanie/1.jpg",
+    "source_block": "05a756b4-72ab-4451-838d-fbf2041bdc84",
+    "source_url": "https://cdn.buildin.ai/s3/d9f9162a-7b7d-4b74-9f8a-44c89168d01d/eyJpZCI6ImM1N2NiNGIwZWViMWFhMTRlMjM1NmQ2Y2Y5MjVhMWMwLmpwZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "13cf981d9e45999f8404a97635534eadb0024312c4db4b22e3a696631c20ab2e"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya/1.png",
+    "source_block": "4aa88b69-be51-4169-97e0-822c6f11b35c",
+    "source_url": "https://cdn.buildin.ai/s3/d9b48641-debf-4313-84fa-7fb68c8d7448/image_processing20251109-18-uzvv25.png",
+    "sha256": "92f8b3667836a78c59b3e81c8fe0e3d496b972fdb517ec7b2bf23d4fd2d8ee73"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya/2.png",
+    "source_block": "1803dc8c-cd95-42a0-9a0b-a0671da50db3",
+    "source_url": "https://cdn.buildin.ai/s3/94eaf4cd-f21a-468e-b16d-05bf0c9a2278/eyJpZCI6IjRmMzg4YTlmZDM1ZTExOThlN2Y5MjUzNDU4MmYyOTU5LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "161ca956f2202de29e43ca5137ecd20998ee4dd979ffd77ec4d15973ced8047f"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya/3.png",
+    "source_block": "26656e88-75d1-4d3c-930d-bf0efbb1b11f",
+    "source_url": "https://cdn.buildin.ai/s3/c6f72b9b-60f9-4d01-93a7-ff6ed6e730d8/eyJpZCI6IjhkNTM4MDJmMTNlYmJkMDE0OTJhMjllYzY3NTM4ZGM5LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "440911ce499583ea7bd63ed82245ef19188af46222c3be8da8c0ba35763977ed"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/03-sozdanie-abstrakcii.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/03-sozdanie-abstrakcii/1.png",
+    "source_block": "6596091c-d4bf-4d1b-93c5-45b380eff07f",
+    "source_url": "https://cdn.buildin.ai/s3/c09a2c31-01c3-4bf4-bb0c-8b53a9e283e1/eyJpZCI6IjIyYjI5MGExZWZmZjM4ZGEyM2U0NGQ1NjlkODhiMzg1LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "85e396d5256c2fadc7567587c287b420d559269fad9c69699de9730210d3d75e"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/04-js-derevya/01-vvedenie.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/04-js-derevya/01-vvedenie/1.png",
+    "source_block": "af1758cd-8535-4e1c-ac7c-d414ecb8bf00",
+    "source_url": "https://cdn.buildin.ai/s3/bbdde8f3-49e7-4f14-8fcd-a96eede886d3/family-tree.png",
+    "sha256": "dea33ad364b24439dbde711575370166b7b3b6b20f336f338fe46b1b46450d78"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/04-js-derevya/02-opredeleniya.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/04-js-derevya/02-opredeleniya/1.png",
+    "source_block": "9b5c6a90-a985-44ff-bcc2-b2f4127877a7",
+    "source_url": "https://cdn.buildin.ai/s3/6a7d0164-a789-435b-ac1f-d2032026eadc/tree-terms.png",
+    "sha256": "72b9168df18b4b37736848ef64cc619dcde553a14323ec782cdc620f2f8d6beb"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/04-js-derevya/05-obhod-dereva.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/04-js-derevya/05-obhod-dereva/1.png",
+    "source_block": "50db7ca7-1bdb-490b-a062-707f3f438f54",
+    "source_url": "https://cdn.buildin.ai/s3/1bdce4a1-f6b0-49c4-8753-a4952c89292f/tree-dfs.png",
+    "sha256": "2c05429b6e81a8fdf277beefc5f4a3dff7c495edda1c217321590dd039d26e2c"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/05-js-vvedenie-v-oop/01-teoriya-mesto-i-ponimanie-oop-v-programmirovanii.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/05-js-vvedenie-v-oop/01-teoriya-mesto-i-ponimanie-oop-v-programmirovanii/1.png",
+    "source_block": "6c89f0cd-3f09-4514-a4fd-867d725a920f",
+    "source_url": "https://cdn.buildin.ai/s3/d9e1a301-9ff0-42c1-834c-871512ebac9e/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2026-02-08%2B%25D0%25B2%2B17.11.42.png",
+    "sha256": "0ee24e56270ce9728f809320bef87b6e956e2a9b4af985cdc7562782f31cb68d"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/05-js-vvedenie-v-oop/09-teoriya-prototipy.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/05-js-vvedenie-v-oop/09-teoriya-prototipy/1.png",
+    "source_block": "55187341-0db7-426a-a7d0-fe7f9ddd4ca9",
+    "source_url": "https://cdn.buildin.ai/s3/d32166e4-1b10-408a-8b58-0740934ee1c9/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2026-02-08%2B%25D0%25B2%2B16.47.36.png",
+    "sha256": "59c516af951ef91d62f292632b722d0b3932a57478738cf5d1c35c8fac748772"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/1.png",
+    "source_block": "0b128211-5bc5-400e-a46d-e92b5e0cca5d",
+    "source_url": "https://cdn.buildin.ai/s3/411176a9-97cd-41db-85fb-0e5d68068a02/actions.png",
+    "sha256": "b6a94e5d9984a6f8d22a0d7c31bff8532f07d3364dc65e1cccdfe8d249761932"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/2.png",
+    "source_block": "8f7c5768-5351-4d84-9d1a-4b7d09019686",
+    "source_url": "https://cdn.buildin.ai/s3/371da714-a433-4c0f-b17b-b39a2888a93c/workflows.png",
+    "sha256": "3d208a28458308810f21aa084c43f6a08b89ecc1a4b5e3cbf79c1fc93ca13bdf"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/3.jpg",
+    "source_block": "4e6c851f-8a0c-42f3-8c25-3182c4df0109",
+    "source_url": "https://cdn.buildin.ai/s3/5e36c38e-8eb4-40be-bc95-085b402903e0/bage.jpg",
+    "sha256": "beaccc1156f4719d587320aa30914fbddfa6455be9bd8bde9babdd007d5603de"
+  },
+  {
+    "lesson": "content/theory/03-modul-3/07-nepreryvnaya-integraciya-ci/04-vvedenie.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/04-vvedenie/1.jpg",
+    "source_block": "49a416b2-4005-424c-9d73-235603ad8208",
+    "source_url": "https://cdn.buildin.ai/s3/8b045287-e9c6-4c2d-b5c9-a02073ef13c8/ci-di.jpg",
+    "sha256": "10e0d6be2912f51e545316eb3fd82e7b70a8eea36aa0cc263097ccb9c0e3f22d"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/05-new-promise.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/05-new-promise/1.png",
+    "source_block": "ebb3f458-a7be-4938-afc7-3bfc671c01a5",
+    "source_url": "https://cdn.buildin.ai/s3/c9c49d91-8f01-4358-8286-03461bc125ed/eyJpZCI6IjlkMTAzNjRhMWU3ZTM3M2Q1NTE0ZDc0MDdkYjI1MzlmLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "64f9380e1b05dbd0ac5d6dd6c5caedd77f3e5948a8f3778afdfbaff1f0fb30e5"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack/1.png",
+    "source_block": "5fd10df3-d14f-4b46-880d-69528968a1ab",
+    "source_url": "https://cdn.buildin.ai/s3/fee71d5c-750a-47f9-81f5-3b077537e7dc/eyJpZCI6IjRlZDNkODAxNzQzNDQ4MTcxNDQwMDZiOWZhZDU4MGU5LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "7c9ad8eeb67e092674824989fe3b399639168a9bfd4cde89c97ef5b147165fb5"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack/2.png",
+    "source_block": "02ea075c-0b45-4739-9edf-e4db2444c3cd",
+    "source_url": "https://cdn.buildin.ai/s3/54d2406b-619e-4764-80a4-2e82652e9288/eyJpZCI6IjdmNGUxMTk2NDU4ZTBjMDU4NDE1M2VmYmU2ZmY1ODM0LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "9325269fd1ffe765675476a291788922d71a0dc7cc77fcd20b8309eec8cd5832"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/09-obrabotka-oshibok-v-promisah.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/09-obrabotka-oshibok-v-promisah/1.png",
+    "source_block": "32fa67c9-9506-4b8f-8a53-7de49eb92c13",
+    "source_url": "https://cdn.buildin.ai/s3/531f575a-ff00-4f2e-86d0-39f2fadd7b71/eyJpZCI6IjE5ODkzZTE2OGZiNTg4YTk2YjRjZjdlY2Q4ZmMxZmJjLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "9e98eac2fa4b0c58facd3a2f3f0f4b5c597a65d34f7315c62c48e8ff8a5d5036"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/01-js-asinhronnoe-programmirovanie/11-asinhronnyy-kod.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/11-asinhronnyy-kod/1.png",
+    "source_block": "9abc6bab-a5a0-4dab-93e7-afed2f8371f2",
+    "source_url": "https://cdn.buildin.ai/s3/7ed8da9a-9df8-4588-a308-27d1413165f9/eyJpZCI6IjI1MDUyZGY3NTJlOWU5MmViZDE4M2FmYmU1NTgwODc3LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "ec1311cca719ffbfb023c665f5ac6e461effd90e0f1b9861d921be66b47955c1"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/04-sobytiya-dokumenta.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/04-sobytiya-dokumenta/1.png",
+    "source_block": "8ddc4d7f-8e5c-40be-9342-d81aa0561430",
+    "source_url": "https://cdn.buildin.ai/s3/f59f3bd9-ccda-415f-a3aa-95f7cd07eb55/eyJpZCI6ImRkMzJkY2UxMTI5NDY1MjI5YTAyZDU1OTY3NzcwMTcyLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "8c26ebeedcfbf8c950ef15a041ad3ebc2a561fd0e94f328f0af5fe16547d91ff"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/06-jquery.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/06-jquery/1.png",
+    "source_block": "145fc8b1-7db8-4537-b486-c2b5f5f77b05",
+    "source_url": "https://cdn.buildin.ai/s3/4319c8ff-a8f3-4c9b-92d2-5a581b072ca1/eyJpZCI6IjMyNGUwZTYwYjAxMzJmMzMwZGQwZTQ4ZjdlMjg2MDZiLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "e7475659b5695c5eb8e3fe31087c2e284c81930b54379322a0345507dd251896"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/08-ajax.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/08-ajax/1.png",
+    "source_block": "46dc5edb-9a2d-468e-b8cd-f55fa9cb03e0",
+    "source_url": "https://cdn.buildin.ai/s3/d9b9f2d6-ef73-47d7-973b-c84d67a929a9/eyJpZCI6IjJkYTk1NjM1NjZjYzA0NmU5ZTVlYjMxNTUzZDg1MmQ2LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "3875d7d3ed457c4279c8b4c3dbd632a304a4ae5d1168915955994706542cd88a"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/08-ajax.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/08-ajax/2.png",
+    "source_block": "9b65a6bd-3984-46dc-9b87-7f7f0bff8487",
+    "source_url": "https://cdn.buildin.ai/s3/5c2c170c-c830-4808-b81f-acd41e105535/eyJpZCI6ImViZDJmMDdiOTUzYWZlYThhZTFiMGU5MGZjNTFiMzYzLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "92cc51fe5c5fa8e9e95b2d33fa5492f0d895d2a69cc4de3c61f8fdaddfa06f3e"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/08-ajax.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/08-ajax/3.png",
+    "source_block": "7efd245a-558a-4582-8e2b-0fb3287907b9",
+    "source_url": "https://cdn.buildin.ai/s3/6405f99f-b8b7-4c0a-9e55-066e49d6c281/eyJpZCI6IjgzNjFmMDhmMjA3MDUxMWNiMTVmMThjZmFkZDVlNGM1LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "e065d7dfe147085428e729bef76ba45dedaee1d2de78f6f012a186d220e9711d"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/08-ajax.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/08-ajax/4.png",
+    "source_block": "8f7d09e2-dc84-4666-8ed8-3e3b34485019",
+    "source_url": "https://cdn.buildin.ai/s3/c315cd5b-4d19-49a5-a7d1-75626f4e9c3e/eyJpZCI6ImY0Mzc4N2UzMjgwYjdjYzcyZWIwNDFmNGYzN2ZhOWY3LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "17dadec67893b737c263c6b5e8d49084be3a7f6fa4900a7099d77fe4770309ae"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/09-dom.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/09-dom/1.png",
+    "source_block": "8aa37588-cd9b-4d86-a098-a7335afa1ddd",
+    "source_url": "https://cdn.buildin.ai/s3/a9548756-4ff5-4d32-9e10-ef11091e8122/eyJpZCI6ImZkNGJmZDU0Yjc3YzliMjIxMDlmMDY2MWRkMTJkMjQzLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "5d26ab13d1bc64c35e00e67983017ce25961e32d48b448fd944e59f4039a27b4"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/09-dom.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/09-dom/2.png",
+    "source_block": "306d6bba-cab6-497b-996c-e541f5d8c84a",
+    "source_url": "https://cdn.buildin.ai/s3/8354d042-89ef-49eb-8197-0431186a93f6/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-25%2B%25D0%25B2%2B21.33.01.png",
+    "sha256": "1f0cff4ec55fce24e6b85bd826fc0dc6984468220306c74a0228b27761eb63dc"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/09-dom.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/09-dom/3.png",
+    "source_block": "67813c10-6a30-40e3-8123-740cc705c960",
+    "source_url": "https://cdn.buildin.ai/s3/7e266c98-196c-4bdd-b4fe-c1953b84d864/eyJpZCI6ImIzN2Q2OGE2MWU1YmYyNThmZDA5MzIxZDY2MzQ1MTFmLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "a18c7120398996499718e2a1bc60d7a3933364cf79bbaa98ae9a5041152b6dcb"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/10-konsol-razrabotchika.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/1.png",
+    "source_block": "da0e7021-c710-42ac-b897-8cf2762a5df9",
+    "source_url": "https://cdn.buildin.ai/s3/d520bc34-5f2e-48dd-933a-1384d4ad10c3/eyJpZCI6ImI3OTc2MDlhMmFhMTQ1MDM2NDlhMjVjYjRlMDI2ZTZhLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "27b6fbbc517da8bab21945d27b03242892c87f3ed81d55c533bde6272b5a0b17"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/10-konsol-razrabotchika.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/2.png",
+    "source_block": "11f4dfdf-8f69-410d-8683-2f1ce4eec5f1",
+    "source_url": "https://cdn.buildin.ai/s3/3671a22a-0987-40e4-9252-dfefea9bab5b/eyJpZCI6IjNlMjNlMmIzODQxODkyYzcyYThhMmZiMzI3N2Y4YzViLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "e1730815e8e8c4454ee07e9e7efacc972b92db931b639a73adc84fb73fe0a13e"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/10-konsol-razrabotchika.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/3.png",
+    "source_block": "bb1e5c2f-b0cd-4319-bb1b-899796097974",
+    "source_url": "https://cdn.buildin.ai/s3/2e474d2a-0fdd-47c9-bb84-f356e4007676/eyJpZCI6IjBhMWM5NDRmNjU1ZWU1NmU5ZGZlZDkxZTQ1ODEyMzNjLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "ff8b40ecc9420f969fdc7a5c5c71cc217088750dee11ceaf09596e69c4e78aa5"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/10-konsol-razrabotchika.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/4.png",
+    "source_block": "a3581de7-8269-4199-98c6-e5b8979adff9",
+    "source_url": "https://cdn.buildin.ai/s3/769b4f4d-4b74-45a6-9635-7ce2f43bf048/eyJpZCI6Ijk5NmJhOWU2NTU4MDM1NzM0MDVlNjkwMTJlNjEyMjQwLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "435e0ba4db932549083a64c71f10ac39ab8535265e0a11a424fe0008fe19ba4b"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/11-perehvat-i-vsplytie.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/11-perehvat-i-vsplytie/1.png",
+    "source_block": "68f43997-4891-4125-868a-fb2c66d81247",
+    "source_url": "https://cdn.buildin.ai/s3/e9b7e9c3-0401-409e-99d2-4234b3fa4ced/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-25%2B%25D0%25B2%2B22.23.28.png",
+    "sha256": "b4a88802caefb06773f6c7db061d5fddb7006f9e18d7911da8845b9fa875d5f9"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/12-polifilly.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/12-polifilly/1.png",
+    "source_block": "834b5794-0142-41b1-b375-26d8d84a0340",
+    "source_url": "https://cdn.buildin.ai/s3/a3e8bae7-926e-42b0-b82d-0c3270039013/eyJpZCI6IjEzMjk3ZWM4MTliYzQ3MGViNDc3Yzk4MTAzNDRiMDgxLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "ba5537e8704d9692ff7053182429e15ab995631df224321ef45eebab016845ed"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/13-globalnyy-obekt-window.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/13-globalnyy-obekt-window/1.png",
+    "source_block": "da506898-99bc-4186-9d96-f83093f8abaf",
+    "source_url": "https://cdn.buildin.ai/s3/4c44b804-c8be-4792-89db-bc931481ccb1/eyJpZCI6IjRhZDJiM2QzODVjNGNiYzVlNmUwNTFkOGYxNmZmMTZmLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "a312d84f8cc046df890914f1fff8a6a42c9aab3e8fd1e8dafeff9c53e13d1657"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/1.png",
+    "source_block": "5730bd4a-45ad-40c5-94b0-430ca4abf710",
+    "source_url": "https://cdn.buildin.ai/s3/9d43f2e6-f439-4ee6-b42c-d87fa959bc3f/eyJpZCI6IjA5ZjlhNjRkYzVhMTE3YmRlNDJmMzdlYWQxZDM1OWNmLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "88b614a13d4fe0fca80e03a6f29db261fb8aca2a118ea8afa6cee66702c4cda7"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/2.png",
+    "source_block": "13abcb99-cf1a-418c-87e0-653898cab986",
+    "source_url": "https://cdn.buildin.ai/s3/aaf1c4cb-796b-43d3-9bcf-bb06a2a1af73/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-25%2B%25D0%25B2%2B21.42.13.png",
+    "sha256": "fbd2470eab20623e1b3cd555dbfe92f416b4e0f836faca254c17980b24b05c31"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/3.png",
+    "source_block": "467e1f4c-09e5-473c-a307-dbf6ac9fdf2d",
+    "source_url": "https://cdn.buildin.ai/s3/bb12ae10-5bf5-4bde-aa69-157b65886a07/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-25%2B%25D0%25B2%2B21.43.06.png",
+    "sha256": "f8f0164e29277a724ea24755893211629aeae4baee8b0292004a25f75d377fb4"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/4.png",
+    "source_block": "402d6fc0-a3fb-4b52-abe2-e331c8b67a5e",
+    "source_url": "https://cdn.buildin.ai/s3/eb4156ec-8e53-4eb4-a043-7694079a1a98/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-25%2B%25D0%25B2%2B21.43.49.png",
+    "sha256": "1502596703b3bedc634fbbfcf4fbd12e5623b5d9589872196d3fc70fdb6bb26e"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu.md",
+    "ordinal": 4,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/5.png",
+    "source_block": "69f61c9f-3d44-430e-a177-0ce4847e52ce",
+    "source_url": "https://cdn.buildin.ai/s3/b2e1ac82-308b-4bb1-b101-f7fd858a6d6e/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-25%2B%25D0%25B2%2B21.44.18.png",
+    "sha256": "bbdd1580ef343cdb5231a0a086da9447302fa377c0ae763b014d52b9796bb686"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/17-bom-obekty.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/1.png",
+    "source_block": "c431bff9-77bb-4451-b604-4d5d76afc227",
+    "source_url": "https://cdn.buildin.ai/s3/34a8eb2f-eaa9-4d16-aaa0-36a9ede72874/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2025-12-25%2B%25D0%25B2%2B21.26.49.png",
+    "sha256": "f7e1de4a9e718ed4de621e8c3f833b67de4819f93b8f0af3c60baff0a87133a4"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/17-bom-obekty.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/2.png",
+    "source_block": "df06b55e-050f-4d9e-bcf1-d2be22036049",
+    "source_url": "https://cdn.buildin.ai/s3/ceb35dc8-874b-43e4-9bc5-ff7488f7791a/eyJpZCI6ImQ2MGQ5MzY5NzAyZmYyNDY1MmZhYTc5MTkyOTAwZjg4LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "817932498ea38251b3ac6d094d8e4c6a2821063b552301d79e941f0d859935ce"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/17-bom-obekty.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/3.png",
+    "source_block": "f840b92d-7b40-417a-b6b5-5b575e921276",
+    "source_url": "https://cdn.buildin.ai/s3/e5d95703-739a-45a7-a9ba-3e4bf3740629/eyJpZCI6Ijk2ZGQwN2YwMDU4ZGNhMGNiYmJhNzI2YjFkN2MzMDQ5LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "023baf79c1db859cc3f20e1032063b3ea362c0de5b19e3a1301d79a729c1978d"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/17-bom-obekty.md",
+    "ordinal": 3,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/4.png",
+    "source_block": "7eb316c9-3409-4457-af5a-0501e1c460bb",
+    "source_url": "https://cdn.buildin.ai/s3/6b58df51-7b94-467e-9e88-1ef54e3d4580/eyJpZCI6IjIzMTRhNGVmMWJmMDA2ZTU5ZGZiYzRlYWY2Zjk1MTg1LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "101ab06511191ba31994952f151e78507d41326e22dc6ba485a5cfb5143e91f1"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/17-bom-obekty.md",
+    "ordinal": 4,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/5.png",
+    "source_block": "91591aca-2e20-450b-8f55-81f16a9cf76d",
+    "source_url": "https://cdn.buildin.ai/s3/26c1bfc8-9637-4f83-a6d4-c9522cf566b1/eyJpZCI6ImE5YWIxYWY1ZWE0MjEzMDIzMmVlYzI5MjljMjA2YWI2LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "c2187c38803e0ea1dc12ee3e8189abebe160f22420f6da1496628b6789e384f5"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom/1.png",
+    "source_block": "404e0fb5-1b90-4114-8e3c-dd2c55a224a0",
+    "source_url": "https://cdn.buildin.ai/s3/5188888c-1144-461d-9f05-2e25bca9ab14/eyJpZCI6IjJjYjU2OGE3NjA5MjMwYTZhNWQ1NTUxZjMxNDA1MTIxLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "24dbd91476a759acd434a6401dc6e4a521702fd581f8503f24eb595d436aedf5"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom/2.png",
+    "source_block": "54f430f4-6c64-46e8-ba80-3269758c4578",
+    "source_url": "https://cdn.buildin.ai/s3/5dc952c6-cea9-4b3f-8da1-0d0443a3661e/eyJpZCI6IjI0NzkxOTMyYmI5MWZjNWI1MWYyYTRiZDFmYTIwMjhlLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "f116f17aab018717d852fc117a465f792305cdc0b30df1b00298a066cbc0699d"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/04-regulyarnye-vyrazheniya-regexp/06-vvedenie.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/04-regulyarnye-vyrazheniya-regexp/06-vvedenie/1.png",
+    "source_block": "2f2a54df-ef83-4ac2-992b-c813b8547c80",
+    "source_url": "https://cdn.buildin.ai/s3/de31e6d9-27d6-47a7-8c37-d6823f49e670/regex101.png",
+    "sha256": "0cb5d5fb0e7246255517cacd519743ece7092cc2faa2cd7a390901dd261fe0b5"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/05-js-arhitektura-frontenda/06-sostoyanie-otobrazheniya-ui-state.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/05-js-arhitektura-frontenda/06-sostoyanie-otobrazheniya-ui-state/1.png",
+    "source_block": "6aef7761-0f6f-4181-8133-7c2dd2a54e47",
+    "source_url": "https://cdn.buildin.ai/s3/1c538a68-08dd-4def-9d0e-925e7d3cd52d/eyJpZCI6IjVmN2MxY2RkNTRhYzZlZTdmYzcwMzBhMGRlNzdiYzE4LnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9",
+    "sha256": "0d0273f1d4f98a09dd3e664f447d99c18baeaa47cdb108dfae57bf1d4d0fcd67"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/05-js-arhitektura-frontenda/09-mvc.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/05-js-arhitektura-frontenda/09-mvc/1.png",
+    "source_block": "511d777b-31d6-48b1-8bc7-7f36037f26dc",
+    "source_url": "https://cdn.buildin.ai/s3/1867eb94-a749-4db0-9b65-1b06d4954dfe/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2026-01-04%2B%25D0%25B2%2B23.07.14.png",
+    "sha256": "bcd553c68d3aefdce09ffc30ca00d213ddf408e396b2d1cab2c8b12ee082f615"
+  },
+  {
+    "lesson": "content/theory/04-modul-4/05-js-arhitektura-frontenda/10-sostoyanie-prilozheniya.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/04-modul-4/05-js-arhitektura-frontenda/10-sostoyanie-prilozheniya/1.png",
+    "source_block": "a2bd82f6-e104-4512-8849-44b3c06cec02",
+    "source_url": "https://cdn.buildin.ai/s3/c7a82bc5-80c7-4a84-aab1-567a61cb91d6/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B2026-01-04%2B%25D0%25B2%2B22.54.21.png",
+    "sha256": "c540e0865196490d986e915707fdd8b2a377e8eec2e4cce1e0e3baeaee446b0a"
+  },
+  {
+    "lesson": "content/theory/05-modul-5/01-js-react/17-virtual-dom.md",
+    "ordinal": 0,
+    "status": "recreated-diagram",
+    "source_block": "a899a24c-723a-41fd-8eb9-dfb3f8719586",
+    "source_url": "https://cdn2.buildin.ai/s3/c4460160-daac-4b39-9fb1-7673eb3df9f9/one-way-data-flow.png",
+    "path": "content/theory/assets/restored/05-modul-5/01-js-react/17-virtual-dom/1.svg",
+    "sha256": "f4c46ef0b9c73f3251fe57d84097e705b75637c253e2e1131dc0888fd9cb51ff",
+    "reason": "Source CDN returns an error; recreated from adjacent lesson text and examples."
+  },
+  {
+    "lesson": "content/theory/05-modul-5/01-js-react/17-virtual-dom.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/05-modul-5/01-js-react/17-virtual-dom/2.png",
+    "source_block": "c8fa3081-af0b-4cd6-b0f6-0883ca598245",
+    "source_url": "https://cdn.buildin.ai/s3/679ebec1-81fa-4720-88aa-6ae7b569b7c1/virtual-dom.png",
+    "sha256": "2b1ec889edf779efe1848454fdb6014fdd14a4a3b8fd426bfdc8f57e099cdfd6"
+  },
+  {
+    "lesson": "content/theory/05-modul-5/01-js-react/21-proizvoditelnost.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/05-modul-5/01-js-react/21-proizvoditelnost/1.png",
+    "source_block": "542f0c73-324c-41ea-a081-e605928b7c81",
+    "source_url": "https://cdn.buildin.ai/s3/7b3b8501-204c-48cd-acd0-2a38865cc200/reconciliation.png",
+    "sha256": "f8a7802d55962a082f6640104a515fd911fbc9c818ff832ccbfc17752576ad62"
+  },
+  {
+    "lesson": "content/theory/05-modul-5/01-js-react/23-vvedenie-v-huki.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/05-modul-5/01-js-react/23-vvedenie-v-huki/1.png",
+    "source_block": "9974b8de-7f2a-4e60-8160-8d4aaaaec099",
+    "source_url": "https://cdn.buildin.ai/s3/a077627d-6087-485e-91b5-59c2601c9859/toto-fisherman-react-hooks.png",
+    "sha256": "caf90f2f5e790aeddadc44d5d8e804a75474fbe29f57578b76773165070e4019"
+  },
+  {
+    "lesson": "content/theory/05-modul-5/01-js-react/28-huki-usecallback-i-usememo.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/05-modul-5/01-js-react/28-huki-usecallback-i-usememo/1.png",
+    "source_block": "d366bd54-4eaf-42f2-ba93-d9ac26fa16cc",
+    "source_url": "https://cdn.buildin.ai/s3/795475d3-9984-4222-87d8-f8ae71cf2727/profiler-1.png",
+    "sha256": "afc33ff81a078c3346dab7815e11a1233cc918628ffaea7a683d2db24ee42930"
+  },
+  {
+    "lesson": "content/theory/05-modul-5/02-react-redux-toolkit/02-redux.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/05-modul-5/02-react-redux-toolkit/02-redux/1.png",
+    "source_block": "1e10ef03-b98f-4fef-a022-b86b6aa8422f",
+    "source_url": "https://cdn.buildin.ai/s3/6f3db435-3b83-4da7-904a-222c7898637b/dispatch-action.png",
+    "sha256": "9800966b990a8c0ec6e2bed5c9fdfd9e7c20e8b35b2853bee057eb7f693e0e23"
+  },
+  {
+    "lesson": "content/theory/05-modul-5/02-react-redux-toolkit/03-redyusery.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/05-modul-5/02-react-redux-toolkit/03-redyusery/1.png",
+    "source_block": "cc35b185-76e1-40f6-983f-f57b6a61805e",
+    "source_url": "https://cdn.buildin.ai/s3/4e91aff3-61aa-45d1-b6b7-f8cb2c3a3c6c/redux-combine-reducers.png",
+    "sha256": "84b27ee3d168434645e971351e9395fc8f92acc71ff381a3639d825ee746c338"
+  },
+  {
+    "lesson": "content/theory/05-modul-5/02-react-redux-toolkit/04-midlvary.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/05-modul-5/02-react-redux-toolkit/04-midlvary/1.png",
+    "source_block": "fe6c5a4f-b6fd-42f3-ae9e-2749aca6b83d",
+    "source_url": "https://cdn.buildin.ai/s3/10630f95-1fa3-4787-a7f6-95a4b6359aa1/redux-middlewares-flow.png",
+    "sha256": "1086ff37c83495b5c24e7dd475c8719ab74c284dc68bde351a48cbae84661e6d"
+  },
+  {
+    "lesson": "content/theory/05-modul-5/02-react-redux-toolkit/05-podklyuchenie-redux-toolkit-k-react.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/05-modul-5/02-react-redux-toolkit/05-podklyuchenie-redux-toolkit-k-react/1.png",
+    "source_block": "c94c61cb-a635-41c6-838c-abc6d9027a4d",
+    "source_url": "https://cdn.buildin.ai/s3/9738e4ae-73c0-4512-a7a9-508f0018a4af/integration-01.png",
+    "sha256": "0de6be5d47d1c40b1c55b883680fc3315ec366840ef31dabfd639598aaadaaf3"
+  },
+  {
+    "lesson": "content/theory/05-modul-5/02-react-redux-toolkit/06-podrobnee-o-slaysah.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/05-modul-5/02-react-redux-toolkit/06-podrobnee-o-slaysah/1.png",
+    "source_block": "11319d77-920e-479b-8c3c-f115ec400fb1",
+    "source_url": "https://cdn.buildin.ai/s3/69bb16fd-39af-4fae-ba9b-34aa3413c140/redux-devtools.png",
+    "sha256": "481ccc30708d64d0c924f92ec6b99e6047b41551d499467e712f55f91f999c46"
+  },
+  {
+    "lesson": "content/theory/06-modul-6/02-osnovy-typescript/21-ierarhiya-tipov.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/06-modul-6/02-osnovy-typescript/21-ierarhiya-tipov/1.png",
+    "source_block": "42e3b829-341a-41a2-9a1c-93dd8dd386de",
+    "source_url": "https://cdn.buildin.ai/s3/90412782-b541-4566-86d1-ca90e3875cc5/hierarcy_circle.png",
+    "sha256": "8b761b4dca57ad01e8ef90cd6d50712ff532b14e1f08c8ec1330109c6550a7a6"
+  },
+  {
+    "lesson": "content/theory/06-modul-6/02-osnovy-typescript/23-peresechenie.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/06-modul-6/02-osnovy-typescript/23-peresechenie/1.png",
+    "source_block": "f41d237d-a5d8-48ef-89bb-1228f49cd5d5",
+    "source_url": "https://cdn.buildin.ai/s3/79dd18fb-d5f1-4be0-80cc-8648cf502352/one_hundred_order.png",
+    "sha256": "ca080e8ce81eb6d73cced631899fa398352f475ee9b63b06b010909a28ec406e"
+  },
+  {
+    "lesson": "content/theory/06-modul-6/02-osnovy-typescript/27-obedineniya.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/06-modul-6/02-osnovy-typescript/27-obedineniya/1.png",
+    "source_block": "7ecf255b-3eca-4db8-966f-eab440f83421",
+    "source_url": "https://cdn.buildin.ai/s3/5cc9ac7d-a05b-4235-bc31-2067d7e6943e/number_or_string.png",
+    "sha256": "ae07f6d4af7d2de9549e8c9ad993465d6a9c4e68eeef452b1ff6566a5b4f5ba5"
+  },
+  {
+    "lesson": "content/theory/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/1.png",
+    "source_block": "a6b1c634-cbf6-4fcb-8aab-6b3425f50645",
+    "source_url": "https://cdn.buildin.ai/s3/9c8f9480-d76a-4fa6-a4dd-46509be3ccd2/structual_object.png",
+    "sha256": "33206b2106b6eb0730ce9778785dc5b650dbf54b7b071547ccbd2f5a373dde8f"
+  },
+  {
+    "lesson": "content/theory/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya.md",
+    "ordinal": 1,
+    "status": "original",
+    "path": "content/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/2.png",
+    "source_block": "0e80c34b-4e71-4a69-a5a5-f755ad9aba32",
+    "source_url": "https://cdn.buildin.ai/s3/47b9b3e1-48a8-42b0-9436-1856d8e01719/object_intersection.png",
+    "sha256": "582d83f653b560ec8d1f1bd1c6ac3f4f96fe709e76142f4a056915596f8fc77b"
+  },
+  {
+    "lesson": "content/theory/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya.md",
+    "ordinal": 2,
+    "status": "original",
+    "path": "content/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/3.png",
+    "source_block": "da785025-1c4c-46e2-9d92-838dbe7e946f",
+    "source_url": "https://cdn.buildin.ai/s3/4a95b7dc-9646-489f-9532-f7a860732635/pixel",
+    "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+  },
+  {
+    "lesson": "content/theory/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva.md",
+    "ordinal": 0,
+    "status": "original",
+    "path": "content/theory/assets/restored/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva/1.png",
+    "source_block": "e2994657-cf23-429a-a9df-1ef9d8061700",
+    "source_url": "https://cdn.buildin.ai/s3/6a32e1f1-12bd-49d1-b6b8-828a9c1b6b84/some_type.png",
+    "sha256": "44e8c36df51da526cbbfe84ee7a97ad07d629baa769312f4d7a72cc7b2f32d50"
+  }
+]

@@ -23,7 +23,7 @@ const data3 = data2.filter(predicate) // [4, 8]
 
 Во второй строке `map()` внутри вызывает `Math.sqrt()`. В реальных программах вложенность достигает сотен уровней. При исполнении формируется **стек вызовов** (call stack): каждый вложенный вызов кладёт функцию в стек до самой глубокой; при возврате стек раскручивается в обратном порядке.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Стек вызовов (Call Stack) — иллюстрация 1](course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack/1.png)
 Цепочка *one() → two() → three() → four()*:
 
 ```
@@ -104,7 +104,7 @@ ReferenceError: unknown is not defined
 
 Есть инструменты визуализации стека при **профайлинге** — поиске узких мест.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Стек вызовов (Call Stack) — иллюстрация 2](course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack/2.png)
 С асинхронным кодом картина меняется — в следующем уроке.
 
 ---

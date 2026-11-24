@@ -106,7 +106,7 @@ class Clock extends React.Component {
 
 Схематически этот процесс можно показать так:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Redux — иллюстрация 1](course/theory/assets/restored/05-modul-5/02-react-redux-toolkit/02-redux/1.png)
 Разберём еще один пример с использованием массива и передачей данных через действие:
 
 ```javascript

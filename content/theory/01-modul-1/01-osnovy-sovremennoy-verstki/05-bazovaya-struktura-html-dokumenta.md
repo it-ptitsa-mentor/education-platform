@@ -75,7 +75,7 @@ reviewed_by:
 
 После `<head>` идёт `<body></body>` — «тело» страницы. Здесь размещается всё, что пользователь видит на экране.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Базовая структура HTML документа — иллюстрация 1](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/05-bazovaya-struktura-html-dokumenta/1.png)
 Возьмём фрагмент из прошлого урока и дополним его полным каркасом документа.
 
 ```

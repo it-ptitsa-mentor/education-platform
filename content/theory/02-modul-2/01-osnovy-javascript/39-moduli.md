@@ -208,7 +208,7 @@ import something1 from './math.js'
 import something2 from './math.js'
 ```
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Модули — иллюстрация 1](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/39-moduli/1.png)
 Экспорт по умолчанию может сочетаться с обычным экспортом, а экспортировать элементы можно по отдельности:
 
 ```

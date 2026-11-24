@@ -135,7 +135,7 @@ reviewed_by:
 
 ## Общая схема тегов HTML
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Введение в HTML — иллюстрация 1](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/02-vvedenie-v-html/1.png)
 ## Дополнительное задание
 
 Воспользуйтесь онлайн-редактором HTML, например [https://htmlcodeeditor.com/](https://htmlcodeeditor.com/).

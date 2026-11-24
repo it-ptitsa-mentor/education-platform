@@ -44,7 +44,7 @@ const promise = fsp.readFile('unknownfile')
 
 Семантика отличается: в первом варианте второе чтение стартует даже после падения первого; во втором — нет.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Обработка ошибок в промисах — иллюстрация 1](course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/09-obrabotka-oshibok-v-promisah/1.png)
 Иногда ошибку нужно создать вручную. Проще всего — `throw`. *try/catch* для синхронного кода; в `then` исключение промис превратит и отправит в `catch`:
 
 ```

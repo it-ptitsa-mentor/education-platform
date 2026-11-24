@@ -82,7 +82,7 @@ if (!('lastElementChild' in document.documentElement)) {
 
 Поддержку фич по браузерам удобно смотреть на [Can I use](https://caniuse.com/):
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Полифиллы — иллюстрация 1](course/theory/assets/restored/04-modul-4/03-js-dom-api/12-polifilly/1.png)
 Готовый набор полифиллов можно подключить через [polyfill-fastly.io](https://polyfill-fastly.io/).
 
 На GitHub также лежат отдельные полифиллы под разные части DOM — перед внедрением их обычно ищут по названию API.

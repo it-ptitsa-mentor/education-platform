@@ -21,7 +21,7 @@ window.open()
 
 `window` виден в консоли DevTools — попробуйте вызвать там метод из примера.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Глобальный объект Window — иллюстрация 1](course/theory/assets/restored/04-modul-4/03-js-dom-api/13-globalnyy-obekt-window/1.png)
 Ещё несколько типичных обращений:
 
 ```

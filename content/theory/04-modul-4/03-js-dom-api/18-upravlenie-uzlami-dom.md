@@ -18,10 +18,10 @@ reviewed_by:
 
 HTML: `атрибут="значение"`:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Управление узлами DOM — иллюстрация 1](course/theory/assets/restored/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom/1.png)
 В DOM у того же узла — **свойства** со значениями, иногда приведёнными к другому типу:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Управление узлами DOM — иллюстрация 2](course/theory/assets/restored/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom/2.png)
 ## Атрибуты
 
 У тегов есть атрибуты — общие (`id`, `class`) и специфичные для тега (`href` у ссылки):

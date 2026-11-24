@@ -111,7 +111,7 @@ drwxr-xr-x   9 Guest  _guest   288 Aug 26 17:25 iTunes
 
 В man — описание утилиты, синтаксис, опции, примеры:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Интерфейс командной строки — иллюстрация 1](course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki/1.png)
 Попробуйте `man ls`. Навигация:
 
 - Вперёд — `f` (forward)
@@ -122,7 +122,7 @@ drwxr-xr-x   9 Guest  _guest   288 Aug 26 17:25 iTunes
 
 Полезен [explainshell](https://explainshell.com/) — вставьте команду и получите разбор по частям:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Интерфейс командной строки — иллюстрация 2](course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki/2.png)
 ## Варианты опций
 
 У многих утилит одна опция в короткой и длинной форме. В PHP — `-v` и `--version`:

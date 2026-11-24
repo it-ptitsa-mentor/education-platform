@@ -91,7 +91,7 @@ neverValue = two // Type 'number' is not assignable to type 'never'
 
 Из текущих знаний мы можем составить следующую картинку множеств типов TypeScript:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Иерархия типов — иллюстрация 1](course/theory/assets/restored/06-modul-6/02-osnovy-typescript/21-ierarhiya-tipov/1.png)
 В множество `number` также входят все объединения литеральных типов чисел, а в множество `string` — литеральных строк:
 
 ```

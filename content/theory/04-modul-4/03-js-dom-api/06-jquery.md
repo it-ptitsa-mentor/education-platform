@@ -157,7 +157,7 @@ const jqxhr = $.get('/api/v1/companies.json', (data) => {
 
 Для JQuery существует [JQuery UI](https://jqueryui.com/) — drag-and-drop, автозаполнение, ресайз, сортировка и др.:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![JQuery — иллюстрация 1](course/theory/assets/restored/04-modul-4/03-js-dom-api/06-jquery/1.png)
 ## Перспективы
 
 Раньше JQuery был отличным выбором; сейчас нативный DOM и стандарты покрывают большинство задач. Промисы, `fetch`, полифилы — всё это живёт вне модели JQuery.

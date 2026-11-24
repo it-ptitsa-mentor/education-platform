@@ -12,7 +12,7 @@ reviewed_by:
 
 **Инструкция** — команда интерпретатору. Код на JavaScript — последовательность инструкций; обычно их разделяют `;`.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Инструкции — иллюстрация 1](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/03-instrukcii/1.png)
 Пример с двумя инструкциями:
 
 ```javascript
