@@ -8,6 +8,7 @@ it("reads nested supporting files, excluding student files, private directories 
   const root = await mkdtemp(path.join(tmpdir(), "reference-files-"));
   try {
     const contents = {
+      "assets/fonts/Cormorant-Regular.ttf": "\u0000\u0001font bytes", "assets/final.png": "PNG bytes",
       "store.js": "student", "actions.js": "actions", "src/index.js": "support",
       "exercise.json": "manifest", "tests/test.js": "test", "__tests__/test.js": "test",
       "solution/store.js": "answer", "__solution__/store.js": "answer",

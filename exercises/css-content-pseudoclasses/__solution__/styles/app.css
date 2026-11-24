@@ -1,10 +1,26 @@
-/* Решение: шахматная доска с псевдоклассами :nth-child */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
 
-.board-row:nth-child(odd) .board-cell:nth-child(even),
-.board-row:nth-child(even) .board-cell:nth-child(odd) {
-  background-color: #f1d9b5;
+  font: 18px/1.5 sans-serif;
 }
 
-.cell:nth-child(odd) {
-  background-color: #f1d9b5;
+.chessboard {
+  width: 500px;
+  height: 500px;
+
+  background: #b58763;
+
+  border-collapse: collapse;
 }
+
+/* BEGIN (write your solution here) */
+.chessboard tr:nth-child(odd) td:nth-child(odd),
+.chessboard tr:nth-child(even) td:nth-child(even)  {
+  background: #f1d9b5;
+}
+/* END */

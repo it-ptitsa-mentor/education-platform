@@ -1,1 +1,15 @@
-/* Стили упражнения */
+body {
+
+  width: 700px;
+  margin: 0 auto;
+  padding: 100px 0;
+
+  font-family: serif;
+
+  background-color: #eee;
+
+}
+
+/* BEGIN (write your solution here) */
+
+/* END */

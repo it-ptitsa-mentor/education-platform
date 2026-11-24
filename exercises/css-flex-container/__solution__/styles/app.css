@@ -1,35 +1,69 @@
-/* Двухколоночный макет с Flex-контейнерами */
+body {
+  margin: 0;
+  padding: 0;
 
-.wrapper {
+  font-family: sans-serif;
+
+  background-color: #f7f8fa;
+}
+
+header {
+  /* BEGIN (write your solution here) */
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  flex-direction: row;
+  /* END */
+  padding: 0 50px;
+
+  color: #fff;
+
+  background: #00b7a1;
 }
 
-.header {
+header .name {
+  box-sizing: border-box;
+  padding: 15px;
+
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+}
+
+header nav ul {
+  /* BEGIN (write your solution here) */
   display: flex;
-  align-items: center;
+  /* END */
+  padding: 0;
+
+  list-style: none;
 }
 
-.header .nav {
-  order: 2;
-  margin-left: auto;
+header nav ul li {
+  width: 20%;
 }
 
-.header .logo {
-  order: 1;
-}
-
-.main {
+main {
+  /* BEGIN (write your solution here) */
   display: flex;
-  flex: 1;
+  /* END */
 }
 
-.sidebar {
-  width: 200px;
-  flex-shrink: 0;
+section {
+  box-sizing: border-box;
+  padding: 30px 50px;
 }
 
-.content {
-  flex: 1;
+.aside-block {
+  box-sizing: border-box;
+  height: 100px;
+  padding: 30px 50px;
 }
+
+.w30 {
+  width: 30%;
+}
+
+.w70 {
+  width: 70%;
+}
+/* Same final order as the reference image; DOM order stays unchanged. */
+header .name { order: 1; }

@@ -1,1 +1,25 @@
-/* Стили упражнения */
+body {
+    padding: 50px 0;
+
+    font: 22px/1.5 sans-serif;
+
+    background: #d3cce3;
+    background: linear-gradient(to right, #d3cce3, #e9e4f0);
+}
+
+/* BEGIN (write your solution here) */
+
+/* END */
+
+.articles {
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+
+    background: #fff;
+    border-radius: 10px;
+}
+
+/* BEGIN (write your solution here) */
+
+/* END */

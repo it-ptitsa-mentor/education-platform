@@ -1,1 +1,49 @@
-/* Стили упражнения */
+.books-card {
+  /* BEGIN (write your solution here) */
+
+/* END */
+  box-sizing: border-box;
+  width: 500px;
+  height: 300px;
+  padding: 50px;
+
+  background: #2980b9;
+  background: linear-gradient(to right, #fff, #6dd5fa, #2980b9);
+
+  cursor: pointer;
+}
+
+.book-name {
+  width: 50%;
+
+  color: #00bcd4;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.book-author {
+  color: #03a9f4;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.book-description {
+  /* BEGIN (write your solution here) */
+
+/* END */
+  box-sizing: border-box;
+  width: 50%;
+  padding: 20px 30px;
+
+  color: #fff;
+
+  background: #03a9f4;
+
+  opacity: 0;
+
+  transition: 1s;
+}
+
+.books-card:hover>.book-description {
+  opacity: 1;
+}

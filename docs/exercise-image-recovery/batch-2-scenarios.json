@@ -1,0 +1,387 @@
+[
+  {
+    "slug": "js-dom-element-manipulating",
+    "step": "Нормализованные классы",
+    "passed": true
+  },
+  {
+    "slug": "js-dom-events",
+    "step": "Первый alert",
+    "passed": true
+  },
+  {
+    "slug": "js-dom-events",
+    "step": "Второй сверху",
+    "passed": true
+  },
+  {
+    "slug": "js-dom-events-in-action",
+    "step": "Начальные вкладки",
+    "passed": true
+  },
+  {
+    "slug": "js-dom-events-in-action",
+    "step": "User profile",
+    "passed": true
+  },
+  {
+    "slug": "js-dom-events-in-action",
+    "step": "Messages settings независимо",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-complex-state",
+    "step": "Пустой список",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-complex-state",
+    "step": "Первая задача",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-complex-state",
+    "step": "Вторая задача",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-forms",
+    "step": "Пустая форма",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-forms",
+    "step": "Ошибки валидации",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-forms",
+    "step": "Валидные данные",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-forms",
+    "step": "Успешная регистрация",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-i18n",
+    "step": "English 0",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-i18n",
+    "step": "1 click",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-i18n",
+    "step": "2 clicks",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-i18n",
+    "step": "Русский",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-i18n",
+    "step": "Сброс",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-initialization",
+    "step": "Два независимых счётчика",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-initialization",
+    "step": "Первый: 1",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-initialization",
+    "step": "Второй: русский",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-initialization",
+    "step": "Второй: 2",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-mvc",
+    "step": "Начальные группы",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-mvc",
+    "step": "Profile",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-mvc",
+    "step": "B: Profile сохраняется",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-shape-of-state",
+    "step": "General",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-shape-of-state",
+    "step": "Задача General",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-shape-of-state",
+    "step": "Новый список",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-shape-of-state",
+    "step": "Переключение на Work",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-shape-of-state",
+    "step": "Задача Work",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-state",
+    "step": "0",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-state",
+    "step": "+3",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-state",
+    "step": "+5",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-state",
+    "step": "Сброс",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-ui-state",
+    "step": "Закрыто",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-ui-state",
+    "step": "Hexlet",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-ui-state",
+    "step": "Google заменяет",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-ui-state",
+    "step": "Повторный клик закрывает",
+    "passed": true
+  },
+  {
+    "slug": "js-react-async",
+    "step": "Пустой запрос",
+    "passed": true
+  },
+  {
+    "slug": "js-react-async",
+    "step": "al: 2 результата",
+    "passed": true
+  },
+  {
+    "slug": "js-react-async",
+    "step": "alb: Albania",
+    "passed": true
+  },
+  {
+    "slug": "js-react-async",
+    "step": "Очистка",
+    "passed": true
+  },
+  {
+    "slug": "js-react-component-lifecycle",
+    "step": "Пустые задачи",
+    "passed": true
+  },
+  {
+    "slug": "js-react-component-lifecycle",
+    "step": "Добавление первой",
+    "passed": true
+  },
+  {
+    "slug": "js-react-component-lifecycle",
+    "step": "Добавление второй",
+    "passed": true
+  },
+  {
+    "slug": "js-react-component-lifecycle",
+    "step": "Завершение",
+    "passed": true
+  },
+  {
+    "slug": "js-react-context",
+    "step": "White",
+    "passed": true
+  },
+  {
+    "slug": "js-react-context",
+    "step": "Black",
+    "passed": true
+  },
+  {
+    "slug": "js-react-context",
+    "step": "Profile сохраняет тему",
+    "passed": true
+  },
+  {
+    "slug": "js-react-context",
+    "step": "Blue",
+    "passed": true
+  },
+  {
+    "slug": "js-react-forms",
+    "step": "Форма",
+    "passed": true
+  },
+  {
+    "slug": "js-react-forms",
+    "step": "Ввод",
+    "passed": true
+  },
+  {
+    "slug": "js-react-forms",
+    "step": "Таблица",
+    "passed": true
+  },
+  {
+    "slug": "js-react-forms",
+    "step": "Back: значения сохранены",
+    "passed": true
+  },
+  {
+    "slug": "js-react-fsm",
+    "step": "По умолчанию открыто",
+    "passed": true
+  },
+  {
+    "slug": "js-react-fsm",
+    "step": "Закрыть",
+    "passed": true
+  },
+  {
+    "slug": "js-react-fsm",
+    "step": "Открыть",
+    "passed": true
+  },
+  {
+    "slug": "js-react-hooks-use-effect",
+    "step": "Товары загружены",
+    "passed": true
+  },
+  {
+    "slug": "js-react-hooks-use-effect",
+    "step": "Хлеб +",
+    "passed": true
+  },
+  {
+    "slug": "js-react-hooks-use-effect",
+    "step": "Молоко +",
+    "passed": true
+  },
+  {
+    "slug": "js-react-hooks-use-effect",
+    "step": "Хлеб -",
+    "passed": true
+  },
+  {
+    "slug": "js-react-immutability",
+    "step": "Пустая история",
+    "passed": true
+  },
+  {
+    "slug": "js-react-immutability",
+    "step": "+1",
+    "passed": true
+  },
+  {
+    "slug": "js-react-immutability",
+    "step": "+2",
+    "passed": true
+  },
+  {
+    "slug": "js-react-immutability",
+    "step": "-1",
+    "passed": true
+  },
+  {
+    "slug": "js-react-immutability",
+    "step": "Удалить запись",
+    "passed": true
+  },
+  {
+    "slug": "js-react-jsx-html-difference",
+    "step": "Progress 40%",
+    "passed": true
+  },
+  {
+    "slug": "js-react-nested-components",
+    "step": "Пусто",
+    "passed": true
+  },
+  {
+    "slug": "js-react-nested-components",
+    "step": "Первая заметка",
+    "passed": true
+  },
+  {
+    "slug": "js-react-nested-components",
+    "step": "Вторая заметка",
+    "passed": true
+  },
+  {
+    "slug": "js-react-nested-components",
+    "step": "Удалить верхнюю",
+    "passed": true
+  },
+  {
+    "slug": "js-react-props",
+    "step": "Переданные props",
+    "passed": true
+  },
+  {
+    "slug": "js-react-virtual-dom",
+    "step": "Закрыто",
+    "passed": true
+  },
+  {
+    "slug": "js-react-virtual-dom",
+    "step": "Открыть",
+    "passed": true
+  },
+  {
+    "slug": "js-react-virtual-dom",
+    "step": "Закрыть крестиком",
+    "passed": true
+  },
+  {
+    "slug": "js-react-virtual-dom",
+    "step": "Открыть снова",
+    "passed": true
+  },
+  {
+    "slug": "js-react-virtual-dom",
+    "step": "Cancel",
+    "passed": true
+  }
+]

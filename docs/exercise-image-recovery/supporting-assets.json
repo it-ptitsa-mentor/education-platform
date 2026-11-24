@@ -1,0 +1,134 @@
+[
+  {
+    "slug": "css-content-columns",
+    "path": "exercises/css-content-columns/assets/images/karyakin.jpg",
+    "bytes": 25006,
+    "sha256": "fc3a4984dae46c524c56a36878b57d0a1e7f8cb4a7873c70850e02553bd6f4d8"
+  },
+  {
+    "slug": "css-content-columns",
+    "path": "exercises/css-content-columns/assets/images/magnus.jpg",
+    "bytes": 22592,
+    "sha256": "bbc7105103dc8055c6b12815959ed81ae8e1ad692a3eb9c36c665c48c199e084"
+  },
+  {
+    "slug": "css-content-fonts",
+    "path": "exercises/css-content-fonts/assets/images/steve-vai.jpg",
+    "bytes": 66575,
+    "sha256": "7f459d0d3de06d91edece2bb013259cf1bb336872412be0ccd293de82da79660"
+  },
+  {
+    "slug": "css-content-fonts",
+    "path": "exercises/css-content-fonts/assets/fonts/Cormorant-Regular.ttf",
+    "bytes": 406512,
+    "sha256": "f0e3fa5926b2ca4c13150710553f7053f419a302afb29d48816fab230696a6e0"
+  },
+  {
+    "slug": "css-content-fonts",
+    "path": "exercises/css-content-fonts/assets/fonts/Cormorant-Bold.ttf",
+    "bytes": 395644,
+    "sha256": "289dd5c03573fb294155f54d2d0d1b7867366908e0f6f2b9d9140fc739412e81"
+  },
+  {
+    "slug": "css-content-fonts",
+    "path": "exercises/css-content-fonts/assets/fonts/OFL.txt",
+    "bytes": 4386,
+    "sha256": "6f5a41d57400577a50aae88475b11f292f3d7de78ee7d5113c69577331d8ad31"
+  },
+  {
+    "slug": "css-content-list",
+    "path": "exercises/css-content-list/assets/fonts/Comfortaa-Regular.ttf",
+    "bytes": 140136,
+    "sha256": "bcd867f4ddb5d27798bb26ed99a1d92564954ed78de2b522039ce1cf57a1e194"
+  },
+  {
+    "slug": "css-content-list",
+    "path": "exercises/css-content-list/assets/fonts/Comfortaa-Bold.ttf",
+    "bytes": 139984,
+    "sha256": "5b62ac16872b749672b38d5f874bf6a8d02784cb24e3be0f06dc687f7d2c1712"
+  },
+  {
+    "slug": "css-content-list",
+    "path": "exercises/css-content-list/assets/fonts/OFL.txt",
+    "bytes": 4425,
+    "sha256": "c89ab37b152eaa07dc5e8d100d6ffb968226a0c4988bdff16a97e73174e9c77c"
+  },
+  {
+    "slug": "css-content-media",
+    "path": "exercises/css-content-media/assets/magnus-after-mistake.mp4",
+    "bytes": 261369,
+    "sha256": "3838e5d4f8990410830bb5a14dfaadf2fcf19090bd1116e0a58f81c5c75875bb"
+  },
+  {
+    "slug": "css-content-media",
+    "path": "exercises/css-content-media/assets/nepomniachtchi.jpg",
+    "bytes": 139170,
+    "sha256": "55a42e7bc79ee62b35115a47256757a9f6287bed0c309ff7dae97b488c94bb5f"
+  },
+  {
+    "slug": "css-content-media",
+    "path": "exercises/css-content-media/assets/poster.jpg",
+    "bytes": 115415,
+    "sha256": "beca1ce8a2426ac32bf986584e5d915ef6ba0b698eb5a21abe6cb4221a95fe9b"
+  },
+  {
+    "slug": "css-content-media",
+    "path": "exercises/css-content-media/assets/magnus.jpg",
+    "bytes": 97342,
+    "sha256": "e25638976e25bdc684d6d84049ee486d65580ecd56d229abafd0d7a947184cd8"
+  },
+  {
+    "slug": "css-content-media",
+    "path": "exercises/css-content-media/assets/images/magnus_2021.jpg",
+    "bytes": 97342,
+    "sha256": "e25638976e25bdc684d6d84049ee486d65580ecd56d229abafd0d7a947184cd8"
+  },
+  {
+    "slug": "css-content-media",
+    "path": "exercises/css-content-media/assets/images/poster.jpg",
+    "bytes": 115415,
+    "sha256": "beca1ce8a2426ac32bf986584e5d915ef6ba0b698eb5a21abe6cb4221a95fe9b"
+  },
+  {
+    "slug": "css-content-media",
+    "path": "exercises/css-content-media/assets/images/nepomniachtchi_2021.jpg",
+    "bytes": 139170,
+    "sha256": "55a42e7bc79ee62b35115a47256757a9f6287bed0c309ff7dae97b488c94bb5f"
+  },
+  {
+    "slug": "css-content-overflow",
+    "path": "exercises/css-content-overflow/assets/images/star.png",
+    "bytes": 2236,
+    "sha256": "4c8b442415d5ec9f17ef72078f57e6b310fb5a7538ea28c720a35de27d4232d8"
+  },
+  {
+    "slug": "css-flex-align-items",
+    "path": "exercises/css-flex-align-items/images/check-icon.svg",
+    "bytes": 207,
+    "sha256": "32cc223911aa40cb33c5826a80db1f01dab1401a8f19b0cc5f7b0983805e6ec6"
+  },
+  {
+    "slug": "css-grid-element-position",
+    "path": "exercises/css-grid-element-position/assets/fonts/JetBrainsMono-Regular.ttf",
+    "bytes": 115152,
+    "sha256": "cccadf70b349a243762502a0da3e698ab4d462d7cb64d5b2bf5fd9885ba40450"
+  },
+  {
+    "slug": "css-grid-element-position",
+    "path": "exercises/css-grid-element-position/assets/fonts/OFL.txt",
+    "bytes": 4399,
+    "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d"
+  },
+  {
+    "slug": "css-positioning-relative",
+    "path": "exercises/css-positioning-relative/assets/fonts/LibreBodoni-Regular.ttf",
+    "bytes": 144420,
+    "sha256": "4b38d82140e15d98401f4479d3fb6fc99fc6f44444a57c987f5c8fe2ad6f0b16"
+  },
+  {
+    "slug": "css-positioning-relative",
+    "path": "exercises/css-positioning-relative/assets/fonts/OFL.txt",
+    "bytes": 4398,
+    "sha256": "12eb9fc9b38560e364501a7bc86d9de56ff0d50c6b8f359f8320bbb051aa18f7"
+  }
+]

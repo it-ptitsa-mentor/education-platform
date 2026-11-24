@@ -1,5 +1,580 @@
 [
   {
+    "slug": "css-content-columns",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-columns",
+    "title": "Колонки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-columns/final.png",
+        "w": 666,
+        "h": 750,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nКолонки\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nКОЛОНКИ\nHTML\n\nКонец осени 2016 года ознаменовался упорным матчем за звание чемпиона мира по шахматам между норвежцем Ма"
+  },
+  {
+    "slug": "css-content-fonts",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-fonts",
+    "title": "Шрифты и работа с ними",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-fonts/final.png",
+        "w": 1251,
+        "h": 1467,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nШрифты и работа с ними\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nШРИФТЫ И РАБОТА С НИМИ\nHTML\n\nВ этом задании вам необходимо настроить текстовые стили для небольшой части"
+  },
+  {
+    "slug": "css-content-forms",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-forms",
+    "title": "Формы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-forms/final.png",
+        "w": 1040,
+        "h": 884,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nФормы\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nФОРМЫ\nHTML\n\nСоздайте форму обратной связи по макету ниже. Форма состоит из пяти основных элементов:\n\nДва однострочных тек"
+  },
+  {
+    "slug": "css-content-gradient",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-gradient",
+    "title": "Градиенты",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-gradient/final.png",
+        "w": 960,
+        "h": 800,
+        "width": 382.21875,
+        "parentWidth": 382.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nГрадиенты\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nГРАДИЕНТЫ\nHTML\n\nСоздайте повторяющийся паттерн следующего вида:\n\nНаправление: 45 градусов\nПрозрачная полоса занимает "
+  },
+  {
+    "slug": "css-content-list",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-list",
+    "title": "Списки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-list/final.png",
+        "w": 1000,
+        "h": 1169,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nСписки\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nСПИСКИ\nHTML\n\nСоздайте разметку базового уровня карты навыков верстальщика.\n\nСтруктура разметки:\n\nЗаголовок первого уровн"
+  },
+  {
+    "slug": "css-content-media",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-media",
+    "title": "Медиаэлементы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-media/final.png",
+        "w": 634,
+        "h": 878,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nМедиаэлементы\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nМЕДИАЭЛЕМЕНТЫ\nHTML\n\nВ этом задании мы снова вернёмся к шахматной тематике, но теперь узнаем о матче, прошедшем в "
+  },
+  {
+    "slug": "css-content-overflow",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-overflow",
+    "title": "Переполнение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-overflow/final.png",
+        "w": 1040,
+        "h": 884,
+        "width": 382.203125,
+        "parentWidth": 382.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nПереполнение\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nПЕРЕПОЛНЕНИЕ\nHTML\n\nДоработайте компонент «Оповещения». В этом задании реализуйте вертикальную прокрутку сообщений "
+  },
+  {
+    "slug": "css-content-pseudoclasses",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-pseudoclasses",
+    "title": "Псевдоклассы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-pseudoclasses/final.png",
+        "w": 740,
+        "h": 684,
+        "width": 382.203125,
+        "parentWidth": 382.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nПсевдоклассы\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nПСЕВДОКЛАССЫ\nHTML\n\nВ этом задании, используя изученные псевдоклассы, вам предстоит создать поля шахматной доски\n\nВ"
+  },
+  {
+    "slug": "css-content-pseudoelements",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-pseudoelements",
+    "title": "Псевдоэлементы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-pseudoelements/example.jpg",
+        "w": 960,
+        "h": 800,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nПсевдоэлементы\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nПСЕВДОЭЛЕМЕНТЫ\nHTML\n\nВ этом задании вам предстоит создать стили для карточек профилей с использованием псевдоэле"
+  },
+  {
+    "slug": "css-content-selectors",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-selectors",
+    "title": "Селекторы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-selectors/final.png",
+        "w": 790,
+        "h": 863,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nСелекторы\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nСЕЛЕКТОРЫ\nHTML\n\nОформите небольшую страницу со статьями. Для решения задачи используйте селекторы, изученные не тольк"
+  },
+  {
+    "slug": "css-content-table",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-table",
+    "title": "Таблицы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-table/final.png",
+        "w": 1040,
+        "h": 519,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nТаблицы\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nТАБЛИЦЫ\nHTML\n\nСоздайте таблицу списка дел. Пользователь внёс в неё информацию и ему хочется наглядно видеть, какие дела"
+  },
+  {
+    "slug": "css-content-text",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-text",
+    "title": "Стили текста",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-text/final.png",
+        "w": 940,
+        "h": 923,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nСтили текста\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nСТИЛИ ТЕКСТА\nHTML\n\nСоздайте стили начала электронной книги «Война и мир». Добавьте необходимый текст и оформите ег"
+  },
+  {
+    "slug": "css-content-units",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-units",
+    "title": "Единицы измерения",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-units/final.png",
+        "w": 940,
+        "h": 923,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nЕдиницы измерения\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nЕДИНИЦЫ ИЗМЕРЕНИЯ\nHTML\n\nСоздайте шаблон карточки прайсинга для Hexlet. Основные стили уже реализованы, но пре"
+  },
+  {
+    "slug": "css-content-variables",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-variables",
+    "title": "CSS Переменные",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-variables/Variables-White-theme-1-linux.jpg",
+        "w": 960,
+        "h": 800,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-variables/Variables-Dark-theme-1-linux.jpg",
+        "w": 960,
+        "h": 800,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nCSS Переменные\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nCSS ПЕРЕМЕННЫЕ\nHTML\nSTYLES/APP.CSS\n\nДобавьте переменные в глобальную область видимости со следующими значениями:"
+  },
+  {
+    "slug": "css-flex-align-items",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-flex-align-items",
+    "title": "Выравнивание элементов по поперечной оси",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-flex-align-items/final.png",
+        "w": 540,
+        "h": 284,
+        "width": 372.1875,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nВыравнивание элементов по поперечной оси\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nВЫРАВНИВАНИЕ ЭЛЕМЕНТОВ ПО ПОПЕРЕЧНОЙ ОСИ\nHTML\n\nЦентрирование элемента по главной и поп"
+  },
+  {
+    "slug": "css-flex-container",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-flex-container",
+    "title": "Флекс-контейнер",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-flex-container/final.png",
+        "w": 1338,
+        "h": 440,
+        "width": 382.203125,
+        "parentWidth": 382.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nФлекс-контейнер\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nФЛЕКС-КОНТЕЙНЕР\nHTML\n\nДвухколоночный макет — частый выбор при создании сайта. Это очень простая структура докум"
+  },
+  {
+    "slug": "css-flex-items-flexible",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-flex-items-flexible",
+    "title": "Свойства Flex-элементов. Гибкость",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-flex-items-flexible/final.png",
+        "w": 700,
+        "h": 350,
+        "width": 372.21875,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nСвойства Flex-элементов. Гибкость\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nСВОЙСТВА FLEX-ЭЛЕМЕНТОВ. ГИБКОСТЬ\nHTML\n\nПри создании сеток возникают ситуации, когда необходи"
+  },
+  {
+    "slug": "css-flex-justify-content",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-flex-justify-content",
+    "title": "Выравнивание элементов по главной оси",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-flex-justify-content/final.png",
+        "w": 1309,
+        "h": 974,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nВыравнивание элементов по главной оси\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nВЫРАВНИВАНИЕ ЭЛЕМЕНТОВ ПО ГЛАВНОЙ ОСИ\nHTML\n\nНаверное, одна из самых частых задач в карьер"
+  },
+  {
+    "slug": "css-grid-element-position",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-grid-element-position",
+    "title": "Расположение элементов в сетке",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-grid-element-position/final.png",
+        "w": 1320,
+        "h": 937,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-grid-element-position/grid.png",
+        "w": 1320,
+        "h": 937,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nРасположение элементов в сетке\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nРАСПОЛОЖЕНИЕ ЭЛЕМЕНТОВ В СЕТКЕ\nHTML\n\nРеализуйте сетку редактора HexletCodeEditor. Основная вёрст"
+  },
+  {
+    "slug": "css-grid-first-grid",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-grid-first-grid",
+    "title": "Первая сетка",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-grid-first-grid/final.png",
+        "w": 902,
+        "h": 361,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nПервая сетка\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nПЕРВАЯ СЕТКА\nHTML\n\nВ этом задании вам предстоит создать три различные сетки. Создайте следующий макет:\n\nСтили и кл"
+  },
+  {
+    "slug": "css-grid-grid-property",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-grid-grid-property",
+    "title": "Работа с сеткой",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-grid-grid-property/final.png",
+        "w": 500,
+        "h": 1098,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nРабота с сеткой\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nРАБОТА С СЕТКОЙ\nHTML\n\nРеализуйте шаблон двухколоночного сайта используя сетки. В данном проекте сетки будет две"
+  },
+  {
+    "slug": "css-positioning-absolute",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-positioning-absolute",
+    "title": "Абсолютное позиционирование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-positioning-absolute/final.png",
+        "w": 1200,
+        "h": 800,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nАбсолютное позиционирование\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nАБСОЛЮТНОЕ ПОЗИЦИОНИРОВАНИЕ\nHTML\n\nРасположите 3 квадрата следующим образом:\n\nВсе цвета квадратов и "
+  },
+  {
+    "slug": "css-positioning-float",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-positioning-float",
+    "title": "Плавающие элементы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-positioning-float/float.png",
+        "w": 1270,
+        "h": 319,
+        "width": 382.1875,
+        "parentWidth": 382.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nПлавающие элементы\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nПЛАВАЮЩИЕ ЭЛЕМЕНТЫ\nHTML\n\nИспользуя технику «старых мастеров», создайте типичный трёхколоночный макет. Вёрстк"
+  },
+  {
+    "slug": "css-positioning-relative",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-positioning-relative",
+    "title": "Относительное позиционирование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-positioning-relative/final.png",
+        "w": 2880,
+        "h": 980,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nОтносительное позиционирование\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nОТНОСИТЕЛЬНОЕ ПОЗИЦИОНИРОВАНИЕ\nHTML\n\nДоработайте стили при наведении курсора мыши на карточку то"
+  },
+  {
+    "slug": "css-positioning-relative-and-absolute",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-positioning-relative-and-absolute",
+    "title": "Относительное и абсолютное позиционирование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-positioning-relative-and-absolute/absolute_and_relative.png",
+        "w": 500,
+        "h": 300,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nОтносительное и абсолютное позиционирование\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nОТНОСИТЕЛЬНОЕ И АБСОЛЮТНОЕ ПОЗИЦИОНИРОВАНИЕ\nHTML\n\nВ данном задании стоит задача дод"
+  },
+  {
+    "slug": "js-dom-element-manipulating",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-dom-element-manipulating",
+    "title": "Управление узлами DOM",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-dom-element-manipulating/final.png",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nУправление узлами DOM\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nУПРАВЛЕНИЕ УЗЛАМИ DOM\nJAVASCRIPT\nSRC/NORMALIZE.JS\n\nРеализуйте и экспортируйте по умолчанию функцию, котор"
+  },
+  {
+    "slug": "js-dom-events",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-dom-events",
+    "title": "Введение в события",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-dom-events/result.png",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nВведение в события\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nВВЕДЕНИЕ В СОБЫТИЯ\nJAVASCRIPT\n\nВ этом упражнении нужно реализовать логику добавления алертов по клику на кно"
+  },
+  {
+    "slug": "js-dom-events-in-action",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-dom-events-in-action",
+    "title": "События на практике",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-dom-events-in-action/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nСобытия на практике\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nСОБЫТИЯ НА ПРАКТИКЕ\nJAVASCRIPT\n\nВ веб-приложениях часто встречаются кнопки, переключающие содержимое на стр"
+  },
+  {
+    "slug": "js-frontend-architecture-complex-state",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-complex-state",
+    "title": "Комплексное состояние",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-complex-state/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nКомплексное состояние\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nКОМПЛЕКСНОЕ СОСТОЯНИЕ\nJAVASCRIPT\nSRC/APPLICATION.JS\n\nРеализуйте и экспортируйте функцию по умолчанию, кот"
+  },
+  {
+    "slug": "js-frontend-architecture-forms",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-forms",
+    "title": "Состояние форм",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-forms/example.gif",
+        "w": 780,
+        "h": 900,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nСостояние форм\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nСОСТОЯНИЕ ФОРМ\nJAVASCRIPT\n\nВ этой задаче вам предстоит реализовать форму регистрации. Форма состоит из 4 полей ("
+  },
+  {
+    "slug": "js-frontend-architecture-i18n",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-i18n",
+    "title": "Организация текстов интерфейса",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-i18n/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nОрганизация текстов интерфейса\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nОРГАНИЗАЦИЯ ТЕКСТОВ ИНТЕРФЕЙСА\nJAVASCRIPT\n\nВ этом упражнении вам предстоит запрограммировать мул"
+  },
+  {
+    "slug": "js-frontend-architecture-initialization",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-initialization",
+    "title": "Инициализация приложения",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-initialization/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nИнициализация приложения\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nИНИЦИАЛИЗАЦИЯ ПРИЛОЖЕНИЯ\nJAVASCRIPT\n\nВ этом упражнении вам предстоит добавить на страницу несколько эк"
+  },
+  {
+    "slug": "js-frontend-architecture-mvc",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-mvc",
+    "title": "MVC",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-mvc/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nMVC\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nMVC\nJAVASCRIPT\n\nБутстрап позволяет использовать списки для отображения контента при клике по элементу. В этом задании такие"
+  },
+  {
     "slug": "js-frontend-architecture-processes",
     "width": 1440,
     "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-processes",
@@ -9,7 +584,8 @@
         "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-processes/example.gif",
         "w": 780,
         "h": 400,
-        "width": 780
+        "width": 372.203125,
+        "parentWidth": 372.21875
       }
     ],
     "overflow": 0,
@@ -25,11 +601,148 @@
         "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-rendering/example.gif",
         "w": 780,
         "h": 400,
-        "width": 780
+        "width": 372.203125,
+        "parentWidth": 372.21875
       }
     ],
     "overflow": 0,
     "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nОтрисовка (рендеринг) состояния\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nОТРИСОВКА (РЕНДЕРИНГ) СОСТОЯНИЯ\nJAVASCRIPT\nSRC/APPLICATION.JS\n\nРеализуйте и экспортируйте функц"
+  },
+  {
+    "slug": "js-frontend-architecture-shape-of-state",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-shape-of-state",
+    "title": "Нормализация данных",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-shape-of-state/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nНормализация данных\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nНОРМАЛИЗАЦИЯ ДАННЫХ\nJAVASCRIPT\n\nЭта задача не сложная алгоритмически, но довольно объемная. На решение потр"
+  },
+  {
+    "slug": "js-frontend-architecture-state",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-state",
+    "title": "Состояние приложения",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-state/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nСостояние приложения\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nСОСТОЯНИЕ ПРИЛОЖЕНИЯ\nJAVASCRIPT\n\nВ этом задании необходимо реализовать простой калькулятор, который умеет "
+  },
+  {
+    "slug": "js-frontend-architecture-ui-state",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-ui-state",
+    "title": "Состояние отображения (UI State)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-ui-state/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nСостояние отображения (UI State)\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nСОСТОЯНИЕ ОТОБРАЖЕНИЯ (UI STATE)\nJAVASCRIPT\n\nВ этой практике вам нужно будет реализовать Colla"
+  },
+  {
+    "slug": "js-react-async",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-async",
+    "title": "Асинхронная обработка",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-async/autocomplete.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nАсинхронная обработка\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nАСИНХРОННАЯ ОБРАБОТКА\nJAVASCRIPT\nSRC/AUTOCOMPLETE.JSX\n\nРеализуйте компонент <Autocomplete />, который пре"
+  },
+  {
+    "slug": "js-react-component-lifecycle",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-component-lifecycle",
+    "title": "Жизненный цикл компонента",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-component-lifecycle/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nЖизненный цикл компонента\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nЖИЗНЕННЫЙ ЦИКЛ КОМПОНЕНТА\nJAVASCRIPT\n\nВ этом упражнении необходимо реализовать записную книжку, котор"
+  },
+  {
+    "slug": "js-react-context",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-context",
+    "title": "Контекст (Context API)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-context/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nКонтекст (Context API)\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nКОНТЕКСТ (CONTEXT API)\nJAVASCRIPT\n\nВ этом уроке вам предстоит реализовать вкладки(табы) и переключатель "
+  },
+  {
+    "slug": "js-react-forms",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-forms",
+    "title": "Формы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-forms/example.gif",
+        "w": 780,
+        "h": 900,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nФормы\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nФОРМЫ\nJAVASCRIPT\nsrc/MyForm.jsx\n\nРеализуйте компонент <MyForm>, отображающий форму из шести элементов:\n\nemail – инпут тип"
+  },
+  {
+    "slug": "js-react-fsm",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-fsm",
+    "title": "Автоматное программирование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-fsm/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nАвтоматное программирование\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nАВТОМАТНОЕ ПРОГРАММИРОВАНИЕ\nJAVASCRIPT\nSRC/COLLAPSE.JSX\n\nРеализуйте компонент <Collapse>, который п"
   },
   {
     "slug": "js-react-hooks-use-context",
@@ -41,11 +754,723 @@
         "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-hooks-use-context/example.gif",
         "w": 780,
         "h": 400,
-        "width": 780
+        "width": 372.203125,
+        "parentWidth": 372.21875
       }
     ],
     "overflow": 0,
     "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nХук useContext\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nХУК USECONTEXT\nJAVASCRIPT\n\nВ этом уроке нужно доработать функционал изменения темы.\n\nSRC/APP.JSX\n\nОзнакомьтесь с"
+  },
+  {
+    "slug": "js-react-hooks-use-effect",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-hooks-use-effect",
+    "title": "Хук useEffect",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-hooks-use-effect/example.gif",
+        "w": 780,
+        "h": 650,
+        "width": 382.21875,
+        "parentWidth": 382.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nХук useEffect\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nХУК USEEFFECT\nJAVASCRIPT\nsrc/Products.jsx\n\nДоработайте калькулятор суммы покупок так, чтобы в него подгружался сп"
+  },
+  {
+    "slug": "js-react-immutability",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-immutability",
+    "title": "Неизменяемость",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-immutability/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nНеизменяемость\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nНЕИЗМЕНЯЕМОСТЬ\nJAVASCRIPT\nsrc/Component.jsx\n\nРеализуйте компонент, который представляет собой две кнопки и лог с"
+  },
+  {
+    "slug": "js-react-jsx-html-difference",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-jsx-html-difference",
+    "title": "Различия jsx и html",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-jsx-html-difference/result.png",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nРазличия jsx и html\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nРАЗЛИЧИЯ JSX И HTML\nJAVASCRIPT\nsrc/Progress.jsx\n\nРеализуйте и экспортируйте по умолчанию компонент Progress"
+  },
+  {
+    "slug": "js-react-nested-components",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-nested-components",
+    "title": "Вложенные компоненты",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-nested-components/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nВложенные компоненты\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nВЛОЖЕННЫЕ КОМПОНЕНТЫ\nJAVASCRIPT\n\nРеализуйте простой Todo, с возможностью добавлять и удалять заметки.\n\nsrc"
+  },
+  {
+    "slug": "js-react-props",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-props",
+    "title": "Props",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-props/final.png",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nProps\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nPROPS\nJAVASCRIPT\nsrc/Card.jsx\n\nРеализуйте и экспортируйте по умолчанию компонент Card, который принимает на вход свойства"
+  },
+  {
+    "slug": "js-react-virtual-dom",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-virtual-dom",
+    "title": "Virtual Dom",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-virtual-dom/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nVirtual Dom\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nVIRTUAL DOM\nJAVASCRIPT\nsrc/Modal.jsx\n\nРеализуйте компонент <Modal> (Модальное окно)\n\nИспользование:\n\nexport default"
+  },
+  {
+    "slug": "layout-designer-basics-css-cascade",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/layout-designer-basics-css-cascade",
+    "title": "Каскадность в CSS",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/layout-designer-basics-css-cascade/final.png",
+        "w": 1200,
+        "h": 919,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nКаскадность в CSS\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nКАСКАДНОСТЬ В CSS\nHTML\n\nКаждый верстальщик рано или поздно делает страницу «О себе». Часто её дизайн достаточ"
+  },
+  {
+    "slug": "layout-designer-basics-css-intro",
+    "width": 1440,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/layout-designer-basics-css-intro",
+    "title": "Основы CSS",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/layout-designer-basics-css-intro/final.png",
+        "w": 880,
+        "h": 245,
+        "width": 372.203125,
+        "parentWidth": 372.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "IT Птица\nEDU\nDARK\n←\nКАТАЛОГ\nTASK\nОсновы CSS\nRUN TESTS\nCTRL+ENTER\nДалее →\n01 · BRIEF\nОСНОВЫ CSS\nHTML\n\nОформление текстового содержания — одна из самых частых задач для верстальщика. Недостаточно просто"
+  },
+  {
+    "slug": "css-content-columns",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-columns",
+    "title": "Колонки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-columns/final.png",
+        "w": 666,
+        "h": 750,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nКолонки\nУсловие\nКод\nВывод\n01 · BRIEF\nКОЛОНКИ\nHTML\n\nКонец осени 2016 года ознаменовался упорным матчем за звание чемпиона мира по шахматам между норвежцем Магнусом Карлсеном и росси"
+  },
+  {
+    "slug": "css-content-fonts",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-fonts",
+    "title": "Шрифты и работа с ними",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-fonts/final.png",
+        "w": 1251,
+        "h": 1467,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nШрифты и работа с ними\nУсловие\nКод\nВывод\n01 · BRIEF\nШРИФТЫ И РАБОТА С НИМИ\nHTML\n\nВ этом задании вам необходимо настроить текстовые стили для небольшой части страницы портала «Artis"
+  },
+  {
+    "slug": "css-content-forms",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-forms",
+    "title": "Формы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-forms/final.png",
+        "w": 1040,
+        "h": 884,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nФормы\nУсловие\nКод\nВывод\n01 · BRIEF\nФОРМЫ\nHTML\n\nСоздайте форму обратной связи по макету ниже. Форма состоит из пяти основных элементов:\n\nДва однострочных текстовых поля для ввода им"
+  },
+  {
+    "slug": "css-content-gradient",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-gradient",
+    "title": "Градиенты",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-gradient/final.png",
+        "w": 960,
+        "h": 800,
+        "width": 353.203125,
+        "parentWidth": 353.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nГрадиенты\nУсловие\nКод\nВывод\n01 · BRIEF\nГРАДИЕНТЫ\nHTML\n\nСоздайте повторяющийся паттерн следующего вида:\n\nНаправление: 45 градусов\nПрозрачная полоса занимает первые 100 пикселей\nФиол"
+  },
+  {
+    "slug": "css-content-list",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-list",
+    "title": "Списки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-list/final.png",
+        "w": 1000,
+        "h": 1169,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nСписки\nУсловие\nКод\nВывод\n01 · BRIEF\nСПИСКИ\nHTML\n\nСоздайте разметку базового уровня карты навыков верстальщика.\n\nСтруктура разметки:\n\nЗаголовок первого уровня: Карта навыков верстал"
+  },
+  {
+    "slug": "css-content-media",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-media",
+    "title": "Медиаэлементы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-media/final.png",
+        "w": 634,
+        "h": 878,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nМедиаэлементы\nУсловие\nКод\nВывод\n01 · BRIEF\nМЕДИАЭЛЕМЕНТЫ\nHTML\n\nВ этом задании мы снова вернёмся к шахматной тематике, но теперь узнаем о матче, прошедшем в 2021 году между чемпионо"
+  },
+  {
+    "slug": "css-content-overflow",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-overflow",
+    "title": "Переполнение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-overflow/final.png",
+        "w": 1040,
+        "h": 884,
+        "width": 353.203125,
+        "parentWidth": 353.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nПереполнение\nУсловие\nКод\nВывод\n01 · BRIEF\nПЕРЕПОЛНЕНИЕ\nHTML\n\nДоработайте компонент «Оповещения». В этом задании реализуйте вертикальную прокрутку сообщений внутри компонента. После"
+  },
+  {
+    "slug": "css-content-pseudoclasses",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-pseudoclasses",
+    "title": "Псевдоклассы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-pseudoclasses/final.png",
+        "w": 740,
+        "h": 684,
+        "width": 353.203125,
+        "parentWidth": 353.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nПсевдоклассы\nУсловие\nКод\nВывод\n01 · BRIEF\nПСЕВДОКЛАССЫ\nHTML\n\nВ этом задании, используя изученные псевдоклассы, вам предстоит создать поля шахматной доски\n\nВёрстка и основные стили "
+  },
+  {
+    "slug": "css-content-pseudoelements",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-pseudoelements",
+    "title": "Псевдоэлементы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-pseudoelements/example.jpg",
+        "w": 960,
+        "h": 800,
+        "width": 343.21875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nПсевдоэлементы\nУсловие\nКод\nВывод\n01 · BRIEF\nПСЕВДОЭЛЕМЕНТЫ\nHTML\n\nВ этом задании вам предстоит создать стили для карточек профилей с использованием псевдоэлементов. Вам нужно будет "
+  },
+  {
+    "slug": "css-content-selectors",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-selectors",
+    "title": "Селекторы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-selectors/final.png",
+        "w": 790,
+        "h": 863,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nСелекторы\nУсловие\nКод\nВывод\n01 · BRIEF\nСЕЛЕКТОРЫ\nHTML\n\nОформите небольшую страницу со статьями. Для решения задачи используйте селекторы, изученные не только в этом уроке, но и в п"
+  },
+  {
+    "slug": "css-content-table",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-table",
+    "title": "Таблицы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-table/final.png",
+        "w": 1040,
+        "h": 519,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nТаблицы\nУсловие\nКод\nВывод\n01 · BRIEF\nТАБЛИЦЫ\nHTML\n\nСоздайте таблицу списка дел. Пользователь внёс в неё информацию и ему хочется наглядно видеть, какие дела ему нужно совершить в к"
+  },
+  {
+    "slug": "css-content-text",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-text",
+    "title": "Стили текста",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-text/final.png",
+        "w": 940,
+        "h": 923,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nСтили текста\nУсловие\nКод\nВывод\n01 · BRIEF\nСТИЛИ ТЕКСТА\nHTML\n\nСоздайте стили начала электронной книги «Война и мир». Добавьте необходимый текст и оформите его по заданным правилам\n\n"
+  },
+  {
+    "slug": "css-content-units",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-units",
+    "title": "Единицы измерения",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-units/final.png",
+        "w": 940,
+        "h": 923,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nЕдиницы измерения\nУсловие\nКод\nВывод\n01 · BRIEF\nЕДИНИЦЫ ИЗМЕРЕНИЯ\nHTML\n\nСоздайте шаблон карточки прайсинга для Hexlet. Основные стили уже реализованы, но предыдущий разработчик не у"
+  },
+  {
+    "slug": "css-content-variables",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-content-variables",
+    "title": "CSS Переменные",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-variables/Variables-White-theme-1-linux.jpg",
+        "w": 960,
+        "h": 800,
+        "width": 343.21875,
+        "parentWidth": 343.21875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-content-variables/Variables-Dark-theme-1-linux.jpg",
+        "w": 960,
+        "h": 800,
+        "width": 343.21875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nCSS Переменные\nУсловие\nКод\nВывод\n01 · BRIEF\nCSS ПЕРЕМЕННЫЕ\nHTML\nSTYLES/APP.CSS\n\nДобавьте переменные в глобальную область видимости со следующими значениями:\n\nprimary-color: #3498db"
+  },
+  {
+    "slug": "css-flex-align-items",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-flex-align-items",
+    "title": "Выравнивание элементов по поперечной оси",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-flex-align-items/final.png",
+        "w": 540,
+        "h": 284,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nВыравнивание элементов по поперечной оси\nУсловие\nКод\nВывод\n01 · BRIEF\nВЫРАВНИВАНИЕ ЭЛЕМЕНТОВ ПО ПОПЕРЕЧНОЙ ОСИ\nHTML\n\nЦентрирование элемента по главной и поперечной оси — одна из на"
+  },
+  {
+    "slug": "css-flex-container",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-flex-container",
+    "title": "Флекс-контейнер",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-flex-container/final.png",
+        "w": 1338,
+        "h": 440,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nФлекс-контейнер\nУсловие\nКод\nВывод\n01 · BRIEF\nФЛЕКС-КОНТЕЙНЕР\nHTML\n\nДвухколоночный макет — частый выбор при создании сайта. Это очень простая структура документа, а с использованием"
+  },
+  {
+    "slug": "css-flex-items-flexible",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-flex-items-flexible",
+    "title": "Свойства Flex-элементов. Гибкость",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-flex-items-flexible/final.png",
+        "w": 700,
+        "h": 350,
+        "width": 343.21875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nСвойства Flex-элементов. Гибкость\nУсловие\nКод\nВывод\n01 · BRIEF\nСВОЙСТВА FLEX-ЭЛЕМЕНТОВ. ГИБКОСТЬ\nHTML\n\nПри создании сеток возникают ситуации, когда необходимо иметь несколько блоко"
+  },
+  {
+    "slug": "css-flex-justify-content",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-flex-justify-content",
+    "title": "Выравнивание элементов по главной оси",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-flex-justify-content/final.png",
+        "w": 1309,
+        "h": 974,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nВыравнивание элементов по главной оси\nУсловие\nКод\nВывод\n01 · BRIEF\nВЫРАВНИВАНИЕ ЭЛЕМЕНТОВ ПО ГЛАВНОЙ ОСИ\nHTML\n\nНаверное, одна из самых частых задач в карьере верстальщика — прижати"
+  },
+  {
+    "slug": "css-grid-element-position",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-grid-element-position",
+    "title": "Расположение элементов в сетке",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-grid-element-position/final.png",
+        "w": 1320,
+        "h": 937,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-grid-element-position/grid.png",
+        "w": 1320,
+        "h": 937,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nРасположение элементов в сетке\nУсловие\nКод\nВывод\n01 · BRIEF\nРАСПОЛОЖЕНИЕ ЭЛЕМЕНТОВ В СЕТКЕ\nHTML\n\nРеализуйте сетку редактора HexletCodeEditor. Основная вёрстка внутренних компоненто"
+  },
+  {
+    "slug": "css-grid-first-grid",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-grid-first-grid",
+    "title": "Первая сетка",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-grid-first-grid/final.png",
+        "w": 902,
+        "h": 361,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nПервая сетка\nУсловие\nКод\nВывод\n01 · BRIEF\nПЕРВАЯ СЕТКА\nHTML\n\nВ этом задании вам предстоит создать три различные сетки. Создайте следующий макет:\n\nСтили и классы для всех элементов "
+  },
+  {
+    "slug": "css-grid-grid-property",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-grid-grid-property",
+    "title": "Работа с сеткой",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-grid-grid-property/final.png",
+        "w": 500,
+        "h": 1098,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nРабота с сеткой\nУсловие\nКод\nВывод\n01 · BRIEF\nРАБОТА С СЕТКОЙ\nHTML\n\nРеализуйте шаблон двухколоночного сайта используя сетки. В данном проекте сетки будет две:\n\nОбщая сетка для всего"
+  },
+  {
+    "slug": "css-positioning-absolute",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-positioning-absolute",
+    "title": "Абсолютное позиционирование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-positioning-absolute/final.png",
+        "w": 1200,
+        "h": 800,
+        "width": 343.21875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nАбсолютное позиционирование\nУсловие\nКод\nВывод\n01 · BRIEF\nАБСОЛЮТНОЕ ПОЗИЦИОНИРОВАНИЕ\nHTML\n\nРасположите 3 квадрата следующим образом:\n\nВсе цвета квадратов и размеры даны в виде пере"
+  },
+  {
+    "slug": "css-positioning-float",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-positioning-float",
+    "title": "Плавающие элементы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-positioning-float/float.png",
+        "w": 1270,
+        "h": 319,
+        "width": 353.203125,
+        "parentWidth": 353.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nПлавающие элементы\nУсловие\nКод\nВывод\n01 · BRIEF\nПЛАВАЮЩИЕ ЭЛЕМЕНТЫ\nHTML\n\nИспользуя технику «старых мастеров», создайте типичный трёхколоночный макет. Вёрстка доступна в файле index"
+  },
+  {
+    "slug": "css-positioning-relative",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-positioning-relative",
+    "title": "Относительное позиционирование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-positioning-relative/final.png",
+        "w": 2880,
+        "h": 980,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nОтносительное позиционирование\nУсловие\nКод\nВывод\n01 · BRIEF\nОТНОСИТЕЛЬНОЕ ПОЗИЦИОНИРОВАНИЕ\nHTML\n\nДоработайте стили при наведении курсора мыши на карточку товара. Прошлый разработчи"
+  },
+  {
+    "slug": "css-positioning-relative-and-absolute",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/css-positioning-relative-and-absolute",
+    "title": "Относительное и абсолютное позиционирование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/css-positioning-relative-and-absolute/absolute_and_relative.png",
+        "w": 500,
+        "h": 300,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nОтносительное и абсолютное позиционирование\nУсловие\nКод\nВывод\n01 · BRIEF\nОТНОСИТЕЛЬНОЕ И АБСОЛЮТНОЕ ПОЗИЦИОНИРОВАНИЕ\nHTML\n\nВ данном задании стоит задача доделать карточку с описани"
+  },
+  {
+    "slug": "js-dom-element-manipulating",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-dom-element-manipulating",
+    "title": "Управление узлами DOM",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-dom-element-manipulating/final.png",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nУправление узлами DOM\nУсловие\nКод\nВывод\n01 · BRIEF\nУПРАВЛЕНИЕ УЗЛАМИ DOM\nJAVASCRIPT\nSRC/NORMALIZE.JS\n\nРеализуйте и экспортируйте по умолчанию функцию, которая нормализует имена кла"
+  },
+  {
+    "slug": "js-dom-events",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-dom-events",
+    "title": "Введение в события",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-dom-events/result.png",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nВведение в события\nУсловие\nКод\nВывод\n01 · BRIEF\nВВЕДЕНИЕ В СОБЫТИЯ\nJAVASCRIPT\n\nВ этом упражнении нужно реализовать логику добавления алертов по клику на кнопку.\n\nИзначально на стра"
+  },
+  {
+    "slug": "js-dom-events-in-action",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-dom-events-in-action",
+    "title": "События на практике",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-dom-events-in-action/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nСобытия на практике\nУсловие\nКод\nВывод\n01 · BRIEF\nСОБЫТИЯ НА ПРАКТИКЕ\nJAVASCRIPT\n\nВ веб-приложениях часто встречаются кнопки, переключающие содержимое на странице. Например, похожий"
+  },
+  {
+    "slug": "js-frontend-architecture-complex-state",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-complex-state",
+    "title": "Комплексное состояние",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-complex-state/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nКомплексное состояние\nУсловие\nКод\nВывод\n01 · BRIEF\nКОМПЛЕКСНОЕ СОСТОЯНИЕ\nJAVASCRIPT\nSRC/APPLICATION.JS\n\nРеализуйте и экспортируйте функцию по умолчанию, которая создает на странице"
+  },
+  {
+    "slug": "js-frontend-architecture-forms",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-forms",
+    "title": "Состояние форм",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-forms/example.gif",
+        "w": 780,
+        "h": 900,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nСостояние форм\nУсловие\nКод\nВывод\n01 · BRIEF\nСОСТОЯНИЕ ФОРМ\nJAVASCRIPT\n\nВ этой задаче вам предстоит реализовать форму регистрации. Форма состоит из 4 полей (имя, email, пароль и его"
+  },
+  {
+    "slug": "js-frontend-architecture-i18n",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-i18n",
+    "title": "Организация текстов интерфейса",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-i18n/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nОрганизация текстов интерфейса\nУсловие\nКод\nВывод\n01 · BRIEF\nОРГАНИЗАЦИЯ ТЕКСТОВ ИНТЕРФЕЙСА\nJAVASCRIPT\n\nВ этом упражнении вам предстоит запрограммировать мультиязычный счётчик нажат"
+  },
+  {
+    "slug": "js-frontend-architecture-initialization",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-initialization",
+    "title": "Инициализация приложения",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-initialization/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nИнициализация приложения\nУсловие\nКод\nВывод\n01 · BRIEF\nИНИЦИАЛИЗАЦИЯ ПРИЛОЖЕНИЯ\nJAVASCRIPT\n\nВ этом упражнении вам предстоит добавить на страницу несколько экземпляров мультиязычных "
+  },
+  {
+    "slug": "js-frontend-architecture-mvc",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-mvc",
+    "title": "MVC",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-mvc/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nMVC\nУсловие\nКод\nВывод\n01 · BRIEF\nMVC\nJAVASCRIPT\n\nБутстрап позволяет использовать списки для отображения контента при клике по элементу. В этом задании такие группы списков уже подг"
   },
   {
     "slug": "js-frontend-architecture-processes",
@@ -57,7 +1482,8 @@
         "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-processes/example.gif",
         "w": 780,
         "h": 400,
-        "width": 343.1875
+        "width": 343.1875,
+        "parentWidth": 343.21875
       }
     ],
     "overflow": 0,
@@ -73,11 +1499,148 @@
         "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-rendering/example.gif",
         "w": 780,
         "h": 400,
-        "width": 343.1875
+        "width": 343.1875,
+        "parentWidth": 343.21875
       }
     ],
     "overflow": 0,
     "text": "DARK\n←\nКАТАЛОГ\nTASK\nОтрисовка (рендеринг) состояния\nУсловие\nКод\nВывод\n01 · BRIEF\nОТРИСОВКА (РЕНДЕРИНГ) СОСТОЯНИЯ\nJAVASCRIPT\nSRC/APPLICATION.JS\n\nРеализуйте и экспортируйте функцию по умолчанию, которая"
+  },
+  {
+    "slug": "js-frontend-architecture-shape-of-state",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-shape-of-state",
+    "title": "Нормализация данных",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-shape-of-state/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nНормализация данных\nУсловие\nКод\nВывод\n01 · BRIEF\nНОРМАЛИЗАЦИЯ ДАННЫХ\nJAVASCRIPT\n\nЭта задача не сложная алгоритмически, но довольно объемная. На решение потребуется время и это хоро"
+  },
+  {
+    "slug": "js-frontend-architecture-state",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-state",
+    "title": "Состояние приложения",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-state/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nСостояние приложения\nУсловие\nКод\nВывод\n01 · BRIEF\nСОСТОЯНИЕ ПРИЛОЖЕНИЯ\nJAVASCRIPT\n\nВ этом задании необходимо реализовать простой калькулятор, который умеет только складывать. Но де"
+  },
+  {
+    "slug": "js-frontend-architecture-ui-state",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-frontend-architecture-ui-state",
+    "title": "Состояние отображения (UI State)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-frontend-architecture-ui-state/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nСостояние отображения (UI State)\nУсловие\nКод\nВывод\n01 · BRIEF\nСОСТОЯНИЕ ОТОБРАЖЕНИЯ (UI STATE)\nJAVASCRIPT\n\nВ этой практике вам нужно будет реализовать Collapse\n\nSRC/APPLICATION.JS\n"
+  },
+  {
+    "slug": "js-react-async",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-async",
+    "title": "Асинхронная обработка",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-async/autocomplete.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nАсинхронная обработка\nУсловие\nКод\nВывод\n01 · BRIEF\nАСИНХРОННАЯ ОБРАБОТКА\nJAVASCRIPT\nSRC/AUTOCOMPLETE.JSX\n\nРеализуйте компонент <Autocomplete />, который представляет собой текстово"
+  },
+  {
+    "slug": "js-react-component-lifecycle",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-component-lifecycle",
+    "title": "Жизненный цикл компонента",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-component-lifecycle/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nЖизненный цикл компонента\nУсловие\nКод\nВывод\n01 · BRIEF\nЖИЗНЕННЫЙ ЦИКЛ КОМПОНЕНТА\nJAVASCRIPT\n\nВ этом упражнении необходимо реализовать записную книжку, которая взаимодействует с бек"
+  },
+  {
+    "slug": "js-react-context",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-context",
+    "title": "Контекст (Context API)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-context/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nКонтекст (Context API)\nУсловие\nКод\nВывод\n01 · BRIEF\nКОНТЕКСТ (CONTEXT API)\nJAVASCRIPT\n\nВ этом уроке вам предстоит реализовать вкладки(табы) и переключатель тем для контента внутри "
+  },
+  {
+    "slug": "js-react-forms",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-forms",
+    "title": "Формы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-forms/example.gif",
+        "w": 780,
+        "h": 900,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nФормы\nУсловие\nКод\nВывод\n01 · BRIEF\nФОРМЫ\nJAVASCRIPT\nsrc/MyForm.jsx\n\nРеализуйте компонент <MyForm>, отображающий форму из шести элементов:\n\nemail – инпут типа email\npassword – инпут"
+  },
+  {
+    "slug": "js-react-fsm",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-fsm",
+    "title": "Автоматное программирование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-fsm/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nАвтоматное программирование\nУсловие\nКод\nВывод\n01 · BRIEF\nАВТОМАТНОЕ ПРОГРАММИРОВАНИЕ\nJAVASCRIPT\nSRC/COLLAPSE.JSX\n\nРеализуйте компонент <Collapse>, который по клику на ссылке отобра"
   },
   {
     "slug": "js-react-hooks-use-context",
@@ -89,10 +1652,147 @@
         "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-hooks-use-context/example.gif",
         "w": 780,
         "h": 400,
-        "width": 343.1875
+        "width": 343.1875,
+        "parentWidth": 343.21875
       }
     ],
     "overflow": 0,
     "text": "DARK\n←\nКАТАЛОГ\nTASK\nХук useContext\nУсловие\nКод\nВывод\n01 · BRIEF\nХУК USECONTEXT\nJAVASCRIPT\n\nВ этом уроке нужно доработать функционал изменения темы.\n\nSRC/APP.JSX\n\nОзнакомьтесь со списком тем. Каждая те"
+  },
+  {
+    "slug": "js-react-hooks-use-effect",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-hooks-use-effect",
+    "title": "Хук useEffect",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-hooks-use-effect/example.gif",
+        "w": 780,
+        "h": 650,
+        "width": 353.203125,
+        "parentWidth": 353.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nХук useEffect\nУсловие\nКод\nВывод\n01 · BRIEF\nХУК USEEFFECT\nJAVASCRIPT\nsrc/Products.jsx\n\nДоработайте калькулятор суммы покупок так, чтобы в него подгружался список продуктов.\n\nИспольз"
+  },
+  {
+    "slug": "js-react-immutability",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-immutability",
+    "title": "Неизменяемость",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-immutability/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nНеизменяемость\nУсловие\nКод\nВывод\n01 · BRIEF\nНЕИЗМЕНЯЕМОСТЬ\nJAVASCRIPT\nsrc/Component.jsx\n\nРеализуйте компонент, который представляет собой две кнопки и лог событий:\n\nЛог — это списо"
+  },
+  {
+    "slug": "js-react-jsx-html-difference",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-jsx-html-difference",
+    "title": "Различия jsx и html",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-jsx-html-difference/result.png",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nРазличия jsx и html\nУсловие\nКод\nВывод\n01 · BRIEF\nРАЗЛИЧИЯ JSX И HTML\nJAVASCRIPT\nsrc/Progress.jsx\n\nРеализуйте и экспортируйте по умолчанию компонент Progress, который принимает свой"
+  },
+  {
+    "slug": "js-react-nested-components",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-nested-components",
+    "title": "Вложенные компоненты",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-nested-components/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nВложенные компоненты\nУсловие\nКод\nВывод\n01 · BRIEF\nВЛОЖЕННЫЕ КОМПОНЕНТЫ\nJAVASCRIPT\n\nРеализуйте простой Todo, с возможностью добавлять и удалять заметки.\n\nsrc/TodoBox.jsx\n\nОсновной к"
+  },
+  {
+    "slug": "js-react-props",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-props",
+    "title": "Props",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-props/final.png",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nProps\nУсловие\nКод\nВывод\n01 · BRIEF\nPROPS\nJAVASCRIPT\nsrc/Card.jsx\n\nРеализуйте и экспортируйте по умолчанию компонент Card, который принимает на вход свойства title и text. И возвращ"
+  },
+  {
+    "slug": "js-react-virtual-dom",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/js-react-virtual-dom",
+    "title": "Virtual Dom",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/js-react-virtual-dom/example.gif",
+        "w": 780,
+        "h": 450,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nVirtual Dom\nУсловие\nКод\nВывод\n01 · BRIEF\nVIRTUAL DOM\nJAVASCRIPT\nsrc/Modal.jsx\n\nРеализуйте компонент <Modal> (Модальное окно)\n\nИспользование:\n\nexport default class Component extends"
+  },
+  {
+    "slug": "layout-designer-basics-css-cascade",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/layout-designer-basics-css-cascade",
+    "title": "Каскадность в CSS",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/layout-designer-basics-css-cascade/final.png",
+        "w": 1200,
+        "h": 919,
+        "width": 343.203125,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nКаскадность в CSS\nУсловие\nКод\nВывод\n01 · BRIEF\nКАСКАДНОСТЬ В CSS\nHTML\n\nКаждый верстальщик рано или поздно делает страницу «О себе». Часто её дизайн достаточно сложен, чтобы показат"
+  },
+  {
+    "slug": "layout-designer-basics-css-intro",
+    "width": 390,
+    "url": "https://education.it-ptitsa-mentor.ru/preview/exercise/layout-designer-basics-css-intro",
+    "title": "Основы CSS",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/exercise-assets/layout-designer-basics-css-intro/final.png",
+        "w": 880,
+        "h": 245,
+        "width": 343.1875,
+        "parentWidth": 343.21875
+      }
+    ],
+    "overflow": 0,
+    "text": "DARK\n←\nКАТАЛОГ\nTASK\nОсновы CSS\nУсловие\nКод\nВывод\n01 · BRIEF\nОСНОВЫ CSS\nHTML\n\nОформление текстового содержания — одна из самых частых задач для верстальщика. Недостаточно просто расставить блоки и проп"
   }
 ]

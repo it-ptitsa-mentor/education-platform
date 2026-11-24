@@ -1564,6 +1564,13 @@ body.is-resizing-vertical {
   letter-spacing: 0.03em;
 }
 
+/* Exercise illustrations must fit the scrollable brief on desktop and mobile. */
+.readme.prose img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .prose p {
   margin: 0 0 0.75rem;
 }

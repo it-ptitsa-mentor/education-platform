@@ -5,6 +5,11 @@ const excludedDirectories = new Set([
   "tests", "solution", "hexlet", "__tests__", "__solution__", "__hexlet__",
 ]);
 
+const binaryExtensions = new Set([
+  ".png", ".jpg", ".jpeg", ".gif", ".webp", ".avif", ".ico",
+  ".ttf", ".otf", ".woff", ".woff2", ".mp4", ".webm", ".mp3", ".pdf", ".zip",
+]);
+
 /** Supporting sources only: never follow symlinks or expose tests/answers. */
 export const readReferenceFiles = async (
   exerciseDir: string,
@@ -18,7 +23,8 @@ export const readReferenceFiles = async (
       const relative = path.posix.join(relativeDir, entry.name);
       if (entry.isDirectory()) {
         if (!excludedDirectories.has(entry.name)) await visit(relative);
-      } else if (entry.isFile() && entry.name !== "exercise.json" && !studentPaths.has(relative)) {
+      } else if (entry.isFile() && entry.name !== "exercise.json" && !studentPaths.has(relative)
+        && !binaryExtensions.has(path.extname(entry.name).toLowerCase())) {
         files[relative] = await readFile(path.join(exerciseDir, relative), "utf8");
       }
     }
