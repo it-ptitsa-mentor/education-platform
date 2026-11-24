@@ -62,7 +62,7 @@ reviewed_by:
 
 До `grid-template-columns` и `grid-template-rows` элементы тянулись на всю ширину. Теперь каждый занимает одну ячейку 20×20 px — это видно в *веб-инспекторе* (*Chrome DevTools*) при наведении на блок.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Первая сетка — иллюстрация 1](course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/1.png)
 В `grid-template-columns` и `grid-template-rows` можно смешивать значения — для каждой полосы своё:
 
 ```
@@ -77,7 +77,7 @@ reviewed_by:
 
 Обратите внимание на размеры полос в этом варианте.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Первая сетка — иллюстрация 2](course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/2.png)
 ### Repeat
 
 Перечислять одинаковые колонки вручную утомительно и легко ошибиться. Есть функция `repeat` с двумя аргументами:
@@ -112,7 +112,7 @@ reviewed_by:
 
 В *веб-инспекторе* сетка выглядит так:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Первая сетка — иллюстрация 3](course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/3.png)
 Вместо фиксированного числа повторений есть:
 
 - `auto-fill` — браузер повторяет колонки столько раз, сколько влезает в ширину контейнера.

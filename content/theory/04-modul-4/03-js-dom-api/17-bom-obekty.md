@@ -20,12 +20,12 @@ reviewed_by:
 
 **BOM** (Browser Object Model) — объекты, через которые скрипт управляет браузером. Большинство из них доступны как свойства `window`. Ниже — самые частые.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![BOM-объекты — иллюстрация 1](course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/1.png)
 ### Navigator
 
 Данные о браузере и окружении: user agent, язык, разрешения, список плагинов:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![BOM-объекты — иллюстрация 2](course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/2.png)
 ### Location
 
 Работа с адресной строкой. Присвоение `href` загружает другой URL:
@@ -34,17 +34,17 @@ reviewed_by:
 location.href = 'https://example.com'
 ```
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![BOM-объекты — иллюстрация 3](course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/3.png)
 ### History
 
 Переходы по истории вкладки. В SPA историю дополняют без полной перезагрузки страницы — через `history.pushState` и обработку `popstate`:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![BOM-объекты — иллюстрация 4](course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/4.png)
 ### Fetch
 
 Современный способ [AJAX](https://ru.wikipedia.org/wiki/AJAX)-запросов — функция `fetch()`:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![BOM-объекты — иллюстрация 5](course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/5.png)
 Подробнее — в уроке про сетевые запросы.
 
 ## Далее →

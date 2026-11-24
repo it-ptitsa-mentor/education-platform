@@ -12,8 +12,8 @@ reviewed_by:
 
 В уроке про плавающие элементы вы уже видели, что блоки могут перекрывать друг друга. То же бывает при позиционировании вне нормального потока. Порядок наложения настраивают свойством `z-index` — из названия видно связь с осью `z`.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Оси страницы и глубина](course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov/1.svg)
+![Порядок наложения позиционированных блоков](course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov/2.svg)
 Ось `z` определяет, что ближе к пользователю, а что уходит «назад». Поставим трём блокам `position: absolute`:
 
 [CodePen](https://codepen.io/)

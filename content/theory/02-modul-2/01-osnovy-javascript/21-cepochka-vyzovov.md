@@ -10,7 +10,7 @@ reviewed_by:
 
 # Цепочка вызовов
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Цепочка вызовов — иллюстрация 1](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/21-cepochka-vyzovov/1.png)
 У чисел есть метод, переводящий значение в строку:
 
 ```

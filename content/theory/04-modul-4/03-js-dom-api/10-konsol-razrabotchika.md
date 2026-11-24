@@ -26,17 +26,17 @@ DevTools — главный инструмент отладки и анализ�
 
 ## Анализ ошибок
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Консоль разработчика — иллюстрация 1](course/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/1.png)
 Любая ошибка в браузерном JavaScript попадает в консоль. Там видно сообщение и можно перейти к строке исходника, где она возникла.
 
 ## Выбранный элемент
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Консоль разработчика — иллюстрация 2](course/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/2.png)
 Если выбрать узел на вкладке Elements, на вкладке `Console` доступна переменная `$0` — ссылка на этот элемент.
 
 ## Поиск
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Консоль разработчика — иллюстрация 3](course/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/3.png)
 В консоли можно искать элементы по селектору через `$()` — короче, чем полный вызов:
 
 ```
@@ -48,7 +48,7 @@ $('.row')
 
 ## console.dir
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Консоль разработчика — иллюстрация 4](course/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/4.png)
 `console.dir` выводит DOM-узел в виде, удобном для разбора свойств и методов.
 
 ---

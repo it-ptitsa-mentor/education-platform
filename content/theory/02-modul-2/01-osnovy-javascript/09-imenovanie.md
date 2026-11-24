@@ -10,7 +10,7 @@ reviewed_by:
 
 # Именование
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Именование — иллюстрация 1](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/09-imenovanie/1.png)
 Представим себе, что программа из прошлого урока выглядит так:
 
 ```

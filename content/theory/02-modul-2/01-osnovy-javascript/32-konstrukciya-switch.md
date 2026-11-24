@@ -109,7 +109,7 @@ const f = (count) => {
 }
 ```
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Конструкция Switch — иллюстрация 1](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/32-konstrukciya-switch/1.png)
 `switch` не обязателен, но явно показывает: сравниваем одно значение с набором вариантов.
 
 ---

@@ -22,7 +22,7 @@ reviewed_by:
 
 Схема:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Файловая структура — иллюстрация 1](course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/06-faylovaya-struktura/1.png)
 ## Директории
 
 В *nix не говорят «папка» — используют **директорию** или **каталог**; по смыслу это то же самое.

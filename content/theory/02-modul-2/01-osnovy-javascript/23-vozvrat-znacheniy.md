@@ -57,7 +57,7 @@ const greeting = () => {
 
 `return` — инструкция возврата: значение справа уходит вызывающему коду, а функция на этом останавливается.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Возврат значений — иллюстрация 1](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/23-vozvrat-znacheniy/1.png)
 ```
 // Теперь мы можем использовать результат работы функции
 const message = greeting()

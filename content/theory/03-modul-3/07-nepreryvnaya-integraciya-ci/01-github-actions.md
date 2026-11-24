@@ -24,7 +24,7 @@ reviewed_by:
 
 В уроке — базовые понятия и минимальный пример, чтобы быстро подключить Actions к своему репозиторию.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![GitHub Actions — иллюстрация 1](course/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/1.png)
 Схема простая: в репозитории появляется каталог *.github/workflows* с YAML-файлами — в них описано, на какие события реагировать и какие шаги выполнять. Ниже воркфлоу *show-directory* на пуш: файл *show-directory.yml* (имя любое, расширение `.yml`). В терминологии GitHub Actions такой файл — **воркфлоу**.
 
 ```
@@ -53,7 +53,7 @@ jobs:
 
 На схеме ниже — ключевые сущности GitHub Actions.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![GitHub Actions — иллюстрация 2](course/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/2.png)
 - Воркфлоу / Workflows
   В репозитории может быть несколько воркфлоу — каждый в отдельном файле в *.github/workflows*. Несколько воркфлоу могут идти параллельно.
 
@@ -88,7 +88,7 @@ Hello, World!
 
 1. Добавьте в *README.md* [бейдж статуса](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge) воркфлоу — его можно скопировать через меню «⋯» на странице запуска
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![GitHub Actions — иллюстрация 3](course/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/3.jpg)
 В итоге — рабочий воркфлоу и зелёный бейдж в README со статусом последнего прогона.
 
 ## Дополнительные материалы

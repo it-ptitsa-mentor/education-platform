@@ -58,7 +58,7 @@ reviewed_by:
 
 К урокам есть задания в тренажёре. Дополнительно прогоняйте примеры в [regex101](https://regex101.com/): движок **PCRE**, флаги **/gm** (global, multiline).
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Введение — иллюстрация 1](course/theory/assets/restored/04-modul-4/04-regulyarnye-vyrazheniya-regexp/06-vvedenie/1.png)
 ## Дополнительные материалы
 
 - [Регулярные выражения](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5_%D0%B2%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F)

@@ -40,7 +40,7 @@ console.log(name.whatIsThat) // => undefined
 
 ## Методы
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Свойства и методы — иллюстрация 1](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/20-svoystva-i-metody/1.png)
 **Метод** — функция, привязанная к значению; вызывается как `значение.метод()`.
 
 ```

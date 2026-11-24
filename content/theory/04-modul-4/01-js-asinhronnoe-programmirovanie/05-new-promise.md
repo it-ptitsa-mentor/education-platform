@@ -84,7 +84,7 @@ const promise2 = Promise.reject()
 
 ## Устройство
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![new Promise — иллюстрация 1](course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/05-new-promise/1.png)
 Технически промис — объект с тремя состояниями (см. [конечные автоматы](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B9_%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82)): *pending*, *fulfilled*, *rejected*. Старт — *pending*; `resolve` и `reject` переводят в терминальные *fulfilled* или *rejected*. Из терминального состояния откат невозможен: после `resolve` вызов `reject` уже не сменит состояние на *rejected*.
 
 ---

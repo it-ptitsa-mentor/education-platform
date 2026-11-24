@@ -10,7 +10,7 @@ reviewed_by:
 
 # Типы данных
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Типы данных — иллюстрация 1](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/12-tipy-dannyh/1.png)
 Число × строка даёт `NaN` — несовместимые типы:
 
 ```

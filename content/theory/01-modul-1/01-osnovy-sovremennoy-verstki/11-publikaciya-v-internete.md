@@ -24,7 +24,7 @@ reviewed_by:
 
 - Браузер строит страницу на экране
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Публикация в интернете — иллюстрация 1](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/1.png)
 ## Подготовка страницы
 
 Сначала соберите минимальный сайт: один HTML и один CSS.
@@ -108,13 +108,13 @@ main > h2 {
 
 - [Создайте репозиторий](https://github.com/new). Имя: **username.github.io**, где **username** — ваш логин.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Публикация в интернете — иллюстрация 2](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/2.png)
 - Загрузите *index.html* и *style.css*. В URL репозитория добавьте `/upload/` — например `https://github.com/username/username.github.io/upload/`. Выберите файлы и нажмите *Commit changes*.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Публикация в интернете — иллюстрация 3](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/3.png)
 - В *Settings* → *Pages* проверьте публикацию. Для репозитория `username.github.io` сайт часто включается автоматически; иначе в *Source* выберите ветку *main*.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Публикация в интернете — иллюстрация 4](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/4.png)
 Откройте ссылку, которую покажет GitHub — ваша страница в интернете.
 
 ## Далее →

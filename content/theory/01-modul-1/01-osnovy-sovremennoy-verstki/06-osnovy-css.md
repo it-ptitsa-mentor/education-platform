@@ -14,7 +14,7 @@ HTML задаёт структуру. У многих тегов уже есть
 
 За внешний вид отвечает **CSS** (*Cascading Style Sheets*, каскадные таблицы стилей). Браузер по CSS решает, как показать HTML.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Основы CSS — иллюстрация 1](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/1.png)
 В этом уроке — часть про **таблицы стилей**. Про каскадность — в следующем.
 
 ## Стили CSS
@@ -48,7 +48,7 @@ p {
 
 1. Внутри — свойства в формате `свойство: значение;`. Список свойств большой; на практике постоянно смотрят документацию — так делают и опытные разработчики.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Основы CSS — иллюстрация 2](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/2.png)
 Полезные свойства для текста на старте:
 
 - `font-size` — размер шрифта. Сначала удобны **пиксели** (`px`).
@@ -315,8 +315,8 @@ CSS можно вложить в `<style>` внутри `<head>`:
 
 Заголовки «Похожие новости» и «Похожая новость 1» не попадут под это правило.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Основы CSS — иллюстрация 3](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/3.png)
+![Основы CSS — иллюстрация 4](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/4.png)
 ### Комментарии
 
 В CSS комментарии: `/* */`

@@ -106,6 +106,24 @@ LANG = {"plain text": "", "plaintext": "", "javascript": "javascript", "js": "ja
         "json": "json", "bash": "bash", "shell": "bash", "markdown": "markdown"}
 
 # ── блоки → markdown (рекурсивно) ──
+def registered_image(block_id, caption):
+    registry_path = ROOT / "content" / "theory-images.json"
+    registry = json.loads(registry_path.read_text()) if registry_path.exists() else {}
+    entry = registry.get(block_id)
+    if entry is None:
+        return None
+    if entry.get("skip"):
+        return ""
+    path = pathlib.PurePosixPath(entry["path"])
+    if path.is_absolute() or ".." in path.parts or path.parts[0] != "assets":
+        raise ValueError(f"Invalid theory image path: {path}")
+    if not (OUT / path).is_file():
+        raise FileNotFoundError(OUT / path)
+    alt = entry.get("alt") or caption or "Иллюстрация к уроку"
+    alt = alt.replace("[", "\\[").replace("]", "\\]")
+    return f"![{alt}](course/theory/{path})"
+
+
 def blocks_to_md(block_id, depth=0):
     lines = []
     for b in children(block_id):
@@ -149,7 +167,8 @@ def blocks_to_md(block_id, depth=0):
             lines.append("---")
         elif t in ("image", "file"):
             cap = rich(data.get("caption", []))
-            lines.append(f"<!-- IMG{': ' + cap if cap else ''} (из Buildin, перезалить отдельно) -->")
+            image = registered_image(b["id"], cap)
+            lines.append(image if image is not None else f"<!-- IMG{': ' + cap if cap else ''} (из Buildin, перезалить отдельно) -->")
         elif t == "table":
             if b.get("has_children"):
                 lines += table_to_md(b["id"])
@@ -218,9 +237,19 @@ def main():
         if backed:
             print(f"🔒 Бэкап замороженных модулей: {', '.join(sorted(backed))}")
 
+    # Shared image assets must survive even when no modules are frozen.
+    assets_backup = OUT.parent / ".theory-assets-backup"
+    if assets_backup.exists():
+        raise RuntimeError(f"Unrecovered image backup: {assets_backup}")
+    if (OUT / "assets").is_dir():
+        shutil.copytree(OUT / "assets", assets_backup)
+
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
+    if assets_backup.exists():
+        shutil.copytree(assets_backup, OUT / "assets")
+        shutil.rmtree(assets_backup)
 
     if tmp.exists() and any((tmp / mslug).is_dir() for mslug in FROZEN_MODULES):
         for mslug in FROZEN_MODULES:

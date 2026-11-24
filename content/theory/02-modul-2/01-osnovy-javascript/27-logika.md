@@ -42,7 +42,7 @@ console.log(result) // => true
 console.log('one' !== 'one') // => false
 ```
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Логика — иллюстрация 1](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/27-logika/1.png)
 Boolean — примитивный тип наряду со string и number.
 
 Функция-предикат: младенец ли ребёнок до года:

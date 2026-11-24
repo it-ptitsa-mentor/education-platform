@@ -45,7 +45,7 @@ nothing to commit, working tree clean
 
 `git stash` не удаляет файлы — складывает их во временное хранилище внутри *.git*. Новые неотслеживаемые файлы не трогает, они ещё не часть репозитория:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Stash — иллюстрация 1](course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/14-stash/1.jpg)
 Когда срочные правки сделаны, верните спрятанное — `git stash pop`:
 
 ```

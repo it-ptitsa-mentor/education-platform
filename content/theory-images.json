@@ -1,0 +1,942 @@
+{
+  "ac6d7d46-21df-4bc8-aa5d-aa24a4573e46": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/02-vvedenie-v-html/1.png",
+    "alt": "Введение в HTML — иллюстрация 1"
+  },
+  "44963e14-792e-40e4-8924-da290c1612f9": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/1.png",
+    "alt": "Блочная модель — иллюстрация 1"
+  },
+  "93edd17e-5050-4774-9393-e7047c355999": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/2.png",
+    "alt": "Блочная модель — иллюстрация 2"
+  },
+  "4337f681-a938-4371-9f2d-c652348969c1": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/3.png",
+    "alt": "Блочная модель — иллюстрация 3"
+  },
+  "86afdff7-7e86-4832-8866-ce0757d0eee9": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/1.png",
+    "alt": "Семантический HTML — иллюстрация 1"
+  },
+  "b6b35bbb-f193-48ca-82fe-69fd6447ab4c": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/2.png",
+    "alt": "Семантический HTML — иллюстрация 2"
+  },
+  "d9f98122-5cbf-4164-9d7d-a3c5dcadf932": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/3.png",
+    "alt": "Семантический HTML — иллюстрация 3"
+  },
+  "41b8d3f3-10c3-4b90-a0c1-62e6591efe76": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/4.png",
+    "alt": "Семантический HTML — иллюстрация 4"
+  },
+  "40ab702d-c980-48ff-80c2-c18738fb6837": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/5.png",
+    "alt": "Семантический HTML — иллюстрация 5"
+  },
+  "b938baab-44f7-4def-98dc-4ef78edb8d04": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/6.png",
+    "alt": "Семантический HTML — иллюстрация 6"
+  },
+  "23a9e043-32ba-4f75-b5c4-0dc5b2fc9bf0": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/05-bazovaya-struktura-html-dokumenta/1.png",
+    "alt": "Базовая структура HTML документа — иллюстрация 1"
+  },
+  "e7a3471a-a67c-4a42-ac06-15c61460fa5e": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/1.png",
+    "alt": "Основы CSS — иллюстрация 1"
+  },
+  "024c8409-1c86-4c2c-b6cd-eca237d76f45": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/2.png",
+    "alt": "Основы CSS — иллюстрация 2"
+  },
+  "d09f0f5b-2ede-4e01-88c2-7d6b9e0127b0": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/3.png",
+    "alt": "Основы CSS — иллюстрация 3"
+  },
+  "6420ee63-c720-45af-a143-52ab2cdf8d64": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/4.png",
+    "alt": "Основы CSS — иллюстрация 4"
+  },
+  "699b0262-4ad7-44a8-a029-fff17dd4cd29": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/07-kaskadnost-v-css/1.jpg",
+    "alt": "Каскадность в CSS — иллюстрация 1"
+  },
+  "d12df48d-2282-47a7-84c1-937709865e7a": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/07-kaskadnost-v-css/2.jpg",
+    "alt": "Каскадность в CSS — иллюстрация 2"
+  },
+  "0b4621fe-4182-437b-ac09-2d23afe2ab46": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/1.jpg",
+    "alt": "Chrome DevTools — иллюстрация 1"
+  },
+  "053be00e-0da8-4a95-b307-8dddfbf1f772": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/2.png",
+    "alt": "Chrome DevTools — иллюстрация 2"
+  },
+  "792c29a3-8755-4788-9f1e-2e86c90847ca": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/3.png",
+    "alt": "Chrome DevTools — иллюстрация 3"
+  },
+  "93d7358b-0865-4b8c-b69d-583ee0ddfb61": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/4.png",
+    "alt": "Chrome DevTools — иллюстрация 4"
+  },
+  "03c515ea-ee63-4b00-ae5f-b2ed39af0219": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/5.png",
+    "alt": "Chrome DevTools — иллюстрация 5"
+  },
+  "807c35c6-f977-4da0-b4bf-aa948292c5bf": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/6.png",
+    "alt": "Chrome DevTools — иллюстрация 6"
+  },
+  "4b8e5acb-140a-4281-b3ff-ccfd3b975e20": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/7.png",
+    "alt": "Chrome DevTools — иллюстрация 7"
+  },
+  "46cbad45-3637-4f4c-8436-bf6b6b7a6254": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/1.jpg",
+    "alt": "Редакторы кода — иллюстрация 1"
+  },
+  "7188c38f-d7d2-43ca-9640-0c1d88c2d0ad": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/2.png",
+    "alt": "Редакторы кода — иллюстрация 2"
+  },
+  "aff9ad28-fda8-4b93-9066-a93b7994247f": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/3.png",
+    "alt": "Редакторы кода — иллюстрация 3"
+  },
+  "a5ce2a45-46be-4000-9ed1-2065f7005603": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/4.png",
+    "alt": "Редакторы кода — иллюстрация 4"
+  },
+  "3a6aa693-f660-4d92-b8fb-362c65bccb64": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/5.png",
+    "alt": "Редакторы кода — иллюстрация 5"
+  },
+  "8a21d100-abb4-44da-b540-02a5a55146fe": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/1.png",
+    "alt": "Emmet — иллюстрация 1"
+  },
+  "48028210-08da-47ee-b8e3-25273f255a24": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/2.png",
+    "alt": "Emmet — иллюстрация 2"
+  },
+  "d3d32c47-ad7c-41cc-b516-97d36f65a308": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/3.jpg",
+    "alt": "Emmet — иллюстрация 3"
+  },
+  "0c44ce66-8c60-4712-a269-36ec3370f36b": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/1.png",
+    "alt": "Публикация в интернете — иллюстрация 1"
+  },
+  "187e344d-9ac0-4256-9391-b96ccee20e79": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/2.png",
+    "alt": "Публикация в интернете — иллюстрация 2"
+  },
+  "e2d46b63-366f-4caa-bcb2-1a0b715d1f16": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/3.png",
+    "alt": "Публикация в интернете — иллюстрация 3"
+  },
+  "ea68fd29-4a28-42a3-8ec6-70b69bda67dc": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/4.png",
+    "alt": "Публикация в интернете — иллюстрация 4"
+  },
+  "20115403-0850-4c2f-a260-ccd6de64cf8e": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/1.png",
+    "alt": "Графические редакторы — иллюстрация 1"
+  },
+  "8571cab5-d10d-4ab3-b66e-96ad0bdb0ab2": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/2.png",
+    "alt": "Графические редакторы — иллюстрация 2"
+  },
+  "b935a1bb-2509-4e36-ada7-224989a40c88": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/3.png",
+    "alt": "Графические редакторы — иллюстрация 3"
+  },
+  "4a89d8bd-c2f8-41db-9444-2cd187a68c43": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/4.png",
+    "alt": "Графические редакторы — иллюстрация 4"
+  },
+  "5326ab2f-6f52-41b1-8cc3-9a5621993509": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/5.png",
+    "alt": "Графические редакторы — иллюстрация 5"
+  },
+  "3f353202-0fe1-4ac9-af07-e2144ef73e5f": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/01-vvedenie/1.jpg",
+    "alt": "Введение — иллюстрация 1"
+  },
+  "edecfe22-f114-4027-b5b9-fc60f8003182": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/01-vvedenie/2.jpg",
+    "alt": "Введение — иллюстрация 2"
+  },
+  "353e73b0-7ad6-415b-a320-ae6ecdbeefaa": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/01-vvedenie/3.jpg",
+    "alt": "Введение — иллюстрация 3"
+  },
+  "1b3bfcd5-6ab2-4065-9d35-d633ae2be623": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/02-blochnaya-model-i-css/1.png",
+    "alt": "Блочная модель и CSS — иллюстрация 1"
+  },
+  "873364be-bb67-42b9-b69d-6e124e0920a7": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/03-stili-teksta/1.jpg",
+    "alt": "Стили текста — иллюстрация 1"
+  },
+  "22e4370d-deb4-4f8c-a6e3-4a5e7249d03a": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/06-kolonki/1.png",
+    "alt": "Колонки — иллюстрация 1"
+  },
+  "57b73ca0-857e-450f-b785-3152e429c5c2": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/09-tablicy/1.jpg",
+    "alt": "Таблицы — иллюстрация 1"
+  },
+  "7a2a6e15-4bb6-40c5-961f-521e291aa025": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/10-formy/1.gif",
+    "alt": "Формы — иллюстрация 1"
+  },
+  "cffc8dc8-f64a-4387-b140-ba67b99e7636": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/1.png",
+    "alt": "Градиенты — иллюстрация 1"
+  },
+  "ba718259-9f92-48fb-bb28-5c0deb83463a": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/2.png",
+    "alt": "Градиенты — иллюстрация 2"
+  },
+  "feecef9d-ef6e-4201-83d9-4de9df13f21e": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/3.png",
+    "alt": "Градиенты — иллюстрация 3"
+  },
+  "9615b89f-a7f8-4947-8b2a-1bf2bf7f11a2": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/4.png",
+    "alt": "Градиенты — иллюстрация 4"
+  },
+  "7792e742-09aa-43a8-a5c1-32f01253aaac": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/5.png",
+    "alt": "Градиенты — иллюстрация 5"
+  },
+  "2d5ca1f5-43ba-4ea1-b6c0-e928f6ed3264": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/6.png",
+    "alt": "Градиенты — иллюстрация 6"
+  },
+  "4d10bfc3-c905-4380-9174-c507ccbd115c": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/7.png",
+    "alt": "Градиенты — иллюстрация 7"
+  },
+  "f653be19-60e2-421d-91b6-b050d8bd2296": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/8.png",
+    "alt": "Градиенты — иллюстрация 8"
+  },
+  "1db66e55-d2c3-4e93-ad69-f69ed353b736": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/9.jpg",
+    "alt": "Градиенты — иллюстрация 9"
+  },
+  "ac84a32a-d17d-4a71-bd98-7ffe38162851": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/10.jpg",
+    "alt": "Градиенты — иллюстрация 10"
+  },
+  "72634a79-05ea-4683-b6c1-b3645fd2c31b": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/11.jpg",
+    "alt": "Градиенты — иллюстрация 11"
+  },
+  "f577c3bd-6e1d-4fdb-af1e-f6e8baa3c552": {
+    "path": "assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/12.jpg",
+    "alt": "Градиенты — иллюстрация 12"
+  },
+  "15f3eb12-d23c-424d-a9b6-2d6cd456304b": {
+    "path": "assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/1.png",
+    "alt": "Поток документа — иллюстрация 1"
+  },
+  "38078c92-4123-4f7d-9c7d-0235e323d5c7": {
+    "path": "assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/2.png",
+    "alt": "Поток документа — иллюстрация 2"
+  },
+  "79225735-464d-459e-8017-5376dd08c285": {
+    "path": "assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/3.png",
+    "alt": "Поток документа — иллюстрация 3"
+  },
+  "4113eed0-04ed-4c0a-811e-7fb78f0fd01a": {
+    "path": "assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/1.png",
+    "alt": "Относительное позиционирование — иллюстрация 1"
+  },
+  "4472e8f0-a2f9-44bc-b20d-9cfc1a5bd40d": {
+    "path": "assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/2.png",
+    "alt": "Относительное позиционирование — иллюстрация 2"
+  },
+  "a227e2eb-b4d1-4e81-90b1-6f3eb6c5cc41": {
+    "path": "assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/3.png",
+    "alt": "Относительное позиционирование — иллюстрация 3"
+  },
+  "28ea4950-a6ae-45bb-9ce0-0b8c027a1c13": {
+    "path": "assets/restored/01-modul-1/04-css-flex/05-vyravnivanie-elementov-po-glavnoy-osi/1.png",
+    "alt": "Выравнивание элементов по главной оси — иллюстрация 1"
+  },
+  "747df9b8-43fc-45a2-a2a5-717214423c31": {
+    "path": "assets/restored/01-modul-1/04-css-flex/06-vyravnivanie-elementov-po-poperechnoy-osi/1.png",
+    "alt": "Выравнивание элементов по поперечной оси — иллюстрация 1"
+  },
+  "0d2a1052-3590-414e-ae6a-4b94fadb25c8": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/1.jpg",
+    "alt": "Терминология — иллюстрация 1"
+  },
+  "6212760a-bb64-477f-8b3e-1e4d0f3818fe": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/3.jpg",
+    "alt": "Терминология — иллюстрация 3"
+  },
+  "b6c930cf-195c-4573-a032-ec2c20571139": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/1.png",
+    "alt": "Первая сетка — иллюстрация 1"
+  },
+  "0cf4f349-7e2e-4e10-921d-4fa912b9c860": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/2.png",
+    "alt": "Первая сетка — иллюстрация 2"
+  },
+  "95570476-4ef3-4368-903f-a95cca25faaa": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/3.png",
+    "alt": "Первая сетка — иллюстрация 3"
+  },
+  "0fea6b60-31d0-4421-95f3-274aa39978a5": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/04-raspolozhenie-elementov-v-setke/1.jpg",
+    "alt": "Расположение элементов в сетке — иллюстрация 1"
+  },
+  "ae0a2017-742b-48e2-a6d6-78c232699eb2": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/05-rabota-s-setkoy/1.png",
+    "alt": "Работа с сеткой — иллюстрация 1"
+  },
+  "b33f54b9-a687-4d8e-b0ad-cad3faff85ed": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/1.png",
+    "alt": "Неявная сетка — иллюстрация 1"
+  },
+  "e1b47b41-b1f0-4c6a-8ae4-aa9bd9a6c94a": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/3.png",
+    "alt": "Неявная сетка — иллюстрация 3"
+  },
+  "841768c2-df2a-4f6b-8e13-dca74e851951": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/4.png",
+    "alt": "Неявная сетка — иллюстрация 4"
+  },
+  "ba9ab8b4-532c-4b16-a0c6-ef764d1de6ac": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/5.png",
+    "alt": "Неявная сетка — иллюстрация 5"
+  },
+  "c07d1339-fda4-4378-88bc-98d95eb60ab9": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/07-pozicionirovanie-i-grid/1.png",
+    "alt": "Позиционирование и Grid — иллюстрация 1"
+  },
+  "bf679555-a225-479c-b648-e8c1b6a3f2ba": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/03-instrukcii/1.png",
+    "alt": "Инструкции — иллюстрация 1"
+  },
+  "40772c1b-b813-475a-aa78-a043e4302651": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/04-arifmeticheskie-operacii/1.png",
+    "alt": "Арифметические операции — иллюстрация 1"
+  },
+  "f290a00a-8307-4897-b4b9-dd150dc5c3ca": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/05-oshibki-oformleniya-sintaksisa-i-lintera/1.png",
+    "alt": "Ошибки оформления (синтаксиса и линтера) — иллюстрация 1"
+  },
+  "49891686-2e0a-4c94-9567-ce4dbf5bf32e": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/07-peremennye/1.png",
+    "alt": "Переменные — иллюстрация 1"
+  },
+  "d79e177e-2196-438c-bb3f-002b7abc6461": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/09-imenovanie/1.png",
+    "alt": "Именование — иллюстрация 1"
+  },
+  "c3074c95-1110-44b4-b8e3-41ceb5f31714": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/12-tipy-dannyh/1.png",
+    "alt": "Типы данных — иллюстрация 1"
+  },
+  "c5e60ff3-3cfd-490d-9686-4d3b6e98b5dc": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/14-funkcii-i-ih-vyzov/1.png",
+    "alt": "Функции и их вызов — иллюстрация 1"
+  },
+  "721b46d7-8473-40ee-9951-aeee73110a98": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/18-determinirovannost/1.png",
+    "alt": "Детерминированность — иллюстрация 1"
+  },
+  "dc5454c7-4e81-4527-9bf4-58e236c9f352": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/19-standartnaya-biblioteka/1.png",
+    "alt": "Стандартная библиотека — иллюстрация 1"
+  },
+  "1b126991-1cc6-464c-ab30-28f13065fab9": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/20-svoystva-i-metody/1.png",
+    "alt": "Свойства и методы — иллюстрация 1"
+  },
+  "04ffb15c-cf85-41c9-8f20-91b625aaf570": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/21-cepochka-vyzovov/1.png",
+    "alt": "Цепочка вызовов — иллюстрация 1"
+  },
+  "e54ee13a-f08e-494b-9c7f-45359ae66293": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/22-opredelenie-funkciy/1.png",
+    "alt": "Определение функций — иллюстрация 1"
+  },
+  "28cf20d1-5235-4992-8cd7-d16e023ade7a": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/23-vozvrat-znacheniy/1.png",
+    "alt": "Возврат значений — иллюстрация 1"
+  },
+  "b77bdc9e-cfb1-41ef-9827-57f512384cdc": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/24-parametry-funkciy/1.png",
+    "alt": "Параметры функций — иллюстрация 1"
+  },
+  "3c07cd1a-0de4-4a33-be13-8758f7e88a5b": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/25-neobyazatelnye-parametry-funkciy/1.png",
+    "alt": "Необязательные параметры функций — иллюстрация 1"
+  },
+  "632f6e25-d37f-4ea5-a7e8-6260fda05416": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/27-logika/1.png",
+    "alt": "Логика — иллюстрация 1"
+  },
+  "84636e22-38ff-4b63-abc4-eb000a09b0fc": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory/1.png",
+    "alt": "Логические операторы — иллюстрация 1"
+  },
+  "cb9cb099-5551-4f29-93ee-354ecce661a1": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory/2.png",
+    "alt": "Логические операторы — иллюстрация 2"
+  },
+  "11a6599e-7db1-43ec-8ecf-a1ed27fbcf13": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/30-uslovnye-konstrukcii/1.png",
+    "alt": "Условные конструкции — иллюстрация 1"
+  },
+  "606fbf47-41bd-4795-ae2a-5c1c779852fc": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/31-ternarnyy-operator/1.png",
+    "alt": "Тернарный оператор — иллюстрация 1"
+  },
+  "8d0424be-0531-4c37-bb29-434bb541ae7d": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/32-konstrukciya-switch/1.png",
+    "alt": "Конструкция Switch — иллюстрация 1"
+  },
+  "4aaf9b3d-9a70-4984-80c7-7c75398762ef": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/33-cikl-while/1.png",
+    "alt": "Цикл while — иллюстрация 1"
+  },
+  "e09db03e-49d8-47b6-b409-cbcc94e7b0d1": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/34-agregaciya-dannyh/1.png",
+    "alt": "Агрегация данных — иллюстрация 1"
+  },
+  "71412dc5-0288-4db1-ac8b-2ed9c9991e51": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/36-usloviya-vnutri-tela-cikla/1.png",
+    "alt": "Условия внутри тела цикла — иллюстрация 1"
+  },
+  "762e1c05-5797-42a3-b62a-b48667ee1963": {
+    "path": "assets/restored/02-modul-2/01-osnovy-javascript/39-moduli/1.png",
+    "alt": "Модули — иллюстрация 1"
+  },
+  "8196e883-c2f9-442b-afb1-ce05b0fb6543": {
+    "path": "assets/restored/02-modul-2/02-js-massivy/15-teoriya-mnozhestv/1.jpg",
+    "alt": "Теория множеств — иллюстрация 1"
+  },
+  "6e24a667-835e-4f9c-bb0d-045ba310b3e0": {
+    "path": "assets/restored/02-modul-2/02-js-massivy/17-stek/1.png",
+    "alt": "Стек — иллюстрация 1"
+  },
+  "fcdc7d8f-3e55-4a69-bc09-73f82d1648a7": {
+    "path": "assets/restored/02-modul-2/02-js-massivy/17-stek/2.png",
+    "alt": "Стек — иллюстрация 2"
+  },
+  "9e8ab1d9-f1dc-4820-8cf3-465606d57fcc": {
+    "path": "assets/restored/02-modul-2/02-js-massivy/18-big-o/1.png",
+    "alt": "Big O — иллюстрация 1"
+  },
+  "61a9b9f4-69a0-42b5-a70b-3b31a975e5a9": {
+    "path": "assets/restored/02-modul-2/02-js-massivy/18-big-o/2.png",
+    "alt": "Big O — иллюстрация 2"
+  },
+  "de224786-d2c1-4034-a26b-9e0e792ba521": {
+    "path": "assets/restored/02-modul-2/02-js-massivy/22-massivy-v-pamyati-kompyutera/1.png",
+    "alt": "Массивы в памяти компьютера — иллюстрация 1"
+  },
+  "31e13e82-aa0d-4c59-8518-81b1f229f0e2": {
+    "path": "assets/restored/02-modul-2/03-js-obekty/01-o-kurse/1.png",
+    "alt": "О курсе — иллюстрация 1"
+  },
+  "26401fd0-f485-45f7-9ce8-862cc142b5d2": {
+    "path": "assets/restored/02-modul-2/03-js-obekty/04-ssylki/1.png",
+    "alt": "Ссылки — иллюстрация 1"
+  },
+  "cfbdf73d-465c-4715-8be9-7e5a34bd23bd": {
+    "path": "assets/restored/02-modul-2/03-js-obekty/04-ssylki/2.png",
+    "alt": "Ссылки — иллюстрация 2"
+  },
+  "18131231-6ff9-41a6-851f-ae52a7a4e74e": {
+    "path": "assets/restored/02-modul-2/03-js-obekty/13-hesh-tablicy/1.jpg",
+    "alt": "Хеш-таблицы — иллюстрация 1"
+  },
+  "9018c7a8-9759-42ab-b23f-8bcca920858d": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/01-vvedenie/1.png",
+    "alt": "Введение — иллюстрация 1"
+  },
+  "8831b6c6-8043-4c04-b6e7-f7a3cbc23cf8": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/1.jpg",
+    "alt": "Операционные системы — иллюстрация 1"
+  },
+  "ec238e9f-c397-4b59-bc43-3b484cd5b77e": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/2.jpg",
+    "alt": "Операционные системы — иллюстрация 2"
+  },
+  "60b7cb34-3602-4e12-91c1-de0707681fd6": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/3.png",
+    "alt": "Операционные системы — иллюстрация 3"
+  },
+  "8e9bb98c-440c-4ee3-bc43-ee74cde5fd3b": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/4.png",
+    "alt": "Операционные системы — иллюстрация 4"
+  },
+  "22367398-3604-425c-9d5d-b1f6c2eb4025": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/1.png",
+    "alt": "Командная строка — иллюстрация 1"
+  },
+  "025a0574-5bbc-4ad2-a906-d29e2ae5a742": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/2.png",
+    "alt": "Командная строка — иллюстрация 2"
+  },
+  "cddab558-9967-4d1a-aea4-894c840b5286": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/3.png",
+    "alt": "Командная строка — иллюстрация 3"
+  },
+  "c1968b28-f29c-482d-a933-2857ca640feb": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/4.png",
+    "alt": "Командная строка — иллюстрация 4"
+  },
+  "7fb953ef-95df-4bd4-b0c0-145b1269054c": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki/1.png",
+    "alt": "Интерфейс командной строки — иллюстрация 1"
+  },
+  "17a580d1-f4b3-42e9-97f9-ed550de0a929": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki/2.png",
+    "alt": "Интерфейс командной строки — иллюстрация 2"
+  },
+  "1a6cdd8d-3cfe-40ce-af20-dc2a1bd9e941": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/06-faylovaya-struktura/1.png",
+    "alt": "Файловая структура — иллюстрация 1"
+  },
+  "a4455473-7b73-4dc3-bc1e-fa8c1f5b5cda": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/1.png",
+    "alt": "Редактирование файлов — иллюстрация 1"
+  },
+  "6a5a1396-d881-4dc1-ba48-56826d6af8f9": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/2.png",
+    "alt": "Редактирование файлов — иллюстрация 2"
+  },
+  "378a8fa4-274a-445e-bd5e-299128953684": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/3.png",
+    "alt": "Редактирование файлов — иллюстрация 3"
+  },
+  "de1921da-f74b-48df-9c35-b6801d37e6e4": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/4.jpg",
+    "alt": "Редактирование файлов — иллюстрация 4"
+  },
+  "631e52f8-9d89-402b-b94c-f4d77a86d03c": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/10-potoki/1.png",
+    "alt": "Потоки — иллюстрация 1"
+  },
+  "9e507a61-467d-400a-ae18-3dc3bae313e6": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/11-payplayn/1.png",
+    "alt": "Пайплайн — иллюстрация 1"
+  },
+  "5315735b-d3e7-4f53-9477-9d39c658fa59": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/14-istoriya/1.jpg",
+    "alt": "История — иллюстрация 1"
+  },
+  "91332dc1-76e6-4ef2-b449-19844261b6fe": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy/1.png",
+    "alt": "Пользователи и группы — иллюстрация 1"
+  },
+  "aae7ecea-a9b1-4f15-ba26-9dc8cca42025": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy/2.png",
+    "alt": "Пользователи и группы — иллюстрация 2"
+  },
+  "4f01e098-ee65-4393-8bcd-cbdaf2d93b03": {
+    "path": "assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/17-prava-dostupa/1.png",
+    "alt": "Права доступа — иллюстрация 1"
+  },
+  "9b68434d-35c7-4c47-86cc-2b1b19497006": {
+    "path": "assets/restored/02-modul-2/05-vvedenie-v-git/01-vvedenie/1.jpg",
+    "alt": "Введение — иллюстрация 1"
+  },
+  "bfbca2aa-daed-48a1-850b-1ece4f3c54d7": {
+    "path": "assets/restored/02-modul-2/05-vvedenie-v-git/02-rabochiy-process/1.jpg",
+    "alt": "Рабочий процесс — иллюстрация 1"
+  },
+  "e635db51-b849-4e5a-899c-10fd4cd3a124": {
+    "path": "assets/restored/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github/1.png",
+    "alt": "Интеграция с GitHub — иллюстрация 1"
+  },
+  "0fdff3c0-9785-47a1-82eb-e1c899ded88b": {
+    "path": "assets/restored/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github/2.jpg",
+    "alt": "Интеграция с GitHub — иллюстрация 2"
+  },
+  "da541df7-38d1-4766-8741-12ddc9bdc343": {
+    "path": "assets/restored/02-modul-2/05-vvedenie-v-git/05-analiz-sdelannyh-izmeneniy/1.jpg",
+    "alt": "Анализ сделанных изменений — иллюстрация 1"
+  },
+  "5a7d0ad5-94b5-4aad-8e38-42fda7a5d244": {
+    "path": "assets/restored/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov/1.svg",
+    "alt": "Отмена коммитов — иллюстрация 1"
+  },
+  "85c4015e-857d-40d0-96c9-3e398baf358d": {
+    "path": "assets/restored/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov/2.svg",
+    "alt": "Отмена коммитов — иллюстрация 2"
+  },
+  "d45d8046-d475-47b8-86e0-a5f283bea4f6": {
+    "path": "assets/restored/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov/3.svg",
+    "alt": "Отмена коммитов — иллюстрация 3"
+  },
+  "205f3dfc-c6db-4bf5-970a-18dbdb1d0a41": {
+    "path": "assets/restored/02-modul-2/05-vvedenie-v-git/12-ponimanie-git/1.jpg",
+    "alt": "Понимание Git — иллюстрация 1"
+  },
+  "ef9f3459-5d01-4367-a4b8-f866bd6a95b8": {
+    "path": "assets/restored/02-modul-2/05-vvedenie-v-git/14-stash/1.jpg",
+    "alt": "Stash — иллюстрация 1"
+  },
+  "5747d7fd-f091-4b7b-b2ff-eb45b17d2b1d": {
+    "path": "assets/restored/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty/1.png",
+    "alt": "Открытые проекты — иллюстрация 1"
+  },
+  "25eff322-f5c1-4f2a-9692-dc1981fe8dd8": {
+    "path": "assets/restored/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty/2.png",
+    "alt": "Открытые проекты — иллюстрация 2"
+  },
+  "dadf8664-6013-4eb5-aae0-211bcbdd83bf": {
+    "path": "assets/restored/02-modul-2/06-js-nastroyka-okruzheniya/07-lock-fayl/1.jpg",
+    "alt": "Lock-файл — иллюстрация 1"
+  },
+  "54b7ff48-6aea-46bb-a9ac-52fe1a21691d": {
+    "path": "assets/restored/03-modul-3/01-js-funkcii/01-filtraciya-filter/1.png",
+    "alt": "Фильтрация (filter) — иллюстрация 1"
+  },
+  "d6b43379-8d7a-46e8-b1dd-2f0cc595c62e": {
+    "path": "assets/restored/03-modul-3/01-js-funkcii/02-otobrazhenie-map/1.png",
+    "alt": "Отображение (map) — иллюстрация 1"
+  },
+  "778c86d9-c9e1-4241-9b7c-ff06c2a37af9": {
+    "path": "assets/restored/03-modul-3/01-js-funkcii/03-agregaciya-reduce/1.png",
+    "alt": "Агрегация (reduce) — иллюстрация 1"
+  },
+  "7bde5444-bcaf-46f8-9f03-41c15aa66266": {
+    "path": "assets/restored/03-modul-3/01-js-funkcii/04-abstrakciya-s-pomoschyu-funkciy/1.png",
+    "alt": "Абстракция с помощью функций — иллюстрация 1"
+  },
+  "e9c9b191-6677-46d1-b8dd-5f151a9a1081": {
+    "path": "assets/restored/03-modul-3/01-js-funkcii/04-abstrakciya-s-pomoschyu-funkciy/2.png",
+    "alt": "Абстракция с помощью функций — иллюстрация 2"
+  },
+  "381ff039-315b-4d06-b92a-4d56a3da58ad": {
+    "path": "assets/restored/03-modul-3/01-js-funkcii/10-chistye-funkcii/1.jpg",
+    "alt": "Чистые функции — иллюстрация 1"
+  },
+  "ab0426c5-4caf-42a2-82b4-dc598ea602f6": {
+    "path": "assets/restored/03-modul-3/01-js-funkcii/11-paradigmy-programmirovaniya/1.png",
+    "alt": "Парадигмы программирования — иллюстрация 1"
+  },
+  "71d95359-74b3-4e08-a0f2-beec11ec745f": {
+    "path": "assets/restored/03-modul-3/01-js-funkcii/12-oblast-vidimosti-i-zamykaniya/1.png",
+    "alt": "Область видимости и замыкания — иллюстрация 1"
+  },
+  "79fdc038-56c2-415e-89ac-df392714a4aa": {
+    "path": "assets/restored/03-modul-3/01-js-funkcii/15-cepochka-operaciy/1.png",
+    "alt": "Цепочка операций — иллюстрация 1"
+  },
+  "15cecbde-4b8e-402d-9a21-af1d982af52b": {
+    "path": "assets/restored/03-modul-3/01-js-funkcii/15-cepochka-operaciy/2.jpg",
+    "alt": "Цепочка операций — иллюстрация 2"
+  },
+  "05a756b4-72ab-4451-838d-fbf2041bdc84": {
+    "path": "assets/restored/03-modul-3/02-js-avtomaticheskoe-testirovanie/09-razrabotka-cherez-testirovanie/1.jpg",
+    "alt": "Разработка через тестирование — иллюстрация 1"
+  },
+  "4aa88b69-be51-4169-97e0-822c6f11b35c": {
+    "path": "assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya/1.png",
+    "alt": "Онтология — иллюстрация 1"
+  },
+  "1803dc8c-cd95-42a0-9a0b-a0671da50db3": {
+    "path": "assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya/2.png",
+    "alt": "Онтология — иллюстрация 2"
+  },
+  "26656e88-75d1-4d3c-930d-bf0efbb1b11f": {
+    "path": "assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya/3.png",
+    "alt": "Онтология — иллюстрация 3"
+  },
+  "6596091c-d4bf-4d1b-93c5-45b380eff07f": {
+    "path": "assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/03-sozdanie-abstrakcii/1.png",
+    "alt": "Создание абстракции — иллюстрация 1"
+  },
+  "af1758cd-8535-4e1c-ac7c-d414ecb8bf00": {
+    "path": "assets/restored/03-modul-3/04-js-derevya/01-vvedenie/1.png",
+    "alt": "Введение — иллюстрация 1"
+  },
+  "9b5c6a90-a985-44ff-bcc2-b2f4127877a7": {
+    "path": "assets/restored/03-modul-3/04-js-derevya/02-opredeleniya/1.png",
+    "alt": "Определения — иллюстрация 1"
+  },
+  "50db7ca7-1bdb-490b-a062-707f3f438f54": {
+    "path": "assets/restored/03-modul-3/04-js-derevya/05-obhod-dereva/1.png",
+    "alt": "Обход дерева — иллюстрация 1"
+  },
+  "6c89f0cd-3f09-4514-a4fd-867d725a920f": {
+    "path": "assets/restored/03-modul-3/05-js-vvedenie-v-oop/01-teoriya-mesto-i-ponimanie-oop-v-programmirovanii/1.png",
+    "alt": "Теория: Место и понимание ООП в программировании — иллюстрация 1"
+  },
+  "55187341-0db7-426a-a7d0-fe7f9ddd4ca9": {
+    "path": "assets/restored/03-modul-3/05-js-vvedenie-v-oop/09-teoriya-prototipy/1.png",
+    "alt": "Теория: Прототипы — иллюстрация 1"
+  },
+  "0b128211-5bc5-400e-a46d-e92b5e0cca5d": {
+    "path": "assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/1.png",
+    "alt": "GitHub Actions — иллюстрация 1"
+  },
+  "8f7c5768-5351-4d84-9d1a-4b7d09019686": {
+    "path": "assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/2.png",
+    "alt": "GitHub Actions — иллюстрация 2"
+  },
+  "4e6c851f-8a0c-42f3-8c25-3182c4df0109": {
+    "path": "assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/3.jpg",
+    "alt": "GitHub Actions — иллюстрация 3"
+  },
+  "49a416b2-4005-424c-9d73-235603ad8208": {
+    "path": "assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/04-vvedenie/1.jpg",
+    "alt": "Введение — иллюстрация 1"
+  },
+  "ebb3f458-a7be-4938-afc7-3bfc671c01a5": {
+    "path": "assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/05-new-promise/1.png",
+    "alt": "new Promise — иллюстрация 1"
+  },
+  "5fd10df3-d14f-4b46-880d-69528968a1ab": {
+    "path": "assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack/1.png",
+    "alt": "Стек вызовов (Call Stack) — иллюстрация 1"
+  },
+  "02ea075c-0b45-4739-9edf-e4db2444c3cd": {
+    "path": "assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack/2.png",
+    "alt": "Стек вызовов (Call Stack) — иллюстрация 2"
+  },
+  "32fa67c9-9506-4b8f-8a53-7de49eb92c13": {
+    "path": "assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/09-obrabotka-oshibok-v-promisah/1.png",
+    "alt": "Обработка ошибок в промисах — иллюстрация 1"
+  },
+  "9abc6bab-a5a0-4dab-93e7-afed2f8371f2": {
+    "path": "assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/11-asinhronnyy-kod/1.png",
+    "alt": "Асинхронный код — иллюстрация 1"
+  },
+  "8ddc4d7f-8e5c-40be-9342-d81aa0561430": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/04-sobytiya-dokumenta/1.png",
+    "alt": "События документа — иллюстрация 1"
+  },
+  "145fc8b1-7db8-4537-b486-c2b5f5f77b05": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/06-jquery/1.png",
+    "alt": "JQuery — иллюстрация 1"
+  },
+  "46dc5edb-9a2d-468e-b8cd-f55fa9cb03e0": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/08-ajax/1.png",
+    "alt": "AJAX — иллюстрация 1"
+  },
+  "9b65a6bd-3984-46dc-9b87-7f7f0bff8487": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/08-ajax/2.png",
+    "alt": "AJAX — иллюстрация 2"
+  },
+  "7efd245a-558a-4582-8e2b-0fb3287907b9": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/08-ajax/3.png",
+    "alt": "AJAX — иллюстрация 3"
+  },
+  "8f7d09e2-dc84-4666-8ed8-3e3b34485019": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/08-ajax/4.png",
+    "alt": "AJAX — иллюстрация 4"
+  },
+  "8aa37588-cd9b-4d86-a098-a7335afa1ddd": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/09-dom/1.png",
+    "alt": "DOM — иллюстрация 1"
+  },
+  "306d6bba-cab6-497b-996c-e541f5d8c84a": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/09-dom/2.png",
+    "alt": "DOM — иллюстрация 2"
+  },
+  "67813c10-6a30-40e3-8123-740cc705c960": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/09-dom/3.png",
+    "alt": "DOM — иллюстрация 3"
+  },
+  "da0e7021-c710-42ac-b897-8cf2762a5df9": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/1.png",
+    "alt": "Консоль разработчика — иллюстрация 1"
+  },
+  "11f4dfdf-8f69-410d-8683-2f1ce4eec5f1": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/2.png",
+    "alt": "Консоль разработчика — иллюстрация 2"
+  },
+  "bb1e5c2f-b0cd-4319-bb1b-899796097974": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/3.png",
+    "alt": "Консоль разработчика — иллюстрация 3"
+  },
+  "a3581de7-8269-4199-98c6-e5b8979adff9": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/4.png",
+    "alt": "Консоль разработчика — иллюстрация 4"
+  },
+  "68f43997-4891-4125-868a-fb2c66d81247": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/11-perehvat-i-vsplytie/1.png",
+    "alt": "Перехват и всплытие — иллюстрация 1"
+  },
+  "834b5794-0142-41b1-b375-26d8d84a0340": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/12-polifilly/1.png",
+    "alt": "Полифиллы — иллюстрация 1"
+  },
+  "da506898-99bc-4186-9d96-f83093f8abaf": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/13-globalnyy-obekt-window/1.png",
+    "alt": "Глобальный объект Window — иллюстрация 1"
+  },
+  "5730bd4a-45ad-40c5-94b0-430ca4abf710": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/1.png",
+    "alt": "Навигация по DOM-дереву — иллюстрация 1"
+  },
+  "13abcb99-cf1a-418c-87e0-653898cab986": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/2.png",
+    "alt": "Навигация по DOM-дереву — иллюстрация 2"
+  },
+  "467e1f4c-09e5-473c-a307-dbf6ac9fdf2d": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/3.png",
+    "alt": "Навигация по DOM-дереву — иллюстрация 3"
+  },
+  "402d6fc0-a3fb-4b52-abe2-e331c8b67a5e": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/4.png",
+    "alt": "Навигация по DOM-дереву — иллюстрация 4"
+  },
+  "69f61c9f-3d44-430e-a177-0ce4847e52ce": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/5.png",
+    "alt": "Навигация по DOM-дереву — иллюстрация 5"
+  },
+  "c431bff9-77bb-4451-b604-4d5d76afc227": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/1.png",
+    "alt": "BOM-объекты — иллюстрация 1"
+  },
+  "df06b55e-050f-4d9e-bcf1-d2be22036049": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/2.png",
+    "alt": "BOM-объекты — иллюстрация 2"
+  },
+  "f840b92d-7b40-417a-b6b5-5b575e921276": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/3.png",
+    "alt": "BOM-объекты — иллюстрация 3"
+  },
+  "7eb316c9-3409-4457-af5a-0501e1c460bb": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/4.png",
+    "alt": "BOM-объекты — иллюстрация 4"
+  },
+  "91591aca-2e20-450b-8f55-81f16a9cf76d": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/5.png",
+    "alt": "BOM-объекты — иллюстрация 5"
+  },
+  "404e0fb5-1b90-4114-8e3c-dd2c55a224a0": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom/1.png",
+    "alt": "Управление узлами DOM — иллюстрация 1"
+  },
+  "54f430f4-6c64-46e8-ba80-3269758c4578": {
+    "path": "assets/restored/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom/2.png",
+    "alt": "Управление узлами DOM — иллюстрация 2"
+  },
+  "2f2a54df-ef83-4ac2-992b-c813b8547c80": {
+    "path": "assets/restored/04-modul-4/04-regulyarnye-vyrazheniya-regexp/06-vvedenie/1.png",
+    "alt": "Введение — иллюстрация 1"
+  },
+  "6aef7761-0f6f-4181-8133-7c2dd2a54e47": {
+    "path": "assets/restored/04-modul-4/05-js-arhitektura-frontenda/06-sostoyanie-otobrazheniya-ui-state/1.png",
+    "alt": "Состояние отображения (UI State) — иллюстрация 1"
+  },
+  "511d777b-31d6-48b1-8bc7-7f36037f26dc": {
+    "path": "assets/restored/04-modul-4/05-js-arhitektura-frontenda/09-mvc/1.png",
+    "alt": "MVC — иллюстрация 1"
+  },
+  "a2bd82f6-e104-4512-8849-44b3c06cec02": {
+    "path": "assets/restored/04-modul-4/05-js-arhitektura-frontenda/10-sostoyanie-prilozheniya/1.png",
+    "alt": "Состояние приложения — иллюстрация 1"
+  },
+  "c8fa3081-af0b-4cd6-b0f6-0883ca598245": {
+    "path": "assets/restored/05-modul-5/01-js-react/17-virtual-dom/2.png",
+    "alt": "Virtual Dom — иллюстрация 2"
+  },
+  "542f0c73-324c-41ea-a081-e605928b7c81": {
+    "path": "assets/restored/05-modul-5/01-js-react/21-proizvoditelnost/1.png",
+    "alt": "Производительность — иллюстрация 1"
+  },
+  "9974b8de-7f2a-4e60-8160-8d4aaaaec099": {
+    "path": "assets/restored/05-modul-5/01-js-react/23-vvedenie-v-huki/1.png",
+    "alt": "Введение в хуки — иллюстрация 1"
+  },
+  "d366bd54-4eaf-42f2-ba93-d9ac26fa16cc": {
+    "path": "assets/restored/05-modul-5/01-js-react/28-huki-usecallback-i-usememo/1.png",
+    "alt": "Хуки useCallback и useMemo — иллюстрация 1"
+  },
+  "1e10ef03-b98f-4fef-a022-b86b6aa8422f": {
+    "path": "assets/restored/05-modul-5/02-react-redux-toolkit/02-redux/1.png",
+    "alt": "Redux — иллюстрация 1"
+  },
+  "cc35b185-76e1-40f6-983f-f57b6a61805e": {
+    "path": "assets/restored/05-modul-5/02-react-redux-toolkit/03-redyusery/1.png",
+    "alt": "Редьюсеры — иллюстрация 1"
+  },
+  "fe6c5a4f-b6fd-42f3-ae9e-2749aca6b83d": {
+    "path": "assets/restored/05-modul-5/02-react-redux-toolkit/04-midlvary/1.png",
+    "alt": "Мидлвары — иллюстрация 1"
+  },
+  "c94c61cb-a635-41c6-838c-abc6d9027a4d": {
+    "path": "assets/restored/05-modul-5/02-react-redux-toolkit/05-podklyuchenie-redux-toolkit-k-react/1.png",
+    "alt": "Подключение Redux Toolkit к React — иллюстрация 1"
+  },
+  "11319d77-920e-479b-8c3c-f115ec400fb1": {
+    "path": "assets/restored/05-modul-5/02-react-redux-toolkit/06-podrobnee-o-slaysah/1.png",
+    "alt": "Подробнее о слайсах — иллюстрация 1"
+  },
+  "42e3b829-341a-41a2-9a1c-93dd8dd386de": {
+    "path": "assets/restored/06-modul-6/02-osnovy-typescript/21-ierarhiya-tipov/1.png",
+    "alt": "Иерархия типов — иллюстрация 1"
+  },
+  "f41d237d-a5d8-48ef-89bb-1228f49cd5d5": {
+    "path": "assets/restored/06-modul-6/02-osnovy-typescript/23-peresechenie/1.png",
+    "alt": "Пересечение — иллюстрация 1"
+  },
+  "7ecf255b-3eca-4db8-966f-eab440f83421": {
+    "path": "assets/restored/06-modul-6/02-osnovy-typescript/27-obedineniya/1.png",
+    "alt": "Объединения — иллюстрация 1"
+  },
+  "a6b1c634-cbf6-4fcb-8aab-6b3425f50645": {
+    "path": "assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/1.png",
+    "alt": "Структурная типизация — иллюстрация 1"
+  },
+  "0e80c34b-4e71-4a69-a5a5-f755ad9aba32": {
+    "path": "assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/2.png",
+    "alt": "Структурная типизация — иллюстрация 2"
+  },
+  "da785025-1c4c-46e2-9d92-838dbe7e946f": {
+    "skip": true,
+    "reason": "Transparent 1x1 tracking pixel, not instructional content"
+  },
+  "e2994657-cf23-429a-a9df-1ef9d8061700": {
+    "path": "assets/restored/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva/1.png",
+    "alt": "Типы как множества — иллюстрация 1"
+  },
+  "0ce2b267-00be-46ea-8e0a-ec8ae4c79a03": {
+    "path": "assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/4.svg",
+    "alt": "Emmet: три элемента списка"
+  },
+  "abb9121a-3a88-452d-99f7-c0d22f8a6d68": {
+    "path": "assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov/1.svg",
+    "alt": "Оси страницы и глубина"
+  },
+  "c5304dd7-803f-4c7d-b128-64fa4f8e5392": {
+    "path": "assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov/2.svg",
+    "alt": "Порядок наложения позиционированных блоков"
+  },
+  "a77c405e-6f78-4182-899c-1d20c913009a": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/2.svg",
+    "alt": "Линии сетки"
+  },
+  "a9ed68b1-c2fb-460b-8d14-51dbcc10df0b": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/4.svg",
+    "alt": "Колонка, ряд и ячейка"
+  },
+  "10fc1039-cf83-49bc-944e-fd56e38b04d7": {
+    "path": "assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/2.svg",
+    "alt": "Неявная сетка: grid-column-start: 8"
+  },
+  "a899a24c-723a-41fd-8eb9-dfb3f8719586": {
+    "path": "assets/restored/05-modul-5/01-js-react/17-virtual-dom/1.svg",
+    "alt": "React: однонаправленный поток данных"
+  }
+}

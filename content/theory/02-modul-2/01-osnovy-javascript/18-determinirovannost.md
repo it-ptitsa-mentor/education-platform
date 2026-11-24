@@ -10,7 +10,7 @@ reviewed_by:
 
 # Детерминированность
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Детерминированность — иллюстрация 1](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/18-determinirovannost/1.png)
 **Детерминированная** функция при одинаковом входе всегда даёт один результат — как `length`:
 
 ```

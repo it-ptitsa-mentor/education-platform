@@ -46,6 +46,7 @@ jobs:
         run: |
           python3 scripts/check-theory-lesson.py --module 01-modul-1 --only-rewritten
           python3 scripts/test_check_theory_lesson.py -q
+          python3 -m unittest discover -s scripts -p test_import_theory_images.py
 
   # ── Тесты заданий: эталоны валидны, TESTS_STATUS.md актуален ──
   exercise-tests-check:

@@ -78,7 +78,7 @@ isGoodApartment(80, 'Main Street') // true
 |  |
 |  |
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Логические операторы — иллюстрация 1](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory/1.png)
 Пара примеров:
 
 ```
@@ -98,7 +98,7 @@ isGoodApartment(80, 'Main Street') // true
 |  |
 |  |
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Логические операторы — иллюстрация 2](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory/2.png)
 Пара примеров:
 
 ```

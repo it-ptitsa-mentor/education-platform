@@ -39,7 +39,7 @@ const abs = (number) => {
 
 Общий паттерн выглядит так: `<predicate> ? <expression on true> : <expression on false>`.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Тернарный оператор — иллюстрация 1](course/theory/assets/restored/02-modul-2/01-osnovy-javascript/31-ternarnyy-operator/1.png)
 Сокращенный вариант функции `abs()` выглядит так:
 
 ```

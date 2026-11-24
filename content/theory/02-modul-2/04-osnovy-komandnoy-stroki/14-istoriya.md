@@ -80,7 +80,7 @@ history | grep export
 
 [Terminal session recording](https://asciinema.org/a/EYtMWjzh7VfnDKJsC8mwGYlde/iframe?cols=120&rows=12&preload=1)
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![История — иллюстрация 1](course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/14-istoriya/1.jpg)
 На скриншоте — расширенный вариант через утилиту [fzf.](https://github.com/junegunn/fzf#installation)
 
 ---

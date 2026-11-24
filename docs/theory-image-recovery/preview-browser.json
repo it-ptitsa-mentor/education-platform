@@ -1,0 +1,5704 @@
+[
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/2/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение в HTML",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/it-ptitsa/html-introduction.png",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/02-vvedenie-v-html/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/3/theory",
+    "width": 1440,
+    "expected": 3,
+    "missing": [],
+    "title": "Блочная модель",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/1.png",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/2.png",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/3.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/4/theory",
+    "width": 1440,
+    "expected": 6,
+    "missing": [],
+    "title": "Семантический HTML",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/3.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/4.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/5.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/6.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/5/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Базовая структура HTML документа",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/05-bazovaya-struktura-html-dokumenta/1.png",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/6/theory",
+    "width": 1440,
+    "expected": 4,
+    "missing": [],
+    "title": "Основы CSS",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/3.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/4.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/7/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Каскадность в CSS",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/07-kaskadnost-v-css/1.jpg",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/07-kaskadnost-v-css/2.jpg",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/8/theory",
+    "width": 1440,
+    "expected": 7,
+    "missing": [],
+    "title": "Chrome DevTools",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/1.jpg",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/3.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/4.png",
+        "ok": true,
+        "width": 210,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/5.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/6.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/7.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/9/theory",
+    "width": 1440,
+    "expected": 5,
+    "missing": [],
+    "title": "Редакторы кода",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/1.jpg",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/2.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/3.png",
+        "ok": true,
+        "width": 615.9375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/4.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/5.png",
+        "ok": true,
+        "width": 451,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/10/theory",
+    "width": 1440,
+    "expected": 4,
+    "missing": [],
+    "title": "Emmet",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/1.png",
+        "ok": true,
+        "width": 744.59375,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/2.png",
+        "ok": true,
+        "width": 744.703125,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/3.jpg",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/4.svg",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/11/theory",
+    "width": 1440,
+    "expected": 4,
+    "missing": [],
+    "title": "Публикация в интернете",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/3.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/4.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/12/theory",
+    "width": 1440,
+    "expected": 5,
+    "missing": [],
+    "title": "Графические редакторы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/2.png",
+        "ok": true,
+        "width": 615.90625,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/3.png",
+        "ok": true,
+        "width": 241,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/4.png",
+        "ok": true,
+        "width": 464,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/5.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/1/theory",
+    "width": 1440,
+    "expected": 3,
+    "missing": [],
+    "title": "Введение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/01-vvedenie/1.jpg",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/01-vvedenie/2.jpg",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/01-vvedenie/3.jpg",
+        "ok": true,
+        "width": 370,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/2/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Блочная модель и CSS",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/02-blochnaya-model-i-css/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/3/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Стили текста",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/03-stili-teksta/1.jpg",
+        "ok": true,
+        "width": 231,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/6/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Колонки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/06-kolonki/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/9/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Таблицы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/09-tablicy/1.jpg",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/10/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Формы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/10-formy/1.gif",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/17/theory",
+    "width": 1440,
+    "expected": 12,
+    "missing": [],
+    "title": "Градиенты",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/1.png",
+        "ok": true,
+        "width": 400,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/2.png",
+        "ok": true,
+        "width": 396,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/3.png",
+        "ok": true,
+        "width": 400,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/4.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/5.png",
+        "ok": true,
+        "width": 400,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/6.png",
+        "ok": true,
+        "width": 396,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/7.png",
+        "ok": true,
+        "width": 400,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/8.png",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/9.jpg",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/10.jpg",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/11.jpg",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/12.jpg",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/03-css-pozicionirovanie-elementov/2/theory",
+    "width": 1440,
+    "expected": 3,
+    "missing": [],
+    "title": "Поток документа",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/2.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/3.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/03-css-pozicionirovanie-elementov/3/theory",
+    "width": 1440,
+    "expected": 3,
+    "missing": [],
+    "title": "Относительное позиционирование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/2.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/3.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/03-css-pozicionirovanie-elementov/8/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Наложение элементов",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov/1.svg",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov/2.svg",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/04-css-flex/5/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Выравнивание элементов по главной оси",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/04-css-flex/05-vyravnivanie-elementov-po-glavnoy-osi/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/04-css-flex/6/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Выравнивание элементов по поперечной оси",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/04-css-flex/06-vyravnivanie-elementov-po-poperechnoy-osi/1.png",
+        "ok": true,
+        "width": 410,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/05-css-verstka-na-grid/2/theory",
+    "width": 1440,
+    "expected": 4,
+    "missing": [],
+    "title": "Терминология",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/1.jpg",
+        "ok": true,
+        "width": 385,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/2.svg",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/3.jpg",
+        "ok": true,
+        "width": 385,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/4.svg",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/05-css-verstka-na-grid/3/theory",
+    "width": 1440,
+    "expected": 3,
+    "missing": [],
+    "title": "Первая сетка",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/1.png",
+        "ok": true,
+        "width": 386,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/3.png",
+        "ok": true,
+        "width": 402,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/05-css-verstka-na-grid/4/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Расположение элементов в сетке",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/04-raspolozhenie-elementov-v-setke/1.jpg",
+        "ok": true,
+        "width": 501,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/05-css-verstka-na-grid/5/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Работа с сеткой",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/05-rabota-s-setkoy/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/05-css-verstka-na-grid/6/theory",
+    "width": 1440,
+    "expected": 5,
+    "missing": [],
+    "title": "Неявная сетка",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/2.svg",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/3.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/4.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/5.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/05-css-verstka-na-grid/7/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Позиционирование и Grid",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/07-pozicionirovanie-i-grid/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/3/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Инструкции",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/03-instrukcii/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/4/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Арифметические операции",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/04-arifmeticheskie-operacii/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/5/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Ошибки оформления (синтаксиса и линтера)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/05-oshibki-oformleniya-sintaksisa-i-lintera/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/7/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Переменные",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/07-peremennye/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/9/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Именование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/09-imenovanie/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/12/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Типы данных",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/12-tipy-dannyh/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/14/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Функции и их вызов",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/14-funkcii-i-ih-vyzov/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/18/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Детерминированность",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/18-determinirovannost/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/19/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Стандартная библиотека",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/19-standartnaya-biblioteka/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/20/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Свойства и методы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/20-svoystva-i-metody/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/21/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Цепочка вызовов",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/21-cepochka-vyzovov/1.png",
+        "ok": true,
+        "width": 744.75,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/22/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Определение функций",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/22-opredelenie-funkciy/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/23/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Возврат значений",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/23-vozvrat-znacheniy/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/24/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Параметры функций",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/24-parametry-funkciy/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/25/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Необязательные параметры функций",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/25-neobyazatelnye-parametry-funkciy/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/27/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Логика",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/27-logika/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/28/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Логические операторы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory/2.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/30/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Условные конструкции",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/30-uslovnye-konstrukcii/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/31/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Тернарный оператор",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/31-ternarnyy-operator/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/32/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Конструкция Switch",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/32-konstrukciya-switch/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/33/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Цикл while",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/33-cikl-while/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/34/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Агрегация данных",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/34-agregaciya-dannyh/1.png",
+        "ok": true,
+        "width": 615.953125,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/36/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Условия внутри тела цикла",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/36-usloviya-vnutri-tela-cikla/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/39/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Модули",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/39-moduli/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/02-js-massivy/15/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Теория множеств",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/02-js-massivy/15-teoriya-mnozhestv/1.jpg",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/02-js-massivy/17/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Стек",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/02-js-massivy/17-stek/1.png",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/02-js-massivy/17-stek/2.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/02-js-massivy/18/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Big O",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/02-js-massivy/18-big-o/1.png",
+        "ok": true,
+        "width": 744.75,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/02-js-massivy/18-big-o/2.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/02-js-massivy/22/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Массивы в памяти компьютера",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/02-js-massivy/22-massivy-v-pamyati-kompyutera/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/03-js-obekty/1/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "О курсе",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/03-js-obekty/01-o-kurse/1.png",
+        "ok": true,
+        "width": 700,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/03-js-obekty/4/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Ссылки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/03-js-obekty/04-ssylki/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/03-js-obekty/04-ssylki/2.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/03-js-obekty/13/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Хеш-таблицы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/03-js-obekty/13-hesh-tablicy/1.jpg",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/1/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/01-vvedenie/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/2/theory",
+    "width": 1440,
+    "expected": 4,
+    "missing": [],
+    "title": "Операционные системы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/1.jpg",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/2.jpg",
+        "ok": true,
+        "width": 355,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/3.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/4.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/3/theory",
+    "width": 1440,
+    "expected": 4,
+    "missing": [],
+    "title": "Командная строка",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/3.png",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/4.png",
+        "ok": true,
+        "width": 615.953125,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/5/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Интерфейс командной строки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/6/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Файловая структура",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/06-faylovaya-struktura/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/9/theory",
+    "width": 1440,
+    "expected": 4,
+    "missing": [],
+    "title": "Редактирование файлов",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/1.png",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/2.png",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/3.png",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/4.jpg",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/10/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Потоки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/10-potoki/1.png",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/11/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Пайплайн",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/11-payplayn/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/14/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "История",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/14-istoriya/1.jpg",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/15/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Пользователи и группы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/17/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Права доступа",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/17-prava-dostupa/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/1/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/01-vvedenie/1.jpg",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/2/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Рабочий процесс",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/02-rabochiy-process/1.jpg",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/3/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Интеграция с GitHub",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github/1.png",
+        "ok": true,
+        "width": 593.59375,
+        "parent": 593.609375
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github/2.jpg",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/5/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Анализ сделанных изменений",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/05-analiz-sdelannyh-izmeneniy/1.jpg",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/8/theory",
+    "width": 1440,
+    "expected": 3,
+    "missing": [],
+    "title": "Отмена коммитов",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov/1.svg",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov/2.svg",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov/3.svg",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/12/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Понимание Git",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/12-ponimanie-git/1.jpg",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/14/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Stash",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/14-stash/1.jpg",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/15/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Открытые проекты",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/06-js-nastroyka-okruzheniya/7/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Lock-файл",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/06-js-nastroyka-okruzheniya/07-lock-fayl/1.jpg",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/1/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Фильтрация (filter)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/01-filtraciya-filter/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/2/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Отображение (map)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/02-otobrazhenie-map/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/3/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Агрегация (reduce)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/03-agregaciya-reduce/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/4/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Абстракция с помощью функций",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/04-abstrakciya-s-pomoschyu-funkciy/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/04-abstrakciya-s-pomoschyu-funkciy/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/10/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Чистые функции",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/10-chistye-funkcii/1.jpg",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/11/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Парадигмы программирования",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/11-paradigmy-programmirovaniya/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/12/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Область видимости и замыкания",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/12-oblast-vidimosti-i-zamykaniya/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/15/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Цепочка операций",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/15-cepochka-operaciy/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/15-cepochka-operaciy/2.jpg",
+        "ok": true,
+        "width": 744.75,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/02-js-avtomaticheskoe-testirovanie/9/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Разработка через тестирование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/02-js-avtomaticheskoe-testirovanie/09-razrabotka-cherez-testirovanie/1.jpg",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/1/theory",
+    "width": 1440,
+    "expected": 3,
+    "missing": [],
+    "title": "Онтология",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya/2.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya/3.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/3/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Создание абстракции",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/03-sozdanie-abstrakcii/1.png",
+        "ok": true,
+        "width": 744.796875,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/04-js-derevya/1/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/04-js-derevya/01-vvedenie/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/04-js-derevya/2/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Определения",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/04-js-derevya/02-opredeleniya/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/04-js-derevya/5/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Обход дерева",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/04-js-derevya/05-obhod-dereva/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/05-js-vvedenie-v-oop/1/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Теория: Место и понимание ООП в программировании",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/05-js-vvedenie-v-oop/01-teoriya-mesto-i-ponimanie-oop-v-programmirovanii/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/05-js-vvedenie-v-oop/9/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Теория: Прототипы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/05-js-vvedenie-v-oop/09-teoriya-prototipy/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/07-nepreryvnaya-integraciya-ci/1/theory",
+    "width": 1440,
+    "expected": 3,
+    "missing": [],
+    "title": "GitHub Actions",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/3.jpg",
+        "ok": true,
+        "width": 615.953125,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/07-nepreryvnaya-integraciya-ci/4/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/04-vvedenie/1.jpg",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/01-js-asinhronnoe-programmirovanie/5/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "new Promise",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/05-new-promise/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/01-js-asinhronnoe-programmirovanie/6/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Стек вызовов (Call Stack)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack/2.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/01-js-asinhronnoe-programmirovanie/9/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Обработка ошибок в промисах",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/09-obrabotka-oshibok-v-promisah/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/01-js-asinhronnoe-programmirovanie/11/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Асинхронный код",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/11-asinhronnyy-kod/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/4/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "События документа",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/04-sobytiya-dokumenta/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/6/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "JQuery",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/06-jquery/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/8/theory",
+    "width": 1440,
+    "expected": 4,
+    "missing": [],
+    "title": "AJAX",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/08-ajax/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/08-ajax/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/08-ajax/3.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/08-ajax/4.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/9/theory",
+    "width": 1440,
+    "expected": 3,
+    "missing": [],
+    "title": "DOM",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/09-dom/1.png",
+        "ok": true,
+        "width": 700,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/09-dom/2.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/09-dom/3.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/10/theory",
+    "width": 1440,
+    "expected": 4,
+    "missing": [],
+    "title": "Консоль разработчика",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/1.png",
+        "ok": true,
+        "width": 616,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/3.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/4.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/11/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Перехват и всплытие",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/11-perehvat-i-vsplytie/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/12/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Полифиллы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/12-polifilly/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/13/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Глобальный объект Window",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/13-globalnyy-obekt-window/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/15/theory",
+    "width": 1440,
+    "expected": 5,
+    "missing": [],
+    "title": "Навигация по DOM-дереву",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/3.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/4.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/5.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/17/theory",
+    "width": 1440,
+    "expected": 5,
+    "missing": [],
+    "title": "BOM-объекты",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/2.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/3.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/4.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/5.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/18/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Управление узлами DOM",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom/1.png",
+        "ok": true,
+        "width": 615.9375,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom/2.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/04-regulyarnye-vyrazheniya-regexp/6/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/04-regulyarnye-vyrazheniya-regexp/06-vvedenie/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/05-js-arhitektura-frontenda/6/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Состояние отображения (UI State)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/05-js-arhitektura-frontenda/06-sostoyanie-otobrazheniya-ui-state/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/05-js-arhitektura-frontenda/9/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "MVC",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/05-js-arhitektura-frontenda/09-mvc/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/05-js-arhitektura-frontenda/10/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Состояние приложения",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/05-js-arhitektura-frontenda/10-sostoyanie-prilozheniya/1.png",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/01-js-react/17/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Virtual Dom",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/01-js-react/17-virtual-dom/1.svg",
+        "ok": true,
+        "width": 615.96875,
+        "parent": 616
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/01-js-react/17-virtual-dom/2.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/01-js-react/21/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Производительность",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/01-js-react/21-proizvoditelnost/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/01-js-react/23/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение в хуки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/01-js-react/23-vvedenie-v-huki/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/01-js-react/28/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Хуки useCallback и useMemo",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/01-js-react/28-huki-usecallback-i-usememo/1.png",
+        "ok": true,
+        "width": 615.953125,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/02-react-redux-toolkit/2/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Redux",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/02-react-redux-toolkit/02-redux/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/02-react-redux-toolkit/3/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Редьюсеры",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/02-react-redux-toolkit/03-redyusery/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/02-react-redux-toolkit/4/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Мидлвары",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/02-react-redux-toolkit/04-midlvary/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/02-react-redux-toolkit/5/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Подключение Redux Toolkit к React",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/02-react-redux-toolkit/05-podklyuchenie-redux-toolkit-k-react/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/02-react-redux-toolkit/6/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Подробнее о слайсах",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/02-react-redux-toolkit/06-podrobnee-o-slaysah/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/21/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Иерархия типов",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/21-ierarhiya-tipov/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/23/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Пересечение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/23-peresechenie/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/27/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Объединения",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/27-obedineniya/1.png",
+        "ok": true,
+        "width": 744.78125,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/28/theory",
+    "width": 1440,
+    "expected": 2,
+    "missing": [],
+    "title": "Структурная типизация",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/1.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/2.png",
+        "ok": true,
+        "width": 744.765625,
+        "parent": 744.796875
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/30/theory",
+    "width": 1440,
+    "expected": 1,
+    "missing": [],
+    "title": "Типы как множества",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva/1.png",
+        "ok": true,
+        "width": 615.984375,
+        "parent": 616
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/2/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение в HTML",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/it-ptitsa/html-introduction.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/02-vvedenie-v-html/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/3/theory",
+    "width": 390,
+    "expected": 3,
+    "missing": [],
+    "title": "Блочная модель",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/1.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/2.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/3.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/4/theory",
+    "width": 390,
+    "expected": 6,
+    "missing": [],
+    "title": "Семантический HTML",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/2.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/3.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/4.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/5.png",
+        "ok": true,
+        "width": 362.765625,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/04-semanticheskiy-html/6.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/5/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Базовая структура HTML документа",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/05-bazovaya-struktura-html-dokumenta/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/6/theory",
+    "width": 390,
+    "expected": 4,
+    "missing": [],
+    "title": "Основы CSS",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/3.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/06-osnovy-css/4.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/7/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Каскадность в CSS",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/07-kaskadnost-v-css/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/07-kaskadnost-v-css/2.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/8/theory",
+    "width": 390,
+    "expected": 7,
+    "missing": [],
+    "title": "Chrome DevTools",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/2.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/3.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/4.png",
+        "ok": true,
+        "width": 210,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/5.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/6.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/08-chrome-devtools/7.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/9/theory",
+    "width": 390,
+    "expected": 5,
+    "missing": [],
+    "title": "Редакторы кода",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/3.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/4.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/09-redaktory-koda/5.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/10/theory",
+    "width": 390,
+    "expected": 4,
+    "missing": [],
+    "title": "Emmet",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/1.png",
+        "ok": true,
+        "width": 362.6875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/2.png",
+        "ok": true,
+        "width": 362.75,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/3.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/10-emmet/4.svg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/11/theory",
+    "width": 390,
+    "expected": 4,
+    "missing": [],
+    "title": "Публикация в интернете",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/2.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/3.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/11-publikaciya-v-internete/4.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/01-osnovy-sovremennoy-verstki/12/theory",
+    "width": 390,
+    "expected": 5,
+    "missing": [],
+    "title": "Графические редакторы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/2.png",
+        "ok": true,
+        "width": 362.4375,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/3.png",
+        "ok": true,
+        "width": 241,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/4.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/5.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/1/theory",
+    "width": 390,
+    "expected": 3,
+    "missing": [],
+    "title": "Введение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/01-vvedenie/1.jpg",
+        "ok": true,
+        "width": 362.765625,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/01-vvedenie/2.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/01-vvedenie/3.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/2/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Блочная модель и CSS",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/02-blochnaya-model-i-css/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/3/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Стили текста",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/03-stili-teksta/1.jpg",
+        "ok": true,
+        "width": 231,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/6/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Колонки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/06-kolonki/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/9/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Таблицы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/09-tablicy/1.jpg",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/10/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Формы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/10-formy/1.gif",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/02-verstka-kontenta/17/theory",
+    "width": 390,
+    "expected": 12,
+    "missing": [],
+    "title": "Градиенты",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/1.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/3.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/4.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/5.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/6.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/7.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/8.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/9.jpg",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/10.jpg",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/11.jpg",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/02-verstka-kontenta/17-gradienty/12.jpg",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/03-css-pozicionirovanie-elementov/2/theory",
+    "width": 390,
+    "expected": 3,
+    "missing": [],
+    "title": "Поток документа",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/1.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/2.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/3.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/03-css-pozicionirovanie-elementov/3/theory",
+    "width": 390,
+    "expected": 3,
+    "missing": [],
+    "title": "Относительное позиционирование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie/3.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/03-css-pozicionirovanie-elementov/8/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Наложение элементов",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov/1.svg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/08-nalozhenie-elementov/2.svg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/04-css-flex/5/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Выравнивание элементов по главной оси",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/04-css-flex/05-vyravnivanie-elementov-po-glavnoy-osi/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/04-css-flex/6/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Выравнивание элементов по поперечной оси",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/04-css-flex/06-vyravnivanie-elementov-po-poperechnoy-osi/1.png",
+        "ok": true,
+        "width": 362.765625,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/05-css-verstka-na-grid/2/theory",
+    "width": 390,
+    "expected": 4,
+    "missing": [],
+    "title": "Терминология",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/2.svg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/3.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/02-terminologiya/4.svg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/05-css-verstka-na-grid/3/theory",
+    "width": 390,
+    "expected": 3,
+    "missing": [],
+    "title": "Первая сетка",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/1.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/2.png",
+        "ok": true,
+        "width": 362.765625,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/03-pervaya-setka/3.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/05-css-verstka-na-grid/4/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Расположение элементов в сетке",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/04-raspolozhenie-elementov-v-setke/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/05-css-verstka-na-grid/5/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Работа с сеткой",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/05-rabota-s-setkoy/1.png",
+        "ok": true,
+        "width": 362.765625,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/05-css-verstka-na-grid/6/theory",
+    "width": 390,
+    "expected": 5,
+    "missing": [],
+    "title": "Неявная сетка",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/2.svg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/3.png",
+        "ok": true,
+        "width": 362.734375,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/4.png",
+        "ok": true,
+        "width": 362.734375,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/06-neyavnaya-setka/5.png",
+        "ok": true,
+        "width": 362.75,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/01-modul-1/05-css-verstka-na-grid/7/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Позиционирование и Grid",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/01-modul-1/05-css-verstka-na-grid/07-pozicionirovanie-i-grid/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/3/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Инструкции",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/03-instrukcii/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/4/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Арифметические операции",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/04-arifmeticheskie-operacii/1.png",
+        "ok": true,
+        "width": 362.765625,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/5/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Ошибки оформления (синтаксиса и линтера)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/05-oshibki-oformleniya-sintaksisa-i-lintera/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/7/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Переменные",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/07-peremennye/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/9/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Именование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/09-imenovanie/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/12/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Типы данных",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/12-tipy-dannyh/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/14/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Функции и их вызов",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/14-funkcii-i-ih-vyzov/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/18/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Детерминированность",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/18-determinirovannost/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/19/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Стандартная библиотека",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/19-standartnaya-biblioteka/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/20/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Свойства и методы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/20-svoystva-i-metody/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/21/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Цепочка вызовов",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/21-cepochka-vyzovov/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/22/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Определение функций",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/22-opredelenie-funkciy/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/23/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Возврат значений",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/23-vozvrat-znacheniy/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/24/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Параметры функций",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/24-parametry-funkciy/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/25/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Необязательные параметры функций",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/25-neobyazatelnye-parametry-funkciy/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/27/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Логика",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/27-logika/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/28/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Логические операторы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/28-logicheskie-operatory/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/30/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Условные конструкции",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/30-uslovnye-konstrukcii/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/31/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Тернарный оператор",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/31-ternarnyy-operator/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/32/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Конструкция Switch",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/32-konstrukciya-switch/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/33/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Цикл while",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/33-cikl-while/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/34/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Агрегация данных",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/34-agregaciya-dannyh/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/36/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Условия внутри тела цикла",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/36-usloviya-vnutri-tela-cikla/1.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/01-osnovy-javascript/39/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Модули",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/01-osnovy-javascript/39-moduli/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/02-js-massivy/15/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Теория множеств",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/02-js-massivy/15-teoriya-mnozhestv/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/02-js-massivy/17/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Стек",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/02-js-massivy/17-stek/1.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/02-js-massivy/17-stek/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/02-js-massivy/18/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Big O",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/02-js-massivy/18-big-o/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/02-js-massivy/18-big-o/2.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/02-js-massivy/22/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Массивы в памяти компьютера",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/02-js-massivy/22-massivy-v-pamyati-kompyutera/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/03-js-obekty/1/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "О курсе",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/03-js-obekty/01-o-kurse/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/03-js-obekty/4/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Ссылки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/03-js-obekty/04-ssylki/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/03-js-obekty/04-ssylki/2.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/03-js-obekty/13/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Хеш-таблицы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/03-js-obekty/13-hesh-tablicy/1.jpg",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/1/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/01-vvedenie/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/2/theory",
+    "width": 390,
+    "expected": 4,
+    "missing": [],
+    "title": "Операционные системы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/2.jpg",
+        "ok": true,
+        "width": 355,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/3.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/02-operacionnye-sistemy/4.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/3/theory",
+    "width": 390,
+    "expected": 4,
+    "missing": [],
+    "title": "Командная строка",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/3.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/03-komandnaya-stroka/4.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/5/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Интерфейс командной строки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki/1.png",
+        "ok": true,
+        "width": 362.765625,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/05-interfeys-komandnoy-stroki/2.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/6/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Файловая структура",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/06-faylovaya-struktura/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/9/theory",
+    "width": 390,
+    "expected": 4,
+    "missing": [],
+    "title": "Редактирование файлов",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/3.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/09-redaktirovanie-faylov/4.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/10/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Потоки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/10-potoki/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/11/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Пайплайн",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/11-payplayn/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/14/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "История",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/14-istoriya/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/15/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Пользователи и группы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/15-polzovateli-i-gruppy/2.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/04-osnovy-komandnoy-stroki/17/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Права доступа",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/17-prava-dostupa/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/1/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/01-vvedenie/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/2/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Рабочий процесс",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/02-rabochiy-process/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/3/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Интеграция с GitHub",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github/1.png",
+        "ok": true,
+        "width": 340.40625,
+        "parent": 340.421875
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/03-integraciya-s-github/2.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/5/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Анализ сделанных изменений",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/05-analiz-sdelannyh-izmeneniy/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/8/theory",
+    "width": 390,
+    "expected": 3,
+    "missing": [],
+    "title": "Отмена коммитов",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov/1.svg",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov/2.svg",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/08-otmena-kommitov/3.svg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/12/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Понимание Git",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/12-ponimanie-git/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/14/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Stash",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/14-stash/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/05-vvedenie-v-git/15/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Открытые проекты",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/05-vvedenie-v-git/15-otkrytye-proekty/2.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/02-modul-2/06-js-nastroyka-okruzheniya/7/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Lock-файл",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/02-modul-2/06-js-nastroyka-okruzheniya/07-lock-fayl/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/1/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Фильтрация (filter)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/01-filtraciya-filter/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/2/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Отображение (map)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/02-otobrazhenie-map/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/3/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Агрегация (reduce)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/03-agregaciya-reduce/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/4/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Абстракция с помощью функций",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/04-abstrakciya-s-pomoschyu-funkciy/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/04-abstrakciya-s-pomoschyu-funkciy/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/10/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Чистые функции",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/10-chistye-funkcii/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/11/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Парадигмы программирования",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/11-paradigmy-programmirovaniya/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/12/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Область видимости и замыкания",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/12-oblast-vidimosti-i-zamykaniya/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/01-js-funkcii/15/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Цепочка операций",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/15-cepochka-operaciy/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/01-js-funkcii/15-cepochka-operaciy/2.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/02-js-avtomaticheskoe-testirovanie/9/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Разработка через тестирование",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/02-js-avtomaticheskoe-testirovanie/09-razrabotka-cherez-testirovanie/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/1/theory",
+    "width": 390,
+    "expected": 3,
+    "missing": [],
+    "title": "Онтология",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya/2.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/01-ontologiya/3.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/3/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Создание абстракции",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/03-js-abstrakciya-s-pomoschyu-dannyh/03-sozdanie-abstrakcii/1.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/04-js-derevya/1/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/04-js-derevya/01-vvedenie/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/04-js-derevya/2/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Определения",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/04-js-derevya/02-opredeleniya/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/04-js-derevya/5/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Обход дерева",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/04-js-derevya/05-obhod-dereva/1.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/05-js-vvedenie-v-oop/1/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Теория: Место и понимание ООП в программировании",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/05-js-vvedenie-v-oop/01-teoriya-mesto-i-ponimanie-oop-v-programmirovanii/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/05-js-vvedenie-v-oop/9/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Теория: Прототипы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/05-js-vvedenie-v-oop/09-teoriya-prototipy/1.png",
+        "ok": true,
+        "width": 362.765625,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/07-nepreryvnaya-integraciya-ci/1/theory",
+    "width": 390,
+    "expected": 3,
+    "missing": [],
+    "title": "GitHub Actions",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/01-github-actions/3.jpg",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/03-modul-3/07-nepreryvnaya-integraciya-ci/4/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/03-modul-3/07-nepreryvnaya-integraciya-ci/04-vvedenie/1.jpg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/01-js-asinhronnoe-programmirovanie/5/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "new Promise",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/05-new-promise/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/01-js-asinhronnoe-programmirovanie/6/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Стек вызовов (Call Stack)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/06-stek-vyzovov-call-stack/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/01-js-asinhronnoe-programmirovanie/9/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Обработка ошибок в промисах",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/09-obrabotka-oshibok-v-promisah/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/01-js-asinhronnoe-programmirovanie/11/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Асинхронный код",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/01-js-asinhronnoe-programmirovanie/11-asinhronnyy-kod/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/4/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "События документа",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/04-sobytiya-dokumenta/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/6/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "JQuery",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/06-jquery/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/8/theory",
+    "width": 390,
+    "expected": 4,
+    "missing": [],
+    "title": "AJAX",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/08-ajax/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/08-ajax/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/08-ajax/3.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/08-ajax/4.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/9/theory",
+    "width": 390,
+    "expected": 3,
+    "missing": [],
+    "title": "DOM",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/09-dom/1.png",
+        "ok": true,
+        "width": 362.765625,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/09-dom/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/09-dom/3.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/10/theory",
+    "width": 390,
+    "expected": 4,
+    "missing": [],
+    "title": "Консоль разработчика",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/3.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/10-konsol-razrabotchika/4.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/11/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Перехват и всплытие",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/11-perehvat-i-vsplytie/1.png",
+        "ok": true,
+        "width": 362.8125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/12/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Полифиллы",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/12-polifilly/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/13/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Глобальный объект Window",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/13-globalnyy-obekt-window/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/15/theory",
+    "width": 390,
+    "expected": 5,
+    "missing": [],
+    "title": "Навигация по DOM-дереву",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/3.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/4.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/15-navigaciya-po-dom-derevu/5.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/17/theory",
+    "width": 390,
+    "expected": 5,
+    "missing": [],
+    "title": "BOM-объекты",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/3.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/4.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/17-bom-obekty/5.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/03-js-dom-api/18/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Управление узлами DOM",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/03-js-dom-api/18-upravlenie-uzlami-dom/2.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/04-regulyarnye-vyrazheniya-regexp/6/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/04-regulyarnye-vyrazheniya-regexp/06-vvedenie/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/05-js-arhitektura-frontenda/6/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Состояние отображения (UI State)",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/05-js-arhitektura-frontenda/06-sostoyanie-otobrazheniya-ui-state/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/05-js-arhitektura-frontenda/9/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "MVC",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/05-js-arhitektura-frontenda/09-mvc/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/04-modul-4/05-js-arhitektura-frontenda/10/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Состояние приложения",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/04-modul-4/05-js-arhitektura-frontenda/10-sostoyanie-prilozheniya/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/01-js-react/17/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Virtual Dom",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/01-js-react/17-virtual-dom/1.svg",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/01-js-react/17-virtual-dom/2.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/01-js-react/21/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Производительность",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/01-js-react/21-proizvoditelnost/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/01-js-react/23/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Введение в хуки",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/01-js-react/23-vvedenie-v-huki/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/01-js-react/28/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Хуки useCallback и useMemo",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/01-js-react/28-huki-usecallback-i-usememo/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/02-react-redux-toolkit/2/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Redux",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/02-react-redux-toolkit/02-redux/1.png",
+        "ok": true,
+        "width": 362.765625,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/02-react-redux-toolkit/3/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Редьюсеры",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/02-react-redux-toolkit/03-redyusery/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/02-react-redux-toolkit/4/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Мидлвары",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/02-react-redux-toolkit/04-midlvary/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/02-react-redux-toolkit/5/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Подключение Redux Toolkit к React",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/02-react-redux-toolkit/05-podklyuchenie-redux-toolkit-k-react/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/05-modul-5/02-react-redux-toolkit/6/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Подробнее о слайсах",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/05-modul-5/02-react-redux-toolkit/06-podrobnee-o-slaysah/1.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/21/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Иерархия типов",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/21-ierarhiya-tipov/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/23/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Пересечение",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/23-peresechenie/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/27/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Объединения",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/27-obedineniya/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/28/theory",
+    "width": 390,
+    "expected": 2,
+    "missing": [],
+    "title": "Структурная типизация",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      },
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/28-strukturnaya-tipizaciya/2.png",
+        "ok": true,
+        "width": 362.78125,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  },
+  {
+    "url": "https://education.it-ptitsa-mentor.ru/preview/learn/06-modul-6/02-osnovy-typescript/30/theory",
+    "width": 390,
+    "expected": 1,
+    "missing": [],
+    "title": "Типы как множества",
+    "images": [
+      {
+        "src": "https://education.it-ptitsa-mentor.ru/preview/course/theory/assets/restored/06-modul-6/02-osnovy-typescript/30-tipy-kak-mnozhestva/1.png",
+        "ok": true,
+        "width": 362.796875,
+        "parent": 362.8125
+      }
+    ],
+    "overflow": 0,
+    "gate": false
+  }
+]

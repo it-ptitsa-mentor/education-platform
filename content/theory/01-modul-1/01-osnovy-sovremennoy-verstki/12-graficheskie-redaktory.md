@@ -40,26 +40,26 @@ Figma не обязательно устанавливать: достаточн
 
 1. Откройте [макет Hero Section](https://www.figma.com/file/e81LEG70FWd7OGbFwjDVM3/CSS-Flex-Hero-Challenge).
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Графические редакторы — иллюстрация 1](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/1.png)
 Окно условно делится на четыре зоны:
 
 ### Шапка
 
 Настройки файла, публичные ссылки, название. В своём макете здесь же появятся инструменты рисования.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Графические редакторы — иллюстрация 2](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/2.png)
 ### Слои
 
 Слева — все объекты: текст, фигуры, изображения (**слои**). Порядок в списке задаёт наложение на холсте: слой выше перекрывает нижний.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Графические редакторы — иллюстрация 3](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/3.png)
 Слои группируют — в Hero Section, например, группы *Left Side* и *Right Side*.
 
 ### Инспектор (Properties)
 
 Панель свойств выбранного слоя.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Графические редакторы — иллюстрация 4](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/4.png)
 Для текста «Фронтенд программист» типичные поля:
 
 - **Layout**
@@ -82,7 +82,7 @@ Figma не обязательно устанавливать: достаточн
 
 В центре — визуальный макет. Слои выбирают мышью; с зажатым `Alt` (или `option` на macOS) при наведении на соседний объект Figma показывает расстояние.
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Графические редакторы — иллюстрация 5](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/12-graficheskie-redaktory/5.png)
 Например, для кнопки «Узнать больше» видно размер **127×40** px и отступ **16** px от текста выше.
 
 ## Самостоятельная работа

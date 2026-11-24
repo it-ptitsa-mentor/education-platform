@@ -28,7 +28,7 @@ PATH="$HOME/.local/bin:$PATH"
 
 Утилиты, читающие файлы, обычно умеют читать и STDIN. `grep` на входе и выходе работает с текстом — значит, цепочку можно наращивать:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Пайплайн — иллюстрация 1](course/theory/assets/restored/02-modul-2/04-osnovy-komandnoy-stroki/11-payplayn/1.png)
 Запись `grep PATH .profile | grep local` можно переписать с перенаправлением — иногда так проще менять цепочку:
 
 ```
