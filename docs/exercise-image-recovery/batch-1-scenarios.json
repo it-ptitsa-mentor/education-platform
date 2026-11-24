@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "js-frontend-architecture-processes",
+    "step": "Начальное состояние",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-processes",
+    "step": "Редактирование name",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-processes",
+    "step": "Ввод Cat",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-processes",
+    "step": "Сохранение",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-processes",
+    "step": "Повторное редактирование",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-processes",
+    "step": "Очистка name",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-processes",
+    "step": "Независимое поле email",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-processes",
+    "step": "Сохранение email",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-rendering",
+    "step": "Все ноутбуки",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-rendering",
+    "step": "Процессор intel",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-rendering",
+    "step": "Память 16",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-rendering",
+    "step": "Частота от 4: пустая выдача",
+    "passed": true
+  },
+  {
+    "slug": "js-frontend-architecture-rendering",
+    "step": "Сброс фильтров",
+    "passed": true
+  },
+  {
+    "slug": "js-react-hooks-use-context",
+    "step": "White / Home",
+    "passed": true
+  },
+  {
+    "slug": "js-react-hooks-use-context",
+    "step": "Black",
+    "passed": true
+  },
+  {
+    "slug": "js-react-hooks-use-context",
+    "step": "Profile: тема сохраняется",
+    "passed": true
+  },
+  {
+    "slug": "js-react-hooks-use-context",
+    "step": "Blue",
+    "passed": true
+  },
+  {
+    "slug": "js-react-hooks-use-context",
+    "step": "Home: Blue",
+    "passed": true
+  }
+]

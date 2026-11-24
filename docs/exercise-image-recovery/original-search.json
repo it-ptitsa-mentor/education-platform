@@ -1,0 +1,387 @@
+[
+  {
+    "slug": "css-content-background",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/background/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Fbackground%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-box-model",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/box-model/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Fbox-model%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-columns",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/columns/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Fcolumns%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-fonts",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/fonts/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Ffonts%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-forms",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/forms/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Fforms%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-gradient",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/gradient/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Fgradient%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-list",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/list/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Flist%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-media",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/media/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Fmedia%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-overflow",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/overflow/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Foverflow%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-pseudoclasses",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/pseudoclasses/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Fpseudoclasses%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-pseudoelements",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/pseudoelements/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Fpseudoelements%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-selectors",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/selectors/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Fselectors%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-table",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/table/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Ftable%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-text",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/text/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Ftext%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-units",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/units/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Funits%2Fexercise_unit"
+  },
+  {
+    "slug": "css-content-variables",
+    "source": "https://ru.hexlet.io/courses/css-content/lessons/variables/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-content%2Flessons%2Fvariables%2Fexercise_unit"
+  },
+  {
+    "slug": "css-flex-align-items",
+    "source": "https://ru.hexlet.io/courses/css-flex/lessons/align-items/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-flex%2Flessons%2Falign-items%2Fexercise_unit"
+  },
+  {
+    "slug": "css-flex-container",
+    "source": "https://ru.hexlet.io/courses/css-flex/lessons/container/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-flex%2Flessons%2Fcontainer%2Fexercise_unit"
+  },
+  {
+    "slug": "css-flex-items-flexible",
+    "source": "https://ru.hexlet.io/courses/css-flex/lessons/items-flexible/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-flex%2Flessons%2Fitems-flexible%2Fexercise_unit"
+  },
+  {
+    "slug": "css-flex-justify-content",
+    "source": "https://ru.hexlet.io/courses/css-flex/lessons/justify-content/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-flex%2Flessons%2Fjustify-content%2Fexercise_unit"
+  },
+  {
+    "slug": "css-grid-element-position",
+    "source": "https://ru.hexlet.io/courses/css-grid/lessons/element-position/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-grid%2Flessons%2Felement-position%2Fexercise_unit"
+  },
+  {
+    "slug": "css-grid-first-grid",
+    "source": "https://ru.hexlet.io/courses/css-grid/lessons/first-grid/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-grid%2Flessons%2Ffirst-grid%2Fexercise_unit"
+  },
+  {
+    "slug": "css-grid-grid-property",
+    "source": "https://ru.hexlet.io/courses/css-grid/lessons/grid-property/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-grid%2Flessons%2Fgrid-property%2Fexercise_unit"
+  },
+  {
+    "slug": "css-positioning-absolute",
+    "source": "https://ru.hexlet.io/courses/css-positioning/lessons/absolute/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-positioning%2Flessons%2Fabsolute%2Fexercise_unit"
+  },
+  {
+    "slug": "css-positioning-float",
+    "source": "https://ru.hexlet.io/courses/css-positioning/lessons/float/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-positioning%2Flessons%2Ffloat%2Fexercise_unit"
+  },
+  {
+    "slug": "css-positioning-relative",
+    "source": "https://ru.hexlet.io/courses/css-positioning/lessons/relative/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-positioning%2Flessons%2Frelative%2Fexercise_unit"
+  },
+  {
+    "slug": "css-positioning-relative-and-absolute",
+    "source": "https://ru.hexlet.io/courses/css-positioning/lessons/relative-and-absolute/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fcss-positioning%2Flessons%2Frelative-and-absolute%2Fexercise_unit"
+  },
+  {
+    "slug": "js-dom-element-manipulating",
+    "source": "https://ru.hexlet.io/courses/js-dom/lessons/element-manipulating/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-dom%2Flessons%2Felement-manipulating%2Fexercise_unit"
+  },
+  {
+    "slug": "js-dom-events",
+    "source": "https://ru.hexlet.io/courses/js-dom/lessons/events/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-dom%2Flessons%2Fevents%2Fexercise_unit"
+  },
+  {
+    "slug": "js-dom-events-in-action",
+    "source": "https://ru.hexlet.io/courses/js-dom/lessons/events-in-action/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-dom%2Flessons%2Fevents-in-action%2Fexercise_unit"
+  },
+  {
+    "slug": "js-frontend-architecture-complex-state",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/complex-state/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-frontend-architecture%2Flessons%2Fcomplex-state%2Fexercise_unit"
+  },
+  {
+    "slug": "js-frontend-architecture-forms",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/forms/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-frontend-architecture%2Flessons%2Fforms%2Fexercise_unit"
+  },
+  {
+    "slug": "js-frontend-architecture-i18n",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/i18n/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-frontend-architecture%2Flessons%2Fi18n%2Fexercise_unit"
+  },
+  {
+    "slug": "js-frontend-architecture-initialization",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/initialization/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-frontend-architecture%2Flessons%2Finitialization%2Fexercise_unit"
+  },
+  {
+    "slug": "js-frontend-architecture-mvc",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/mvc/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-frontend-architecture%2Flessons%2Fmvc%2Fexercise_unit"
+  },
+  {
+    "slug": "js-frontend-architecture-processes",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/processes/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-frontend-architecture%2Flessons%2Fprocesses%2Fexercise_unit"
+  },
+  {
+    "slug": "js-frontend-architecture-rendering",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/rendering/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-frontend-architecture%2Flessons%2Frendering%2Fexercise_unit"
+  },
+  {
+    "slug": "js-frontend-architecture-shape-of-state",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/shape-of-state/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-frontend-architecture%2Flessons%2Fshape-of-state%2Fexercise_unit"
+  },
+  {
+    "slug": "js-frontend-architecture-state",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/state/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-frontend-architecture%2Flessons%2Fstate%2Fexercise_unit"
+  },
+  {
+    "slug": "js-frontend-architecture-ui-state",
+    "source": "https://ru.hexlet.io/courses/js-frontend-architecture/lessons/ui-state/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-frontend-architecture%2Flessons%2Fui-state%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-async",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/async/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Fasync%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-component-lifecycle",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/component-lifecycle/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Fcomponent-lifecycle%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-context",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/context/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Fcontext%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-events",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/events/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Fevents%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-forms",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/forms/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Fforms%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-fsm",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/fsm/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Ffsm%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-hooks-use-context",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/use-context/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Fuse-context%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-hooks-use-effect",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/use-effect/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Fuse-effect%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-immutability",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/immutability/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Fimmutability%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-jsx-html-difference",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/jsx-html-difference/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Fjsx-html-difference%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-nested-components",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/nested-components/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Fnested-components%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-props",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/props/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Fprops%2Fexercise_unit"
+  },
+  {
+    "slug": "js-react-virtual-dom",
+    "source": "https://ru.hexlet.io/courses/js-react/lessons/virtual-dom/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Fjs-react%2Flessons%2Fvirtual-dom%2Fexercise_unit"
+  },
+  {
+    "slug": "layout-designer-basics-css-cascade",
+    "source": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/css-cascade/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Flayout-designer-basics%2Flessons%2Fcss-cascade%2Fexercise_unit"
+  },
+  {
+    "slug": "layout-designer-basics-css-intro",
+    "source": "https://ru.hexlet.io/courses/layout-designer-basics/lessons/css-intro/exercise_unit",
+    "http": 200,
+    "component": "web/sessions/new",
+    "final_url": "https://ru.hexlet.io/session/new?back_to=https%3A%2F%2Fru.hexlet.io%2Fcourses%2Flayout-designer-basics%2Flessons%2Fcss-intro%2Fexercise_unit"
+  }
+]
