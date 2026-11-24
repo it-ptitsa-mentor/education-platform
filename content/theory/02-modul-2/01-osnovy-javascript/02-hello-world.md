@@ -12,7 +12,8 @@ reviewed_by:
 
 Начнём с классической программы «Hello, World!» — она выводит текст на экран. Для вывода в JavaScript используют команду `console.log()`:
 
-<!-- IMG (из Buildin, перезалить отдельно) -->
+![Пилот IT Птица: знакомство с JavaScript](course/theory/assets/it-ptitsa/javascript-hello-world.png)
+
 ```javascript
 console.log('Hello, World!')
 // => Hello, World!
