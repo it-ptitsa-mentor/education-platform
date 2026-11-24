@@ -5,9 +5,10 @@
     "reference": "assets/final.png",
     "source": "https://ru.hexlet.io/courses/css-content/lessons/background/exercise_unit",
     "priority": "P1",
-    "status": "blocked",
-    "notes": "Эталон задаёт карточку 300×200 и центрирование. Геометрию восстановить можно; точный фон без оригинала нельзя.",
-    "blocker": "Не найден обещанный assets/bg.jpg. Нужен оригинал либо разрешение на новый декоративный фон для карточки; геометрия 300×200 определена."
+    "status": "reconstructed",
+    "notes": "Недоступный оригинал заменён с разрешения пользователя: нейтральные локальные фото, превью по эталону; требования условия сохранены.",
+    "path": "exercise-assets/css-content-background/final.png",
+    "method": "Reference solution rendered with user-approved neutral Unsplash photographs; sources and hashes in replacement-media.json; geometry and carousel wrapping verified in final-scenarios.json."
   },
   {
     "slug": "css-content-box-model",
@@ -15,9 +16,10 @@
     "reference": "assets/final.png",
     "source": "https://ru.hexlet.io/courses/css-content/lessons/box-model/exercise_unit",
     "priority": "P1",
-    "status": "blocked",
-    "notes": "Эталон HTML+CSS описывает карточку полностью. Нужен оригинал фото либо явно согласованная замена.",
-    "blocker": "Не найден assets/profile.jpg. Нужен оригинал портрета либо выбор/разрешение на новый портрет; HTML/CSS доступны."
+    "status": "reconstructed",
+    "notes": "Недоступный оригинал заменён с разрешения пользователя: нейтральные локальные фото, превью по эталону; требования условия сохранены.",
+    "path": "exercise-assets/css-content-box-model/final.png",
+    "method": "Reference solution rendered with user-approved neutral Unsplash photographs; sources and hashes in replacement-media.json; geometry and carousel wrapping verified in final-scenarios.json."
   },
   {
     "slug": "css-content-columns",
@@ -567,9 +569,10 @@
     "reference": "assets/example.gif",
     "source": "https://ru.hexlet.io/courses/js-react/lessons/events/exercise_unit",
     "priority": "P1",
-    "status": "blocked",
-    "notes": "Эталон и entrypoint есть; нужны исходные фото или согласованные различимые замены. GIF next/prev через границу и повторяющийся путь.",
-    "blocker": "Не найдены /images/first.jpeg, second.jpeg, third.jpeg. Нужны исходные три фото либо согласование нового набора для слайдера. Эталон и сценарий переходов доступны."
+    "status": "reconstructed",
+    "notes": "Недоступный оригинал заменён с разрешения пользователя: нейтральные локальные фото, превью по эталону; требования условия сохранены.",
+    "path": "exercise-assets/js-react-events/example.gif",
+    "method": "Reference solution rendered with user-approved neutral Unsplash photographs; sources and hashes in replacement-media.json; geometry and carousel wrapping verified in final-scenarios.json."
   },
   {
     "slug": "js-react-forms",
