@@ -32,8 +32,8 @@
   {
     "slug": "css-content-fonts",
     "path": "exercises/css-content-fonts/assets/fonts/OFL.txt",
-    "bytes": 4387,
-    "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    "bytes": 4386,
+    "sha256": "6f5a41d57400577a50aae88475b11f292f3d7de78ee7d5113c69577331d8ad31"
   },
   {
     "slug": "css-content-list",
@@ -50,8 +50,8 @@
   {
     "slug": "css-content-list",
     "path": "exercises/css-content-list/assets/fonts/OFL.txt",
-    "bytes": 4519,
-    "sha256": "bc85bae0b512b799bbfb2b916e4d0a34cfd963d09778cd783e248b479e67760a"
+    "bytes": 4425,
+    "sha256": "c89ab37b152eaa07dc5e8d100d6ffb968226a0c4988bdff16a97e73174e9c77c"
   },
   {
     "slug": "css-content-media",
@@ -128,7 +128,7 @@
   {
     "slug": "css-positioning-relative",
     "path": "exercises/css-positioning-relative/assets/fonts/OFL.txt",
-    "bytes": 4492,
-    "sha256": "7ce3bf8e8087bf7495a3e1ed2044e83439db990c778d61b128fd09b7876d0420"
+    "bytes": 4398,
+    "sha256": "12eb9fc9b38560e364501a7bc86d9de56ff0d50c6b8f359f8320bbb051aa18f7"
   }
 ]
