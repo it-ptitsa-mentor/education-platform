@@ -11,20 +11,20 @@
   {
     "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model.md",
     "ordinal": 0,
-    "status": "original",
-    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/1.png",
+    "status": "redrawn-for-legibility",
+    "path": "content/theory/assets/document-flow/blocks.svg",
     "source_block": "44963e14-792e-40e4-8924-da290c1612f9",
     "source_url": "https://cdn.buildin.ai/s3/98fe3602-0367-4bf1-ac04-73d8025a8313/blocks-element.png",
-    "sha256": "2c6c063b057dd31188ee3807e53554c4909d34bd50b8da05487daa5bc51ed025"
+    "sha256": "08ac0f64e23b84f55428626764e0444eb39e4f644c4fd6095c38fddcdd0dd608"
   },
   {
     "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model.md",
     "ordinal": 1,
-    "status": "original",
-    "path": "content/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/2.png",
+    "status": "redrawn-for-legibility",
+    "path": "content/theory/assets/document-flow/inline.svg",
     "source_block": "93edd17e-5050-4774-9393-e7047c355999",
     "source_url": "https://cdn.buildin.ai/s3/fd257c41-170e-4206-944f-4f521b0aac29/inline-element.png",
-    "sha256": "98bb36feb1da7d82e1f1406247897a146e7e5ec837bf0cd81d525dce6cc3953a"
+    "sha256": "27f1a9aa249ea508c8079e9af1441927264763018c8d4ad3e7f941b9144e0009"
   },
   {
     "lesson": "content/theory/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model.md",
@@ -561,29 +561,29 @@
   {
     "lesson": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta.md",
     "ordinal": 0,
-    "status": "original",
-    "path": "content/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/1.png",
+    "status": "redrawn-for-legibility",
+    "path": "content/theory/assets/document-flow/blocks.svg",
     "source_block": "15f3eb12-d23c-424d-a9b6-2d6cd456304b",
     "source_url": "https://cdn.buildin.ai/s3/893fe437-ee57-4c89-9570-bf23861c7ba3/blocks.png",
-    "sha256": "96158cbd4a940019bc6a8cc5ae8acc62a541a83867eaf70c15d5d980ae804500"
+    "sha256": "08ac0f64e23b84f55428626764e0444eb39e4f644c4fd6095c38fddcdd0dd608"
   },
   {
     "lesson": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta.md",
     "ordinal": 1,
-    "status": "original",
-    "path": "content/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/2.png",
+    "status": "redrawn-for-legibility",
+    "path": "content/theory/assets/document-flow/inline.svg",
     "source_block": "38078c92-4123-4f7d-9c7d-0235e323d5c7",
     "source_url": "https://cdn.buildin.ai/s3/7492da32-ae34-4939-a94d-e008ef821d26/inline.png",
-    "sha256": "54410a73cfa2cf1799ac1e204e50b73791e4adc815ebc1446ad3fdabea40675d"
+    "sha256": "27f1a9aa249ea508c8079e9af1441927264763018c8d4ad3e7f941b9144e0009"
   },
   {
     "lesson": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta.md",
     "ordinal": 2,
-    "status": "original",
-    "path": "content/theory/assets/restored/01-modul-1/03-css-pozicionirovanie-elementov/02-potok-dokumenta/3.png",
+    "status": "redrawn-for-legibility",
+    "path": "content/theory/assets/document-flow/page.svg",
     "source_block": "79225735-464d-459e-8017-5376dd08c285",
     "source_url": "https://cdn.buildin.ai/s3/219a9f84-826c-472c-8fbc-d4523d62906e/site.png",
-    "sha256": "38f622e7f86f39443291dcc1803c87ce6169efb94dd2f68c442585e1fe31fe95"
+    "sha256": "6f912906d7a37814def081ce49d423899753e196509ac347855d8cdd4debe09b"
   },
   {
     "lesson": "content/theory/01-modul-1/03-css-pozicionirovanie-elementov/03-otnositelnoe-pozicionirovanie.md",

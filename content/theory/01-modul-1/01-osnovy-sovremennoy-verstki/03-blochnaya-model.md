@@ -26,7 +26,7 @@ reviewed_by:
 
 Представьте шкаф и коробки шириной во всю полку. Поставить их рядом не получится — остаётся складывать друг на друга. Блочные элементы ведут себя так же.
 
-![Блочная модель — иллюстрация 1](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/1.png)
+![Блочные элементы](course/theory/assets/document-flow/blocks.svg)
 В *HTML-разметке* это может выглядеть так:
 
 ```
@@ -101,7 +101,7 @@ reviewed_by:
 
 Если представить строчные элементы коробками, они выстроятся в ряд:
 
-![Блочная модель — иллюстрация 2](course/theory/assets/restored/01-modul-1/01-osnovy-sovremennoy-verstki/03-blochnaya-model/2.png)
+![Строчные элементы](course/theory/assets/document-flow/inline.svg)
 Ещё одна особенность: для строчных элементов в CSS **не работают** `width` и `height`. Задать их можно, но визуального эффекта не будет.
 
 Часто используемые строчные теги:

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="368" viewBox="0 0 640 368" role="img" aria-labelledby="title">
+  <title id="title">Поток на странице</title>
+  <rect width="640" height="368" rx="16" fill="#191b22"/>
+  <g font-family="system-ui, sans-serif" font-size="26" fill="#f7f1e5">
+    <text x="32" y="47" font-size="32" font-weight="650">Поток на странице</text>
+    <rect x="32" y="72" width="576" height="57" rx="8" fill="#2f3544" stroke="#a8bbd9" stroke-width="2"/>
+    <text x="320" y="109.5" text-anchor="middle">Шапка · блок</text>
+    <rect x="32" y="144" width="576" height="129" rx="8" fill="#2f3544" stroke="#a8bbd9" stroke-width="2"/>
+    <text x="52" y="181">Абзац · блок</text>
+    <rect x="52" y="196" width="205" height="53" rx="8" fill="#2f3544" stroke="#a8bbd9" stroke-width="2"/>
+    <text x="154.5" y="231.5" text-anchor="middle">Текст и</text>
+    <rect x="271" y="196" width="143" height="53" rx="8" fill="#473723" stroke="#efbd65" stroke-width="2"/>
+    <text x="342.5" y="231.5" text-anchor="middle">ссылка</text>
+    <rect x="32" y="288" width="576" height="57" rx="8" fill="#2f3544" stroke="#a8bbd9" stroke-width="2"/>
+    <text x="320" y="325.5" text-anchor="middle">Подвал · блок</text>
+  </g>
+</svg>
